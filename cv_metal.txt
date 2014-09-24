@@ -41,7 +41,7 @@ KW   KW-0170:Cobalt.
 ID   Cobalt (cobalamin axial ligand).
 AC   CVME_0003
 DE   Annotate an amino acid residue that binds a cobalt (Co(3+)) cation
-DE   that is in the center of the tetrapyrrol ring structure (corrin ring)
+DE   that is in the center of the tetrapyrrole ring structure (corrin ring)
 DE   of a cobalamin cofactor.
 KW   KW-0846:Cobalamin.
 KW   KW-0170:Cobalt.
@@ -187,14 +187,14 @@ KW   KW-0411:Iron-sulfur.
 //
 ID   Iron or nickel.
 AC   CVME_0034
-DE   Annotate an amino acid residue that binds either a iron (Fe(2+) or Fe(3+))
+DE   Annotate an amino acid residue that binds either an iron (Fe(2+) or Fe(3+))
 DE   cation or a nickel (Ni(2+)) cation. 
 KW   KW-0408:Iron.
 KW   KW-0533:Nickel.
 //
 ID   Iron or copper.
 AC   CVME_0035
-DE   Annotate an amino acid residue that binds either a iron (Fe(2+) or Fe(3+))
+DE   Annotate an amino acid residue that binds either an iron (Fe(2+) or Fe(3+))
 DE   cation or a copper (Cu(2+)) cation. 
 KW   KW-0408:Iron.
 KW   KW-0186:Copper.
@@ -230,7 +230,7 @@ KW   KW-0464:Manganese.
 ID   Molybdenum.
 AC   CVME_0032
 DE   Annotate an amino acid residue that binds a molybdenum atom.
-DE   Molbydenum is a metal with the atomic number: 42.
+DE   Molybdenum is a metal with the atomic number: 42.
 SY   Molybdenum ion; Molybdenum cation; Mo; Mo ion; Mo cation.
 DR   KW-0500:Molybdenum.
 //
