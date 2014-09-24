@@ -1,0 +1,97 @@
+----------------------------------------------------------------------------
+        neXtProt
+        SIB - Swiss Institute of Bioinformatics and GeneBio SA
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+Description: Controlled vocabulary of topological domains
+File name:   cv_topological_domain.txt
+Last update: 15-May-2011
+
+PRELIMINARY: DO NOT REDISTRIBUTE
+----------------------------------------------------------------------------
+
+ The definition of the CV is provided in the following format:
+
+ ---------  ---------------------------     ----------------------
+ Line code  Content                         Occurrence in an entry
+ ---------  ---------------------------     ----------------------
+ ID         Identifier (topo domain name)   Once; starts an entry
+ AC         Accession (CVTO_xxxx)           Once
+ DE         Definition                      Once or more
+ //         Terminator                      Once; ends an entry
+
+AN   Next free AC: CVTO_0025
+__________________________________________________________________________
+ID   Cytoplasmic.
+AC   CVTO_0001
+DE   Cytoplasmic.
+//
+ID   Extracellular.
+AC   CVTO_0002
+DE   Extracellular.
+//
+ID   Exoplasmic loop.
+AC   CVTO_0003
+DE   Exoplasmic loop.
+//
+ID   In membrane.
+AC   CVTO_0004
+DE   Extent of a region located in a membrane without crossing it.
+//
+ID   Intragranular.
+AC   CVTO_0005
+DE   Intragranular.
+//
+ID   Intravacuolar.
+AC   CVTO_0006
+DE   Intravacuolar.
+//
+ID   Lumenal.
+AC   CVTO_0007
+DE   Lumenal.
+//
+ID   Lumenal, melanosome.
+AC   CVTO_0008
+DE   Lumenal, melanosome.
+//
+ID   Lumenal, vesicle.
+AC   CVTO_0010
+DE   Lumenal, vesicle.
+//
+ID   Mitochondrial intermembrane.
+AC   CVTO_0011
+DE   Mitochondrial intermembrane.
+//
+ID   Mitochondrial matrix.
+AC   CVTO_0013
+DE   Mitochondrial matrix.
+//
+ID   Nuclear.
+AC   CVTO_0015
+DE   Nuclear.
+//
+ID   Perinuclear space.
+AC   CVTO_0016
+DE   Perinuclear space.
+//
+ID   Peroxisomal.
+AC   CVTO_0018
+DE   Peroxisomal.
+//
+ID   Peroxisomal matrix.
+AC   CVTO_0019
+DE   Peroxisomal matrix.
+//
+ID   Transmembrane region.
+AC   CVTO_0022
+DE   Extent of a membrane-spanning region.
+//
+ID   Vacuolar.
+AC   CVTO_0023
+DE   Vacuolar.
+//
+ID   Vesicular.
+AC   CVTO_0024
+DE   Vesicular.
+//

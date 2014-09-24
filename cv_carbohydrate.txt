@@ -1,0 +1,169 @@
+----------------------------------------------------------------------------
+        neXtProt
+        SIB - Swiss Institute of Bioinformatics and GeneBio SA
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+Description: Control vocabulary to describe carbohydrate modification
+File name:   cv_carbohydrate.txt
+Last update: 27-Aug-2014
+
+----------------------------------------------------------------------------
+
+ The definition of the CV is provided in the following format:
+
+  ---------  ---------------------------     ----------------------
+  Line code  Content                         Occurrence in an entry
+  ---------  ---------------------------     ----------------------
+  ID         Identifier                      Once; starts a glycolysation entry
+  AC         Accession (CVCA_xxxx)           Once
+  DE         Definition                      Once or more
+  MM         Monoisotopic mass difference    Optional, once.
+  DR         Cross-reference to PTM          Optional, once or more.
+             databases
+  //         Terminator                      Once; ends an entry
+
+AN   Next free AC:  CVCA_0034
+__________________________________________________________________________
+ID   C-linked (Man)
+AC   CVCA_0001
+DE   C-linked (Man)
+MM   162.052823
+DR   RESID; AA0217
+DR   PSI-MOD; 00222 [2'-alpha-mannosyl-L-tryptophan]
+//
+ID   N-linked (Glc) (glycation)
+AC   CVCA_0002
+DE   N-linked (Glc) (glycation)
+SY   N-linked (Glc) (glycation), alternate
+MM   162.052823
+DR   PSI-MOD; 01065 [N-glucosyl (N terminus or N epsilon of Lysine)]
+//
+ID   N-linked (GlcNAc...)
+AC   CVCA_0003
+DE   N-linked (GlcNAc...)
+SY   N-linked (GalNAc...)
+//
+ID   N-linked (GlcNAc...) (complex)
+AC   CVCA_0004
+DE   N-linked (GlcNAc...) (complex)
+//
+ID   N-linked (GlcNAc...) (high mannose)
+AC   CVCA_0005
+DE   N-linked (GlcNAc...) (high mannose)
+//
+ID   N-linked (GlcNAc...) (high mannose and complex)
+AC   CVCA_0006
+DE   N-linked (GlcNAc...) (high mannose and complex)
+//
+ID   N-linked (GlcNAc...) (high mannose or hybrid)
+AC   CVCA_0032
+DE   N-linked (GlcNAc...) (high mannose and or hybrid)
+//
+ID   N-linked (GlcNAc...) (keratan sulfate)
+AC   CVCA_0007
+DE   N-linked (GlcNAc...) (keratan sulfate)
+//
+ID   N-linked (GlcNAc...) (polylactosaminoglycan)
+AC   CVCA_0025
+DE   N-linked (GlcNAc...) (polylactosaminoglycan)
+//
+ID   O-linked (Fuc)
+AC   CVCA_0008
+DE   O-linked (Fuc)
+MM   146.057909
+DR   PSI-MOD; 00614 [fucosylated]
+//
+ID   O-linked (Fuc...)
+AC   CVCA_0009
+DE   O-linked (Fuc...)
+SY   O-linked (Fuc......)
+//
+ID   O-linked (FucGlc...)
+AC   CVCA_0030
+DE   O-linked (FucGlc...)
+//
+ID   O-linked (Gal...)
+AC   CVCA_0010
+DE   O-linked (Gal...)
+//
+ID   O-linked (GalNAc)
+AC   CVCA_0011
+DE   O-linked (GalNAc)
+//
+ID   O-linked (GalNAc...)
+AC   CVCA_0012
+DE   O-linked (GalNAc...) 
+//
+ID   O-linked (Glc...)
+AC   CVCA_0013
+DE   O-linked (Glc...) 
+//
+ID   O-linked (GlcA)
+AC   CVCA_0014
+DE   O-linked (GlcA)
+//
+ID   O-linked (GlcNAc)
+AC   CVCA_0015
+DE   O-linked (GlcNAc)
+//
+ID   O-linked (GlcNAc...)
+AC   CVCA_0024
+DE   O-linked (GlcNAc...)
+//
+ID   O-linked (GlcNAc6P)
+AC   CVCA_0031
+DE   O-linked (GlcNAc-6-phosphate)
+//
+ID   O-linked (Hex)
+AC   CVCA_0029
+DE   O-linked (Hex)
+//
+ID   O-linked (Hex...)
+AC   CVCA_0028
+DE   O-linked (Hex...)
+//
+ID   O-linked (HexNAc...)
+AC   CVCA_0016
+DE   O-linked (HexNAc...)
+//
+ID   O-linked (Man6P...)
+AC   CVCA_0027
+DE   O-linked (Man6P...)
+//
+ID   O-linked (Xyl...)
+AC   CVCA_0033
+DE   O-linked (Xyl...)
+//
+ID   O-linked (Xyl...) (chondroitin sulfate)
+AC   CVCA_0017
+DE   O-linked (Xyl...) (chondroitin sulfate)
+//
+ID   O-linked (Xyl...) (dermatan sulfate)
+AC   CVCA_0018
+DE   O-linked (Xyl...) (dermatan sulfate)
+//
+ID   O-linked (Xyl...) (glycosaminoglycan)
+AC   CVCA_0019
+DE   O-linked (Xyl...) (glycosaminoglycan)
+//
+ID   O-linked (Xyl...) (heparan sulfate)
+AC   CVCA_0020
+DE   O-linked (Xyl...) (heparan sulfate)
+//
+ID   O-linked (Xyl...) (keratan sulfate)
+AC   CVCA_0026
+DE   O-linked (Xyl...) (keratan sulfate)
+//
+ID   S-linked (Gal...)
+AC   CVCA_0021
+DE   S-linked (Gal...)
+//
+ID   S-linked (Glc...)
+AC   CVCA_0022
+DE   S-linked (Glc...)
+//
+ID   S-linked (Hex...)
+AC   CVCA_0023
+DE   S-linked (Hex...)
+//

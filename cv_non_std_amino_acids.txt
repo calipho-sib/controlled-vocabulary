@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------
+        neXtProt
+----------------------------------------------------------------------------
+
+Description: control vocabulary for non-strandard amino acids
+Name:        cv_non_std_amino_acids.txt
+Release:     00.0 of 14-Dec-2009
+
+----------------------------------------------------------------------------
+
+  This document lists the controlled vocabulary used to defined non-standard amino acids
+  in human
+
+  The definition of the CV is provided in the following format:
+
+  ---------  ---------------------------     ----------------------
+  Line code  Content                         Occurrence in an entry
+  ---------  ---------------------------     ----------------------
+  ID         Identifier                      Once; starts a keyword entry
+  AC         Accession (CVAA_xxxx)           Once
+  DE         Definition                      Once or more
+  //         Terminator                      Once; ends an entry
+
+__________________________________________________________________________
+ID   Selenocysteine
+AC   CVAA_0001
+DE   Selenocysteine
+//

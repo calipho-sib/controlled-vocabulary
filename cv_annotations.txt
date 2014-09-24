@@ -1,0 +1,456 @@
+----------------------------------------------------------------------------
+        neXtProt
+----------------------------------------------------------------------------
+
+Description: Ontology annotation (general annotation / feature)
+Name:        cv_annotations.txt
+Release:     00.0 of 23-Apr-2014
+
+----------------------------------------------------------------------------
+
+  This document lists the controlled vocabulary used to defined a bio-sequence 
+  annotation type in the neXtProt database
+
+  The definition of the CV is provided in the following format:
+
+  ---------  ---------------------------     ----------------------
+  Line code  Content                         Occurrence in an entry
+  ---------  ---------------------------     ----------------------
+  ID         Identifier (annotation type)    Once; starts a keyword entry
+  AC         Accession (CVAN_xxxx)           Once
+  DE         Definition                      Once or more
+  HI         Hierarchy                       Optional; once (only the parent)
+  //         Terminator                      Once; ends an entry
+
+The AC with a xxxx < 100 are reserved for CVs with a nextprot.cv_terms.cv_id prefixed
+Next accession CVAN_0175
+__________________________________________________________________________
+ID   annotation
+AC   CVAN_0001
+DE   Biological sequence general annotation or feature (region of interest)
+//
+ID   feature
+AC   CVAN_0002
+DE   Region of interest in a biological sequence
+HI   annotation
+//
+ID   general annotation
+AC   CVAN_0003
+DE   Biological sequence general annotation (function, subcelleluar location, etc.)
+HI   annotation
+//
+ID   ontology annotation
+AC   CVAN_0004
+DE   Biological sequence ontology annotation (go, ec, keywords, etc.)
+HI   annotation
+//
+ID   molecule processing
+AC   CVAN_0010
+DE   Cleavage processing of the sequence
+HI   feature
+//
+ID   region of interest
+AC   CVAN_0011
+DE   Region of interest in the sequence
+HI   feature
+//
+ID   site
+AC   CVAN_0012
+DE   Interesting single amino acid site on the sequence
+HI   feature
+//
+ID   amino acid modification
+AC   CVAN_0013
+DE   Modified residues
+HI   feature
+//
+ID   secondary structure
+AC   CVAN_0014
+DE   Protein secondary structure
+HI   feature
+//
+ID   variant
+AC   CVAN_0015
+DE   Protein variant site
+HI   feature
+//
+ID   misdefined region
+AC   CVAN_0016
+DE   Uncertain or uncomplete region
+HI   feature
+//
+ID   expression
+AC   CVAN_0017
+DE   Expression annotation; expression level as measured in tissues or cell lines
+HI   annotation
+//
+ID   initiator methionine
+AC   CVAN_0100
+DE   Cleavage of the initiator methionine
+HI   molecule processing
+//
+ID   signal peptide
+AC   CVAN_0101
+DE   Sequence targeting proteins to the secretory pathway or periplasmic space
+HI   molecule processing
+//
+ID   transit peptide
+AC   CVAN_0102
+DE   Extent of a transit peptide for organelle targeting
+HI   molecule processing
+//
+ID   maturation peptide
+AC   CVAN_0103
+DE   Part of a protein that is cleaved during maturation or activation
+HI   molecule processing
+//
+ID   mature protein
+AC   CVAN_0104
+DE   Extent of an active peptide or a polypetide chain in the mature protein
+HI   molecule processing
+//
+ID   transmembrane region
+AC   CVAN_0105
+DE   Extent of a membrane-spanning region
+HI   topology
+//
+ID   domain
+AC   CVAN_0106
+DE   Position and type of each modular protein domain
+HI   region of interest
+//
+ID   repeat
+AC   CVAN_0107
+DE   Positions of repeated sequence motifs or repeated domains
+HI   region of interest
+//
+ID   calcium-binding region
+AC   CVAN_0108
+DE   Position(s) of calcium binding region(s) within the protein
+HI   region of interest
+//
+ID   zinc finger region
+AC   CVAN_0109
+DE   Position(s) and type(s) of zinc fingers within the protein
+HI   region of interest
+//
+ID   DNA-binding region
+AC   CVAN_0110
+DE   Position and type of a DNA-binding domain
+HI   region of interest
+//
+ID   nucleotide phosphate-binding region
+AC   CVAN_0111
+DE   Nucleotide phosphate binding region
+HI   region of interest
+//
+ID   coiled-coil region
+AC   CVAN_0112
+DE   Positions of regions of coiled coil within the protein
+HI   region of interest
+//
+ID   short sequence motif
+AC   CVAN_0113
+DE   Short (up to 20 amino acids) sequence motif of biological interest
+HI   region of interest
+//
+ID   compositionally biased region
+AC   CVAN_0114
+DE   Region of compositional bias in the protein
+HI   region of interest
+//
+ID   topological domain
+AC   CVAN_0115
+DE   Location of non-membrane regions of membrane-spanning proteins
+HI   topology
+//
+ID   active site
+AC   CVAN_0116
+DE   Amino acid(s) directly involved in the activity of an enzyme
+HI   site
+//
+ID   metal ion-binding site
+AC   CVAN_0117
+DE   Binding site for a metal ion
+HI   site
+//
+ID   binding site
+AC   CVAN_0118
+DE   Binding site for any chemical group (co-enzyme, prosthetic group, etc.)
+HI   site
+//
+ID   non-standard amino acid
+AC   CVAN_0119
+DE   Occurence of non-standard amino acids (selenocysteine and pyrrolysine) in the protein sequence
+HI   amino acid modification
+//
+ID   lipid moiety-binding region
+AC   CVAN_0120
+DE   Lipidation: covalently attached lipid group(s)
+HI   amino acid modification
+//
+ID   glycosylation site
+AC   CVAN_0121
+DE   Covalently attached glycan group(s)
+HI   amino acid modification
+//
+ID   disulfide bond
+AC   CVAN_0122
+DE   Cysteine residues participating in disulfide bonds
+HI   amino acid modification
+//
+ID   cross-link
+AC   CVAN_0123
+DE   Residues participating in covalent linkage(s) between proteins
+HI   amino acid modification
+//
+ID   helix
+AC   CVAN_0124
+DE   Helical regions within the experimentally determined protein structure
+HI   secondary structure
+//
+ID   turn
+AC   CVAN_0125
+DE   Turns within the experimentally determined protein structure
+HI   secondary structure
+//
+ID   beta strand
+AC   CVAN_0126
+DE   Beta strand regions within the experimentally determined protein structure
+HI   secondary structure
+//
+ID   sequence variant
+AC   CVAN_0127
+DE   Natural variant of the protein
+HI   variant
+//
+ID   mutagenesis site
+AC   CVAN_0128
+DE   Site which has been experimentally altered by mutagenesis
+HI   variant
+//
+ID   sequence conflict
+AC   CVAN_0129
+DE   Sequence discrepancies of unknown origin
+HI   variant
+//
+ID   unsure residue
+AC   CVAN_0130
+DE   Regions of uncertainty in the sequence
+HI   misdefined region
+//
+ID   non-consecutive residues
+AC   CVAN_0131
+DE   Indicates that two residues in a sequence are not consecutive
+HI   misdefined region
+//
+ID   non-terminal residue
+AC   CVAN_0132
+DE   The sequence is incomplete. Indicate that a residue is not the terminal residue of the complete protein
+HI   misdefined region
+//
+ID   function
+AC   CVAN_0133
+DE   General function(s) of a protein
+HI   general annotation
+//
+ID   catalytic activity
+AC   CVAN_0134
+DE   Reaction(s) catalyzed by an enzyme
+HI   general annotation
+//
+ID   cofactor
+AC   CVAN_0135
+DE   Non-protein substance required for enzyme activity
+HI   general annotation
+//
+ID   enzyme regulation
+AC   CVAN_0136
+DE   Enzyme regulatory mechanism
+HI   general annotation
+//
+ID   subunit
+AC   CVAN_0138
+DE   Subunit structure: interaction with other protein(s)
+HI   general annotation
+//
+ID   pathway
+AC   CVAN_0139
+DE   Associated metabolic pathways
+HI   general annotation
+//
+ID   subcellular location
+AC   CVAN_0140
+DE   Subcellular location of the mature protein
+HI   general annotation
+//
+ID   tissue specificity
+AC   CVAN_0141
+DE   Expression of the gene product in different tissues
+HI   general annotation
+//
+ID   developmental stage
+AC   CVAN_0142
+DE   Expression of the gene product according to the cell stage and/or tissue or organism development
+HI   general annotation
+//
+ID   induction
+AC   CVAN_0143
+DE   Effects of environmental factors on gene expression
+HI   general annotation
+//
+ID   domain information
+AC   CVAN_0144
+DE   Relevant information on protein domain(s)
+HI   general annotation
+//
+ID   PTM
+AC   CVAN_0145
+DE   Post-translational modifications
+HI   general annotation
+//
+ID   polymorphism
+AC   CVAN_0146
+DE   Description of polymorphism(s)
+HI   general annotation
+//
+ID   disease
+AC   CVAN_0147
+DE   Involvement in disease: disease(s) associated with protein defect(s)
+HI   general annotation
+//
+ID   disruption phenotype
+AC   CVAN_0148
+DE   Description of the effects caused by the disruption of a protein-encoding gene
+HI   general annotation
+//
+ID   allergen
+AC   CVAN_0149
+DE   Allergenic properties: information relevant to allergenic proteins
+HI   general annotation
+//
+ID   toxic dose
+AC   CVAN_0150
+DE   Lethal, paralytic, effect dose or lethal concentration of a toxin
+HI   general annotation
+//
+ID   biotechnology
+AC   CVAN_0151
+DE   Biotechnological use: use in a biotechnological process
+HI   general annotation
+//
+ID   pharmaceutical
+AC   CVAN_0152
+DE   Pharmaceutical use: use of as a pharmaceutical drug
+HI   general annotation
+//
+ID   miscellaneous
+AC   CVAN_0153
+DE   Any relevant information that doesn't fit in any other defined sections
+HI   general annotation
+//
+ID   similarity
+AC   CVAN_0154
+DE   Sequence similarities: description of the sequence similaritie(s) with other proteins and family attribution
+HI   general annotation
+//
+ID   caution
+AC   CVAN_0155
+DE   Warning about possible errors and/or grounds for confusion
+HI   general annotation
+//
+ID   expression info
+AC   CVAN_0156
+DE   Expression annotation to summarize expression levels measured in a series of experiments
+HI   general annotation
+//
+ID   sequence caution
+AC   CVAN_0157
+DE   Errors concerning the protein sequence
+HI   caution
+//
+ID   alignment conflict
+AC   CVAN_0158
+DE   differences between the sequence in swissprot and the genome
+HI   variant
+//
+ID   coding sequence
+AC   CVAN_0159
+DE   Coding sequence on dna sequence
+HI   region of interest
+//
+ID   family name
+AC   CVAN_0160
+DE   Family classification
+HI   similarity
+//
+ID   domain name
+AC   CVAN_0161
+DE   Domain classification
+HI   similarity
+//
+ID   go molecular function
+AC   CVAN_0162
+DE   Ontology annotation by go molecular function
+HI   ontology annotation
+//
+ID   go biological process
+AC   CVAN_0163
+DE   Ontology annotation by go biological process
+HI   ontology annotation
+//
+ID   go cellular component
+AC   CVAN_0164
+DE   Ontology annotation by go cellular component
+HI   ontology annotation
+//
+ID   uniprot keyword
+AC   CVAN_0165
+DE   Ontology annotation by uniprot keyword
+HI   ontology annotation
+//
+ID   enzyme classification
+AC   CVAN_0166
+DE   Ontology annotation by enzyme classification
+HI   ontology annotation
+//
+ID   topology
+AC   CVAN_0167
+DE   Describes the topology of regions for transmembrane proteins that span membrane compartments.
+HI   region of interest
+//
+ID   cleavage site
+AC   CVAN_0168
+DE   Cleavage site on the sequence.
+HI   site
+//
+ID   interacting region
+AC   CVAN_0169
+DE   Region interacting with another macromolecule.
+HI   region of interest
+//
+ID   subcellular location info
+AC   CVAN_0170
+DE   Subcellular location information of the mature protein
+HI   general annotation
+//
+ID   self-association
+AC   CVAN_0171
+DE   Subunit structure: protein self-association
+HI   subunit
+//
+ID   binary interaction
+AC   CVAN_0172
+DE   Subunit structure: binary interaction between proteins
+HI   subunit
+//
+ID   complex
+AC   CVAN_0173
+DE   Subunit structure: proteins complex
+HI   subunit
+//
+ID   3D structure
+AC   CVAN_0174
+DE   Protein 3D structure
+HI   region of interest
+//

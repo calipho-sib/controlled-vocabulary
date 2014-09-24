@@ -1,0 +1,31 @@
+----------------------------------------------------------------------------
+        neXtProt
+----------------------------------------------------------------------------
+
+Description: control vocabulary for organelle
+Name:        cv_organelles.txt
+Release:     00.0 of 17-Nov-2009
+
+----------------------------------------------------------------------------
+
+  This document lists the controlled vocabulary used to defined organelles in human
+
+  The definition of the CV is provided in the following format:
+
+  ---------  ---------------------------     ----------------------
+  Line code  Content                         Occurrence in an entry
+  ---------  ---------------------------     ----------------------
+  ID         Identifier                      Once; starts a keyword entry
+  AC         Accession (CVOR_xxxx)           Once
+  DE         Definition                      Once or more
+  //         Terminator                      Once; ends an entry
+
+__________________________________________________________________________
+ID   Mitochondrion
+AC   CVOR_0001
+DE   Mitochondrion
+//
+ID   Peroxisome
+AC   CVOR_0002
+DE   Peroxisome
+//

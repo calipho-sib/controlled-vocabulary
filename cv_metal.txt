@@ -1,0 +1,278 @@
+----------------------------------------------------------------------------
+        neXtProt
+        SIB - Swiss Institute of Bioinformatics and GeneBio SA
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+Description: Controlled vocabulary of metal-binding sites
+File name:   cv_metal.txt
+Last update: 27-Aug-2014
+
+----------------------------------------------------------------------------
+
+ The definition of the CV is provided in the following format:
+
+ ---------  ---------------------------     ----------------------
+ Line code  Content                         Occurrence in an entry
+ ---------  ---------------------------     ----------------------
+ ID         Identifier (metal name)         Once; starts an entry
+ AC         Accession (CVME_xxxx)           Once
+ DE         Definition                      Once or more
+ SY         Synonyms                        Optional; once or more
+ KW         X-ref to Swiss-Prot keyword     Optional; once or more
+ //         Terminator                      Once; ends an entry
+
+AN   Next free AC: CVME_0037
+__________________________________________________________________________
+ID   Calcium.
+AC   CVME_0001
+DE   Annotate an amino acid residue that binds a calcium (Ca(2+)) cation.
+DE   Calcium is an alkaline earth metal with the atomic number: 20.
+SY   Ca; Calcium ion; Ca ion.
+KW   KW-0106:Calcium.
+//
+ID   Cobalt.
+AC   CVME_0002
+DE   Annotate an amino acid residue that binds a cobalt (Co(2+) or Co(3+))
+DE   cation. Cobalt is a metal with the atomic number: 27.
+SY   Co; Cobalt ion; Co ion; Cobalt cation; Co cation.
+KW   KW-0170:Cobalt.
+//
+ID   Cobalt (cobalamin axial ligand).
+AC   CVME_0003
+DE   Annotate an amino acid residue that binds a coblat (Co(3+)) cation
+DE   that is in the center of the tetrapyrrol ring structure (corrin ring)
+DE   of a cobalamin cofactor.
+KW   KW-0846:Cobalamin.
+KW   KW-0170:Cobalt.
+//
+ID   Copper.
+AC   CVME_0004
+DE   Annotate an amino acid residue that binds a copper (Cu(2+) or Cu(1+))
+DE   cation. Copper is a metal with the atomic number: 29.
+SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation.
+KW   KW-0186:Copper.
+//
+ID   Copper or nickel.
+AC   CVME_0005
+DE   Annotate an amino acid residue that binds either a copper (Cu(2+)) or
+DE   a nickel (Ni(2+)) cation.
+KW   KW-0186:Copper.
+KW   KW-0533:Nickel.
+//
+ID   Copper or zinc.
+AC   CVME_0006
+DE   Annotate an amino acid residue that binds either a copper (Cu(2+)) or
+DE   a zinc (Zn(2+)) cation.
+SY   Zinc or copper.
+KW   KW-0186:Copper.
+KW   KW-0862:Zinc.
+//
+ID   Divalent metal cation.
+AC   CVME_0007
+DE   Annotate an amino acid residue that binds an unspecified divalent
+DE   metal cation.
+//
+ID   Iron.
+AC   CVME_0008
+DE   Annotate an amino acid residue that binds an iron (Fe(2+) or Fe(3+))
+DE   cation. Iron is a metal with the atomic number: 26.
+SY   Iron ion; Iron cation; Fe; Fe ion; Fe cation.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme 1 axial ligand).
+AC   CVME_0009
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme 2 axial ligand).
+AC   CVME_0010
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme A axial ligand).
+AC   CVME_0011
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme A3 axial ligand).
+AC   CVME_0012
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme axial ligand).
+AC   CVME_0013
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme distal ligand).
+AC   CVME_0014
+DE   Annotate an amino acid residue that binds distally an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme proximal ligand).
+AC   CVME_0015
+DE   Annotate an amino acid residue that binds proximally an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme B axial ligand).
+AC   CVME_0036
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme b562 axial ligand).
+AC   CVME_0016
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme b566 axial ligand).
+AC   CVME_0017
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron-sulfur (2Fe-2S).
+AC   CVME_0018
+DE   Annotate an amino acid residue that binds an iron atom in a 2Fe-2S
+DE   iron-sulfur complex which consist of two iron ions bridged by two
+DE   sulfide ions and coordinated by four ligands (Cys or His).
+KW   KW-0411:Iron-sulfur.
+//
+ID   Iron-sulfur (3Fe-4S).
+AC   CVME_0031
+DE   Annotate an amino acid residue that binds an iron atom in a 3Fe-4S
+DE   iron-sulfur complex which consist of three iron ions bridged by four
+DE   sulfide ions and coordinated by three ligands (Cys or His).
+KW   KW-0411:Iron-sulfur.
+//
+ID   Iron-sulfur (4Fe-4S).
+AC   CVME_0019
+DE   Annotate an amino acid residue that binds an iron atom in a 4Fe-4S
+DE   iron-sulfur complex which consist of four iron ions bridged by four
+DE   sulfide ions and coordinated by four ligands (Cys or His).
+KW   KW-0411:Iron-sulfur.
+//
+ID   Iron-sulfur (4Fe-4S-S-AdoMet).
+AC   CVME_0020
+DE   Annotate an amino acid residue that binds an iron atom in a 4Fe-4S
+DE   iron-sulfur complex which consist of four iron ions bridged by four
+DE   sulfide ions and coordinated by four ligands (Cys or His).
+KW   KW-0411:Iron-sulfur.
+//
+ID   Iron-sulfur (4Fe-4S-substrate).
+AC   CVME_0033
+DE   Annotate an amino acid residue that binds an iron atom in a 4Fe-4S
+DE   iron-sulfur complex which consist of four iron ions bridged by four
+DE   sulfide ions and coordinated by four ligands (Cys or His).
+KW   KW-0411:Iron-sulfur.
+//
+ID   Iron or nickel.
+AC   CVME_0034
+DE   Annotate an amino acid residue that binds either a iron (Fe(2+) or Fe(3+))
+DE   cation or a nickel (Ni(2+)) cation. 
+KW   KW-0408:Iron.
+KW   KW-0533:Nickel.
+//
+ID   Iron or copper.
+AC   CVME_0035
+DE   Annotate an amino acid residue that binds either a iron (Fe(2+) or Fe(3+))
+DE   cation or a copper (Cu(2+)) cation. 
+KW   KW-0408:Iron.
+KW   KW-0186:Copper.
+//
+ID   Magnesium.
+AC   CVME_0021
+DE   Annotate an amino acid residue that binds a magnesium (Mg(+2)) cation.
+DE   Magnesium is an alkaline earth metal with the atomic number: 12.
+SY   Magnesium ion; Magnesium cation; Mg; Mg ion; Mg cation.
+KW   KW-0460:Magnesium.
+//
+ID   Magnesium or calcium.
+AC   CVME_0022
+DE   Annotate an amino acid residue that binds either a magnesium (Mg(+2))
+DE   or a calcium (Ca(+2)) cation.
+KW   KW-0106:Calcium.
+KW   KW-0460:Magnesium.
+//
+ID   Magnesium or manganese.
+AC   CVME_0023
+DE   Annotate an amino acid residue that binds either a magnesium (Mg(+2))
+DE   or a manganese (Mn(+2)) cation.
+KW   KW-0460:Magnesium.
+KW   KW-0464:Manganese.
+//
+ID   Manganese.
+AC   CVME_0030
+DE   Annotate an amino acid residue that binds a manganese (Mn(+2)) cation.
+DE   Manganese is a metal with the atomic number: 25.
+SY   Manganese ion; Manganese cation; Mn; Mn ion; Mn cation.
+KW   KW-0464:Manganese.
+//
+ID   Molybdenum.
+AC   CVME_0032
+DE   Annotate an amino acid residue that binds a molybdenum atom.
+DE   Molbydenum is a metal with the atomic number: 42.
+SY   Molybdenum ion; Molybdenum cation; Mo; Mo ion; Mo cation.
+DR   KW-0500:Molybdenum.
+//
+ID   Molybdenum-pterin.
+AC   CVME_0024
+DE   Annotate an amino acid residue that binds a molybdenum atom coordinated
+DE   to the sulfur atoms of a pterin derivative (molybdopterin [MPT]).
+SY   Molybdopterin.
+DR   KW-0500:Molybdenum.
+//
+ID   Nickel.
+AC   CVME_0025
+DE   Annotate an amino acid residue that binds a nickel (Ni(2+)) cation.
+DE   Nickel is a metal with the atomic number: 28.
+SY   Nickel ion; Nickel cation; Ni; Ni ion; Ni cation.
+KW   KW-0533:Nickel.
+//
+ID   Potassium.
+AC   CVME_0026
+DE   Annotate an amino acid residue that binds a potassium (K(+)) cation.
+DE   Potassium is an alkaline earth metal with the atomic number: 19.
+SY   Potassium ion; Potassium cation; K; K ion; K cation.
+KW   KW-0630:Potassium.
+//
+ID   Sodium.
+AC   CVME_0027
+DE   Annotate an amino acid residue that binds a sodium (Na(+)) cation.
+DE   Sodium is an alkaline earth metal with the atomic number: 11.
+SY   Sodium ion; Sodium cation; Na; Na ion; Na cation.
+KW   KW-0915:Sodium.
+//
+ID   Zinc.
+AC   CVME_0028
+DE   Annotate an amino acid residue that binds a zinc (Zn(2+)) cation.
+DE   Zinc is a metal with the atomic number: 30.
+SY   Zinc ion; Zinc cation; Zn; Zn ion; Zn cation.
+KW   KW-0862:Zinc.
+//
+ID   Zinc or iron.
+AC   CVME_0029
+DE   Annotate an amino acid residue that binds either a zinc (Zn(2+)) or an
+DE   iron (Fe(2+)) cation.
+KW   KW-0408:Iron.
+KW   KW-0862:Zinc.
+//

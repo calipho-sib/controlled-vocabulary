@@ -1,0 +1,37 @@
+----------------------------------------------------------------------------
+        neXtProt
+----------------------------------------------------------------------------
+
+Description: control vocabulary for region structure
+Name:        cv_region_structures.txt
+Release:     00.0 of 14-Jun-2010
+
+----------------------------------------------------------------------------
+
+  This document lists the controlled vocabularies to describe the protein region structure
+
+  The definition of the CV is provided in the following format:
+
+  ---------  ---------------------------     ----------------------
+  Line code  Content                         Occurrence in an entry
+  ---------  ---------------------------     ----------------------
+  ID         Identifier                      Once; starts a keyword entry
+  AC         Accession (CVTO_xxxx)           Once
+  DE         Definition                      Once or more
+  //         Terminator                      Once; ends an entry
+
+next id:  CVRS_0004
+
+__________________________________________________________________________
+ID   Beta stranded
+AC   CVRS_0001
+DE   Beta stranded region
+//
+ID   Discontinuously helical
+AC   CVRS_0002
+DE   Discontinuously helical region
+//
+ID   Helical
+AC   CVRS_0003
+DE   Helical region
+//

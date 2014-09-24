@@ -1,0 +1,5239 @@
+----------------------------------------------------------------------------
+        neXtProt
+        SIB - Swiss Institute of Bioinformatics and GeneBio SA
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+Description: Controlled vocabulary of domains
+File name:   cv_domain.txt
+Last update: 19-Sep-2014
+
+----------------------------------------------------------------------------
+
+ The definition of the CV is provided in the following format:
+
+ ---------  ---------------------------     ----------------------
+ Line code  Content                         Occurrence in an entry
+ ---------  ---------------------------     ----------------------
+ ID         Identifier (domain name)        Once; starts an entry
+ AC         Accession (DO-xxxxx)            Once
+ SY         Synonyms                        Optional; once or more
+ FT         Feature key                     Once: DOMAIN|REPEAT|DNA_BIND|ZN_FING
+ TG         Trigger                         Once: PSxxxxx|PFxxxxx|SMxxxxx|Rep|None
+ DO         Documentation                   Optional; once
+ //         Terminator                      Once; ends an entry
+
+AN   Next free AC: DO-00853
+__________________________________________________________________________
+ID   2Fe-2S ferredoxin-type.
+AC   DO-00001
+FT   DOMAIN.
+TG   PS51085; 2FE2S_FER_2;
+DO   PDOC00175;
+//
+ID   3'-5' exonuclease.
+AC   DO-00002
+FT   DOMAIN.
+TG   PF01612; 3_5_exonuc;
+DO   IPR002562;
+//
+ID   4Fe-4S ferredoxin-type.
+AC   DO-00003
+FT   DOMAIN.
+TG   PS51379; 4FE4S_FER_2;
+DO   PDOC00176;
+//
+ID   4Fe-4S Mo/W bis-MGD-type.
+AC   DO-00817
+FT   DOMAIN.
+TG   PS51669; 4FE4S_MOW_BIS_MGD;
+DO   PDOC00392;
+//
+ID   A to I editase.
+AC   DO-00004
+SY   adenosine to inosine editase.
+FT   DOMAIN.
+TG   PS50141; A_DEAMIN_EDITASE;
+DO   PDOC50141;
+//
+ID   A.T hook.
+AC   DO-00005
+FT   DNA_BIND.
+TG   PF02178; AT_hook;
+DO   IPR017956;
+//
+ID   A20-type.
+AC   DO-00006
+FT   ZN_FING.
+TG   PS51036; ZF_A20;
+DO   PDOC51036;
+//
+ID   ABC transmembrane type-1.
+AC   DO-00007
+FT   DOMAIN.
+TG   PS50928; ABC_TM1; PS50929 ABC_TM1F;
+DO   PDOC00364;
+//
+ID   ABC transmembrane type-2.
+AC   DO-00008
+FT   DOMAIN.
+TG   PS51012; ABC_TM2;
+DO   PDOC00692;
+//
+ID   ABC transporter.
+AC   DO-00009
+FT   DOMAIN.
+TG   PS50893; ABC_TRANSPORTER_2;
+DO   PDOC00185;
+//
+ID   ABM.
+AC   DO-00010
+FT   DOMAIN.
+TG   PF03992; ABM;
+DO   IPR007138;
+//
+ID   ACB.
+AC   DO-00011
+SY   acyl-CoA-binding.
+FT   DOMAIN.
+TG   PS51228; ACB_2;
+DO   PDOC00686;
+//
+ID   ACT.
+AC   DO-00012
+FT   DOMAIN.
+TG   PF01842; ACT;
+DO   IPR002912;
+//
+ID   actin-binding.
+AC   DO-00013
+FT   DOMAIN.
+TG   PS50021; CH;
+DO   PDOC50021;
+//
+ID   acyl carrier.
+AC   DO-00014
+FT   DOMAIN.
+TG   PS50075; ACP_DOMAIN;
+DO   PDOC00012;
+//
+ID   acyl coenzyme A hydrolase.
+AC   DO-00015
+FT   DOMAIN.
+TG   None;
+//
+ID   acylphosphatase-like.
+AC   DO-00016
+FT   DOMAIN.
+TG   PS51160; ACYLPHOSPHATASE_3;
+DO   PDOC00136;
+//
+ID   ADD.
+AC   DO-00778
+FT   DOMAIN.
+TG   PS51533; ADD;
+DO   PDOC51533;
+//
+ID   ADF-H.
+AC   DO-00018
+FT   DOMAIN.
+TG   PS51263; ADF_H;
+DO   PDOC00297;
+//
+ID   AdoMet activation.
+AC   DO-00019
+FT   DOMAIN.
+TG   PS50974; ADOMET_ACTIVATION;
+DO   PDOC50974;
+//
+ID   ADPK.
+AC   DO-00020
+SY   ADP-dependent kinase.
+FT   DOMAIN.
+TG   PS51255; ADPK;
+DO   PDOC51255;
+//
+ID   Adrift-type SAM-dependent 2'-O-MTase.
+AC   DO-00823
+FT   DOMAIN.
+TG   PS51614; SAM_MT_ADRIFT;
+DO   PDOC51555;
+//
+ID   AFP-like.
+AC   DO-00021
+FT   DOMAIN.
+TG   PS50844; AFP_LIKE;
+DO   PDOC50844;
+//
+ID   AGC-kinase C-terminal.
+AC   DO-00022
+FT   DOMAIN.
+TG   PS51285; AGC_KINASE_CTER;
+DO   PDOC51285;
+//
+ID   Agenet-like.
+AC   DO-00799
+FT   DOMAIN.
+TG   PS51641; AGENET_LIKE;
+DO   PDOC51641;
+//
+ID   agouti.
+AC   DO-00023
+FT   DOMAIN.
+TG   PS51150; AGOUTI_2;
+DO   PDOC60024;
+//
+ID   AH.
+AC   DO-00024
+SY   arfaptin homology.
+FT   DOMAIN.
+TG   PS50870; AH;
+DO   PDOC50870;
+//
+ID   AIG1-type G.
+AC   DO-00843
+SY   AIG1-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51720; G_AIG1;
+DO   PDOC51720;
+//
+ID   AKAP.
+AC   DO-00025
+FT   DOMAIN.
+TG   PF03832; PkinA_anch;
+DO   IPR001573;
+//
+ID   albumin.
+AC   DO-00026
+FT   DOMAIN.
+TG   PS51438; ALBUMIN_2;
+DO   PDOC00186;
+//
+ID   alpha-carbonic anhydrase.
+AC   DO-00027
+FT   DOMAIN.
+TG   PS51144; ALPHA_CA_2;
+DO   PDOC00146;
+//
+ID   alpha-type protein kinase.
+AC   DO-00028
+FT   DOMAIN.
+TG   PS51158; ALPHA_KINASE;
+DO   PDOC51158;
+//
+ID   AMMECR1.
+AC   DO-00029
+FT   DOMAIN.
+TG   PS51112; AMMECR1;
+DO   PDOC51112;
+//
+ID   AMOP.
+AC   DO-00030
+FT   DOMAIN.
+TG   PS50856; AMOP;
+DO   PDOC50856;
+//
+ID   AN1-type.
+AC   DO-00031
+FT   ZN_FING.
+TG   PS51039; ZF_AN1;
+DO   PDOC51039;
+//
+ID   anaphylatoxin-like.
+AC   DO-00032
+FT   DOMAIN.
+TG   PS01178; ANAPHYLATOXIN_2;
+DO   PDOC00906;
+//
+ID   ANK.
+AC   DO-00033
+SY   ankyrin.
+FT   REPEAT.
+TG   Rep;
+DO   PDOC50088;
+//
+ID   annexin.
+AC   DO-00034
+FT   REPEAT.
+TG   PF00191; Annexin;
+DO   PDOC00195;
+//
+ID   antistasin-like.
+AC   DO-00035
+FT   DOMAIN.
+TG   PS51252; ANTISTASIN;
+DO   PDOC51252;
+//
+ID   apaG.
+AC   DO-00036
+FT   DOMAIN.
+TG   PS51087; APAG;
+DO   PDOC51087;
+//
+ID   apple.
+AC   DO-00037
+FT   DOMAIN.
+TG   PS50948; PAN;
+DO   PDOC00376;
+//
+ID   Arf-GAP.
+AC   DO-00038
+FT   DOMAIN.
+TG   PS50115; ARFGAP;
+DO   PDOC50115;
+//
+ID   ARID.
+AC   DO-00039
+SY   AT-rich interaction.
+FT   DOMAIN.
+TG   PS51011; ARID;
+DO   PDOC51011;
+//
+ID   ARM.
+AC   DO-00040
+SY   armadillo.
+SY   plakoglobin.
+FT   REPEAT.
+TG   Rep;
+DO   PDOC50176;
+//
+ID   ASD1.
+AC   DO-00041
+FT   DOMAIN.
+TG   PS51306; ASD1;
+DO   PDOC51306;
+//
+ID   ASD2.
+AC   DO-00042
+FT   DOMAIN.
+TG   PS51307; ASD2;
+DO   PDOC51306;
+//
+ID   asparagine synthetase.
+AC   DO-00043
+FT   DOMAIN.
+TG   PF00733; Asn_synthase;
+DO   IPR001962;
+//
+ID   ATP-cone.
+AC   DO-00044
+FT   DOMAIN.
+TG   PS51161; ATP_CONE;
+DO   PDOC51161;
+//
+ID   ATP-grasp.
+AC   DO-00045
+FT   DOMAIN.
+TG   PS50975; ATP_GRASP;
+DO   PDOC50975;
+//
+ID   AXH.
+AC   DO-00046
+FT   DOMAIN.
+TG   PS51148; AXH;
+DO   PDOC51148;
+//
+ID   AWS.
+AC   DO-00047
+SY   associated with SET.
+FT   DOMAIN.
+TG   PS51215; AWS;
+DO   PDOC51215;
+//
+ID   B box-type.
+AC   DO-00048
+FT   ZN_FING.
+TG   PS50119; ZF_BBOX;
+DO   PDOC50119;
+//
+ID   B12-binding.
+AC   DO-00049
+FT   DOMAIN.
+TG   PS51332; B12_BINDING;
+DO   PDOC51332;
+//
+ID   B12-binding N-terminal.
+AC   DO-00050
+FT   DOMAIN.
+TG   PS51337; B12_BINDING_NTER;
+DO   PDOC51332;
+//
+ID   B30.2/SPRY.
+AC   DO-00051
+FT   DOMAIN.
+TG   PS50188; B302_SPRY;
+DO   PDOC50188;
+//
+ID   B5.
+AC   DO-00753
+FT   DOMAIN.
+TG   PS51483; B5;
+DO   PDOC51483;
+//
+ID   B9.
+AC   DO-00052
+FT   DOMAIN.
+TG   PS51381; B9;
+DO   PDOC51381;
+//
+ID   BACK.
+AC   DO-00053
+SY   BTB/Kelch associated.
+FT   DOMAIN.
+TG   PF07707; BACK;
+DO   IPR011705;
+//
+ID   BAG.
+AC   DO-00054
+SY   Bcl2-associated athanogene.
+FT   DOMAIN.
+TG   PS51035; BAG;
+DO   PDOC51035;
+//
+ID   BAH.
+AC   DO-00055
+SY   bromo-adjacent homology.
+FT   DOMAIN.
+TG   PS51038; BAH;
+DO   PDOC51038;
+//
+ID   BAR.
+AC   DO-00056
+SY   Bin-Amphiphysin-Rvs.
+FT   DOMAIN.
+TG   PS51021; BAR;
+DO   PDOC51021;
+//
+ID   basic helix-loop-helix.
+AC   DO-00057
+SY   bHLH.
+FT   DOMAIN.
+TG   PS50888; HLH;
+DO   PDOC00038;
+//
+ID   BCNT-C.
+AC   DO-00058
+SY   bucentaur C-terminal.
+FT   DOMAIN.
+TG   PS51279; BCNT_C;
+DO   PDOC51279;
+//
+ID   BEACH.
+AC   DO-00059
+FT   DOMAIN.
+TG   PS50197; BEACH;
+DO   PDOC50197;
+//
+ID   BED-type.
+AC   DO-00060
+FT   ZN_FING.
+TG   PS50808; ZF_BED;
+DO   PDOC50808;
+//
+ID   BEN.
+AC   DO-00061
+FT   DOMAIN.
+TG   PS51457; BEN;
+DO   PDOC51457;
+//
+ID   beta/gamma crystallin 'Greek key'.
+AC   DO-00062
+FT   DOMAIN.
+TG   PS50915; CRYSTALLIN_BETA_GAMMA;
+DO   PDOC00197;
+//
+ID   Bin3-type SAM.
+AC   DO-00771
+FT   DOMAIN.
+TG   PS51515; BIN3_SAM;
+DO   PDOC51515;
+//
+ID   biotin carboxylation.
+AC   DO-00064
+FT   DOMAIN.
+TG   PS50979; BC;
+DO   PDOC50979;
+//
+ID   biotinyl-binding.
+AC   DO-00065
+FT   DOMAIN.
+TG   PS50968; BIOTINYL_LIPOYL;
+DO   PDOC50968;
+//
+ID   BIR.
+AC   DO-00066
+FT   REPEAT.
+TG   PS50143; BIR_REPEAT_2;
+DO   PDOC00987;
+//
+ID   Bms1-type G.
+AC   DO-00844
+SY   Bms1-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51714; G_BMS1;
+DO   PDOC51714;
+//
+ID   BNR.
+AC   DO-00067
+FT   REPEAT.
+TG   PF02012; BNR;
+DO   IPR002860;
+//
+ID   BPTI/Kunitz inhibitor.
+AC   DO-00068
+FT   DOMAIN.
+TG   PS50279; BPTI_KUNITZ_2;
+DO   PDOC00252;
+//
+ID   BRCA2.
+AC   DO-00069
+FT   REPEAT.
+TG   PS50138; BRCA2_REPEAT;
+DO   PDOC50138;
+//
+ID   BRCT.
+AC   DO-00070
+SY   BRCA1 C-terminus.
+FT   DOMAIN.
+TG   PS50172; BRCT;
+DO   PDOC50172;
+//
+ID   BRICHOS.
+AC   DO-00071
+FT   DOMAIN.
+TG   PS50869; BRICHOS;
+DO   PDOC50869;
+//
+ID   Brix.
+AC   DO-00072
+SY   biogenesis of ribosomes in Xenopus.
+FT   DOMAIN.
+TG   PS50833; BRIX;
+DO   PDOC50833;
+//
+ID   BRO1.
+AC   DO-00073
+FT   DOMAIN.
+TG   PS51180; BRO1;
+DO   PDOC51180;
+//
+ID   bromo.
+AC   DO-00074
+FT   DOMAIN.
+TG   PS50014; BROMODOMAIN_2;
+DO   PDOC00550;
+//
+ID   BSD.
+AC   DO-00075
+FT   DOMAIN.
+TG   PS50858; BSD;
+DO   PDOC50858;
+//
+ID   BTB.
+AC   DO-00076
+SY   POZ.
+FT   DOMAIN.
+TG   PS50097; BTB;
+DO   PDOC50097;
+//
+ID   Btk-type.
+AC   DO-00077
+FT   ZN_FING.
+TG   PS51113; ZF_BTK;
+DO   PDOC51113;
+//
+ID   BUB1 N-terminal.
+AC   DO-00758
+FT   DOMAIN.
+TG   PS51489; BUB1_N;
+DO   PDOC51489;
+//
+ID   bZIP.
+AC   DO-00078
+FT   DOMAIN.
+TG   PS50217; BZIP;
+DO   PDOC00036;
+//
+ID   C-CAP/cofactor C-like.
+AC   DO-00079
+FT   DOMAIN.
+TG   PS51329; C_CAP_COFACTOR_C;
+DO   PDOC51329;
+//
+ID   C-type lectin.
+AC   DO-00080
+FT   DOMAIN.
+TG   PS50041; C_TYPE_LECTIN_2;
+DO   PDOC00537;
+//
+ID   C1q.
+AC   DO-00081
+FT   DOMAIN.
+TG   PS50871; C1Q;
+DO   PDOC00857;
+//
+ID   C2.
+AC   DO-00082
+FT   DOMAIN.
+TG   PS50004; C2_DOMAIN_2;
+DO   PDOC00380;
+//
+ID   C2 PI3K-type.
+AC   DO-00787
+SY   phosphatidylinositol 3-kinase C2.
+FT   DOMAIN.
+TG   PS51547; PI3K_C2;
+DO   PDOC51547;
+//
+ID   C2 tensin-type.
+AC   DO-00083
+FT   DOMAIN.
+TG   PS51182; C2_TENSIN;
+DO   PDOC51181;
+//
+ID   C2HC-type.
+AC   DO-00084
+FT   ZN_FING.
+TG   None;
+//
+ID   C2H2-type.
+AC   DO-00085
+FT   ZN_FING.
+TG   PS50157; ZINC_FINGER_C2H2_2;
+DO   PDOC00028;
+//
+ID   C3H1-type.
+AC   DO-00086
+FT   ZN_FING.
+TG   PS50103; ZF_C3H1;
+DO   PDOC50103;
+//
+ID   C3HC-type.
+AC   DO-00087
+FT   ZN_FING.
+TG   PF07967; zf-C3HC;
+DO   IPR012935;
+//
+ID   C4H2-type.
+AC   DO-00088
+FT   ZN_FING.
+TG   PF10146; zf-C4H2;
+DO   IPR018482;
+//
+ID   cache.
+AC   DO-00089
+FT   DOMAIN.
+TG   PF02743; Cache_1;
+DO   IPR018482;
+//
+ID   cadherin.
+AC   DO-00090
+FT   DOMAIN.
+TG   PS50268; CADHERIN_2;
+DO   PDOC00205;
+//
+ID   calpain catalytic.
+AC   DO-00091
+FT   DOMAIN.
+TG   PS50203; CALPAIN_CAT;
+DO   PDOC50203;
+//
+ID   calponin-like.
+AC   DO-00092
+FT   REPEAT.
+TG   PS51122; CALPONIN_2;
+DO   PDOC00808;
+//
+ID   Calx-beta.
+AC   DO-00093
+FT   DOMAIN.
+TG   PF03160; Calx-beta;
+DO   IPR003644;
+//
+ID   CAP-Gly.
+AC   DO-00094
+FT   DOMAIN.
+TG   PS50245; CAP_GLY_2;
+DO   PDOC00660;
+//
+ID   carboxyltransferase.
+AC   DO-00095
+FT   DOMAIN.
+TG   PS50980; COA_CT_NTER;
+DO   PDOC50980;
+//
+ID   CARD.
+AC   DO-00096
+FT   DOMAIN.
+TG   PS50209; CARD;
+DO   PDOC50209;
+//
+ID   Cbl-PTB.
+AC   DO-00763
+SY   Cbl-type phosphotyrosine-binding.
+FT   DOMAIN.
+TG   PS51506; CBL_PTB;
+DO   PDOC51506;
+//
+ID   CBM20.
+AC   DO-00098
+SY   carbohydrate binding type-20.
+FT   DOMAIN.
+TG   PS51166; CBM20;
+DO   PDOC51166;
+//
+ID   CBM21.
+AC   DO-00099
+SY   carbohydrate binding type-21.
+FT   DOMAIN.
+TG   PS51159; CBM21;
+DO   PDOC51159;
+//
+ID   CBS.
+AC   DO-00100
+FT   DOMAIN.
+TG   PS51371; CBS;
+DO   PDOC51371;
+//
+ID   CCHC-type.
+AC   DO-00101
+FT   ZN_FING.
+TG   PS50158; ZF_CCHC;
+DO   PDOC50158;
+//
+ID   CG-1.
+AC   DO-00103
+FT   DNA_BIND.
+TG   PS51437; CG_1;
+DO   PDOC51437;
+//
+ID   CH.
+AC   DO-00104
+SY   calponin-homology.
+FT   DOMAIN.
+TG   PS50021; CH;
+DO   PDOC50021;
+//
+ID   CHCH.
+AC   DO-00746
+FT   DOMAIN.
+TG   PF06747; CHCH;
+DO   IPR010625;
+//
+ID   CHCR.
+AC   DO-00114
+SY   clathrin heavy chain.
+FT   REPEAT.
+TG   PS50236; CHCR;
+DO   PDOC50236;
+//
+ID   chitin-binding type-2.
+AC   DO-00105
+FT   DOMAIN.
+TG   PS50940; CHIT_BIND_II;
+DO   PDOC50940;
+//
+ID   CHHC-type.
+AC   DO-00106
+FT   ZN_FING.
+TG   None;
+//
+ID   CHORD.
+AC   DO-00107
+SY   cysteine- and histidine-rich.
+FT   DOMAIN.
+TG   PS51401; CHORD;
+DO   PDOC51401;
+//
+ID   CHRD.
+AC   DO-00108
+SY   chordin.
+FT   DOMAIN.
+TG   PS50933; CHRD;
+DO   PDOC50933;
+//
+ID   chromo.
+AC   DO-00109
+FT   DOMAIN.
+TG   PS50013; CHROMO_2;
+DO   PDOC00517;
+//
+ID   CHY-type.
+AC   DO-00110
+FT   ZN_FING.
+TG   PS51266; ZF_CHY;
+DO   PDOC51266;
+//
+ID   CID.
+AC   DO-00111
+SY   CTD-interacting.
+FT   DOMAIN.
+TG   PS51391; CID;
+DO   PDOC51391;
+//
+ID   CIDE-N.
+AC   DO-00112
+FT   DOMAIN.
+TG   PS51135; CIDE_N;
+DO   PDOC51135;
+//
+ID   CKK.
+AC   DO-00113
+FT   DOMAIN.
+TG   PS51508; CKK;
+DO   PDOC51508;
+//
+ID   CMP/dCMP deaminase zinc-binding.
+AC   DO-00814
+FT   DOMAIN.
+TG   PF00383; dCMP_cyt_deam_1;
+DO   PDOC00702;
+//
+ID   CN hydrolase.
+AC   DO-00115
+SY   carbon-nitrogen hydrolase.
+FT   DOMAIN.
+TG   PS50263; CN_HYDROLASE;
+DO   PDOC50263;
+//
+ID   CNH.
+AC   DO-00116
+SY   citron homology.
+FT   DOMAIN.
+TG   PS50219; CNH;
+DO   PDOC50219;
+//
+ID   cobW C-terminal.
+AC   DO-00117
+FT   DOMAIN.
+TG   PF07683; CobW_C;
+DO   IPR011629;
+//
+ID   collagen-like.
+AC   DO-00118
+FT   DOMAIN.
+TG   PF01391; Collagen;
+DO   IPR008160;
+//
+ID   collagen IV NC1.
+AC   DO-00119
+SY   C-terminal non-collagenous.
+FT   DOMAIN.
+TG   PS51403; NC1_IV;
+DO   PDOC51403;
+//
+ID   COMM.
+AC   DO-00120
+FT   DOMAIN.
+TG   PS51269; COMM;
+DO   PDOC51269;
+//
+ID   cortactin.
+AC   DO-00121
+SY   HS1.
+FT   REPEAT.
+TG   PS51090; CORTACTIN;
+DO   PDOC51090;
+//
+ID   COS.
+AC   DO-00122
+FT   DOMAIN.
+TG   PS51262; COS;
+DO   PDOC51262;
+//
+ID   CP-type G.
+AC   DO-00845
+SY   circularly permuted-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51721; G_CP;
+DO   PDOC51721;
+//
+ID   CR-type.
+AC   DO-00123
+FT   ZN_FING.
+TG   PS51188; ZF_CR;
+DO   PDOC00553;
+//
+ID   CRAL-TRIO.
+AC   DO-00124
+FT   DOMAIN.
+TG   PS50191; CRAL_TRIO;
+DO   PDOC50191;
+//
+ID   CRC.
+AC   DO-00798
+FT   DOMAIN.
+TG   PS51634; CRC;
+DO   PDOC51634;
+//
+ID   CRIB.
+AC   DO-00125
+FT   DOMAIN.
+TG   PS50108; CRIB;
+DO   PDOC50108;
+//
+ID   CRIC.
+AC   DO-00126
+FT   DOMAIN.
+TG   PS51290; CRIC;
+DO   PDOC51290;
+//
+ID   CS.
+AC   DO-00127
+FT   DOMAIN.
+TG   PS51203; CS;
+DO   PDOC51203;
+//
+ID   CSD.
+AC   DO-00128
+SY   cold-shock.
+FT   DOMAIN.
+TG   PF00313; CSD;
+DO   IPR002059;
+//
+ID   CSPG.
+AC   DO-00129
+SY   NG2.
+FT   REPEAT.
+TG   None;
+//
+ID   CTCHY-type.
+AC   DO-00130
+FT   ZN_FING.
+TG   PS51270; ZF_CTCHY;
+DO   PDOC51266;
+//
+ID   CTCK.
+AC   DO-00131
+SY   C-terminal cystine knot-like.
+FT   DOMAIN.
+TG   PS01225; CTCK_2;
+DO   PDOC00912;
+//
+ID   CTF/NF-I.
+AC   DO-00132
+FT   DNA_BIND.
+TG   PS51080; CTF_NFI_2;
+DO   PDOC00361;
+//
+ID   CTLH.
+AC   DO-00133
+FT   DOMAIN.
+TG   PS50897; CTLH;
+DO   PDOC50896;
+//
+ID   CUB.
+AC   DO-00134
+FT   DOMAIN.
+TG   PS01180; CUB;
+DO   PDOC00908;
+//
+ID   CUE.
+AC   DO-00135
+FT   DOMAIN.
+TG   PS51140; CUE;
+DO   PDOC51140;
+//
+ID   CUT.
+AC   DO-00136
+FT   DNA_BIND.
+TG   PS51042; CUT;
+DO   PDOC51042;
+//
+ID   CVC.
+AC   DO-00137
+FT   DOMAIN.
+TG   PS51496; CVC;
+DO   PDOC51496;
+//
+ID   CW-type.
+AC   DO-00138
+FT   ZN_FING.
+TG   PS51050; ZF_CW;
+DO   PDOC51050;
+//
+ID   CXC.
+AC   DO-00139
+FT   DOMAIN.
+TG   PS51633; CXC;
+DO   PDOC51633;
+//
+ID   CXXC-type.
+AC   DO-00140
+FT   ZN_FING.
+TG   PS51058; ZF_CXXC;
+DO   PDOC51058;
+//
+ID   cyclin N-terminal.
+AC   DO-00141
+FT   DOMAIN.
+TG   PF00134; Cyclin_N;
+DO   IPR006671;
+//
+ID   Cys-rich GLG1.
+AC   DO-00142
+FT   REPEAT.
+TG   PS51289; GLG1_C_RICH;
+DO   PDOC51289;
+//
+ID   cystatin.
+AC   DO-00143
+FT   DOMAIN.
+TG   PF00031; Cystatin;
+DO   IPR000010;
+//
+ID   cystatin fetuin-A-type.
+AC   DO-00780
+FT   DOMAIN.
+TG   PS51529; CYSTATIN_FETUIN_A;
+DO   PDOC51529;
+//
+ID   cystatin fetuin-B-type.
+AC   DO-00781
+FT   DOMAIN.
+TG   PS51530; CYSTATIN_FETUIN_B;
+DO   PDOC51530;
+//
+ID   cystatin kininogen-type.
+AC   DO-00807
+FT   DOMAIN.
+TG   PS51647; CYSTATIN_KININOGEN;
+DO   PDOC51647;
+//
+ID   CYTH.
+AC   DO-00833
+FT   DOMAIN.
+TG   PS51707; CYTH;
+DO   PDOC51707;
+//
+ID   cytochrome b5 heme-binding.
+AC   DO-00144
+FT   DOMAIN.
+TG   PS50255; CYTOCHROME_B5_2;
+DO   PDOC00170;
+//
+ID   cytochrome b561.
+AC   DO-00145
+FT   DOMAIN.
+TG   PS50939; CYTOCHROME_B561;
+DO   PDOC50939;
+//
+ID   cytochrome c.
+AC   DO-00146
+FT   DOMAIN.
+TG   PS51007; CYTC; PS51008 MULTIHEME_CYTC;
+DO   PDOC00169;
+//
+ID   DAD.
+AC   DO-00147
+SY   diaphanous autoregulatory.
+FT   DOMAIN.
+TG   PS51231; DAD;
+DO   PDOC51231;
+//
+ID   DAGKc.
+AC   DO-00148
+SY   DAG-kinase catalytic.
+FT   DOMAIN.
+TG   PS50146; DAGK;
+DO   PDOC50146;
+//
+ID   DAPIN.
+AC   DO-00151
+FT   DOMAIN.
+TG   PS50824; DAPIN;
+DO   PDOC50824;
+//
+ID   DAZ-like.
+AC   DO-00152
+FT   DOMAIN.
+TG   None;
+//
+ID   DBB.
+AC   DO-00153
+FT   DOMAIN.
+TG   PS51376; DBB;
+DO   PDOC51376;
+//
+ID   DBF4-type.
+AC   DO-00154
+FT   ZN_FING.
+TG   PS51265; ZF_DBF4;
+DO   PDOC51265;
+//
+ID   DBINO.
+AC   DO-00155
+FT   DOMAIN.
+TG   PS51413; DBINO;
+DO   PDOC51413;
+//
+ID   DCUN1.
+AC   DO-00156
+FT   DOMAIN.
+TG   PS51229; DCUN1;
+DO   PDOC51229;
+//
+ID   DDE.
+AC   DO-00157
+FT   DOMAIN.
+TG   PF03184; DDE;
+DO   IPR004875;
+//
+ID   dDENN.
+AC   DO-00158
+FT   DOMAIN.
+TG   PS50947; DDENN;
+DO   PDOC50211;
+//
+ID   DDHD.
+AC   DO-00159
+FT   DOMAIN.
+TG   PS51043; DDHD;
+DO   PDOC51043;
+//
+ID   DDT.
+AC   DO-00160
+FT   DOMAIN.
+TG   PS50827; DDT;
+DO   PDOC50827;
+//
+ID   deacetylase sirtuin-type.
+AC   DO-00161
+FT   DOMAIN.
+TG   PS50305; SIRTUIN;
+DO   PDOC50305;
+//
+ID   death.
+AC   DO-00162
+FT   DOMAIN.
+TG   PS50017; DEATH_DOMAIN;
+DO   PDOC50017;
+//
+ID   DED.
+AC   DO-00163
+SY   death effector.
+FT   DOMAIN.
+TG   PS50168; DED;
+DO   PDOC50168;
+//
+ID   DENN.
+AC   DO-00164
+FT   DOMAIN.
+TG   PS50211; DENN;
+DO   PDOC50211;
+//
+ID   DEP.
+AC   DO-00165
+FT   DOMAIN.
+TG   PS50186; DEP;
+DO   PDOC50186;
+//
+ID   DFDF.
+AC   DO-00785
+FT   DOMAIN.
+TG   PS51512; DFDF;
+DO   PDOC51512;
+//
+ID   DH.
+AC   DO-00166
+SY   DBL-homology.
+FT   DOMAIN.
+TG   PS50010; DH_2;
+DO   PDOC00605;
+//
+ID   DhaK.
+AC   DO-00749
+FT   DOMAIN.
+TG   PS51481; DHAK;
+DO   PDOC51481;
+//
+ID   DhaL.
+AC   DO-00750
+FT   DOMAIN.
+TG   PS51480; DHAL;
+DO   PDOC51480;
+//
+ID   DHFR.
+AC   DO-00167
+SY   dihydrofolate reductase.
+FT   DOMAIN.
+TG   PS51330; DHFR_2;
+DO   PDOC00072;
+//
+ID   DHHC-type.
+AC   DO-00168
+FT   ZN_FING.
+TG   PS50216; ZF_DHHC;
+DO   PDOC50216;
+//
+ID   DHR-1.
+AC   DO-00169
+SY   CZH-1.
+SY   CZH1.
+FT   DOMAIN.
+TG   PS51650; DHR_1;
+DO   PDOC51650;
+//
+ID   DHR-2.
+AC   DO-00170
+SY   CZH-2.
+SY   CZH2.
+FT   DOMAIN.
+TG   PS51651; DHR_2;
+DO   PDOC51650;
+//
+ID   Dicer dsRNA-binding fold.
+AC   DO-00171
+FT   DOMAIN.
+TG   PS51327; DICER_DSRBF;
+DO   PDOC51327;
+//
+ID   dilute.
+AC   DO-00172
+FT   DOMAIN.
+TG   PS51126; DILUTE;
+DO   PDOC51126;
+//
+ID   disintegrin.
+AC   DO-00173
+FT   DOMAIN.
+TG   PS50214; DISINTEGRIN_2;
+DO   PDOC00351;
+//
+ID   DIX.
+AC   DO-00174
+FT   DOMAIN.
+TG   PS50841; DIX;
+DO   PDOC50841;
+//
+ID   DM.
+AC   DO-00175
+FT   DNA_BIND.
+TG   PS50809; DM_DOMAIN_2;
+DO   PDOC50809;
+//
+ID   DM10.
+AC   DO-00176
+FT   DOMAIN.
+TG   PS51336; DM10;
+DO   PDOC51336;
+//
+ID   DMAP-interaction.
+AC   DO-00834
+FT   DOMAIN.
+TG   PF06464; DMAP_binding;
+DO   IPR010506;
+//
+ID   DNL-type.
+AC   DO-00178
+FT   ZN_FING.
+TG   PS51501; ZF_DNL;
+DO   PDOC51501;
+//
+ID   DOC.
+AC   DO-00179
+FT   DOMAIN.
+TG   PS51284; DOC;
+DO   PDOC51284;
+//
+ID   DOMON.
+AC   DO-00180
+FT   DOMAIN.
+TG   PS50836; DOMON;
+DO   PDOC50836;
+//
+ID   DOT1.
+AC   DO-00802
+FT   DOMAIN.
+TG   PS51569; DOT1;
+DO   PDOC51569;
+//
+ID   doublecortin.
+AC   DO-00181
+FT   DOMAIN.
+TG   PS50309; DC;
+DO   PDOC50309;
+//
+ID   DPCK.
+AC   DO-00182
+SY   dephospho-CoA kinase.
+FT   DOMAIN.
+TG   PS51219; DPCK;
+DO   PDOC00996;
+//
+ID   DPH-type.
+AC   DO-00183
+FT   ZN_FING.
+TG   PS51074; ZF_DPH;
+DO   PDOC51074;
+//
+ID   DRADA.
+AC   DO-00184
+FT   REPEAT.
+TG   PS50139; DRADA_REPEAT;
+DO   PDOC50139;
+//
+ID   DRBM.
+AC   DO-00185
+SY   double-stranded RNA-binding.
+FT   DOMAIN.
+TG   PS50137; DS_RBD;
+DO   PDOC50137;
+//
+ID   DSL.
+AC   DO-00186
+FT   DOMAIN.
+TG   PS51051; DSL;
+DO   PDOC51051;
+//
+ID   DUF1170.
+AC   DO-00187
+FT   DOMAIN.
+TG   PF06663; DUF1170;
+DO   IPR010599;
+//
+ID   DUF1279.
+AC   DO-00188
+FT   DOMAIN.
+TG   PF06916; DUF1279;
+DO   IPR009688;
+//
+ID   DUF1725.
+AC   DO-00800
+FT   DOMAIN.
+TG   PF08333; DUF1725;
+DO   IPR013544;
+//
+ID   DUF21.
+AC   DO-00786
+FT   DOMAIN.
+TG   PF01595; DUF21;
+DO   IPR002550;
+//
+ID   DUSP.
+AC   DO-00192
+FT   DOMAIN.
+TG   PS51283; DUSP;
+DO   PDOC51283;
+//
+ID   DWNN.
+AC   DO-00193
+SY   domain with no name.
+FT   DOMAIN.
+TG   PS51282; DWNN;
+DO   PDOC51282;
+//
+ID   Dynamin-type G.
+AC   DO-00846
+SY   Dynamin-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS00410; DYNAMIN;
+DO   PDOC00362;
+//
+ID   DZF.
+AC   DO-00194
+FT   DOMAIN.
+TG   PF07528; DZF;
+DO   IPR006561;
+//
+ID   EamA.
+AC   DO-00797
+FT   DOMAIN.
+TG   PF00892; EamA;
+DO   IPR000620;
+//
+ID   EAR.
+AC   DO-00195
+FT   REPEAT.
+TG   PS50912; EAR;
+DO   PDOC50912;
+//
+ID   EB1 C-terminal.
+AC   DO-00196
+SY   EB1-C.
+FT   DOMAIN.
+TG   PS51230; EB1_C;
+DO   PDOC51230;
+//
+ID   EF-1-gamma C-terminal.
+AC   DO-00197
+SY   elongation factor 1 gamma C-terminal.
+FT   DOMAIN.
+TG   PS50040; EF1G_C;
+DO   PDOC01001;
+//
+ID   EF-hand.
+AC   DO-00198
+FT   DOMAIN.
+TG   PS50222; EF_HAND_2;
+DO   PDOC00018;
+//
+ID   EGF-like.
+AC   DO-00200
+FT   DOMAIN.
+TG   PS50026; EGF_3;
+DO   PDOC00021;
+//
+ID   EH.
+AC   DO-00201
+SY   Eps15 homology.
+FT   DOMAIN.
+TG   PS50031; EH;
+DO   PDOC50031;
+//
+ID   ELM2.
+AC   DO-00202
+FT   DOMAIN.
+TG   PS51156; ELM2;
+DO   PDOC51156;
+//
+ID   ELMO.
+AC   DO-00203
+FT   DOMAIN.
+TG   PS51335; ELMO;
+DO   PDOC51335;
+//
+ID   EMI.
+AC   DO-00204
+FT   DOMAIN.
+TG   PS51041; EMI;
+DO   PDOC51041;
+//
+ID   EngB-type G.
+AC   DO-00837
+SY   EngB-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51706; G_ENGB;
+DO   PDOC51706;
+//
+ID   enkurin.
+AC   DO-00815
+FT   DOMAIN.
+TG   PS51665; ENKURIN;
+DO   PDOC51665;
+//
+ID   ENT.
+AC   DO-00205
+SY   EMSY N-terminal.
+FT   DOMAIN.
+TG   PS51138; ENT;
+DO   PDOC51138;
+//
+ID   ENTH.
+AC   DO-00206
+SY   epsin N-terminal homology.
+FT   DOMAIN.
+TG   PS50942; ENTH;
+DO   PDOC50942;
+//
+ID   Eph LBD.
+AC   DO-00788
+SY   Eph receptor ligand binding.
+SY   ephrin-binding.
+FT   DOMAIN.
+TG   PS51550; EPH_LBD;
+DO   PDOC51550;
+//
+ID   ephrin RBD.
+AC   DO-00794
+SY   ephrin receptor-binding.
+FT   DOMAIN.
+TG   PS51551; EPHRIN_RBD_2;
+DO   PDOC01003;
+//
+ID   Era-type G.
+AC   DO-00838
+SY   Era-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51713; G_ERA;
+DO   PDOC51713;
+//
+ID   ERCC4.
+AC   DO-00207
+FT   DOMAIN.
+TG   PF02732; ERCC4;
+DO   IPR006166;
+//
+ID   ERV/ALR sulfhydryl oxidase.
+AC   DO-00208
+FT   DOMAIN.
+TG   PS51324; ERV_ALR;
+DO   PDOC51324;
+//
+ID   ETS.
+AC   DO-00210
+FT   DNA_BIND.
+TG   PS50061; ETS_DOMAIN_3;
+DO   PDOC00374;
+//
+ID   exonuclease.
+AC   DO-00211
+FT   DOMAIN.
+TG   PF00929; Exonuc_X-T;
+DO   IPR013520;
+//
+ID   EXS.
+AC   DO-00212
+FT   DOMAIN.
+TG   PS51380; EXS;
+DO   PDOC51380;
+//
+ID   F-box.
+AC   DO-00213
+FT   DOMAIN.
+TG   PS50181; FBOX;
+DO   PDOC50181;
+//
+ID   F-box-like.
+AC   DO-00214
+FT   DOMAIN.
+TG   None;
+//
+ID   F5/8 type A.
+AC   DO-00215
+FT   DOMAIN.
+TG   None;
+//
+ID   F5/8 type C.
+AC   DO-00216
+FT   DOMAIN.
+TG   PS50022; FA58C_3;
+DO   PDOC00988;
+//
+ID   FAD-binding FR-type.
+AC   DO-00217
+FT   DOMAIN.
+TG   PS51384; FAD_FR;
+DO   PDOC51384;
+//
+ID   FAD-binding PCMH-type.
+AC   DO-00218
+FT   DOMAIN.
+TG   PS51387; FAD_PCMH;
+DO   PDOC51387;
+//
+ID   FAS1.
+AC   DO-00219
+FT   DOMAIN.
+TG   PS50213; FAS1;
+DO   PDOC50213;
+//
+ID   FAT.
+AC   DO-00220
+FT   DOMAIN.
+TG   PS51189; FAT;
+DO   PDOC51189;
+//
+ID   FATC.
+AC   DO-00221
+FT   DOMAIN.
+TG   PS51190; FATC;
+DO   PDOC51189;
+//
+ID   FBA.
+AC   DO-00222
+SY   F-box associated.
+FT   DOMAIN.
+TG   PS51114; FBA;
+DO   PDOC51114;
+//
+ID   FCH.
+AC   DO-00223
+SY   FER and CIP4 homology.
+FT   DOMAIN.
+TG   PS50133; FCH;
+DO   PDOC50133;
+//
+ID   FCP1 homology.
+AC   DO-00224
+FT   DOMAIN.
+TG   PS50969; FCP1;
+DO   PDOC50969;
+//
+ID   FCS-type.
+AC   DO-00225
+FT   ZN_FING.
+TG   PS51024; ZF_FCS;
+DO   PDOC51024;
+//
+ID   FDX-ACB.
+AC   DO-00226
+FT   DOMAIN.
+TG   PS51447; FDX_ACB;
+DO   PDOC51447;
+//
+ID   Fe2OG dioxygenase.
+AC   DO-00743
+FT   DOMAIN.
+TG   PS51471; FE2OG_OXY;
+DO   PDOC51471;
+//
+ID   FERM.
+AC   DO-00227
+FT   DOMAIN.
+TG   PS50057; FERM_3;
+DO   PDOC00566;
+//
+ID   ferric oxidoreductase.
+AC   DO-00228
+FT   DOMAIN.
+TG   PF01794; Ferric_reduct;
+DO   IPR013130;
+//
+ID   ferritin-like diiron.
+AC   DO-00229
+FT   DOMAIN.
+TG   PS50905; FERRITIN_LIKE;
+DO   PDOC50905;
+//
+ID   FF.
+AC   DO-00230
+FT   DOMAIN.
+TG   PF01846; FF;
+DO   IPR002713;
+//
+ID   FG-GAP.
+AC   DO-00231
+FT   REPEAT.
+TG   PS51470; FG-GAP;
+DO   PDOC51470;
+//
+ID   FH1.
+AC   DO-00232
+SY   formin homology 1.
+FT   DOMAIN.
+TG   PF06346; Drf_FH1;
+DO   IPR009408;
+//
+ID   FH2.
+AC   DO-00233
+SY   formin homology 2.
+FT   DOMAIN.
+TG   PS51444; FH2;
+DO   PDOC51444;
+//
+ID   FHA.
+AC   DO-00234
+SY   forkhead-associated.
+FT   DOMAIN.
+TG   PS50006; FHA_DOMAIN;
+DO   PDOC50006;
+//
+ID   FHA-like.
+AC   DO-00235
+FT   DOMAIN.
+TG   None;
+//
+ID   fibrillar collagen NC1.
+AC   DO-00236
+FT   DOMAIN.
+TG   PS51461; NC1_FIB;
+DO   PDOC51461;
+//
+ID   fibrinogen C-terminal.
+AC   DO-00237
+FT   DOMAIN.
+TG   PS51406; FIBRINOGEN_C_2;
+DO   PDOC00445;
+//
+ID   fibronectin type-I.
+AC   DO-00238
+SY   FN1.
+FT   DOMAIN.
+TG   PS51091; FN1_2;
+DO   PDOC00965;
+//
+ID   fibronectin type-II.
+AC   DO-00239
+SY   FN2.
+FT   DOMAIN.
+TG   PS51092; FN2_2;
+DO   PDOC00022;
+//
+ID   fibronectin type-III.
+AC   DO-00240
+SY   FN3.
+FT   DOMAIN.
+TG   PS50853; FN3;
+DO   PDOC50853;
+//
+ID   fido.
+AC   DO-00241
+FT   DOMAIN.
+TG   PS51459; FIDO;
+DO   PDOC51459;
+//
+ID   filamin.
+AC   DO-00242
+FT   REPEAT.
+TG   PS50194; FILAMIN_REPEAT;
+DO   PDOC50194;
+//
+ID   filaggrin.
+AC   DO-00243
+FT   REPEAT.
+TG   PF03516; Filaggrin;
+DO   IPR003303;
+//
+ID   FIP-RBD.
+AC   DO-00764
+SY   Rab11-binding domain FIP-type.
+FT   DOMAIN.
+TG   PS51511; FIP-RBD;
+DO   PDOC51511;
+//
+ID   flavodoxin-like.
+AC   DO-00244
+FT   DOMAIN.
+TG   PS50902; FLAVODOXIN_LIKE;
+DO   PDOC50902;
+//
+ID   FLYWCH-type.
+AC   DO-00245
+FT   ZN_FING.
+TG   PF04500; FLYWCH;
+DO   IPR007588;
+//
+ID   FMN hydroxy acid dehydrogenase.
+AC   DO-00246
+FT   DOMAIN.
+TG   PS51349; FMN_HYDROXY_ACID_DH_2;
+DO   PDOC00482;
+//
+ID   follistatin-like.
+AC   DO-00247
+FT   DOMAIN.
+TG   SM00274; FOLN;
+DO   IPR003645;
+//
+ID   fork-head.
+AC   DO-00248
+FT   DNA_BIND.
+TG   PS50039; FORK_HEAD_3;
+DO   PDOC00564;
+//
+ID   FPG-type.
+AC   DO-00249
+FT   ZN_FING.
+TG   PS51066; ZF_FPG_2;
+DO   PDOC00956;
+//
+ID   FU.
+AC   DO-00250
+SY   furin-like.
+FT   REPEAT.
+TG   SM00261; FU;
+DO   IPR006212;
+//
+ID   FYR C-terminal.
+AC   DO-00251
+SY   FY-rich C-terminal.
+FT   DOMAIN.
+TG   PS51543; FYRC;
+DO   PDOC51542;
+//
+ID   FYR N-terminal.
+AC   DO-00252
+SY   FY-rich N-terminal.
+FT   DOMAIN.
+TG   PS51542; FYRN;
+DO   PDOC51542;
+//
+ID   FYVE-type.
+AC   DO-00253
+FT   ZN_FING.
+TG   PS50178; ZF_FYVE;
+DO   PDOC50178;
+//
+ID   FZ.
+AC   DO-00254
+SY   frizzled.
+FT   DOMAIN.
+TG   PS50038; FZ;
+DO   PDOC50038;
+//
+ID   G.
+AC   DO-00766
+SY   guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PF01926; MMR_HSR1;
+DO   IPR006073;
+//
+ID   G protein gamma.
+AC   DO-00255
+FT   DOMAIN.
+TG   PS50058; G_PROTEIN_GAMMA;
+DO   PDOC01002;
+//
+ID   G-patch.
+AC   DO-00256
+FT   DOMAIN.
+TG   PS50174; G_PATCH;
+DO   PDOC50174;
+//
+ID   G8.
+AC   DO-00754
+FT   DOMAIN.
+TG   PS51484; G8;
+DO   PDOC51484;
+//
+ID   GAE.
+AC   DO-00257
+SY   gamma-adaptin ear.
+FT   DOMAIN.
+TG   PS50180; GAE;
+DO   PDOC50180;
+//
+ID   GAF.
+AC   DO-00258
+FT   DOMAIN.
+TG   PF01590; GAF;
+DO   IPR003018;
+//
+ID   GAR.
+AC   DO-00755
+FT   DOMAIN.
+TG   PS51460; GAR;
+DO   PDOC51460;
+//
+ID   galectin.
+AC   DO-00259
+FT   DOMAIN.
+TG   PS51304; GALECTIN;
+DO   PDOC00279;
+//
+ID   gamma-glutamyl hydrolase.
+AC   DO-00260
+SY   GGH.
+FT   DOMAIN.
+TG   PS51275; PEPTIDASE_C26_GGH;
+DO   PDOC51275;
+//
+ID   GAT.
+AC   DO-00261
+FT   DOMAIN.
+TG   PS50909; GAT;
+DO   PDOC50909;
+//
+ID   GATA-type.
+AC   DO-00262
+FT   ZN_FING.
+TG   PS50114; GATA_ZN_FINGER_2;
+DO   PDOC00300;
+//
+ID   GB1/RHD3-type G.
+AC   DO-00847
+SY   GB1/RHD3-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51715; G_GB1_RHD3;
+DO   PDOC51715;
+//
+ID   GBD/FH3.
+AC   DO-00263
+SY   Rho GTPase-binding/formin homology 3.
+FT   DOMAIN.
+TG   PS51232; GBD_FH3;
+DO   PDOC51232;
+//
+ID   GCM.
+AC   DO-00264
+FT   DNA_BIND.
+TG   PS50807; GCM;
+DO   PDOC50807;
+//
+ID   GDPD.
+AC   DO-00265
+FT   DOMAIN.
+TG   PF03009; GDPD;
+DO   IPR004129;
+//
+ID   GED.
+AC   DO-00266
+FT   DOMAIN.
+TG   PS51388; GED;
+DO   PDOC51388;
+//
+ID   gelsolin-like.
+AC   DO-00267
+FT   REPEAT.
+TG   PF00626; Gelsolin;
+DO   IPR007123;
+//
+ID   GIY-YIG.
+AC   DO-00268
+FT   DOMAIN.
+TG   PS50164; GIY-YIG;
+DO   PDOC50164;
+//
+ID   Gla.
+AC   DO-00269
+SY   gamma-carboxy-glutamate.
+FT   DOMAIN.
+TG   PS50998; GLA_2;
+DO   PDOC00011;
+//
+ID   GLUE N-terminal.
+AC   DO-00789
+FT   DOMAIN.
+TG   PS51495; GLUE;
+DO   PDOC51495;
+//
+ID   GLUE C-terminal.
+AC   DO-00790
+FT   DOMAIN.
+TG   PS51495; GLUE;
+DO   PDOC51495;
+//
+ID   glutamine amidotransferase type-1.
+AC   DO-00271
+FT   DOMAIN.
+TG   PS51273; GATASE_TYPE_1;
+DO   PDOC00405;
+//
+ID   glutamine amidotransferase type-2.
+AC   DO-00272
+FT   DOMAIN.
+TG   PS51278; GATASE_TYPE_2;
+DO   PDOC00406;
+//
+ID   glutaredoxin.
+AC   DO-00273
+FT   DOMAIN.
+TG   PS51354; GLUTAREDOXIN_2;
+DO   PDOC00173;
+//
+ID   GMPS ATP-PPase.
+AC   DO-00796
+SY   GMPS ATP-pyrophosphatase.
+FT   DOMAIN.
+TG   PS51553; GMPS_ATP_PPASE;
+DO   PDOC51553;
+//
+ID   GOLD.
+AC   DO-00274
+SY   Golgi dynamics.
+FT   DOMAIN.
+TG   PS50866; GOLD;
+DO   PDOC50866;
+//
+ID   GoLoco.
+AC   DO-00275
+FT   DOMAIN.
+TG   PS50877; GOLOCO;
+DO   PDOC50877;
+//
+ID   GON.
+AC   DO-00276
+FT   DOMAIN.
+TG   PS51046; GON;
+DO   PDOC51046;
+//
+ID   GP-PDE.
+AC   DO-00835
+SY   glycerophosphodiester phosphodiesterase.
+FT   DOMAIN.
+TG   PS51704; GP_PDE;
+DO   PDOC51704;
+//
+ID   GPS.
+AC   DO-00277
+FT   DOMAIN.
+TG   PS50221; GPS;
+DO   PDOC50221;
+//
+ID   GRAM.
+AC   DO-00278
+FT   DOMAIN.
+TG   PF02893; GRAM;
+DO   IPR004182;
+//
+ID   GRIP.
+AC   DO-00279
+FT   DOMAIN.
+TG   PS50913; GRIP;
+DO   PDOC50913;
+//
+ID   GS.
+AC   DO-00280
+FT   DOMAIN.
+TG   PS51256; GS;
+DO   PDOC51256;
+//
+ID   GST N-terminal.
+AC   DO-00281
+FT   DOMAIN.
+TG   PS50404; GST_NTER;
+DO   PDOC50404;
+//
+ID   GST C-terminal.
+AC   DO-00282
+FT   DOMAIN.
+TG   PS50405; GST_CTER;
+DO   PDOC50404;
+//
+ID   GT23.
+AC   DO-00816
+SY   Glycosyltransferase family 23.
+FT   DOMAIN.
+TG   PS51659; GT23;
+DO   PDOC51659;
+//
+ID   GTF2I-like.
+AC   DO-00283
+FT   REPEAT.
+TG   PS51139; GTF2I;
+DO   PDOC51139;
+//
+ID   guanylate cyclase.
+AC   DO-00284
+FT   DOMAIN.
+TG   PS50125; GUANYLATE_CYCLASES_2;
+DO   PDOC00425;
+//
+ID   guanylate kinase-like.
+AC   DO-00285
+FT   DOMAIN.
+TG   PS50052; GUANYLATE_KINASE_2;
+DO   PDOC00670;
+//
+ID   GYF.
+AC   DO-00286
+SY   Gly-Tyr-Phe.
+FT   DOMAIN.
+TG   PS50829; GYF;
+DO   PDOC50829;
+//
+ID   H15.
+AC   DO-00761
+SY   linker histone H1/H5 globular.
+FT   DOMAIN.
+TG   PS51504; H15;
+DO   PDOC51504;
+//
+ID   HAP1 N-terminal.
+AC   DO-00287
+FT   DOMAIN.
+TG   PF04849; HAP1_N;
+DO   IPR006933;
+//
+ID   HARP.
+AC   DO-00288
+FT   DOMAIN.
+TG   PS51467; HARP;
+DO   PDOC51467;
+//
+ID   HAT.
+AC   DO-00289
+FT   REPEAT.
+TG   Rep;
+DO   IPR003107;
+//
+ID   Hcy-binding.
+AC   DO-00290
+SY   homocysteine-binding.
+FT   DOMAIN.
+TG   PS50970; HCY;
+DO   PDOC50970;
+//
+ID   HD.
+AC   DO-00291
+FT   DOMAIN.
+TG   PF01966; HD;
+DO   IPR006674;
+//
+ID   HDAg-like.
+AC   DO-00292
+FT   DOMAIN.
+TG   None;
+//
+ID   HEAT.
+AC   DO-00293
+FT   REPEAT.
+TG   Rep;
+DO   PDOC50077;
+//
+ID   HEAT-like PBS-type.
+AC   DO-00294
+FT   REPEAT.
+TG   PF03130; HEAT_PBS;
+DO   IPR004155;
+//
+ID   HECT.
+AC   DO-00295
+SY   E6AP-type E3 ubiquitin-protein ligase.
+FT   DOMAIN.
+TG   PS50237; HECT;
+DO   PDOC50237;
+//
+ID   helicase ATP-binding.
+AC   DO-00296
+FT   DOMAIN.
+TG   PS51192; HELICASE_ATP_BIND_1; PS51193 HELICASE_ATP_BIND_2;
+DO   PDOC51192;
+//
+ID   helicase C-terminal.
+AC   DO-00297
+FT   DOMAIN.
+TG   PS51194; HELICASE_CTER;
+DO   PDOC51192;
+//
+ID   helix-loop-helix.
+AC   DO-00298
+SY   helix-loop-helix motif.
+FT   DOMAIN.
+TG   None;
+//
+ID   hemopexin-like.
+AC   DO-00299
+FT   DOMAIN.
+TG   PF00045; Hemopexin;
+DO   IPR018487;
+//
+ID   HEPN.
+AC   DO-00300
+SY   higher eukaryotes and prokaryotes nucleotide-binding.
+FT   DOMAIN.
+TG   PS50910; HEPN;
+DO   PDOC50910;
+//
+ID   hexokinase type-1.
+AC   DO-00824
+FT   DOMAIN.
+TG   PF00349; hexokinase_1;
+DO   PDOC00370;
+//
+ID   hexokinase type-2.
+AC   DO-00827
+FT   DOMAIN.
+TG   PF03727; hexokinase_2;
+DO   PDOC00370;
+//
+ID   Hflx-type G.
+AC   DO-00839
+SY   Hflx-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51705; G_HFLX;
+DO   PDOC51705;
+//
+ID   HhH.
+AC   DO-00301
+FT   DOMAIN.
+TG   PF00633; HHH;
+DO   IPR000445;
+//
+ID   HIG1.
+AC   DO-00302
+FT   DOMAIN.
+TG   PS51503; HIG1;
+DO   PDOC51503;
+//
+ID   HIN-200.
+AC   DO-00303
+FT   DOMAIN.
+TG   PS50834; HIN_200;
+DO   PDOC50834;
+//
+ID   histidine kinase.
+AC   DO-00304
+FT   DOMAIN.
+TG   PS50109; HIS_KIN;
+DO   PDOC50109;
+//
+ID   histone H2A.
+AC   DO-00306
+FT   DOMAIN.
+TG   SM00414; H2A;
+DO   IPR002119;
+//
+ID   histone-fold.
+AC   DO-00307
+FT   DOMAIN.
+TG   None;
+DO   IPR009072;
+//
+ID   HIT.
+AC   DO-00308
+FT   DOMAIN.
+TG   PS51084; HIT_2;
+DO   PDOC00694;
+//
+ID   HIT-type.
+AC   DO-00309
+FT   ZN_FING.
+TG   PS51083; ZF_HIT;
+DO   PDOC51083;
+//
+ID   HMA.
+AC   DO-00310
+FT   DOMAIN.
+TG   PS50846; HMA_2;
+DO   PDOC00804;
+//
+ID   HMG box.
+AC   DO-00311
+FT   DNA_BIND.
+TG   PS50118; HMG_BOX_2;
+DO   PDOC00305;
+//
+ID   HNH.
+AC   DO-00808
+FT   DOMAIN.
+TG   PF01844; HNH;
+DO   IPR002711;
+//
+ID   homeobox.
+AC   DO-00312
+FT   DNA_BIND.
+TG   PS50071; HOMEOBOX_2;
+DO   PDOC00027;
+//
+ID   homo B/P.
+AC   DO-00313
+FT   DOMAIN.
+TG   None;
+//
+ID   HORMA.
+AC   DO-00314
+FT   DOMAIN.
+TG   PS50815; HORMA;
+DO   PDOC50815;
+//
+ID   HP.
+AC   DO-00315
+SY   headpiece.
+FT   DOMAIN.
+TG   PS51089; HP;
+DO   PDOC51089;
+//
+ID   HRDC.
+AC   DO-00316
+SY   helicase and RNaseD C-terminal.
+FT   DOMAIN.
+TG   PS50967; HRDC;
+DO   PDOC50967;
+//
+ID   HRM.
+AC   DO-00317
+SY   heme regulatory motif.
+FT   REPEAT.
+TG   None;
+//
+ID   HSA.
+AC   DO-00318
+SY   helicase/SANT-associated.
+FT   DOMAIN.
+TG   PS51204; HSA;
+DO   PDOC51204;
+//
+ID   HSR.
+AC   DO-00319
+FT   DOMAIN.
+TG   PS51414; HSR;
+DO   PDOC51414;
+//
+ID   HTH CENPB-type DNA-binding.
+AC   DO-00320
+SY   HTH CENPB-type.
+FT   DOMAIN.
+TG   PS51253; HTH_CENPB;
+DO   PDOC51253;
+//
+ID   HTH cro/C1-type DNA-binding.
+AC   DO-00321
+SY   HTH cro/C1-type.
+FT   DOMAIN.
+TG   PS50943; HTH_CROC1;
+DO   PDOC50943;
+//
+ID   HTH La-type RNA-binding.
+AC   DO-00322
+SY   HTH La-type.
+FT   DOMAIN.
+TG   PS50961; HTH_LA;
+DO   PDOC50961;
+//
+ID   HTH myb-type DNA-binding.
+AC   DO-00323
+SY   HTH myb-type.
+FT   DOMAIN.
+TG   PS51294; HTH_MYB;
+DO   PDOC00037;
+//
+ID   HTH OST-type.
+AC   DO-00784
+SY   Lotus/OST-HTH.
+FT   DOMAIN.
+TG   PS51644; HTH_OST;
+DO   PDOC51644;
+//
+ID   HTH psq-type DNA-binding.
+AC   DO-00324
+SY   HTH psq-type.
+FT   DOMAIN.
+TG   PS50960; HTH_PSQ;
+DO   PDOC50960;
+//
+ID   HTH TFE/IIEalpha-type.
+AC   DO-00325
+FT   DOMAIN.
+TG   PS51344; HTH_TFE_IIE;
+DO   PDOC51344;
+//
+ID   HYR.
+AC   DO-00326
+SY   hyalin repeat.
+FT   DOMAIN.
+TG   PS50825; HYR;
+DO   PDOC50825;
+//
+ID   I/LWEQ.
+AC   DO-00327
+FT   DOMAIN.
+TG   PS50945; I_LWEQ;
+DO   PDOC50945;
+//
+ID   IBB.
+AC   DO-00328
+FT   DOMAIN.
+TG   PS51214; IBB;
+DO   PDOC51214;
+//
+ID   IBR-type.
+AC   DO-00329
+FT   ZN_FING.
+TG   PF01485; IBR;
+DO   IPR002867;
+//
+ID   Ig-like C1-type.
+AC   DO-00330
+SY   immunoglobulin-like C1-type.
+FT   DOMAIN.
+TG   PS50835; IG_LIKE;
+DO   PDOC50835;
+//
+ID   Ig-like C2-type.
+AC   DO-00331
+SY   immunoglobulin-like C2-type.
+FT   DOMAIN.
+TG   PS50835; IG_LIKE;
+DO   PDOC50835;
+//
+ID   Ig-like.
+AC   DO-00332
+SY   immunoglobulin-like.
+FT   DOMAIN.
+TG   PS50835; IG_LIKE;
+DO   PDOC50835;
+//
+ID   Ig-like V-type.
+AC   DO-00333
+SY   immunoglobulin-like V-type.
+FT   DOMAIN.
+TG   PS50835; IG_LIKE;
+DO   PDOC50835;
+//
+ID   IGFBP N-terminal.
+AC   DO-00334
+FT   DOMAIN.
+TG   PS51323; IGFBP_N_2;
+DO   PDOC00194;
+//
+ID   IMD.
+AC   DO-00335
+SY   IRSp53/MIM homology.
+FT   DOMAIN.
+TG   PS51338; IMD;
+DO   PDOC51338;
+//
+ID   importin N-terminal.
+AC   DO-00336
+FT   DOMAIN.
+TG   PS50166; IMPORTIN_B_NT;
+DO   PDOC50166;
+//
+ID   integrase catalytic.
+AC   DO-00337
+FT   DOMAIN.
+TG   PS50994; INTEGRASE;
+DO   PDOC50994;
+//
+ID   integrase-type.
+AC   DO-00338
+FT   ZN_FING.
+TG   PS50876; ZF_INTEGRASE;
+DO   PDOC50876;
+//
+ID   integrase-type.
+AC   DO-00339
+FT   DNA_BIND.
+TG   PS51027; INTEGRASE_DBD;
+DO   PDOC51027;
+//
+ID   IPT/TIG.
+AC   DO-00340
+FT   DOMAIN.
+TG   PF01833; TIG;
+DO   IPR002909;
+//
+ID   IQ.
+AC   DO-00341
+FT   DOMAIN.
+TG   PS50096; IQ;
+DO   PDOC50096;
+//
+ID   IRF tryptophan pentad repeat.
+AC   DO-00684
+SY   tryptophan pentad repeat.
+FT   DNA_BIND.
+TG   PS51507; IRF_2;
+DO   PDOC00522;
+//
+ID   IRG-type G.
+AC   DO-00848
+SY   IRG-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51716; G_IRG;
+DO   PDOC51716;
+//
+ID   IRS-type PTB.
+AC   DO-00342
+FT   DOMAIN.
+TG   PS51064; IRS_PTB;
+DO   PDOC51064;
+//
+ID   ITAM.
+AC   DO-00343
+FT   DOMAIN.
+TG   PS51055; ITAM_1;
+DO   PDOC51055;
+//
+ID   J.
+AC   DO-00344
+FT   DOMAIN.
+TG   PS50076; DNAJ_2;
+DO   PDOC00553;
+//
+ID   JmjC.
+AC   DO-00345
+FT   DOMAIN.
+TG   PS51184; JMJC;
+DO   PDOC51183;
+//
+ID   JmjN.
+AC   DO-00346
+FT   DOMAIN.
+TG   PS51183; JMJN;
+DO   PDOC51183;
+//
+ID   josephin.
+AC   DO-00347
+FT   DOMAIN.
+TG   PS50957; JOSEPHIN;
+DO   PDOC50957;
+//
+ID   KA1.
+AC   DO-00348
+SY   kinase-associated.
+FT   DOMAIN.
+TG   PS50032; KA1;
+DO   PDOC50032;
+//
+ID   KAP NTPase.
+AC   DO-00349
+FT   DOMAIN.
+TG   PF07693; KAP_NTPase;
+DO   IPR011646;
+//
+ID   KASH.
+AC   DO-00350
+SY   klarsicht/ANC-1/Syne-1 homology.
+SY   KLS.
+FT   DOMAIN.
+TG   PS51049; KASH;
+DO   PDOC51049;
+//
+ID   Kazal-like.
+AC   DO-00351
+FT   DOMAIN.
+TG   PS51465; KAZAL;
+DO   PDOC00254;
+//
+ID   KBD.
+AC   DO-00352
+SY   c-Kit-binding.
+FT   DOMAIN.
+TG   PS51488; KBD;
+DO   PDOC51488;
+//
+ID   Kelch.
+AC   DO-00353
+FT   REPEAT.
+TG   Rep;
+DO   IPR006652;
+//
+ID   KEN.
+AC   DO-00354
+SY   kinase-extension nuclease.
+FT   DOMAIN.
+TG   PS51392; KEN;
+DO   PDOC51392;
+//
+ID   KH.
+AC   DO-00355
+SY   K homology.
+FT   DOMAIN.
+TG   PS50084; KH_TYPE_1;
+DO   PDOC50084;
+//
+ID   KH type-2.
+AC   DO-00356
+FT   DOMAIN.
+TG   PS50823; KH_TYPE_2;
+DO   PDOC50084;
+//
+ID   KHA.
+AC   DO-00756
+FT   DOMAIN.
+TG   PS51490; KHA;
+DO   PDOC51490;
+//
+ID   KID.
+AC   DO-00357
+SY   kinase-inducible.
+FT   DOMAIN.
+TG   PS50953; KID;
+DO   PDOC50953;
+//
+ID   KIND.
+AC   DO-00358
+SY   kinase non-catalytic C-lobe.
+FT   DOMAIN.
+TG   PS51377; KIND;
+DO   PDOC51377;
+//
+ID   kinesin motor.
+AC   DO-00359
+FT   DOMAIN.
+TG   PS50067; KINESIN_MOTOR_DOMAIN2;
+DO   PDOC00343;
+//
+ID   KIX.
+AC   DO-00360
+FT   DOMAIN.
+TG   PS50952; KIX;
+DO   PDOC50952;
+//
+ID   KOW.
+AC   DO-00361
+FT   DOMAIN.
+TG   PF00467; KOW;
+DO   IPR005824;
+//
+ID   KRAB.
+AC   DO-00362
+FT   DOMAIN.
+TG   PS50805; KRAB;
+DO   PDOC50805;
+//
+ID   KRAB-related.
+AC   DO-00363
+FT   DOMAIN.
+TG   PS50806; KRAB_RELATED;
+DO   PDOC50806;
+//
+ID   kringle.
+AC   DO-00364
+FT   DOMAIN.
+TG   PS50070; KRINGLE_2;
+DO   PDOC00020;
+//
+ID   Ku.
+AC   DO-00365
+FT   DOMAIN.
+TG   PF02735; Ku;
+DO   IPR006164;
+//
+ID   L-type lectin-like.
+AC   DO-00366
+FT   DOMAIN.
+TG   PS51328; L_LECTIN_LIKE;
+DO   PDOC51328;
+//
+ID   L27.
+AC   DO-00367
+FT   DOMAIN.
+TG   PS51022; L27;
+DO   PDOC51022;
+//
+ID   laminin EGF-like.
+AC   DO-00368
+FT   DOMAIN.
+TG   PS50027; EGF_LAM_2;
+DO   PDOC00961;
+//
+ID   laminin G-like.
+AC   DO-00369
+FT   DOMAIN.
+TG   PS50025; LAM_G_DOMAIN;
+DO   PDOC50025;
+//
+ID   laminin IV type A.
+AC   DO-00370
+FT   DOMAIN.
+TG   PS51115; LAMININ_IVA;
+DO   PDOC51115;
+//
+ID   laminin IV type B.
+AC   DO-00371
+FT   DOMAIN.
+TG   PS51116; LAMININ_IVB;
+DO   PDOC51115;
+//
+ID   laminin N-terminal.
+AC   DO-00372
+SY   LN.
+FT   DOMAIN.
+TG   PS51117; LAMININ_NTER;
+DO   PDOC51117;
+//
+ID   LCCL.
+AC   DO-00373
+FT   DOMAIN.
+TG   PS50820; LCCL;
+DO   PDOC50820;
+//
+ID   LDL-receptor class A.
+AC   DO-00374
+SY   LDLRA.
+FT   DOMAIN.
+TG   PS50068; LDLRA_2;
+DO   PDOC00929;
+//
+ID   LDL-receptor class B.
+AC   DO-00375
+SY   LDLRB.
+FT   REPEAT.
+TG   PS51120; LDLRB;
+DO   PDOC51120;
+//
+ID   LEM.
+AC   DO-00376
+FT   DOMAIN.
+TG   PS50954; LEM;
+DO   PDOC50954;
+//
+ID   LEM-like.
+AC   DO-00377
+FT   DOMAIN.
+TG   PS50955; LEM_LIKE;
+DO   PDOC50954;
+//
+ID   LETM1.
+AC   DO-00378
+FT   DOMAIN.
+TG   PF07766; LETM1;
+DO   IPR011685;
+//
+ID   Leucine-zipper.
+AC   DO-00379
+FT   DOMAIN.
+TG   None;
+//
+ID   LIM zinc-binding.
+AC   DO-00380
+FT   DOMAIN.
+TG   PS50023; LIM_DOMAIN_2;
+DO   PDOC00382;
+//
+ID   Link.
+AC   DO-00381
+FT   DOMAIN.
+TG   PS50963; LINK_2;
+DO   PDOC00955;
+//
+ID   lipoxygenase.
+AC   DO-00382
+FT   DOMAIN.
+TG   PS51393; LIPOXYGENASE_3;
+DO   PDOC00077;
+//
+ID   lipoyl-binding.
+AC   DO-00383
+FT   DOMAIN.
+TG   PS50968; BIOTINYL_LIPOYL;
+DO   PDOC50968;
+//
+ID   LisH.
+AC   DO-00384
+FT   DOMAIN.
+TG   PS50896; LISH;
+DO   PDOC50896;
+//
+ID   LNR.
+AC   DO-00385
+SY   Lin/Notch.
+SY   Lin-12/Notch.
+FT   REPEAT.
+TG   PS50258; LNR;
+DO   PDOC50258;
+//
+ID   Lon.
+AC   DO-00386
+FT   DOMAIN.
+TG   PF02190; LON;
+DO   IPR003111;
+//
+ID   longin.
+AC   DO-00387
+FT   DOMAIN.
+TG   PS50859; LONGIN;
+DO   PDOC50859;
+//
+ID   LRR.
+AC   DO-00388
+SY   leucine-rich.
+FT   REPEAT.
+TG   Rep;
+DO   IPR001611;
+//
+ID   LRRCT.
+AC   DO-00775
+FT   DOMAIN.
+TG   SM00082; LRRCT;
+DO   IPR003591;
+//
+ID   LRRNT.
+AC   DO-00389
+FT   DOMAIN.
+TG   PF01462; LRRNT;
+DO   IPR000372;
+//
+ID   LTD.
+AC   DO-00842
+SY   lamin tail.
+FT   DOMAIN.
+TG   PF00932; LTD;
+DO   IPR001322;
+//
+ID   LysM.
+AC   DO-00390
+FT   REPEAT.
+TG   PF01476; LysM;
+DO   IPR018392;
+//
+ID   MABP.
+AC   DO-00759
+FT   DOMAIN.
+TG   PS51498; MABP;
+DO   PDOC51498;
+//
+ID   MACPF.
+AC   DO-00391
+FT   DOMAIN.
+TG   PS51412; MACPF_2;
+DO   PDOC00251;
+//
+ID   Macro.
+AC   DO-00392
+FT   DOMAIN.
+TG   PS51154; MACRO;
+DO   PDOC51154;
+//
+ID   MADS-box.
+AC   DO-00393
+FT   DOMAIN.
+TG   PS50066; MADS_BOX_2;
+DO   PDOC00302;
+//
+ID   MAGE.
+AC   DO-00394
+FT   DOMAIN.
+TG   PS50838; MAGE;
+DO   PDOC50838;
+//
+ID   MAM.
+AC   DO-00395
+FT   DOMAIN.
+TG   PS50060; MAM_2;
+DO   PDOC00604;
+//
+ID   MANSC.
+AC   DO-00396
+SY   motif at N-terminus with seven cysteines.
+FT   DOMAIN.
+TG   PS50986; MANSC;
+DO   PDOC50986;
+//
+ID   MaoC-like.
+AC   DO-00773
+FT   DOMAIN.
+TG   PF01575; MaoC_dehydratas;
+DO   IPR002539;
+//
+ID   MARVEL.
+AC   DO-00397
+FT   DOMAIN.
+TG   PS51225; MARVEL;
+DO   PDOC51225;
+//
+ID   MATH.
+AC   DO-00398
+SY   meprin and TRAF homology.
+FT   DOMAIN.
+TG   PS50144; MATH;
+DO   PDOC50144;
+//
+ID   matrin-type.
+AC   DO-00399
+FT   ZN_FING.
+TG   PS50171; ZF_MATRIN;
+DO   PDOC50171;
+//
+ID   MBD.
+AC   DO-00400
+SY   methyl-CpG-binding.
+FT   DOMAIN.
+TG   PS50982; MBD;
+DO   PDOC50982;
+//
+ID   MBT.
+AC   DO-00401
+FT   REPEAT.
+TG   PS51079; MBT;
+DO   PDOC51079;
+//
+ID   MCM.
+AC   DO-00402
+FT   DOMAIN.
+TG   PF00493; MCM;
+DO   IPR001208;
+//
+ID   Mef2-type.
+AC   DO-00403
+FT   DNA_BIND.
+TG   None;
+//
+ID   MENTAL.
+AC   DO-00404
+SY   MLN64 N-terminal.
+FT   DOMAIN.
+TG   PS51439; MENTAL;
+DO   PDOC51439;
+//
+ID   MH1.
+AC   DO-00405
+SY   MAD homology 1.
+FT   DOMAIN.
+TG   PS51075; MH1;
+DO   PDOC51075;
+//
+ID   MH2.
+AC   DO-00406
+SY   MAD homology 2.
+FT   DOMAIN.
+TG   PS51076; MH2;
+DO   PDOC51075;
+//
+ID   MHD.
+AC   DO-00407
+SY   mu homology.
+FT   DOMAIN.
+TG   PS51072; MHD;
+DO   PDOC51072;
+//
+ID   MHD1.
+AC   DO-00408
+SY   MUNC13 homology domain 1.
+FT   DOMAIN.
+TG   PS51258; MHD1;
+DO   PDOC51258;
+//
+ID   MHD2.
+AC   DO-00409
+SY   MUNC13 homology domain 2.
+FT   DOMAIN.
+TG   PS51259; MHD2;
+DO   PDOC51258;
+//
+ID   MI.
+AC   DO-00410
+FT   DOMAIN.
+TG   PS51366; MI;
+DO   PDOC51366;
+//
+ID   MIB/HERC2.
+AC   DO-00411
+FT   DOMAIN.
+TG   PS51416; MIB_HERC2;
+DO   PDOC51416;
+//
+ID   Mic1.
+AC   DO-00412
+FT   DOMAIN.
+TG   PF07035; Mic1;
+DO   IPR009755;
+//
+ID   MIF4G.
+AC   DO-00413
+FT   DOMAIN.
+TG   PF02854; MIF4G;
+DO   IPR003890;
+//
+ID   MIR.
+AC   DO-00414
+FT   DOMAIN.
+TG   PS50919; MIR;
+DO   PDOC50919;
+//
+ID   Miro.
+AC   DO-00415
+FT   DOMAIN.
+TG   PS51423; MIRO;
+DO   PDOC51417;
+//
+ID   MIT.
+AC   DO-00416
+FT   DOMAIN.
+TG   PF04212; MIT;
+DO   IPR007330;
+//
+ID   MORN.
+AC   DO-00417
+FT   REPEAT.
+TG   PF02493; MORN;
+DO   IPR003409;
+//
+ID   MOSC.
+AC   DO-00418
+SY   molybdenum cofactor sulfurase C-terminal.
+FT   DOMAIN.
+TG   PS51340; MOSC;
+DO   PDOC51340;
+//
+ID   MPN.
+AC   DO-00419
+SY   JAB/Mov34.
+FT   DOMAIN.
+TG   PF01398; Mov34;
+DO   IPR000555;
+//
+ID   MRG.
+AC   DO-00801
+FT   DOMAIN.
+TG   PS51640; MRG;
+DO   PDOC51640;
+//
+ID   mRNA cap 0 methyltransferase.
+AC   DO-00804
+FT   DOMAIN.
+TG   PS51562; RNA_CAP0_MT;
+DO   PDOC51562;
+//
+ID   MSP.
+AC   DO-00421
+FT   DOMAIN.
+TG   PS50202; MSP;
+DO   PDOC50202;
+//
+ID   MtN3/slv.
+AC   DO-00772
+FT   DOMAIN.
+TG   PF03083; MtN3_slv;
+DO   IPR004316;
+//
+ID   MTTase N-terminal.
+AC   DO-00422
+FT   DOMAIN.
+TG   PS51449; MTTASE_N;
+DO   PDOC00984;
+//
+ID   MUHD.
+AC   DO-00805
+SY   muHD.
+SY   muniscin C-terminal mu homology.
+FT   DOMAIN.
+TG   PF10291; MUHD;
+DO   IPR018808;
+//
+ID   MVP.
+AC   DO-00423
+SY   vault.
+FT   REPEAT.
+TG   PS51224; MVP;
+DO   PDOC51224;
+//
+ID   Myb-like.
+AC   DO-00424
+FT   DOMAIN.
+TG   PS50090; MYB_LIKE;
+DO   PDOC00037;
+//
+ID   MYM-type.
+AC   DO-00425
+FT   ZN_FING.
+TG   PF06467; zf-MYM;
+DO   IPR010507;
+//
+ID   MYND-type.
+AC   DO-00426
+FT   ZN_FING.
+TG   PS50865; ZF_MYND_2;
+DO   PDOC50865;
+//
+ID   myosin head-like.
+AC   DO-00427
+FT   DOMAIN.
+TG   PF00063; Myosin_head;
+DO   IPR001609;
+//
+ID   myosin motor.
+AC   DO-00849
+FT   DOMAIN.
+TG   PS51456; MYOSIN_MOTOR;
+DO   PDOC51456;
+//
+ID   myotubularin phosphatase.
+AC   DO-00428
+FT   DOMAIN.
+TG   PS51339; MYOTUBULARIN_PHP;
+DO   PDOC51339;
+//
+ID   MyTH4.
+AC   DO-00429
+SY   myosin tail homology 4.
+FT   DOMAIN.
+TG   PS51016; MYTH4;
+DO   PDOC51016;
+//
+ID   N-acetyltransferase.
+AC   DO-00430
+FT   DOMAIN.
+TG   PS51186; GNAT;
+DO   PDOC51186;
+//
+ID   N-terminal Ras-GEF.
+AC   DO-00431
+FT   DOMAIN.
+TG   PS50212; RASGEF_NTER;
+DO   PDOC00594;
+//
+ID   NAC-A/B.
+AC   DO-00432
+SY   NAC-alpha/beta.
+FT   DOMAIN.
+TG   PS51151; NAC_AB;
+DO   PDOC51151;
+//
+ID   NACHT.
+AC   DO-00433
+FT   DOMAIN.
+TG   PS50837; NACHT;
+DO   PDOC50837;
+//
+ID   nanos-type.
+AC   DO-00434
+FT   ZN_FING.
+TG   PS51522; ZF_NANOS;
+DO   PDOC51522;
+//
+ID   NB-ARC.
+AC   DO-00436
+FT   DOMAIN.
+TG   PF00931; NB-ARC;
+DO   IPR002182;
+//
+ID   NBD.
+AC   DO-00437
+SY   nonamer binding.
+FT   DNA_BIND.
+TG   PS51487; NBD;
+DO   PDOC51487;
+//
+ID   NBPF.
+AC   DO-00438
+SY   neuroblastoma breakpoint family.
+FT   DOMAIN.
+TG   PS51316; NBPF;
+DO   PDOC51316;
+//
+ID   NDT80.
+AC   DO-00439
+FT   DNA_BIND.
+TG   PS51517; NDT80;
+DO   PDOC51517;
+//
+ID   nebulin.
+AC   DO-00440
+FT   REPEAT.
+TG   PS51216; NEBULIN;
+DO   PDOC51216;
+//
+ID   NET.
+AC   DO-00809
+FT   DOMAIN.
+TG   PS51525; NET;
+DO   PDOC51525;
+//
+ID   NF-X1-type.
+AC   DO-00441
+FT   ZN_FING.
+TG   PF01422; zf-NF-X1;
+DO   IPR000967;
+//
+ID   NHL.
+AC   DO-00442
+FT   REPEAT.
+TG   PS51125; NHL;
+DO   PDOC51125;
+//
+ID   NHR.
+AC   DO-00443
+SY   neuralized homology repeat.
+FT   DOMAIN.
+TG   PS51065; NHR;
+DO   PDOC51065;
+//
+ID   NIDO.
+AC   DO-00444
+FT   DOMAIN.
+TG   PS51220; NIDO;
+DO   PDOC51220;
+//
+ID   nidogen G2 beta-barrel.
+AC   DO-00445
+FT   DOMAIN.
+TG   PS50993; NIDOGEN_G2;
+DO   PDOC50993;
+//
+ID   Nop.
+AC   DO-00446
+FT   DOMAIN.
+TG   PS51358; NOP;
+DO   PDOC51358;
+//
+ID   NSE1-type.
+AC   DO-00447
+FT   ZN_FING.
+TG   None;
+//
+ID   NtA.
+AC   DO-00448
+SY   N-terminal agrin.
+FT   DOMAIN.
+TG   PS51121; NTA;
+DO   PDOC51121;
+//
+ID   NTF2.
+AC   DO-00449
+SY   nuclear transport factor 2.
+FT   DOMAIN.
+TG   PS50177; NTF2_DOMAIN;
+DO   PDOC50177;
+//
+ID   NTR.
+AC   DO-00450
+SY   netrin module.
+FT   DOMAIN.
+TG   PS50189; NTR;
+DO   PDOC50189;
+//
+ID   nudix hydrolase.
+AC   DO-00451
+FT   DOMAIN.
+TG   PS51462; NUDIX;
+DO   PDOC00695;
+//
+ID   nuclear receptor.
+AC   DO-00452
+FT   DNA_BIND.
+TG   PS51030; NUCLEAR_REC_DBD_2;
+DO   PDOC00031;
+//
+ID   NYN.
+AC   DO-00795
+FT   DOMAIN.
+TG   PF01936; NYN;
+DO   IPR021139;
+//
+ID   OB.
+AC   DO-00453
+FT   DNA_BIND.
+TG   PF01336; tRNA_anti;
+DO   IPR004365;
+//
+ID   OBG-type G.
+AC   DO-00840
+SY   OBG-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51710; G_OBG;
+DO   PDOC51710;
+//
+ID   OCIA.
+AC   DO-00454
+FT   DOMAIN.
+TG   PF07051; OCIA;
+DO   IPR009764;
+//
+ID   olfactomedin-like.
+AC   DO-00455
+FT   DOMAIN.
+TG   PS51132; OLF;
+DO   PDOC51132;
+//
+ID   OPR.
+AC   DO-00456
+FT   DOMAIN.
+TG   PF00564; PB1;
+DO   IPR000270;
+//
+ID   Orange.
+AC   DO-00457
+FT   DOMAIN.
+TG   PS51054; ORANGE;
+DO   PDOC51054;
+//
+ID   OTU.
+AC   DO-00458
+FT   DOMAIN.
+TG   PS50802; OTU;
+DO   PDOC50802;
+//
+ID   oxidoreductase-like.
+AC   DO-00810
+FT   DOMAIN.
+TG   PF09791; Oxidored-like;
+DO   IPR019180;
+//
+ID   P-type.
+AC   DO-00459
+SY   trefoil.
+FT   DOMAIN.
+TG   PS51448; P_TREFOIL_2;
+DO   PDOC00024;
+//
+ID   PA.
+AC   DO-00460
+SY   protease associated.
+FT   DOMAIN.
+TG   PF02225; PA;
+DO   IPR003137;
+//
+ID   PABC.
+AC   DO-00461
+SY   poly(A)-binding protein C-terminal.
+FT   DOMAIN.
+TG   PS51309; PABC;
+DO   PDOC51309;
+//
+ID   PABS.
+AC   DO-00830
+SY   polyamine biosynthesis.
+FT   DOMAIN.
+TG   PS51006; PABS_2;
+DO   PDOC01033;
+//
+ID   PAC.
+AC   DO-00462
+SY   PAS-associated C-terminal.
+FT   DOMAIN.
+TG   PS50113; PAC;
+DO   PDOC50112;
+//
+ID   PAH.
+AC   DO-00463
+SY   paired amphipathic helix.
+FT   DOMAIN.
+TG   PS51477; PAH;
+DO   PDOC51477;
+//
+ID   paired.
+AC   DO-00464
+FT   DOMAIN.
+TG   PS51057; PAIRED_2;
+DO   PDOC00034;
+//
+ID   PAN.
+AC   DO-00465
+FT   DOMAIN.
+TG   PS50948; PAN;
+DO   PDOC00376;
+//
+ID   PAP-associated.
+AC   DO-00767
+FT   DOMAIN.
+TG   PF03828; PAP_assoc;
+DO   IPR002058;
+//
+ID   PARP alpha-helical.
+AC   DO-00466
+FT   DOMAIN.
+TG   PS51060; PARP_ALPHA_HD;
+DO   PDOC51059;
+//
+ID   PARP catalytic.
+AC   DO-00467
+FT   DOMAIN.
+TG   PS51059; PARP_CATALYTIC;
+DO   PDOC51059;
+//
+ID   PARP-type.
+AC   DO-00468
+FT   ZN_FING.
+TG   PS50064; PARP_ZN_FINGER_2;
+DO   PDOC00360;
+//
+ID   PAS.
+AC   DO-00469
+SY   PER-ARNT-SIM.
+FT   DOMAIN.
+TG   PS50112; PAS;
+DO   PDOC50112;
+//
+ID   patatin.
+AC   DO-00470
+FT   DOMAIN.
+TG   PF01734; Patatin;
+DO   IPR002641;
+//
+ID   PAW.
+AC   DO-00471
+FT   DOMAIN.
+TG   PS51398; PAW;
+DO   PDOC51398;
+//
+ID   PAZ.
+AC   DO-00472
+FT   DOMAIN.
+TG   PS50821; PAZ;
+DO   PDOC50821;
+//
+ID   PbH1.
+AC   DO-00473
+FT   REPEAT.
+TG   SM00710; PbH1;
+DO   IPR006626;
+//
+ID   PBZ-type.
+AC   DO-00474
+FT   ZN_FING.
+TG   None;
+//
+ID   PC.
+AC   DO-00475
+FT   REPEAT.
+TG   PF01851; PC_rep;
+DO   IPR002015;
+//
+ID   PCI.
+AC   DO-00476
+FT   DOMAIN.
+TG   PF01399; PCI;
+DO   IPR000717;
+//
+ID   PDZ.
+AC   DO-00477
+SY   DHR.
+SY   discs-large homologous region.
+FT   DOMAIN.
+TG   PS50106; PDZ;
+DO   PDOC50106;
+//
+ID   pentapeptide repeat.
+AC   DO-00478
+FT   DOMAIN.
+TG   PF00805; Pentapeptide;
+DO   IPR001646;
+//
+ID   pentaxin.
+AC   DO-00479
+FT   DOMAIN.
+TG   PF00354; Pentaxin;
+DO   IPR001759;
+//
+ID   peptidase A2.
+AC   DO-00480
+FT   DOMAIN.
+TG   PS50175; ASP_PROT_RETROV;
+DO   PDOC00128;
+//
+ID   peptidase C50.
+AC   DO-00836
+SY   separin core
+FT   DOMAIN.
+TG   PS51700; SEPARIN;
+DO   PDOC51700;
+//
+ID   peptidase M12B.
+AC   DO-00481
+FT   DOMAIN.
+TG   PS50215; ADAM_MEPRO;
+DO   PDOC50215;
+//
+ID   peptidase S1.
+AC   DO-00482
+FT   DOMAIN.
+TG   PS50240; TRYPSIN_DOM;
+DO   PDOC00124;
+//
+ID   peptidase S53.
+AC   DO-00831
+FT   DOMAIN.
+TG   PS51695; SEDOLISIN;
+DO   PDOC51695
+//
+ID   peptidase S59.
+AC   DO-00483
+FT   DOMAIN.
+TG   PS51434; NUP_C;
+DO   PDOC51434;
+//
+ID   peptidase S68.
+AC   DO-00484
+FT   DOMAIN.
+TG   None;
+//
+ID   peptidase S72.
+AC   DO-00485
+FT   DOMAIN.
+TG   None;
+//
+ID   peptidase S74.
+AC   DO-00825
+FT   DOMAIN.
+TG   PS51688; ICA;
+DO   PDOC51688;
+//
+ID   peptidase S8.
+AC   DO-00486
+FT   DOMAIN.
+TG   PF00082; Peptidase_S8;
+DO   IPR000209;
+//
+ID   PET.
+AC   DO-00487
+FT   DOMAIN.
+TG   PS51303; PET;
+DO   PDOC51303;
+//
+ID   PFTA.
+AC   DO-00488
+SA   protein prenyltransferases alpha subunit.
+FT   REPEAT.
+TG   PS51147; PFTA;
+DO   PDOC00703;
+//
+ID   PFTB.
+AC   DO-00489
+SA   protein prenyltransferases beta subunit.
+FT   REPEAT.
+TG   Rep;
+DO   IPR001330;
+//
+ID   PFU.
+AC   DO-00490
+SY   PLAA family ubiquitin binding.
+FT   DOMAIN.
+TG   PS51394; PFU;
+DO   PDOC51394;
+//
+ID   PH.
+AC   DO-00491
+SY   pleckstrin homology.
+FT   DOMAIN.
+TG   PS50003; PH_DOMAIN;
+DO   PDOC50003;
+//
+ID   PHD-type.
+AC   DO-00492
+SY   plant homeodomain-type.
+FT   ZN_FING.
+TG   PS50016; ZF_PHD_2;
+DO   PDOC50016;
+//
+ID   phorbol-ester/DAG-type.
+AC   DO-00493
+SY   PE/DAG-type.
+FT   ZN_FING.
+TG   PS50081; ZF_DAG_PE_2;
+DO   PDOC00379;
+//
+ID   phosphagen kinase C-terminal.
+AC   DO-00768
+FT   DOMAIN.
+TG   PS51510; PHOSPHAGEN_KINASE_C;
+DO   PDOC00103;
+//
+ID   phosphagen kinase N-terminal.
+AC   DO-00769
+FT   DOMAIN.
+TG   PS51509; PHOSPHAGEN_KINASE_N;
+DO   PDOC00103;
+//
+ID   phosphatase tensin-type.
+AC   DO-00494
+FT   DOMAIN.
+TG   PS51181; PPASE_TENSIN;
+DO   PDOC51181;
+//
+ID   photolyase/cryptochrome alpha/beta.
+AC   DO-00806
+FT   DOMAIN.
+TG   PS51645; PHR_CRY_ALPHA_BETA;
+DO   PDOC51645;
+//
+ID   PI-PLC X-box.
+AC   DO-00495
+SY   phosphatidylinositol-specific phospholipase C X-box.
+FT   DOMAIN.
+TG   PS50007; PIPLC_X_DOMAIN;
+DO   PDOC50007;
+//
+ID   PI-PLC Y-box.
+AC   DO-00496
+SY   phosphatidylinositol-specific phospholipase C Y-box.
+FT   DOMAIN.
+TG   PS50008; PIPLC_Y_DOMAIN;
+DO   PDOC50007;
+//
+ID   PI3K/PI4K.
+AC   DO-00497
+FT   DOMAIN.
+TG   PF00454; PI3_PI4_kinase;
+DO   IPR000403;
+//
+ID   PI3K-ABD.
+AC   DO-00791
+SY   phosphatidylinositol 3-kinase adaptor-binding.
+FT   DOMAIN.
+TG   PS51544; PI3K_ABD;
+DO   PDOC51544;
+//
+ID   PI3K-RBD.
+AC   DO-00792
+SY   phosphatidylinositol 3-kinase Ras-binding.
+FT   DOMAIN.
+TG   PS51546; PI3K_RBD;
+DO   PDOC51546;
+//
+ID   PID.
+AC   DO-00498
+SY   phosphotyrosine interaction.
+FT   DOMAIN.
+TG   PS01179; PID;
+DO   PDOC00907;
+//
+ID   PIK helical.
+AC   DO-00793
+SY   phosphatidylinositol kinase helical.
+FT   DOMAIN.
+TG   PS51545; PIK_HELICAL;
+DO   PDOC51545;
+//
+ID   PINc.
+AC   DO-00499
+FT   DOMAIN.
+TG   SM00670; PINc;
+DO   IPR006596;
+//
+ID   PINIT.
+AC   DO-00500
+FT   DOMAIN.
+TG   PS51466; PINIT;
+DO   PDOC51466;
+//
+ID   PIPK.
+AC   DO-00501
+SY   phosphatidylinositol phosphate kinase.
+FT   DOMAIN.
+TG   PS51455; PIPK;
+DO   PDOC51455;
+//
+ID   PISA.
+AC   DO-00502
+FT   DOMAIN.
+TG   None;
+//
+ID   PITH.
+SY   proteasome-interacting thioredoxin.
+AC   DO-00776
+FT   DOMAIN.
+TG   PS51532; PITH;
+DO   PDOC51532;
+//
+ID   Piwi.
+AC   DO-00503
+SY   Sting.
+FT   DOMAIN.
+TG   PS50822; PIWI;
+DO   PDOC50822;
+//
+ID   PKD.
+AC   DO-00504
+SY   polycystic kidney disease.
+FT   DOMAIN.
+TG   PS50093; PKD;
+DO   PDOC50093;
+//
+ID   PLA2c.
+AC   DO-00506
+FT   DOMAIN.
+TG   PS51210; PLA2C;
+DO   PDOC51210;
+//
+ID   PLAC.
+AC   DO-00507
+SY   protease and lacunin.
+FT   DOMAIN.
+TG   PS50900; PLAC;
+DO   PDOC50900;
+//
+ID   plastocyanin-like.
+AC   DO-00508
+FT   DOMAIN.
+TG   PF07732; Cu-oxidase_3;
+DO   IPR011707;
+//
+ID   PLAT.
+AC   DO-00509
+FT   DOMAIN.
+TG   PS50095; PLAT;
+DO   PDOC50095;
+//
+ID   PLD phosphodiesterase.
+AC   DO-00510
+FT   DOMAIN.
+TG   PS50035; PLD;
+DO   PDOC50035;
+//
+ID   plectin.
+AC   DO-00511
+FT   REPEAT.
+TG   PF00681; Plectin;
+DO   IPR001101;
+//
+ID   Plus3.
+AC   DO-00512
+FT   DOMAIN.
+TG   PS51360; PLUS3;
+DO   PDOC51360;
+//
+ID   PNT.
+AC   DO-00513
+SY   pointed.
+FT   DOMAIN.
+TG   PS51433; PNT;
+DO   PDOC51433;
+//
+ID   POLO box.
+AC   DO-00514
+FT   DOMAIN.
+TG   PS50078; POLO_BOX;
+DO   PDOC50078;
+//
+ID   post-SET.
+AC   DO-00515
+FT   DOMAIN.
+TG   PS50868; POST_SET;
+DO   PDOC50280;
+//
+ID   POU-specific.
+AC   DO-00516
+FT   DOMAIN.
+TG   PS51179; POU_3;
+DO   PDOC00035;
+//
+ID   PP2C-like.
+AC   DO-00517
+FT   DOMAIN.
+TG   PF00481; PP2C;
+DO   IPR001932;
+//
+ID   PPIase cyclophilin-type.
+AC   DO-00518
+FT   DOMAIN.
+TG   PS50072; CSA_PPIASE_2;
+DO   PDOC00154;
+//
+ID   PPIase FKBP-type.
+AC   DO-00519
+FT   DOMAIN.
+TG   PS50059; FKBP_PPIASE_3;
+DO   PDOC00426;
+//
+ID   PpiC.
+AC   DO-00520
+FT   DOMAIN.
+TG   PS50198; PPIC_PPIASE_2;
+DO   PDOC00840;
+//
+ID   PPPDE peptidase.
+AC   DO-00521
+FT   DOMAIN.
+TG   PF05903; DUF862;
+DO   IPR008580;
+//
+ID   PPR.
+AC   DO-00522
+SY   pentatricopeptide.
+FT   REPEAT.
+TG   PS51375; PPR;
+DO   PDOC51375;
+//
+ID   PQ-loop.
+AC   DO-00523
+FT   DOMAIN.
+TG   PF04193; PQ-loop;
+DO   IPR006603;
+//
+ID   PRAD.
+AC   DO-00524
+SY   Pro-rich attachment.
+FT   DOMAIN.
+TG   None;
+//
+ID   PRKCSH.
+AC   DO-00525
+FT   DOMAIN.
+TG   PF07915; PRKCSH;
+DO   IPR012913;
+//
+ID   pre-SET.
+AC   DO-00526
+FT   DOMAIN.
+TG   PS50867; PRE_SET;
+DO   PDOC50280;
+//
+ID   PRELI/MSF1.
+AC   DO-00527
+FT   DOMAIN.
+TG   PS50904; PRELI_MSF1;
+DO   PDOC50904;
+//
+ID   Prospero-type homeobox.
+AC   DO-00528
+FT   DNA_BIND.
+TG   None;
+//
+ID   protein kinase.
+AC   DO-00529
+FT   DOMAIN.
+TG   PS50011; PROTEIN_KINASE_DOM;
+DO   PDOC00100;
+//
+ID   pseudo-CRIB.
+AC   DO-00530
+FT   DOMAIN.
+TG   None;
+//
+ID   PSI.
+AC   DO-00531
+FT   DOMAIN.
+TG   SM00423; PSI;
+DO   IPR003659;
+//
+ID   pterin-binding.
+AC   DO-00532
+FT   DOMAIN.
+TG   PS50972; PTERIN_BINDING;
+DO   PDOC50972;
+//
+ID   PUA.
+AC   DO-00533
+FT   DOMAIN.
+TG   PS50890; PUA;
+DO   PDOC50890;
+//
+ID   PUB.
+AC   DO-00534
+SY   PUG.
+FT   DOMAIN.
+TG   SM00580; PUG;
+DO   IPR006567;
+//
+ID   PUL.
+AC   DO-00535
+FT   DOMAIN.
+TG   PS51396; PUL;
+DO   PDOC51396;
+//
+ID   PUM-HD.
+AC   DO-00536
+FT   DOMAIN.
+TG   PS50303; PUM_HD;
+DO   PDOC50302;
+//
+ID   pumilio.
+AC   DO-00537
+FT   REPEAT.
+TG   PS50302; PUM;
+DO   PDOC50302;
+//
+ID   PWI.
+AC   DO-00538
+SY   Pro-Trp-Ile.
+FT   DOMAIN.
+TG   PS51025; PWI;
+DO   PDOC51025;
+//
+ID   PWWP.
+AC   DO-00539
+SY   Pro-Trp-Trp-Pro.
+FT   DOMAIN.
+TG   PS50812; PWWP;
+DO   PDOC50812;
+//
+ID   PX.
+AC   DO-00540
+SY   phox homology.
+FT   DOMAIN.
+TG   PS50195; PX;
+DO   PDOC50195;
+//
+ID   PXA.
+AC   DO-00541
+SY   PX-associated.
+FT   DOMAIN.
+TG   PS51207; PXA;
+DO   PDOC51207;
+//
+ID   QLQ.
+AC   DO-00811
+FT   DOMAIN.
+TG   PS51666; QLQ;
+DO   PDOC51666;
+//
+ID   R3H.
+AC   DO-00542
+FT   DOMAIN.
+TG   PS51061; R3H;
+DO   PDOC51061;
+//
+ID   Rab-GAP TBC.
+AC   DO-00543
+FT   DOMAIN.
+TG   PS50086; TBC_RABGAP;
+DO   PDOC50086;
+//
+ID   RabBD.
+AC   DO-00544
+SY   Rab-binding.
+FT   DOMAIN.
+TG   PS50916; RABBD;
+DO   PDOC50916;
+//
+ID   RAG1-type.
+AC   DO-00751
+FT   ZN_FING.
+TG   PF10426; zf-RAG1;
+DO   IPR019485;
+//
+ID   RanBD1.
+AC   DO-00546
+FT   DOMAIN.
+TG   PS50196; RANBD1;
+DO   PDOC50196;
+//
+ID   RanBP2-type.
+AC   DO-00547
+FT   ZN_FING.
+TG   PS50199; ZF_RANBP2_2;
+DO   PDOC50199;
+//
+ID   RAP.
+AC   DO-00548
+FT   DOMAIN.
+TG   PS51286; RAP;
+DO   PDOC51286;
+//
+ID   Rap-GAP.
+AC   DO-00549
+FT   DOMAIN.
+TG   PS50085; RAPGAP;
+DO   PDOC50085;
+//
+ID   Ras-associating.
+AC   DO-00550
+FT   DOMAIN.
+TG   PS50200; RA;
+DO   PDOC50200;
+//
+ID   Ras-GAP.
+AC   DO-00551
+FT   DOMAIN.
+TG   PS50018; RAS_GTPASE_ACTIV_2;
+DO   PDOC00438;
+//
+ID   Ras-GEF.
+AC   DO-00552
+FT   DOMAIN.
+TG   PS50009; RASGEF_CAT;
+DO   PDOC00594;
+//
+ID   RBD.
+AC   DO-00553
+SY   Ras-binding.
+FT   DOMAIN.
+TG   PS50898; RBD;
+DO   PDOC50898;
+//
+ID   RCC1.
+AC   DO-00554
+FT   REPEAT.
+TG   Rep;
+DO   PDOC00544;
+//
+ID   RCK N-terminal.
+AC   DO-00555
+FT   DOMAIN.
+TG   PS51201; RCK_N;
+DO   PDOC51201;
+//
+ID   RCSD.
+AC   DO-00556
+FT   DOMAIN.
+TG   PF05177; RCSD;
+DO   IPR007850;
+//
+ID   RDD.
+AC   DO-00557
+FT   DOMAIN.
+TG   PF06271; RDD;
+DO   IPR010432;
+//
+ID   reelin.
+AC   DO-00558
+FT   DOMAIN.
+TG   PS51019; REELIN;
+DO   PDOC51019;
+//
+ID   REJ.
+AC   DO-00559
+FT   DOMAIN.
+TG   PS51111; REJ;
+DO   PDOC51111;
+//
+ID   REKLES.
+AC   DO-00757
+FT   DOMAIN.
+TG   PS51486; REKLES;
+DO   PDOC51486;
+//
+ID   REM.
+AC   DO-00560
+SY   Hr1.
+FT   REPEAT.
+TG   PF02185; HR1;
+DO   IPR011072;
+//
+ID   reticulon.
+AC   DO-00561
+FT   DOMAIN.
+TG   PS50845; RETICULON;
+DO   PDOC50845;
+//
+ID   reverse transcriptase.
+AC   DO-00562
+FT   DOMAIN.
+TG   PS50878; RT_POL;
+DO   PDOC50878;
+//
+ID   RFX-type winged-helix.
+AC   DO-00782
+FT   DNA_BIND.
+TG   PS51526; RFX_DBD;
+DO   PDOC51526;
+//
+ID   RGS.
+AC   DO-00563
+SY   regulator of G-protein signaling.
+FT   DOMAIN.
+TG   PS50132; RGS;
+DO   PDOC50132;
+//
+ID   RGSL.
+AC   DO-00564
+SY   RGS-like.
+FT   DOMAIN.
+TG   None;
+//
+ID   RHD.
+AC   DO-00565
+SY   Rel-like.
+FT   DOMAIN.
+TG   PS50254; REL_2;
+DO   PDOC00924;
+//
+ID   Rho-GAP.
+AC   DO-00566
+FT   DOMAIN.
+TG   PS50238; RHOGAP;
+DO   PDOC50238;
+//
+ID   rhodanese.
+AC   DO-00567
+FT   DOMAIN.
+TG   PS50206; RHODANESE_3;
+DO   PDOC00322;
+//
+ID   ricin B-type lectin.
+AC   DO-00568
+FT   DOMAIN.
+TG   PS50231; RICIN_B_LECTIN;
+DO   PDOC50231;
+//
+ID   RID.
+AC   DO-00569
+SY   receptor interacting.
+FT   DOMAIN.
+TG   None;
+//
+ID   Rieske.
+AC   DO-00570
+FT   DOMAIN.
+TG   PS51296; RIESKE;
+DO   PDOC00177;
+//
+ID   RIIa.
+AC   DO-00571
+FT   DOMAIN.
+TG   PF02197; RIIa;
+DO   IPR003117;
+//
+ID   RILP-like.
+AC   DO-00572
+FT   DOMAIN.
+TG   None;
+//
+ID   RING-type.
+AC   DO-00573
+SY   C3HC4-type.
+FT   ZN_FING.
+TG   PS50089; ZF_RING_2;
+DO   PDOC00449;
+//
+ID   RING-CH-type.
+AC   DO-00574
+FT   ZN_FING.
+TG   PS51292; ZF_RING_CH;
+DO   PDOC51292;
+//
+ID   RINT1/TIP20.
+AC   DO-00575
+FT   DOMAIN.
+TG   PS51386; RINT1_TIP20;
+DO   PDOC51386;
+//
+ID   RIP-type.
+AC   DO-00576
+FT   ZN_FING.
+TG   None;
+//
+ID   RMT2.
+AC   DO-00803
+FT   DOMAIN.
+TG   PS51559; SAM_RMT2;
+DO   PDOC51555;
+//
+ID   RNase H.
+AC   DO-00577
+SY   ribonuclease H.
+FT   DOMAIN.
+TG   PS50879; RNASE_H;
+DO   PDOC50879;
+//
+ID   RNase III.
+AC   DO-00578
+SY   ribonuclease III.
+FT   DOMAIN.
+TG   PS50142; RNASE_3_2;
+DO   PDOC00448;
+//
+ID   Roc.
+AC   DO-00579
+FT   DOMAIN.
+TG   PS51424; ROC;
+DO   PDOC51417;
+//
+ID   RPEL.
+AC   DO-00580
+FT   REPEAT.
+TG   PS51073; RPEL;
+DO   PDOC51073;
+//
+ID   RRM.
+AC   DO-00581
+SY   RNA recognition motif.
+FT   DOMAIN.
+TG   PS50102; RRM;
+DO   PDOC00030;
+//
+ID   RRM Nup35-type.
+AC   DO-00744
+SY   RNA recognition motif Nup35-type.
+FT   DOMAIN.
+TG   PS51472; RRM_NUP35;
+DO   PDOC51472;
+//
+ID   RrmJ-type SAM-dependent 2'-O-MTase.
+AC   DO-00826
+FT   DOMAIN.
+TG   PS51613; SAM_MT_RRMJ;
+DO   PDOC51555;
+//
+ID   RTR1-type.
+AC   DO-00752
+FT   ZN_FING.
+TG   PS51479; ZF_RTR1;
+DO   PDOC51479;
+//
+ID   RUN.
+AC   DO-00582
+FT   DOMAIN.
+TG   PS50826; RUN;
+DO   PDOC50826;
+//
+ID   Runt.
+AC   DO-00583
+FT   DOMAIN.
+TG   PS51062; RUNT;
+DO   PDOC51062;
+//
+ID   RWD.
+AC   DO-00584
+FT   DOMAIN.
+TG   PS50908; RWD;
+DO   PDOC50908;
+//
+ID   S1 motif.
+AC   DO-00585
+FT   DOMAIN.
+TG   PS50126; S1;
+DO   PDOC50126;
+//
+ID   S1-like.
+AC   DO-00586
+FT   DOMAIN.
+TG   PS50832; S1_IF1_TYPE;
+DO   PDOC50126;
+//
+ID   S4 RNA-binding.
+AC   DO-00587
+FT   DOMAIN.
+TG   PS50889; S4;
+DO   PDOC50889;
+//
+ID   S5 DRBM.
+AC   DO-00588
+FT   DOMAIN.
+TG   PS50881; S5_DSRBD;
+DO   PDOC00505;
+//
+ID   SAC.
+AC   DO-00589
+FT   DOMAIN.
+TG   PS50275; SAC;
+DO   PDOC50275;
+//
+ID   SAM.
+AC   DO-00590
+SY   sterile alpha motif.
+FT   DOMAIN.
+TG   PS50105; SAM_DOMAIN;
+DO   PDOC50105;
+//
+ID   SAM-dependent MTase C5-type.
+AC   DO-00828
+FT   DOMAIN.
+TG   PS51679; SAM_MT_C5;
+DO   PDOC51555;
+//
+ID   SAM-dependent MTase PRMT-type.
+AC   DO-00829
+FT   DOMAIN.
+TG   PS51678; SAM_MT_PRMT;
+DO   PDOC51555;
+//
+ID   SAM-dependent MTase TRM10-type.
+AC   DO-00821
+SY   SAM-dependent methyltransferase TRM10-type.
+FT   DOMAIN.
+TG   PS51675; SAM_MT_TRM10;
+DO   PDOC51604;
+//
+ID   SAND.
+AC   DO-00591
+FT   DOMAIN.
+TG   PS50864; SAND;
+DO   PDOC50864;
+//
+ID   SANT.
+AC   DO-00592
+FT   DOMAIN.
+TG   PS51293; SANT;
+DO   PDOC51293;
+//
+ID   SAP.
+AC   DO-00593
+FT   DOMAIN.
+TG   PS50800; SAP;
+DO   PDOC50800;
+//
+ID   saposin A-type.
+AC   DO-00594
+FT   DOMAIN.
+TG   PS51110; SAP_A;
+DO   PDOC51110;
+//
+ID   saposin B-type.
+AC   DO-00595
+FT   DOMAIN.
+TG   PS50015; SAP_B;
+DO   PDOC50015;
+//
+ID   SARAH.
+AC   DO-00596
+FT   DOMAIN.
+TG   PS50951; SARAH;
+DO   PDOC50951;
+//
+ID   SB.
+AC   DO-00597
+SY   steadiness box.
+FT   DOMAIN.
+TG   PS51312; SB;
+DO   PDOC51312;
+//
+ID   SCA7.
+AC   DO-00598
+FT   DOMAIN.
+TG   PS51505; SCA7;
+DO   PDOC51505;
+//
+ID   SCAN box.
+AC   DO-00599
+FT   DOMAIN.
+TG   PS50804; SCAN_BOX;
+DO   PDOC50804;
+//
+ID   SCD.
+AC   DO-00600
+SY   stromalin conservative.
+FT   DOMAIN.
+TG   PS51425; SCD;
+DO   PDOC51425;
+//
+ID   SCP.
+AC   DO-00601
+FT   DOMAIN.
+TG   PF00188; SCP;
+DO   IPR014044;
+//
+ID   SCP2.
+AC   DO-00602
+FT   DOMAIN.
+TG   PF02036; SCP2;
+DO   IPR003033;
+//
+ID   SEA.
+AC   DO-00603
+FT   DOMAIN.
+TG   PS50024; SEA;
+DO   PDOC50024;
+//
+ID   SEC63.
+AC   DO-00604
+FT   DOMAIN.
+TG   PF02889; Sec63/Brl;
+DO   IPR004179;
+//
+ID   SEC7.
+AC   DO-00605
+FT   DOMAIN.
+TG   PS50190; SEC7;
+DO   PDOC50190;
+//
+ID   SEFIR.
+AC   DO-00779
+FT   DOMAIN.
+TG   PS51534; SEFIR;
+DO   PDOC51534;
+//
+ID   Sel1-like.
+AC   DO-00606
+FT   REPEAT.
+TG   SM00671; SEL1;
+DO   IPR006597;
+//
+ID   Sema.
+AC   DO-00607
+FT   DOMAIN.
+TG   PS51004; SEMA;
+DO   PDOC51004;
+//
+ID   SEP.
+AC   DO-00608
+FT   DOMAIN.
+TG   PS51399; SEP;
+DO   PDOC51399;
+//
+ID   septin-type G.
+AC   DO-00850
+SY   septin-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51719; G_SEPTIN;
+DO   PDOC51719;
+//
+ID   SERTA.
+AC   DO-00609
+FT   DOMAIN.
+TG   PS51053; SERTA;
+DO   PDOC51053;
+//
+ID   SET.
+AC   DO-00610
+FT   DOMAIN.
+TG   PS50280; SET;
+DO   PDOC50280;
+//
+ID   SF4 helicase.
+AC   DO-00611
+FT   DOMAIN.
+TG   PS51199; SF4_HELICASE;
+DO   PDOC51199;
+//
+ID   SGF11-type.
+AC   DO-00612
+FT   ZN_FING.
+TG   None;
+//
+ID   SGF29 C-terminal.
+AC   DO-00774
+SY   SGF29 Tudor-like.
+FT   DOMAIN.
+TG   PS51518; SGF29_C;
+DO   PDOC51518;
+//
+ID   SGS.
+AC   DO-00613
+SY   SGT1-specific.
+FT   DOMAIN.
+TG   PS51048; SGS;
+DO   PDOC51048;
+//
+ID   SH2.
+AC   DO-00614
+SY   Src homology 2.
+FT   DOMAIN.
+TG   PS50001; SH2;
+DO   PDOC50001;
+//
+ID   SH3.
+AC   DO-00615
+SY   Src homology 3.
+FT   DOMAIN.
+TG   PS50002; SH3;
+DO   PDOC50002;
+//
+ID   SHD.
+AC   DO-00616
+SY   stonin homology.
+FT   DOMAIN.
+TG   PS51070; SHD;
+DO   PDOC51070;
+//
+ID   ShKT.
+AC   DO-00648
+SY   ion channel regulator.
+SY   ICR.
+SY   nematode six-cysteine.
+SY   NC6.
+SY   SXC.
+FT   DOMAIN.
+TG   PS51670; SHKT;
+DO   PDOC51670;
+//
+ID   SIAH-type.
+AC   DO-00617
+FT   ZN_FING.
+TG   PS51081; ZF_SIAH;
+DO   PDOC51081;
+//
+ID   Single-minded C-terminal.
+AC   DO-00618
+SY   sim-C.
+FT   DOMAIN.
+TG   PS51302; SIM_C;
+DO   PDOC51302;
+//
+ID   SIS.
+AC   DO-00619
+SY   sugar isomerase.
+FT   DOMAIN.
+TG   PS51464; SIS;
+DO   PDOC51464;
+//
+ID   SLD.
+AC   DO-00818
+SY   stathmin-like.
+FT   DOMAIN.
+TG   PS51663; STATHMIN_3;
+DO   PDOC00487;
+//
+ID   SLX1-type.
+AC   DO-00620
+FT   ZN_FING.
+TG   None;
+//
+ID   SMB.
+AC   DO-00621
+SY   somatomedin-B.
+FT   DOMAIN.
+TG   PS50958; SMB_2;
+DO   PDOC00453;
+//
+ID   Smr.
+AC   DO-00622
+FT   DOMAIN.
+TG   PS50828; SMR;
+DO   PDOC50828;
+//
+ID   SOCS box.
+AC   DO-00623
+FT   DOMAIN.
+TG   PS50225; SOCS;
+DO   PDOC50225;
+//
+ID   SoHo.
+AC   DO-00624
+FT   DOMAIN.
+TG   PS50831; SOHO;
+DO   PDOC50831;
+//
+ID   Solcar.
+AC   DO-00625
+SY   solute carrier.
+FT   REPEAT.
+TG   PS50920; SOLCAR;
+DO   PDOC00189;
+//
+ID   Sox C-terminal.
+AC   DO-00770
+FT   DOMAIN.
+TG   PS51516; SOX_C;
+DO   PDOC51516;
+//
+ID   SP-RING-type.
+AC   DO-00626
+FT   ZN_FING.
+TG   PS51044; ZF_SP_RING;
+DO   PDOC51044;
+//
+ID   SPAZ.
+AC   DO-00627
+SY   Ser/Pro-rich AZU-1.
+FT   DOMAIN.
+TG   None;
+//
+ID   spectrin.
+AC   DO-00628
+FT   REPEAT.
+TG   PF00435; Spectrin;
+DO   IPR002017;
+//
+ID   SPOC.
+AC   DO-00629
+FT   DOMAIN.
+TG   PS50917; SPOC;
+DO   PDOC50917;
+//
+ID   spondin.
+AC   DO-00630
+FT   DOMAIN.
+TG   PS51020; SPONDIN;
+DO   PDOC51020;
+//
+ID   SPR.
+AC   DO-00631
+SY   sprouty.
+FT   DOMAIN.
+TG   PS51227; SPR;
+DO   PDOC51227;
+//
+ID   SprT-like.
+AC   DO-00812
+FT   DOMAIN.
+TG   PF10263; SprT-like;
+DO   IPR006640;
+//
+ID   SPX.
+AC   DO-00632
+FT   DOMAIN.
+TG   PS51382; SPX;
+DO   PDOC51382;
+//
+ID   SRCR.
+AC   DO-00633
+FT   DOMAIN.
+TG   PS50287; SRCR_2;
+DO   PDOC00348;
+//
+ID   SSB.
+AC   DO-00634
+SY   single-strand binding.
+FT   DOMAIN.
+TG   PS50935; SSB;
+DO   PDOC00602;
+//
+ID   SSD.
+AC   DO-00635
+SY   sterol-sensing.
+FT   DOMAIN.
+TG   PS50156; SSD;
+DO   PDOC50156;
+//
+ID   START.
+AC   DO-00636
+SY   StAR-related lipid-transfer.
+FT   DOMAIN.
+TG   PS50848; START;
+DO   PDOC50848;
+//
+ID   STAS.
+AC   DO-00637
+FT   DOMAIN.
+TG   PS50801; STAS;
+DO   PDOC50801;
+//
+ID   STI1.
+AC   DO-00638
+FT   DOMAIN.
+TG   SM00727; STI1;
+DO   IPR006636;
+//
+ID   STPGR.
+AC   DO-00189
+SY   sperm-tail PG-rich.
+FT   REPEAT.
+TG   PF07004; SHIPPO-rpt;
+DO   IPR010736;
+//
+ID   SU.
+AC   DO-00639
+SY   syntrophin unique.
+FT   DOMAIN.
+TG   None;
+//
+ID   SUEL-type lectin.
+AC   DO-00640
+FT   DOMAIN.
+TG   PS50228; SUEL_LECTIN;
+DO   PDOC50228;
+//
+ID   SUI1.
+AC   DO-00641
+FT   DOMAIN.
+TG   PS50296; SUI1;
+DO   PDOC00862;
+//
+ID   SUN.
+AC   DO-00642
+SY   Sad1/UNC-84.
+FT   DOMAIN.
+TG   PS51469; SUN;
+DO   PDOC51469;
+//
+ID   SURP motif.
+AC   DO-00643
+FT   REPEAT.
+TG   PS50128; SURP;
+DO   PDOC50128;
+//
+ID   Sushi.
+AC   DO-00644
+SY   CCP/SCR.
+SY   short consensus repeat.
+FT   DOMAIN.
+TG   PS50923; SUSHI;
+DO   PDOC50923;
+//
+ID   SUZ.
+AC   DO-00813
+FT   DOMAIN.
+TG   PS51673; SUZ;
+DO   PDOC51673;
+//
+ID   SWIB.
+AC   DO-00645
+FT   DOMAIN.
+TG   PF02201; SWIB;
+DO   IPR003121;
+//
+ID   SWIM-type.
+AC   DO-00646
+FT   ZN_FING.
+TG   PS50966; ZF_SWIM;
+DO   PDOC50966;
+//
+ID   SWIRM.
+AC   DO-00647
+FT   DOMAIN.
+TG   PS50934; SWIRM;
+DO   PDOC50934;
+//
+ID   T-box.
+AC   DO-00649
+FT   DNA_BIND.
+TG   PS50252; TBOX_3;
+DO   PDOC00972;
+//
+ID   t-SNARE coiled-coil homology.
+AC   DO-00650
+FT   DOMAIN.
+TG   PS50192; T_SNARE;
+DO   PDOC50192;
+//
+ID   TAFH.
+AC   DO-00651
+SY   NHR1.
+SY   TAF homology.
+FT   DOMAIN.
+TG   PS51119; TAFH;
+DO   PDOC51119;
+//
+ID   TAP-C.
+AC   DO-00652
+SY   TAP C-terminal.
+FT   DOMAIN.
+TG   PS51281; TAP_C;
+DO   PDOC51281;
+//
+ID   Tau/MAP.
+AC   DO-00653
+SY   Tau and MAP proteins tubulin-binding.
+FT   REPEAT.
+TG   PS51491; TAU_MAP_2;
+DO   PDOC00201;
+//
+ID   TAZ-type.
+AC   DO-00654
+FT   ZN_FING.
+TG   PS50134; ZF_TAZ;
+DO   PDOC50134;
+//
+ID   TB.
+AC   DO-00655
+SY   TGF-beta binding.
+FT   DOMAIN.
+TG   PS51364; TB;
+DO   PDOC51364;
+//
+ID   TEA.
+AC   DO-00656
+FT   DNA_BIND.
+TG   PS51088; TEA_2;
+DO   PDOC00479;
+//
+ID   TECPR.
+AC   DO-00657
+FT   REPEAT.
+TG   PF06462; Hyd_WA;
+DO   IPR006624;
+//
+ID   teneurin N-terminal.
+AC   DO-00658
+FT   DOMAIN.
+TG   PS51361; TENEURIN_N;
+DO   PDOC51361;
+//
+ID   TEP1 N-terminal.
+AC   DO-00659
+FT   REPEAT.
+TG   PS51226; TEP1_N;
+DO   PDOC51226;
+//
+ID   TFIIB-type.
+AC   DO-00660
+FT   ZN_FING.
+TG   PS51134; ZF_TFIIB;
+DO   PDOC51134;
+//
+ID   TFIIE beta.
+AC   DO-00661
+FT   DNA_BIND.
+TG   PS51351; TFIIE_BETA_C;
+DO   PDOC51351;
+//
+ID   TFIIS-type.
+AC   DO-00662
+FT   ZN_FING.
+TG   PS51133; ZF_TFIIS_2;
+DO   PDOC00383;
+//
+ID   TFIIS central.
+AC   DO-00663
+FT   DOMAIN.
+TG   PS51321; TFIIS_CENTRAL;
+DO   PDOC51321;
+//
+ID   TFIIS N-terminal.
+AC   DO-00664
+FT   DOMAIN.
+TG   PS51319; TFIIS_N;
+DO   PDOC51319;
+//
+ID   THAP-type.
+AC   DO-00665
+FT   ZN_FING.
+TG   PS50950; ZF_THAP;
+DO   PDOC50950;
+//
+ID   THEG.
+AC   DO-00666
+FT   REPEAT.
+TG   SM00705; THEG;
+DO   IPR006623;
+//
+ID   thioredoxin.
+AC   DO-00667
+FT   DOMAIN.
+TG   PS51352; THIOREDOXIN_2;
+DO   PDOC00172;
+//
+ID   THUMP.
+AC   DO-00668
+FT   DOMAIN.
+TG   PS51165; THUMP;
+DO   PDOC51165;
+//
+ID   thyroglobulin type-1.
+AC   DO-00669
+FT   DOMAIN.
+TG   PS51162; THYROGLOBULIN_1_2;
+DO   PDOC00377;
+//
+ID   TIL.
+AC   DO-00670
+SY   trypsin inhibitory-like.
+FT   DOMAIN.
+TG   PF01826; TIL;
+DO   IPR002919;
+//
+ID   TIR.
+AC   DO-00671
+FT   DOMAIN.
+TG   PS50104; TIR;
+DO   PDOC50104;
+//
+ID   TLC.
+AC   DO-00672
+SY   TRAM/LAG1/CLN8.
+FT   DOMAIN.
+TG   PS50922; TLC;
+DO   PDOC50922;
+//
+ID   TLD.
+AC   DO-00673
+FT   DOMAIN.
+TG   PF07534; TLD;
+DO   IPR006571;
+//
+ID   TNase-like.
+AC   DO-00674
+FT   DOMAIN.
+TG   PS50830; TNASE_3;
+DO   PDOC00865;
+//
+ID   TNFR-Cys.
+AC   DO-00675
+FT   REPEAT.
+TG   PS50050; TNFR_NGFR_2;
+DO   PDOC00561;
+//
+ID   Toprim.
+AC   DO-00748
+SY   topoisomerase-primase.
+FT   DOMAIN.
+TG   PS50880; TOPRIM;
+DO   PDOC50880;
+//
+ID   TPR.
+AC   DO-00676
+SY   tetratricopeptide.
+FT   REPEAT.
+TG   Rep;
+DO   PDOC50005;
+//
+ID   tr-type G.
+AC   DO-00851
+SY   translational-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51722; G_TR_2;
+DO   PDOC00273;
+//
+ID   TRAF-type.
+AC   DO-00677
+FT   ZN_FING.
+TG   PS50145; ZF_TRAF;
+DO   PDOC50145;
+//
+ID   TRAM.
+AC   DO-00678
+SY   TRM2 and miaB.
+FT   DOMAIN.
+TG   PS50926; TRAM;
+DO   PDOC50926;
+//
+ID   transferrin-like.
+AC   DO-00679
+FT   DOMAIN.
+TG   PS51408; TRANSFERRIN_LIKE;
+DO   PDOC00182;
+//
+ID   Trm1 methyltransferase.
+AC   DO-00822
+SY   SAM-dependent methyltransferase TRM1-type.
+FT   DOMAIN.
+TG   PS51626; SAM_MT_TRM1;
+DO   PDOC51555;
+//
+ID   TRM112.
+AC   DO-00680
+FT   DOMAIN.
+TG   PF03966; Trm112p;
+DO   IPR005651;
+//
+ID   TrmE-type G.
+AC   DO-00841
+SY   TrmE-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51709; G_TRME;
+DO   PDOC51709;
+//
+ID   tRNA-binding.
+AC   DO-00681
+SY   TRBD.
+FT   DOMAIN.
+TG   PS50886; TRBD;
+DO   PDOC50886;
+//
+ID   TROVE.
+AC   DO-00682
+FT   DOMAIN.
+TG   PS50988; TROVE;
+DO   PDOC50988;
+//
+ID   TRUD.
+AC   DO-00683
+FT   DOMAIN.
+TG   PS50984; TRUD;
+DO   PDOC50984;
+//
+ID   TsaA-like.
+AC   DO-00819
+FT   DOMAIN.
+TG   PS51668; TSAA_2;
+DO   PDOC01022;
+//
+ID   TSP C-terminal.
+AC   DO-00685
+SY   TSPC.
+FT   DOMAIN.
+TG   PS51236; TSP_CTER;
+DO   PDOC51236;
+//
+ID   TSP N-terminal.
+AC   DO-00686
+SY   thrombospondin N-terminal.
+SY   TSPN.
+FT   DOMAIN.
+TG   PF02210; TSP_N;
+DO   IPR001791;
+//
+ID   TSP type-1.
+AC   DO-00687
+SY   thrombospondin type-1.
+FT   DOMAIN.
+TG   PS50092; TSP1;
+DO   PDOC50092;
+//
+ID   TSP type-3.
+AC   DO-00688
+SY   thrombospondin type-3.
+FT   REPEAT.
+TG   PS51234; TSP3;
+DO   PDOC51234;
+//
+ID   TTF-type.
+AC   DO-00689
+FT   ZN_FING.
+TG   SM00597; ZnF_TTF;
+DO   IPR006580;
+//
+ID   TTL.
+AC   DO-00690
+SY   tubulin tyrosine ligase.
+FT   DOMAIN.
+TG   PS51221; TTL;
+DO   PDOC51221;
+//
+ID   Tudor.
+AC   DO-00691
+FT   DOMAIN.
+TG   PS50304; TUDOR;
+DO   PDOC50304;
+//
+ID   tyrosine-protein phosphatase.
+AC   DO-00692
+FT   DOMAIN.
+TG   PS50055; TYR_PHOSPHATASE_PTP   PS50054 TYR_PHOSPHATASE_DUAL;
+DO   PDOC00323;
+//
+ID   U-box.
+AC   DO-00693
+FT   DOMAIN.
+TG   SM00504; Ubox;
+DO   IPR003613;
+//
+ID   U1-type.
+AC   DO-00694
+FT   ZN_FING.
+TG   SM00451; ZnF_U1;
+DO   IPR003604;
+//
+ID   UBA.
+AC   DO-00695
+FT   DOMAIN.
+TG   PS50030; UBA;
+DO   PDOC50030;
+//
+ID   UBA-like.
+AC   DO-00696
+FT   DOMAIN.
+TG   None;
+//
+ID   ubiquitin-like.
+AC   DO-00697
+FT   DOMAIN.
+TG   PS50053; UBIQUITIN_2;
+DO   PDOC00271;
+//
+ID   UBP-type.
+AC   DO-00698
+FT   ZN_FING.
+TG   PS50271; ZF_UBP;
+DO   PDOC50271;
+//
+ID   UBR-type.
+AC   DO-00699
+FT   ZN_FING.
+TG   PS51157; ZF_UBR;
+DO   PDOC51157;
+//
+ID   UBX.
+AC   DO-00700
+FT   DOMAIN.
+TG   PS50033; UBX;
+DO   PDOC50033;
+//
+ID   UBZ-type.
+AC   DO-00783
+FT   ZN_FING.
+TG   SM00734; ZnF_Rad18;
+DO   IPR006642;
+//
+ID   uDENN.
+AC   DO-00701
+FT   DOMAIN.
+TG   PS50946; UDENN;
+DO   PDOC50211;
+//
+ID   UEV.
+AC   DO-00702
+SY   ubiquitin E2 variant.
+FT   DOMAIN.
+TG   PS51322; UEV;
+DO   PDOC51322;
+//
+ID   UIM.
+AC   DO-00703
+SY   ubiquitin-interacting motif.
+FT   REPEAT.
+TG   PS50330; UIM;
+DO   PDOC50330;
+//
+ID   UMA.
+AC   DO-00760
+FT   DOMAIN.
+TG   PS51497; UMA;
+DO   PDOC51497;
+//
+ID   umuC.
+AC   DO-00704
+FT   DOMAIN.
+TG   PS50173; UMUC;
+DO   PDOC50173;
+//
+ID   UPAR/Ly6.
+AC   DO-00705
+FT   DOMAIN.
+TG   SM00134; LU;
+DO   PDOC00756;
+//
+ID   USP.
+AC   DO-00832
+SY   ubiquitin specific protease.
+FT   DOMAIN.
+TG   PS50235; USP_3;
+DO   PDOC00750;
+//
+ID   UVR.
+AC   DO-00706
+FT   DOMAIN.
+TG   PS50151; UVR;
+DO   PDOC50151;
+//
+ID   v-SNARE coiled-coil homology.
+AC   DO-00707
+FT   DOMAIN.
+TG   PS50892; V_SNARE;
+DO   PDOC50892;
+//
+ID   VHS.
+AC   DO-00708
+FT   DOMAIN.
+TG   PS50179; VHS;
+DO   PDOC50179;
+//
+ID   VIT.
+AC   DO-00709
+FT   DOMAIN.
+TG   PS51468; VIT;
+DO   PDOC51468;
+//
+ID   vitellogenin.
+AC   DO-00710
+FT   DOMAIN.
+TG   PS51211; VITELLOGENIN;
+DO   PDOC51211;
+//
+ID   VLIG-type G.
+AC   DO-00852
+SY   VLIG-type guanine nucleotide-binding.
+FT   DOMAIN.
+TG   PS51717; G_VLIG;
+DO   PDOC51717;
+//
+ID   VPS28 C-terminal.
+AC   DO-00711
+FT   DOMAIN.
+TG   PS51310; VPS28_C;
+DO   PDOC51310;
+//
+ID   VPS28 N-terminal.
+AC   DO-00712
+FT   DOMAIN.
+TG   PS51313; VPS28_N;
+DO   PDOC51312;
+//
+ID   VPS37 C-terminal.
+AC   DO-00713
+FT   DOMAIN.
+TG   PS51314; VPS37_C;
+DO   PDOC51312;
+//
+ID   VPS9.
+AC   DO-00714
+FT   DOMAIN.
+TG   PS51205; VPS9;
+DO   PDOC51205;
+//
+ID   VRR-NUC.
+AC   DO-00762
+FT   DOMAIN.
+TG   PF08774; VRR_NUC;
+DO   IPR014883;
+//
+ID   VWFA.
+AC   DO-00715
+SY   von Willebrand factor A.
+FT   DOMAIN.
+TG   PS50234; VWFA;
+DO   PDOC50234;
+//
+ID   VWFC.
+AC   DO-00716
+SY   von Willebrand factor C.
+FT   DOMAIN.
+TG   PS50184; VWFC_2;
+DO   PDOC00928;
+//
+ID   VWFD.
+AC   DO-00717
+SY   von Willebrand factor D.
+FT   DOMAIN.
+TG   PS51233; VWFD;
+DO   PDOC51233;
+//
+ID   W2.
+AC   DO-00718
+FT   DOMAIN.
+TG   PS51363; W2;
+DO   PDOC51363;
+//
+ID   WAC.
+AC   DO-00719
+FT   DOMAIN.
+TG   PS51136; WAC;
+DO   PDOC51136;
+//
+ID   WAP.
+AC   DO-00720
+SY   four-disulfide core.
+FT   DOMAIN.
+TG   PS51390; WAP;
+DO   PDOC00026;
+//
+ID   WAPL.
+AC   DO-00721
+FT   DOMAIN.
+TG   PS51271; WAPL;
+DO   PDOC51271;
+//
+ID   WD.
+AC   DO-00722
+SY   Trp-Asp.
+SY   WD-40.
+FT   REPEAT.
+TG   Rep;
+DO   PDOC00574;
+//
+ID   WH1.
+AC   DO-00723
+SY   Wiskott-Aldrich homology 1.
+SY   WASP homology 1.
+SY   Ena/VASP homology 1.
+SY   EVH1.
+FT   DOMAIN.
+TG   PS50229; WH1;
+DO   PDOC50229;
+//
+ID   WH2.
+AC   DO-00724
+SY   Wiskott-Aldrich homology 2.
+SY   WASP homology 2.
+SY   Ena/VASP homology 2.
+SY   EVH2.
+FT   DOMAIN.
+TG   PS51082; WH2;
+DO   PDOC51082;
+//
+ID   WHEP-TRS.
+AC   DO-00725
+FT   DOMAIN.
+TG   PS51185; WHEP_TRS_2;
+DO   PDOC00614;
+//
+ID   WIF.
+AC   DO-00726
+FT   DOMAIN.
+TG   PS50814; WIF;
+DO   PDOC50814;
+//
+ID   WSC.
+AC   DO-00727
+FT   DOMAIN.
+TG   PS51212; WSC;
+DO   PDOC51212;
+//
+ID   WW.
+AC   DO-00728
+FT   DOMAIN.
+TG   PS50020; WW_DOMAIN_2;
+DO   PDOC50020;
+//
+ID   WWE.
+AC   DO-00729
+FT   DOMAIN.
+TG   PS50918; WWE;
+DO   PDOC50918;
+//
+ID   Xin.
+AC   DO-00730
+FT   REPEAT.
+TG   PS51389; XIN;
+DO   PDOC51389;
+//
+ID   YD.
+AC   DO-00731
+FT   REPEAT.
+TG   PF05593; RHS_repeat;
+DO   IPR006530;
+//
+ID   YDG.
+AC   DO-00732
+FT   DOMAIN.
+TG   PS51015; YDG;
+DO   PDOC51015;
+//
+ID   YEATS.
+AC   DO-00733
+FT   DOMAIN.
+TG   PS51037; YEATS;
+DO   PDOC51037;
+//
+ID   YjeF C-terminal.
+AC   DO-00734
+FT   DOMAIN.
+TG   PS51383; YJEF_C_3;
+DO   PDOC00806;
+//
+ID   YjeF N-terminal.
+AC   DO-00735
+FT   DOMAIN.
+TG   PS51385; YJEF_N;
+DO   PDOC51385;
+//
+ID   YrdC-like.
+AC   DO-00736
+FT   DOMAIN.
+TG   PS51163; YRDC;
+DO   PDOC00883;
+//
+ID   YTH.
+AC   DO-00737
+SY   YT521-B homology.
+FT   DOMAIN.
+TG   PS50882; YTH;
+DO   PDOC50882;
+//
+ID   ZAD.
+AC   DO-00738
+SY   zinc-finger associated.
+FT   DOMAIN.
+TG   PF07776; zf-AD;
+DO   IPR012934;
+//
+ID   zinc-hook.
+AC   DO-00739
+FT   DOMAIN.
+TG   PS51131; ZN_HOOK;
+DO   PDOC51131;
+//
+ID   ZP.
+AC   DO-00740
+FT   DOMAIN.
+TG   PS51034; ZP_2;
+DO   PDOC00577;
+//
+ID   ZU5.
+AC   DO-00741
+FT   DOMAIN.
+TG   PS51145; ZU5;
+DO   PDOC51145;
+//
+ID   ZZ-type.
+AC   DO-00742
+FT   ZN_FING.
+TG   PS50135; ZF_ZZ_2;
+DO   PDOC50135;
+//

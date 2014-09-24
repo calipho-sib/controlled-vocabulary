@@ -1,0 +1,884 @@
+----------------------------------------------------------------------------
+
+  This document lists the controlled vocabulary used to defined imported data
+  (cv_data_release) in neXtProt database
+
+  Release:     26-Aug-2014
+
+  The definition of the CV is provided in the following format:
+
+
+ -----------   ----------------------------------       -----------------------------
+ Line code     Content                                  Occurrence in an entry
+ -----------   ----------------------------------       -----------------------------
+ ID            Unique identifier                        Once; starts a cv data release entry
+ AC            Unique accession (CVDR-xxxx)             Once
+ DE            Definition                               Once or more
+ DS            Datasource of the downloaded data        Once
+ DR            Data repository / ftp site where the     Once
+               data are downloadable 
+ UF            Data update frequency                    Once
+ UR            Data internet site url                   Once
+ CI            Contact information                      Once or more
+ //            Terminator                               Once; ends an entry
+
+next id:  CVDR-0090
+
+__________________________________________________________________________
+ID   Additional references
+AC   CVDR-0033
+DE   Publications: Additional computationally mapped publications
+DS   PIR
+DR   freud.isb-sib.ch:/share/sib/sp/data/medline/pir_mapping.tab
+UF   monthly, linked to uniprot update
+UR   
+CI
+//
+ID   Antibodypedia
+AC   CVDR-0084
+DE   Identifiers: antibodies against human proteins.
+DS   Antibodypedia
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/antibodypedia.log
+UF   monthly
+UR
+CI
+//
+ID   BGee
+AC   CVDR-0035
+DE   Data: expression data based on microarray and EST
+DS   Bgee
+DR   ftp://lausanne.isb-sib.ch/pub/databases/Bgee/external_data/neXtProtBgeeData.zip
+UF   twice a year
+UR   http://bgee.unil.ch
+CI
+//
+ID   CCDS
+AC   CVDR-0039
+DE   Identifiers: Protein cross references on CCDS
+DS   CCDS
+DR   gefiles.isb-sib.ch:/work/Swiss-Prot/outgoing/nextprot/ccds
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   Clinvar
+AC   CVDR-0087
+DE   Data: Gene variant annotations
+DE   Database of mutations and their clinical relevance
+DS   Clinvar
+DR   ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/xml/ClinVarFullRelease_00-latest.xml.gz
+UF   occasionally
+UR   http://www.ncbi.nlm.nih.gov/clinvar/
+CI
+//
+ID   Cosmic
+AC   CVDR-0065
+DE   Data: Gene variant annotations
+DE   Catalogue Of Somatic Mutations In Cancer
+DS   Cosmic
+DR   ftp.sanger.ac.uk/pub/CGP/cosmic/data_export/CosmicMutantExport_*.tsv.gz
+UF   occasionally
+UR   http://www.sanger.ac.uk/genetics/CGP/cosmic/
+CI
+//
+ID   Databases
+AC   CVDR-0023
+DE   Control vocabulary, list of databases used in bioinformatics
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/dbxref.txt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/more-dbxrefs.txt
+UF   monthly
+UR   http://www.uniprot.org/docs/#general
+CI   
+//
+ID   Dyp
+AC   CVDR-0047
+DE   Data: Subcellular location annotation.
+DE   The Kahn Dynamic Proteomics project aims at monitoring the position and amounts of endogenous 
+DE   proteins in individual living human cells.
+DS   Dyp
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/annotations/DYP.xml
+UF   
+UR   http://www.weizmann.ac.il/mcb/UriAlon/DynamProt/index.html
+CI
+//
+ID   ECO
+AC   CVDR-0064
+DE   Ontology: A rich ontology for experimental and other evidence statements.
+DS   OBO
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_sequence_ontology.txt
+UF   when needed (new data to load)
+UR   http://www.sequenceontology.org/
+CI
+//
+ID   EMBL names
+AC   CVDR-0030
+DE   Identifiers: Clone names
+DS   EMBL-EBI
+DR   http://www.ebi.ac.uk/cgi-bin/dbfetch?db=EMBL&format=emblxml
+UF   rarely
+UR
+CI
+//
+ID   Ensembl genome
+AC   CVDR-0025
+DE   Data: Genes, transcripts and exons
+DS   Ensembl
+DR   ftp.ensembl.org/pub/release-$ENSEMBL_VERSION/mysql/homo_sapiens_core_$ENSEMBL_VERSION_LONG
+UF   every two months
+UR   http://www.ensembl.org/
+CI
+//
+ID   Ensembl names
+AC   CVDR-0031
+DE   Identifiers: Probe and probeset names
+DS   Ensembl
+DR   ftp.ensembl.org/pub/release-$ENSEMBL_VERSION/mysql/homo_sapiens_funcgen_$ENSEMBL_VERSION_LONG
+UF   rarely
+UR
+CI
+//
+ID   Ensembl variants
+AC   CVDR-0029
+DE   Data: Gene variant annotations
+DS   Ensembl
+DR   ftp.ensembl.org/pub/release-$ENSEMBL_VERSION/mysql/homo_sapiens_variation_$ENSEMBL_VERSION_LONG
+UF   every two months
+UR   http://www.ensembl.org/
+CI
+//
+ID   eVOC
+AC   CVDR-0020
+DE   Ontology: anatomical system, developmental stage and pathology ontologies
+DS   eVOC
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/anatomicalsystem.obo
+DR   freud.isb-sib.ch:/.../cv/celltype.obo
+DR   freud.isb-sib.ch:/.../cv/developmentstage.obo
+DR   freud.isb-sib.ch:/.../cv/pathology.obo
+UF   never, obsolete
+UR
+CI
+//
+ID   GeneId
+AC   CVDR-0041
+DE   Identifiers: Gene ids from NCBI
+DS   NCBI
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/geneid.log
+UF   once
+UR
+CI
+//
+ID   GFP-cDNA@EMBL
+AC   CVDR-0043
+DE   Data: GFP-cDNA subcellular location annotations
+DS   GFP-cDNA@EMBL
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/annotations/GFP_cDNA.xml
+UF   once
+UR   http://gfp-cdna.embl.de/
+CI
+//
+ID   GO
+AC   CVDR-0001
+DE   Ontology: Gene Ontology
+DS   GO
+DR   http://www.geneontology.org/ontology/obo_format_1_2/gene_ontology.1_2.obo
+UF   monthly, linked to uniprot update
+UR   http://www.geneontology.org/
+CI   
+//
+ID   GO annotations
+AC   CVDR-0027
+DE   Data: Gene Ontology annotations
+DS   GO
+DR   ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/gene_association.goa_human.gz
+UF   monthly, linked to uniprot update
+UR   http://www.ebi.ac.uk/GOA
+CI
+//
+ID   HPA
+AC   CVDR-0034
+DE   Data: expression data based on immunohistochemisty; Subcellular location data based on immunofluorescently stained cell
+DS   Human protein atlas
+DR   https://docs.google.com/open?id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DR   http://www.proteinatlas.org/download/proteinatlas.xml.zip
+UF   twice a year
+UR   http://www.proteinatlas.org/
+CI
+//
+ID   HPRD
+AC   CVDR-0038
+DE   Identifiers: Protein cross references on HPRD
+DS   HPRD
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/hprd.log
+UF   once
+UR
+CI
+//
+ID   Human Brain PeptideAtlas
+AC   CVDR-0060
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human brain samples.
+DS   PeptideAtlas human brain
+DR   http://www.peptideatlas.org/builds/human/brain/201308/brain_APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Kidney PeptideAtlas
+AC   CVDR-0078
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human kidney samples.
+DS   PeptideAtlas human kidney
+DR   http://www.peptideatlas.org/builds/human/plasma/201308/kidney_APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Liver PeptideAtlas
+AC   CVDR-0079
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human liver samples.
+DS   PeptideAtlas human liver
+DR   http://www.peptideatlas.org/builds/human/plasma/201308/liver_APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Others PeptideAtlas
+AC   CVDR-0067
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human not brain, plasma and urine samples.
+DS   PeptideAtlas human plasma
+DR   http://www.peptideatlas.org/builds/human/others/201308/others_APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human PeptideAtlas
+AC   CVDR-0061
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human samples, load of accession codes only.
+DS   PeptideAtlas
+DR   http://www.peptideatlas.org/builds/human/201207/APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Plasma PeptideAtlas
+AC   CVDR-0044
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human plasma and serum samples.
+DS   PeptideAtlas human plasma
+DR   http://www.peptideatlas.org/builds/human/plasma/201308/APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human SRMAtlas
+AC   CVDR-0089
+DE   Proteomics data (peptides): Compendium of targeted proteomics assays to detect and quantify proteins in 
+DE   complex proteome digests by mass spectrometry.
+DS   SRMAtlas
+DR   https://db.systemsbiology.net//sbeams/cgi/PeptideAtlas/GetPeptides?QUERY_NAME=AT_GetPeptides;action=QUERY;output_mode=tsv;SBEAMSentrycode=SRMATLASPREVIEW;organism_specialized_build=Human Synthetic
+UF   rarely
+UR   http://www.srmatlas.org
+CI
+//
+ID   Human Urine PeptideAtlas
+AC   CVDR-0066
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human urine samples.
+DS   PeptideAtlas human plasma
+DR   http://www.peptideatlas.org/builds/human/urine/201308/urine_APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   IntAct interactions
+AC   CVDR-0028
+DE   Data: Protein interaction data
+DS   EMBL-EBI
+DR   ftp.ebi.ac.uk/pub/databases/intact/current/various/uniprotcomments.dat
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   InterPro
+AC   CVDR-0037
+DE   Documents: InterPro documents referenced in neXtProt entries
+DS   InterPro
+DR   ftp.ebi.ac.uk/pub/databases/interpro/interpro.xml.gz
+UF   monthly, linked to uniprot update
+UR   http://www.ebi.ac.uk/interpro/
+CI
+//
+ID   IPI
+AC   CVDR-0083
+DE   Identifiers: Entrez Gene symbol
+DS   NCBI
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/IPI.log
+UF   once
+UR
+CI
+//
+ID   KEGGPathway
+AC   CVDR-0049
+DE   Identifiers: KEGG Pathway is a collection of manually drawn pathway maps.
+DS   KEGG_PTW
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/kegg-pathways.txt
+UF   once
+UR   http://www.genome.jp/kegg/pathway.html
+CI
+//
+ID   LOC
+AC   CVDR-0040
+DE   Identifiers: Locus names from NCBI
+DS   NCBI
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/loc.log
+UF   once
+UR
+CI
+//
+ID   MDATA_0004_2011
+AC   CVDR-0048
+DE   Proteomics data (peptides) extracted from direct submission
+DE   Mitochondria-enriched N-terminome and proteome of myelomonocytic histiocytic lymphoma cell.
+DE   Direct submission of proteomics data.
+DS   MDATA_0004_2011
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/MDATA_0004_2011.xml
+UF   once
+UR   
+CI
+//
+ID   MDATA_0023_2012
+AC   CVDR-0068
+DE   Proteomics data (peptides) extracted from direct submission.
+DE   Human pancreatic islets proteome
+DE   Direct submission of proteomics data.
+DS   MDATA_0023_2012
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/MDATA_0023_2012.xml
+UF   once
+UR   
+CI
+//
+ID   MDATA_0033_2013
+AC   CVDR-0077
+DE   Proteomics data (peptides) extracted from direct submission.
+DE   Peptides in substantia nigra tissue.
+DE   Direct submission of proteomics data.
+DS   MDATA_0033_2013
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/MDATA_0033_2013.xml
+UF   once
+UR   
+CI
+//
+ID   MeSH
+AC   CVDR-0002
+DE   Ontology: Medical Subject Headings
+DS   MeSH
+DR   http://www.nlm.nih.gov/mesh/filelist.html, manually load to freud
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/descXXXX.xml
+UF   yearly
+UR   http://www.nlm.nih.gov/mesh/MBrowser.html
+CI
+//
+ID   MetaData
+AC   CVDR-0042
+DE   Document: description of a data set
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/metadata_files/metadata.txt
+UF   occasionally
+UR
+CI
+//
+ID   MGI
+AC   CVDR-0050
+DE   Identifiers: MGI is the international database resource for the laboratory mouse, providing integrated genetic, 
+DE   genomic, and biological data to facilitate the study of human health and disease.
+DS   MGI
+DR   ftp.informatics.jax.org/pub/reports/HMD_HGNC_Accession.rpt
+UF   monthly, linked to uniprot update
+UR   http://www.informatics.jax.org/
+CI
+//
+ID   NCI Metathesaurus
+AC   CVDR-0088
+DE   Ontology: Wide-ranging biomedical terminology database.
+DE   It covers most terminologies used by NCI for clinical care, translational and basic research, and public information and administrative activities.
+DE   Needs an UMLS account (login = nextprot, password: cf template load)
+DS   NCI
+DR   https://cbiit.nci.nih.gov/evs-download/index/metathesaurus-downloads/metval/Metathesaurus.RRF.zip
+UF   when needed (new data to load)
+UR   http://ncimeta.nci.nih.gov/
+CI
+//
+ID   NCI Thesaurus
+AC   CVDR-0085
+DE   Ontology: Reference terminology for many NCI and other systems. 
+DE   It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities
+DS   NCI
+DR   http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_YY.MMx.OWL.zip
+UF   when needed (new data to load)
+UR   http://ncit.nci.nih.gov/
+CI
+//
+ID   neXtProt annotation category
+AC   CVDR-0003
+DE   Control vocabulary for annotations categories
+DS   NEXTPROT
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_annotations.txt
+UF   rarely
+UR
+CI
+//
+ID   neXtProt cell line
+AC   CVDR-0006
+DE   Control vocabulary for cell lines.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_cell_line.txt
+UF   occasionally
+UR
+CI
+//
+ID   neXtProt datasources
+AC   CVDR-0062
+DE   Control vocabulary: document that describes datasources
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_datasources.txt
+UF   when needed (new data to load)
+UR
+CI
+//
+ID   neXtProt developmental stage
+AC   CVDR-0005
+DE   Ontology for developmental and metastage
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/developmental_stage.txt
+UF   occasionally, linked to expression data update
+UR
+CI
+//
+ID   neXtProt family
+AC   CVDR-0004
+DE   Control vocabulary for the protein families
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_family.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   neXtProt tissue
+AC   CVDR-0007
+DE   Ontology for anatomical system.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/caloha.obo
+UF   occasionally, linked to expression data update
+UR
+CI
+//
+ID   Non-standard amino acid
+AC   CVDR-0008
+DE   Control vocabulary for non-standard residues.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_non_std_amino_acids.txt
+UF   occasionally
+UR
+CI
+//
+ID   PMID_18614565
+AC   CVDR-0059
+DE   Proteomics data (peptides) extracted from PubMed publication. 
+DE   Proteome
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/18614565.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=18614565
+CI
+//
+ID   PMID_19413330
+AC   CVDR-0082
+DE   Proteomics data (PTM) extracted from PubMed publication.
+DE   Peptides and phosphorylation sites in HEK293 cells.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/19413330.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=19413330
+CI
+//
+ID   PMID_19608861
+AC   CVDR-0057
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Lysine-Acetylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/19608861.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=19608861
+CI
+//
+ID   PMID_20068231
+AC   CVDR-0051
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Phosphorylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/20068231.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=20068231
+CI
+//
+ID   PMID_20140087
+AC   CVDR-0054
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   S-Nitrosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/20140087.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=20140087
+CI
+//
+ID   PMID_20570859
+AC   CVDR-0045
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Glycosylation of cell surface proteins in myeloid leukemia cell lines.
+DE   Glycosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/20570859.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=20570859
+CI
+//
+ID   PMID_20687582
+AC   CVDR-0056
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   S-Nitrosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/20687582.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=20687582
+CI
+//
+ID   PMID_20797634
+AC   CVDR-0055
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Sumoylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/20797634.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=
+CI
+//
+ID   PMID_20972266
+AC   CVDR-0052
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Ubiquitylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/20972266.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=20972266
+CI
+//
+ID   PMID_21139048
+AC   CVDR-0053
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Ubiquitylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/21139048.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=21139048
+CI
+//
+ID   PMID_21406692
+AC   CVDR-0046
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Identification, phosphorylation and N-acetylation of embryonic stem cells proteins.
+DE   Phosphorylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/21406692.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=21406692
+CI
+//
+ID   PMID_21645671
+AC   CVDR-0058
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Glycosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/21645671.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=21645671
+CI
+//
+ID   PMID_21890473
+AC   CVDR-0081
+DE   Proteomics data (PTM) extracted from PubMed publication.
+DE   Lysine ubiquitination sites in MV4-11 and HEK293T cells.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/21890473.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=21890473
+CI
+//
+ID   PMID_22148984
+AC   CVDR-0069
+DE   Proteomics data (PTM) extracted from PubMed publication.
+DE   Glycosylation of whole cell proteins in human pancreatic islets.
+DE   Glycosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/22148984.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=22148984
+CI
+//
+ID   PMID_22199227
+AC   CVDR-0070
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Phosphorylation sites in telomerase-expressing human retinal epithelial 
+DE   (hTERT-RPE) cells.
+DE   Phosphorylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/22199227.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=22199227
+CI
+//
+ID   PMID_22468782
+AC   CVDR-0071
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Phosphorylation sites in HeLa cells.
+DE   Phosphorylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/22468782.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=22468782
+CI
+//
+ID   PMID_22865923
+AC   CVDR-0072
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Arginine and lysine methylation sites.
+DE   Methylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/22865923.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=22865923
+CI
+//
+ID   PMID_23153008
+AC   CVDR-0075
+DE   Proteomics data (peptides) extracted from PubMed publication. 
+DE   Peptides in breast cancer tissues.
+DE   Peptides identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/23153008.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23153008
+CI
+//
+ID   PMID_23236377
+AC   CVDR-0080
+DE   Proteomics data (PTM) extracted from PubMed publication.
+DE   Lysine acetylation sites in human U2OS cells.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/23236377.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23236377
+CI
+//
+ID   PMID_23266961
+AC   CVDR-0076
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Lysine ubiquitination and N-acetylation sites in Jurkat E6.1 cells.
+DE   Ubiquitination and N-acetylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/23266961.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23266961
+CI
+//
+ID   PMID_23312004
+AC   CVDR-0073
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Peptides and phosphorylation sites from colorectal cancer and normal tissue and cell lines.
+DE   Phosphorylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/23312004.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23312004
+CI
+//
+ID   PMID_23584533
+AC   CVDR-0074
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Human cellular O-GalNAc glycoproteome.
+DE   Glycosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/23584533.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23584533
+CI
+//
+ID   PMID_24129315
+AC   CVDR-0086
+DE   Proteomics data (PTM) extracted from PubMed publication.
+DE   Lysine and arginine methylation sites in human HCT116 cells.
+DE   Methylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/24129315.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=24129315
+CI
+//
+ID   PROSITEDOC
+AC   CVDR-0036
+DE   Documents: Prosite documents referenced in neXtProt entries
+DS   Prosite
+DR   ftp.expasy.org/databases/prosite/prosite.doc
+UF   monthly, linked to uniprot update
+UR   http://www.expasy.org/prosite/
+CI
+//
+ID   PubMed journal
+AC   CVDR-0024
+DE   Control vocabulary, list of journals and their official abbreviation
+DS   PubMed
+DR   ftp://ftp.ncbi.nih.gov/pubmed/J_Entrez.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   PubMed publications
+AC   CVDR-0032
+DE   Publications
+DS   PubMed
+DR   http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?retmode=xml
+UF   monthly, linked to uniprot update
+UR   http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed
+CI
+//
+ID   Sequence ontology
+AC   CVDR-0063
+DE   Ontology: the Sequence Ontology is a set of terms and relationships used to describe the features and attributes of biological sequence.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_sequence_ontology.txt
+UF   when needed (new data to load)
+UR   http://www.sequenceontology.org/
+CI
+//
+ID   UniProtKB
+AC   CVDR-0026
+DE   Data: Protein sequence and annotation data
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/Swiss-Prot/outgoing/nextprot/uniprot_sprot.xml.gz
+UF   monthly
+UR   http://www.uniprot.org/
+CI
+//
+ID   UniProtKB carbohydrate
+AC   CVDR-0009
+DE   Control vocabulary for carbohydrates added to proteins.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_carbohydrate.txt
+UF   occasionally
+UR
+CI
+//
+ID   UniProtKB disease
+AC   CVDR-0015
+DE   Control vocabulary for diseases.
+DS   Uniprot
+DR   http://swissprot.isb-sib.ch/sdu/annotation/humdisease.txt, manually load to freud
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/humdisease.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   UniProtKB domain
+AC   CVDR-0010
+DE   Control vocabulary for domains, repeat and zinc fingers
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_domain.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   UniProtKB enzyme classification
+AC   CVDR-0014
+DE   Control vocabulary for enzyme classification and enzyme description.
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/enzyme.dat
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/enzclass.txt
+UF   monthly
+UR   http://www.expasy.org/enzyme/
+CI
+//
+ID   UniProtKB keywords
+AC   CVDR-0016
+DE   Control vocabulary for keywords
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/keywlist.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   UniProtKB metal
+AC   CVDR-0011
+DE   Control vocabulary for metal bound to protein.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_metal.txt
+UF   occasionally
+UR
+CI
+//
+ID   UniProtKB organelle
+AC   CVDR-0013
+DE   Control vocabulary for organelles.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_organelles.txt
+UF   occasionally
+UR
+CI
+//
+ID   UniProtKB pathways
+AC   CVDR-0017
+DE   Control vocabulary for metabolic pathways
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/pathlist.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   UniProtKB posttranslational modifications
+AC   CVDR-0018
+DE   Control vocabulary for posttranslational modifications
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/ptmlist.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   UniProtKB region structure
+AC   CVDR-0012
+DE   Control vocabulary for protein region structure
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_region_structures.txt
+UF   occasionally
+UR
+CI
+//
+ID   UniProtKB subcellular location
+AC   CVDR-0019
+DE   Control vocabulary for subcellular location, orientation and topology
+DS   Uniprot
+DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/subcell.txt
+UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   UniProtKB topology
+AC   CVDR-0022
+DE   Control vocabulary for topology of regions for transmembrane proteins that span membrane compartments.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_topological_domain.txt
+UF   occasionally
+UR
+CI
+//
