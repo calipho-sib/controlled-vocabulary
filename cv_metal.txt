@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of metal-binding sites
 File name:   cv_metal.txt
-Last update: 27-Aug-2014
+Last update: 24-Sep-2014
 
 ----------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ KW   KW-0170:Cobalt.
 //
 ID   Cobalt (cobalamin axial ligand).
 AC   CVME_0003
-DE   Annotate an amino acid residue that binds a coblat (Co(3+)) cation
+DE   Annotate an amino acid residue that binds a cobalt (Co(3+)) cation
 DE   that is in the center of the tetrapyrrol ring structure (corrin ring)
 DE   of a cobalamin cofactor.
 KW   KW-0846:Cobalamin.
