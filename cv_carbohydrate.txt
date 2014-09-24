@@ -6,7 +6,7 @@
 
 Description: Control vocabulary to describe carbohydrate modification
 File name:   cv_carbohydrate.txt
-Last update: 27-Aug-2014
+Last update: 24-Sep-2014
 
 ----------------------------------------------------------------------------
 
@@ -42,7 +42,6 @@ DR   PSI-MOD; 01065 [N-glucosyl (N terminus or N epsilon of Lysine)]
 ID   N-linked (GlcNAc...)
 AC   CVCA_0003
 DE   N-linked (GlcNAc...)
-SY   N-linked (GalNAc...)
 //
 ID   N-linked (GlcNAc...) (complex)
 AC   CVCA_0004
