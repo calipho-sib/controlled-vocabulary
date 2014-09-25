@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 19-Sep-2014
+Last update: 25-Sep-2014
 
 ----------------------------------------------------------------------------
 
@@ -249,7 +249,7 @@ ID   ANK.
 AC   DO-00033
 SY   ankyrin.
 FT   REPEAT.
-TG   Rep;
+TG   PS50088; ANK_REPEAT;
 DO   PDOC50088;
 //
 ID   annexin.
@@ -294,7 +294,7 @@ AC   DO-00040
 SY   armadillo.
 SY   plakoglobin.
 FT   REPEAT.
-TG   Rep;
+TG   PS50176; ARM_REPEAT;
 DO   PDOC50176;
 //
 ID   ASD1.
@@ -2049,7 +2049,7 @@ TG   None;
 ID   HEAT.
 AC   DO-00293
 FT   REPEAT.
-TG   Rep;
+TG   PS50077; HEAT_REPEAT;
 DO   PDOC50077;
 //
 ID   HEAT-like PBS-type.
@@ -4760,7 +4760,7 @@ ID   TPR.
 AC   DO-00676
 SY   tetratricopeptide.
 FT   REPEAT.
-TG   Rep;
+TG   PS50005; TPR;
 DO   PDOC50005;
 //
 ID   tr-type G.
