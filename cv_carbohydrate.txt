@@ -21,6 +21,7 @@ Last update: 24-Sep-2014
   MM         Monoisotopic mass difference    Optional, once.
   DR         Cross-reference to PTM          Optional, once or more.
              databases
+  KW         X-ref to Swiss-Prot keyword     Optional; once or more
   //         Terminator                      Once; ends an entry
 
 AN   Next free AC:  CVCA_0034
@@ -31,6 +32,7 @@ DE   C-linked (Man)
 MM   162.052823
 DR   RESID; AA0217
 DR   PSI-MOD; 00222 [2'-alpha-mannosyl-L-tryptophan]
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (Glc) (glycation)
 AC   CVCA_0002
@@ -38,131 +40,162 @@ DE   N-linked (Glc) (glycation)
 SY   N-linked (Glc) (glycation), alternate
 MM   162.052823
 DR   PSI-MOD; 01065 [N-glucosyl (N terminus or N epsilon of Lysine)]
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...)
 AC   CVCA_0003
 DE   N-linked (GlcNAc...)
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (complex)
 AC   CVCA_0004
 DE   N-linked (GlcNAc...) (complex)
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (high mannose)
 AC   CVCA_0005
 DE   N-linked (GlcNAc...) (high mannose)
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (high mannose and complex)
 AC   CVCA_0006
 DE   N-linked (GlcNAc...) (high mannose and complex)
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (high mannose or hybrid)
 AC   CVCA_0032
 DE   N-linked (GlcNAc...) (high mannose and or hybrid)
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (keratan sulfate)
 AC   CVCA_0007
 DE   N-linked (GlcNAc...) (keratan sulfate)
+KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (polylactosaminoglycan)
 AC   CVCA_0025
 DE   N-linked (GlcNAc...) (polylactosaminoglycan)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Fuc)
 AC   CVCA_0008
 DE   O-linked (Fuc)
 MM   146.057909
 DR   PSI-MOD; 00614 [fucosylated]
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Fuc...)
 AC   CVCA_0009
 DE   O-linked (Fuc...)
-SY   O-linked (Fuc......)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (FucGlc...)
 AC   CVCA_0030
 DE   O-linked (FucGlc...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Gal...)
 AC   CVCA_0010
 DE   O-linked (Gal...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GalNAc)
 AC   CVCA_0011
 DE   O-linked (GalNAc)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GalNAc...)
 AC   CVCA_0012
 DE   O-linked (GalNAc...) 
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Glc...)
 AC   CVCA_0013
 DE   O-linked (Glc...) 
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcA)
 AC   CVCA_0014
 DE   O-linked (GlcA)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcNAc)
 AC   CVCA_0015
 DE   O-linked (GlcNAc)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcNAc...)
 AC   CVCA_0024
 DE   O-linked (GlcNAc...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcNAc6P)
 AC   CVCA_0031
 DE   O-linked (GlcNAc-6-phosphate)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Hex)
 AC   CVCA_0029
 DE   O-linked (Hex)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Hex...)
 AC   CVCA_0028
 DE   O-linked (Hex...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (HexNAc...)
 AC   CVCA_0016
 DE   O-linked (HexNAc...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Man6P...)
 AC   CVCA_0027
 DE   O-linked (Man6P...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...)
 AC   CVCA_0033
 DE   O-linked (Xyl...)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (chondroitin sulfate)
 AC   CVCA_0017
 DE   O-linked (Xyl...) (chondroitin sulfate)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (dermatan sulfate)
 AC   CVCA_0018
 DE   O-linked (Xyl...) (dermatan sulfate)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (glycosaminoglycan)
 AC   CVCA_0019
 DE   O-linked (Xyl...) (glycosaminoglycan)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (heparan sulfate)
 AC   CVCA_0020
 DE   O-linked (Xyl...) (heparan sulfate)
+KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (keratan sulfate)
 AC   CVCA_0026
 DE   O-linked (Xyl...) (keratan sulfate)
+KW   KW-0325:Glycoprotein.
 //
 ID   S-linked (Gal...)
 AC   CVCA_0021
 DE   S-linked (Gal...)
+KW   KW-0325:Glycoprotein.
 //
 ID   S-linked (Glc...)
 AC   CVCA_0022
 DE   S-linked (Glc...)
+KW   KW-0325:Glycoprotein.
 //
 ID   S-linked (Hex...)
 AC   CVCA_0023
 DE   S-linked (Hex...)
+KW   KW-0325:Glycoprotein.
 //
