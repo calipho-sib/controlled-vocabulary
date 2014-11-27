@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 19-Sep-2014
+Last update: 27-Nov-2014
 
 ----------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ Last update: 19-Sep-2014
  AC         Accession (FA-xxxxx)            Once
  SY         Synonyms                        Optional; once or more
  DR         Xref on classification          Optional; once or more
- HI         Hierarchy                       Oprional; once
+ HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
 AN   Next free AC: FA-05291
@@ -195,16 +195,12 @@ HI   FA-00034; AB hydrolase superfamily
 ID   ABHD17 family
 AC   FA-05179
 SY   AB hydrolase superfamily. ABHD17 family.
+SY   AB hydrolase superfamily. FAM108 family.
 HI   FA-00034; AB hydrolase superfamily
 //
 ID   Epoxide hydrolase family
 AC   FA-00037
 SY   AB hydrolase superfamily. Epoxide hydrolase family.
-HI   FA-00034; AB hydrolase superfamily
-//
-ID   FAM108 family
-AC   FA-00038
-SY   AB hydrolase superfamily. FAM108 family.
 HI   FA-00034; AB hydrolase superfamily
 //
 ID   Lipase family
@@ -544,8 +540,9 @@ AC   FA-05245
 ID   Adipogenin family
 AC   FA-00111
 //
-ID   adipolin/erythroferrone family
+ID   Adipolin/erythroferrone family
 AC   FA-05272
+SY   FAM132 family.
 //
 ID   ADIPOR family
 AC   FA-00112
@@ -1100,6 +1097,7 @@ AC   FA-00261
 //
 ID   Arpin family
 AC   FA-05231
+SY   UPF0552 family.
 //
 ID   ARPC2 family
 AC   FA-00262
@@ -1538,6 +1536,7 @@ AC   FA-05100
 //
 ID   BMT2 family
 AC   FA-05185
+SY   UPF0532 family.
 //
 ID   BOD1 family
 AC   FA-00384
@@ -1584,6 +1583,7 @@ AC   FA-00396
 //
 ID   BRINP family
 AC   FA-05218
+SY   FAM5 family.
 //
 ID   BRK1 family
 AC   FA-00397
@@ -1956,12 +1956,6 @@ AC   FA-00494
 ID   CCBE1 family
 AC   FA-00495
 //
-ID   CCDC39 family
-AC   FA-04824
-//
-ID   CCDC40 family
-AC   FA-04825
-//
 ID   CCDC103/PR46b family
 AC   FA-05065
 //
@@ -1977,10 +1971,6 @@ AC   FA-00498
 ID   CCDC160 family
 AC   FA-00499
 SY   UPF0682 family.
-//
-ID   CCDC164 family
-AC   FA-04850
-SY   UPF0407 family.
 //
 ID   CCDC169 family
 AC   FA-04902
@@ -1999,6 +1989,12 @@ AC   FA-00502
 ID   CCDC25 family
 AC   FA-00503
 //
+ID   CCDC39 family
+AC   FA-04824
+//
+ID   CCDC40 family
+AC   FA-04825
+//
 ID   CCDC42 family
 AC   FA-00504
 //
@@ -2013,9 +2009,6 @@ AC   FA-00509
 //
 ID   CCDC78 family
 AC   FA-05233
-//
-ID   CCDC79 family
-AC   FA-00510
 //
 ID   CCDC80 family
 AC   FA-00511
@@ -2238,6 +2231,10 @@ ID   CEP85 family
 AC   FA-04894
 SY   CCDC21 family.
 //
+ID   CFAP20 family
+AC   FA-04394
+SY   UPF0468 family.
+//
 ID   CGI121/TPRKB family
 AC   FA-00570
 //
@@ -2442,6 +2439,11 @@ HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 ID   DOT1 family
 AC   FA-00999
 SY   Class I-like SAM-binding methyltransferase superfamily. DOT1 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   FAM86 family
+AC   FA-01317
+SY   Class I-like SAM-binding methyltransferase superfamily. FAM86 family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
 ID   Glycine N-methyltransferase family
@@ -2651,11 +2653,13 @@ HI   FA-01767; Histone-lysine methyltransferase family
 ID   SETD3 subfamily
 AC   FA-05203
 SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. SETD3 subfamily.
+SY   SETD3 family.
 HI   FA-01767; Histone-lysine methyltransferase family
 //
 ID   SETD6 subfamily
 AC   FA-05204
 SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. SETD6 subfamily.
+SY   SETD6 family.
 HI   FA-01767; Histone-lysine methyltransferase family
 //
 ID   Suvar3-9 subfamily
@@ -3161,6 +3165,8 @@ AC   FA-00762
 //
 ID   CSC1 (TC 1.A.17) family
 AC   FA-05275
+SY   SPO75/TMEM63 family.
+DR   TC 1.A.17
 //
 ID   CSL4 family
 AC   FA-05235
@@ -3461,6 +3467,7 @@ AC   FA-00838
 //
 ID   CYSRT1 family
 AC   FA-05276
+SY   UPF0574 family.
 //
 ID   Cystatin family
 AC   FA-00839
@@ -4113,6 +4120,8 @@ AC   FA-01012
 //
 ID   DRC1 family
 AC   FA-05180
+SY   CCDC164 family.
+SY   UPF0407 family.
 //
 ID   DREV family
 AC   FA-01013
@@ -4533,6 +4542,7 @@ AC   FA-01132
 //
 ID   ERICH6 family
 AC   FA-05259
+SY   FAM194 family.
 //
 ID   EROs family
 AC   FA-01133
@@ -4794,9 +4804,6 @@ AC   FA-01217
 ID   FAM124 family
 AC   FA-01219
 //
-ID   FAM125 family
-AC   FA-01220
-//
 ID   FAM126 family
 AC   FA-01221
 //
@@ -4808,9 +4815,6 @@ AC   FA-01223
 //
 ID   FAM131 family
 AC   FA-01224
-//
-ID   FAM132 family
-AC   FA-01225
 //
 ID   FAM133 family
 AC   FA-04903
@@ -4824,9 +4828,6 @@ AC   FA-01227
 //
 ID   FAM136 family
 AC   FA-01228
-//
-ID   FAM138 family
-AC   FA-01229
 //
 ID   FAM149 family
 AC   FA-01230
@@ -4911,9 +4912,6 @@ AC   FA-01253
 ID   FAM179 family
 AC   FA-01254
 //
-ID   FAM18/TVP23 family
-AC   FA-01255
-//
 ID   FAM180 family
 AC   FA-01256
 //
@@ -4945,9 +4943,6 @@ AC   FA-01264
 ID   FAM193 family
 AC   FA-01266
 //
-ID   FAM194 family
-AC   FA-01267
-//
 ID   FAM195 family
 AC   FA-01268
 //
@@ -4965,10 +4960,6 @@ AC   FA-01272
 //
 ID   FAM200 family
 AC   FA-01273
-//
-ID   FAM203 family
-AC   FA-04837
-SY   UPF0570 family.
 //
 ID   FAM205 family
 AC   FA-04904
@@ -4989,9 +4980,6 @@ AC   FA-04938
 ID   FAM210 family
 AC   FA-04939
 //
-ID   FAM211 family
-AC   FA-04940
-//
 ID   FAM212 family
 AC   FA-04941
 //
@@ -5009,9 +4997,6 @@ AC   FA-05004
 //
 ID   FAM21 family
 AC   FA-01274
-//
-ID   FAM22 family
-AC   FA-01275
 //
 ID   FAM221 family
 AC   FA-05005
@@ -5033,11 +5018,9 @@ ID   FAM229 family
 AC   FA-05127
 SY   UPF0731 family.
 //
-ID   FAM23 family
-AC   FA-01276
-//
 ID   FAM231 family
 AC   FA-05247
+SY   UPF0627 family.
 //
 ID   FAM24 family
 AC   FA-01277
@@ -5060,9 +5043,6 @@ AC   FA-01282
 ID   FAM35 family
 AC   FA-01283
 //
-ID   FAM41 family
-AC   FA-01287
-//
 ID   FAM43 family
 AC   FA-01288
 //
@@ -5075,14 +5055,8 @@ AC   FA-01290
 ID   FAM47 family
 AC   FA-01291
 //
-ID   FAM48 family
-AC   FA-01292
-//
 ID   FAM49 family
 AC   FA-01293
-//
-ID   FAM5 family
-AC   FA-01294
 //
 ID   FAM50 family
 AC   FA-01295
@@ -5105,9 +5079,6 @@ AC   FA-01302
 ID   FAM69 family
 AC   FA-01303
 //
-ID   FAM7 family
-AC   FA-01304
-//
 ID   FAM71 family
 AC   FA-01306
 //
@@ -5129,17 +5100,11 @@ AC   FA-01312
 ID   FAM81 family
 AC   FA-01313
 //
-ID   FAM82/RMD family
-AC   FA-01314
-//
 ID   FAM83 family
 AC   FA-01315
 //
 ID   FAM84 family
 AC   FA-01316
-//
-ID   FAM86 family
-AC   FA-01317
 //
 ID   FAM87 family
 AC   FA-01318
@@ -5573,27 +5538,27 @@ HI   FA-01406; G-protein coupled receptor 1 family
 ID   CHRM1 sub-subfamily
 AC   FA-04765
 SY   G-protein coupled receptor 1 family. Muscarinic acetylcholine receptor subfamily. CHRM1 sub-subfamily.
-HI   FA-04764
+HI   FA-04764; Muscarinic acetylcholine receptor subfamily
 //
 ID   CHRM2 sub-subfamily
 AC   FA-04766
 SY   G-protein coupled receptor 1 family. Muscarinic acetylcholine receptor subfamily. CHRM2 sub-subfamily.
-HI   FA-04764
+HI   FA-04764; Muscarinic acetylcholine receptor subfamily
 //
 ID   CHRM3 sub-subfamily
 AC   FA-04767
 SY   G-protein coupled receptor 1 family. Muscarinic acetylcholine receptor subfamily. CHRM3 sub-subfamily.
-HI   FA-04764
+HI   FA-04764; Muscarinic acetylcholine receptor subfamily
 //
 ID   CHRM4 sub-subfamily
 AC   FA-04768
 SY   G-protein coupled receptor 1 family. Muscarinic acetylcholine receptor subfamily. CHRM4 sub-subfamily.
-HI   FA-04764
+HI   FA-04764; Muscarinic acetylcholine receptor subfamily
 //
 ID   CHRM5 sub-subfamily
 AC   FA-04769
 SY   G-protein coupled receptor 1 family. Muscarinic acetylcholine receptor subfamily. CHRM5 sub-subfamily.
-HI   FA-04764
+HI   FA-04764; Muscarinic acetylcholine receptor subfamily
 //
 ID   Neurotensin receptor subfamily
 AC   FA-01427
@@ -6530,6 +6495,7 @@ AC   FA-01681
 //
 ID   GTP cyclohydrolase I type 2 family
 AC   FA-05230
+SY   UPF0135 (NIF3) family.
 //
 ID   GTP-binding SRP family
 AC   FA-01689
@@ -6738,6 +6704,11 @@ AC   FA-01749
 ID   HFCD (homooligomeric flavin containing Cys decarboxylase) superfamily
 AC   FA-01750
 SY   HFCD (homo-oligomeric flavin containing Cys decarboxylase) superfamily.
+//
+ID   HGH1 family
+AC   FA-04837
+SY   FAM203 family.
+SY   UPF0570 family.
 //
 ID   HHIP family
 AC   FA-01751
@@ -7047,9 +7018,6 @@ ID   LISCH7 family
 AC   FA-01843
 SY   Immunoglobulin superfamily. LISCH7 family.
 HI   FA-01833; Immunoglobulin superfamily
-//
-ID   LRRC8 family
-AC   FA-05277
 //
 ID   MyBP family
 AC   FA-01844
@@ -8065,6 +8033,10 @@ SY   UPF0579 family.
 //
 ID   LRRC75 family
 AC   FA-05261
+SY   FAM211 family.
+//
+ID   LRRC8 family
+AC   FA-05277
 //
 ID   LRRCC1 family
 AC   FA-02117
@@ -8890,7 +8862,7 @@ AC   FA-04805
 ID   MMS22L subfamily
 AC   FA-04806
 SY   MMS22 family. MMS22L subfamily.
-HI   FA-04805
+HI   FA-04805; MMS22 family
 //
 ID   MND1 family
 AC   FA-02327
@@ -9059,6 +9031,7 @@ AC   FA-02376
 //
 ID   MTURN family
 AC   FA-05252
+SY   UPF0452 family.
 //
 ID   MTUS1 family
 AC   FA-02377
@@ -9091,6 +9064,7 @@ AC   FA-02385
 //
 ID   MVB12 family
 AC   FA-05157
+SY   FAM125 family.
 //
 ID   MYCT1 family
 AC   FA-02387
@@ -9416,29 +9390,30 @@ AC   FA-02474
 ID   NipSnap family
 AC   FA-02475
 //
-ID   carbon-nitrogen hydrolase superfamily
+ID   Carbon-nitrogen hydrolase superfamily
 AC   FA-00645
 SY   Nitrilase superfamily. CN hydrolase nitrilase family.
 SY   CN hydrolase nitrilase family.
 //
 ID   BTD/VNN family
 AC   FA-00646
-SY   carbon-nitrogen hydrolase superfamily. BTD/VNN family.
+SY   Carbon-nitrogen hydrolase superfamily. BTD/VNN family.
 SY   CN hydrolase family. BTD/VNN subfamily.
 SY   Nitrilase superfamily. CN hydrolase nitrilase family. BTD/VNN subfamily.
 HI   FA-00645; carbon-nitrogen hydrolase superfamily
 //
 ID   BUP family
 AC   FA-00647
-SY   carbon-nitrogen hydrolase superfamily. BUP family.
+SY   Carbon-nitrogen hydrolase superfamily. BUP family.
 SY   CN hydrolase family. BUP subfamily.
 SY   Nitrilase superfamily. CN hydrolase nitrilase family. BUP subfamily.
 HI   FA-00645; carbon-nitrogen hydrolase superfamily
 //
 ID   NIT1/NIT2 family
 AC   FA-05222
-SY   carbon-nitrogen hydrolase superfamily. NIT1/NIT2 family.
+SY   Carbon-nitrogen hydrolase superfamily. NIT1/NIT2 family.
 SY   Nitrilase superfamily. NIT1/NIT2 family.
+SY   UPF0012 family.
 HI   FA-00645; carbon-nitrogen hydrolase superfamily
 //
 ID   Nitroreductase family
@@ -9791,6 +9766,7 @@ AC   FA-02570
 //
 ID   NUT family
 AC   FA-05191
+SY   FAM22 family.
 //
 ID   NXF family
 AC   FA-02571
@@ -10320,7 +10296,7 @@ AC   FA-02715
 ID   Otulin subfamily
 AC   FA-05211
 SY   Peptidase C65 family. Otulin subfamily.
-HI   FA-02715; 
+HI   FA-02715; Peptidase C65 family
 //
 ID   Peptidase C67 family
 AC   FA-02716
@@ -10771,7 +10747,6 @@ ID   Eukaryotic two domain clade "E" sub-subfamily
 AC   FA-05280
 SY   Phosphofructokinase type A (PFKA) family. ATP-dependent PFK group I subfamily. Eukaryotic two domain clade "E" sub-subfamily.
 HI   FA-05279; ATP-dependent PFK group I subfamily
-//
 //
 ID   Phosphoglycerate kinase family
 AC   FA-02835
@@ -12959,6 +12934,7 @@ AC   FA-03400
 //
 ID   RMDN family
 AC   FA-05163
+SY   FAM82/RMD family.
 //
 ID   RMI1 family
 AC   FA-03401
@@ -13200,6 +13176,7 @@ AC   FA-03471
 //
 ID   RSRP family
 AC   FA-05266
+SY   UPF0471 family.
 //
 ID   RtcB family
 AC   FA-04841
@@ -13211,6 +13188,10 @@ SY   UPF0549 family.
 //
 ID   RUNDC3 family
 AC   FA-03472
+//
+ID   RUS1 family
+AC   FA-04367
+SY   UPF0420 family.
 //
 ID   RUTBC family
 AC   FA-03473
@@ -13575,12 +13556,6 @@ SY   FAM109 family.
 //
 ID   Sestrin family
 AC   FA-03580
-//
-ID   SETD3 family
-AC   FA-04865
-//
-ID   SETD6 family
-AC   FA-03581
 //
 ID   SEZ6 family
 AC   FA-03582
@@ -14005,6 +13980,7 @@ HI   FA-03684; SMC family
 //
 ID   SMCO4 family
 AC   FA-05194
+SY   UPF0443 family.
 //
 ID   SMCR7 family
 AC   FA-03692
@@ -14404,6 +14380,7 @@ AC   FA-03779
 //
 ID   SOS response-associated peptidase family
 AC   FA-05243
+SY   UPF0361 family.
 //
 ID   SOSS-B family
 AC   FA-03780
@@ -14457,6 +14434,7 @@ SY   FAM75 family.
 //
 ID   SPATA45 family
 AC   FA-05268
+SY   UPF0732 family.
 //
 ID   SPATA6 family
 AC   FA-03791
@@ -14527,9 +14505,6 @@ AC   FA-03809
 ID   SPO22 family
 AC   FA-05166
 //
-ID   SPO75/TMEM63 family
-AC   FA-03810
-//
 ID   SPOT14 family
 AC   FA-03811
 //
@@ -14550,6 +14525,7 @@ AC   FA-03816
 //
 ID   SPT20 family
 AC   FA-05167
+SY   FAM48 family.
 //
 ID   SPT3 family
 AC   FA-05138
@@ -15083,6 +15059,7 @@ HI   FA-03964; Tenascin family
 //
 ID   TERB1 family
 AC   FA-05269
+SY   CCDC79 family.
 //
 ID   Terpene cyclase/mutase family
 AC   FA-03966
@@ -15492,6 +15469,7 @@ SY   UPF0546 family.
 //
 ID   TMEM236 family
 AC   FA-04880
+SY   FAM23 family.
 //
 ID   TMEM237 family
 AC   FA-04965
@@ -15538,6 +15516,7 @@ SY   UPF0679 family.
 //
 ID   TMEM263 family
 AC   FA-05270
+SY   UPF0444 family.
 //
 ID   TMEM27 family
 AC   FA-04085
@@ -16415,6 +16394,7 @@ AC   FA-04244
 //
 ID   TVP23 family
 AC   FA-05173
+SY   FAM18/TVP23 family.
 //
 ID   TVP38/TMEM64 family
 AC   FA-04245
@@ -16659,9 +16639,6 @@ DR   TC 2.A.93
 ID   UPF0001 family
 AC   FA-04306
 //
-ID   UPF0012 family
-AC   FA-04307
-//
 ID   UPF0046 family
 AC   FA-04311
 //
@@ -16670,9 +16647,6 @@ AC   FA-04313
 //
 ID   UPF0118 (TMEM245) family
 AC   FA-05010
-//
-ID   UPF0135 (NIF3) family
-AC   FA-04319
 //
 ID   UPF0136 (TMEM14) family
 AC   FA-04320
@@ -16716,14 +16690,8 @@ AC   FA-04337
 ID   UPF0317 family
 AC   FA-04340
 //
-ID   UPF0347 (TMEM111) family
-AC   FA-04343
-//
 ID   UPF0359 family
 AC   FA-04344
-//
-ID   UPF0361 family
-AC   FA-04346
 //
 ID   UPF0364 family
 AC   FA-04347
@@ -16752,9 +16720,6 @@ AC   FA-04357
 ID   UPF0415 family
 AC   FA-04364
 //
-ID   UPF0420 family
-AC   FA-04367
-//
 ID   UPF0428 family
 AC   FA-04370
 //
@@ -16764,20 +16729,11 @@ AC   FA-04372
 ID   UPF0433 family
 AC   FA-04374
 //
-ID   UPF0443 family
-AC   FA-04377
-//
-ID   UPF0444 family
-AC   FA-04378
-//
 ID   UPF0449 family
 AC   FA-04379
 //
 ID   UPF0450 family
 AC   FA-04380
-//
-ID   UPF0452 family
-AC   FA-04382
 //
 ID   UPF0454 family
 AC   FA-04383
@@ -16791,14 +16747,8 @@ AC   FA-04387
 ID   UPF0462 family
 AC   FA-04388
 //
-ID   UPF0468 family
-AC   FA-04394
-//
 ID   UPF0469 family
 AC   FA-04395
-//
-ID   UPF0471 family
-AC   FA-04397
 //
 ID   UPF0472 family
 AC   FA-04398
@@ -16811,9 +16761,6 @@ AC   FA-04404
 //
 ID   UPF0489 family
 AC   FA-04405
-//
-ID   UPF0493 family
-AC   FA-04408
 //
 ID   UPF0500 family
 AC   FA-04410
@@ -16836,9 +16783,6 @@ AC   FA-04417
 ID   UPF0528 family
 AC   FA-04418
 //
-ID   UPF0532 family
-AC   FA-04419
-//
 ID   UPF0534 family
 AC   FA-04421
 //
@@ -16856,9 +16800,6 @@ AC   FA-04427
 //
 ID   UPF0547 family
 AC   FA-04429
-//
-ID   UPF0552 family
-AC   FA-04433
 //
 ID   UPF0553 family
 AC   FA-04434
@@ -16883,9 +16824,6 @@ AC   FA-04446
 //
 ID   UPF0573 family
 AC   FA-04448
-//
-ID   UPF0574 family
-AC   FA-04449
 //
 ID   UPF0575 family
 AC   FA-04450
@@ -16928,12 +16866,6 @@ AC   FA-04468
 //
 ID   UPF0610 family
 AC   FA-04469
-//
-ID   UPF0621 family
-AC   FA-04471
-//
-ID   UPF0627 family
-AC   FA-04474
 //
 ID   UPF0633 family
 AC   FA-04479
@@ -16991,9 +16923,6 @@ AC   FA-04516
 //
 ID   UPF0730 family
 AC   FA-04517
-//
-ID   UPF0732 family
-AC   FA-04519
 //
 ID   UPF0739 family
 AC   FA-04521
