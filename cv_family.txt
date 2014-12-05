@@ -22,7 +22,7 @@ Last update: 05-Dec-2014
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05312
+AN   Next free AC: FA-05314
 
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
@@ -2969,7 +2969,7 @@ HI   FA-00684; Complex I LYR family
 //
 ID   SDHAF3 subfamily
 AC   FA-05300
-SY   Complex I LYR family. SDHAF1 subfamily.
+SY   Complex I LYR family. SDHAF3 subfamily.
 HI   FA-00684; Complex I LYR family
 //
 ID   Complex I NDUFA1 subunit family
@@ -3071,8 +3071,11 @@ AC   FA-00718
 ID   Complex I subunit 6 family
 AC   FA-00719
 //
-ID   Complex IV NDUFA4 subunit family
+ID   Complex I NDUFA4 subunit family
 AC   FA-00692
+//
+ID   Complex IV NDUFA4 subunit family
+AC   FA-05312
 //
 ID   Complexin/synaphin family
 AC   FA-00720
@@ -6957,6 +6960,9 @@ AC   FA-01806
 //
 ID   ICE1 family
 AC   FA-05303
+//
+ID   ICE2 family
+AC   FA-05313
 //
 ID   ICE4 family
 AC   FA-05304
