@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 25-Sep-2014
+Last update: 05-Dec-2014
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 25-Sep-2014
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00853
+AN   Next free AC: DO-00863
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -309,6 +309,12 @@ FT   DOMAIN.
 TG   PS51307; ASD2;
 DO   PDOC51306;
 //
+ID   asparaginase/glutaminase.
+AC   DO-00855
+FT   DOMAIN.
+TG   PS51732; ASN_GLN_ASE_3;
+DO   PDOC00132;
+//
 ID   asparagine synthetase.
 AC   DO-00043
 FT   DOMAIN.
@@ -479,6 +485,11 @@ FT   REPEAT.
 TG   PF02012; BNR;
 DO   IPR002860;
 //
+ID   BPL/LPL catalytic.
+FT   DOMAIN.
+TG   PS51733; BPL_LPL_CATALYTIC;
+DO   PDOC51733;
+//
 ID   BPTI/Kunitz inhibitor.
 AC   DO-00068
 FT   DOMAIN.
@@ -591,8 +602,8 @@ FT   DOMAIN.
 TG   PS51182; C2_TENSIN;
 DO   PDOC51181;
 //
-ID   C2HC-type.
-AC   DO-00084
+ID   C2H2 AKAP95-type
+AC   DO-00861
 FT   ZN_FING.
 TG   None;
 //
@@ -601,6 +612,11 @@ AC   DO-00085
 FT   ZN_FING.
 TG   PS50157; ZINC_FINGER_C2H2_2;
 DO   PDOC00028;
+//
+ID   C2HC-type.
+AC   DO-00084
+FT   ZN_FING.
+TG   None;
 //
 ID   C3H1-type.
 AC   DO-00086
@@ -688,6 +704,13 @@ SY   carbohydrate binding type-21.
 FT   DOMAIN.
 TG   PS51159; CBM21;
 DO   PDOC51159;
+//
+ID   CBP/p300-type HAT.
+AC   DO-00857
+SY   CBP/p300-type histone acetyltransferase,
+FT   DOMAIN.
+DR   PS51727; CBP_P300_HAT;
+DO   PDOC51727;
 //
 ID   CBS.
 AC   DO-00100
@@ -975,6 +998,11 @@ AC   DO-00142
 FT   REPEAT.
 TG   PS51289; GLG1_C_RICH;
 DO   PDOC51289;
+//
+ID   CysA-type.
+AC   DO-00862
+FT   ZN_FING.
+TG   None;
 //
 ID   cystatin.
 AC   DO-00143
@@ -1329,6 +1357,12 @@ SY   Dynamin-type guanine nucleotide-binding.
 FT   DOMAIN.
 TG   PS00410; DYNAMIN;
 DO   PDOC00362;
+//
+ID   DZANK-type.
+AC   DO-00858
+FT   ZN_FING.
+TG   PF12773; DZR;
+DO   IPR025874;
 //
 ID   DZF.
 AC   DO-00194
@@ -2083,11 +2117,11 @@ SY   helix-loop-helix motif.
 FT   DOMAIN.
 TG   None;
 //
-ID   hemopexin-like.
+ID   hemopexin.
 AC   DO-00299
-FT   DOMAIN.
-TG   PF00045; Hemopexin;
-DO   IPR018487;
+FT   REPEAT.
+TG   PS51642; HEMOPEXIN_2;
+DO   PDOC00023;
 //
 ID   HEPN.
 AC   DO-00300
@@ -2992,11 +3026,23 @@ FT   DOMAIN.
 TG   PS51456; MYOSIN_MOTOR;
 DO   PDOC51456;
 //
+ID   myosin tail.
+AC   DO-00853
+FT   DOMAIN.
+TG   PF06017 Myosin_TH1;
+DO   IPR010926;
+//
 ID   myotubularin phosphatase.
 AC   DO-00428
 FT   DOMAIN.
 TG   PS51339; MYOTUBULARIN_PHP;
 DO   PDOC51339;
+//
+ID   MYST-type HAT.
+SY   MYST-type histone acetyltransferase.
+FT   DOMAIN.
+TG   PS51726; MYST_HAT;
+DO   PDOC51726;
 //
 ID   MyTH4.
 AC   DO-00429
@@ -3079,6 +3125,12 @@ AC   DO-00441
 FT   ZN_FING.
 TG   PF01422; zf-NF-X1;
 DO   IPR000967;
+//
+ID   NFYA/HAP2-type.
+AC   DO-00854
+FT   DNA_BIND.
+TG   PS51152; NFYA_HAP2_2;
+DO   PDOC00578;
 //
 ID   NHL.
 AC   DO-00442
@@ -3358,7 +3410,7 @@ DO   PDOC00128;
 //
 ID   peptidase C50.
 AC   DO-00836
-SY   separin core
+SY   separin core.
 FT   DOMAIN.
 TG   PS51700; SEPARIN;
 DO   PDOC51700;
@@ -3368,6 +3420,12 @@ AC   DO-00481
 FT   DOMAIN.
 TG   PS50215; ADAM_MEPRO;
 DO   PDOC50215;
+//
+ID   peptidase M60.
+AC   DO-00856
+FT   DOMAIN.
+TG   PS51723; PEPTIDASE_M60;
+DO   PDOC51723;
 //
 ID   peptidase S1.
 AC   DO-00482
@@ -3379,7 +3437,7 @@ ID   peptidase S53.
 AC   DO-00831
 FT   DOMAIN.
 TG   PS51695; SEDOLISIN;
-DO   PDOC51695
+DO   PDOC51695;
 //
 ID   peptidase S59.
 AC   DO-00483
@@ -3395,7 +3453,8 @@ TG   None;
 ID   peptidase S72.
 AC   DO-00485
 FT   DOMAIN.
-TG   None;
+TG   PS51699; SEA_DG;
+DO   PDOC51699;
 //
 ID   peptidase S74.
 AC   DO-00825
@@ -4079,6 +4138,12 @@ AC   DO-00826
 FT   DOMAIN.
 TG   PS51613; SAM_MT_RRMJ;
 DO   PDOC51555;
+//
+ID   RRN7-type.
+AC   DO-00859
+FT   ZN_FING.
+TG   PF11781; RRN7;
+DO   IPR021752;
 //
 ID   RTR1-type.
 AC   DO-00752
@@ -4978,6 +5043,12 @@ AC   DO-00705
 FT   DOMAIN.
 TG   SM00134; LU;
 DO   PDOC00756;
+//
+ID   UPF1-type.
+AC   DO-00860
+SY   ZN_FING.
+TG   PF09416; UPF1_Zn_bind;
+DO   IPR018999;
 //
 ID   USP.
 AC   DO-00832
