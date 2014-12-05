@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 27-Nov-2014
+Last update: 05-Dec-2014
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 27-Nov-2014
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05291
+AN   Next free AC: FA-05312
 
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
@@ -628,8 +628,9 @@ AC   FA-00138
 ID   AKNA family
 AC   FA-00139
 //
-ID   ALADH family
+ID   ALAD family
 AC   FA-00140
+SY   ALADH family.
 //
 ID   AlaDH/PNT family
 AC   FA-00141
@@ -983,7 +984,7 @@ AC   FA-00230
 ID   Apolipoprotein L family
 AC   FA-00231
 //
-ID   Apolipoprotein O family
+ID   Apolipoprotein O/MICOS complex subunit Mic27 family
 AC   FA-00232
 //
 ID   APOPT family
@@ -2235,6 +2236,33 @@ ID   CFAP20 family
 AC   FA-04394
 SY   UPF0468 family.
 //
+ID   CFAP36 family
+AC   FA-05291
+//
+ID   CFAP43 family
+AC   FA-05294
+//
+ID   CFAP44 family
+AC   FA-05295
+//
+ID   CFAP45 family
+AC   FA-05292
+//
+ID   CFAP46 family
+AC   FA-05293
+//
+ID   CFAP52 family
+AC   FA-05297
+//
+ID   CFAP53 family
+AC   FA-05296
+//
+ID   CFAP54 family
+AC   FA-05298
+//
+ID   CFAP99 family
+AC   FA-05299
+//
 ID   CGI121/TPRKB family
 AC   FA-00570
 //
@@ -2410,6 +2438,11 @@ HI   FA-00615; Class-I pyridoxal-phosphate-dependent aminotransferase family
 ID   Class I-like SAM-binding methyltransferase superfamily
 AC   FA-04990
 //
+ID   BUD23/WBSCR22 family
+AC   FA-05301
+SY   Class I-like SAM-binding methyltransferase superfamily. BUD23/WBSCR22 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
 ID   C5-methyltransferase family
 AC   FA-00417
 SY   Class I-like SAM-binding methyltransferase superfamily. C5-methyltransferase family.
@@ -2494,6 +2527,24 @@ ID   RMT2 methyltransferase family
 AC   FA-03403
 SY   Class I-like SAM-binding methyltransferase superfamily. RMT2 methyltransferase family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   RNA methyltransferase RlmE family
+AC   FA-02272
+SY   Class I-like SAM-binding methyltransferase superfamily. RNA methyltransferase RlmE family.
+SY   RlmE family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   SPB1 subfamily
+AC   FA-05154
+SY   Class I-like SAM-binding methyltransferase superfamily. RNA methyltransferase RlmE family. SPB1 subfamily.
+SY   Methyltransferase superfamily. RlmE family. SPB1 subfamily.
+HI   FA-02272; RNA methyltransferase RlmE family
+//
+ID   TRM7 subfamily
+AC   FA-05175
+SY   Class I-like SAM-binding methyltransferase superfamily. RNA methyltransferase RlmE family. TRM7 subfamily.
+SY   Methyltransferase superfamily. RlmE family. TRM7 subfamily.
+HI   FA-02272; RNA methyltransferase RlmE family
 //
 ID   rRNA adenine N(6)-methyltransferase family
 AC   FA-02276
@@ -2598,6 +2649,16 @@ AC   FA-00625
 //
 ID   Class IV-like SAM-binding methyltransferase superfamily
 AC   FA-05176
+//
+ID   RNA methyltransferase NEP1 family
+AC   FA-02438
+SY   Class IV-like SAM-binding methyltransferase superfamily. RNA methyltransferase NEP1 family.
+HI   FA-05176; Class IV-like SAM-binding methyltransferase superfamily
+//
+ID   RNA methyltransferase TrmH family
+AC   FA-03410
+SY   Class IV-like SAM-binding methyltransferase superfamily. RNA methyltransferase TrmH family.
+HI   FA-05176; Class IV-like SAM-binding methyltransferase superfamily
 //
 ID   TRM10 family
 AC   FA-03408
@@ -2906,6 +2967,11 @@ AC   FA-00685
 SY   Complex I LYR family. SDHAF1 subfamily.
 HI   FA-00684; Complex I LYR family
 //
+ID   SDHAF3 subfamily
+AC   FA-05300
+SY   Complex I LYR family. SDHAF1 subfamily.
+HI   FA-00684; Complex I LYR family
+//
 ID   Complex I NDUFA1 subunit family
 AC   FA-00686
 //
@@ -2923,9 +2989,6 @@ AC   FA-00690
 //
 ID   Complex I NDUFA3 subunit family
 AC   FA-00691
-//
-ID   Complex I NDUFA4 subunit family
-AC   FA-00692
 //
 ID   Complex I NDUFA5 subunit family
 AC   FA-00693
@@ -3007,6 +3070,9 @@ AC   FA-00718
 //
 ID   Complex I subunit 6 family
 AC   FA-00719
+//
+ID   Complex IV NDUFA4 subunit family
+AC   FA-00692
 //
 ID   Complexin/synaphin family
 AC   FA-00720
@@ -6162,6 +6228,9 @@ AC   FA-01590
 ID   Glycosyl hydrolase 79 family
 AC   FA-01591
 //
+ID   Glycosyl hydrolase 84 family
+AC   FA-05306
+//
 ID   Glycosyl hydrolase 85 family
 AC   FA-01592
 //
@@ -6243,6 +6312,15 @@ AC   FA-01615
 //
 ID   Glycosyltransferase 4 family
 AC   FA-01616
+//
+ID   Glycosyltransferase 41 family
+AC   FA-05311
+//
+ID   O-GlcNAc transferase subfamily
+AC   FA-02572
+SY   Glycosyltransferase 41 family. O-GlcNAc transferase subfamily.
+SY   O-GlcNAc transferase family.
+HI   FA-05311; Glycosyltransferase 41 family
 //
 ID   Glycosyltransferase 43 family
 AC   FA-01617
@@ -6876,6 +6954,12 @@ AC   FA-01804
 //
 ID   IAP family
 AC   FA-01806
+//
+ID   ICE1 family
+AC   FA-05303
+//
+ID   ICE4 family
+AC   FA-05304
 //
 ID   IER family
 AC   FA-01807
@@ -8311,8 +8395,9 @@ AC   FA-02189
 ID   MCTS1 family
 AC   FA-02190
 //
-ID   MCU family
+ID   MCU (TC 1.A.77) family
 AC   FA-04909
+DR   TC 1.A.77
 //
 ID   MDFI family
 AC   FA-02191
@@ -8654,26 +8739,6 @@ AC   FA-02271
 SY   Methyltransferase superfamily. PrmA family.
 HI   FA-02260; Methyltransferase superfamily
 //
-ID   RlmE family
-AC   FA-02272
-SY   Methyltransferase superfamily. RlmE family.
-HI   FA-02260; Methyltransferase superfamily
-//
-ID   Adrift subfamily
-AC   FA-02273
-SY   Methyltransferase superfamily. RlmE family. Adrift subfamily.
-HI   FA-02272; RlmE family
-//
-ID   SPB1 subfamily
-AC   FA-05154
-SY   Methyltransferase superfamily. RlmE family. SPB1 subfamily.
-HI   FA-02272; RlmE family
-//
-ID   TRM7 subfamily
-AC   FA-05175
-SY   Methyltransferase superfamily. RlmE family. TRM7 subfamily.
-HI   FA-02272; RlmE family
-//
 ID   RrmJ family
 AC   FA-02275
 SY   Methyltransferase superfamily. RrmJ family.
@@ -8748,6 +8813,27 @@ AC   FA-02299
 //
 ID   Mical family
 AC   FA-04980
+//
+ID   MICOS complex subunit Mic10 family
+AC   FA-04931
+SY   Mitochondrial organizing structure protein type 1 family.
+SY   UPF0327 family.
+//
+ID   MICOS complex subunit Mic19 family
+AC   FA-05308
+//
+ID   Metazoan Mic19 subfamily
+AC   FA-05309
+SY   MICOS complex subunit Mic19 family. Metazoan Mic19 subfamily.
+HI   FA-05308; MICOS complex subunit Mic10 family
+//
+ID   Metazoan Mic25 subfamily
+AC   FA-05310
+SY   MICOS complex subunit Mic19 family. Metazoan Mic25 subfamily.
+HI   FA-05308; MICOS complex subunit Mic10 family
+//
+ID   MICOS complex subunit Mic60 family
+AC   FA-05307
 //
 ID   MICU1 family
 AC   FA-04772
@@ -8833,10 +8919,6 @@ AC   FA-02316
 SY   Mitochondrial carrier (TC 2.A.29) family. SLC25A38 subfamily.
 HI   FA-02315; Mitochondrial carrier (TC 2.A.29) family
 //
-ID   Mitochondrial organizing structure protein type 1 family
-AC   FA-04931
-SY   UPF0327 family.
-//
 ID   Mitochondrial pyruvate carrier (MPC) family
 AC   FA-05045
 SY   UPF0041 family.
@@ -8852,9 +8934,6 @@ AC   FA-02320
 //
 ID   MMACHC family
 AC   FA-02321
-//
-ID   MMP37/TAM41 family
-AC   FA-04911
 //
 ID   MMS22 family
 AC   FA-04805
@@ -9208,6 +9287,9 @@ AC   FA-02418
 ID   NASP family
 AC   FA-02419
 //
+ID   NATD1 family
+AC   FA-05302
+//
 ID   Natriuretic peptide family
 AC   FA-02420
 //
@@ -9275,9 +9357,6 @@ AC   FA-02437
 ID   NEMF family
 AC   FA-04862
 SY   SDCCAG1 family.
-//
-ID   NEP1 family
-AC   FA-02438
 //
 ID   Nephrocystin-1 family
 AC   FA-02439
@@ -9492,8 +9571,9 @@ AC   FA-02497
 ID   Non-repetitive/WGA-negative nucleoporin family
 AC   FA-02498
 //
-ID   Nonaspanin (TM9SF) family
+ID   Nonaspanin (TM9SF) (TC 9.A.2) family
 AC   FA-02499
+DR   TC 9.A.2
 //
 ID   NOP10 family
 AC   FA-02500
@@ -9777,9 +9857,6 @@ SY   FAM55 family.
 //
 ID   NYAP family
 AC   FA-04969
-//
-ID   O-GlcNAc transferase family
-AC   FA-02572
 //
 ID   OAF family
 AC   FA-02573
@@ -10466,6 +10543,9 @@ AC   FA-02760
 //
 ID   Peptidase S1 family
 AC   FA-02761
+//
+ID   Peptidase S1C family
+AC   FA-05305
 //
 ID   Elastase subfamily
 AC   FA-02762
@@ -11486,9 +11566,10 @@ AC   FA-03008
 ID   PRAME family
 AC   FA-03009
 //
-ID   PIEZO family
+ID   PIEZO (TC 1.A.75) family
 AC   FA-04808
 SY   FAM38 family.
+DR   TC 1.A.75
 //
 ID   Prefoldin subunit alpha family
 AC   FA-03010
@@ -12957,9 +13038,6 @@ SY   RNA 3'-terminal cyclase family. Type 2 subfamily.
 SY   Type 2 subfamily.
 HI   FA-03404; RNA 3'-terminal cyclase family
 //
-ID   RNA methyltransferase trmH family
-AC   FA-03410
-//
 ID   RNA polymerase beta chain family
 AC   FA-03411
 //
@@ -13363,6 +13441,10 @@ SY   UPF0667 family.
 //
 ID   SDHAF2 family
 AC   FA-03524
+//
+ID   SDHAF4 family
+AC   FA-04350
+SY   UPF0369 family.
 //
 ID   SDO1/SBDS family
 AC   FA-03525
@@ -14914,6 +14996,10 @@ AC   FA-03928
 //
 ID   TALPID3 family
 AC   FA-05106
+//
+ID   TAM41 family
+AC   FA-04911
+SY   MMP37 family.
 //
 ID   TANC family
 AC   FA-03929
@@ -16696,9 +16782,6 @@ AC   FA-04344
 ID   UPF0364 family
 AC   FA-04347
 //
-ID   UPF0369 family
-AC   FA-04350
-//
 ID   UPF0378 family
 AC   FA-04351
 //
@@ -17595,6 +17678,10 @@ AC   FA-04708
 ID   XRCC4 family
 AC   FA-04709
 //
+ID   YAP1 family
+AC   FA-04714
+SY   YORKIE family.
+//
 ID   YIF1 family
 AC   FA-04710
 //
@@ -17603,9 +17690,6 @@ AC   FA-04711
 //
 ID   Yippee family
 AC   FA-04712
-//
-ID   YORKIE family
-AC   FA-04714
 //
 ID   YOS1 family
 AC   FA-04715
