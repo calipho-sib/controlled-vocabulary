@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 05-Dec-2014
+Last update: 07-Dec-2014
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 05-Dec-2014
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00863
+AN   Next free AC: DO-00865
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -486,6 +486,7 @@ TG   PF02012; BNR;
 DO   IPR002860;
 //
 ID   BPL/LPL catalytic.
+AC   DO-00863
 FT   DOMAIN.
 TG   PS51733; BPL_LPL_CATALYTIC;
 DO   PDOC51733;
@@ -3039,6 +3040,7 @@ TG   PS51339; MYOTUBULARIN_PHP;
 DO   PDOC51339;
 //
 ID   MYST-type HAT.
+AC   DO-00864
 SY   MYST-type histone acetyltransferase.
 FT   DOMAIN.
 TG   PS51726; MYST_HAT;
