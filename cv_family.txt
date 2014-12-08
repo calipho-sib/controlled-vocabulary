@@ -3071,11 +3071,9 @@ AC   FA-00718
 ID   Complex I subunit 6 family
 AC   FA-00719
 //
-ID   Complex I NDUFA4 subunit family
-AC   FA-00692
-//
 ID   Complex IV NDUFA4 subunit family
-AC   FA-05312
+AC   FA-00692
+SY   Complex I NDUFA4 subunit family
 //
 ID   Complexin/synaphin family
 AC   FA-00720
