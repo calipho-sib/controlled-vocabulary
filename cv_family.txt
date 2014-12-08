@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 05-Dec-2014
+Last update: 08-Dec-2014
 
 ----------------------------------------------------------------------------
 
