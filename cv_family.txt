@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 08-Dec-2014
+Last update: 17-Dec-2014
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 08-Dec-2014
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05314
+AN   Next free AC: FA-05322
 
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
@@ -147,6 +147,11 @@ HI   FA-05109; Katanin p60 subunit A1 subfamily
 ID   PCH2 subfamily
 AC   FA-04890
 SY   AAA ATPase family. PCH2 subfamily.
+HI   FA-00027; AAA ATPase family
+//
+ID   RarA/MGS1/WRNIP1 subfamily
+AC   FA-05321
+SY   AAA ATPase family. RarA/MGS1/WRNIP1 subfamily.
 HI   FA-00027; AAA ATPase family
 //
 ID   Spastin subfamily
@@ -855,6 +860,9 @@ AC   FA-00195
 //
 ID   Angiomotin family
 AC   FA-00196
+//
+ID   ANGPTL8 family
+AC   FA-05318
 //
 ID   Anion exchanger (TC 2.A.31) family
 AC   FA-00197
@@ -2260,14 +2268,15 @@ AC   FA-05296
 ID   CFAP54 family
 AC   FA-05298
 //
+ID   CFAP97 family
+AC   FA-04411
+SY   UPF0501 family.
+//
 ID   CFAP99 family
 AC   FA-05299
 //
 ID   CGI121/TPRKB family
 AC   FA-00570
-//
-ID   ChaC family
-AC   FA-00571
 //
 ID   CHAF1A family
 AC   FA-00572
@@ -2490,6 +2499,11 @@ SY   Class I-like SAM-binding methyltransferase superfamily. HNMT family.
 SY   Methyltransferase superfamily. HNMT family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
+ID   Meng/UbiE family
+AC   FA-02288
+SY   Class I-like SAM-binding methyltransferase superfamily. Meng/UbiE family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
 ID   mRNA cap 0 methyltransferase family
 AC   FA-05019
 SY   Class I-like SAM-binding methyltransferase superfamily. mRNA cap 0 methyltransferase family.
@@ -2604,11 +2618,6 @@ HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 ID   TRM61 family
 AC   FA-02285
 SY   Class I-like SAM-binding methyltransferase superfamily. TRM61 family.
-HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
-//
-ID   UbiE family
-AC   FA-02288
-SY   Class I-like SAM-binding methyltransferase superfamily. UbiE family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
 ID   Class-II aminoacyl-tRNA synthetase family
@@ -3859,6 +3868,11 @@ AC   FA-00918
 SY   DEAD box helicase family. DEAH subfamily. DDX8/PRP22 sub-subfamily.
 HI   FA-00914; DEAH subfamily
 //
+ID   FANCM sub-subfamily.
+AC   FA-05319
+SY   DEAD box helicase family. DEAH subfamily. FANCM sub-subfamily.
+HI   FA-00914; DEAH subfamily
+//
 ID   PRP16 sub-subfamily
 AC   FA-00919
 SY   DEAD box helicase family. DEAH subfamily. PRP16 sub-subfamily.
@@ -4097,6 +4111,9 @@ SY   LRRC50 family.
 ID   DNAAF3 family
 AC   FA-04994
 SY   UPF0470 family.
+//
+ID   DNAAF5 family
+AC   FA-05314
 //
 ID   DNAJC11 family
 AC   FA-00987
@@ -5354,6 +5371,10 @@ ID   Flagellar radial spoke RSP9 family
 AC   FA-01364
 SY   UPF0685 family.
 //
+ID   Flattop family
+AC   FA-04522
+SY   UPF0740 family.
+//
 ID   Flavin monoamine oxidase family
 AC   FA-01365
 //
@@ -5765,6 +5786,12 @@ AC   FA-01460
 //
 ID   Gamma-glutamylcyclotransferase family
 AC   FA-01461
+//
+ID   ChaC subfamily
+AC   FA-00571
+SY   Gamma-glutamylcyclotransferase family. ChaC subfamily.
+SY   ChaC family.
+HI   FA-01461; Gamma-glutamylcyclotransferase family
 //
 ID   Gamma-glutamyltransferase family
 AC   FA-01462
@@ -6995,6 +7022,9 @@ AC   FA-04876
 ID   IFT46 family
 AC   FA-04770
 SY   UPF0360 family.
+//
+ID   IFT56 family
+AC   FA-05316
 //
 ID   IFT57 family
 AC   FA-01816
@@ -8920,9 +8950,10 @@ AC   FA-02316
 SY   Mitochondrial carrier (TC 2.A.29) family. SLC25A38 subfamily.
 HI   FA-02315; Mitochondrial carrier (TC 2.A.29) family
 //
-ID   Mitochondrial pyruvate carrier (MPC) family
+ID   Mitochondrial pyruvate carrier (MPC) (TC 2.A.105) family
 AC   FA-05045
 SY   UPF0041 family.
+DR   TC 2.A.105
 //
 ID   Mitochondrial Rho GTPase family
 AC   FA-02317
@@ -14980,6 +15011,11 @@ AC   FA-03922
 ID   TAF9 family
 AC   FA-03923
 //
+ID   CENPS subfamily
+AC   FA-05317
+SY   TAF9 family. CENPS subfamily
+HI   FA-03923; TAF9 family
+//
 ID   Taffazin family
 AC   FA-03924
 //
@@ -15386,6 +15422,9 @@ AC   FA-04037
 //
 ID   TMEM11 family
 AC   FA-04038
+//
+ID   TMEM115 family
+AC   FA-05315
 //
 ID   TMEM117 family
 AC   FA-04039
@@ -16849,9 +16888,6 @@ AC   FA-04405
 ID   UPF0500 family
 AC   FA-04410
 //
-ID   UPF0501 family
-AC   FA-04411
-//
 ID   UPF0505 family
 AC   FA-04412
 //
@@ -17011,9 +17047,6 @@ AC   FA-04517
 ID   UPF0739 family
 AC   FA-04521
 //
-ID   UPF0740 family
-AC   FA-04522
-//
 ID   UPF0762 family
 AC   FA-04524
 //
@@ -17042,6 +17075,9 @@ SY   UPF0015 family.
 //
 ID   UPRTase family
 AC   FA-04528
+//
+ID   UQCC3 family
+AC   FA-05320
 //
 ID   UQCR10/QCR9 family
 AC   FA-04529
