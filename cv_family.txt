@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 18-Dec-2014
+Last update: 23-Feb-2015
 
 ----------------------------------------------------------------------------
 
@@ -22,8 +22,7 @@ Last update: 18-Dec-2014
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05322
-
+AN   Next free AC: FA-05334
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -60,6 +59,21 @@ AC   FA-00009
 //
 ID   2'-deoxynucleoside 5'-phosphate N-hydrolase 1 family
 AC   FA-05150
+//
+ID   2H phosphoesterase superfamily
+AC   FA-05332
+//
+ID   CNPase family
+AC   FA-00800
+SY   2H phosphoesterase superfamily. CNPase family.
+SY   Cyclic nucleotide phosphodiesterase family.
+HI   FA-05332; 2H phosphoesterase superfamily
+//
+ID   USB1 family
+AC   FA-05094
+SY   2H phosphoesterase superfamily. USB1 family.
+SY   UPF0406 family.
+HI   FA-05332; 2H phosphoesterase superfamily
 //
 ID   3-beta-HSD family
 AC   FA-00010
@@ -825,6 +839,11 @@ HI   FA-00182; Amino acid-polyamine-organocation (APC) superfamily
 ID   Amino acid/polyamine transporter 2 family
 AC   FA-00185
 //
+ID   SLC38A9 subfamily
+AC   FA-05328
+SY   Amino acid/polyamine transporter 2 family. SLC38A9 subfamily.
+HI   FA-00185; Amino acid/polyamine transporter 2 family
+//
 ID   Aminoglycoside phosphotransferase family
 AC   FA-00186
 //
@@ -883,6 +902,9 @@ SY   UPF0634 family.
 //
 ID   ANKRD39 family
 AC   FA-00200
+//
+ID   Ankyrin SOCS box (ASB) family
+AC   FA-05325
 //
 ID   ANKZF1/VMS1 family
 AC   FA-04891
@@ -1550,8 +1572,9 @@ SY   UPF0532 family.
 ID   BOD1 family
 AC   FA-00384
 //
-ID   BolA/YrbA family
+ID   BolA/IbaG family
 AC   FA-00385
+SY   BolA/YrbA family.
 //
 ID   Bombesin/neuromedin-B/ranatensin family
 AC   FA-00386
@@ -2016,6 +2039,9 @@ AC   FA-00506
 ID   CCDC58 family
 AC   FA-00509
 //
+ID   CCDC65 family
+AC   FA-05327
+//
 ID   CCDC78 family
 AC   FA-05233
 //
@@ -2268,6 +2294,15 @@ AC   FA-05296
 ID   CFAP54 family
 AC   FA-05298
 //
+ID   CFAP58 family
+AC   FA-05329
+//
+ID   CFAP70 family
+AC   FA-05330
+//
+ID   CFAP74 family
+AC   FA-05331
+//
 ID   CFAP97 family
 AC   FA-04411
 SY   UPF0501 family.
@@ -2481,6 +2516,11 @@ HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 ID   DOT1 family
 AC   FA-00999
 SY   Class I-like SAM-binding methyltransferase superfamily. DOT1 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   EEF2KMT family
+AC   FA-05333
+SY   Class I-like SAM-binding methyltransferase superfamily. EEF2KMT family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
 ID   FAM86 family
@@ -3361,9 +3401,6 @@ AC   FA-00798
 ID   CybS family
 AC   FA-00799
 //
-ID   Cyclic nucleotide phosphodiesterase family
-AC   FA-00800
-//
 ID   PDE1 subfamily
 AC   FA-00801
 SY   Cyclic nucleotide phosphodiesterase family. PDE1 subfamily.
@@ -3868,7 +3905,7 @@ AC   FA-00918
 SY   DEAD box helicase family. DEAH subfamily. DDX8/PRP22 sub-subfamily.
 HI   FA-00914; DEAH subfamily
 //
-ID   FANCM sub-subfamily.
+ID   FANCM sub-subfamily
 AC   FA-05319
 SY   DEAD box helicase family. DEAH subfamily. FANCM sub-subfamily.
 HI   FA-00914; DEAH subfamily
@@ -4872,9 +4909,6 @@ AC   FA-01209
 //
 ID   FAM114 family
 AC   FA-01211
-//
-ID   FAM115 family
-AC   FA-01212
 //
 ID   FAM117 family
 AC   FA-01214
@@ -5979,6 +6013,9 @@ AC   FA-01514
 //
 ID   GLI C2H2-type zinc-finger protein family
 AC   FA-01515
+//
+ID   GLMP family
+AC   FA-05326
 //
 ID   Globin family
 AC   FA-01516
@@ -7172,6 +7209,21 @@ AC   FA-01851
 ID   Importin beta family
 AC   FA-01852
 //
+ID   Importin beta-1 subfamily
+AC   FA-05322
+SY   Importin beta family. Importin beta-1 subfamily.
+HI   FA-01852; Importin beta family
+//
+ID   Importin beta-2 subfamily
+AC   FA-05323
+SY   Importin beta family. Importin beta-2 subfamily.
+HI   FA-01852; Importin beta family
+//
+ID   Importin beta-3 subfamily
+AC   FA-05324
+SY   Importin beta family. Importin beta-3 subfamily.
+HI   FA-01852; Importin beta family
+//
 ID   INCA family
 AC   FA-01853
 //
@@ -7782,6 +7834,10 @@ SY   UPF0446 family.
 //
 ID   LECT2/MIM-1 family
 AC   FA-02029
+//
+ID   LEG1 family
+AC   FA-04524
+SY   UPF0762 family.
 //
 ID   LEM family
 AC   FA-02030
@@ -10004,8 +10060,9 @@ AC   FA-02607
 SY   Orn/Lys/Arg decarboxylase class-II family. ODC antizyme inhibitor subfamily.
 HI   FA-02606; Orn/Lys/Arg decarboxylase class-II family
 //
-ID   Ornithine cyclodeaminase family
+ID   Ornithine cyclodeaminase/mu-crystallin family
 AC   FA-02608
+SY   Ornithine cyclodeaminase family.
 //
 ID   OS-9 family
 AC   FA-02609
@@ -15013,7 +15070,7 @@ AC   FA-03923
 //
 ID   CENPS subfamily
 AC   FA-05317
-SY   TAF9 family. CENPS subfamily
+SY   TAF9 family. CENPS subfamily.
 HI   FA-03923; TAF9 family
 //
 ID   Taffazin family
@@ -15092,6 +15149,10 @@ AC   FA-03941
 //
 ID   TBRG1 family
 AC   FA-03942
+//
+ID   TCAF family
+AC   FA-01212
+SY   FAM115 family.
 //
 ID   TCEANC2 family
 AC   FA-04832
@@ -16804,9 +16865,6 @@ AC   FA-04333
 ID   UPF0239 family
 AC   FA-04334
 //
-ID   UPF0249 family
-AC   FA-04335
-//
 ID   UPF0258 family
 AC   FA-04336
 //
@@ -17047,9 +17105,6 @@ AC   FA-04517
 ID   UPF0739 family
 AC   FA-04521
 //
-ID   UPF0762 family
-AC   FA-04524
-//
 ID   UPF0764 family
 AC   FA-04754
 //
@@ -17128,10 +17183,6 @@ AC   FA-04543
 //
 ID   Urotensin-2 family
 AC   FA-04544
-//
-ID   USB1 family
-AC   FA-05094
-SY   UPF0406 family.
 //
 ID   USE1 family
 AC   FA-04545
@@ -17718,6 +17769,10 @@ AC   FA-04709
 ID   YAP1 family
 AC   FA-04714
 SY   YORKIE family.
+//
+ID   YdjC deacetylase family
+AC   FA-04335
+SY   UPF0249 family.
 //
 ID   YIF1 family
 AC   FA-04710
