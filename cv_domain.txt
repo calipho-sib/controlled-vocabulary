@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 23-Feb-2015
+Last update: 09-Apr-2015
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 23-Feb-2015
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00866
+AN   Next free AC: DO-00870
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -807,10 +807,10 @@ FT   DOMAIN.
 TG   PS51508; CKK;
 DO   PDOC51508;
 //
-ID   CMP/dCMP deaminase zinc-binding.
-AC   DO-00814
+ID   CMP/dCMP-type deaminase.
+AC   DO-00866
 FT   DOMAIN.
-TG   PF00383; dCMP_cyt_deam_1;
+TG   PS51747; CYT_DCMP_DEAMINASES_2;
 DO   PDOC00702;
 //
 ID   CN hydrolase.
@@ -2137,16 +2137,10 @@ FT   DOMAIN.
 TG   PS50910; HEPN;
 DO   PDOC50910;
 //
-ID   hexokinase type-1.
-AC   DO-00824
+ID   hexokinase.
+AC   DO-00867
 FT   DOMAIN.
-TG   PF00349; hexokinase_1;
-DO   PDOC00370;
-//
-ID   hexokinase type-2.
-AC   DO-00827
-FT   DOMAIN.
-TG   PF03727; hexokinase_2;
+TG   PS51748; HEXOKINASE_2;
 DO   PDOC00370;
 //
 ID   Hflx-type G.
@@ -3367,6 +3361,12 @@ FT   DOMAIN.
 TG   PS50821; PAZ;
 DO   PDOC50821;
 //
+ID   PB1.
+AC   DO-00868
+FT   DOMAIN.
+TG   PS51745; PB1;
+DO   PDOC51745;
+//
 ID   PbH1.
 AC   DO-00473
 FT   REPEAT.
@@ -3732,6 +3732,12 @@ AC   DO-00520
 FT   DOMAIN.
 TG   PS50198; PPIC_PPIASE_2;
 DO   PDOC00840;
+//
+ID   PPM-type phosphatase.
+AC   DO-00869
+FT   DOMAIN.
+TG   PS51746; PPM_2;
+DO   PDOC00792;
 //
 ID   PPPDE peptidase.
 AC   DO-00521

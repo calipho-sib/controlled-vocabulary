@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 23-Feb-2015
+Last update: 09-Apr-2015
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 23-Feb-2015
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05334
+AN   Next free AC: FA-05338
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -1115,6 +1115,10 @@ AC   FA-00257
 ID   ARMET family
 AC   FA-00258
 //
+ID   ARMT1 family
+AC   FA-04347
+SY   UPF0364 family.
+//
 ID   Aromatic-ring hydroxylase family
 AC   FA-00259
 //
@@ -1994,9 +1998,6 @@ AC   FA-05065
 ID   CCDC124 family
 AC   FA-00497
 //
-ID   CCDC135 family
-AC   FA-04954
-//
 ID   CCDC144 family
 AC   FA-00498
 //
@@ -2523,6 +2524,17 @@ AC   FA-05333
 SY   Class I-like SAM-binding methyltransferase superfamily. EEF2KMT family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
+ID   EFM4 family
+AC   FA-05337
+SY   Class I-like SAM-binding methyltransferase superfamily. EFM4 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   EFM5 family
+AC   FA-02261
+SY   Class I-like SAM-binding methyltransferase superfamily. EFM5 family.
+SY   Methyltransferase superfamily. AML1 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
 ID   FAM86 family
 AC   FA-01317
 SY   Class I-like SAM-binding methyltransferase superfamily. FAM86 family.
@@ -2628,17 +2640,6 @@ SY   Class I-like SAM-binding methyltransferase superfamily. RsmB/NOP family. TR
 SY   Methyltransferase superfamily. RsmB/NOP family. TRM4 subfamily.
 HI   FA-02280; RsmB/NOP family
 //
-ID   TRM5/TYW2 family
-AC   FA-04874
-SY   Class I-like SAM-binding methyltransferase superfamily. TRM5/TYW2 family.
-HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
-//
-ID   TrmB family
-AC   FA-02286
-SY   Class I-like SAM-binding methyltransferase superfamily. TrmB family.
-SY   Methyltransferase superfamily. TrmB family.
-HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
-//
 ID   TPMT family
 AC   FA-02283
 SY   Methyltransferase superfamily. TPMT family.
@@ -2655,9 +2656,26 @@ AC   FA-05214
 SY   Class I-like SAM-binding methyltransferase superfamily. TRM11 methyltransferase family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
+ID   TRM5/TYW2 family
+AC   FA-04874
+SY   Class I-like SAM-binding methyltransferase superfamily. TRM5/TYW2 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
 ID   TRM61 family
 AC   FA-02285
 SY   Class I-like SAM-binding methyltransferase superfamily. TRM61 family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   TrmB family
+AC   FA-02286
+SY   Class I-like SAM-binding methyltransferase superfamily. TrmB family.
+SY   Methyltransferase superfamily. TrmB family.
+HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
+//
+ID   UbiG/COQ3 family
+AC   FA-02289
+SY   Class I-like SAM-binding methyltransferase superfamily. UbiG/COQ3 family.
+SY   Methyltransferase superfamily. UbiG/COQ3 family.
 HI   FA-04990; Class I-like SAM-binding methyltransferase superfamily
 //
 ID   Class-II aminoacyl-tRNA synthetase family
@@ -4244,6 +4262,10 @@ AC   FA-05180
 SY   CCDC164 family.
 SY   UPF0407 family.
 //
+ID   DRC7 family
+AC   FA-04954
+SY   CCDC135 family.
+//
 ID   DREV family
 AC   FA-01013
 //
@@ -5394,6 +5416,9 @@ AC   FA-05260
 //
 ID   fl(2)d family
 AC   FA-01361
+//
+ID   Flagellar radial spoke RSP14 family
+AC   FA-05334
 //
 ID   Flagellar radial spoke RSP3 family
 AC   FA-01362
@@ -8747,11 +8772,6 @@ HI   FA-02257; Methylthiotransferase family
 ID   Methyltransferase superfamily
 AC   FA-02260
 //
-ID   AML1 family
-AC   FA-02261
-SY   Methyltransferase superfamily. AML1 family.
-HI   FA-02260; Methyltransferase superfamily
-//
 ID   Fibrillarin family
 AC   FA-02263
 SY   Methyltransferase superfamily. Fibrillarin family.
@@ -8849,16 +8869,6 @@ HI   FA-02260; Methyltransferase superfamily
 ID   Trimethylguanosine synthase family
 AC   FA-02284
 SY   Methyltransferase superfamily. Trimethylguanosine synthase family.
-HI   FA-02260; Methyltransferase superfamily
-//
-ID   Type 3 family
-AC   FA-02287
-SY   Methyltransferase superfamily. Type 3 family.
-HI   FA-02260; Methyltransferase superfamily
-//
-ID   UbiG/COQ3 family
-AC   FA-02289
-SY   Methyltransferase superfamily. UbiG/COQ3 family.
 HI   FA-02260; Methyltransferase superfamily
 //
 ID   MFAP family
@@ -9235,6 +9245,10 @@ SY   FAM125 family.
 //
 ID   MYCT1 family
 AC   FA-02387
+//
+ID   MYDGF family
+AC   FA-04436
+SY   UPF0556 family.
 //
 ID   Myelin basic protein family
 AC   FA-02388
@@ -10312,6 +10326,11 @@ AC   FA-02678
 //
 ID   Pectinacetylesterase family
 AC   FA-02679
+//
+ID   Notum subfamily
+AC   FA-05336
+SY   Pectinacetylesterase family. Notum subfamily.
+HI   FA-02679; Pectinacetylesterase family
 //
 ID   Pellino family
 AC   FA-02680
@@ -11654,6 +11673,11 @@ AC   FA-03008
 //
 ID   PRAME family
 AC   FA-03009
+//
+ID   LRRC14 subfamily
+AC   FA-05335
+SY   PRAME family. LRRC14 subfamily.
+HI   FA-03009; PRAME family
 //
 ID   PIEZO (TC 1.A.75) family
 AC   FA-04808
@@ -13410,6 +13434,10 @@ AC   FA-03484
 //
 ID   SAC3 family
 AC   FA-03485
+//
+ID   SABRE family
+AC   FA-04351
+SY   UPF0378 family.
 //
 ID   Saccharopine dehydrogenase family
 AC   FA-03486
@@ -15518,6 +15546,10 @@ AC   FA-04045
 ID   TMEM138 family
 AC   FA-04046
 //
+ID   TMEM14 family
+AC   FA-04320
+SY   UPF0136 family.
+//
 ID   TMEM141 family
 AC   FA-04047
 //
@@ -16835,9 +16867,6 @@ AC   FA-04313
 ID   UPF0118 (TMEM245) family
 AC   FA-05010
 //
-ID   UPF0136 (TMEM14) family
-AC   FA-04320
-//
 ID   UPF0160 (MYG1) family
 AC   FA-04322
 //
@@ -16876,12 +16905,6 @@ AC   FA-04340
 //
 ID   UPF0359 family
 AC   FA-04344
-//
-ID   UPF0364 family
-AC   FA-04347
-//
-ID   UPF0378 family
-AC   FA-04351
 //
 ID   UPF0388 family
 AC   FA-04352
@@ -16984,9 +17007,6 @@ AC   FA-04434
 //
 ID   UPF0554 family
 AC   FA-04435
-//
-ID   UPF0556 family
-AC   FA-04436
 //
 ID   UPF0561 family
 AC   FA-04440
