@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     26-Aug-2014
+  Release:     08-Apr-2015
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0090
+next id:  CVDR-0091
 
 __________________________________________________________________________
 ID   Additional references
@@ -725,6 +725,16 @@ DS   NextProt
 DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/24129315.xml
 UF   once
 UR   http://www.ncbi.nlm.nih.gov/pubmed?term=24129315
+CI
+//
+ID   PMID_25218447
+AC   CVDR-0090
+DE   Proteomics data (PTM) extracted from PubMed publication.
+DE   Global sumoylation in HeLa cells.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/25218447.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=25218447
 CI
 //
 ID   PROSITEDOC

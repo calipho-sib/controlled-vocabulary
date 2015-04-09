@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     17-Dec-2014
+  Release:     08-Apr-2015
 
   The definition of the CV is provided in the following format:
 
@@ -18,7 +18,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0099
+next id:  CVDS-0100
 
 __________________________________________________________________________
 ID   AgBase
@@ -350,118 +350,123 @@ DR
 //
 ID   PMID_18614565
 AC   CVDS-0034
-DE   Information extracted form the PubMed publication 18614565
+DE   Information extracted from the PubMed publication 18614565
 DO   MDATA_0013
 //
 ID   PMID_19413330
 AC   CVDS-0075
-DE   Information extracted form the PubMed publication 19413330
+DE   Information extracted from the PubMed publication 19413330
 DO   MDATA_0025
 //
 ID   PMID_19608861
 AC   CVDS-0032
-DE   Information extracted form the PubMed publication 19608861
+DE   Information extracted from the PubMed publication 19608861
 DO   MDATA_0011
 //
 ID   PMID_20068231
 AC   CVDS-0026
-DE   Information extracted form the PubMed publication 20068231
+DE   Information extracted from the PubMed publication 20068231
 DO   MDATA_0016
 //
 ID   PMID_20140087
 AC   CVDS-0029
-DE   Information extracted form the PubMed publication 20140087
+DE   Information extracted from the PubMed publication 20140087
 DO   MDATA_0009
 //
 ID   PMID_20570859
 AC   CVDS-0020
-DE   Information extracted form the PubMed publication 20570859
+DE   Information extracted from the PubMed publication 20570859
 DO   MDATA_0002
 //
 ID   PMID_20687582
 AC   CVDS-0031
-DE   Information extracted form the PubMed publication 20687582
+DE   Information extracted from the PubMed publication 20687582
 DO   MDATA_0010
 //
 ID   PMID_20797634
 AC   CVDS-0030
-DE   Information extracted form the PubMed publication 20797634
+DE   Information extracted from the PubMed publication 20797634
 DO   MDATA_0014
 //
 ID   PMID_20972266
 AC   CVDS-0027
-DE   Information extracted form the PubMed publication 20972266
+DE   Information extracted from the PubMed publication 20972266
 DO   MDATA_0012
 //
 ID   PMID_21139048
 AC   CVDS-0028
-DE   Information extracted form the PubMed publication 21139048
+DE   Information extracted from the PubMed publication 21139048
 DO   MDATA_0015
 //
 ID   PMID_21406692
 AC   CVDS-0021
-DE   Information extracted form the PubMed publication 21406692
+DE   Information extracted from the PubMed publication 21406692
 DO   MDATA_0003
 //
 ID   PMID_21645671
 AC   CVDS-0033
-DE   Information extracted form the PubMed publication 21645671
+DE   Information extracted from the PubMed publication 21645671
 DO   MDATA_0018
 //
 ID   PMID_21890473
 AC   CVDS-0074
-DE   Information extracted form the PubMed publication 21890473
+DE   Information extracted from the PubMed publication 21890473
 DO   MDATA_0020
 //
 ID   PMID_22148984
 AC   CVDS-0060
-DE   Information extracted form the PubMed publication 22148984
+DE   Information extracted from the PubMed publication 22148984
 DO   MDATA_0026
 //
 ID   PMID_22199227
 AC   CVDS-0061
-DE   Information extracted form the PubMed publication 22199227
+DE   Information extracted from the PubMed publication 22199227
 DO   MDATA_0027
 //
 ID   PMID_22468782
 AC   CVDS-0062
-DE   Information extracted form the PubMed publication 22468782
+DE   Information extracted from the PubMed publication 22468782
 DO   MDATA_0028
 //
 ID   PMID_22865923
 AC   CVDS-0063
-DE   Information extracted form the PubMed publication 22865923
+DE   Information extracted from the PubMed publication 22865923
 DO   MDATA_0024
 //
 ID   PMID_23236377
 AC   CVDS-0073
-DE   Information extracted form the PubMed publication 23236377
+DE   Information extracted from the PubMed publication 23236377
 DO   MDATA_0034
 //
 ID   PMID_23312004
 AC   CVDS-0064
-DE   Information extracted form the PubMed publication 23312004
+DE   Information extracted from the PubMed publication 23312004
 DO   MDATA_0029
 //
 ID   PMID_23584533
 AC   CVDS-0066
-DE   Information extracted form the PubMed publication 23584533
+DE   Information extracted from the PubMed publication 23584533
 DO   MDATA_0030
 //
 ID   PMID_23153008
 AC   CVDS-0067
-DE   Information extracted form the PubMed publication 23153008
+DE   Information extracted from the PubMed publication 23153008
 DO   MDATA_0031
 //
 ID   PMID_23266961
 AC   CVDS-0068
-DE   Information extracted form the PubMed publication 23266961
+DE   Information extracted from the PubMed publication 23266961
 DO   MDATA_0032
 //
 ID   PMID_24129315
 AC   CVDS-0080
-DE   Information extracted form the PubMed publication 24129315
+DE   Information extracted from the PubMed publication 24129315
 DO   MDATA_0039
+//
+ID   PMID_25218447
+AC   CVDS-0099
+DE   Information extracted from the PubMed publication 25218447
+DO   MDATA_0053
 //
 ID   Prosite
 AC   CVDS-0010
