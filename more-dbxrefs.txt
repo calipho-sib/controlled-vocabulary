@@ -40,7 +40,7 @@ Cat   : Publication databases
 
 AC    : DB-9005
 Abbrev: NCBI Taxonomy
-Name  : NCBI Taxonomy
+Name  : NCBI taxonomy database
 LinkTp: Explicit
 Server: http://www.ncbi.nlm.nih.gov/Taxonomy
 Db_URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&id=%s
@@ -306,7 +306,7 @@ AC    : DB-9041
 Abbrev: DSMZ
 Name  : DSMZ-German collection of microorganisms and cell culture
 LinkTp: Explicit
-Server: http://www.dsmz.de/home.html
+Server: http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
 Db_URL: www.dsmz.de/catalogues/details/culture/%s.html
 Cat   : Cell line collections
 
@@ -331,7 +331,7 @@ Abbrev: JCRB
 Name  : Japanese Collection of Research Bioresources Cell Bank
 LinkTp: Explicit
 Server: http://cellbank.nibio.go.jp/english/
-Db_URL: http://cellbank.nibio.go.jp/~cellbank/cgi-bin/search_res_det.cgi?RNO=%s
+Db_URL: http://cellbank.nibio.go.jp/~cellbank/en/search_res_list.cgi?KEYWOD=%s
 Cat   : Cell line collections
 
 AC    : DB-9045
@@ -473,7 +473,7 @@ AC    : DB-9063
 Abbrev: CCLV
 Name  : Collection of Cell Lines in Veterinary Medicine
 LinkTp: Explicit
-Server: http://www.fli.bund.de/en/startseite/institutes/department-of-experimental-animal-facilities-and-biorisk-management/cclv.html
+Server: https://www.fli.bund.de/en/startseite/institutes/department-of-experimental-animal-facilities-and-biorisk-management/cclv.html
 Db_URL: 
 Cat   : Cell line collections
 
@@ -616,7 +616,7 @@ AC    : DB-9081
 Abbrev: Patent
 Name  : Google Patent
 LinkTp: Explicit
-Server: https://www.google.com/?tbm=pts
+Server: http://www.google.com/patents
 Db_URL: http://www.google.com/patents/%s
 Cat   : Other
 
@@ -624,7 +624,7 @@ AC    : DB-9082
 Abbrev: CGH-DB
 Name  : CGH Data Base
 LinkTp: Explicit
-Server: http://www.cghtmd.jp/CGHDatabase/summary?lang=en
+Server: http://www.cghtmd.jp/CGHDatabase/index_e.jsp
 Db_URL: http://www.cghtmd.jp/CGHDatabase/mapViewer?hid=%s&aid=%t&lang=en
 Cat   : Cell line databases/resources
 
@@ -699,3 +699,18 @@ LinkTp: Explicit
 Server: http://www.biocyc.org//
 Db_URL: http://biocyc.org/META/NEW-IMAGE?object=%s
 Cat   : Enzyme and pathway databases
+
+AC    : DB-9093
+Abbrev: DGRC
+Name  : Drosophila Genomics Resource Center
+Server: https://dgrc.cgb.indiana.edu/cells/Catalog
+Db_URL: https://dgrc.cgb.indiana.edu/product/View?product=%s
+Cat   : Cell line collections
+
+AC    : DB-9094
+Abbrev: NISES
+Name  : NISES Cell Database
+Server: https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
+Db_URL: https://www.gene.affrc.go.jp/ex-nises/NISESCells/data-eng/%sE.html
+Cat   : Cell line collections
+
