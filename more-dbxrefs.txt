@@ -1,0 +1,701 @@
+AC    : DB-9000
+Abbrev: UniProt
+Name  : UniProt web site
+LinkTp: Explicit
+Server: http://www.uniprot.org/uniprot/
+Db_URL: http://www.uniprot.org/uniprot/%s
+Cat   : Sequence databases
+
+AC    : DB-9001
+Abbrev: UniProt control vocabulary
+Name  : Cross ref to all cv loaded from UniProt
+LinkTp: Explicit
+Server: http://www.uniprot.org/docs/#vocabulary
+Db_URL: 
+Cat   : Ontologies
+
+AC    : DB-9002
+Abbrev: PubMed
+Name  : PubMed site
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed
+Db_URL: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=search&term=%s
+Cat   : Publication databases
+
+AC    : DB-9003
+Abbrev: DOI
+Name  : DOI resolving site
+LinkTp: Explicit
+Server: http://dx.doi.org/
+Db_URL: http://dx.doi.org/%s
+Cat   : Publication databases
+
+AC    : DB-9004
+Abbrev: MEDLINE
+Name  : MEDLINE
+LinkTp: Explicit 
+Server: http://medline.cos.com 
+Db_URL: http://medline.cos.com/cgi-bin/result?pmid=%s 
+Cat   : Publication databases
+
+AC    : DB-9005
+Abbrev: NCBI Taxonomy
+Name  : NCBI Taxonomy
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/Taxonomy
+Db_URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&id=%s
+Cat   : Other
+
+AC    : DB-9006
+Abbrev: eVOC
+Name  : Controlled vocabularies that unifies gene expression data by facilitating a link between the genome sequence and expression phenotype information.
+LinkTp: Explicit
+Server: http://www.evocontology.org/
+Db_URL: http://www.evocontology.org/site/Main/BrowseEvoc?x_termid=%s
+Cat   : Ontologies
+
+AC    : DB-9007
+Abbrev: RESID
+Name  : An ontology consisting of terms that describe protein chemical modifications.
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/RESID/
+Db_URL: http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-id+2F9eD1VPLvp+-e+[RESID:%s]
+Cat   : Ontologies
+
+AC    : DB-9008
+Abbrev: PSI-MOD
+Name  : For the description of covalent bonds in proteins.
+LinkTp: Explicit
+Server: http://psidev.sourceforge.net/mod/
+Db_URL: http://www.ebi.ac.uk/ontology-lookup/?termId=MOD:%s
+Cat   : Ontologies
+
+AC    : DB-9009
+Abbrev: MeSH 
+Name  : MeSH
+LinkTp: Explicit
+Server: http://www.nlm.nih.gov/mesh/MBrowser.html
+Db_URL: http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term=%s
+Cat   : Ontologies
+
+AC    : DB-9010
+Abbrev: neXtProt control vocabulary
+Name  : Cross ref to all cv loaded from neXtProt
+LinkTp: Explicit
+Server: http://trac.genebio.com/~defaultuser/repository/
+Db_URL: 
+Cat   : Ontologies
+
+AC    : DB-9011
+Abbrev: EMBL-CDS
+Name  : EMBL coding sequence (CDS) database
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/embl/
+Db_URL: http://www.ebi.ac.uk/cgi-bin/dbfetch?db=emblcds&id=%s
+Cat   : Sequence databases
+
+AC    : DB-9012
+Abbrev: EPODOC
+Name  : Europeen patent office database
+LinkTp: Explicit
+Server: http://ep.espacenet.com/
+Db_URL: http://v3.espacenet.com/searchResults?DB=EPODOC&ST=advanced&PN=%s
+Cat   : Other
+
+AC    : DB-9013
+Abbrev: GO_REF
+Name  : Gene Ontologie References
+LinkTp: Explicit
+Server: http://www.geneontology.org/cgi-bin/references.cgi
+Db_URL: http://www.geneontology.org/cgi-bin/references.cgi#%s
+Cat   : Ontologies
+
+AC    : DB-9014
+Abbrev: GOA
+Name  : Gene Ontologie Annotation
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/GOA/
+Db_URL: http://www.ebi.ac.uk/QuickGO/GProtein?ac=%s
+Cat   : Other
+
+AC    : DB-9016
+Abbrev: GFP-cDNA
+Name  : EMBL/DKFZ GFP-cDNA Localisation Project
+LinkTp: Explicit
+Server: http://gfp-cdna.embl.de
+Db_URL: http://gfp-cdna.embl.de/loc-html/%s.jpg
+Cat   : Other
+
+AC    : DB-9017
+Abbrev: WEBINFO
+Name  : web information
+LinkTp: Explicit
+Server: http://
+Db_URL: %s
+Cat   : Other
+
+AC    : DB-9018
+Abbrev: UniProt domain
+Name  : UniProt protein list by domain
+LinkTp: Explicit
+Server: http://www.uniprot.org
+Db_URL: http://www.uniprot.org/uniprot/?query=domain:"%s"
+Cat   : Ontologies
+
+AC    : DB-9019
+Abbrev: UniProt family
+Name  : UniProt protein list by family
+LinkTp: Explicit
+Server: http://www.uniprot.org
+Db_URL: http://www.uniprot.org/uniprot/?query=family:"%s"
+Cat   : Ontologies
+
+AC    : DB-9020
+Abbrev: Array-probeset
+Name  : Location and trancripts associated with probe features
+LinkTp: Explicit
+Server: http://www.ensembl.org
+Db_URL: http://www.ensembl.org/Homo_sapiens/Location/Genome?ftype=Probefeature;fdb=funcgen;ptype=pset;id=:%s
+Cat   : Other
+
+AC    : DB-9022
+Abbrev: Dharmacon
+Name  : Dharmacon RNAi oligos
+LinkTp: Explicit
+Server: http://dharmacon.com
+Db_URL: http://www.thermoscientificbio.com/search/?term=%s
+Cat   : Other
+
+AC    : DB-9023
+Abbrev: HPRD
+Name  : Human Proteins Reference Database
+LinkTp: Explicit
+Server: http://www.hprd.org
+Db_URL: http://www.hprd.org/resultsQuery?multiplefound=&prot_name=&external=Ref_seq&accession_id=&hprd=%s&gene_symbol=&chromo_locus=&function=&ptm_type=&localization=&domain=&motif=&expression=&prot_start=&prot_end=&limit=0&mole_start=&mole_end=&disease=
+Cat   : Other
+
+AC    : DB-9024
+Abbrev: CATH
+Name  : Hierarchical domain classification of protein structures
+LinkTp: Explicit
+Server: http://www.cathdb.info
+Db_URL: http://www.cathdb.info/cathnode/%s
+Cat   : 3D structure databases
+
+AC    : DB-9025
+Abbrev: SCOP
+Name  : Structural Classification of Proteins
+LinkTp: Explicit
+Server: http://scop.mrc-lmb.cam.ac.uk/scop/index.html
+Db_URL: http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?key=%s
+Cat   : 3D structure databases
+
+AC    : DB-9027
+Abbrev: GeneRif
+Name  : Gene
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/sites/entrez?Db=gene
+Db_URL: http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&report=GeneRif&term=%s
+Cat   : Sequence databases
+
+AC    : DB-9028
+Abbrev: GAD
+Name  : Genetic Association Database
+LinkTp: Explicit
+Server: http://geneticassociationdb.nih.gov/
+Db_URL: http://geneticassociationdb.nih.gov/cgi-bin/view.cgi?table=allview&id=%s
+Cat   : Organism-specific databases
+
+AC    : DB-9029
+Abbrev: Proteopedia
+Name  : Collaborative 3D-encyclopedia of proteins & other molecules
+LinkTp: Explicit
+Server: http://www.proteopedia.org/
+Db_URL: http://www.proteopedia.org/wiki/index.php/%s
+Cat   : 3D structure databases
+
+AC    : DB-9030
+Abbrev: LOC
+Name  : Entrez Gene symbol
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/gene
+Db_URL: http://www.ncbi.nlm.nih.gov/gene?term=%s
+Cat   : Genome annotation databases
+
+AC    : DB-9031
+Abbrev: neXtProtDoc
+Name  : neXtProt document; the human protein knowledge platform, document part
+LinkTp: Explicit
+Server: http://www.nextprot.org/
+Db_URL: www.nextprot.org/publication/%s
+Cat   : Publication databases
+
+AC    : DB-9032
+Abbrev: DYP
+Name  : The Kahn Dynamic Proteomics project
+LinkTp: Explicit
+Server: http://www.weizmann.ac.il/mcb/UriAlon/DynamProt/
+Db_URL: http://www.weizmann.ac.il/perl/alon_protein.mperl?submit=viewbycloneid&id=%s
+Cat   : Proteomic databases
+
+AC    : DB-9033
+Abbrev: neXtProtSubmission
+Name  : neXtProt submission; the human protein knowledge platform, publication of type submission part
+LinkTp: Explicit
+Server: http://www.nextprot.org/
+Db_URL: www.nextprot.org/publication/%s
+Cat   : Publication databases
+
+AC    : DB-9034
+Abbrev: KEGGPathway
+Name  : KEGG Pathway is a collection of manually drawn pathway maps
+LinkTp: Explicit
+Server: http://www.genome.jp/kegg/pathway.html
+Db_URL: http://www.genome.jp/kegg-bin/show_pathway?%s
+Cat   : Enzyme and pathway databases
+
+AC    : DB-9035
+Abbrev: SequenceOntology
+Name  : Sequence Ontology
+LinkTp: Explicit
+Server: http://www.sequenceontology.org/
+Db_URL: http://www.sequenceontology.org/browser/current_release/term/%s
+Cat   : Ontologies
+
+AC    : DB-9036
+Abbrev: ECO
+Name  : Evidences code ontology
+LinkTp: Explicit
+Server: http://www.obofoundry.org/cgi-bin/detail.cgi?id=evidence_code
+Db_URL: http://www.ebi.ac.uk/ontology-lookup/?termId=%s
+Cat   : Ontologies
+
+AC    : DB-9037
+Abbrev: MCCL
+Name  : Molecular connections cell line ontology
+LinkTp: Explicit
+Server: http://www.molecularconnections.com/home/ontology
+Db_URL: purl.bioontology.org/ontology/MCCL/%s
+Cat   : Ontologies
+
+AC    : DB-9038
+Abbrev: CLO
+Name  : Community-based Cell Line Ontology 
+LinkTp: Explicit
+Server: http://clo-ontology.sourceforge.net/
+Db_URL: purl.obolibrary.org/obo/%s
+Cat   : Ontologies
+
+AC    : DB-9039
+Abbrev: CLDB
+Name  : Cell Line Data Base of the Interlab Project.
+LinkTp: Explicit
+Server: http://bioinformatics.istge.it/cldb/
+Db_URL: bioinformatics.istge.it/cldb/%s.html
+Cat   : Cell line databases/resources
+
+AC    : DB-9040
+Abbrev: ATCC
+Name  : ATCC
+LinkTp: Explicit
+Server: http://www.lgcstandards-atcc.org/
+Db_URL: http://www.atcc.org/Products/All/%s.aspx
+Cat   : Cell line collections
+
+AC    : DB-9041
+Abbrev: DSMZ
+Name  : DSMZ-German collection of microorganisms and cell culture
+LinkTp: Explicit
+Server: http://www.dsmz.de/home.html
+Db_URL: www.dsmz.de/catalogues/details/culture/%s.html
+Cat   : Cell line collections
+
+AC    : DB-9042
+Abbrev: ECACC
+Name  : European Collection of Cell Cultures (ECACC)
+LinkTp: Explicit
+Server: http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
+Db_URL: http://www.phe-culturecollections.org.uk/products/celllines/generalcell/detail.jsp?refId=%s&collection=ecacc_gc
+Cat   : Cell line collections
+
+AC    : DB-9043
+Abbrev: IFO
+Name  : Health Science Research Resources Bank
+LinkTp: Explicit
+Server: http://cellbank.nibio.go.jp/english/
+Db_URL: http://cellbank.nibio.go.jp/~cellbank/cgi-bin/search_res_det.cgi?RNO=%s
+Cat   : Cell line collections
+
+AC    : DB-9044
+Abbrev: JCRB
+Name  : Japanese Collection of Research Bioresources Cell Bank
+LinkTp: Explicit
+Server: http://cellbank.nibio.go.jp/english/
+Db_URL: http://cellbank.nibio.go.jp/~cellbank/cgi-bin/search_res_det.cgi?RNO=%s
+Cat   : Cell line collections
+
+AC    : DB-9045
+Abbrev: CBA
+Name  : Japanese Collection of Research Bioresources
+LinkTp: Explicit
+Server: http://cellbank.nibio.go.jp/search.htm
+Db_URL: 
+Cat   : Cell line collections
+
+AC    : DB-9046
+Abbrev: ICLC
+Name  : Banca Biologica e Cell Factory
+LinkTp: Explicit
+Server: http://www.iclc.it/
+Cat   : Cell line collections
+
+AC    : DB-9047
+Abbrev: Cosmic
+Name  : Sanger institute
+LinkTp: Explicit
+Server: http://www.sanger.ac.uk/perl/genetics/CGP/core_line_viewer?action=cell_lines
+Db_URL: www.sanger.ac.uk/perl/genetics/CGP/cosmic?action=sample&id=%s
+Cat   : Protocols and materials databases
+
+AC    : DB-9048
+Abbrev: IZSLER
+Name  : Istituti Zooprofilattici Sperimentali della Lombardia e dell'Emilia
+LinkTp: Explicit
+Server: http://www.ibvr.org/Services/CellCultures.aspx
+Db_URL: None
+Cat   : Cell line collections
+
+AC    : DB-9049
+Abbrev: RCB
+Name  : RIKEN Cell Bank
+LinkTp: Explicit
+Server: http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
+Db_URL: http://www2.brc.riken.jp/lab/cell/detail.cgi?cell_no=%s
+Cat   : Cell line collections
+
+AC    : DB-9050
+Abbrev: CCLE
+Name  : Cancer Cell Line Encyclopedia
+LinkTp: Explicit
+Server: http://www.broadinstitute.org/ccle/home
+Db_URL: www.broadinstitute.org/ccle/cell%20lines/%s
+Cat   : Cell line collections
+
+AC    : DB-9051
+Abbrev: hESCreg
+Name  : European Human Embryonic Stem Cell Registry
+LinkTp: Explicit
+Server: http://www.hescreg.eu/
+Db_URL: http://www.hescreg.eu/cells/getData?id=%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9052
+Abbrev: ISCR
+Name  : International Stem Cell Registry
+LinkTp: Explicit
+Server: http://www.iscr-admin.com/
+Db_URL: http://www.iscr-admin.com/Default.aspx?Action=viewsc&StemCellLine=%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9053
+Abbrev: UKSCB
+Name  : UK Stem Cell Bank
+LinkTp: Explicit
+Server: http://www.ukstemcellbank.org.uk/
+Db_URL: 
+Cat   : Cell line collections
+
+AC    : DB-9054
+Abbrev: CCRID
+Name  : Cell resource platform
+LinkTp: Explicit
+Server: http://cellresource.cn/
+Db_URL: 
+Cat   : Cell line collections
+
+AC    : DB-9055
+Abbrev: Coriell
+Name  : Coriell Cell Repositories
+LinkTp: Explicit
+Server: https://catalog.coriell.org/
+Db_URL: https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=%s&Product=CC
+Cat   : Cell line collections
+
+AC    : DB-9056
+Abbrev: EFO
+Name  : Experimental Factor Ontology
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/efo/
+Db_URL: bioportal.bioontology.org/ontologies/47240/?p=terms&conceptid=efo%3A%s
+Cat   : Ontologies
+
+AC    : DB-9057
+Abbrev: RSCB
+Name  : Royan Stem Cell Bank
+LinkTp: Explicit
+Server: http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
+Db_URL: 
+Cat   : Cell line collections
+
+AC    : DB-9058
+Abbrev: ESTDAB
+Name  : European Searchable Tumour Line Database
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/ipd/estdab/
+Db_URL: www.ebi.ac.uk/cgi-bin/ipd/estdab/print_cell.cgi?%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9059
+Abbrev: TKG
+Name  : Tohoku University Cancer Cell Line
+LinkTp: Explicit
+Server: http://www2.idac.tohoku.ac.jp/dep/ccr/CancerCellLine.html
+Db_URL: http://www2.idac.tohoku.ac.jp/dep/ccr/TKGdate/TKGvo10%n/%s.html
+Cat   : Cell line collections
+
+AC    : DB-9060
+Abbrev: BCRJ
+Name  : Rio de Janeiro Cell Bank
+LinkTp: Explicit
+Server: http://www.nce.ufrj.br/bcrj/
+Db_URL: http://www.nce.ufrj.br/bcrj/Joomla_busca1.asp?bcrj=%s
+Cat   : Cell line collections
+
+AC    : DB-9062
+Abbrev: RCSB
+Name  : Royal Stem Cell Bank
+LinkTp: Explicit
+Server: http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
+Db_URL: 
+Cat   : Protocols and materials databases
+
+AC    : DB-9063
+Abbrev: CCLV
+Name  : Collection of Cell Lines in Veterinary Medicine
+LinkTp: Explicit
+Server: http://www.fli.bund.de/en/startseite/institutes/department-of-experimental-animal-facilities-and-biorisk-management/cclv.html
+Db_URL: 
+Cat   : Cell line collections
+
+AC    : DB-9064
+Abbrev: Lonza
+Name  : Lonza Cell and Transfection Database
+LinkTp: Explicit
+Server: http://bio.lonza.com/6.html
+Db_URL: None
+Cat   : Cell line databases/resources
+
+AC    : DB-9065
+Abbrev: IHW
+Name  : International Histocompatibility Workshop cell lines
+LinkTp: Explicit
+Server: http://www.ihwg.org/hla/index.html
+Cat   : Cell line databases/resources
+
+AC    : DB-9066
+Abbrev: IMGT/HLA
+Name  : IMGT/HLA
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/ipd/imgt/hla/
+Db_URL: http://www.ebi.ac.uk/cgi-bin/imgt/hla/fetch_cell.cgi?%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9067
+Abbrev: dbMHC
+Name  : dbMHC
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/projects/gv/mhc/ihwg.cgi?cmd=page&page=CellMain
+Db_URL: www.ncbi.nlm.nih.gov/projects/gv/mhc/xslcgi.fcgi?cmd=subj&ID=%s
+Cat   : Cell line collections
+
+AC    : DB-9068
+Abbrev: KCLB
+Name  : Korean Cell Line Bank
+LinkTp: Explicit
+Server: http://cellbank.snu.ac.kr/
+Db_URL: http://cellbank.snu.ac.kr/english/sub/catalog.php?page=detail&CatNo=59&strQ=%s&submit1=Find+it
+Cat   : Cell line collections
+
+AC    : DB-9069
+Abbrev: NCI
+Name  : NCI thesaurus
+LinkTp: Explicit
+Server: http://ncit.nci.nih.gov/ncitbrowser
+Db_URL: http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=%s
+Cat   : Ontologies
+
+AC    : DB-9070
+Abbrev: FMA
+Name  : Foundational Model of Anatomy
+LinkTp: Explicit
+Server: http://fma.biostr.washington.edu/
+Db_URL: http://purl.obolibrary.org/obo/%s
+Cat   : Ontologies
+
+AC    : DB-9071
+Abbrev: Uberon
+Name  : Uberon
+LinkTp: Explicit
+Server: http://uberon.org
+Db_URL: http://purl.obolibrary.org/obo/%s
+Cat   : Ontologies
+
+AC    : DB-9072
+Abbrev: CL
+Name  : Cell Ontology
+LinkTp: Explicit
+Server: http://cellontology.org
+Db_URL: http://purl.obolibrary.org/obo/%s
+Cat   : Ontologies
+
+AC    : DB-9073
+Abbrev: LINCS
+Name  : Library of Integrated Network-based Cellular Signatures
+LinkTp: Explicit
+Server: http://lincs.hms.harvard.edu/db/cells/
+Db_URL: http://lincs.hms.harvard.edu/db/cells/%s/
+Cat   : Cell line databases/resources
+
+AC    : DB-9074
+Abbrev: IGRhCellID
+Name  : Integrated Genomic Resources of Human Cell lines for Identification
+LinkTp: Explicit
+Server: http://igrcid.ibms.sinica.edu.tw/cgi-bin/index.cgi
+Db_URL: http://igrcid.ibms.sinica.edu.tw/cgi-bin/cell_line_view.cgi?cl_name=%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9075
+Abbrev: Antibodypedia
+Name  : Antibodypedia
+LinkTp: Explicit
+Server: http://www.antibodypedia.com/
+Db_URL: http://www.antibodypedia.com/gene_details.php?gene_id=%s
+Cat   : Antibody databases
+
+AC    : DB-9076
+Abbrev: SKIP
+Name  : Stemcell Knowledge and Information Portal
+LinkTp: Explicit
+Server: http://www.skip.med.keio.ac.jp/en/
+Db_URL: https://www.skip.med.keio.ac.jp/SKIPSearch/cell_line_detail?accession=%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9077
+Abbrev: Clinvar
+Name  : Clinvar
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/clinvar/
+Db_URL: http://www.ncbi.nlm.nih.gov/clinvar/variation/%s/
+Cat   : Protocols and materials databases
+
+AC    : DB-9078
+Abbrev: NCImetathesaurus
+Name  : National Cancer Institute Meta thesaurus
+LinkTp: Explicit
+Server: http://ncimeta.nci.nih.gov/
+Db_URL: http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=%s
+Cat   : Protocols and materials databases
+
+AC    : DB-9079
+Abbrev: SRMAtlas
+Name  : SRMAtlas
+LinkTp: Explicit
+Server: http://www.srmatlas.org
+Db_URL: https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/GetTransitions?organism_name=Human;default_search=1;peptide_sequence_constraint=%s;apply_action=QUERY
+Cat   : Proteomic databases
+
+AC    : DB-9080
+Abbrev: NIH-ARP
+Name  : NIH AIDS Reagent Program
+LinkTp: Explicit
+Server: https://www.aidsreagent.org/
+Db_URL: https://www.aidsreagent.org/reagentdetail.cfm?t=cell_lines&id=%s
+Cat   : Cell line collections
+
+AC    : DB-9081
+Abbrev: Patent
+Name  : Google Patent
+LinkTp: Explicit
+Server: https://www.google.com/?tbm=pts
+Db_URL: http://www.google.com/patents/%s
+Cat   : Other
+
+AC    : DB-9082
+Abbrev: CGH-DB
+Name  : CGH Data Base
+LinkTp: Explicit
+Server: http://www.cghtmd.jp/CGHDatabase/summary?lang=en
+Db_URL: http://www.cghtmd.jp/CGHDatabase/mapViewer?hid=%s&aid=%t&lang=en
+Cat   : Cell line databases/resources
+
+AC    : DB-9083
+Abbrev: Cosmic-CLP
+Name  : COSMIC Cell lines Project
+LinkTp: Explicit
+Server: http://cancer.sanger.ac.uk/cancergenome/projects/cell_lines/
+Db_URL: http://cancer.sanger.ac.uk/cell_lines/sample/overview?id=%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9084
+Abbrev: SKY/M-FISH/CGH
+Name  : SKY/M-FISH and CGH database
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/projects/sky/
+Db_URL: http://www.ncbi.nlm.nih.gov/sky/skyquery.cgi?form_type=initial_info&case_det=%s&Case_Details=Case+Details
+Cat   : Cell line databases/resources
+
+AC    : DB-9085
+Abbrev: BCRC
+Name  : Taiwan Bioresource Collection and Research Center
+LinkTp: Explicit
+Server: http://www.bcrc.firdi.org.tw/
+Db_URL: https://catalog.bcrc.firdi.org.tw/BSAS_cart/controller?event=SEARCH&bcrc_no=%s&type_id=4&keyword=
+Cat   : Cell line collections
+
+AC    : DB-9086
+Abbrev: ENCODE
+Name  : Encyclopedia of DNA Elements
+LinkTp: Explicit
+Server: https://www.encodeproject.org/
+Db_URL: https://www.encodeproject.org/biosamples/%s/
+Cat   : Other
+
+AC    : DB-9087
+Abbrev: PROSITE-ProRule
+Name  : prorule
+LinkTp: Explicit
+Server: https://prosite.expasy.org/
+Db_URL: http://prosite.expasy.org/unirule/%s
+Cat   : Other
+
+AC    : DB-9088
+Abbrev: ChEBI
+Name  : Chemical Entities of Biological Interest
+LinkTp: Explicit
+Server: http://www.ebi.ac.uk/chebi/
+Db_URL: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:%s
+Cat   : Other
+
+AC    : DB-9089
+Abbrev: HAMAP-Rule
+Name  : High-quality Automated and Manual Annotation of Proteins
+LinkTp: Explicit
+Server: https://hamap.expasy.org/
+Db_URL: http://hamap.expasy.org/unirule/%s
+Cat   : Other
+
+AC    : DB-9090
+Abbrev: RuleBase
+Name  : UniProtKB annotation rules
+LinkTp: Explicit
+Server: https://services.uniprot.org/supplement/
+Db_URL: http://services.uniprot.org/supplement/%u/%s
+Cat   : Other
+
+AC    : DB-9092
+Abbrev: MetaCyc
+Name  : MetaCyc Metabolic Pathway Database
+LinkTp: Explicit
+Server: http://www.biocyc.org//
+Db_URL: http://biocyc.org/META/NEW-IMAGE?object=%s
+Cat   : Enzyme and pathway databases
