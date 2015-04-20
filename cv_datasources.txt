@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     08-Apr-2015
+  Release:     20-Apr-2015
 
   The definition of the CV is provided in the following format:
 
@@ -18,7 +18,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0100
+next id:  CVDS-0101
 
 __________________________________________________________________________
 ID   AgBase
@@ -46,6 +46,11 @@ ID   BHF-UCL
 AC   CVDS-0041
 DE   British Heart Foundation - University College London
 DR   http://wiki.geneontology.org/index.php/BHF-UCL
+//
+ID   CACAO
+AC   CVDS-0100
+DE   Community Assessment of Community Annotation with Ontologies
+DR   http://gowiki.tamu.edu/wiki/index.php/Category:CACAO
 //
 ID   CCDS
 AC   CVDS-0016
