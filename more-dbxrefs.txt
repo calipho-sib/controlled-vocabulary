@@ -703,6 +703,7 @@ Cat   : Enzyme and pathway databases
 AC    : DB-9093
 Abbrev: DGRC
 Name  : Drosophila Genomics Resource Center
+LinkTp: Explicit
 Server: https://dgrc.cgb.indiana.edu/cells/Catalog
 Db_URL: https://dgrc.cgb.indiana.edu/product/View?product=%s
 Cat   : Cell line collections
@@ -710,6 +711,7 @@ Cat   : Cell line collections
 AC    : DB-9094
 Abbrev: NISES
 Name  : NISES Cell Database
+LinkTp: Explicit
 Server: https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
 Db_URL: https://www.gene.affrc.go.jp/ex-nises/NISESCells/data-eng/%sE.html
 Cat   : Cell line collections
