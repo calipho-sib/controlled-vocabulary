@@ -716,3 +716,34 @@ Server: https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
 Db_URL: https://www.gene.affrc.go.jp/ex-nises/NISESCells/data-eng/%sE.html
 Cat   : Cell line collections
 
+AC    : DB-9095
+Abbrev: hPSCreg
+Name  : Human Pluripotent Stem Cell Registry
+LinkTp: Explicit
+Server: http://hpscreg.eu/
+Db_URL: http://hpscreg.eu/cell-line/%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9096
+Abbrev: BioSample
+Name  : BioSample database
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/biosample
+Db_URL: http://www.ncbi.nlm.nih.gov/biosample/?term=%s
+Cat   : Other resources
+
+AC    : DB-9097
+Abbrev: ChEMBL-Cells
+Name  : ChEMBL database of bioactive drug-like small molecules - Cell lines section
+LinkTp: Explicit
+Server: https://www.ebi.ac.uk/chembldb
+Db_URL: https://www.ebi.ac.uk/chembldb/cell/inspect/%s
+Cat   : Other resources
+
+AC    : DB-9098
+Abbrev: Ximbio
+Name  : Ximbio reagents online portal
+LinkTp: Explicit
+Server: https://ximb.io/
+Db_URL: https://ximb.io/reagent/%s
+Cat   : Other resources
