@@ -747,3 +747,11 @@ LinkTp: Explicit
 Server: https://ximb.io/
 Db_URL: https://ximb.io/reagent/%s
 Cat   : Other
+
+AC    : DB-9099
+Abbrev: ChEMBL-Targets
+Name  : ChEMBL database of bioactive drug-like small molecules - Targets section
+LinkTp: Explicit
+Server: https://www.ebi.ac.uk/chembldb
+Db_URL: https://www.ebi.ac.uk/chembldb/target/inspect/%s
+Cat   : Other
