@@ -755,3 +755,11 @@ LinkTp: Explicit
 Server: https://www.ebi.ac.uk/chembldb
 Db_URL: https://www.ebi.ac.uk/chembldb/target/inspect/%s
 Cat   : Other
+
+AC    : DB-90100
+Abbrev: MedGen
+Name  : Information related to human medical genetics
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/medgen/
+Db_URL: http://www.ncbi.nlm.nih.gov/medgen/%s
+Cat   : Other
