@@ -730,7 +730,7 @@ Name  : BioSample database
 LinkTp: Explicit
 Server: http://www.ncbi.nlm.nih.gov/biosample
 Db_URL: http://www.ncbi.nlm.nih.gov/biosample/?term=%s
-Cat   : Other resources
+Cat   : Other
 
 AC    : DB-9097
 Abbrev: ChEMBL-Cells
@@ -738,7 +738,7 @@ Name  : ChEMBL database of bioactive drug-like small molecules - Cell lines sect
 LinkTp: Explicit
 Server: https://www.ebi.ac.uk/chembldb
 Db_URL: https://www.ebi.ac.uk/chembldb/cell/inspect/%s
-Cat   : Other resources
+Cat   : Other
 
 AC    : DB-9098
 Abbrev: Ximbio
@@ -746,4 +746,4 @@ Name  : Ximbio reagents online portal
 LinkTp: Explicit
 Server: https://ximb.io/
 Db_URL: https://ximb.io/reagent/%s
-Cat   : Other resources
+Cat   : Other
