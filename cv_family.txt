@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 09-Apr-2015
+Last update: 14-Aug-2015
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 09-Apr-2015
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05338
+AN   Next free AC: FA-05342
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -222,6 +222,12 @@ AC   FA-00037
 SY   AB hydrolase superfamily. Epoxide hydrolase family.
 HI   FA-00034; AB hydrolase superfamily
 //
+ID   LDAH family
+AC   FA-04435
+SY   AB hydrolase superfamily. LDAH family.
+SY   UPF0554 family
+HI   FA-00034; AB hydrolase superfamily
+//
 ID   Lipase family
 AC   FA-00039
 SY   AB hydrolase superfamily. Lipase family.
@@ -356,6 +362,10 @@ ID   ARD1 subfamily
 AC   FA-00067
 SY   Acetyltransferase family. ARD1 subfamily.
 HI   FA-00065; Acetyltransferase family
+//
+ID   ECD family
+AC   FA-03595
+SY   SGT1 family.
 //
 ID   ECO subfamily
 AC   FA-05216
@@ -1871,6 +1881,10 @@ AC   FA-00462
 ID   Carnitine/choline acetyltransferase family
 AC   FA-00463
 //
+ID   Carnosine N-methyltransferase family
+AC   FA-04456
+SY   UPF0586 family.
+//
 ID   Carotenoid oxygenase family
 AC   FA-00464
 //
@@ -2015,9 +2029,6 @@ SY   UPF0628 family.
 //
 ID   CCDC22 family
 AC   FA-00501
-//
-ID   CCDC23 family
-AC   FA-00502
 //
 ID   CCDC25 family
 AC   FA-00503
@@ -3336,6 +3347,9 @@ HI   FA-00770; CSN7/EIF3M family
 //
 ID   CSN8 family
 AC   FA-00772
+//
+ID   CT45 family
+AC   FA-05338
 //
 ID   CTAG/PCC1 family
 AC   FA-00773
@@ -5735,6 +5749,11 @@ HI   FA-01406; G-protein coupled receptor 1 family
 ID   G-protein coupled receptor 2 family
 AC   FA-01432
 //
+ID   Adhesion G-protein coupled receptor (ADGR) subfamily
+AC   FA-05339
+SY   G-protein coupled receptor 2 family. Adhesion G-protein coupled receptor (ADGR) subfamily.
+HI   FA-01432; G-protein coupled receptor 2 family
+//
 ID   LN-TM7 subfamily
 AC   FA-01433
 SY   G-protein coupled receptor 2 family. LN-TM7 subfamily.
@@ -6661,8 +6680,9 @@ AC   FA-01680
 ID   GTP cyclohydrolase I family
 AC   FA-01681
 //
-ID   GTP cyclohydrolase I type 2 family
+ID   GTP cyclohydrolase I type 2/NIF3 family
 AC   FA-05230
+SY   GTP cyclohydrolase I type 2 family
 SY   UPF0135 (NIF3) family.
 //
 ID   GTP-binding SRP family
@@ -8916,18 +8936,22 @@ AC   FA-04931
 SY   Mitochondrial organizing structure protein type 1 family.
 SY   UPF0327 family.
 //
+ID   MICOS complex subunit Mic13 family
+AC   FA-04374
+SY   UPF0433 family.
+//
 ID   MICOS complex subunit Mic19 family
 AC   FA-05308
 //
 ID   Metazoan Mic19 subfamily
 AC   FA-05309
 SY   MICOS complex subunit Mic19 family. Metazoan Mic19 subfamily.
-HI   FA-05308; MICOS complex subunit Mic10 family
+HI   FA-05308; MICOS complex subunit Mic19 family
 //
 ID   Metazoan Mic25 subfamily
 AC   FA-05310
 SY   MICOS complex subunit Mic19 family. Metazoan Mic25 subfamily.
-HI   FA-05308; MICOS complex subunit Mic10 family
+HI   FA-05308; MICOS complex subunit Mic19 family
 //
 ID   MICOS complex subunit Mic60 family
 AC   FA-05307
@@ -9459,6 +9483,11 @@ AC   FA-02437
 ID   NEMF family
 AC   FA-04862
 SY   SDCCAG1 family.
+//
+ID   NEMP family
+AC   FA-04071
+SY   TMEM194 family.
+SY   UPF0571 family.
 //
 ID   Nephrocystin-1 family
 AC   FA-02439
@@ -13802,9 +13831,6 @@ AC   FA-03593
 ID   SGT family
 AC   FA-03594
 //
-ID   SGT1 family
-AC   FA-03595
-//
 ID   SH2B adapter family
 AC   FA-03596
 //
@@ -14966,6 +14992,10 @@ AC   FA-03885
 ID   SVAP1 family
 AC   FA-03886
 //
+ID   SVBP family
+AC   FA-00502
+SY   CCDC23 family.
+//
 ID   SVIP family
 AC   FA-03887
 //
@@ -15024,6 +15054,9 @@ AC   FA-03901
 //
 ID   Syndecan proteoglycan family
 AC   FA-03902
+//
+ID   Syndetin family
+AC   FA-05340
 //
 ID   Synembryn family
 AC   FA-03903
@@ -15632,10 +15665,6 @@ AC   FA-04069
 ID   TMEM192 family
 AC   FA-04070
 SY   UPF0504 family.
-//
-ID   TMEM194 family
-AC   FA-04071
-SY   UPF0571 family.
 //
 ID   TMEM198 family
 AC   FA-04073
@@ -16930,9 +16959,6 @@ AC   FA-04370
 ID   UPF0430 family
 AC   FA-04372
 //
-ID   UPF0433 family
-AC   FA-04374
-//
 ID   UPF0449 family
 AC   FA-04379
 //
@@ -17005,9 +17031,6 @@ AC   FA-04429
 ID   UPF0553 family
 AC   FA-04434
 //
-ID   UPF0554 family
-AC   FA-04435
-//
 ID   UPF0561 family
 AC   FA-04440
 //
@@ -17034,9 +17057,6 @@ AC   FA-04453
 //
 ID   UPF0585 family
 AC   FA-04455
-//
-ID   UPF0586 family
-AC   FA-04456
 //
 ID   UPF0587 family
 AC   FA-04457
@@ -17323,6 +17343,9 @@ AC   FA-04577
 //
 ID   Vezatin family
 AC   FA-04578
+//
+ID   VHL family
+AC   FA-05341
 //
 ID   Villin/gelsolin family
 AC   FA-04579
