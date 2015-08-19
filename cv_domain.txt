@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 09-Apr-2015
+Last update: 14-Aug-2015
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 09-Apr-2015
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00870
+AN   Next free AC: DO-00873
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -1507,6 +1507,12 @@ FT   DOMAIN.
 TG   PF00929; Exonuc_X-T;
 DO   IPR013520;
 //
+ID   EXPERA.
+AC   DO-00870
+FT   DOMAIN.
+TG   PS51751; EXPERA;
+DO   PDOC51751;
+//
 ID   EXS.
 AC   DO-00212
 FT   DOMAIN.
@@ -2448,6 +2454,12 @@ FT   DOMAIN.
 TG   PS50076; DNAJ_2;
 DO   PDOC00553;
 //
+ID   jacalin-type lectin.
+AC   DO-00871
+FT   DOMAIN.
+TG   PS51752; JACALIN_LECTIN;
+DO   PDOC51752;
+//
 ID   JmjC.
 AC   DO-00345
 FT   DOMAIN.
@@ -2663,11 +2675,13 @@ FT   DOMAIN.
 TG   PS50955; LEM_LIKE;
 DO   PDOC50954;
 //
-ID   LETM1.
+ID   Letm1 RBD.
 AC   DO-00378
+SY   LETM1.
+SY   Letm1 ribosome-binding.
 FT   DOMAIN.
-TG   PF07766; LETM1;
-DO   IPR011685;
+TG   PS51758; LETM1_RBD;
+DO   PDOC51758;
 //
 ID   Leucine-zipper.
 AC   DO-00379
@@ -4759,6 +4773,13 @@ AC   DO-00664
 FT   DOMAIN.
 TG   PS51319; TFIIS_N;
 DO   PDOC51319;
+//
+ID   TH1.
+AC   DO-00872
+SY   class I myosin tail homology.
+FT   DOMAIN.
+TG   PS51757; TH1;
+DO   PDOC51757;
 //
 ID   THAP-type.
 AC   DO-00665
