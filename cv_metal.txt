@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of metal-binding sites
 File name:   cv_metal.txt
-Last update: 24-Sep-2014
+Last update: 20-Aug-2015
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 24-Sep-2014
  KW         X-ref to Swiss-Prot keyword     Optional; once or more
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: CVME_0037
+AN   Next free AC: CVME_0038
 __________________________________________________________________________
 ID   Calcium.
 AC   CVME_0001
@@ -30,6 +30,13 @@ DE   Annotate an amino acid residue that binds a calcium (Ca(2+)) cation.
 DE   Calcium is an alkaline earth metal with the atomic number: 20.
 SY   Ca; Calcium ion; Ca ion.
 KW   KW-0106:Calcium.
+//
+ID   Calcium or magnesium.
+AC   CVME_0037
+DE   Annotate an amino acid residue that binds either a calcium (Ca(2+))
+DE   or a magnesium (Mg(+2)) cation.
+KW   KW-0106:Calcium.
+KW   KW-0460:Magnesium.
 //
 ID   Cobalt.
 AC   CVME_0002
