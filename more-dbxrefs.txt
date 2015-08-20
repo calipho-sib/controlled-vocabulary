@@ -58,8 +58,8 @@ AC    : DB-9007
 Abbrev: RESID
 Name  : An ontology consisting of terms that describe protein chemical modifications.
 LinkTp: Explicit
-Server: http://www.ebi.ac.uk/RESID/
-Db_URL: http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-id+2F9eD1VPLvp+-e+[RESID:%s]
+Server: http://pir.georgetown.edu/resid/
+Db_URL: http://pir.georgetown.edu/cgi-bin/resid?id=%s
 Cat   : Ontologies
 
 AC    : DB-9008
