@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 14-Aug-2015
+Last update: 26-Oct-2015
 
 ----------------------------------------------------------------------------
 
@@ -5081,7 +5081,7 @@ DO   PDOC00756;
 //
 ID   UPF1-type.
 AC   DO-00860
-SY   ZN_FING.
+FT   ZN_FING.
 TG   PF09416; UPF1_Zn_bind;
 DO   IPR018999;
 //
