@@ -756,10 +756,18 @@ Server: https://www.ebi.ac.uk/chembldb
 Db_URL: https://www.ebi.ac.uk/chembldb/target/inspect/%s
 Cat   : Other
 
-AC    : DB-90100
+AC    : DB-9100
 Abbrev: MedGen
 Name  : Information related to human medical genetics
 LinkTp: Explicit
 Server: http://www.ncbi.nlm.nih.gov/medgen/
 Db_URL: http://www.ncbi.nlm.nih.gov/medgen/%s
 Cat   : Other
+
+AC    : DB-9101
+Abbrev: GDSC
+Name  : Genomics of Drug Sensitivity in Cancer Project
+LinkTp: Explicit
+Server: http://www.cancerrxgene.org/
+Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
+Cat   : Cell line databases/resources
