@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 26-Oct-2015
+Last update: 20-Nov-2015
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 26-Oct-2015
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00873
+AN   Next free AC: DO-00880
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -88,9 +88,10 @@ DO   PDOC00185;
 //
 ID   ABM.
 AC   DO-00010
+SY   antibiotic biosynthesis monooxygenase.
 FT   DOMAIN.
-TG   PF03992; ABM;
-DO   IPR007138;
+TG   PS51725; ABM;
+DO   PDOC51725;
 //
 ID   ACB.
 AC   DO-00011
@@ -102,8 +103,8 @@ DO   PDOC00686;
 ID   ACT.
 AC   DO-00012
 FT   DOMAIN.
-TG   PF01842; ACT;
-DO   IPR002912;
+TG   PS51671; ACT;
+DO   PDOC51671;
 //
 ID   actin-binding.
 AC   DO-00013
@@ -603,7 +604,7 @@ FT   DOMAIN.
 TG   PS51182; C2_TENSIN;
 DO   PDOC51181;
 //
-ID   C2H2 AKAP95-type
+ID   C2H2 AKAP95-type.
 AC   DO-00861
 FT   ZN_FING.
 TG   None;
@@ -708,7 +709,7 @@ DO   PDOC51159;
 //
 ID   CBP/p300-type HAT.
 AC   DO-00857
-SY   CBP/p300-type histone acetyltransferase,
+SY   CBP/p300-type histone acetyltransferase.
 FT   DOMAIN.
 DR   PS51727; CBP_P300_HAT;
 DO   PDOC51727;
@@ -1067,12 +1068,6 @@ FT   DOMAIN.
 TG   PS50146; DAGK;
 DO   PDOC50146;
 //
-ID   DAPIN.
-AC   DO-00151
-FT   DOMAIN.
-TG   PS50824; DAPIN;
-DO   PDOC50824;
-//
 ID   DAZ-like.
 AC   DO-00152
 FT   DOMAIN.
@@ -1368,8 +1363,8 @@ DO   IPR025874;
 ID   DZF.
 AC   DO-00194
 FT   DOMAIN.
-TG   PF07528; DZF;
-DO   IPR006561;
+TG   PS51703; DZF;
+DO   PDOC51703;
 //
 ID   EamA.
 AC   DO-00797
@@ -1636,8 +1631,8 @@ DO   PDOC50905;
 ID   FF.
 AC   DO-00230
 FT   DOMAIN.
-TG   PF01846; FF;
-DO   IPR002713;
+TG   PS51676; FF;
+DO   PDOC51676;
 //
 ID   FG-GAP.
 AC   DO-00231
@@ -2238,6 +2233,13 @@ AC   DO-00314
 FT   DOMAIN.
 TG   PS50815; HORMA;
 DO   PDOC50815;
+//
+ID   HotDog ACOT-type.
+AC   DO-00873
+SY   HotDog acyl-CoA thioesterase.
+FT   DOMAIN.
+TG   PS51770; HOTDOG_ACOT;
+DO   PDOC51770;
 //
 ID   HP.
 AC   DO-00315
@@ -2885,7 +2887,9 @@ DO   PDOC51075;
 //
 ID   MHD.
 AC   DO-00407
-SY   mu homology.
+SY   mu homology domain.
+SY   muHD.
+SY   muniscin C-terminal mu homology.
 FT   DOMAIN.
 TG   PS51072; MHD;
 DO   PDOC51072;
@@ -2996,14 +3000,6 @@ FT   DOMAIN.
 TG   PS51449; MTTASE_N;
 DO   PDOC00984;
 //
-ID   MUHD.
-AC   DO-00805
-SY   muHD.
-SY   muniscin C-terminal mu homology.
-FT   DOMAIN.
-TG   PF10291; MUHD;
-DO   IPR018808;
-//
 ID   MVP.
 AC   DO-00423
 SY   vault.
@@ -3029,23 +3025,11 @@ FT   ZN_FING.
 TG   PS50865; ZF_MYND_2;
 DO   PDOC50865;
 //
-ID   myosin head-like.
-AC   DO-00427
-FT   DOMAIN.
-TG   PF00063; Myosin_head;
-DO   IPR001609;
-//
 ID   myosin motor.
 AC   DO-00849
 FT   DOMAIN.
 TG   PS51456; MYOSIN_MOTOR;
 DO   PDOC51456;
-//
-ID   myosin tail.
-AC   DO-00853
-FT   DOMAIN.
-TG   PF06017 Myosin_TH1;
-DO   IPR010926;
 //
 ID   myotubularin phosphatase.
 AC   DO-00428
@@ -3248,12 +3232,6 @@ FT   DOMAIN.
 TG   PS51132; OLF;
 DO   PDOC51132;
 //
-ID   OPR.
-AC   DO-00456
-FT   DOMAIN.
-TG   PF00564; PB1;
-DO   IPR000270;
-//
 ID   Orange.
 AC   DO-00457
 FT   DOMAIN.
@@ -3377,6 +3355,7 @@ DO   PDOC50821;
 //
 ID   PB1.
 AC   DO-00868
+SY   Phox and Bem1.
 FT   DOMAIN.
 TG   PS51745; PB1;
 DO   PDOC51745;
@@ -3423,6 +3402,12 @@ AC   DO-00479
 FT   DOMAIN.
 TG   PF00354; Pentaxin;
 DO   IPR001759;
+//
+ID   peptidase A1.
+AC   DO-00875
+FT   DOMAIN.
+TG   PS51767; PEPTIDASE_A1;
+DO   PDOC00128;
 //
 ID   peptidase A2.
 AC   DO-00480
@@ -3635,8 +3620,8 @@ FT   DOMAIN.
 TG   None;
 //
 ID   PITH.
-SY   proteasome-interacting thioredoxin.
 AC   DO-00776
+SY   proteasome-interacting thioredoxin.
 FT   DOMAIN.
 TG   PS51532; PITH;
 DO   PDOC51532;
@@ -3717,17 +3702,18 @@ FT   DOMAIN.
 TG   PS50868; POST_SET;
 DO   PDOC50280;
 //
+ID   POTRA.
+AC   DO-00874
+SY   polypeptide-transport-associated.
+FT   DOMAIN.
+TG   PS51779; POTRA;
+DO   PDOC51779;
+//
 ID   POU-specific.
 AC   DO-00516
 FT   DOMAIN.
 TG   PS51179; POU_3;
 DO   PDOC00035;
-//
-ID   PP2C-like.
-AC   DO-00517
-FT   DOMAIN.
-TG   PF00481; PP2C;
-DO   IPR001932;
 //
 ID   PPIase cyclophilin-type.
 AC   DO-00518
@@ -3883,6 +3869,13 @@ FT   DOMAIN.
 TG   PS51207; PXA;
 DO   PDOC51207;
 //
+ID   pyrin.
+AC   DO-00151
+SY   DAPIN.
+FT   DOMAIN.
+TG   PS50824; DAPIN;
+DO   PDOC50824;
+//
 ID   QLQ.
 AC   DO-00811
 FT   DOMAIN.
@@ -3911,8 +3904,8 @@ DO   PDOC50916;
 ID   RAG1-type.
 AC   DO-00751
 FT   ZN_FING.
-TG   PF10426; zf-RAG1;
-DO   IPR019485;
+TG   PS51765; ZF_RAG1;
+DO   PDOC51765;
 //
 ID   RanBD1.
 AC   DO-00546
@@ -4042,6 +4035,20 @@ AC   DO-00564
 SY   RGS-like.
 FT   DOMAIN.
 TG   None;
+//
+ID   RH1.
+AC   DO-00877
+SY   RILP homology 1.
+FT   DOMAIN.
+TG   PS51776; RH1;
+DO   PDOC51776;
+//
+ID   RH2.
+AC   DO-00878
+SY   RILP homology 2.
+FT   DOMAIN.
+TG   PS51777; RH2;
+DO   PDOC51777;
 //
 ID   RHD.
 AC   DO-00565
@@ -4991,8 +4998,8 @@ DO   PDOC00323;
 ID   U-box.
 AC   DO-00693
 FT   DOMAIN.
-TG   SM00504; Ubox;
-DO   IPR003613;
+TG   PS51698; U_BOX;
+DO   PDOC51698;
 //
 ID   U1-type.
 AC   DO-00694
@@ -5098,11 +5105,24 @@ FT   DOMAIN.
 TG   PS50151; UVR;
 DO   PDOC50151;
 //
+ID   UvrD-like helicase ATP-binding.
+AC   DO-00879
+FT   DOMAIN.
+TG   PS51198; UVRD_HELICASE_ATP_BIND;
+DO   PDOC51198;
+//
 ID   v-SNARE coiled-coil homology.
 AC   DO-00707
 FT   DOMAIN.
 TG   PS50892; V_SNARE;
 DO   PDOC50892;
+//
+ID   VASt.
+AC   DO-00876
+SY   VAD1 analog of StAR.
+FT   DOMAIN.
+TG   PS51778; VAST;
+DO   PDOC51778;
 //
 ID   VHS.
 AC   DO-00708

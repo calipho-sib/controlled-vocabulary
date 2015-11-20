@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 14-Aug-2015
+Last update: 20-Nov-2015
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 14-Aug-2015
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05342
+AN   Next free AC: FA-05351
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -225,7 +225,7 @@ HI   FA-00034; AB hydrolase superfamily
 ID   LDAH family
 AC   FA-04435
 SY   AB hydrolase superfamily. LDAH family.
-SY   UPF0554 family
+SY   UPF0554 family.
 HI   FA-00034; AB hydrolase superfamily
 //
 ID   Lipase family
@@ -641,6 +641,11 @@ AC   FA-00133
 //
 ID   AIR carboxylase family
 AC   FA-00134
+//
+ID   Class II subfamily
+AC   FA-05349
+SY   AIR carboxylase family. Class II subfamily.
+HI   FA-00134; AIR carboxylase family
 //
 ID   AIR synthase family
 AC   FA-00135
@@ -1088,9 +1093,6 @@ SY   Argininosuccinate synthase family. Type 1 subfamily.
 SY   Type 1 subfamily.
 HI   FA-00247; Argininosuccinate synthase family
 //
-ID   ArgK family
-AC   FA-00249
-//
 ID   Argonaute family
 AC   FA-00250
 //
@@ -1236,9 +1238,14 @@ SY   UPF0453 family.
 ID   ATG12 family
 AC   FA-00288
 //
-ID   ATG13 metazoan family
+ID   ATG13 family
+AC   FA-05347
+//
+ID   Metazoan subfamily
 AC   FA-00289
+SY   ATG13 family. Metazoan subfamily.
 SY   UPF0630 family.
+HI   FA-05347; ATG13 family
 //
 ID   ATG14 family
 AC   FA-05217
@@ -2961,9 +2968,6 @@ AC   FA-00660
 //
 ID   Cob(I)alamin adenosyltransferase family
 AC   FA-00661
-//
-ID   CobW family
-AC   FA-00662
 //
 ID   COE family
 AC   FA-00663
@@ -6682,7 +6686,7 @@ AC   FA-01681
 //
 ID   GTP cyclohydrolase I type 2/NIF3 family
 AC   FA-05230
-SY   GTP cyclohydrolase I type 2 family
+SY   GTP cyclohydrolase I type 2 family.
 SY   UPF0135 (NIF3) family.
 //
 ID   GTP-binding SRP family
@@ -7247,6 +7251,11 @@ SY   UPF0029 family.
 //
 ID   IMPDH/GMPR family
 AC   FA-01850
+//
+ID   GuaC type 1 subfamily
+AC   FA-05350
+SY   IMPDH/GMPR family. GuaC type 1 subfamily.
+HI   FA-01850; IMPDH/GMPR family
 //
 ID   Importin alpha family
 AC   FA-01851
@@ -8661,6 +8670,9 @@ AC   FA-02228
 ID   MELT/VEPH family
 AC   FA-02229
 //
+ID   Membralin family
+AC   FA-05343
+//
 ID   MEMO1 family
 AC   FA-05030
 SY   UPF0103 family.
@@ -9437,6 +9449,9 @@ AC   FA-02425
 ID   NCBP1 family
 AC   FA-02426
 //
+ID   NCBP3 family
+AC   FA-05346
+//
 ID   NCF2/NOXA1 family
 AC   FA-02427
 //
@@ -9494,6 +9509,9 @@ AC   FA-02439
 //
 ID   Nephronectin family
 AC   FA-02440
+//
+ID   nepro family
+AC   FA-05344
 //
 ID   NESP55 family
 AC   FA-02441
@@ -13902,6 +13920,9 @@ AC   FA-03616
 ID   SID1 family
 AC   FA-03617
 //
+ID   Sidekick family
+AC   FA-05345
+//
 ID   Sideroflexin family
 AC   FA-03618
 //
@@ -13910,6 +13931,21 @@ AC   FA-03619
 //
 ID   SIL1 family
 AC   FA-03620
+//
+ID   SIMIBI class G3E GTPase family
+AC   FA-05348
+//
+ID   ArgK/MeaB subfamily
+AC   FA-00249
+SY   SIMIBI class G3E GTPase family. ArgK/MeaB subfamily.
+SY   ArgK family.
+HI   FA-05348; SIMIBI class G3E GTPase family
+//
+ID   CobW subfamily
+AC   FA-00662
+SY   SIMIBI class G3E GTPase family. CobW subfamily.
+SY   CobW family.
+HI   FA-05348; SIMIBI class G3E GTPase family
 //
 ID   SIN1 family
 AC   FA-03621
@@ -14689,6 +14725,9 @@ SY   VIPAR family.
 ID   SPEC3 family
 AC   FA-03799
 //
+ID   STIMATE family
+AC   FA-05342
+//
 ID   Stum subfamily
 AC   FA-05282
 SY   SPEC3 family. Stum subfamily.
@@ -15180,8 +15219,9 @@ AC   FA-03933
 ID   TARBP2 family
 AC   FA-05169
 //
-ID   TatD DNase family
+ID   TatD-type hydrolase family
 AC   FA-03934
+SY   TatD DNase family.
 SY   UPF0006 family.
 //
 ID   Taxilin family
