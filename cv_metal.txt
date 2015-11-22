@@ -35,8 +35,7 @@ ID   Calcium or magnesium.
 AC   CVME_0037
 DE   Annotate an amino acid residue that binds either a calcium (Ca(2+))
 DE   or a magnesium (Mg(+2)) cation.
-SY   Calcium 5 or magnesium.
-SY   Calcium 4 or magnesium.
+SY   Calcium 6 or magnesium; Calcium 5 or magnesium; Calcium 4 or magnesium.
 KW   KW-0106:Calcium.
 KW   KW-0460:Magnesium.
 //
