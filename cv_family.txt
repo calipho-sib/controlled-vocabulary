@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 20-Nov-2015
+Last update: 23-Nov-2015
 
 ----------------------------------------------------------------------------
 
@@ -642,7 +642,7 @@ AC   FA-00133
 ID   AIR carboxylase family
 AC   FA-00134
 //
-ID   Class II subfamily
+ID   AIR carboxylase family. Class II subfamily
 AC   FA-05349
 SY   AIR carboxylase family. Class II subfamily.
 HI   FA-00134; AIR carboxylase family
@@ -10394,7 +10394,7 @@ AC   FA-02684
 ID   Peptidase A2 family
 AC   FA-02685
 //
-ID   Peptidase A2 family. HERV class-II K(HML-2) subfamily. HERV class-II K(HML-2) subfamily
+ID   HERV class-II K(HML-2) subfamily
 AC   FA-02686
 SY   Peptidase A2 family. HERV class-II K(HML-2) subfamily.
 HI   FA-02685; Peptidase A2 family
