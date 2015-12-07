@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     08-Apr-2015
+  Release:     07-Dec-2015
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0091
+next id:  CVDR-0094
 
 __________________________________________________________________________
 ID   Additional references
@@ -260,6 +260,16 @@ DE   Proteomics data (peptides): Integration of peptide sequences obtained by hi
 DE   Human samples, load of accession codes only.
 DS   PeptideAtlas
 DR   http://www.peptideatlas.org/builds/human/201207/APD_Hs_all.fasta
+UF   rarely
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Phosphoproteome PeptideAtlas
+AC   CVDR-0091
+DE   Proteomics data (peptides + PTM): Integration of peptide sequences and PTM obtained by high-throughput mass spectrometry.
+DE   Peptides and phosphorylations identified by mass spectrometry.
+DS   PeptideAtlas human phosphoproteome
+DR   ftp://ftp.peptideatlas.org/Phospho/peptide_ptm.xls.gz
 UF   rarely
 UR   http://www.peptideatlas.org
 CI
@@ -716,6 +726,17 @@ UF   once
 UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23584533
 CI
 //
+ID   PMID_23955771
+AC   CVDR-0092
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Asp- and Glu-ADP-ribosylation in human colorectal carcinoma cells.
+DE   ADP-ribosylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/23955771.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=23955771
+CI
+//
 ID   PMID_24129315
 AC   CVDR-0086
 DE   Proteomics data (PTM) extracted from PubMed publication.
@@ -725,6 +746,17 @@ DS   NextProt
 DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/24129315.xml
 UF   once
 UR   http://www.ncbi.nlm.nih.gov/pubmed?term=24129315
+CI
+//
+ID   PMID_25038526
+AC   CVDR-0093
+DE   Proteomics data (PTM) extracted from PubMed publication. 
+DE   Lys-acetylation in human capacitated sperm.
+DE   Acetylation identified by mass spectrometry.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/proteomics/25038526.xml
+UF   once
+UR   http://www.ncbi.nlm.nih.gov/pubmed?term=25038526
 CI
 //
 ID   PMID_25218447
