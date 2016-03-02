@@ -6,7 +6,7 @@
 
 Description: Control vocabulary to describe carbohydrate modification
 File name:   cv_carbohydrate.txt
-Last update: 14-Dec-2015
+Last update: 02-Mar-2016
 
 ----------------------------------------------------------------------------
 
@@ -28,8 +28,7 @@ AN   Next free AC:  CVCA_0034
 __________________________________________________________________________
 ID   C-linked (Man)
 AC   CVCA_0001
-DE   A mannose moiety covalently attached to a carbon on a tryptophan
-DE   residue.
+DE   A mannose covalently attached to a carbon on a tryptophan residue.
 MM   162.052823
 DR   RESID; AA0217
 DR   PSI-MOD; 00222 [2'-alpha-mannosyl-L-tryptophan]
@@ -37,9 +36,9 @@ KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (Glc) (glycation)
 AC   CVCA_0002
-DE   A glucose moiety attached covalently without the controlling action of
-DE   an enzyme to the amino group of a lysine residue or on the protein 
-DE   N-terminal residue.
+DE   A glucose attached covalently without the controlling action of an
+DE   enzyme to the amino group of a lysine residue or on the protein N-
+DE   terminal residue.
 SY   N-linked (Glc) (glycation), alternate
 MM   162.052823
 DR   PSI-MOD; 01065 [N-glucosyl (N terminus or N epsilon of Lysine)]
@@ -47,22 +46,37 @@ KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...)
 AC   CVCA_0003
-DE   N-linked (GlcNAc...)
+DE   An oligosaccharide covalently attached via the N-acetylglucosamine to
+DE   the amide nitrogen of an asparagine residue. All N-linked
+DE   oligosaccharides are bound to the asparagine through a pentasaccharide
+DE   core of two N-acetyglucosamine and three mannose residues to which the
+DE   additional sugars are attached. There are three types of mature N-
+DE   glycans: high mannose, hybrid and complex.
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (complex)
 AC   CVCA_0004
-DE   N-linked (GlcNAc...) (complex)
+DE   Complex mature N-glycan. The oligosaccharides attached to the
+DE   pentasaccharide core of two N-acetyglucosamine and three mannose
+DE   residues are composed of different combinations of N-
+DE   acetylglucosamine, N-acetylgalactosamine, fucose, galactose and sialic
+DE   acid.
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (high mannose)
 AC   CVCA_0005
-DE   N-linked (GlcNAc...) (high mannose)
+DE   High mannose mature N-glycan. The oligosaccharides attached to the
+DE   pentasaccharide core of two N-acetyglucosamine and three mannose
+DE   residues contain only mannoses.
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (high mannose and complex)
 AC   CVCA_0006
-DE   N-linked (GlcNAc...) (high mannose and complex)
+DE   The hybrid mature N-glycan is a mixture of high mannose and complex
+DE   type. One or two oligosaccharides of the complex type are linked to
+DE   one of the mannose residues of the pentasaccharide core of two N-
+DE   acetyglucosamine and three mannose residues, and one or two other
+DE   mannose are linked to the other mannose residue of the core.
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (high mannose or hybrid)
@@ -72,116 +86,157 @@ KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (keratan sulfate)
 AC   CVCA_0007
-DE   N-linked (GlcNAc...) (keratan sulfate)
+DE   A keratan sulfate covalently attached via the N-acetylglucosamine of
+DE   the pentasaccharide core of two N-acetyglucosamine and three mannose
+DE   residues to the amide nitrogen of an asparagine residue. Also named
+DE   keratan sulfate type I. Keratan sulfate is a type of glycosaminoglycan
+DE   consisting of a linear polymer of the repeating disaccharide unit of
+DE   alpha-D-N-acetylglucosamine and beta-D-galactose that can be sulfated
+DE   at carbon position 6 of either or both saccharides.
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (polylactosaminoglycan)
 AC   CVCA_0025
-DE   N-linked (GlcNAc...) (polylactosaminoglycan)
+DE   A polylactosaminoglycan covalently attached via the N-acetylglucosamine
+DE   of the pentasaccharide core of two N-acetyglucosamine and three mannose
+DE   residues to the amide nitrogen of an asparagine residue.
+DE   Polylactosaminoglycans can be linear or branched. In the linear form the
+DE   N-acetyllactosamine units are linked by beta1–3 linkages, in the
+DE   branched formed the carbon 6 of some galactose residues are substituted
+DE   with additional N-acetyllactosamines.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Fuc)
 AC   CVCA_0008
-DE   A fucose moiety covalently attached to the hydroxyl group of a serine or
-DE   a threonine residue.
+DE   A fucose covalently attached to the hydroxyl group of a serine or a
+DE   threonine residue.
 MM   146.057909
 DR   PSI-MOD; 00614 [fucosylated]
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Fuc...)
 AC   CVCA_0009
-DE   A glycan that contains a fucose moiety which is covalently attached to
-DE   the hydroxyl group of a serine or a threonine residue.
-KW   KW-0325:Glycoprotein.
-//
-ID   O-linked (FucGlc...)
-AC   CVCA_0030
-DE   O-linked (FucGlc...)
+DE   A glycan that contains a fucose which is covalently attached to the
+DE   hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Gal...)
 AC   CVCA_0010
-DE   O-linked (Gal...)
+DE   A glycan that contains a galactose which is covalently attached to the
+DE   hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GalNAc)
 AC   CVCA_0011
-DE   O-linked (GalNAc)
+DE   An N-acetylgalactosamine covalently attached to the hydroxyl group of
+DE   a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GalNAc...)
 AC   CVCA_0012
-DE   O-linked (GalNAc...) 
+DE   A glycan that contains an N-acetylgalactosamine which is covalently
+DE   attached to the hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Glc...)
 AC   CVCA_0013
-DE   O-linked (Glc...) 
+DE   A glycan that contains a glucose which is covalently attached to the
+DE   hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcA)
 AC   CVCA_0014
-DE   O-linked (GlcA)
+DE   A glucuronic acid covalently attached to the hydroxyl group of a
+DE   serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcNAc)
 AC   CVCA_0015
-DE   O-linked (GlcNAc)
+DE   An N-acetylglucosamine covalently attached to the hydroxyl group of a
+DE   serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcNAc...)
 AC   CVCA_0024
-DE   O-linked (GlcNAc...)
+DE   A glycan that contains an N-acetylglucosamine which is covalently
+DE   attached to the hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (GlcNAc6P)
 AC   CVCA_0031
-DE   O-linked (GlcNAc-6-phosphate)
+DE   An N-acetylglucosamine-6-phosphate covalently attached to the hydroxyl
+DE   group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Hex)
 AC   CVCA_0029
-DE   O-linked (Hex)
+DE   A hexosamine covalently attached to the hydroxyl group of a serine or
+DE   a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Hex...)
 AC   CVCA_0028
-DE   O-linked (Hex...)
+DE   A glycan that contains a hexosamine which is covalently attached to
+DE   the hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (HexNAc...)
 AC   CVCA_0016
-DE   O-linked (HexNAc...)
+DE   A glycan that contains an N-acetyl hexosamine which is covalently
+DE   attached to the hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Man6P...)
 AC   CVCA_0027
-DE   O-linked (Man6P...)
+DE   A glycan that contains a manose-6-phosphate which is covalently
+DE   attached to the hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...)
 AC   CVCA_0033
-DE   O-linked (Xyl...)
+DE   A glycan that contains a xylose which is covalently attached to the
+DE   hydroxyl group of a serine or a threonine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (chondroitin sulfate)
 AC   CVCA_0017
-DE   O-linked (Xyl...) (chondroitin sulfate)
+DE   A chondroitin sulfate linked to a serine residue via the
+DE   tetrasaccharide formed by xylose, two galactoses and a glucuronic
+DE   acid. Chondroitin sulfate is a sulfated glycosaminoglycan with the
+DE   linear chain of the disaccharide unit of beta-D-galactosamine and
+DE   beta-D-glucuronic acid.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (dermatan sulfate)
 AC   CVCA_0018
-DE   O-linked (Xyl...) (dermatan sulfate)
+DE   A dermatan sulfate linked to a serine residue via the tetrasaccharide
+DE   formed by xylose, two galactoses and a glucuronic acid. Dermatan
+DE   sulfate is a sulfated glycosaminoglycan with the repeating
+DE   disaccharide unit of beta-D-galactosamine and L-iduronic acid.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (glycosaminoglycan)
 AC   CVCA_0019
-DE   O-linked (Xyl...) (glycosaminoglycan)
+DE   A glycosaminoglycan linked to a serine residue via the tetrasaccharide
+DE   formed by xylose, two galactoses and a glucuronic acid.
+DE   Glycosaminoglycans or mucopolysaccharides are long unbranched
+DE   polysaccharides consisting of repeating disaccharide units that can
+DE   contain sulfates at various positions. The repeating unit consists of
+DE   a hexosamine (beta-D-N-acetylgalactosamine or alpha-D-N-
+DE   acetylglucosamine) and a hexuronic sugar (beta-D-glucuronic acid acid
+DE   or alpha-L-iduronic acid) or a beta-D-galactose. Chondroitin sulfate,
+DE   dermatan sulfate, heparan sulfate and keratan sulfate are
+DE   glycosaminoglycans.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (heparan sulfate)
 AC   CVCA_0020
-DE   O-linked (Xyl...) (heparan sulfate)
+DE   A heparan sulfate linked to a serine residue via the tetrasaccharide
+DE   formed by xylose, two galactoses and a glucuronic acid. Heparan
+DE   sulfate is a sulfated glycosaminoglycan with repeating disaccharide
+DE   unit of alpha-D-glucosamine and uronic acid, the latter being either
+DE   beta-D-glucuronic acid or alpha-L-iduronic acid. Sulfation
+DE   modification may be performed at various positions.
 KW   KW-0325:Glycoprotein.
 //
 ID   O-linked (Xyl...) (keratan sulfate)
@@ -191,16 +246,19 @@ KW   KW-0325:Glycoprotein.
 //
 ID   S-linked (Gal...)
 AC   CVCA_0021
-DE   S-linked (Gal...)
+DE   A glycan that contains a galactose covalently attached to the sulfur
+DE   atom of a cysteine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   S-linked (Glc...)
 AC   CVCA_0022
-DE   S-linked (Glc...)
+DE   A glycan that contains a glucose covalently attached to the sulfur
+DE   atom of a cysteine residue.
 KW   KW-0325:Glycoprotein.
 //
 ID   S-linked (Hex...)
 AC   CVCA_0023
-DE   S-linked (Hex...)
+DE   A glycan that contains a hexose covalently attached to the sulfur atom
+DE   of a cysteine residue.
 KW   KW-0325:Glycoprotein.
 //
