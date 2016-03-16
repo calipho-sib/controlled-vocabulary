@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 20-Nov-2015
+Last update: 16-Mar-2016
 
 ----------------------------------------------------------------------------
 
@@ -117,11 +117,6 @@ AC   DO-00014
 FT   DOMAIN.
 TG   PS50075; ACP_DOMAIN;
 DO   PDOC00012;
-//
-ID   acyl coenzyme A hydrolase.
-AC   DO-00015
-FT   DOMAIN.
-TG   None;
 //
 ID   acylphosphatase-like.
 AC   DO-00016
@@ -1579,13 +1574,6 @@ FT   DOMAIN.
 TG   PS51114; FBA;
 DO   PDOC51114;
 //
-ID   FCH.
-AC   DO-00223
-SY   FER and CIP4 homology.
-FT   DOMAIN.
-TG   PS50133; FCH;
-DO   PDOC50133;
-//
 ID   FCP1 homology.
 AC   DO-00224
 FT   DOMAIN.
@@ -1794,13 +1782,6 @@ FT   DOMAIN.
 TG   PS50038; FZ;
 DO   PDOC50038;
 //
-ID   G.
-AC   DO-00766
-SY   guanine nucleotide-binding.
-FT   DOMAIN.
-TG   PF01926; MMR_HSR1;
-DO   IPR006073;
-//
 ID   G protein gamma.
 AC   DO-00255
 FT   DOMAIN.
@@ -1882,12 +1863,6 @@ AC   DO-00264
 FT   DNA_BIND.
 TG   PS50807; GCM;
 DO   PDOC50807;
-//
-ID   GDPD.
-AC   DO-00265
-FT   DOMAIN.
-TG   PF03009; GDPD;
-DO   IPR004129;
 //
 ID   GED.
 AC   DO-00266
@@ -2119,12 +2094,6 @@ FT   DOMAIN.
 TG   PS51194; HELICASE_CTER;
 DO   PDOC51192;
 //
-ID   helix-loop-helix.
-AC   DO-00298
-SY   helix-loop-helix motif.
-FT   DOMAIN.
-TG   None;
-//
 ID   hemopexin.
 AC   DO-00299
 FT   REPEAT.
@@ -2222,11 +2191,6 @@ AC   DO-00312
 FT   DNA_BIND.
 TG   PS50071; HOMEOBOX_2;
 DO   PDOC00027;
-//
-ID   homo B/P.
-AC   DO-00313
-FT   DOMAIN.
-TG   None;
 //
 ID   HORMA.
 AC   DO-00314
@@ -2684,11 +2648,6 @@ SY   Letm1 ribosome-binding.
 FT   DOMAIN.
 TG   PS51758; LETM1_RBD;
 DO   PDOC51758;
-//
-ID   Leucine-zipper.
-AC   DO-00379
-FT   DOMAIN.
-TG   None;
 //
 ID   LIM zinc-binding.
 AC   DO-00380
@@ -4093,11 +4052,6 @@ FT   DOMAIN.
 TG   PF02197; RIIa;
 DO   IPR003117;
 //
-ID   RILP-like.
-AC   DO-00572
-FT   DOMAIN.
-TG   None;
-//
 ID   RING-type.
 AC   DO-00573
 SY   C3HC4-type.
@@ -4947,14 +4901,6 @@ SY   TSPC.
 FT   DOMAIN.
 TG   PS51236; TSP_CTER;
 DO   PDOC51236;
-//
-ID   TSP N-terminal.
-AC   DO-00686
-SY   thrombospondin N-terminal.
-SY   TSPN.
-FT   DOMAIN.
-TG   PF02210; TSP_N;
-DO   IPR001791;
 //
 ID   TSP type-1.
 AC   DO-00687
