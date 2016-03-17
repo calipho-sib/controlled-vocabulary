@@ -18,7 +18,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0105
+next id:  CVDS-0108
 
 __________________________________________________________________________
 ID   AgBase
@@ -81,6 +81,11 @@ ID   dbSNP
 AC   CVDS-0052
 DE   Short genetic variations database
 DR   www.ncbi.nlm.nih.gov/SNP/
+//
+ID   DrugBank
+AC   CVDS-0107
+DE   Drug and drug target database
+DR   http://www.drugbank.ca/
 //
 ID   Dyp
 AC   CVDS-0022
@@ -242,6 +247,11 @@ ID   OBO
 AC   CVDS-0037
 DE   OBO supports community members who are developing and publishing ontologies in the biomedical domain.
 DR   http://obofoundry.org/
+//
+ID   Orphanet
+AC   CVDS-0106
+DE   Orphanet; a database dedicated to information on rare diseases and orphan drugs
+DR   http://www.orpha.net/consor/cgi-bin/home.php?Lng=GB
 //
 ID   ParkinsonsUK-UCL
 AC   CVDS-0076
@@ -496,6 +506,11 @@ ID   PubMed
 AC   CVDS-0004
 DE   Information imported from PubMed
 DR
+//
+ID   Reactome
+AC   CVDS-0105
+DE   Reactome - a knowledgebase of biological pathways and processes
+DR   http://www.reactome.org/
 //
 ID   RefGenome
 AC   CVDS-0049
