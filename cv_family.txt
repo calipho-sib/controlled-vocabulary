@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 23-Nov-2015
+Last update: 18-Apr-2016
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 23-Nov-2015
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05351
+AN   Next free AC: FA-05370
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -1879,6 +1879,11 @@ AC   FA-00458
 ID   Carbohydrate kinase pfkB family
 AC   FA-00460
 //
+ID   Ribokinase subfamily
+AC   FA-05366
+SY   Carbohydrate kinase PfkB family. Ribokinase subfamily.
+HI   FA-00460; Carbohydrate kinase pfkB family
+//
 ID   CARF family
 AC   FA-00461
 //
@@ -2284,6 +2289,9 @@ AC   FA-05188
 ID   CEP85 family
 AC   FA-04894
 SY   CCDC21 family.
+//
+ID   CFAP100 family
+AC   FA-05365
 //
 ID   CFAP20 family
 AC   FA-04394
@@ -4280,6 +4288,9 @@ AC   FA-05180
 SY   CCDC164 family.
 SY   UPF0407 family.
 //
+ID   DRC3 family
+AC   FA-05358
+//
 ID   DRC7 family
 AC   FA-04954
 SY   CCDC135 family.
@@ -4550,6 +4561,41 @@ AC   FA-01092
 //
 ID   ELO family
 AC   FA-01093
+//
+ID   ELOVL1 subfamily
+AC   FA-05351
+SY   ELO family. ELOVL1 subfamily.
+HI   FA-01093; ELO family
+//
+ID   ELOVL2 subfamily
+AC   FA-05352
+SY   ELO family. ELOVL2 subfamily.
+HI   FA-01093; ELO family
+//
+ID   ELOVL3 subfamily
+AC   FA-05353
+SY   ELO family. ELOVL3 subfamily.
+HI   FA-01093; ELO family
+//
+ID   ELOVL4 subfamily
+AC   FA-05354
+SY   ELO family. ELOVL4 subfamily.
+HI   FA-01093; ELO family
+//
+ID   ELOVL5 subfamily
+AC   FA-05355
+SY   ELO family. ELOVL5 subfamily.
+HI   FA-01093; ELO family
+//
+ID   ELOVL6 subfamily
+AC   FA-05356
+SY   ELO family. ELOVL6 subfamily.
+HI   FA-01093; ELO family
+//
+ID   ELOVL7 subfamily
+AC   FA-05357
+SY   ELO family. ELOVL7 subfamily.
+HI   FA-01093; ELO family
 //
 ID   ELOF1 family
 AC   FA-01094
@@ -5180,6 +5226,10 @@ ID   FAM231 family
 AC   FA-05247
 SY   UPF0627 family.
 //
+ID   FAM234 family
+AC   FA-01923
+SY   ITFG3 family.
+//
 ID   FAM24 family
 AC   FA-01277
 //
@@ -5243,9 +5293,6 @@ AC   FA-01306
 ID   FAM72 family
 AC   FA-01307
 //
-ID   FAM73 family
-AC   FA-01308
-//
 ID   FAM74 family
 AC   FA-01309
 //
@@ -5301,13 +5348,13 @@ AC   FA-01327
 ID   FAST protein kinase family
 AC   FA-01328
 //
-ID   Fatty acid desaturase family
+ID   Fatty acid desaturase type 1 family
 AC   FA-01330
 //
 ID   DEGS subfamily
 AC   FA-01331
-SY   Fatty acid desaturase family. DEGS subfamily.
-HI   FA-01330; Fatty acid desaturase family
+SY   Fatty acid desaturase type 1 family. DEGS subfamily.
+HI   FA-01330; Fatty acid desaturase type 1 family
 //
 ID   Fatty acyl-CoA reductase family
 AC   FA-01332
@@ -5459,6 +5506,9 @@ ID   FIG1 subfamily
 AC   FA-01366
 SY   Flavin monoamine oxidase family. FIG1 subfamily.
 HI   FA-01365; Flavin monoamine oxidase family
+//
+ID   Flavodoxin family
+AC   FA-05359
 //
 ID   Flavoprotein pyridine nucleotide cytochrome reductase family
 AC   FA-01367
@@ -7524,9 +7574,6 @@ AC   FA-01921
 ID   ISY1 family
 AC   FA-01922
 //
-ID   ITFG3 family
-AC   FA-01923
-//
 ID   ITIH family
 AC   FA-01924
 //
@@ -8371,6 +8418,9 @@ AC   FA-02146
 ID   MAGUK family
 AC   FA-02147
 //
+ID   MAJIN family
+AC   FA-05360
+//
 ID   Major facilitator superfamily
 AC   FA-02148
 SY   Major facilitator (TC 2.A.1) superfamily.
@@ -8804,6 +8854,13 @@ HI   FA-02257; Methylthiotransferase family
 ID   Methyltransferase superfamily
 AC   FA-02260
 //
+ID   ETFBKMT family
+AC   FA-04857
+SY   Methyltransferase superfamily. ETFBKMT family.
+SY   METTL20 family.
+SY   UPF0516 family.
+HI   FA-02260; Methyltransferase superfamily
+//
 ID   Fibrillarin family
 AC   FA-02263
 SY   Methyltransferase superfamily. Fibrillarin family.
@@ -8840,12 +8897,6 @@ ID   METTL18 family
 AC   FA-04856
 SY   Methyltransferase superfamily. METTL18 family.
 SY   UPF0558 family.
-HI   FA-02260; Methyltransferase superfamily
-//
-ID   METTL20 family
-AC   FA-04857
-SY   Methyltransferase superfamily. METTL20 family.
-SY   UPF0516 family.
 HI   FA-02260; Methyltransferase superfamily
 //
 ID   METTL21 family
@@ -9004,14 +9055,6 @@ AC   FA-02303
 ID   MIG6 family
 AC   FA-02304
 //
-ID   MINA53/NO66 family
-AC   FA-02305
-//
-ID   NO66 subfamily
-AC   FA-02306
-SY   MINA53/NO66 family. NO66 subfamily.
-HI   FA-02305; MINA53/NO66 family
-//
 ID   MIP/aquaporin (TC 1.A.8) family
 AC   FA-02307
 DR   TC 1.A.8
@@ -9059,6 +9102,10 @@ DR   TC 2.A.105
 //
 ID   Mitochondrial Rho GTPase family
 AC   FA-02317
+//
+ID   Mitoguardin family
+AC   FA-01308
+SY   FAM73 family.
 //
 ID   MLF family
 AC   FA-02319
@@ -9391,6 +9438,9 @@ AC   FA-02408
 //
 ID   NadC/ModD family
 AC   FA-02409
+//
+ID   NADPH--cytochrome P450 reductase family
+AC   FA-05367
 //
 ID   NADP-dependent oxidoreductase L4BD family
 AC   FA-02410
@@ -9981,8 +10031,9 @@ AC   FA-02566
 ID   NUP54 family
 AC   FA-02567
 //
-ID   NUPL1 family
+ID   NUP58 family
 AC   FA-02568
+SY   NUPL1 family.
 //
 ID   NUPR family
 AC   FA-05078
@@ -10959,6 +11010,16 @@ AC   FA-02830
 ID   Phosphatidylserine decarboxylase family
 AC   FA-02831
 //
+ID   PSD-B subfamily
+AC   FA-05368
+SY   Phosphatidylserine decarboxylase family. PSD-B subfamily.
+HI   FA-02831; Phosphatidylserine decarboxylase family
+//
+ID   Eukaryotic type I sub-subfamily.
+AC   FA-05369
+SY   Phosphatidylserine decarboxylase family. PSD-B subfamily. Eukaryotic type I sub-subfamily.
+HI   FA-05368; PSD-B subfamily
+//
 ID   Phosphoenolpyruvate carboxykinase [GTP] family
 AC   FA-02832
 //
@@ -11065,9 +11126,6 @@ HI   FA-02852; PI3/PI4-kinase family
 //
 ID   PI3K p85 subunit family
 AC   FA-02857
-//
-ID   Pianissimo family
-AC   FA-02858
 //
 ID   PIAS family
 AC   FA-02859
@@ -12516,6 +12574,10 @@ AC   FA-03198
 ID   PX domain-containing GAP family
 AC   FA-03199
 //
+ID   Pym family
+AC   FA-04685
+SY   Wibg family.
+//
 ID   Pyridoxamine 5'-phosphate oxidase family
 AC   FA-03200
 //
@@ -13145,6 +13207,10 @@ AC   FA-03391
 ID   RIC1 family
 AC   FA-03392
 //
+ID   RICTOR family
+AC   FA-02858
+SY   Pianissimo family.
+//
 ID   RILPL family
 AC   FA-03393
 SY   UPF0475 family.
@@ -13197,6 +13263,15 @@ AC   FA-03406
 SY   RNA 3'-terminal cyclase family. Type 2 subfamily.
 SY   Type 2 subfamily.
 HI   FA-03404; RNA 3'-terminal cyclase family
+//
+ID   RNA cytidine acetyltransferase family
+AC   FA-05368
+//
+ID   NAT10 subfamily
+AC   FA-04329
+SY   RNA cytidine acetyltransferase family. NAT10 subfamily.
+SY   UPF0202 family.
+HI   FA-05368; RNA cytidine acetyltransferase family
 //
 ID   RNA polymerase beta chain family
 AC   FA-03411
@@ -13292,6 +13367,19 @@ AC   FA-03435
 //
 ID   Round spermatid basic protein 1 family
 AC   FA-03436
+//
+ID   ROX family
+AC   FA-02305
+//
+ID   MINA53 subfamily
+AC   FA-05364
+SY   ROX family. MINA53 subfamily.
+HI   FA-02305; ROX family
+//
+ID   NO66 subfamily
+AC   FA-02306
+SY   ROX family. NO66 subfamily.
+HI   FA-02305; ROX family
 //
 ID   RPAP1 family
 AC   FA-03437
@@ -13448,6 +13536,10 @@ AC   FA-03475
 ID   Ryanodine receptor (TC 1.A.3.1) family
 AC   FA-03476
 DR   TC 1.A.3.1
+//
+ID   RyDEN family
+AC   FA-04414
+SY   UPF0515 family.
 //
 ID   RYR1 subfamily
 AC   FA-03477
@@ -15346,6 +15438,9 @@ ID   TERB1 family
 AC   FA-05269
 SY   CCDC79 family.
 //
+ID   TERB2 family
+AC   FA-05363
+//
 ID   Terpene cyclase/mutase family
 AC   FA-03966
 //
@@ -15360,6 +15455,12 @@ AC   FA-03968
 //
 ID   Tetraspanin (TM4SF) family
 AC   FA-03969
+//
+ID   TEX13 family
+AC   FA-05361
+//
+ID   TEX15 family
+AC   FA-05362
 //
 ID   TEX28 family
 AC   FA-03970
@@ -16948,8 +17049,6 @@ AC   FA-04325
 ID   UPF0193 (EVG1) family
 AC   FA-04326
 //
-ID   UPF0202 family
-AC   FA-04329
 //
 ID   UPF0220 family
 AC   FA-04331
@@ -17037,9 +17136,6 @@ AC   FA-04410
 //
 ID   UPF0505 family
 AC   FA-04412
-//
-ID   UPF0515 family
-AC   FA-04414
 //
 ID   UPF0518 family
 AC   FA-04416
@@ -17760,9 +17856,6 @@ AC   FA-04788
 //
 ID   WFIKKN family
 AC   FA-04684
-//
-ID   Wibg family
-AC   FA-04685
 //
 ID   Wnt family
 AC   FA-04686

@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 16-Mar-2016
+Last update: 18-Apr-2016
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 16-Mar-2016
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00880
+AN   Next free AC: DO-00890
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -425,6 +425,12 @@ AC   DO-00059
 FT   DOMAIN.
 TG   PS50197; BEACH;
 DO   PDOC50197;
+//
+ID   BEACH-type PH.
+AC   DO-00884
+FT   DOMAIN.
+TG   PS51783; PH_BEACH;
+DO   PDOC51783;
 //
 ID   BED-type.
 AC   DO-00060
@@ -953,6 +959,12 @@ AC   DO-00135
 FT   DOMAIN.
 TG   PS51140; CUE;
 DO   PDOC51140;
+//
+ID   CULT.
+AC   DO-00881
+FT   DOMAIN.
+TG   PS51788; CULT;
+DO   PDOC51788;
 //
 ID   CUT.
 AC   DO-00136
@@ -1513,7 +1525,7 @@ ID   F-BAR.
 AC   DO-00865
 FT   DOMAIN.
 TG   PS51741; F_BAR;
-DO   PDOC51741
+DO   PDOC51741;
 //
 ID   F-box.
 AC   DO-00213
@@ -2232,6 +2244,12 @@ FT   DOMAIN.
 TG   PS51204; HSA;
 DO   PDOC51204;
 //
+ID   hSac2.
+AC   DO-00886
+FT   DOMAIN.
+TG   PS51791; HSAC2;
+DO   PDOC51791;
+//
 ID   HSR.
 AC   DO-00319
 FT   DOMAIN.
@@ -2687,11 +2705,17 @@ FT   REPEAT.
 TG   PS50258; LNR;
 DO   PDOC50258;
 //
-ID   Lon.
-AC   DO-00386
+ID   Lon N-terminal
+AC   DO-00882
 FT   DOMAIN.
-TG   PF02190; LON;
-DO   IPR003111;
+TG   PS51787; LON_N;
+DO   PDOC51787;
+//
+ID   Lon proteolytic.
+AC   DO-00883
+FT   DOMAIN.
+TG   PS51786; LON_PROTEOLYTIC;
+DO   PDOC51786;
 //
 ID   longin.
 AC   DO-00387
@@ -2903,6 +2927,12 @@ FT   DOMAIN.
 TG   PS51423; MIRO;
 DO   PDOC51417;
 //
+ID   Mis18
+AC   DO-00888
+FT   DOMAIN.
+TG   PS51793; MIS18;
+DI   PDOC51793;
+//
 ID   MIT.
 AC   DO-00416
 FT   DOMAIN.
@@ -2946,6 +2976,13 @@ AC   DO-00421
 FT   DOMAIN.
 TG   PS50202; MSP;
 DO   PDOC50202;
+//
+ID   MsrB
+AC   DO-00887
+SY   Methionine-R-sulfoxide reductase.
+FT   DOMAIN.
+TG   PS51790; MSRB;
+DO   PDOC51790;
 //
 ID   MtN3/slv.
 AC   DO-00772
@@ -3126,6 +3163,12 @@ ID   NSE1-type.
 AC   DO-00447
 FT   ZN_FING.
 TG   None;
+//
+ID   NT-C2
+AC   DO-00889
+FT   DOMAIN.
+TG   PF10358; NT-C2;
+DO   IPR019448;
 //
 ID   NtA.
 AC   DO-00448
@@ -4075,6 +4118,13 @@ ID   RIP-type.
 AC   DO-00576
 FT   ZN_FING.
 TG   None;
+//
+ID   RLR CTR.
+AC   DO-00885
+SY   RIG-I-like receptor C-terminal regulatory.
+FT   DOMAIN.
+TG   PS51789; RLR_CTR;
+DO   PDOC51789;
 //
 ID   RMT2.
 AC   DO-00803
@@ -5252,6 +5302,12 @@ AC   DO-00733
 FT   DOMAIN.
 TG   PS51037; YEATS;
 DO   PDOC51037;
+//
+ID   Yippee.
+AC   DO-00880
+FT   DOMAIN.
+TG   PS51792; YIPPEE;
+DO   PDOC51792;
 //
 ID   YjeF C-terminal.
 AC   DO-00734
