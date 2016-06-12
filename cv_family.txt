@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 18-Apr-2016
+Last update: 12-Jun-2016
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 18-Apr-2016
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05370
+AN   Next free AC: FA-05375
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -838,6 +838,20 @@ HI   FA-00172; Amiloride-sensitive sodium channel (TC 1.A.6) family
 //
 ID   Amino acid-polyamine-organocation (APC) superfamily
 AC   FA-00182
+//
+ID   Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family
+SY   Sodium/potassium/calcium exchanger family.
+AC   FA-03737
+//
+ID   SLC24A subfamily
+AC   FA-03738
+SY   Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family. SLC24A subfamily.
+HI   FA-03737; Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family
+//
+ID   SLC8 subfamily
+AC   FA-03739
+SY   Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family. SLC8 subfamily.
+HI   FA-03737; Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family
 //
 ID   Cationic amino acid transporter (CAT) (TC 2.A.3.3) family
 AC   FA-00183
@@ -4059,6 +4073,46 @@ SY   UPF0672 family.
 //
 ID   Diacylglycerol acyltransferase family
 AC   FA-00949
+//
+ID   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+AC   FA-03741
+SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family.
+DR   TC 2.A.23
+//
+ID   SLC1A1 subfamily
+AC   FA-03742
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A1 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+//
+ID   SLC1A2 subfamily
+AC   FA-03743
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A2 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+//
+ID   SLC1A3 subfamily
+AC   FA-03744
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A3 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+//
+ID   SLC1A4 subfamily
+AC   FA-03745
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A4 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+//
+ID   SLC1A5 subfamily
+AC   FA-03746
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A5 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+//
+ID   SLC1A6 subfamily
+AC   FA-03747
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A6 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
+//
+ID   SLC1A7 subfamily
+AC   FA-03748
+SY   Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family. SLC1A7 subfamily.
+HI   FA-03741; Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family
 //
 ID   Dickkopf family
 AC   FA-00950
@@ -8808,6 +8862,10 @@ AC   FA-02248
 SY   Metallophosphoesterase superfamily. LOC643853 family.
 HI   FA-02246; Metallophosphoesterase superfamily
 //
+ID   LovG family
+AC   FA-04401
+SY   UPF0483 (OVCA2) family.
+//
 ID   MPPE1 family
 AC   FA-02249
 SY   Metallophosphoesterase superfamily. MPPE1 family.
@@ -11015,7 +11073,7 @@ AC   FA-05368
 SY   Phosphatidylserine decarboxylase family. PSD-B subfamily.
 HI   FA-02831; Phosphatidylserine decarboxylase family
 //
-ID   Eukaryotic type I sub-subfamily.
+ID   Eukaryotic type I sub-subfamily
 AC   FA-05369
 SY   Phosphatidylserine decarboxylase family. PSD-B subfamily. Eukaryotic type I sub-subfamily.
 HI   FA-05368; PSD-B subfamily
@@ -12779,6 +12837,14 @@ AC   FA-03253
 SY   RecA family. RAD51 subfamily.
 HI   FA-03251; RecA family
 //
+ID   RecD family
+AC   FA-05373
+//
+ID   HELB subfamily
+AC   FA-05374
+SY   RecD family. HELB subfamily.
+HI   FA-05373; RecD family
+//
 ID   Receptors of complement activation (RCA) family
 AC   FA-03254
 //
@@ -13666,6 +13732,9 @@ AC   FA-03512
 //
 ID   SCF family
 AC   FA-03513
+//
+ID   SCHIP1 family
+AC   FA-05371
 //
 ID   Schlafen family
 AC   FA-03514
@@ -14558,58 +14627,6 @@ ID   Sodium channel auxiliary subunit SCN4B (TC 8.A.17) family
 AC   FA-03736
 DR   TC 8.A.17
 //
-ID   Sodium/potassium/calcium exchanger family
-AC   FA-03737
-//
-ID   SLC24A subfamily
-AC   FA-03738
-SY   Sodium/potassium/calcium exchanger family. SLC24A subfamily.
-HI   FA-03737; Sodium/potassium/calcium exchanger family
-//
-ID   SLC8 subfamily
-AC   FA-03739
-SY   Sodium/potassium/calcium exchanger family. SLC8 subfamily.
-HI   FA-03737; Sodium/potassium/calcium exchanger family
-//
-ID   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-AC   FA-03741
-DR   TC 2.A.23
-//
-ID   SLC1A1 subfamily
-AC   FA-03742
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A1 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
-ID   SLC1A2 subfamily
-AC   FA-03743
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A2 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
-ID   SLC1A3 subfamily
-AC   FA-03744
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A3 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
-ID   SLC1A4 subfamily
-AC   FA-03745
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A4 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
-ID   SLC1A5 subfamily
-AC   FA-03746
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A5 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
-ID   SLC1A6 subfamily
-AC   FA-03747
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A6 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
-ID   SLC1A7 subfamily
-AC   FA-03748
-SY   Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family. SLC1A7 subfamily.
-HI   FA-03741; Sodium:dicarboxylate (SDF) symporter (TC 2.A.23) family
-//
 ID   Sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
 AC   FA-03749
 DR   TC 2.A.22
@@ -14756,6 +14773,9 @@ AC   FA-04985
 //
 ID   Sp1 C2H2-type zinc-finger protein family
 AC   FA-03784
+//
+ID   SPAG8 family
+AC   FA-05370
 //
 ID   SPAG11 family
 AC   FA-03785
@@ -16049,6 +16069,9 @@ AC   FA-04809
 ID   TOP6A family
 AC   FA-04132
 //
+ID   TOP6B-like family
+AC   FA-05372
+//
 ID   TOR1AIP family
 AC   FA-04133
 //
@@ -17121,9 +17144,6 @@ AC   FA-04395
 //
 ID   UPF0472 family
 AC   FA-04398
-//
-ID   UPF0483 (OVCA2) family
-AC   FA-04401
 //
 ID   UPF0488 family
 AC   FA-04404

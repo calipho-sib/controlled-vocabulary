@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 18-Apr-2016
+Last update: 12-Jun-2016
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 18-Apr-2016
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00890
+AN   Next free AC: DO-00891
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -2705,7 +2705,7 @@ FT   REPEAT.
 TG   PS50258; LNR;
 DO   PDOC50258;
 //
-ID   Lon N-terminal
+ID   Lon N-terminal.
 AC   DO-00882
 FT   DOMAIN.
 TG   PS51787; LON_N;
@@ -2927,7 +2927,7 @@ FT   DOMAIN.
 TG   PS51423; MIRO;
 DO   PDOC51417;
 //
-ID   Mis18
+ID   Mis18.
 AC   DO-00888
 FT   DOMAIN.
 TG   PS51793; MIS18;
@@ -2977,12 +2977,18 @@ FT   DOMAIN.
 TG   PS50202; MSP;
 DO   PDOC50202;
 //
-ID   MsrB
+ID   MsrB.
 AC   DO-00887
 SY   Methionine-R-sulfoxide reductase.
 FT   DOMAIN.
 TG   PS51790; MSRB;
 DO   PDOC51790;
+//
+ID   MSS4.
+AC   DO-00890
+FT   DOMAIN.
+TG   PS51796; MSS4;
+DO   PDOC51796;
 //
 ID   MtN3/slv.
 AC   DO-00772
@@ -3164,7 +3170,7 @@ AC   DO-00447
 FT   ZN_FING.
 TG   None;
 //
-ID   NT-C2
+ID   NT-C2.
 AC   DO-00889
 FT   DOMAIN.
 TG   PF10358; NT-C2;
