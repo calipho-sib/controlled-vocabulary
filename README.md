@@ -4,7 +4,10 @@ This is a code repository for the SIB - Swiss Institute of Bioinformatics CALIPH
 
 See: http://www.nextprot.org/
 
-# Controlled-vocabularies
+# Controlled vocabularies
 
 In house developed controlled vocabularies used in neXtProt.
-Note: the Cellosaurus is in its own GitHub directory: https://github.com/calipho-sib/cellosaurus
+
+Notes: 
+- The Cellosaurus is in its own GitHub directory: https://github.com/calipho-sib/cellosaurus
+- CALOHA our tissue/organs ontology is currently not in GitHub
