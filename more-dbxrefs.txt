@@ -771,3 +771,11 @@ LinkTp: Explicit
 Server: http://www.cancerrxgene.org/
 Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
 Cat   : Cell line databases/resources
+
+AC    : DB-9102
+Abbrev: PIRNR
+Name  : PIR Name Rule
+LinkTp: Explicit
+Server: http://www.uniprot.org/
+Db_URL: http://www.uniprot.org/unirule/%s
+Cat   : Other
