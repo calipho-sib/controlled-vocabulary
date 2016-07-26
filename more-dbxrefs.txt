@@ -779,3 +779,69 @@ LinkTp: Explicit
 Server: http://www.uniprot.org/
 Db_URL: http://www.uniprot.org/unirule/%s
 Cat   : Other
+
+AC    : DB-9103
+Abbrev: BCGO
+Name  : Beta Cell Genomics Ontology
+LinkTp: Explicit
+Server: https://github.com/obi-bcgo/bcgo
+Db_URL: http://purl.obolibrary.org/obo/%s
+Cat   : Ontologies
+
+AC    : DB-9104
+Abbrev: CLS
+Name  : Cell Lines Service
+LinkTp: Explicit
+Server: http://www.clsgmbh.de
+Db_URL: http://www.clsgmbh.de/%s.html
+        Note: %s is the value after the slash "/" in the DR line.
+        Example: for "DR   CLS; 400294/p2677_MSC-P5": %s=p2677_MSC-P5
+Cat   : Cell line collections
+
+AC    : DB-9105
+Abbrev: EBiSC
+Name  : European Bank for induced pluripotent Stem Cells
+LinkTp: Explicit
+Server: http://www.ebisc.org/
+Db_URL: https://cells.ebisc.org/%s
+Cat   : Cell line collections
+
+AC    : DB-9106
+Abbrev: GEO
+Name  : Gene Expression Omnibus
+LinkTp: Explicit
+Server: http://www.ncbi.nlm.nih.gov/geo/
+Db_URL: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
+Cat   : Other resources
+
+AC    : DB-9107
+Abbrev: HipSci
+Name  : Human Induced Pluripotent Stem Cells Initiative
+LinkTp: Explicit
+Server: http://www.hipsci.org/
+Db_URL: http://www.hipsci.org/lines/#/lines/%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9108
+Abbrev: KCB
+Name  : Kunming Cell Bank of Type Culture Collection
+LinkTp: Explicit
+Server: http://kcb.kiz.cas.cn/
+Db_URL: None
+Cat   : Cell line collections
+
+AC    : DB-9109
+Abbrev: NCBI_Iran
+Name  : National Cell Bank of Iran
+LinkTp: Explicit
+Server: http://en.pasteur.ac.ir/pages.aspx?id=823
+Db_URL: None
+Cat   : Cell line collections
+
+AC    : DB-9110
+Abbrev: TCB
+Name  : Tick Cell Biobank
+LinkTp: Explicit
+Server: http://www.pirbright.ac.uk/tick-cell-lines
+Db_URL: http://www.pirbright.ac.uk/node/%s
+Cat   : Cell line collections
