@@ -810,7 +810,7 @@ Name  : Gene Expression Omnibus
 LinkTp: Explicit
 Server: http://www.ncbi.nlm.nih.gov/geo/
 Db_URL: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
-Cat   : Other resources
+Cat   : Other
 
 AC    : DB-9107
 Abbrev: HipSci
