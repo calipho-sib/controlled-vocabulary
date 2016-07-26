@@ -794,8 +794,6 @@ Name  : Cell Lines Service
 LinkTp: Explicit
 Server: http://www.clsgmbh.de
 Db_URL: http://www.clsgmbh.de/%s.html
-        Note: %s is the value after the slash "/" in the DR line.
-        Example: for "DR   CLS; 400294/p2677_MSC-P5": %s=p2677_MSC-P5
 Cat   : Cell line collections
 
 AC    : DB-9105
