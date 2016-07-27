@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0096
+next id:  CVDR-0097
 
 __________________________________________________________________________
 ID   Additional references
@@ -354,7 +354,7 @@ AC   CVDR-0095
 DE   Control vocabulary for mammalian phenotype.
 DS   MGI
 DR   ftp://ftp.informatics.jax.org/pub/reports/MPheno_OBO.ontology
-UF   monthly, linked to annotations from bioeditor update
+UF   monthly, linked to bioeditor annotations update
 UR
 CI
 //
@@ -486,12 +486,21 @@ UF   monthly, linked to uniprot update
 UR
 CI
 //
+ID   neXtProt modification effect
+AC   CVDR-0096
+DE   Control vocabulary for the modification effect
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/bioeditor/_tech_docs/be_tech_note_18_modification_effect.obo
+UF   monthly, linked to bioeditor annotations update
+UR
+CI
+//
 ID   neXtProt protein property
 AC   CVDR-0094
 DE   Control vocabulary for the protein properties
 DS   NextProt
 DR   freud.isb-sib.ch:/share/sib/common/Calipho/bioeditor/_tech_docs/be_tech_note_17_protein_property.obo
-UF   monthly, linked to annotations from bioeditor update
+UF   monthly, linked to bioeditor annotations update
 UR
 CI
 //
