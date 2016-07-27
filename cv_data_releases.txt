@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     07-Dec-2015
+  Release:     27-Jul-2016
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0094
+next id:  CVDR-0096
 
 __________________________________________________________________________
 ID   Additional references
@@ -349,6 +349,15 @@ UF   once
 UR
 CI
 //
+ID   Mammalian Phenotype
+AC   CVDR-0095
+DE   Control vocabulary for mammalian phenotype.
+DS   MGI
+DR   ftp://ftp.informatics.jax.org/pub/reports/MPheno_OBO.ontology
+UF   monthly, linked to annotations from bioeditor update
+UR
+CI
+//
 ID   MDATA_0004_2011
 AC   CVDR-0048
 DE   Proteomics data (peptides) extracted from direct submission
@@ -474,6 +483,15 @@ DE   Control vocabulary for the protein families
 DS   NextProt
 DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/cv_family.txt
 UF   monthly, linked to uniprot update
+UR
+CI
+//
+ID   neXtProt protein property
+AC   CVDR-0094
+DE   Control vocabulary for the protein properties
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/bioeditor/_tech_docs/be_tech_note_17_protein_property.obo
+UF   monthly, linked to annotations from bioeditor update
 UR
 CI
 //

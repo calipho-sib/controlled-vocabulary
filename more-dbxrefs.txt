@@ -843,3 +843,19 @@ LinkTp: Explicit
 Server: http://www.pirbright.ac.uk/tick-cell-lines
 Db_URL: http://www.pirbright.ac.uk/node/%s
 Cat   : Cell line collections
+
+AC    : DB-9111
+Abbrev: Mammalian Phenotype
+Name  : Mammalian Phenotype Vocabulary
+LinkTp: Explicit
+Server: http://www.informatics.jax.org/
+Db_URL: http://www.informatics.jax.org/searches/Phat.cgi?id=%s
+Cat   : Ontologies
+
+AC    : DB-9112
+Abbrev: VariO
+Name  : Variation ontology
+LinkTp: Explicit
+Server: http://variationontology.org/
+Db_URL: http://www.variationontology.org/cgi-bin/amivario/term-details.cgi?term=%s
+Cat   : Ontologies
