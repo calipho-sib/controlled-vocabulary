@@ -1,0 +1,52 @@
+format-version: 1.2
+date: 27:07:2016 15:10
+saved-by: pgaudet
+auto-generated-by: OBO-Edit 2.1.1-beta6
+default-namespace: ME
+
+[Term]
+id: ME:0000001
+name: modification effect
+def: "Ontology that describes biophysical properties of proteins, such as stability." [NP:PG]
+created_by: pgaudet
+creation_date: 2016-07-27T03:01:06Z
+
+[Term]
+id: ME:0000002
+name: impact
+def: "Relation that indicates that the modification causes a change on an observed parameter." [NP:PG]
+is_a: ME:0000001 ! modification effect
+created_by: pgaudet
+creation_date: 2016-07-27T03:03:44Z
+
+[Term]
+id: ME:0000003
+name: no impact
+def: "Relation that indicates that the modification does not cause a change on an observed parameter." [NP:PG]
+is_a: ME:0000001 ! modification effect
+created_by: pgaudet
+creation_date: 2016-07-27T03:04:59Z
+
+[Term]
+id: ME:0000004
+name: decrease
+def: "Relation that indicates that the modification causes a change on an observed parameter, by which the parameter is less important than that observed for the control." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2016-07-27T03:05:41Z
+
+[Term]
+id: ME:0000005
+name: increase
+def: "Relation that indicates that the modification causes a change on an observed parameter, by which the parameter is more important or of higher amplitude than that observed for the control." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2016-07-27T03:07:07Z
+
+[Term]
+id: ME:0000006
+name: gain
+def: "Relation that indicates that the modification causes a change on an observed parameter, which was not present in the control." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2016-07-27T03:07:43Z
