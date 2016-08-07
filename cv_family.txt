@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 12-Jun-2016
+Last update: 07-Aug-2016
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 12-Jun-2016
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05375
+AN   Next free AC: FA-05376
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -13331,7 +13331,7 @@ SY   Type 2 subfamily.
 HI   FA-03404; RNA 3'-terminal cyclase family
 //
 ID   RNA cytidine acetyltransferase family
-AC   FA-05368
+AC   FA-05375
 //
 ID   NAT10 subfamily
 AC   FA-04329
