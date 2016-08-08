@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 07-Aug-2016
+Last update: 08-Aug-2016
 
 ----------------------------------------------------------------------------
 
@@ -13337,7 +13337,7 @@ ID   NAT10 subfamily
 AC   FA-04329
 SY   RNA cytidine acetyltransferase family. NAT10 subfamily.
 SY   UPF0202 family.
-HI   FA-05368; RNA cytidine acetyltransferase family
+HI   FA-05375; RNA cytidine acetyltransferase family
 //
 ID   RNA polymerase beta chain family
 AC   FA-03411
