@@ -7,7 +7,7 @@ default-namespace: ME
 [Term]
 id: ME:0000001
 name: modification effect
-def: "Ontology that describes biophysical properties of proteins, such as stability." [NP:PG]
+def: "Ontology that describes changes on function, property, localization, etc., following a modification (PTM, variation, etc)." [NP:PG]
 created_by: pgaudet
 creation_date: 2016-07-27T03:01:06Z
 
