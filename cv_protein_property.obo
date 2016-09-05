@@ -1,0 +1,39 @@
+format-version: 1.2
+data-version: 1.002
+date: 27:06:2016 12:18
+saved-by: pgaudet
+default-namespace: PP
+ontology: PROTEIN_PROPERTY
+
+! BioEditor annotation tech note 17
+! Next free temporary UID: PP:000005
+
+! MODEL
+! id: PP:000001
+! name: name
+! def: "pouet pouet tra la la"
+! xref: VariO:nnnn
+
+[Term]
+id: PP:0001
+name: protein abundance
+def: "The steady-state level of a protein in the cell."
+xref: VariO:0052
+
+[Term]
+id: PP:0002
+name: protein degradation
+def: "Rate at which a protein is eliminated from the cell, either via the proteasome or by proteases."
+xref: VariO:0051
+
+[Term]
+id: PP:0003
+name: mRNA abundance
+def: "The steady-state level of an mRNA in the cell."
+xref: VariO:0010
+
+[Term]
+id: PP:0004
+name: mRNA degradation
+def: "Rate at which an mRNA is eliminated from the cell."
+xref: VariO:0344
