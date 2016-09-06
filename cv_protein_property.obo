@@ -5,15 +5,6 @@ saved-by: pgaudet
 default-namespace: PP
 ontology: PROTEIN_PROPERTY
 
-! BioEditor annotation tech note 17
-! Next free temporary UID: PP:000005
-
-! MODEL
-! id: PP:000001
-! name: name
-! def: "pouet pouet tra la la"
-! xref: VariO:nnnn
-
 [Term]
 id: PP:0001
 name: protein abundance
