@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 12-Jun-2016
+Last update: 24-Oct-2016
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 12-Jun-2016
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00891
+AN   Next free AC: DO-00905
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -67,6 +67,13 @@ AC   DO-00006
 FT   ZN_FING.
 TG   PS51036; ZF_A20;
 DO   PDOC51036;
+//
+ID   AB hydrolase-1.
+AC   DO-00903
+SY   Alpha/Beta hydrolase fold 1.
+FT   DOMAIN.
+TG   PF00561; Abhydrolase_1;
+DO   IPR000073;
 //
 ID   ABC transmembrane type-1.
 AC   DO-00007
@@ -608,7 +615,8 @@ DO   PDOC51181;
 ID   C2H2 AKAP95-type.
 AC   DO-00861
 FT   ZN_FING.
-TG   None;
+TG   PS51799; ZF_C2H2_AKAP95;
+DO   PDOC51799;
 //
 ID   C2H2-type.
 AC   DO-00085
@@ -620,6 +628,32 @@ ID   C2HC-type.
 AC   DO-00084
 FT   ZN_FING.
 TG   None;
+//
+ID   C2HC LYAR-type.
+AC   DO-00895
+FT   ZN_FING.
+TG   PS51804; ZF_C2HC_LYAR;
+DO   PDOC51804;
+//
+ID   C2HC MYST-type
+AC   DO-00864
+SY   MYST-type HAT.
+SY   MYST-type histone acetyltransferase.
+FT   ZN_FING.
+TG   PS51726; MYST_HAT;
+DO   PDOC51726;
+//
+ID   C2HC pre-PHD-type.
+AC   DO-00897
+FT   ZN_FING.
+TG   PS51805; EPHD;
+DO   PDOC51805;
+//
+ID   C2HC RNF-type.
+AC   DO-00896
+FT   ZN_FING.
+TG   PS51803; ZF_C2HC_RNF.
+DI   PDOC51803;
 //
 ID   C3H1-type.
 AC   DO-00086
@@ -727,6 +761,30 @@ FT   ZN_FING.
 TG   PS50158; ZF_CCHC;
 DO   PDOC50158;
 //
+ID   CCHC FOG-type.
+AC   DO-00898
+FT   ZN_FING.
+TG   PS51810; ZF_CCHC_FOG;
+DO   PDOC51810;
+//
+ID   CCHC HIVEP-type.
+AC   DO-00899
+FT   ZN_FING.
+TG   PS51811; ZF_CCHC_HIVEP;
+DO   PDOC51811;
+//
+ID   CCHC NOA-type.
+AC   DO-00900
+FT   ZN_FING.
+TG   PS51801; ZF_CCHC_NOA;
+DO   PDOC51801;
+//
+ID   CCHHC-type.
+AC   DO-00901
+FT   ZN_FING.
+TG   PS51802; ZF_CCHHC.
+DO   PDOC51802;
+//
 ID   CG-1.
 AC   DO-00103
 FT   DNA_BIND.
@@ -742,9 +800,10 @@ DO   PDOC50021;
 //
 ID   CHCH.
 AC   DO-00746
+SY   coiled coil-helix-coiled coil-helix.
 FT   DOMAIN.
-TG   PF06747; CHCH;
-DO   IPR010625;
+TG   PS51808; CHCH;
+DO   PDOC51808;
 //
 ID   CHCR.
 AC   DO-00114
@@ -753,16 +812,17 @@ FT   REPEAT.
 TG   PS50236; CHCR;
 DO   PDOC50236;
 //
+ID   CHHC U11-48K-type.
+AC   DO-00902
+FT   ZN_FING.
+TG   PS51800; ZF_CHHC_U11_48K;
+DO   PDOC51800;
+//
 ID   chitin-binding type-2.
 AC   DO-00105
 FT   DOMAIN.
 TG   PS50940; CHIT_BIND_II;
 DO   PDOC50940;
-//
-ID   CHHC-type.
-AC   DO-00106
-FT   ZN_FING.
-TG   None;
 //
 ID   CHORD.
 AC   DO-00107
@@ -1191,10 +1251,10 @@ FT   DOMAIN.
 TG   PS51330; DHFR_2;
 DO   PDOC00072;
 //
-ID   DHHC-type.
+ID   DHHC
 AC   DO-00168
-FT   ZN_FING.
-TG   PS50216; ZF_DHHC;
+FT   DOMAIN.
+TG   PS50216; DHHC;
 DO   PDOC50216;
 //
 ID   DHR-1.
@@ -2198,6 +2258,14 @@ FT   DOMAIN.
 TG   PF01844; HNH;
 DO   IPR002711;
 //
+ID   Homeo-Prospero.
+AC   DO-00528
+SY   HPD.
+SY   Prospero-type homeobox.
+FT   DOMAIN.
+TG   PS51818; HOMEO_PROSPERO;
+DO   PDOC51818;
+//
 ID   homeobox.
 AC   DO-00312
 FT   DNA_BIND.
@@ -3039,13 +3107,6 @@ FT   DOMAIN.
 TG   PS51339; MYOTUBULARIN_PHP;
 DO   PDOC51339;
 //
-ID   MYST-type HAT.
-AC   DO-00864
-SY   MYST-type histone acetyltransferase.
-FT   DOMAIN.
-TG   PS51726; MYST_HAT;
-DO   PDOC51726;
-//
 ID   MyTH4.
 AC   DO-00429
 SY   myosin tail homology 4.
@@ -3723,6 +3784,12 @@ FT   DOMAIN.
 TG   PS51179; POU_3;
 DO   PDOC00035;
 //
+ID   PP1-binding.
+AC   DO-00904
+FT   DOMAIN.
+TG   PF15276; PP1_bind;
+DO   IPR029334;
+//
 ID   PPIase cyclophilin-type.
 AC   DO-00518
 FT   DOMAIN.
@@ -3789,11 +3856,6 @@ AC   DO-00527
 FT   DOMAIN.
 TG   PS50904; PRELI_MSF1;
 DO   PDOC50904;
-//
-ID   Prospero-type homeobox.
-AC   DO-00528
-FT   DNA_BIND.
-TG   None;
 //
 ID   protein kinase.
 AC   DO-00529
@@ -3883,6 +3945,12 @@ SY   DAPIN.
 FT   DOMAIN.
 TG   PS50824; DAPIN;
 DO   PDOC50824;
+//
+ID   pyruvate carboxyltransferase.
+AC   DO-00894
+FT   DOMAIN.
+TG   PS50991; PYR_CT;
+DO   PDOC50991;
 //
 ID   QLQ.
 AC   DO-00811
@@ -4362,6 +4430,12 @@ FT   DOMAIN.
 TG   PS50190; SEC7;
 DO   PDOC50190;
 //
+ID   senescence.
+AC   DO-00891
+FT   DOMAIN.
+TG   PF06911; Senescence;
+DO   IPR009686;
+//
 ID   SEFIR.
 AC   DO-00779
 FT   DOMAIN.
@@ -4736,6 +4810,12 @@ SY   TGF-beta binding.
 FT   DOMAIN.
 TG   PS51364; TB;
 DO   PDOC51364;
+//
+ID   TCTP.
+AC   DO-00892
+FT   DOMAIN.
+TG   PS51797; TCTP_3;
+DO   PDOC00768;
 //
 ID   TEA.
 AC   DO-00656
@@ -5290,6 +5370,13 @@ AC   DO-00730
 FT   REPEAT.
 TG   PS51389; XIN;
 DO   PDOC51389;
+//
+ID   XTBD.
+AC   DO-00893
+SY   XRN-two binding.
+FT   DOMAIN.
+TG   PF11952; XTBD;
+DO   IPR021859;
 //
 ID   YD.
 AC   DO-00731

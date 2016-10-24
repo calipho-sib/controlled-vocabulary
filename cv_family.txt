@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 08-Aug-2016
+Last update: 24-Oct-2016
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 08-Aug-2016
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05376
+AN   Next free AC: FA-05387
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -1617,6 +1617,22 @@ AC   FA-00386
 ID   BORA family
 AC   FA-00387
 //
+ID   BORCS5 family
+AC   FA-02107
+SY   LOH12CR1 family.
+//
+ID   BORCS6 family
+AC   FA-05377
+//
+ID   BORCS7 family
+AC   FA-04502
+SY   UPF0693 family.
+//
+ID   BORCS8 family
+AC   FA-04877
+SY   MEF2BNB family.
+SY   UPF0402 family.
+//
 ID   Borealin family
 AC   FA-00388
 //
@@ -2065,9 +2081,6 @@ AC   FA-04824
 ID   CCDC40 family
 AC   FA-04825
 //
-ID   CCDC42 family
-AC   FA-00504
-//
 ID   CCDC43 family
 AC   FA-00505
 //
@@ -2307,9 +2320,16 @@ SY   CCDC21 family.
 ID   CFAP100 family
 AC   FA-05365
 //
+ID   CFAP157 family
+AC   FA-05380
+//
 ID   CFAP20 family
 AC   FA-04394
 SY   UPF0468 family.
+//
+ID   CFAP206 family
+AC   FA-04506
+SY   UPF0704 family.
 //
 ID   CFAP36 family
 AC   FA-05291
@@ -2338,11 +2358,21 @@ AC   FA-05298
 ID   CFAP58 family
 AC   FA-05329
 //
+ID   CFAP65 family
+AC   FA-05379
+//
 ID   CFAP70 family
 AC   FA-05330
 //
+ID   CFAP73 family
+AC   FA-00504
+SY   CCDC42 family.
+//
 ID   CFAP74 family
 AC   FA-05331
+//
+ID   CFAP77 family
+AC   FA-05378
 //
 ID   CFAP97 family
 AC   FA-04411
@@ -3315,6 +3345,10 @@ AC   FA-00754
 //
 ID   CRELD family
 AC   FA-00755
+//
+ID   Crescerin family
+AC   FA-01254
+SY   FAM179 family.
 //
 ID   CRF-binding protein family
 AC   FA-00756
@@ -5167,9 +5201,6 @@ AC   FA-01252
 ID   FAM178 family
 AC   FA-01253
 //
-ID   FAM179 family
-AC   FA-01254
-//
 ID   FAM180 family
 AC   FA-01256
 //
@@ -5188,10 +5219,6 @@ AC   FA-01260
 ID   FAM187 family
 AC   FA-01261
 //
-ID   FAM188 family
-AC   FA-01262
-SY   UPF0526 family.
-//
 ID   FAM189 family
 AC   FA-01263
 //
@@ -5200,9 +5227,6 @@ AC   FA-01264
 //
 ID   FAM193 family
 AC   FA-01266
-//
-ID   FAM195 family
-AC   FA-01268
 //
 ID   FAM196 family
 AC   FA-01269
@@ -5328,9 +5352,6 @@ AC   FA-01296
 //
 ID   FAM60 family
 AC   FA-01299
-//
-ID   FAM63 family
-AC   FA-01300
 //
 ID   FAM65 family
 AC   FA-01301
@@ -6451,6 +6472,9 @@ AC   FA-05306
 ID   Glycosyl hydrolase 85 family
 AC   FA-01592
 //
+ID   Glycosyl hydrolase 89 family
+AC   FA-05384
+//
 ID   Glycosyl hydrolase 99 family
 AC   FA-01593
 //
@@ -6847,6 +6871,11 @@ AC   FA-01704
 SY   HAD-like hydrolase superfamily. PHOSPHO family.
 HI   FA-01699; HAD-like hydrolase superfamily
 //
+ID   SerB family
+AC   FA-03572
+SY   HAD-like hydrolase superfamily. SerB family.
+HI   FA-01699; HAD-like hydrolase superfamily
+//
 ID   HAM1 NTPase family
 AC   FA-01705
 //
@@ -7121,6 +7150,10 @@ ID   Citrate lyase beta subunit-like subfamily
 AC   FA-01791
 SY   HpcH/HpaI aldolase family. Citrate lyase beta subunit-like subfamily.
 HI   FA-01790; HpcH/HpaI aldolase family
+//
+ID   HPF1 family
+AC   FA-04468
+SY   UPF0609 family.
 //
 ID   HPS5 family
 AC   FA-01792
@@ -7444,6 +7477,9 @@ AC   FA-01870
 ID   Integrator subunit 10 family
 AC   FA-01871
 //
+ID   Integrator subunit 12 family
+AC   FA-05381
+//
 ID   Integrator subunit 2 family
 AC   FA-01872
 //
@@ -7453,11 +7489,17 @@ AC   FA-01873
 ID   Integrator subunit 4 family
 AC   FA-01874
 //
+ID   Integrator subunit 5 family
+AC   FA-05382
+//
 ID   Integrator subunit 6 family
 AC   FA-01875
 //
 ID   Integrator subunit 7 family
 AC   FA-01876
+//
+ID   Integrator subunit 8 family
+AC   FA-05386
 //
 ID   Integrin alpha chain family
 AC   FA-01877
@@ -7613,8 +7655,13 @@ AC   FA-01916
 ID   Isoprenylcysteine O-methyltransferase family
 AC   FA-01917
 //
-ID   IspD family
+ID   IspD/TarI cytidylyltransferase family
 AC   FA-01918
+//
+ID   IspD subfamily
+AC   FA-05385
+SY   IspD/TarI cytidylyltransferase family. IspD subfamily.
+HI   FA-01918; IspD/TarI cytidylyltransferase family
 //
 ID   IST1 family
 AC   FA-01919
@@ -8326,9 +8373,6 @@ HI   FA-02102; Liprin family
 ID   LIX1 family
 AC   FA-02106
 //
-ID   LOH12CR1 family
-AC   FA-02107
-//
 ID   Low molecular weight phosphotyrosine protein phosphatase family
 AC   FA-02108
 //
@@ -8634,6 +8678,10 @@ ID   MCMBP family
 AC   FA-04826
 SY   UPF0557 family.
 //
+ID   MCRIP family
+AC   FA-01268
+SY   FAM195 family.
+//
 ID   MCTP family
 AC   FA-02189
 //
@@ -8747,10 +8795,6 @@ AC   FA-02223
 //
 ID   MEF2 family
 AC   FA-02224
-//
-ID   MEF2BNB family
-AC   FA-04877
-SY   UPF0402 family.
 //
 ID   MEGF family
 AC   FA-02225
@@ -9137,6 +9181,9 @@ AC   FA-02311
 //
 ID   Misato family
 AC   FA-02312
+//
+ID   MISP family
+AC   FA-05383
 //
 ID   MISS family
 AC   FA-02313
@@ -9766,6 +9813,10 @@ AC   FA-02479
 //
 ID   NKAIN family
 AC   FA-02480
+//
+ID   NKAP family
+AC   FA-04355
+SY   UPF0396 family.
 //
 ID   NKD family
 AC   FA-02481
@@ -10804,6 +10855,20 @@ AC   FA-02759
 //
 ID   Peptidase M8 family
 AC   FA-02760
+//
+ID   Peptidase MINDY family
+AC   FA-05376
+//
+ID   FAM188 subfamily
+AC   FA-01262
+SY   Peptidase MINDY family. FAM188 subfamily.
+SY   UPF0526 family.
+HI   FA-05376; Peptidase MINDY family
+//
+ID   FAM63 subfamily
+AC   FA-01300
+SY   Peptidase MINDY family. FAM63 subfamily.
+HI   FA-05376; Peptidase MINDY family
 //
 ID   Peptidase S1 family
 AC   FA-02761
@@ -12654,9 +12719,10 @@ AC   FA-03204
 ID   Queuine tRNA-ribosyltransferase family
 AC   FA-03205
 //
-ID   QTRTD1 subfamily
+ID   QTRT2 subfamily
 AC   FA-03206
-SY   Queuine tRNA-ribosyltransferase family. QTRTD1 subfamily.
+SY   Queuine tRNA-ribosyltransferase family. QTRT2 subfamily.
+SY   QTRTD1 subfamily.
 HI   FA-03205; Queuine tRNA-ribosyltransferase family
 //
 ID   Quiescin-sulfhydryl oxidase (QSOX) family
@@ -13931,9 +13997,6 @@ AC   FA-03569
 ID   SERAC1 family
 AC   FA-03571
 //
-ID   SerB family
-AC   FA-03572
-//
 ID   SERF family
 AC   FA-03573
 //
@@ -15159,6 +15222,11 @@ SY   RAG1AP1 family.
 //
 ID   SWI5/SAE3 family
 AC   FA-04843
+//
+ID   SWIP family
+AC   FA-04614
+SY   UPF0681 family.
+SY   WASHS7 family.
 //
 ID   SWP1 family
 AC   FA-03889
@@ -17106,9 +17174,6 @@ AC   FA-04353
 ID   UPF0390 family
 AC   FA-04354
 //
-ID   UPF0396 family
-AC   FA-04355
-//
 ID   UPF0400 (RTT103) family
 AC   FA-04357
 //
@@ -17235,9 +17300,6 @@ AC   FA-04465
 ID   UPF0607 family
 AC   FA-04466
 //
-ID   UPF0609 family
-AC   FA-04468
-//
 ID   UPF0610 family
 AC   FA-04469
 //
@@ -17268,14 +17330,8 @@ AC   FA-04500
 ID   UPF0692 family
 AC   FA-04501
 //
-ID   UPF0693 family
-AC   FA-04502
-//
 ID   UPF0696 family
 AC   FA-04504
-//
-ID   UPF0704 family
-AC   FA-04506
 //
 ID   UPF0705 family
 AC   FA-04507
@@ -17641,10 +17697,6 @@ AC   FA-05053
 //
 ID   WASH1 family
 AC   FA-04613
-//
-ID   WASHS7 family
-AC   FA-04614
-SY   UPF0681 family.
 //
 ID   WD repeat AIP1 family
 AC   FA-04615
