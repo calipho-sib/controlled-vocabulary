@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 24-Oct-2016
+Last update: 02-Nov-2016
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 24-Oct-2016
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00905
+AN   Next free AC: DO-00907
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -888,6 +888,18 @@ SY   citron homology.
 FT   DOMAIN.
 TG   PS50219; CNH;
 DO   PDOC50219;
+//
+ID   CoA carboxyltransferase C-terminal.
+AC   DO-00905
+FT   DOMAIN.
+TG   PS50989; COA_CT_CTER;
+DO   PDOC50980
+//
+ID   CoA carboxyltransferase N-terminal.
+AC   DO-00906
+FT   DOMAIN.
+TG   PS50980; COA_CT_NTER;
+DO   PDOC50980
 //
 ID   cobW C-terminal.
 AC   DO-00117
