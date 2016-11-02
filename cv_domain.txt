@@ -893,13 +893,13 @@ ID   CoA carboxyltransferase C-terminal.
 AC   DO-00905
 FT   DOMAIN.
 TG   PS50989; COA_CT_CTER;
-DO   PDOC50980
+DO   PDOC50980;
 //
 ID   CoA carboxyltransferase N-terminal.
 AC   DO-00906
 FT   DOMAIN.
 TG   PS50980; COA_CT_NTER;
-DO   PDOC50980
+DO   PDOC50980;
 //
 ID   cobW C-terminal.
 AC   DO-00117
