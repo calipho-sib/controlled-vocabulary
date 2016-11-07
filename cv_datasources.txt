@@ -576,3 +576,4 @@ ID   PubTator
 AC   CVDS-0111
 DE   A Web-based tool for accelerating manual literature curation through the use of advanced text-mining techniques
 DR   https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/guest2.cgi
+//
