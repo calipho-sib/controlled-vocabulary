@@ -18,7 +18,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0108
+next id:  CVDS-0112
 
 __________________________________________________________________________
 ID   AgBase
@@ -557,3 +557,22 @@ AC   CVDS-0072
 DE   A comprehensive resource for genetics, genomics and biology of C. elegans and related nematodes
 DR   http://http://www.wormbase.org
 //
+ID   PRO
+AC   CVDS-0108
+DE   Protein Ontology, a unique database resource for species-specific protein complexes
+DR   https://omictools.com/protein-ontology-tool
+//
+ID   PhosphoSitePlus
+AC   CVDS-0109
+DE   A protein modification resource
+DR   http://www.phosphosite.org/homeAction.action
+//
+ID   iPTMnet
+AC   CVDS-0110
+DE   A bioinformatics resource for integrated understanding of protein post-translational modifications (PTMs) in systems biology context.
+DR   http://research.bioinformatics.udel.edu/iptmnet/
+//
+ID   PubTator
+AC   CVDS-0111
+DE   A Web-based tool for accelerating manual literature curation through the use of advanced text-mining techniques
+DR   https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/guest2.cgi
