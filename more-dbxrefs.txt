@@ -859,3 +859,43 @@ LinkTp: Explicit
 Server: http://variationontology.org/
 Db_URL: http://www.variationontology.org/cgi-bin/amivario/term-details.cgi?term=%s
 Cat   : Ontologies
+
+AC    : DB-9113
+Abbrev: IGSR
+Name  : The International Genome Sample Resource
+LinkTp: Explicit
+Server: http://www.internationalgenome.org/
+Db_URL: None
+Cat   : Phylogenomic databases
+
+AC    : DB-9114
+Abbrev: Millipore
+Name  : Merck Millipore
+LinkTp: Explicit
+Server: http://www.merckmillipore.com/
+Db_URL: None
+Cat   : Other
+
+AC    : DB-9115
+Abbrev: NHCDR
+Name  : THE NINDS HUMAN CELL AND DATA REPOSITORY
+LinkTp: Explicit
+Server: https://nindsgenetics.org/
+Db_URL: https://nindsgenetics.org/search/node/%s
+Cat   : Cell line databases/resources
+
+AC    : DB-9116
+Abbrev: TOKU-E
+Name  : TOKU-E
+LinkTp: Explicit
+Server: http://www.toku-e.com/
+Db_URL: http://www.toku-e.com/Search.aspx?k=%s
+Cat   : Other
+
+AC    : DB-9117
+Abbrev: Wikidata
+Name  : Wikidata
+LinkTp: Explicit
+Server: https://www.wikidata.org/wiki/Wikidata:Main_Page
+Db_URL: https://www.wikidata.org/w/index.php?search=%s
+Cat   : Other
