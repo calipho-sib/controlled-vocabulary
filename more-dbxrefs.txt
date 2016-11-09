@@ -862,40 +862,40 @@ Cat   : Ontologies
 
 AC    : DB-9113
 Abbrev: IGSR
-Name  : The International Genome Sample Resource
+Name  : International Genome Sample Resource
 LinkTp: Explicit
-Server: http://www.internationalgenome.org/
-Db_URL: None
-Cat   : Phylogenomic databases
+Server: http://www.1000genomes.org/home
+Db_URL: http://www.1000genomes.org/data-portal/sample/%s
+Cat   : Biological sample resources
 
 AC    : DB-9114
 Abbrev: Millipore
-Name  : Merck Millipore
+Name  : Merck Millipore (EMD Millipore)
 LinkTp: Explicit
 Server: http://www.merckmillipore.com/
-Db_URL: None
-Cat   : Other
+Db_URL: http://www.merckmillipore.com/catalogue/item/%s
+Cat   : Cell line collections
 
 AC    : DB-9115
 Abbrev: NHCDR
-Name  : THE NINDS HUMAN CELL AND DATA REPOSITORY
+Name  : NINDS Human Cell and Data Repository
 LinkTp: Explicit
-Server: https://nindsgenetics.org/
-Db_URL: https://nindsgenetics.org/search/node/%s
-Cat   : Cell line databases/resources
+Server: https://stemcells.nindsgenetics.org/
+Db_URL: https://stemcells.nindsgenetics.org?line=%s
+Cat   : Cell line collections
 
 AC    : DB-9116
 Abbrev: TOKU-E
-Name  : TOKU-E
+Name  : TOKU-E Cell-culture Database
 LinkTp: Explicit
-Server: http://www.toku-e.com/
-Db_URL: http://www.toku-e.com/Search.aspx?k=%s
-Cat   : Other
+Server: http://cell-lines.toku-e.com/
+Db_URL: http://cell-lines.toku-e.com/Cell-Lines_%s.html
+Cat   : Cell line databases/resources
 
 AC    : DB-9117
 Abbrev: Wikidata
 Name  : Wikidata
 LinkTp: Explicit
 Server: https://www.wikidata.org/wiki/Wikidata:Main_Page
-Db_URL: https://www.wikidata.org/w/index.php?search=%s
+Db_URL: https://www.wikidata.org/wiki/%s
 Cat   : Other
