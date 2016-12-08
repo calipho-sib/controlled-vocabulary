@@ -1,0 +1,568 @@
+format-version: 1.2
+date: 25:01:2016 10:44
+saved-by: vhinard
+auto-generated-by: OBO-Edit 2.3.1
+subsetdef: Terms for voltage-gated sodium channels ""
+default-namespace: default_namespace
+
+[Term]
+id: ICEPO:0000001
+name: conductance
+namespace: Electrophysiological parameters
+def: "The degree to which electric current carried by the ions flows through a channel symbolized by G and expressed in siemens (S)." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: http://opal.msu.montana.edu/cftr/ion_channel_glossary.htm
+xref: http:www2.montana.edu/cftr/ion_channel_glossary.htm
+created_by: vhinard
+creation_date: 2015-02-26T10:23:24Z
+
+[Term]
+id: ICEPO:0000002
+name: ion selectivity
+namespace: Electrophysiological parameters
+def: "The degree to which a channel allows different ions to pass while excluding others. It is characterized by determining the permeability ratio from the reversal potential (zero net current) under bionic conditions." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "conductive-state ion selectivity" EXACT []
+synonym: "ion permeability" RELATED []
+xref: PMID:21518830 "Ion selectivity in channels and transporters."
+created_by: vhinard
+creation_date: 2015-02-26T10:32:40Z
+
+[Term]
+id: ICEPO:0000003
+name: sodium ion selectivity
+namespace: Electrophysiological parameters
+def: "The degree to which a channel allows sodium ions to pass while excluding others." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: PMID:21518830 "Ion selectivity in channels and transporters."
+is_a: ICEPO:0000002 ! ion selectivity
+created_by: vhinard
+creation_date: 2015-02-26T10:34:49Z
+
+[Term]
+id: ICEPO:0000004
+name: activation
+namespace: Electrophysiological parameters
+def: "The transition from the closed to the open state of the channel. It relates the opening of a channel due to the presence of a gating signal, allowing the transfer of ions through the pore." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "activation gating" RELATED []
+synonym: "opening" EXACT []
+xref: https://wiki.brown.edu/confluence/download/attachments/13802/Ion+Channels+Glossary.pdf
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+created_by: vhinard
+creation_date: 2015-02-26T10:35:53Z
+
+[Term]
+id: ICEPO:0000005
+name: time dependence of activation
+namespace: Electrophysiological parameters
+def: "The rate of activation of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "activation kinetics" EXACT []
+relationship: part_of ICEPO:0000004 ! activation
+created_by: vhinard
+creation_date: 2015-02-26T10:37:40Z
+
+[Term]
+id: ICEPO:0000006
+name: voltage dependence of activation
+namespace: Electrophysiological parameters
+def: "The opening of the channel in relation to the electrochemical driving force (voltage)." [NP:VH]
+comment: Measured by a steady-state activation curve (V1/2).
+subset: Terms for voltage-gated sodium channels
+synonym: "voltage dependence of steady-state activation" EXACT []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000040 ! stimulus dependence of activation
+created_by: vhinard
+creation_date: 2015-02-26T10:38:54Z
+
+[Term]
+id: ICEPO:0000007
+name: inactivation
+namespace: Electrophysiological parameters
+def: "The transition from open to inactivated state of the channel. It relates the closing of the channel in the continued presence of the gating signal. The channel is then in a refractory period. No ion can pass through the pore and it is unresponsive to stimulus." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "inactivated state" RELATED []
+synonym: "inactivation gating" RELATED []
+synonym: "open-state inactivation" RELATED []
+xref: https://wiki.brown.edu/confluence/download/attachments/13802/Ion+Channels+Glossary.pdf
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+created_by: vhinard
+creation_date: 2015-02-26T10:39:35Z
+
+[Term]
+id: ICEPO:0000008
+name: fast inactivation
+namespace: Electrophysiological parameters
+def: "The fast phase of inactivation from the open-state of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "fast open-state inactivation" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000007 ! inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:40:53Z
+
+[Term]
+id: ICEPO:0000009
+name: entry into fast inactivated state
+namespace: Electrophysiological parameters
+def: "The transition rate to reach the fast inactivated state." [NP:VH]
+comment: Measured either by decay phase or peak-to-baseline analysis during whole cell recording.
+subset: Terms for voltage-gated sodium channels
+synonym: " entry into fast inactivation" RELATED []
+synonym: "decay phase" RELATED []
+synonym: "fast-gated kinetics" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000016 ! time dependence of fast inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:41:24Z
+
+[Term]
+id: ICEPO:0000010
+name: voltage dependence of fast inactivation
+namespace: Electrophysiological parameters
+def: "Fast inactivation of the channel in relation to the electrochemical driving force (voltage)." [NP:VH]
+comment: Measured by a steady-state fast inactivation curve (V1/2).
+subset: Terms for voltage-gated sodium channels
+synonym: "voltage dependence of fast open-state inactivation" RELATED []
+synonym: "voltage-dependent channel availability" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000037 ! stimulus dependence of fast inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:41:56Z
+
+[Term]
+id: ICEPO:0000011
+name: slow inactivation
+namespace: Electrophysiological parameters
+def: "The slow phase of inactivation from the open-state of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "slow open-state inactivation" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000007 ! inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:43:26Z
+
+[Term]
+id: ICEPO:0000012
+name: entry into slow inactivated state
+namespace: Electrophysiological parameters
+def: "The transition rate to reach the slow inactivated state." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "entry into slow open-state inactivation" RELATED []
+synonym: "onset of slow inactivation" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000018 ! time dependence of slow inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:44:06Z
+
+[Term]
+id: ICEPO:0000013
+name: voltage dependence of slow inactivation
+namespace: Electrophysiological parameters
+def: "Slow inactivation of the channel in relation to the electrochemical driving force (voltage)." [NP:VH]
+comment: Measured by a steady-state slow inactivation curve (V1/2).
+subset: Terms for voltage-gated sodium channels
+synonym: "voltage dependence of slow open-state inactivation" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000041 ! stimulus dependence of slow inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:44:37Z
+
+[Term]
+id: ICEPO:0000014
+name: recovery
+namespace: Electrophysiological parameters
+def: "The transition from the inactivated to the closed state in which the channel is non-conducting." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "closing" EXACT []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+created_by: vhinard
+creation_date: 2015-02-26T10:45:09Z
+
+[Term]
+id: ICEPO:0000015
+name: recovery from fast inactivation
+namespace: Electrophysiological parameters
+def: "The transition from fast inactivation to closed state." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "recovery from fast open-state inactivation" RELATED []
+synonym: "repriming" EXACT []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000014 ! recovery
+created_by: vhinard
+creation_date: 2015-02-26T10:45:54Z
+
+[Term]
+id: ICEPO:0000016
+name: time dependence of fast inactivation
+namespace: Electrophysiological parameters
+def: "The rate of fast inactivation of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+is_a: ICEPO:0000008 ! fast inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:46:26Z
+
+[Term]
+id: ICEPO:0000017
+name: recovery from slow inactivation
+namespace: Electrophysiological parameters
+def: "The transition from slow inactivation to closed state." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "recovery from slow open-state inactivation" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000014 ! recovery
+created_by: vhinard
+creation_date: 2015-02-26T10:46:58Z
+
+[Term]
+id: ICEPO:0000018
+name: time dependence of slow inactivation
+namespace: Electrophysiological parameters
+def: "The rate of slow inactivation of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+relationship: part_of ICEPO:0000011 ! slow inactivation
+created_by: vhinard
+creation_date: 2015-02-26T10:47:53Z
+
+[Term]
+id: ICEPO:0000019
+name: deactivation
+namespace: Electrophysiological parameters
+def: "The transition from the open to the closed state of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "Open-state deactivation" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+created_by: vhinard
+creation_date: 2015-02-26T10:49:27Z
+
+[Term]
+id: ICEPO:0000020
+name: calcium ion selectivity
+namespace: Electrophysiological parameters
+def: "The degree to which a channel allows calcium ions to pass while excluding others." [NP:VH]
+xref: PMID:21518830 "Ion selectivity in channels and transporters."
+is_a: ICEPO:0000002 ! ion selectivity
+created_by: vhinard
+creation_date: 2015-11-30T12:48:15Z
+
+[Term]
+id: ICEPO:0000021
+name: reopening
+namespace: Electrophysiological parameters
+def: "The transition from the inactivated to the open state of the channel." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "resurgent current" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+created_by: vhinard
+creation_date: 2015-02-26T10:50:43Z
+
+[Term]
+id: ICEPO:0000022
+name: chloride ion selectivity
+namespace: Electrophysiological parameters
+def: "The degree to which a channel allows chloride ions to pass while excluding others." [NP:VH]
+xref: PMID:21518830 "Ion selectivity in channels and transporters."
+is_a: ICEPO:0000002 ! ion selectivity
+created_by: vhinard
+creation_date: 2015-11-30T12:48:35Z
+
+[Term]
+id: ICEPO:0000023
+name: potassium ion selectivity
+namespace: Electrophysiological parameters
+def: "The degree to which a channel allows potassium ions to pass while excluding others." [NP:VH]
+xref: PMID:21518830 "Ion selectivity in channels and transporters."
+is_a: ICEPO:0000002 ! ion selectivity
+created_by: vhinard
+creation_date: 2015-02-26T03:18:22Z
+
+[Term]
+id: ICEPO:0000024
+name: voltage sensitivity of activation
+namespace: Electrophysiological parameters
+def: "The capacity of the channel to respond to voltage changes during activation." [NP:VH]
+comment: Measured by the slope of a steady-state activation curve (k, slope factor).
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000006 ! voltage dependence of activation
+created_by: pgaudet
+creation_date: 2015-03-26T02:16:09Z
+
+[Term]
+id: ICEPO:0000025
+name: stimulus dependence of recovery from fast inactivation
+namespace: Electrophysiological parameters
+def: "The recovery from fast inactivation of the channel in relation to the stimulus." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+relationship: part_of ICEPO:0000015 ! recovery from fast inactivation
+created_by: vhinard
+creation_date: 2015-10-22T10:40:17Z
+
+[Term]
+id: ICEPO:0000026
+name: voltage sensitivity of fast inactivation
+namespace: Electrophysiological parameters
+def: "The capacity of the channel to respond to voltage changes during fast inactivation." [NP:VH]
+comment: Measured by the slope of a steady-state fast inactivation curve (k, slope factor).
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000010 ! voltage dependence of fast inactivation
+created_by: pgaudet
+creation_date: 2015-03-26T02:21:37Z
+
+[Term]
+id: ICEPO:0000027
+name: voltage sensitivity of slow inactivation
+namespace: Electrophysiological parameters
+def: "The capacity of the channel to respond to voltage changes during slow inactivation." [NP:VH]
+comment: Measured by the slope of a steady-state slow inactivation curve (k, slope factor).
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000013 ! voltage dependence of slow inactivation
+created_by: pgaudet
+creation_date: 2015-03-26T02:21:56Z
+
+[Term]
+id: ICEPO:0000028
+name: macroscopic conductance
+namespace: Electrophysiological parameters
+def: "The degree to which electric current carried by the ions flows through a population of channels in a macropatch expressed as a current in Ampere (A)." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "current density (pA/pF)" RELATED []
+synonym: "normalized conductance (G/Gmax)" RELATED []
+synonym: "normalized current (I/Imax)" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000001 ! conductance
+created_by: pgaudet
+creation_date: 2015-03-26T02:22:49Z
+
+[Term]
+id: ICEPO:0000029
+name: single channel conductance
+namespace: Electrophysiological parameters
+def: "The degree to which electric current carried by the ions flows through a single channel in a membrane patch expressed in Siemens (S)." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "current amplitude" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000001 ! conductance
+created_by: pgaudet
+creation_date: 2015-03-26T02:23:04Z
+
+[Term]
+id: ICEPO:0000030
+name: entry into activated state
+namespace: Electrophysiological parameters
+def: "The transition rate to reach the activated state." [NP:VH]
+comment: Measured either by time to peak current analysis during whole cell recording or by latency to first opening and open probability analysis during single channel recording.
+subset: Terms for voltage-gated sodium channels
+synonym: "<new synonym>" RELATED []
+synonym: "latency to first opening" RELATED []
+synonym: "open probability" RELATED []
+synonym: "time to peak current" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000005 ! time dependence of activation
+created_by: vhinard
+creation_date: 2015-04-30T08:59:09Z
+
+[Term]
+id: ICEPO:0000031
+name: development of activation
+namespace: Electrophysiological parameters
+def: "The time spent into the open state." [NP:VH]
+comment: Measured by the mean open time during single channel recording.
+subset: Terms for voltage-gated sodium channels
+synonym: "open duration" RELATED []
+synonym: "open time" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000005 ! time dependence of activation
+created_by: vhinard
+creation_date: 2015-04-30T09:05:42Z
+
+[Term]
+id: ICEPO:0000032
+name: development of fast inactivation
+namespace: Electrophysiological parameters
+def: "The time spent into fast inactivated state." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000016 ! time dependence of fast inactivation
+created_by: vhinard
+creation_date: 2015-04-30T09:07:51Z
+
+[Term]
+id: ICEPO:0000033
+name: development of slow inactivation
+namespace: Electrophysiological parameters
+def: "The time spent into slow inactivated state." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000018 ! time dependence of slow inactivation
+created_by: vhinard
+creation_date: 2015-04-30T09:11:24Z
+
+[Term]
+id: ICEPO:0000034
+name: closed-state inactivation
+namespace: Electrophysiological parameters
+def: "The transition from the closed to the inactivated state, more precisely from a pre-open closed-state directly to the inactivated state." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+synonym: "closed-state fast inactivation" EXACT []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+created_by: vhinard
+creation_date: 2015-05-06T08:37:01Z
+
+[Term]
+id: ICEPO:0000035
+name: voltage dependence of recovery from fast inactivation
+namespace: Electrophysiological parameters
+def: "Recovery from fast inactivation of the channel in relation to the electrochemical driving force (voltage)." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000025 ! stimulus dependence of recovery from fast inactivation
+created_by: vhinard
+creation_date: 2015-07-28T10:07:23Z
+
+[Term]
+id: ICEPO:0000036
+name: voltage dependence of recovery from slow inactivation
+namespace: Electrophysiological parameters
+def: "Recovery from slow inactivation of the channel in relation to the electrochemical driving force (voltage)." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000042 ! stimulus dependence of recovery from slow inactivation
+created_by: vhinard
+creation_date: 2015-07-28T10:09:48Z
+
+[Term]
+id: ICEPO:0000037
+name: stimulus dependence of fast inactivation
+namespace: Electrophysiological parameters
+def: "The fast inactivation of the channel in relation to the stimulus." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+is_a: ICEPO:0000008 ! fast inactivation
+created_by: vhinard
+creation_date: 2015-10-16T15:37:17Z
+
+[Term]
+id: ICEPO:0000038
+name: voltage sensitivity of recovery from fast inactivation
+namespace: Electrophysiological parameters
+def: "The capacity of the channel to respond to voltage changes during recovery from fast inactivation." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000035 ! voltage dependence of recovery from fast inactivation
+created_by: vhinard
+creation_date: 2015-07-28T10:11:11Z
+
+[Term]
+id: ICEPO:0000039
+name: voltage sensitivity of recovery from slow inactivation
+namespace: Electrophysiological parameters
+def: "The capacity of the channel to respond to voltage changes during recovery from slow inactivation." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+relationship: part_of ICEPO:0000036 ! voltage dependence of recovery from slow inactivation
+created_by: vhinard
+creation_date: 2015-07-28T10:12:41Z
+
+[Term]
+id: ICEPO:0000040
+name: stimulus dependence of activation
+namespace: Electrophysiological parameters
+def: "The opening of the channel in relation to the stimulus." [NP:VH]
+comment: The stimulus can be the voltage, ligand, temperature, light or cell deformation.
+subset: Terms for voltage-gated sodium channels
+relationship: part_of ICEPO:0000004 ! activation
+created_by: vhinard
+creation_date: 2015-10-16T14:41:11Z
+
+[Term]
+id: ICEPO:0000041
+name: stimulus dependence of slow inactivation
+namespace: Electrophysiological parameters
+def: "The slow inactivation of the channel in relation to the stimulus." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+relationship: part_of ICEPO:0000011 ! slow inactivation
+created_by: vhinard
+creation_date: 2015-10-22T09:59:10Z
+
+[Term]
+id: ICEPO:0000042
+name: stimulus dependence of recovery from slow inactivation
+namespace: Electrophysiological parameters
+def: "The recovery from slow inactivation of the channel in relation to the stimulus." [NP:VH]
+subset: Terms for voltage-gated sodium channels
+relationship: part_of ICEPO:0000017 ! recovery from slow inactivation
+created_by: vhinard
+creation_date: 2015-10-22T10:45:24Z
+
+[Term]
+id: ICEPO:0000043
+name: time dependence of recovery from fast inactivation
+namespace: Electrophysiological parameters
+def: "The rate of recovery from fast inactivation of the channel." [NP:VH]
+relationship: part_of ICEPO:0000015 ! recovery from fast inactivation
+created_by: vhinard
+creation_date: 2015-10-22T10:49:29Z
+
+[Term]
+id: ICEPO:0000044
+name: entry into the closed state from the fast inactivation
+namespace: Electrophysiological parameters
+def: "The transition rate to reach the closed state from the fast inactivation." [NP:VH]
+comment: Measured by the closed probability analysis during single channel recording.
+synonym: "closed probability" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000043 ! time dependence of recovery from fast inactivation
+created_by: vhinard
+creation_date: 2015-10-22T10:50:18Z
+
+[Term]
+id: ICEPO:0000045
+name: development of closed state from fast inactivation
+namespace: Electrophysiological parameters
+def: "The time spent into the closed state from fast inactivation." [NP:VH]
+comment: Measured by the mean closed time during single channel recording.
+synonym: "closed time" RELATED []
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000043 ! time dependence of recovery from fast inactivation
+created_by: vhinard
+creation_date: 2015-10-22T10:52:22Z
+
+[Term]
+id: ICEPO:0000046
+name: time dependence of recovery from slow inactivation
+namespace: Electrophysiological parameters
+def: "The rate of recovery from slow inactivation of the channel." [NP:VH]
+relationship: part_of ICEPO:0000017 ! recovery from slow inactivation
+created_by: vhinard
+creation_date: 2015-10-22T11:01:08Z
+
+[Term]
+id: ICEPO:0000047
+name: development of closed state from slow inactivation
+namespace: Electrophysiological parameters
+def: "The time spent into the closed state  from slow inactivation." [NP:VH]
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000046 ! time dependence of recovery from slow inactivation
+created_by: vhinard
+creation_date: 2015-10-22T11:02:15Z
+
+[Term]
+id: ICEPO:0000048
+name: entry into the closed state from the slow inactivation
+namespace: Electrophysiological parameters
+def: "The transition rate to reach the closed state from the slow inactivation." [NP:VH]
+xref: ISBN:0878933212 "Ion channels of excitable membranes - Bertil Hille - 2001"
+is_a: ICEPO:0000046 ! time dependence of recovery from slow inactivation
+created_by: vhinard
+creation_date: 2015-10-22T11:02:38Z
+
+[Typedef]
+id: part_of
+name: part of
+namespace: Electrophysiological parameters
+subset: Terms for voltage-gated sodium channels
+is_transitive: true
+
