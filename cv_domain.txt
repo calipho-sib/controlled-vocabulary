@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 02-Nov-2016
+Last update: 16-Dec-2016
 
 ----------------------------------------------------------------------------
 
@@ -708,12 +708,6 @@ AC   DO-00094
 FT   DOMAIN.
 TG   PS50245; CAP_GLY_2;
 DO   PDOC00660;
-//
-ID   carboxyltransferase.
-AC   DO-00095
-FT   DOMAIN.
-TG   PS50980; COA_CT_NTER;
-DO   PDOC50980;
 //
 ID   CARD.
 AC   DO-00096
@@ -2269,14 +2263,6 @@ AC   DO-00808
 FT   DOMAIN.
 TG   PF01844; HNH;
 DO   IPR002711;
-//
-ID   Homeo-Prospero.
-AC   DO-00528
-SY   HPD.
-SY   Prospero-type homeobox.
-FT   DOMAIN.
-TG   PS51818; HOMEO_PROSPERO;
-DO   PDOC51818;
 //
 ID   homeobox.
 AC   DO-00312
@@ -3868,6 +3854,15 @@ AC   DO-00527
 FT   DOMAIN.
 TG   PS50904; PRELI_MSF1;
 DO   PDOC50904;
+//
+ID   Prospero-type homeo
+AC   DO-00528
+SY   HPD.
+SY   Homeo-Prospero.
+SY   Prospero-type homeobox.
+FT   DOMAIN.
+TG   PS51818; HOMEO_PROSPERO;
+DO   PDOC51818;
 //
 ID   protein kinase.
 AC   DO-00529
