@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 16-Dec-2016
+Last update: 23-Dec-2016
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 16-Dec-2016
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00907
+AN   Next free AC: DO-00913
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -70,7 +70,7 @@ DO   PDOC51036;
 //
 ID   AB hydrolase-1.
 AC   DO-00903
-SY   Alpha/Beta hydrolase fold 1.
+SY   alpha/beta hydrolase fold 1.
 FT   DOMAIN.
 TG   PF00561; Abhydrolase_1;
 DO   IPR000073;
@@ -635,7 +635,7 @@ FT   ZN_FING.
 TG   PS51804; ZF_C2HC_LYAR;
 DO   PDOC51804;
 //
-ID   C2HC MYST-type
+ID   C2HC MYST-type.
 AC   DO-00864
 SY   MYST-type HAT.
 SY   MYST-type histone acetyltransferase.
@@ -1170,8 +1170,16 @@ FT   DOMAIN.
 TG   PS51229; DCUN1;
 DO   PDOC51229;
 //
-ID   DDE.
+ID   DDE Tnp4.
+AC   DO-00908
+SY   Harbinger transposase-derived nuclease.
+FT   DOMAIN.
+TG   PF13359; DDE_Tnp_4;
+DO   IPR027806;
+//
+ID   DDE-1.
 AC   DO-00157
+SY   DDE superfamily endonuclease.
 FT   DOMAIN.
 TG   PF03184; DDE;
 DO   IPR004875;
@@ -1257,7 +1265,7 @@ FT   DOMAIN.
 TG   PS51330; DHFR_2;
 DO   PDOC00072;
 //
-ID   DHHC
+ID   DHHC.
 AC   DO-00168
 FT   DOMAIN.
 TG   PS50216; DHHC;
@@ -1422,7 +1430,7 @@ DO   PDOC51282;
 //
 ID   Dynamin-type G.
 AC   DO-00846
-SY   Dynamin-type guanine nucleotide-binding.
+SY   dynamin-type guanine nucleotide-binding.
 FT   DOMAIN.
 TG   PS00410; DYNAMIN;
 DO   PDOC00362;
@@ -2068,7 +2076,7 @@ DO   PDOC50404;
 //
 ID   GT23.
 AC   DO-00816
-SY   Glycosyltransferase family 23.
+SY   glycosyltransferase family 23.
 FT   DOMAIN.
 TG   PS51659; GT23;
 DO   PDOC51659;
@@ -2527,6 +2535,13 @@ AC   DO-00347
 FT   DOMAIN.
 TG   PS50957; JOSEPHIN;
 DO   PDOC50957;
+//
+ID   K167R.
+AC   DO-00909
+SY   K167/chmadrin repeat.
+FT   REPEAT.
+TG   PF08065; K167R;
+DO   IPR012568;
 //
 ID   KA1.
 AC   DO-00348
@@ -3045,7 +3060,7 @@ DO   PDOC50202;
 //
 ID   MsrB.
 AC   DO-00887
-SY   Methionine-R-sulfoxide reductase.
+SY   methionine-R-sulfoxide reductase.
 FT   DOMAIN.
 TG   PS51790; MSRB;
 DO   PDOC51790;
@@ -3330,6 +3345,12 @@ SY   protease associated.
 FT   DOMAIN.
 TG   PF02225; PA;
 DO   IPR003137;
+//
+ID   PA14.
+AC   DO-00910
+FT   DOMAIN.
+TG   PS51820; PA14;
+DO   PDOC51820;
 //
 ID   PABC.
 AC   DO-00461
@@ -3750,6 +3771,13 @@ FT   DOMAIN.
 TG   PS51360; PLUS3;
 DO   PDOC51360;
 //
+ID   PNPLA.
+AC   DO-00911
+SY   patatin-like phospholipase.
+FT   DOMAIN.
+TG   PS51635; PNPLA;
+DO   PDOC51635;
+//
 ID   PNT.
 AC   DO-00513
 SY   pointed.
@@ -3855,7 +3883,13 @@ FT   DOMAIN.
 TG   PS50904; PRELI_MSF1;
 DO   PDOC50904;
 //
-ID   Prospero-type homeo
+ID   Prospero.
+AC   DO-00912
+FT   DOMAIN.
+TG   PS51818; HOMEO_PROSPERO;
+DO   PDOC51818;
+//
+ID   Prospero-type homeo.
 AC   DO-00528
 SY   HPD.
 SY   Homeo-Prospero.
@@ -5237,6 +5271,13 @@ SY   VLIG-type guanine nucleotide-binding.
 FT   DOMAIN.
 TG   PS51717; G_VLIG;
 DO   PDOC51717;
+//
+ID   VOC.
+AC   DO-00907
+SY   vicinal oxygen chelate.
+FT   DOMAIN
+TG   PS51819; VOC
+DO   PDOC51819;
 //
 ID   VPS28 C-terminal.
 AC   DO-00711

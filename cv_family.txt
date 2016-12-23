@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 24-Oct-2016
+Last update: 23-Dec-2016
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 24-Oct-2016
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05387
+AN   Next free AC: FA-05395
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -390,6 +390,11 @@ HI   FA-00065; Acetyltransferase family
 ID   MAK3 subfamily
 AC   FA-00071
 SY   Acetyltransferase family. MAK3 subfamily.
+HI   FA-00065; Acetyltransferase family
+//
+ID   NAA40 subfamily
+AC   FA-05388
+SY   Acetyltransferase family. NAA40 subfamily.
 HI   FA-00065; Acetyltransferase family
 //
 ID   NAA60 subfamily
@@ -1122,6 +1127,9 @@ HI   FA-00250; Argonaute family
 //
 ID   ARID5B family
 AC   FA-04892
+//
+ID   Arkadia family
+AC   FA-05387
 //
 ID   ARL2BP family
 AC   FA-00253
@@ -2534,6 +2542,16 @@ AC   FA-00611
 ID   Class-I aminoacyl-tRNA synthetase family
 AC   FA-00612
 //
+ID   Glutamate--tRNA ligase type 1 subfamily
+AC   FA-05389
+SY   Class-I aminoacyl-tRNA synthetase family. Glutamate--tRNA ligase type 1 subfamily.
+HI   FA-00612; Class-I aminoacyl-tRNA synthetase family
+//
+ID   Glutamate--tRNA ligase type 2 subfamily
+AC   FA-05390
+SY   Class-I aminoacyl-tRNA synthetase family. Glutamate--tRNA ligase type 2 subfamily.
+HI   FA-00612; Class-I aminoacyl-tRNA synthetase family
+//
 ID   Class-I pyridine nucleotide-disulfide oxidoreductase family
 AC   FA-00613
 //
@@ -2760,6 +2778,18 @@ ID   Phe-tRNA synthetase alpha subunit type 2 subfamily
 AC   FA-00619
 SY   Class-II aminoacyl-tRNA synthetase family. Phe-tRNA synthetase alpha subunit type 2 subfamily.
 SY   Phe-tRNA synthetase alpha chain type 2 subfamily.
+HI   FA-00617; Class-II aminoacyl-tRNA synthetase family
+//
+ID   Class-II aminoacyl-tRNA synthetase family. Type 1 subfamily
+AC   FA-05393
+SY   Class-II aminoacyl-tRNA synthetase family. Type 1 subfamily.
+SY   Type 1 subfamily.
+HI   FA-00617; Class-II aminoacyl-tRNA synthetase family
+//
+ID   Class-II aminoacyl-tRNA synthetase family. Type 2 subfamily
+AC   FA-05394
+SY   Class-II aminoacyl-tRNA synthetase family. Type 2 subfamily.
+SY   Type 2 subfamily.
 HI   FA-00617; Class-II aminoacyl-tRNA synthetase family
 //
 ID   Type-1 seryl-tRNA synthetase subfamily
@@ -3407,6 +3437,10 @@ HI   FA-00770; CSN7/EIF3M family
 //
 ID   CSN8 family
 AC   FA-00772
+//
+ID   CSN9 family
+AC   FA-02391
+SY   MYEOV2 family.
 //
 ID   CT45 family
 AC   FA-05338
@@ -5261,9 +5295,6 @@ AC   FA-04938
 //
 ID   FAM210 family
 AC   FA-04939
-//
-ID   FAM212 family
-AC   FA-04941
 //
 ID   FAM214 family
 AC   FA-04976
@@ -7427,6 +7458,10 @@ AC   FA-01855
 ID   ING family
 AC   FA-01856
 //
+ID   INKA family
+AC   FA-04941
+SY   FAM212 family.
+//
 ID   Inner dynein arm light chain family
 AC   FA-01857
 //
@@ -9056,6 +9091,10 @@ AC   FA-02284
 SY   Methyltransferase superfamily. Trimethylguanosine synthase family.
 HI   FA-02260; Methyltransferase superfamily
 //
+ID   methyltransferase TRM13 family
+AC   FA-04208
+SY   TRM13 family.
+//
 ID   MFAP family
 AC   FA-02290
 //
@@ -9336,6 +9375,10 @@ AC   FA-02358
 ID   MRL1/IGF2R family
 AC   FA-02359
 //
+ID   MRNIP family
+AC   FA-04426
+SY   UPF0544 family.
+//
 ID   Mrp/NBP35 ATP-binding proteins family
 AC   FA-02360
 //
@@ -9446,9 +9489,6 @@ AC   FA-02389
 //
 ID   Myelin proteolipid protein family
 AC   FA-02390
-//
-ID   MYEOV2 family
-AC   FA-02391
 //
 ID   Myo-inositol oxygenase family
 AC   FA-02392
@@ -11976,8 +12016,9 @@ AC   FA-04829
 SY   PRDXDD1 family.
 SY   UPF0566 family.
 //
-ID   Prospero homeobox family
+ID   Prospero homeodomain family
 AC   FA-03030
+SY   Prospero homeobox family.
 //
 ID   Prostaglandin G/H synthase family
 AC   FA-03031
@@ -15147,6 +15188,16 @@ AC   FA-03863
 ID   Succinate/malate CoA ligase beta subunit family
 AC   FA-03864
 //
+ID   ATP-specific subunit beta subfamily
+AC   FA-05391
+SY   Succinate/malate CoA ligase beta subunit family. ATP-specific subunit beta subfamily.
+HI   FA-03864; Succinate/malate CoA ligase beta subunit family
+//
+ID   GTP-specific subunit beta subfamily
+AC   FA-05392
+SY   Succinate/malate CoA ligase beta subunit family. GTP-specific subunit beta subfamily.
+HI   FA-03864; Succinate/malate CoA ligase beta subunit family
+//
 ID   SUFU family
 AC   FA-03865
 //
@@ -16737,9 +16788,6 @@ ID   TRM112 family
 AC   FA-04207
 SY   UPF0315 family.
 //
-ID   TRM13 family
-AC   FA-04208
-//
 ID   TRM44 family
 AC   FA-04209
 SY   UPF0383 family.
@@ -17239,9 +17287,6 @@ AC   FA-04422
 //
 ID   UPF0538 family
 AC   FA-04423
-//
-ID   UPF0544 family
-AC   FA-04426
 //
 ID   UPF0545 family
 AC   FA-04427
