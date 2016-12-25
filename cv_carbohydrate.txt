@@ -6,7 +6,7 @@
 
 Description: Control vocabulary to describe carbohydrate modification
 File name:   cv_carbohydrate.txt
-Last update: 02-Mar-2016
+Last update: 26-Dec-2016
 
 ----------------------------------------------------------------------------
 
@@ -24,7 +24,7 @@ Last update: 02-Mar-2016
   KW         X-ref to Swiss-Prot keyword     Optional; once or more
   //         Terminator                      Once; ends an entry
 
-AN   Next free AC:  CVCA_0034
+AN   Next free AC:  CVCA_0035
 __________________________________________________________________________
 ID   C-linked (Man)
 AC   CVCA_0001
@@ -82,6 +82,11 @@ KW   KW-0325:Glycoprotein.
 ID   N-linked (GlcNAc...) (high mannose or hybrid)
 AC   CVCA_0032
 DE   N-linked (GlcNAc...) (high mannose and or hybrid)
+KW   KW-0325:Glycoprotein.
+//
+ID   N-linked (GlcNAc...) (hybrid)
+AC   CVCA_0034
+DE   N-linked (GlcNAc...) (hybrid)
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (GlcNAc...) (keratan sulfate)
