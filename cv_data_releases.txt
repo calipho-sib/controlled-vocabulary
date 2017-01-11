@@ -353,7 +353,7 @@ ID   Mammalian Phenotype
 AC   CVDR-0095
 DE   Control vocabulary for mammalian phenotype.
 DS   MGI
-DR   ftp://ftp.informatics.jax.org/pub/reports/MPheno_OBO.ontology
+DR   ftp://ftp.informatics.jax.org/pub/reports/HOM_MouseHumanSequence.rpt
 UF   monthly, linked to bioeditor annotations update
 UR
 CI
@@ -395,8 +395,7 @@ ID   MeSH
 AC   CVDR-0002
 DE   Ontology: Medical Subject Headings
 DS   MeSH
-DR   http://www.nlm.nih.gov/mesh/filelist.html, manually load to freud
-DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/cv/descXXXX.xml
+DR   ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/xmlmesh/desc*.xml
 UF   yearly
 UR   http://www.nlm.nih.gov/mesh/MBrowser.html
 CI
@@ -910,7 +909,7 @@ ID   UniProtKB pathways
 AC   CVDR-0017
 DE   Control vocabulary for metabolic pathways
 DS   Uniprot
-DR   gefiles.isb-sib.ch:/work/grp-sprot/sptr/current_release/pathlist.txt
+DR   http://www.grenoble.prabi.fr/obiwarehouse/download/unipathway/public/unipathway.obo
 UF   monthly, linked to uniprot update
 UR
 CI
