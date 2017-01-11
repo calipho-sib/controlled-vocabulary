@@ -1,5 +1,5 @@
-format-version: 1.2
-date: 26:07:2012 08:43
+format-version: 1.3
+date: 08:12:2016 08:43
 saved-by: Bgee team
 auto-generated-by: OBO-Edit 1.101
 default-namespace: stages_ontology
@@ -648,10 +648,11 @@ is_a: HsapDO:0000081 ! child stage
 
 [Term]
 id: HsapDO:0000083
-name: infant stage
+name: 1-23 months infant stage
 namespace: human_developmental_stage
 def: "Child stage that refers to an infant who is over 31 days and is under 24 months old." [Bgee:curator "Bgee"]
 synonym: "1-23 months" EXACT []
+synonym: "infant stage" EXACT []
 is_a: HsapDO:0000081 ! child stage
 
 [Term]
@@ -932,12 +933,13 @@ xref: EV:0300063
 
 [Term]
 id: HsapDO:0000086
-name: adolescent stage
+name: 13-18 year-old adolescent stage
 namespace: human_developmental_stage
 def: "Immature stage that refers to an adolescent who is over 13 and under 19 years old." [Bgee:curator "Bgee"]
 synonym: "teenager" RELATED []
 synonym: "teen" RELATED []
 synonym: "13-18 years" EXACT []
+synonym: "adolescent stage" EXACT []
 is_a: HsapDO:0000080 ! immature stage
 
 [Term]
@@ -1006,10 +1008,11 @@ is_a: HsapDO:0000087 ! adult stage
 
 [Term]
 id: HsapDO:0000089
-name: young adult stage
+name: 19-24 year-old adult stage
 namespace: human_developmental_stage
 def: "Early adulthood that refers to an adult who is under 25." [Bgee:curator "Bgee"]
 synonym: "19-24 years" EXACT []
+synonym: "young adult stage" EXACT []
 is_a: HsapDO:0000088 ! early adulthood
 
 [Term]
@@ -1238,10 +1241,11 @@ is_a: HsapDO:0000087 ! adult stage
 
 [Term]
 id: HsapDO:0000092
-name: middle aged stage
+name: 45-64 year-old adult stage
 namespace: human_developmental_stage
 def: "Late adulthood that refers to an adult who is over 45 and under 65." [Bgee:curator "Bgee"]
 synonym: "45-64 years" EXACT []
+synonym: "middle aged stage" EXACT []
 is_a: HsapDO:0000091 ! late adulthood
 
 [Term]
