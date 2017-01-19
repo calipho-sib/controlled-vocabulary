@@ -139,7 +139,7 @@ Abbrev: UniProt domain
 Name  : UniProt protein list by domain
 LinkTp: Explicit
 Server: http://www.uniprot.org
-Db_URL: http://www.uniprot.org/uniprot/?query=domain:"%s"
+Db_URL: http://www.uniprot.org/uniprot/?query=domain:%22%s%22
 Cat   : Ontologies
 
 AC    : DB-9019
@@ -147,7 +147,7 @@ Abbrev: UniProt family
 Name  : UniProt protein list by family
 LinkTp: Explicit
 Server: http://www.uniprot.org
-Db_URL: http://www.uniprot.org/uniprot/?query=family:"%s"
+Db_URL: http://www.uniprot.org/uniprot/?query=family:%22%s%22
 Cat   : Ontologies
 
 AC    : DB-9020
