@@ -1,9 +1,9 @@
 format-version: 1.2
-date: 25:01:2016 10:44
-saved-by: vhinard
+date: 30:01:2017 10:44
+saved-by: pgaudet
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Terms for voltage-gated sodium channels ""
-default-namespace: default_namespace
+default-namespace: ICEPO
 
 [Term]
 id: ICEPO:0000001
