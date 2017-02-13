@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: 1.26
-date: 27:08:2015 11:30
+data-version: 1.27
+date: 17:01:2017 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
-default-namespace: neXtProt:PDR human anatomy.obo
+default-namespace: TS
 remark: This is a beta version and is only for experimental implementation. This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under a Creative Commons Attribution-NoDerivs License (see http://creativecommons.org/licenses/by-nd/3.0/)
 
 [Term]
@@ -1695,6 +1695,7 @@ id: TS-0432
 name: Hair follicle
 def: "A tube-like invagination of the epidermis from which the hair shaft develops and into which sebaceous glands open. The hair follicle is lined by a cellular inner and outer root sheath of epidermal origin and is invested with a fibrous sheath derived from the dermis. Follicles of very long hairs extend into the subcutaneous layer of tissue under the skin." [MeSH:Hair_Follicle]
 synonym: "Follicle of hair" RELATED []
+synonym: "Hair follicles" RELATED []
 xref: BTO:0000554
 xref: FMA:70660
 xref: MESH:D018859
@@ -1869,15 +1870,17 @@ relationship: part_of TS-0095 ! Brain
 [Term]
 id: TS-0460
 name: Hippocampus
-def: "A curved elevation of gray matter extending the entire length of the floor of the temporal horn of the lateral ventricle. The hippocampus, subiculum, and dentate gyrus constitute the hippocampal formation. Sometimes authors include the entorhinal cortex in the hippocampal formation." [MeSH:Hippocampus]
+def: "Located in the medial temporal lobes, surrounded by the entorhinal, parahippocampal and perirhinal cortices, lies the hippocampus. The hippocampus belongs to the limbic system. The dorsal part is involved in episodic memory and spatial navigation, while the ventral hippocampus is implicated in emotion-related connections. The hippocampus is made up of four regions or subfields: CA1, CA2, CA3, and CA4 which use the initials of Cornu Ammonis, an earlier name of the hippocampus. The term hippocampus is often used synonymously with hippocampal formation." [Wikipedia and HPA:Hippocampus]
 synonym: "Brain hippocampus" RELATED []
+synonym: "Hippocampus proper" RELATED []
+synonym: "Cornu ammonis" RELATED []
+synonym: "Ammon's horn" RELATED []
 xref: BTO:0003705
 xref: FMA:62493
 xref: MESH:D006624
 xref: UBERON:0001954
 xref: URL:http://www.proteinatlas.org/dictionary/normal/hippocampus
-relationship: part_of TS-1307 ! Limbic system
-relationship: part_of TS-2061 ! Limbic lobe
+relationship: part_of TS-2449 ! Hippocampal formation
 
 [Term]
 id: TS-0469
@@ -2146,6 +2149,7 @@ relationship: part_of TS-0309 ! Eye
 id: TS-0513
 name: Lactating mammary gland
 def: "Mammary gland in period of lactation." [neXtProt:PDR]
+synonym: "Lactating breast" RELATED []
 is_a: TS-0595 ! Mammary gland
 
 [Term]
@@ -8446,7 +8450,7 @@ xref: BTO:0002496
 xref: FMA:61922
 xref: MESH:D018891
 xref: UBERON:0001885
-relationship: part_of TS-1020 ! Temporal lobe
+relationship: part_of TS-2449 ! Hippocampal formation
 
 [Term]
 id: TS-2389
@@ -9036,6 +9040,27 @@ xref: MESH:D002111
 xref: UBERON:0001450
 is_a: TS-0088 ! Bone
 relationship: part_of TS-0377 ! Foot
+
+[Term]
+id: TS-2449
+name: Hippocampal formation
+def: "The hippocampus, subiculum, and dentate gyrus constitute the hippocampal formation. Sometimes authors include the entorhinal cortex in the hippocampal formation. The term hippocampus is often used synonymously with hippocampal formation." [Wikipedia:Hippocampal formation]
+xref: BTO:0000601
+xref: FMA:74038
+xref: MESH:D006624
+xref: UBERON:0001954
+xref: URL:http://www.proteinatlas.org/dictionary/normal/hippocampus
+relationship: part_of TS-1307 ! Limbic system
+relationship: part_of TS-2061 ! Limbic lobe
+
+[Term]
+id: TS-2450
+name: Subiculum
+def: "Part of the hippocampal formation that is bounded by the entorhinal cortex and area CA1. It is characterized on the CA1 border by an abrupt widening of the pyramidal cell layer. A molecular layer is present that is continuous with that of CA1, although the stratum radiatum is no longer present. The stratum oriens is also not present." [UBERON:Subiculum]
+xref: BTO:0003087
+xref: FMA:74414
+xref: UBERON:0002191
+relationship: part_of TS-2449 ! Hippocampal formation
 
 [Typedef]
 id: develops_from
