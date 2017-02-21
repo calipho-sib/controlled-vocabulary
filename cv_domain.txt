@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 23-Dec-2016
+Last update: 21-Feb-2017
 
 ----------------------------------------------------------------------------
 
@@ -3422,12 +3422,6 @@ SY   PER-ARNT-SIM.
 FT   DOMAIN.
 TG   PS50112; PAS;
 DO   PDOC50112;
-//
-ID   patatin.
-AC   DO-00470
-FT   DOMAIN.
-TG   PF01734; Patatin;
-DO   IPR002641;
 //
 ID   PAW.
 AC   DO-00471
