@@ -50,3 +50,51 @@ def: "Relation that indicates that the modification causes a change on an observ
 is_a: ME:0000002 ! impact
 created_by: pgaudet
 creation_date: 2016-07-27T03:07:43Z
+
+[Term]
+id: ME:0000007
+name: depolarize
+def: "Relation that indicates some significant shift of the curve in the depolarizing direction compared to wild-type." [NP:VH]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000008
+name: hyperpolarize
+def: "Relation that indicates some significant shift of the curve in the hyperpolarizing direction compared to wild-type." [NP:VH]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000009
+name: impact on temperature-dependence of
+def: "Relation that indicates that the modification significantly changes the temperature-dependence of a parameter compared to wild-type." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000010
+name: no impact on temperature-dependence of
+def: "Relation that indicates that the modification does not cause a change on the temperature-dependence of a parameter compared to wild-type." [NP:PG]
+is_a: ME:0000003 ! no impact
+created_by: pgaudet
+creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000011
+name: slow
+def: "Relation that indicates some significant slower rate of a parameter compared to wild-type." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000012
+name: hasten
+def: "Relation that indicates some significant faster rate of a parameter compared to wild-type." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pgaudet
+creation_date: 2017-03-09T03:07:43Z
