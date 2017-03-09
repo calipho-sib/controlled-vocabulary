@@ -899,3 +899,11 @@ LinkTp: Explicit
 Server: https://www.wikidata.org/wiki/Wikidata:Main_Page
 Db_URL: https://www.wikidata.org/wiki/%s
 Cat   : Other
+
+AC    : DB-9118
+Abbrev: Cellosaurus
+Name  : Cellosaurus
+LinkTp: Explicit
+Server: http://web.expasy.org/cellosaurus
+Db_URL: http://web.expasy.org/cellosaurus/%s
+Cat   : Cell line databases/resources
