@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 21-Feb-2017
+Last update: 10-Mar-2017
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 21-Feb-2017
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00913
+AN   Next free AC: DO-00920
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -652,7 +652,7 @@ DO   PDOC51805;
 ID   C2HC RNF-type.
 AC   DO-00896
 FT   ZN_FING.
-TG   PS51803; ZF_C2HC_RNF.
+TG   PS51803; ZF_C2HC_RNF;
 DI   PDOC51803;
 //
 ID   C3H1-type.
@@ -715,6 +715,13 @@ FT   DOMAIN.
 TG   PS50209; CARD;
 DO   PDOC50209;
 //
+ID   Carrier.
+AC   DO-00913
+SY   CP.
+FT   DOMAIN.
+TG   PS50075; CARRIER;
+DO   PDOC00012;
+//
 ID   Cbl-PTB.
 AC   DO-00763
 SY   Cbl-type phosphotyrosine-binding.
@@ -776,7 +783,7 @@ DO   PDOC51801;
 ID   CCHHC-type.
 AC   DO-00901
 FT   ZN_FING.
-TG   PS51802; ZF_CCHHC.
+TG   PS51802; ZF_CCHHC;
 DO   PDOC51802;
 //
 ID   CG-1.
@@ -862,6 +869,13 @@ AC   DO-00113
 FT   DOMAIN.
 TG   PS51508; CKK;
 DO   PDOC51508;
+//
+ID   Clu.
+AC   DO-00914
+SY   Clueless.
+FT   DOMAIN.
+TG   PS51823; CLU;
+DO   PDOC51823;
 //
 ID   CMP/dCMP-type deaminase.
 AC   DO-00866
@@ -1778,6 +1792,13 @@ AC   DO-00241
 FT   DOMAIN.
 TG   PS51459; FIDO;
 DO   PDOC51459;
+//
+ID   FIIND.
+AC   DO-00915
+SY   function  to  find  domain.
+FT   DOMAIN.
+TG   PS51830; FIIND;
+DO   PDOC51830;
 //
 ID   filamin.
 AC   DO-00242
@@ -3339,6 +3360,12 @@ FT   DOMAIN.
 TG   PS51448; P_TREFOIL_2;
 DO   PDOC00024;
 //
+ID   P/Homo B. 
+AC   DO-00916
+FT   DOMAIN.
+TG   PS51829; P_HOMO_B;
+DO   PDOC51829;
+//
 ID   PA.
 AC   DO-00460
 SY   protease associated.
@@ -3479,11 +3506,13 @@ FT   DOMAIN.
 TG   PF00805; Pentapeptide;
 DO   IPR001646;
 //
-ID   pentaxin.
+ID   pentraxin.
 AC   DO-00479
 FT   DOMAIN.
-TG   PF00354; Pentaxin;
-DO   IPR001759;
+SY   pentaxin.
+SY   PTX.
+TG   PS51828; PTX_2;
+DO   PDOC00261;
 //
 ID   peptidase A1.
 AC   DO-00875
@@ -3556,6 +3585,13 @@ AC   DO-00486
 FT   DOMAIN.
 TG   PF00082; Peptidase_S8;
 DO   IPR000209;
+//
+ID   peripheral subunit-binding.
+AC   DO-00917
+SY   PSBD. 
+FT   DOMAIN.
+TG   PS51826; PSBD;
+DO   PDOC51826;
 //
 ID   PET.
 AC   DO-00487
@@ -4610,6 +4646,12 @@ FT   DOMAIN.
 TG   PS50958; SMB_2;
 DO   PDOC00453;
 //
+ID   SMP-LBD.
+AC   DO-00918
+FT   DOMAIN.
+TG   PF17047; SMP_LBD;
+DO   IPR031468;
+//
 ID   Smr.
 AC   DO-00622
 FT   DOMAIN.
@@ -5269,8 +5311,8 @@ DO   PDOC51717;
 ID   VOC.
 AC   DO-00907
 SY   vicinal oxygen chelate.
-FT   DOMAIN
-TG   PS51819; VOC
+FT   DOMAIN.
+TG   PS51819; VOC;
 DO   PDOC51819;
 //
 ID   VPS28 C-terminal.
@@ -5412,6 +5454,13 @@ AC   DO-00730
 FT   REPEAT.
 TG   PS51389; XIN;
 DO   PDOC51389;
+//
+ID   XRN2-binding.
+AC   DO-00919
+SY   XTBD.
+FT   DOMAIN.
+TG   PS51827; XTBD;
+DO   PDOC51827;
 //
 ID   XTBD.
 AC   DO-00893

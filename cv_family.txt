@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 23-Dec-2016
+Last update: 10-Mar-2017
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 23-Dec-2016
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05395
+AN   Next free AC: FA-05443
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -487,6 +487,10 @@ AC   FA-00091
 SY   Activator 1 small subunits family. CTF18 subfamily.
 HI   FA-00090; Activator 1 small subunits family
 //
+ID   Acyl carrier protein (ACP) family
+AC   FA-05441
+SY   ACP.
+//
 ID   Acyl coenzyme A hydrolase family
 AC   FA-00092
 //
@@ -845,8 +849,8 @@ ID   Amino acid-polyamine-organocation (APC) superfamily
 AC   FA-00182
 //
 ID   Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family
-SY   Sodium/potassium/calcium exchanger family.
 AC   FA-03737
+SY   Sodium/potassium/calcium exchanger family.
 //
 ID   SLC24A subfamily
 AC   FA-03738
@@ -1450,6 +1454,10 @@ AC   FA-00339
 //
 ID   BCAP29/BCAP31 family
 AC   FA-00340
+//
+ID   BCAS3 family
+AC   FA-04618
+SY   WD repeat BCAS3 family.
 //
 ID   BCD1 family
 AC   FA-00341
@@ -2064,6 +2072,9 @@ AC   FA-00497
 //
 ID   CCDC144 family
 AC   FA-00498
+//
+ID   CCDC149 family
+AN   FA-05400
 //
 ID   CCDC160 family
 AC   FA-00499
@@ -4318,6 +4329,14 @@ SY   UPF0470 family.
 ID   DNAAF5 family
 AC   FA-05314
 //
+ID   DnaJ family
+AC   FA-05397
+//
+ID   DNAJB12/DNAJB14 subfamily
+AC   FA-05398
+SY   DnaJ family. DNAJB12/DNAJB14 subfamily.
+HI   FA-05397; DnaJ family
+//
 ID   DNAJC11 family
 AC   FA-00987
 //
@@ -4669,8 +4688,8 @@ ID   eIF4E-binding protein family
 AC   FA-01088
 //
 ID   Elabela/Toddler family
-SY   Elabela family.
 AC   FA-05246
+SY   Elabela family.
 //
 ID   Elastin family
 AC   FA-01090
@@ -5090,9 +5109,6 @@ AC   FA-01197
 //
 ID   FAM10 family
 AC   FA-01198
-//
-ID   FAM101 family
-AC   FA-01200
 //
 ID   FAM102 family
 AC   FA-01201
@@ -5618,6 +5634,10 @@ AC   FA-05359
 //
 ID   Flavoprotein pyridine nucleotide cytochrome reductase family
 AC   FA-01367
+//
+ID   FMC1 family
+AC   FA-04441
+SY   UPF0562 family.
 //
 ID   FMN-dependent alpha-hydroxy acid dehydrogenase family
 AC   FA-01368
@@ -6189,6 +6209,10 @@ AC   FA-05073
 ID   GID8 family
 AC   FA-05074
 SY   UPF0559 family.
+//
+ID   GIGYF family
+AC   FA-02808
+SY   PERQ family.
 //
 ID   GILT family
 AC   FA-01507
@@ -7791,6 +7815,9 @@ AC   FA-01944
 ID   Kazrin family
 AC   FA-01945
 //
+ID   KBTBD8 family
+AN   FA-05401
+//
 ID   KCMF1 family
 AC   FA-01946
 //
@@ -7860,6 +7887,9 @@ AC   FA-01977
 //
 ID   Kizuna family
 AC   FA-01978
+//
+ID   KLHL40 family
+AN   FA-05402
 //
 ID   KptA/TPT1 family
 AC   FA-01979
@@ -8991,6 +9021,11 @@ HI   FA-02257; Methylthiotransferase family
 ID   Methyltransferase superfamily
 AC   FA-02260
 //
+ID   Arsenite methyltransferase family
+AC   FA-05410
+SY   Methyltransferase superfamily. Arsenite methyltransferase family.
+HI   FA-02260; Methyltransferase superfamily
+//
 ID   ETFBKMT family
 AC   FA-04857
 SY   Methyltransferase superfamily. ETFBKMT family.
@@ -9282,9 +9317,6 @@ AC   FA-02330
 //
 ID   Mo25 family
 AC   FA-02331
-//
-ID   MoaA/NifB/PqqE family
-AC   FA-02332
 //
 ID   MoaB/mog family
 AC   FA-02333
@@ -10353,6 +10385,9 @@ SY   UPF0527 family.
 ID   Osteocalcin/matrix Gla protein family
 AC   FA-02617
 //
+ID   Osteocrin family
+AN   FA-05403
+//
 ID   Osteopontin family
 AC   FA-02618
 //
@@ -10585,8 +10620,9 @@ AC   FA-02680
 ID   PEN-2 family
 AC   FA-02682
 //
-ID   Pentaxin family
+ID   Pentraxin family
 AC   FA-02683
+SY   Pentaxin family.
 //
 ID   Peptidase A1 family
 AC   FA-02684
@@ -11094,9 +11130,6 @@ AC   FA-02805
 ID   Peroxisomal targeting signal receptor family
 AC   FA-02806
 //
-ID   PERQ family
-AC   FA-02808
-//
 ID   Pescadillo family
 AC   FA-02810
 //
@@ -11169,6 +11202,11 @@ AC   FA-02829
 //
 ID   Phosphatidylethanolamine-binding protein family
 AC   FA-02830
+//
+ID   Mitochondrion-specific ribosomal protein mL38 subfamily
+AC   FA-05411
+SY   Phosphatidylethanolamine-binding protein family. Mitochondrion-specific ribosomal protein mL38 subfamily.
+HI   FA-02830; Phosphatidylethanolamine-binding protein family
 //
 ID   Phosphatidylserine decarboxylase family
 AC   FA-02831
@@ -11991,9 +12029,10 @@ AC   FA-03021
 ID   Prokaryotic/mitochondrial release factor family
 AC   FA-03023
 //
-ID   ICT1 subfamily
+ID . Mitochondrion-specific ribosomal protein mL62 subfamily
 AC   FA-03024
-SY   Prokaryotic/mitochondrial release factor family. ICT1 subfamily.
+SY   Prokaryotic/mitochondrial release factor family. Mitochondrion-specific ribosomal protein mL62 subfamily.
+SY   ICT1 subfamily.
 HI   FA-03023; Prokaryotic/mitochondrial release factor family
 //
 ID   PROL1/PROL3 family
@@ -12819,6 +12858,12 @@ AC   FA-03223
 SY   Radical SAM superfamily. Lipoyl synthase family.
 HI   FA-03222; Radical SAM superfamily
 //
+ID   MoaA family
+AC   FA-02332
+SY   Radical SAM superfamily. MoaA family.
+SY   MoaA/NifB/PqqE family.
+HI   FA-03222; Radical SAM superfamily
+//
 ID   RSAD2 family
 AC   FA-03469
 SY   Radical SAM superfamily. RSAD2 family.
@@ -12968,6 +13013,10 @@ DR   TC 2.A.48
 ID   Reelin family
 AC   FA-03258
 //
+ID   Refilin family
+AC   FA-01200
+SY   FAM101 family.
+//
 ID   RELT family
 AC   FA-03259
 //
@@ -13046,6 +13095,14 @@ ID   Riboflavin transporter family
 AC   FA-04785
 SY   PERVR family.
 //
+ID   Ribonuclease III family
+AN   FA-05408
+//
+ID   Mitochondrion-specific ribosomal protein mL44 subfamily
+AN   FA-05409
+SY   Ribonuclease III family. Mitochondrion-specific ribosomal protein mL44 subfamily.
+HI   FA-05408; Ribonuclease III family
+//
 ID   Ribonucleoside diphosphate reductase large chain family
 AC   FA-03284
 //
@@ -13058,318 +13115,500 @@ AC   FA-03286
 ID   Ribose-phosphate pyrophosphokinase family
 AC   FA-03287
 //
-ID   Ribosomal protein L10e family
-AC   FA-03288
+ID   Eukaryotic ribosomal protein P1/P2 family
+AC   FA-05442
 //
-ID   Ribosomal protein L10P family
-AC   FA-03289
+ID   Bacterial ribosomal protein bL9 family
+AC   FA-03351
+SY   Ribosomal protein L9P family.
 //
-ID   Ribosomal protein L11P family
-AC   FA-03290
-//
-ID   Ribosomal protein L12P family
+ID   Bacterial ribosomal protein bL12 family
 AC   FA-03291
+SY   Ribosomal protein L12P family.
+SY   Ribosomal protein L7/L12P family.
 //
-ID   Ribosomal protein L13e family
-AC   FA-03292
-//
-ID   Ribosomal protein L13P family
-AC   FA-03293
-//
-ID   Ribosomal protein L14e family
-AC   FA-03294
-//
-ID   Ribosomal protein L14P family
-AC   FA-03295
-//
-ID   Ribosomal protein L15e family
-AC   FA-03296
-//
-ID   Ribosomal protein L15P family
-AC   FA-03297
-//
-ID   Ribosomal protein L16P family
-AC   FA-03298
-//
-ID   Ribosomal protein L17P family
+ID   Bacterial ribosomal protein bL17 family
 AC   FA-03299
+SY   Ribosomal protein L17P family.
 //
-ID   Ribosomal protein L18Ae family
-AC   FA-03300
-//
-ID   Ribosomal protein L18e family
-AC   FA-03301
-//
-ID   Ribosomal protein L18P family
-AC   FA-03302
-//
-ID   Ribosomal protein L19e family
-AC   FA-03303
-//
-ID   Ribosomal protein L19P family
+ID   Bacterial ribosomal protein bL19 family
 AC   FA-03304
+SY   Ribosomal protein L19P family.
 //
-ID   Ribosomal protein L1P family
+ID   Bacterial ribosomal protein bL20 family
+AC   FA-03306
+SY   Ribosomal protein L20P family.
+//
+ID   Bacterial ribosomal protein bL21 family
+AC   FA-03308
+SY   Ribosomal protein L21P family.
+//
+ID   Bacterial ribosomal protein bL27 family
+AC   FA-03315
+SY   Ribosomal protein L27P family.
+//
+ID   Bacterial ribosomal protein bL28 family
+AC   FA-03317
+SY   Ribosomal protein L28P family.
+//
+ID   Bacterial ribosomal protein bL32 family
+AC   FA-03325
+SY   Ribosomal protein L32P family.
+//
+ID   Bacterial ribosomal protein bL33 family
+AC   FA-03326
+SY   Ribosomal protein L33P family.
+//
+ID   Bacterial ribosomal protein bL34 family
+AC   FA-03328
+SY   Ribosomal protein L34P family.
+//
+ID   Bacterial ribosomal protein bL35 family
+AC   FA-03330
+SY   Ribosomal protein L35P family.
+//
+ID   Bacterial ribosomal protein bL36 family
+AC   FA-03332
+SY   Ribosomal protein L36P family.
+//
+ID   Eukaryotic ribosomal protein eL6 family
+AC   FA-03348
+SY   Ribosomal protein L6e family.
+//
+ID   Eukaryotic ribosomal protein eL8 family
+AC   FA-03350
+SY   Ribosomal protein L7Ae family.
+//
+ID   Eukaryotic ribosomal protein eL13 family
+AC   FA-03292
+SY   Ribosomal protein L13e family.
+//
+ID   Eukaryotic ribosomal protein eL14 family
+AC   FA-03294
+SY   Ribosomal protein L14e family.
+//
+ID   Eukaryotic ribosomal protein eL15 family
+AC   FA-03296
+SY   Ribosomal protein L15e family.
+//
+ID   Eukaryotic ribosomal protein eL18 family
+AC   FA-03301
+SY   Ribosomal protein L18e family.
+//
+ID   Eukaryotic ribosomal protein eL19 family
+AC   FA-03303
+SY   Ribosomal protein L19e family.
+//
+ID   Eukaryotic ribosomal protein eL20 family
+AC   FA-03300
+SY   Ribosomal protein L18Ae family.
+//
+ID   Eukaryotic ribosomal protein eL21 family
+AC   FA-03307
+SY   Ribosomal protein L21e family.
+//
+ID   Eukaryotic ribosomal protein eL22 family
+AC   FA-03309
+SY   Ribosomal protein L22e family.
+//
+ID   Eukaryotic ribosomal protein eL24 family
+AC   FA-03312
+SY   Ribosomal protein L24e family.
+//
+ID   Eukaryotic ribosomal protein eL27 family
+AC   FA-03314
+SY   Ribosomal protein L27e family.
+//
+ID   Eukaryotic ribosomal protein eL28 family
+AC   FA-03316
+SY   Ribosomal protein L28e family.
+//
+ID   Eukaryotic ribosomal protein eL29 family
+AC   FA-03318
+SY   Ribosomal protein L29e family.
+//
+ID   Eukaryotic ribosomal protein eL30 family
+AC   FA-03321
+SY   Ribosomal protein L30e family.
+//
+ID   Eukaryotic ribosomal protein eL31 family
+AC   FA-03323
+SY   Ribosomal protein L31e family.
+//
+ID   Eukaryotic ribosomal protein eL32 family
+AC   FA-03324
+SY   Ribosomal protein L32e family.
+//
+ID   Eukaryotic ribosomal protein eL33 family
+AC   FA-03329
+SY   Ribosomal protein L35Ae family.
+//
+ID   Eukaryotic ribosomal protein eL34 family
+AC   FA-03327
+SY   Ribosomal protein L34e family.
+//
+ID   Eukaryotic ribosomal protein eL36 family
+AC   FA-03331
+SY   Ribosomal protein L36e family.
+//
+ID   Eukaryotic ribosomal protein eL37 family
+AC   FA-03334
+SY   Ribosomal protein L37e family.
+//
+ID   Eukaryotic ribosomal protein eL38 family
+AC   FA-03335
+SY   Ribosomal protein L38e family.
+//
+ID   Eukaryotic ribosomal protein eL39 family
+AC   FA-03336
+SY   Ribosomal protein L39e family.
+//
+ID   Eukaryotic ribosomal protein eL40 family
+AC   FA-03338
+SY   Ribosomal protein L40e family.
+//
+ID   Eukaryotic ribosomal protein eL41 family
+AC   FA-03340
+SY   Ribosomal protein L41e family.
+//
+ID   Eukaryotic ribosomal protein eL42 family
+AC   FA-03341
+SY   Ribosomal protein L44e family.
+//
+ID   Universal ribosomal protein uL1 family
 AC   FA-03305
+SY   Universal ribosomal protein uL1 family. Highly divergent.
+SY   Ribosomal protein L1P family.
 SY   Ribosomal protein L1P family. Highly divergent.
 //
-ID   Ribosomal protein L20P family
-AC   FA-03306
-//
-ID   Ribosomal protein L21e family
-AC   FA-03307
-//
-ID   Ribosomal protein L21P family
-AC   FA-03308
-//
-ID   Ribosomal protein L22e family
-AC   FA-03309
-//
-ID   Ribosomal protein L22P family
-AC   FA-03310
-//
-ID   Ribosomal protein L23P family
-AC   FA-03311
-//
-ID   Ribosomal protein L24e family
-AC   FA-03312
-//
-ID   Ribosomal protein L24P family
-AC   FA-03313
-//
-ID   Ribosomal protein L27e family
-AC   FA-03314
-//
-ID   Ribosomal protein L27P family
-AC   FA-03315
-//
-ID   Ribosomal protein L28e family
-AC   FA-03316
-//
-ID   Ribosomal protein L28P family
-AC   FA-03317
-//
-ID   Ribosomal protein L29e family
-AC   FA-03318
-//
-ID   Ribosomal protein L29P family
-AC   FA-03319
-//
-ID   Ribosomal protein L2P family
+ID   Universal ribosomal protein uL2 family
 AC   FA-03320
+SY   Ribosomal protein L2P family.
 //
-ID   Ribosomal protein L30e family
-AC   FA-03321
-//
-ID   Ribosomal protein L30P family
-AC   FA-03322
-//
-ID   Ribosomal protein L31e family
-AC   FA-03323
-//
-ID   Ribosomal protein L32e family
-AC   FA-03324
-//
-ID   Ribosomal protein L32P family
-AC   FA-03325
-//
-ID   Ribosomal protein L33P family
-AC   FA-03326
-//
-ID   Ribosomal protein L34e family
-AC   FA-03327
-//
-ID   Ribosomal protein L34P family
-AC   FA-03328
-//
-ID   Ribosomal protein L35Ae family
-AC   FA-03329
-//
-ID   Ribosomal protein L35P family
-AC   FA-03330
-//
-ID   Ribosomal protein L36e family
-AC   FA-03331
-//
-ID   Ribosomal protein L36P family
-AC   FA-03332
-//
-ID   Ribosomal protein L37Ae family
-AC   FA-03333
-//
-ID   Ribosomal protein L37e family
-AC   FA-03334
-//
-ID   Ribosomal protein L38e family
-AC   FA-03335
-//
-ID   ribosomal protein L39 family
-AC   FA-05255
-//
-ID   Ribosomal protein L39e family
-AC   FA-03336
-//
-ID   Ribosomal protein L3P family
+ID   Universal ribosomal protein uL3 family
 AC   FA-03337
+SY   Ribosomal protein L3P family.
 //
-ID   Ribosomal protein L40e family
-AC   FA-03338
-//
-ID   Ribosomal protein L41 family
-AC   FA-03339
-//
-ID   Ribosomal protein L41e family
-AC   FA-03340
-//
-ID   Ribosomal protein L44e family
-AC   FA-03341
-//
-ID   Ribosomal protein L45 family
-AC   FA-03342
-//
-ID   Ribosomal protein L46 family
-AC   FA-03343
-//
-ID   Ribosomal protein L47em family
-AC   FA-03344
-//
-ID   Ribosomal protein L49em family
-AC   FA-03345
-//
-ID   Ribosomal protein L4P family
+ID   Universal ribosomal protein uL4 family
 AC   FA-03346
+SY   Ribosomal protein L4P family.
 //
-ID   Ribosomal protein L5P family
+ID   Universal ribosomal protein uL5 family
 AC   FA-03347
+SY   Ribosomal protein L5P family.
 //
-ID   Ribosomal protein L6e family
-AC   FA-03348
-//
-ID   Ribosomal protein L6P family
+ID   Universal ribosomal protein uL6 family
 AC   FA-03349
+SY   Ribosomal protein L6P family.
 //
-ID   Ribosomal protein L7/L12P family
-AC   FA-05081
+ID   Universal ribosomal protein uL10 family
+AC   FA-03289
+SY   Ribosomal protein L10P family.
 //
-ID   Ribosomal protein L7Ae family
-AC   FA-03350
+ID   Universal ribosomal protein uL11 family
+AC   FA-03290
+SY   Ribosomal protein L11P family.
 //
-ID   Ribosomal protein L9P family
-AC   FA-03351
+ID   Universal ribosomal protein uL13 family
+AC   FA-03293
+SY   Ribosomal protein L13P family.
 //
-ID   Ribosomal protein S10e family
-AC   FA-03352
+ID   Universal ribosomal protein uL14 family
+AC   FA-03295
+SY   Ribosomal protein L14P family.
 //
-ID   Ribosomal protein S10P family
-AC   FA-03353
+ID   Universal ribosomal protein uL15 family
+AC   FA-03297
+SY   Ribosomal protein L15P family.
 //
-ID   Ribosomal protein S11P family
-AC   FA-03354
+ID   Universal ribosomal protein uL16 family
+AC   FA-03298
+SY   Ribosomal protein L16P family.
+SY   Ribosomal protein L10e family.
 //
-ID   Ribosomal protein S12e family
-AC   FA-03355
+ID   Universal ribosomal protein uL18 family
+AC   FA-03302
+SY   Ribosomal protein L18P family.
 //
-ID   Ribosomal protein S12P family
-AC   FA-03356
+ID   Universal ribosomal protein uL22 family
+AC   FA-03310
+SY   Ribosomal protein L22P family.
 //
-ID   Ribosomal protein S13P family
-AC   FA-03357
+ID   Universal ribosomal protein uL23 family
+AC   FA-03311
+SY   Ribosomal protein L23P family.
 //
-ID   Ribosomal protein S14P family
-AC   FA-03358
+ID   Universal ribosomal protein uL24 family
+AC   FA-03313
+SY   Ribosomal protein L24P family.
 //
-ID   Ribosomal protein S15P family
-AC   FA-03359
+ID   Universal ribosomal protein uL29 family
+AC   FA-03319
+SY   Ribosomal protein L29P family.
+SY   Ribosomal protein L47em family.
 //
-ID   Ribosomal protein S16P family
-AC   FA-03360
+ID   Universal ribosomal protein uL30 family
+AC   FA-03322
+SY   Ribosomal protein L30P family.
 //
-ID   Ribosomal protein S17e family
-AC   FA-03361
+ID   Eukaryotic ribosomal protein eL43 family
+AC   FA-03333
+SY   Ribosomal protein L37Ae family.
 //
-ID   Ribosomal protein S17P family
-AC   FA-03362
+ID   Mitochondrion-specific ribosomal protein mL37 family
+AC   FA-05412
 //
-ID   Ribosomal protein S18P family
-AC   FA-03363
+ID   Mitochondrion-specific ribosomal protein mL39 family
+AC   FA-05255
+SY   Ribosomal protein L39 family.
 //
-ID   Ribosomal protein S19e family
-AC   FA-03364
+ID   Mitochondrion-specific ribosomal protein mL40 family
+AC   FA-05413
 //
-ID   Ribosomal protein S19P family
-AC   FA-03365
+ID   Mitochondrion-specific ribosomal protein mL41 family
+AC   FA-03339
+SY   Ribosomal protein L41 family.
 //
-ID   Ribosomal protein S21e family
-AC   FA-03366
+ID   Mitochondrion-specific ribosomal protein mL42 family
+AC   FA-05414
 //
-ID   Ribosomal protein S21P family
-AC   FA-03367
+ID   Mitochondrion-specific ribosomal protein mL43 family
+AC   FA-05415
 //
-ID   Ribosomal protein S24e family
-AC   FA-03368
+ID   Mitochondrion-specific ribosomal protein mL45 family
+AC   FA-03342
+SY   Ribosomal protein L45 family.
 //
-ID   Ribosomal protein S25/L51 family
-AC   FA-03369
+ID   Mitochondrion-specific ribosomal protein mL46 family
+AC   FA-03343
+SY   Ribosomal protein L46 family.
 //
-ID   Ribosomal protein S25e family
-AC   FA-03370
+ID   Mitochondrion-specific ribosomal protein mL48 family
+AC   FA-05416
 //
-ID   Ribosomal protein S26e family
-AC   FA-03371
+ID   Mitochondrion-specific ribosomal protein mL49 family
+AC   FA-03345
+SY   Ribosomal protein L49em family.
 //
-ID   Ribosomal protein S27Ae family
-AC   FA-03372
+ID   Mitochondrion-specific ribosomal protein mL50 family
+AC   FA-05417
 //
-ID   Ribosomal protein S27e family
-AC   FA-03373
+ID   Mitochondrion-specific ribosomal protein mL51 family
+AC   FA-05424
 //
-ID   Ribosomal protein S28e family
-AC   FA-03374
+ID   Mitochondrion-specific ribosomal protein mL52 family
+AC   FA-05418
 //
-ID   Ribosomal protein S2P family
-AC   FA-03375
+ID   Mitochondrion-specific ribosomal protein mL53 family
+AC   FA-05419
 //
-ID   Ribosomal protein S30/L37 family
-AC   FA-03376
+ID   Mitochondrion-specific ribosomal protein mL55 family
+AC   FA-05420
 //
-ID   Ribosomal protein S30e family
-AC   FA-03377
+ID   Mitochondrion-specific ribosomal protein mL63 family
+AC   FA-05421
 //
-ID   Ribosomal protein S3Ae family
-AC   FA-03378
+ID   Mitochondrion-specific ribosomal protein mL64 family
+AC   FA-05422
 //
-ID   Ribosomal protein S3P family
-AC   FA-03379
+ID   Mitochondrion-specific ribosomal protein mL65 family
+AC   FA-05423
 //
-ID   Ribosomal protein S4e family
-AC   FA-03380
+ID   Bacterial ribosomal protein bS1 family
+AC   FA-05425
 //
-ID   Ribosomal protein S4P family
-AC   FA-03381
-//
-ID   Ribosomal protein S5P family
-AC   FA-03382
-//
-ID   Ribosomal protein S6e family
-AC   FA-03383
-//
-ID   Ribosomal protein S6P family
+ID   Bacterial ribosomal protein bS6 family
 AC   FA-03384
+SY   Ribosomal protein S6P family.
 //
-ID   Ribosomal protein S7e family
+ID   Bacterial ribosomal protein bS16 family
+AC   FA-03360
+SY   Ribosomal protein S16P family.
+//
+ID   Bacterial ribosomal protein bS18 family
+AC   FA-03363
+SY   Ribosomal protein S18P family.
+//
+ID   Mitochondrion-specific ribosomal protein mL66 subfamily
+AC   FA-05439
+SY   Bacterial ribosomal protein bS18 family. Mitochondrion-specific ribosomal protein mL66 subfamily.
+HI   FA-03363; Bacterial ribosomal protein bS18 family
+//
+ID   Mitochondrion-specific ribosomal protein mS40 subfamily
+AC   FA-05440
+SY   Bacterial ribosomal protein bS18 family. Mitochondrion-specific ribosomal protein mS40 subfamily.
+HI   FA-03363; Bacterial ribosomal protein bS18 family
+//
+ID   Bacterial ribosomal protein bS21 family
+AC   FA-03367
+SY   Ribosomal protein S21P family.
+//
+ID   Eukaryotic ribosomal protein eS1 family
+AC   FA-03378
+SY   Ribosomal protein S3Ae family.
+//
+ID   Eukaryotic ribosomal protein eS4 family
+AC   FA-03380
+SY   Ribosomal protein S4e family.
+//
+ID   Eukaryotic ribosomal protein eS6 family
+AC   FA-03383
+SY   Ribosomal protein S6e family.
+//
+ID   Eukaryotic ribosomal protein eS7 family
 AC   FA-03385
+SY   Ribosomal protein S7e family.
 //
-ID   Ribosomal protein S7P family
-AC   FA-03386
-//
-ID   Ribosomal protein S8e family
+ID   Eukaryotic ribosomal protein eS8 family
 AC   FA-03387
+SY   Ribosomal protein S8e family.
 //
-ID   Ribosomal protein S8P family
+ID   Eukaryotic ribosomal protein eS10 family
+AC   FA-03352
+SY   Ribosomal protein S10e family.
+//
+ID   Eukaryotic ribosomal protein eS12 family
+AC   FA-03355
+SY   Ribosomal protein S12e family.
+//
+ID   Eukaryotic ribosomal protein eS17 family
+AC   FA-03361
+SY   Ribosomal protein S17e family.
+//
+ID   Eukaryotic ribosomal protein eS19 family
+AC   FA-03364
+SY   Ribosomal protein S19e family.
+//
+ID   Eukaryotic ribosomal protein eS21 family
+AC   FA-03366
+SY   Ribosomal protein S21e family.
+//
+ID   Eukaryotic ribosomal protein eS24 family
+AC   FA-03368
+SY   Ribosomal protein S24e family.
+//
+ID   Eukaryotic ribosomal protein eS25 family
+AC   FA-03370
+SY   Ribosomal protein S25e family.
+//
+ID   Eukaryotic ribosomal protein eS26 family
+AC   FA-03371
+SY   Ribosomal protein S26e family.
+//
+ID   Eukaryotic ribosomal protein eS27 family
+AC   FA-03373
+SY   Ribosomal protein S27e family.
+//
+ID   Eukaryotic ribosomal protein eS28 family
+AC   FA-03374
+SY   Ribosomal protein S28e family.
+//
+ID   Eukaryotic ribosomal protein eS30 family
+AC   FA-03377
+SY   Ribosomal protein S30e family.
+//
+ID   Eukaryotic ribosomal protein eS31 family
+AC   FA-03372
+SY   Ribosomal protein S27Ae family.
+//
+ID   Universal ribosomal protein uS2 family
+AC   FA-03375
+SY   Ribosomal protein S2P family.
+//
+ID   Universal ribosomal protein uS3 family
+AC   FA-03379
+SY   Ribosomal protein S3P family.
+//
+ID   Universal ribosomal protein uS4 family
+AC   FA-03381
+SY   Ribosomal protein S4P family.
+//
+ID   Universal ribosomal protein uS5 family
+AC   FA-03382
+SY   Ribosomal protein S5P family.
+//
+ID   Universal ribosomal protein uS7 family
+AC   FA-03386
+SY   Ribosomal protein S7P family.
+//
+ID   Universal ribosomal protein uS8 family
 AC   FA-03388
+SY   Ribosomal protein S8P family.
 //
-ID   Ribosomal protein S9P family
+ID   Universal ribosomal protein uS9 family
 AC   FA-03389
+SY   Ribosomal protein S9P family.
+//
+ID   Universal ribosomal protein uS10 family
+AC   FA-03353
+SY   Ribosomal protein S10P family.
+//
+ID   Universal ribosomal protein uS11 family
+AC   FA-03354
+SY   Ribosomal protein S11P family.
+//
+ID   Universal ribosomal protein uS12 family
+AC   FA-03356
+SY   Ribosomal protein S12P family.
+//
+ID   Universal ribosomal protein uS13 family
+AC   FA-03357
+SY   Ribosomal protein S13P family.
+//
+ID   Universal ribosomal protein uS14 family
+AC   FA-03358
+SY   Ribosomal protein S14P family.
+//
+ID   Universal ribosomal protein uS15 family
+AC   FA-03359
+SY   Ribosomal protein S15P family.
+//
+ID   Universal ribosomal protein uS17 family
+AC   FA-03362
+SY   Ribosomal protein S17P family.
+//
+ID   Universal ribosomal protein uS19 family
+AC   FA-03365
+SY   Ribosomal protein S19P family.
+//
+ID   Mitochondrion-specific ribosomal protein mS22 family
+AC   FA-05426
+//
+ID   Mitochondrion-specific ribosomal protein mS23 family
+AC   FA-05427
+//
+ID   Mitochondrion-specific ribosomal protein mS25 family
+AC   FA-05428
+//
+ID   Mitochondrion-specific ribosomal protein mS26 family
+AC   FA-05429
+//
+ID   Mitochondrion-specific ribosomal protein mS27 family
+AC   FA-05430
+//
+ID   Mitochondrion-specific ribosomal protein mS29 family
+AC   FA-05431
+//
+ID   Mitochondrion-specific ribosomal protein mS31 family
+AC   FA-05432
+//
+ID   Mitochondrion-specific ribosomal protein mS33 family
+AC   FA-05433
+//
+ID   Mitochondrion-specific ribosomal protein mS34 family
+AC   FA-05434
+//
+ID   Mitochondrion-specific ribosomal protein mS35 family
+AC   FA-05435
+//
+ID   Mitochondrion-specific ribosomal protein mS37 family
+AC   FA-05436
+//
+ID   Mitochondrion-specific ribosomal protein mS38 family
+AC   FA-05437
+//
+ID   Mitochondrion-specific ribosomal protein mS39 family
+AC   FA-05438
 //
 ID   Ribulose-phosphate 3-epimerase family
 AC   FA-03390
@@ -13992,8 +14231,9 @@ HI   FA-03553; Selenophosphate synthase 1 family
 ID   Selenoprotein K family
 AC   FA-03556
 //
-ID   Selenoprotein M/SEP15 family
+ID   Selenoprotein M/F family
 AC   FA-03557
+SY   Selenoprotein M/SEP15 family.
 //
 ID   Selenoprotein P family
 AC   FA-03558
@@ -14004,14 +14244,16 @@ AC   FA-03559
 ID   SelWTH family
 AC   FA-03560
 //
-ID   SELT subfamily
+ID   Selenoprotein T subfamily
 AC   FA-03561
-SY   SelWTH family. SELT subfamily.
+SY   SelWTH family. Selenoprotein T subfamily.
+SY   SELT subfamily.
 HI   FA-03560; SelWTH family
 //
-ID   SELW subfamily
+ID   Selenoprotein W subfamily
 AC   FA-03562
-SY   SelWTH family. SELW subfamily.
+SY   SelWTH family. Selenoprotein W subfamily.
+SY   SELW subfamily.
 HI   FA-03560; SelWTH family
 //
 ID   Semaphorin family
@@ -15524,9 +15766,6 @@ AC   FA-03952
 ID   TDE1 family
 AC   FA-03953
 //
-ID   TDG/mug DNA glycosylase family
-AC   FA-03954
-//
 ID   Tdpoz family
 AC   FA-03955
 //
@@ -15538,6 +15777,9 @@ AC   FA-03957
 //
 ID   TDRD7 family
 AC   FA-04879
+//
+ID   Tdrkh family
+AN   FA-05405
 //
 ID   Teashirt C2H2-type zinc-finger protein family
 AC   FA-03958
@@ -15852,6 +16094,9 @@ AC   FA-04044
 ID   TMEM134/TMEM230 family
 AC   FA-05033
 SY   UPF0414 family.
+//
+ID   TMEM135 family
+AN   FA-05404
 //
 ID   TMEM136 family
 AC   FA-04045
@@ -16253,6 +16498,12 @@ AC   FA-05284
 SY   TRAFAC class dynamin-like GTPase superfamily. Dynamin/Fzo/YdjA family. EHD subfamily.
 HI   FA-01038; Dynamin/Fzo/YdjA family
 //
+ID   Mitofusin subfamily
+AC   FA-02318
+SY   TRAFAC class dynamin-like GTPase superfamily. Dynamin/Fzo/YdjA family. Mitofusin subfamily.
+SY   Mitofusin family.
+HI   FA-01038; Dynamin/Fzo/YdjA family
+//
 ID   GB1/RHD3-type GTPase family
 AC   FA-05285
 SY   TRAFAC class dynamin-like GTPase superfamily. GB1/RHD3-type GTPase family.
@@ -16264,12 +16515,6 @@ SY   TRAFAC class dynamin-like GTPase superfamily. GB1/RHD3-type GTPase family. 
 SY   GBP family.
 HI   FA-05285; GB1/RHD3-type GTPase family
 //
-ID   Mitofusin subfamily
-AC   FA-02318
-SY   TRAFAC class dynamin-like GTPase superfamily. Dynamin/Fzo/YdjA family. Mitofusin subfamily.
-SY   Mitofusin family.
-HI   FA-01038; Dynamin/Fzo/YdjA family
-//
 ID   IRG family
 AC   FA-01883
 SY   TRAFAC class dynamin-like GTPase superfamily. IRG family.
@@ -16277,8 +16522,10 @@ SY   Interferon-inducible GTPase family.
 HI   FA-05283; TRAFAC class dynamin-like GTPase superfamily
 //
 ID   Very large inducible GTPase (VLIG) family
-SY   TRAFAC class dynamin-like GTPase superfamily. Very large inducible GTPase (VLIG) family.
 AC   FA-03279
+SY   TRAFAC class dynamin-like GTPase superfamily. Very large inducible GTPase (VLIG) family.
+SY   VLIG family.
+HI   FA-05283; TRAFAC class dynamin-like GTPase superfamily
 //
 ID   TRAFAC class myosin-kinesin ATPase superfamily
 AC   FA-05286
@@ -16313,16 +16560,16 @@ SY   TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family. KIF27 subfa
 SY   Kinesin-like protein family. KIF27 subfamily.
 HI   FA-01965; Kinesin family
 //
-ID   Kinesin II subfamily
-AC   FA-01970
-SY   TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family. Kinesin II subfamily.
-SY   Kinesin-like protein family. Kinesin II subfamily.
-HI   FA-01965; Kinesin family
-//
 ID   Kinesin subfamily
 AC   FA-01971
 SY   TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family. Kinesin subfamily.
 SY   Kinesin-like protein family. Kinesin subfamily.
+HI   FA-01965; Kinesin family
+//
+ID   Kinesin II subfamily
+AC   FA-01970
+SY   TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family. Kinesin II subfamily.
+SY   Kinesin-like protein family. Kinesin II subfamily.
 HI   FA-01965; Kinesin family
 //
 ID   KLP2 subfamily
@@ -16358,9 +16605,9 @@ ID   TRAFAC class OBG-HflX-like GTPase superfamily
 AC   FA-05257
 //
 ID   OBG GTPase family
+AC   FA-01690
 SY   TRAFAC class OBG-HflX-like GTPase superfamily. OBG GTPase family.
 SY   GTP1/OBG family.
-AC   FA-01690
 HI   FA-05257; TRAFAC class OBG-HflX-like GTPase superfamily
 //
 ID   NOG subfamily
@@ -16455,8 +16702,8 @@ SY   GTP-binding elongation factor family. SelB subfamily.
 HI   FA-01682; Classic translation factor GTPase family
 //
 ID   TRAFAC class TrmE-Era-EngA-EngB-Septin-like GTPase superfamily
-SY   Era/MnmE GTP-binding protein family.
 AC   FA-01122
+SY   Era/MnmE GTP-binding protein family.
 //
 ID   AIG1/Toc34/Toc159-like paraseptin GTPase family
 AC   FA-05289
@@ -16495,8 +16742,8 @@ SY   TRAFAC class TrmE-Era-EngA-EngB-Septin-like GTPase superfamily. Septin GTPa
 HI   FA-01122; TRAFAC class TrmE-Era-EngA-EngB-Septin-like GTPase superfamily
 //
 ID   TRAFAC class YlqF/YawG GTPase family
-SY   MMR1/HSR1 GTP-binding protein family.
 AC   FA-02323
+SY   MMR1/HSR1 GTP-binding protein family.
 //
 ID   LSG1 subfamily
 AC   FA-02324
@@ -17300,9 +17547,6 @@ AC   FA-04434
 ID   UPF0561 family
 AC   FA-04440
 //
-ID   UPF0562 family
-AC   FA-04441
-//
 ID   UPF0565 family
 AC   FA-04443
 //
@@ -17446,8 +17690,25 @@ AC   FA-04532
 ID   UQCRQ/QCR8 family
 AC   FA-04533
 //
-ID   Uracil-DNA glycosylase family
+ID   uracil-DNA glycosylase (UDG) superfamily
+AC   FA-05395
+//
+ID   SMUG1 family
+AC   FA-05396
+SY   Uracil-DNA glycosylase (UDG) superfamily. SMUG1 family.
+HI   FA-05395; Uracil-DNA glycosylase (UDG) superfamily
+//
+ID   TDG/mug family
+AC   FA-03954
+SY   Uracil-DNA glycosylase (UDG) superfamily. TDG/mug family.
+SY   TDG/mug DNA glycosylase family.
+HI   FA-05395; Uracil-DNA glycosylase (UDG) superfamily
+//
+ID   UNG family
 AC   FA-04534
+SY   Uracil-DNA glycosylase (UDG) superfamily. UNG family.
+SY   Uracil-DNA glycosylase family.
+HI   FA-05395; Uracil-DNA glycosylase (UDG) superfamily
 //
 ID   Urea transporter family
 AC   FA-04535
@@ -17752,9 +18013,6 @@ AC   FA-04616
 ID   WD repeat ATG16 family
 AC   FA-04617
 //
-ID   WD repeat BCAS3 family
-AC   FA-04618
-//
 ID   WD repeat BOP1/ERB1 family
 AC   FA-04619
 //
@@ -17817,6 +18075,11 @@ AC   FA-04846
 //
 ID   WD repeat G protein beta family
 AC   FA-04638
+//
+ID   Ribosomal protein RACK1 subfamily
+AC   FA-05399
+SY   WD repeat G protein beta family. Ribosomal protein RACK1 subfamily.
+HI   FA-04638; WD repeat G protein beta family
 //
 ID   WD repeat GAD-1 family
 AC   FA-04639
@@ -18079,6 +18342,9 @@ AC   FA-04712
 ID   YOS1 family
 AC   FA-04715
 //
+ID   YTHDF2 family
+AN   FA-05406
+//
 ID   YY transcription factor family
 AC   FA-04716
 //
@@ -18155,6 +18421,9 @@ AC   FA-04733
 //
 ID   ZNF593/BUD20 C2H2-type zinc-finger protein family
 AC   FA-04734
+//
+ID   ZNF598 family
+AN   FA-05407
 //
 ID   ZNHIT1 family
 AC   FA-04735
