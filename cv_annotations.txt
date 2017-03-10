@@ -454,3 +454,8 @@ AC   CVAN_0174
 DE   Protein 3D structure
 HI   region of interest
 //
+ID   cofactor information
+AC   CVAN_0175
+DE   Relevant information on protein cofactor(s)
+HI   general annotation
+//
