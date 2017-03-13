@@ -3511,6 +3511,7 @@ AC   DO-00479
 FT   DOMAIN.
 SY   pentaxin.
 SY   PTX.
+SY   Pentraxin (PTX).
 TG   PS51828; PTX_2;
 DO   PDOC00261;
 //
@@ -3589,6 +3590,7 @@ DO   IPR000209;
 ID   peripheral subunit-binding.
 AC   DO-00917
 SY   PSBD. 
+SY   peripheral subunit-binding (PSBD).
 FT   DOMAIN.
 TG   PS51826; PSBD;
 DO   PDOC51826;
@@ -5458,6 +5460,7 @@ DO   PDOC51389;
 ID   XRN2-binding.
 AC   DO-00919
 SY   XTBD.
+SY   XRN2-binding (XTBD).
 FT   DOMAIN.
 TG   PS51827; XTBD;
 DO   PDOC51827;

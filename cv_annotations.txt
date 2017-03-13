@@ -23,7 +23,7 @@ Release:     00.0 of 23-Apr-2014
   //         Terminator                      Once; ends an entry
 
 The AC with a xxxx < 100 are reserved for CVs with a nextprot.cv_terms.cv_id prefixed
-Next accession CVAN_0175
+Next accession CVAN_0176
 __________________________________________________________________________
 ID   annotation
 AC   CVAN_0001
