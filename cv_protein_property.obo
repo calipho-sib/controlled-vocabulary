@@ -1,18 +1,9 @@
 format-version: 1.2
-data-version: 1.003
-date: 12:01:2017 12:18
+data-version: 1.005
+date: 02:02:2017 12:18
 saved-by: pgaudet
 default-namespace: PP
 ontology: PROTEIN_PROPERTY
-
-! BioEditor annotation tech note 17
-! Next free temporary UID: PP:0006
-
-! MODEL
-! id: PP:0001
-! name: name
-! def: "free text"
-! xref: VariO:nnnn
 
 [Term]
 id: PP:0001
@@ -43,3 +34,15 @@ id: PP:0005
 name: protein conformation
 def: "Variation changing protein conformation."
 xref: VariO:0074
+
+[Term]
+id: PP:0006
+name: protein solubility
+def: "Variation changing protein solubility."
+xref: VariO:0035
+
+[Term]
+id: PP:0007
+name: protein aggregation
+def: "Variation changing the propensity for a protein to form aggregates."
+xref: VariO:0038
