@@ -907,3 +907,11 @@ LinkTp: Explicit
 Server: http://web.expasy.org/cellosaurus
 Db_URL: http://web.expasy.org/cellosaurus/%s
 Cat   : Cell line databases/resources
+
+AC    : DB-9119
+Abbrev: ISBN
+Name  : ISBN
+LinkTp: Explicit
+Server: http://www.openisbn.com/
+Db_URL: http://www.openisbn.com/isbn/%s/
+Cat   : Publication databases
