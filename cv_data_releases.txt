@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0097
+next id:  CVDR-0098
 
 __________________________________________________________________________
 ID   Additional references
@@ -302,6 +302,15 @@ DS   PeptideAtlas human plasma
 DR   http://www.peptideatlas.org/builds/human/urine/201308/urine_APD_Hs_all.fasta
 UF   rarely
 UR   http://www.peptideatlas.org
+CI
+//
+ID   ICEPO
+AC   CVDR-0097
+DE   Control vocabulary for electrophysiological properties of ion channels.
+DS   NextProt
+DR   freud.isb-sib.ch:/share/sib/common/Calipho/bioeditor/_tech_docs/icepo.obo
+UF   occasionally
+UR
 CI
 //
 ID   IntAct interactions
