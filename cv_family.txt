@@ -2074,7 +2074,7 @@ ID   CCDC144 family
 AC   FA-00498
 //
 ID   CCDC149 family
-AN   FA-05400
+AC   FA-05400
 //
 ID   CCDC160 family
 AC   FA-00499
@@ -7816,7 +7816,7 @@ ID   Kazrin family
 AC   FA-01945
 //
 ID   KBTBD8 family
-AN   FA-05401
+AC   FA-05401
 //
 ID   KCMF1 family
 AC   FA-01946
@@ -7889,7 +7889,7 @@ ID   Kizuna family
 AC   FA-01978
 //
 ID   KLHL40 family
-AN   FA-05402
+AC   FA-05402
 //
 ID   KptA/TPT1 family
 AC   FA-01979
@@ -10386,7 +10386,7 @@ ID   Osteocalcin/matrix Gla protein family
 AC   FA-02617
 //
 ID   Osteocrin family
-AN   FA-05403
+AC   FA-05403
 //
 ID   Osteopontin family
 AC   FA-02618
@@ -13096,10 +13096,10 @@ AC   FA-04785
 SY   PERVR family.
 //
 ID   Ribonuclease III family
-AN   FA-05408
+AC   FA-05408
 //
 ID   Mitochondrion-specific ribosomal protein mL44 subfamily
-AN   FA-05409
+AC   FA-05409
 SY   Ribonuclease III family. Mitochondrion-specific ribosomal protein mL44 subfamily.
 HI   FA-05408; Ribonuclease III family
 //
@@ -15779,7 +15779,7 @@ ID   TDRD7 family
 AC   FA-04879
 //
 ID   Tdrkh family
-AN   FA-05405
+AC   FA-05405
 //
 ID   Teashirt C2H2-type zinc-finger protein family
 AC   FA-03958
@@ -16096,7 +16096,7 @@ AC   FA-05033
 SY   UPF0414 family.
 //
 ID   TMEM135 family
-AN   FA-05404
+AC   FA-05404
 //
 ID   TMEM136 family
 AC   FA-04045
@@ -18343,7 +18343,7 @@ ID   YOS1 family
 AC   FA-04715
 //
 ID   YTHDF2 family
-AN   FA-05406
+AC   FA-05406
 //
 ID   YY transcription factor family
 AC   FA-04716
@@ -18423,7 +18423,7 @@ ID   ZNF593/BUD20 C2H2-type zinc-finger protein family
 AC   FA-04734
 //
 ID   ZNF598 family
-AN   FA-05407
+AC   FA-05407
 //
 ID   ZNHIT1 family
 AC   FA-04735
