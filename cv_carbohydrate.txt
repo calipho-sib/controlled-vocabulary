@@ -24,7 +24,7 @@ Last update: 26-Dec-2016
   KW         X-ref to Swiss-Prot keyword     Optional; once or more
   //         Terminator                      Once; ends an entry
 
-AN   Next free AC:  CVCA_0035
+AN   Next free AC:  CVCA_0036
 __________________________________________________________________________
 ID   C-linked (Man)
 AC   CVCA_0001
@@ -32,6 +32,11 @@ DE   A mannose covalently attached to a carbon on a tryptophan residue.
 MM   162.052823
 DR   RESID; AA0217
 DR   PSI-MOD; 00222 [2'-alpha-mannosyl-L-tryptophan]
+KW   KW-0325:Glycoprotein.
+//
+ID   N-linked (Fuc...)
+AC   CVCA_0035
+DE   A glycan that contains a fucose.
 KW   KW-0325:Glycoprotein.
 //
 ID   N-linked (Glc) (glycation)
