@@ -6,7 +6,7 @@
 
 Description: Control vocabulary to describe carbohydrate modification
 File name:   cv_carbohydrate.txt
-Last update: 26-Dec-2016
+Last update: 21-Mar-2017
 
 ----------------------------------------------------------------------------
 
