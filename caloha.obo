@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.27
-date: 17:01:2017 11:30
+data-version: 1.28
+date: 24:03:2017 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -1268,7 +1268,7 @@ xref: MESH:D009801
 xref: UBERON:0001601
 xref: UBERON:0006531
 is_a: TS-0933 ! Skeletal muscle
-relationship: part_of TS-0309 ! Eye
+relationship: part_of TS-2454 ! Ocular adnexa
 
 [Term]
 id: TS-0308
@@ -1295,7 +1295,7 @@ xref: FMA:54448
 xref: MESH:D005123
 xref: UBERON:0000970
 is_a: TS-2043 ! Sense organ
-relationship: part_of TS-0436 ! Head
+relationship: part_of TS-2497 ! Ocular region
 
 [Term]
 id: TS-0321
@@ -1318,6 +1318,7 @@ xref: FMA:9611
 xref: MESH:D005269
 xref: UBERON:0000981
 is_a: TS-0088 ! Bone
+relationship: part_of TS-2039 ! Thigh
 
 [Term]
 id: TS-0323
@@ -2143,7 +2144,7 @@ xref: FMA:59101
 xref: MESH:D007765
 xref: UBERON:0001817
 is_a: TS-2012 ! Exocrine gland
-relationship: part_of TS-0309 ! Eye
+relationship: part_of TS-2454 ! Ocular adnexa
 
 [Term]
 id: TS-0513
@@ -2947,7 +2948,7 @@ xref: BTO:0000966
 xref: FMA:50863
 xref: MESH:D009900
 xref: UBERON:0000941
-relationship: part_of TS-0150 ! Central nervous system
+is_a: TS-2472 ! Cranial nerve
 
 [Term]
 id: TS-0715
@@ -3166,7 +3167,7 @@ xref: BTO:0001004
 xref: FMA:59790
 xref: MESH:D010306
 xref: UBERON:0001831
-is_a: TS-0892 ! Salivary gland
+is_a: TS-2458 ! Major salivary gland
 
 [Term]
 id: TS-0751
@@ -4074,7 +4075,7 @@ xref: BTO:0001315
 xref: FMA:59791
 xref: MESH:D013361
 xref: UBERON:0001832
-is_a: TS-0892 ! Salivary gland
+is_a: TS-2458 ! Major salivary gland
 
 [Term]
 id: TS-0988
@@ -4086,7 +4087,7 @@ xref: BTO:0001316
 xref: FMA:55093
 xref: MESH:D013363
 xref: UBERON:0001736
-is_a: TS-0892 ! Salivary gland
+is_a: TS-2458 ! Major salivary gland
 
 [Term]
 id: TS-0990
@@ -4227,6 +4228,8 @@ id: TS-1018
 name: Telencephalon
 def: "Derived from telencephalon, cerebrum is composed of a right and a left hemisphere. Each contains an outer cerebral cortex and a subcortical basal ganglia. The cerebrum includes all parts within the skull except the medulla oblongata, the pons, and the cerebellum. Cerebral functions include sensorimotor, emotional, and intellectual activities. The anterior subdivision of the embryonic forebrain (prosencephalon) or the corresponding part of the adult forebrain that includes the cerebrum and associated structures." [MeSH:cerebrum;MeSH:telencephalon]
 synonym: "Cerebrum" RELATED []
+synonym: "Supratentorial region" RELATED []
+synonym: "Supratentorial region of the brain" RELATED []
 xref: BTO:0000239
 xref: FMA:62000
 xref: MESH:D013687
@@ -4313,7 +4316,7 @@ xref: BTO:0000508
 xref: FMA:9619
 xref: UBERON:0002426
 is_a: TS-0933 ! Skeletal muscle
-relationship: part_of TS-1039 ! Thorax
+relationship: part_of TS-2464 ! Thoraci wall
 
 [Term]
 id: TS-1039
@@ -6266,11 +6269,12 @@ relationship: part_of TS-1307 ! Limbic system
 id: TS-2039
 name: Thigh
 def: "A part of the lower limb, located between hip and knee." [NCI_Thesaurus:Thigh]
+synonym: "Upper leg" RELATED []
 xref: BTO:0001376
 xref: FMA:24967
 xref: MESH:D013848
 xref: UBERON:0000376
-relationship: part_of TS-2215 ! Lower limb
+relationship: part_of TS-2206 ! Leg
 
 [Term]
 id: TS-2040
@@ -6683,7 +6687,7 @@ synonym: "Sinus" RELATED []
 xref: FMA:76587
 xref: MESH:D010256
 xref: UBERON:0001825
-relationship: part_of TS-2037 ! Nose
+relationship: part_of TS-2456 ! Sinonasal and nasal cavity
 
 [Term]
 id: TS-2083
@@ -7078,7 +7082,9 @@ relationship: part_of TS-2023 ! Joint
 [Term]
 id: TS-2139
 name: Tendon synovium
-def: "Synovium of tendon." [neXtProt:PDR]
+def: "A tendon sheath is a layer of synovial membrane around a tendon. It permits the tendon to stretch and not adhere to the surrounding fascia. It has two layers: synovial sheath and fibrous tendon sheath." [Wikipedia:Tendon_sheath]
+synonym: "Tendon sheath " RELATED []
+synonym: "Synovial tendon sheath " RELATED []
 is_a: TS-0998 ! Synovium
 relationship: part_of TS-1021 ! Tendon
 
@@ -7585,7 +7591,7 @@ xref: FMA:13303
 xref: MESH:D006811
 xref: UBERON:0000976
 is_a: TS-0088 ! Bone
-relationship: part_of TS-2204 ! Arm
+relationship: part_of TS-2462 ! Upper arm
 
 [Term]
 id: TS-2203
@@ -7596,7 +7602,7 @@ xref: FMA:24479
 xref: MESH:D005360
 xref: UBERON:0001446
 is_a: TS-0088 ! Bone
-relationship: part_of TS-2206 ! Leg
+relationship: part_of TS-2461 ! Lower leg
 
 [Term]
 id: TS-2204
@@ -7616,7 +7622,7 @@ xref: BTO:0001447
 xref: FMA:9663
 xref: MESH:D005542
 xref: UBERON:0002386
-relationship: part_of TS-2214 ! Upper limb
+relationship: part_of TS-2204 ! Arm
 
 [Term]
 id: TS-2206
@@ -7654,7 +7660,7 @@ xref: FMA:7574
 xref: MESH:D012272
 xref: UBERON:0002228
 is_a: TS-0088 ! Bone
-relationship: part_of TS-1039 ! Thorax
+relationship: part_of TS-2464 ! Thoracic wall
 
 [Term]
 id: TS-2210
@@ -7671,6 +7677,8 @@ synonym: "Finger Phalanges" RELATED []
 synonym: "Phalanx bone" RELATED []
 xref: UBERON:0003221
 is_a: TS-0088 ! Bone
+relationship: part_of TS-2460 ! Finger
+relationship: part_of TS-2494 ! Toe
 
 [Term]
 id: TS-2212
@@ -7817,11 +7825,11 @@ relationship: part_of TS-2344 ! Skull
 [Term]
 id: TS-2226
 name: Hip
-def: "The projecting part on each side of the body, formed by the side of the pelvis and the top portion of the femur." [MeSH:Hip]
+def: "The projecting part on each side of the body, formed by the side of the pelvis and the top portion of the femur. The hip region is located lateral and anterior to the gluteal region (i.e., the buttock), inferior to the iliac crest, and overlying the greater trochanter of the femur, or "thigh bone". In adults, three of the bones of the pelvis have fused into the hip bone or acetabulum which forms part of the hip region." [MeSH:Hip; Wikipedia:Hip]
 xref: BTO:0001457
 xref: FMA:24964
 xref: UBERON:0001464
-relationship: part_of TS-2215 ! Lower limb
+relationship: part_of TS-2227 ! Pelvis
 
 [Term]
 id: TS-2227
@@ -9062,6 +9070,471 @@ xref: FMA:74414
 xref: UBERON:0002191
 relationship: part_of TS-2449 ! Hippocampal formation
 
+
+[Term]
+id: TS-2451
+name: Ischium
+def: "The ischium forms the lower and back part of the hip bone. Situated below the ilium and behind the pubis, it is one of these three bones whose fusion creates the hip. The superior portion of this bone forms approximately one third of the acetabulum." [Wikipedia:Ischium]
+xref: FMA:16592
+xref: MESH:D007512
+xref: UBERON:0001274
+is_a: TS-0088 ! Bone
+relationship: part_of TS-2227 ! Pelvis
+
+[Term]
+id: TS-2452
+name: Ulna
+def: "The ulna is one of the two long bones in the forearm (the other is the radius). It is on the side opposite the thumb, extends from the elbow to the wrist, and runs parallel to the radius, which it exceeds in length and size." [Wikipedia:Ulna]
+xref: FMA:23466
+xref: MESH:D014457
+xref: UBERON:0001424
+is_a: TS-0088 ! Bone
+relationship: part_of TS-2205 ! Forearm
+
+[Term]
+id: TS-2453
+name: Cingulate gyrus
+def: "One of the convolutions on the medial surface of the cerebral hemisphere. It surrounds the rostral part of the brain and interhemispheric commissure and forms part of the limbic system. One of three essential structures comprising the limbic lobe, the other two being the hippocampus and parahippocampal gyrus." [UBERON:cingulate gyrus]
+xref: BTO:0003976
+xref: FMA:62434
+xref: MESH:D006179
+xref: UBERON:0002967
+relationship: part_of TS-2061 ! Limbic lobe
+
+[Term]
+id: TS-2454
+name: Ocular adnexa
+def: "The parts of the orbital region that are outside of the eyeball, including the lacrimal apparatus, the extraocular muscles and the eyelids, eyelashes, eyebrows and the conjunctiva." [UBERON:ocular adnexa]
+synonym: "Eye adnexa" RELATED []
+synonym: "Appendage of eye" RELATED []
+xref: FMA:321943
+xref: UBERON:0035639
+relationship: part_of TS-2497 ! Ocular region
+
+[Term]
+id: TS-2455
+name: Orbit of skull
+def: "The bony cavity of the skull which contains the eye, anterior portion of the optic nerve, ocular muscles and ocular adnexa. Seven bones contribute to the structure of the orbit: the frontal, maxillary, zygomatic, sphenoid, lacrimal, ethmoid, and palatine bones. It can also be used to imply the contents." [NCIT:Orbit and Wikipedia:Orbit]
+synonym: "Orbit" RELATED []
+synonym: "Orbital" RELATED []
+xref: FMA:54379
+xref: MESH:D009915
+xref: UBERON:0001697
+relationship: part_of TS-2344 ! Skull
+
+[Term]
+id: TS-2456
+name: Sinonasal and nasal cavity
+def: "The area of the head comprised of the nasal cavity and paranasal sinuses." [NCIT:Sinonasal Tract]
+synonym: "Sinonasal tract" RELATED []
+relationship: part_of TS-0436 ! Head
+
+[Term]
+id: TS-2457
+name: Proximal colon
+def: "The proximal portion of the colon, extending from the ileocecal valve usually to a point proximal to the left colic flexure; it develops embryonically from the terminal portion of the midgut and functions in absorption." [UBERON:right colon]
+synonym: "Right colon" RELATED []
+xref: BTO:0000649
+xref: UBERON:0008972
+relationship: part_of TS-0158 ! Colon
+
+[Term]
+id: TS-2458
+name: Major salivary gland
+def: "One of the three largest glands of the oral cavity that secrete most of the saliva, including the parotid, submandibular, and sublingual glands." [UBERON:major salivary gland]
+xref: FMA:59788
+xref: UBERON:0001829
+is_a: TS-0892 ! Salivary gland
+
+[Term]
+id: TS-2459
+name: Glossotonsillar sulcus
+def: "An area between the tonsil and the base of tongue. The bottom part of the palatine tonsil where it blends into the lingual tonsil tissue." [http://www.headandneckcancerguide.org/adults/introduction-to-head-and-neck-cancer/throat-cancer/oropharyngeal-cancer/tonsil-cancer/anatomy/]
+relationship: part_of TS-1315 ! Mouth
+
+[Term]
+id: TS-2460
+name: Finger
+def: "Any of the digits of the hand." [NCIT:finger]
+synonym: "Manual digit" RELATED []
+synonym: "Digit" RELATED []
+xref: BTO:0004669
+xref: FMA:9666
+xref: MESH:D005385
+xref: UBERON:0002389
+relationship: part_of TS-2213 ! Hand
+
+[Term]
+id: TS-2461
+name: Lower leg
+def: "The section of the lower limb extending from the knee to the ankle." [Wikipedia:Human_leg]
+relationship: part_of TS-2206 ! Leg
+
+[Term]
+id: TS-2462
+name: Upper arm
+def: "The upper arm extends from the shoulder to the elbow." [Wikipedia:arm]
+xref: UBERON:0003822
+relationship: part_of TS-2204 ! Arm
+
+[Term]
+id: TS-2463
+name: Wrist
+def: "The region of the upper limb between the metacarpus and the forearm." [MESH:wrist]
+xref: FMA:24922
+xref: MESH:D014953
+xref: UBERON:0004452
+relationship: part_of TS-2214 ! Upper limb
+
+[Term]
+id: TS-2464
+name: Thoracic wall
+def: "The outer margins of the thorax containing skin, deep fascia, thoracic vertebrae, ribs, sternum, and muscles." [MESH:thoracic wall]
+synonym: "Chest wall" RELATED []
+xref: FMA:50060
+xref: MESH:D035441
+xref: UBERON:0016435
+relationship: part_of TS-1039 ! Thorax
+
+[Term]
+id: TS-2465
+name: Mesentery
+def: "The mesentery is a continuous set of tissues which is formed by the double fold of peritoneum that attaches the intestines to the wall of the abdomen." [Wikiperdia:Mesentery]
+xref: BTO:0001380
+xref: FMA:7144
+xref: MESH:D008643
+xref: UBERON:0002095
+relationship: part_of TS-2072 ! Peritoneum
+
+[Term]
+id: TS-2466
+name: Abdominal wall
+def: "The tissues that surround the organs that are present within the abdominal cavity. The abdominal wall tissue is composed of layers of fat, parietal peritoneum, fascia, and muscles." [UBERON:abdominal wall]
+synonym: "Wall of abdomen" RELATED []
+xref: FMA:299989
+xref: MESH:D034861
+xref: UBERON:0003697
+relationship: part_of TS-0001 ! Abdomen
+
+[Term]
+id: TS-2467
+name: Alveolar ridge
+def: "An alveolar ridge (also known as the alveolar margin) is one of the two jaw ridges either on the roof of the mouth between the upper teeth and the hard palate or on the bottom of the mouth behind the lower teeth. The alveolar ridges contain the sockets (alveoli) of the teeth." [Wikipedia:Alveolar_ridge]
+synonym: "Alveolar process" RELATED []
+synonym: "Alveolar margin" RELATED []
+synonym: "Alveolus ridge" RELATED []
+xref: BTO:0001383
+xref: FMA:313923
+xref: MESH:D000539
+xref: UBERON:0004103
+relationship: part_of TS-1315 ! Mouth
+
+[Term]
+id: TS-2468
+name: Brachial plexus
+def: "The large network of nerve fibers which distributes the innervation of the upper extremity. The brachial plexus extends from the neck into the axilla. In humans, the nerves of the plexus usually originate from the lower cervical and the first thoracic spinal cord segments (C5-C8 and T1), but variations are not uncommon." [MESH:brachial plexus]
+synonym: "Brachial nerve plexus" RELATED []
+xref: FMA:5906
+xref: MESH:D001917
+xref: UBERON:0001814
+relationship: part_of TS-0808 ! Peripheral nervous system
+
+[Term]
+id: TS-2469
+name: Carotid body
+def: "A small epithelioid structure consisting of a small cluster of chemoreceptive and supporting cells located near the bifurcation of the common carotid artery that serves as a chemoreceptive organ that senses the pH, carbon dioxide, and oxygen concentrations in the blood and plays a crucial role in their homeostatic control." [UBERON:carotid body]
+synonym: "Carotid glomus" RELATED []
+xref: BTO:0000204
+xref: FMA:50095
+xref: MESH:D002344
+xref: UBERON:0001629
+relationship: part_of TS-2094 ! Parasympathetic nervous system
+
+[Term]
+id: TS-2470
+name: Cheek
+def: "A fleshy subdivision of one side of the face bounded by an eye, ear and the nose. In many animals the inside of the cheek is lined with mucous membrane covered with stratified squamous epithelium and supplied with secretions from buccal glands." [UBERON:cheek]
+xref: BTO:0001754
+xref: FMA:46476
+xref: MESH:D002610
+xref: UBERON:0001567
+relationship: part_of TS-2216 ! Face
+
+[Term]
+id: TS-2471
+name: Thoracic cavity
+def: "The part of the coelemic cavity lumen that is enclosed by the walls of the thorax." [UBERON:thoracic cavity]
+synonym: "Chest cavity" RELATED []
+xref: FMA:7565
+xref: MESH:D035423
+xref: UBERON:0002224
+relationship: part_of TS-1039 ! Thorax
+
+[Term]
+id: TS-2472
+name: Cranial nerve
+def: "Cranial nerves are nerves that emerge directly from the brain, in contrast to spinal nerves, which emerge from segments of the spinal cord. The cranial nerves are considered components of the peripheral nervous system, although on a structural level the olfactory, optic and terminal nerves are more accurately considered part of the central nervous system." [UBERON:cranial nerve and Wikipedia:Cranial_nerves]
+xref: BTO:0001104
+xref: FMA:5865
+xref: MESH:D003391
+xref: UBERON:0001785
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
+id: TS-2473
+name: Epiglottis
+def: "The epiglottis is a flap made of elastic cartilage tissue covered with a mucous membrane, attached to the entrance of the larynx. It projects obliquely upwards behind the tongue and the hyoid bone, pointing dorsally. It stands open during breathing, allowing air into the larynx. During swallowing, it closes to prevent aspiration, forcing the swallowed liquids or food to go down the esophagus instead. It is thus the valve that diverts passage to either the trachea or the esophagus." [Wikipedia:Epiglottis]
+xref: BTO:0001628
+xref: FMA:55130
+xref: MESH:D004825
+xref: UBERON:0000388
+relationship: part_of TS-2476 ! Supraglottis
+
+[Term]
+id: TS-2474
+name: Glottis
+def: "The vocal apparatus of the larynx, situated in the middle section of the larynx. Glottis consists of the vocal folds and an opening (rima glottidis) between the folds." [MESH:glottis]
+xref: BTO:0001627
+xref: FMA:55414
+xref: MESH:D005931
+xref: UBERON:0002486
+relationship: part_of TS-0532 ! Larynx
+
+[Term]
+id: TS-2475
+name: Subglottis
+def: "The subglottis or subglottic region is the lower portion of the larynx, extending from just beneath the vocal cords down to the top of the trachea. The structures in the subglottis are implicated in the regulation of the temperature of the breath. Narrowing of the subglottis is known as subglottic stenosis and may require a tracheotomy to correct." [Wikipedia:subglottis]
+xref: FMA:55477
+xref: UBERON:0036068
+relationship: part_of TS-0532 ! Larynx
+
+[Term]
+id: TS-2476
+name: Supraglottis
+def: "The upper part of the larynx, including the epiglottis; the area above the vocal cords." [NCIT:supraglottis]
+relationship: part_of TS-0532 ! Larynx
+
+[Term]
+id: TS-2477
+name: Ethmoid sinus
+def: "The numerous (6-12) small thin-walled spaces or air cells in the ethmoid bone located between the eyes. These air cells form an ethmoidal labyrinth." [MESH:ethmoid sinus]
+synonym: "Ethmoidal sinuses" RELATED []
+synonym: "Ethmoidal air cells of the ethmoid bone" RELATED []
+xref: FMA:84115
+xref: MESH:D005005
+xref: UBERON:0002453
+is_a: TS-2082 ! Paranasal sinuses
+
+[Term]
+id: TS-2478
+name: Forehead
+def: "In human anatomy, the forehead is an area of the head bounded by three features, two of the skull and one of the scalp. The top of the forehead is marked by the hairline, the edge of the area where hair on the scalp grows. The bottom of the forehead is marked by the supraorbital ridge, the bone feature of the skull above the eyes. The two sides of the forehead are marked by the temporal ridge, a bone feature that links the supraorbital ridge to the coronal suture line and beyond." [Wikipedia:forehead]
+xref: FMA:63864
+xref: MESH:D005546
+xref: UBERON:0008200
+relationship: part_of TS-2216 ! Face
+
+[Term]
+id: TS-2479
+name: Hard palate
+def: "Anterior portion of the palate consisting of bone and mucous membranes. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine." [UBERON:hard palate]
+xref: FMA:55023
+xref: MESH:D021362
+xref: UBERON:0003216
+relationship: part_of TS-2212 ! Palate
+
+[Term]
+id: TS-2480
+name: Iliotibial band
+def: "The iliotibial tract or iliotibial band (also known as Maissiat's band or IT Band) is a longitudinal fibrous reinforcement of the fascia lata (dense connective tissue of the thigh)." [Wikipedia:Iliotibial_tract]
+synonym: "Iliotibial tract" RELATED []
+xref: FMA:51048
+is_a: TS-2009 ! Connective tissue
+relationship: part_of TS-2039 ! Thigh
+
+[Term]
+id: TS-2481
+name: Inferior vena cava
+def: "The inferior vena cava is a large vein that carries deoxygenated blood from the lower and middle body into the right atrium of the heart. It is formed by the joining of the right and the left common iliac veins, usually at the level of the fifth lumbar vertebra." [Wikipedia:Inferior_vena_cava]
+xref: BTO:0002682
+xref: FMA:10951
+xref: MESH:D014682
+xref: UBERON:0001072
+is_a: TS-2429 ! Vena cava
+
+[Term]
+id: TS-2482
+name: Jaw region
+def: "Organ cluster which consists of either maxilla or mandible, set of periodontia and dentition. A subdivision of the head that corresponds to the jaw skeleton, containing both soft tissue, skeleton and teeth (when present). The jaw region is divided into upper and lower regions." [FMA:jaw and UBERON:jaw region]
+xref: FMA:54396
+xref: UBERON:0011595
+relationship: part_of TS-0436 ! Head
+
+[Term]
+id: TS-2483
+name: Mesocolon
+def: "The fold of peritoneum by which the colon is attached to the posterior abdominal wall." [MESH:mesocolon]
+synonym: "Mesentery of large intestine" RELATED []
+synonym: "Large intestinal mesentery" RELATED []
+synonym: "Mesentery of colon" RELATED []
+xref: FMA:14645
+xref: MESH:D008646
+relationship: part_of TS-2072 ! Peritoneum
+
+[Term]
+id: TS-2484
+name: Paraaortic body
+def: "A chromaffin paraganglion located at the bifurcation of the aorta or at the origin of the inferior mesenteric artery." [UBERON:paraaortic body]
+synonym: "Paraganglia of Zuckerkandl" RELATED []
+synonym: "Para-aortic body" RELATED []
+synonym: "organ of Zuckerkandl" RELATED []
+synonym: "paraganglion of Zuckerkandl" RELATED []
+xref: FMA:15647
+xref: MESH:D010220
+xref: UBERON:0001237
+is_a: TS-2358 ! Paraganglia chromaffin
+
+[Term]
+id: TS-2485
+name: Cervical ganglion
+def: "The cervical ganglia are paravertebral ganglia of the sympathetic nervous system. They consist of three paravertebral ganglia: superior cervical ganglion middle cervical ganglion inferior cervical ganglion. The inferior ganglion may be fused with the first thoracic ganglion to form a single structure, the stellate ganglion. Nerves emerging from cervical sympathetic ganglia contribute to the cardiac plexus, among other things." [UBERON:cervical ganglion]
+synonym: "Cervical ganglia" RELATED []
+xref: BTO:0000113
+xref: FMA:6470
+xref: UBERON:0001991
+is_a: TS-0994 ! Sympathetic ganglion
+
+[Term]
+id: TS-2486
+name: Parametrium
+def: "The subserous connective tissue of the pelvic floor of the supracervical portion of the uterus. The parametrium extends laterally between the layers of the broad ligament." [UBERON:parametrium]
+xref: BTO:0005627
+xref: FMA:77061
+xref: UBERON:0010391
+is_a: TS-2009 ! Connective tissue
+relationship: part_of TS-1102 ! Uterus
+
+[Term]
+id: TS-2487
+name: Pelvic cavity
+def: "The part of the ventral body cavity that is within the pelvis." [UBERON:pelvic cavity]
+xref: FMA:9738
+xref: UBERON:0008203
+relationship: part_of TS-2227 ! Pelvis
+
+[Term]
+id: TS-2488
+name: Perineum
+def: "The body region lying between the genital area and the anus on the surface of the trunk, and to the shallow compartment lying deep to this area that is inferior to the pelvic diaphragm. The surface area is between the vulva and the anus in the female, and between the scrotum and the anus in the male." [MESH:perineum]
+xref: FMA:9579
+xref: MESH:D010502
+xref: UBERON:0002356
+relationship: part_of TS-1071 ! Trunk
+
+[Term]
+id: TS-2489
+name: Piriform sinus
+def: "A recess on each side in the wall of the hypopharynx." [MESH:pyriform sinus]
+synonym: "Piriform recess" RELATED []
+synonym: "Pyriform sinus" RELATED []
+synonym: "Piriform fossa" RELATED []
+synonym: "Smuggler's fossa" RELATED []
+synonym: "Vallecula of throat" RELATED []
+xref: FMA:55067
+xref: MESH:D056144
+relationship: part_of TS-2020 ! Hypopharynx
+
+[Term]
+id: TS-2490
+name: Popliteal area
+def: "A depression on the ventral side of the femur, at the knee joint, between the condyles. Popliteal refers to anatomical structures located in the back of the knee." [UBERON:popliteal area and Wikipedia:popliteal]
+synonym: "Popliteal fossa" RELATED []
+xref: FMA:22525
+xref: UBERON:0013069
+relationship: part_of TS-2206 ! Leg
+
+[Term]
+id: TS-2491
+name: Rectovaginal fascia
+def: "The rectovaginal fascia is a thin structure separating the vagina and the rectum." [Wikipedia:Retrovaginal_fascia]
+synonym: "Rectovaginal septum" RELATED []
+synonym: "Fascia of Otto" RELATED []
+xref: FMA:19934
+relationship: part_of TS-2227 ! Pelvis
+
+[Term]
+id: TS-2492
+name: Spinal nerve
+def: "A spinal nerve is a mixed nerve, which carries motor, sensory, and autonomic signals between the spinal cord and the body. In the human body there are 31 pairs of spinal nerves, one on each side of the vertebral column. These are grouped into the corresponding cervical, thoracic, lumbar, sacral and coccygeal regions of the spine.[1] There are eight pairs of cervical nerves, twelve pairs of thoracic nerves, five pairs of lumbar nerves, five pairs of sacral nerves, and one pair of coccygeal nerves. The spinal nerves are part of the peripheral nervous system." [Wikipedia:Spinal_nerve]
+xref: BTO:0000870
+xref: FMA:5858
+xref: MESH:D013127
+xref: UBERON:0001780
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
+id: TS-2492
+name: Spinal nerve
+def: "A spinal nerve is a mixed nerve, which carries motor, sensory, and autonomic signals between the spinal cord and the body. In the human body there are 31 pairs of spinal nerves, one on each side of the vertebral column. These are grouped into the corresponding cervical, thoracic, lumbar, sacral and coccygeal regions of the spine.[1] There are eight pairs of cervical nerves, twelve pairs of thoracic nerves, five pairs of lumbar nerves, five pairs of sacral nerves, and one pair of coccygeal nerves. The spinal nerves are part of the peripheral nervous system." [Wikipedia:Spinal_nerve]
+xref: BTO:0000870
+xref: FMA:5858
+xref: MESH:D013127
+xref: UBERON:0001780
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
+id: TS-2493
+name: Tibial nerve
+def: "The tibial nerve is a branch of the sciatic nerve. The tibial nerve passes through the popliteal fossa to pass below the arch of soleus. In the popliteal fossa the nerve gives off branches to gastrocnemius, popliteus, soleus and plantaris muscles, an articular branch to the knee joint, and a cutaneous branch that will become the sural nerve. The sural nerve is joined by fibres from the common peroneal nerve and runs down the calf to supply the lateral side of the foot. Below the soleus muscle the nerve lies close to the tibia and supplies the tibialis posterior, the flexor digitorum longus and the flexor hallucis longus. The nerve passes into the foot running posterior to the medial malleolus. Here it is bound down by the flexor retinaculum in company with the posterior tibial artery." [UBERON:tibial nerve]
+xref: FMA:19035
+xref: MESH:D013979
+xref: UBERON:0001323
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
+id: TS-2494
+name: Toe
+def: "The digits of the foot." [Wikipedia:toe]
+xref: BTO:0002348
+xref: FMA:25046
+xref: MESH:D014034
+xref: UBERON:0001466
+relationship: part_of TS-0377 ! Foot
+
+[Term]
+id: TS-2495
+name: Ulnar nerve
+def: "A major nerve of the upper extremity. In humans, the fibers of the ulnar nerve originate in the lower cervical and upper thoracic spinal cord (usually C7 to T1), travel via the medial cord of the brachial plexus, and supply sensory and motor innervation to parts of the hand and forearm. A nerve which runs near the ulna bone." [MESH:ulnar nerve]
+xref: FMA:37319
+xref: MESH:D014459
+xref: UBERON:0001494
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
+id: TS-2496
+name: Vestibulocochlear nerve
+def: "Cranial nerve that transmits sound and equilibrium (balance) information from the inner ear to the brain." [UBERON:vestibulocochlear nerve]
+synonym: "cochlear-vestibular nerve" RELATED []
+synonym: "acoustic VIII nerve" RELATED []
+synonym: "vestibulocochlear nerve tree" RELATED []
+synonym: "stato-acoustic nerve" RELATED []
+synonym: "cochleovestibular nerve" RELATED []
+synonym: "VIIIth cranial nerve" RELATED []
+synonym: "cranial nerve VIII" RELATED []
+synonym: "eighth cranial nerve" RELATED []
+xref: BTO:0003490
+xref: FMA:50869
+xref: MESH:D000159
+xref: UBERON:0001648
+is_a: TS-2472 ! Cranial nerve
+
+[Term]
+id: TS-2497
+name: Ocular region
+def: "The region of the face that contains the eye, anterior portion of the optic nerve, ocular muscles and ocular adnexa and is supported by the orbit of skull." [PDR]
+relationship: part_of TS-2216 ! Face
+synonym: "Orbital region" RELATED []
+
 [Typedef]
 id: develops_from
 name: develops_from
@@ -9071,5 +9544,3 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
-
-
