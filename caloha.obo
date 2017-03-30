@@ -9543,6 +9543,26 @@ xref: MESH:D007084
 xref: UBERON:0005610
 is_a: TS-1108 ! Vein
 
+[Term]
+id: TS-2499
+name: Esophagogastric junction
+def: "The area covering the terminal portion of ESOPHAGUS and the beginning of STOMACH at the cardiac orifice". [MESH:Esophagogastric Junction]
+synonym: "Gastro-esophageal junction" RELATED []
+xref: BTO:0004364
+xref: FMA:9434
+xref: MESH:D004943
+xref: UBERON:0007650
+relationship: part_of TS-0407 ! Gastrointestinal tract
+
+[Term]
+id: TS-2500
+name: Urachus
+def: "A fibrous remnant of the allantoic stalk, a narrow fetal canal connecting the apex of the urinary bladder with the umbilicus located in the space of Retzius, between the transversalis fascia anteriorly and the peritoneum posteriorly. its lumen is normally obliterated during development, transforming the urachus into a solid cord, a functionless remnant that persists throughout life as the median umbilical ligament; failure of complete lumen obliteration may result in distinct congenital urachal remnant anomalies." [UBERON:Urachus]
+xref: FMA:70343
+xref: MESH:D014497
+xref: UBERON:0002068
+relationship: part_of TS-0394 ! Gall bladder
+
 [Typedef]
 id: develops_from
 name: develops_from
