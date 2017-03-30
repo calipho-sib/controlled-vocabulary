@@ -9535,6 +9535,14 @@ def: "The region of the face that contains the eye, anterior portion of the opti
 relationship: part_of TS-2216 ! Face
 synonym: "Orbital region" RELATED []
 
+[Term]
+id: TS-2498
+name: Iliac vein
+def: "Any of the three veins including the common, external and internal iliac veins. A vein on either side of the body which is formed by the union of the external and internal iliac veins and passes upward to join with its fellow of the opposite side to form the inferior vena cava". [UBERON:iliac vein and MESH:iliac vein]
+xref: MESH:D007084
+xref: UBERON:0005610
+is_a: TS-1108 ! Vein
+
 [Typedef]
 id: develops_from
 name: develops_from
