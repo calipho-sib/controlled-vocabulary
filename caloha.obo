@@ -9473,16 +9473,6 @@ xref: UBERON:0001780
 is_a: TS-0772 ! Peripheral nerve
 
 [Term]
-id: TS-2492
-name: Spinal nerve
-def: "A spinal nerve is a mixed nerve, which carries motor, sensory, and autonomic signals between the spinal cord and the body. In the human body there are 31 pairs of spinal nerves, one on each side of the vertebral column. These are grouped into the corresponding cervical, thoracic, lumbar, sacral and coccygeal regions of the spine.[1] There are eight pairs of cervical nerves, twelve pairs of thoracic nerves, five pairs of lumbar nerves, five pairs of sacral nerves, and one pair of coccygeal nerves. The spinal nerves are part of the peripheral nervous system." [Wikipedia:Spinal_nerve]
-xref: BTO:0000870
-xref: FMA:5858
-xref: MESH:D013127
-xref: UBERON:0001780
-is_a: TS-0772 ! Peripheral nerve
-
-[Term]
 id: TS-2493
 name: Tibial nerve
 def: "The tibial nerve is a branch of the sciatic nerve. The tibial nerve passes through the popliteal fossa to pass below the arch of soleus. In the popliteal fossa the nerve gives off branches to gastrocnemius, popliteus, soleus and plantaris muscles, an articular branch to the knee joint, and a cutaneous branch that will become the sural nerve. The sural nerve is joined by fibres from the common peroneal nerve and runs down the calf to supply the lateral side of the foot. Below the soleus muscle the nerve lies close to the tibia and supplies the tibialis posterior, the flexor digitorum longus and the flexor hallucis longus. The nerve passes into the foot running posterior to the medial malleolus. Here it is bound down by the flexor retinaculum in company with the posterior tibial artery." [UBERON:tibial nerve]
