@@ -3,7 +3,6 @@ data-version: 1.005
 date: 02:02:2017 12:18
 saved-by: pgaudet
 default-namespace: PP
-ontology: PROTEIN_PROPERTY
 
 [Term]
 id: PP:0001
