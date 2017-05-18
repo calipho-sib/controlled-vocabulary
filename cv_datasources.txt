@@ -14,6 +14,8 @@
  ID            Unique identifier                        Once; starts a cv data release entry
  AC            Unique accession (CVDS-xxxx)             Once
  DE            Definition                               Once or more
+ SY            Synonym (display name, if does not       Once
+               exists ID is used as display name)    
  DR            Data repository / ftp site where the     Once
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
@@ -28,6 +30,7 @@ DR   http://agbase.msstate.edu/
 //
 ID   Alzheimers_University_of_Toronto
 AC   CVDS-0078
+SY   Alzheimers UoT
 DE   Alzheimers Project at University of Toronto
 DR   http://www.ims.utoronto.ca/Page4.aspx
 //
@@ -74,6 +77,7 @@ DR   http://www.ncbi.nlm.nih.gov/clinvar/
 //
 ID   Cosmic
 AC   CVDS-0051
+SY   COSMIC
 DE   Catalogue Of Somatic Mutations In Cancer
 DR   http://www.sanger.ac.uk/genetics/CGP/cosmic/
 //
@@ -165,6 +169,7 @@ DO   MDATA_0005
 //
 ID   Human protein atlas subcellular localization
 AC   CVDS-0057
+SY   HPA subcell
 DE   Subcellular localization data imported from Human protein atlas
 DR   http://www.proteinatlas.org
 DO   MDATA_0006
@@ -240,6 +245,7 @@ DR
 //
 ID   NextProt
 AC   CVDS-0001
+SY   neXtProt
 DE   Information generated automacally or manually by neXtProt
 DR
 //
@@ -564,6 +570,7 @@ DR   http://syscilia.org/
 //
 ID   Uniprot
 AC   CVDS-0002
+SY   UniProtKB
 DE   Information imported from Uniprot
 DR   http://www.uniprot.org
 //
