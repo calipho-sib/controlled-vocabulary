@@ -1,23 +1,34 @@
 #HPA SUBCELLULAR LOCATION TERM	#SWISSPROT AC	# NOTE
-nucleus	SL-0191	-
-nucleoli	SL-0188	-
-nucleus but not nucleoli	SL-0190	-
-nuclear membrane	SL-0182	-
-plasma membrane	SL-0039	-
-cytoplasm	SL-0086	-
-mitochondria	SL-0173	-
-endoplasmic reticulum	SL-0095	-
-golgi apparatus	SL-0132	-
-centrosome	SL-0048	-
-focal adhesions	SL-0118	-
+aggresome	-	-
 cell junctions	SL-0038	-
+centrosome	SL-0048	-
+cytoplasm	SL-0086	-
+cytoskeleton (actin filaments)	SL-0090	Note=Associated with actin filaments
+cytoskeleton (cytokinetic bridge)	SL-0090	Note=Associated with cytokinetic bridge
+cytoskeleton (intermediate filaments)	SL-0090	Note=Associated with intermediate filaments
 cytoskeleton (microtubule end)	SL-0090	Note= Associated with microtubules end
 cytoskeleton (microtubule plus end)	SL-0090	Note= Associated with microtubules plus end
-cytoskeleton (actin filaments)	SL-0090	Note=Associated with actin filaments
-cytoskeleton (intermediate filaments)	SL-0090	Note=Associated with intermediate filaments
 cytoskeleton (microtubules)	SL-0090	Note=Associated with microtubules
-cytoskeleton (cytokinetic bridge)	SL-0090	Note=Associated with cytokinetic bridge
 cytoskeleton	SL-0090	-
-vesicles	SL-0088	-
+cytosol	SL-0091	-
+endoplasmic reticulum	SL-0095	-
+endosomes	SL-0101	-
+focal adhesion sites	SL-0118	-
+focal adhesions	SL-0118	-
+golgi apparatus	SL-0132	-
+lipid droplet	SL-0154	-
+lysosomes	SL-0158	-
 microtubule organizing center	SL-0484	-
-aggresome	-	-
+midbody	SL-0469	-
+mitochondria	SL-0173	-
+mitotic spindle	SL-0251	-
+nuclear membrane	SL-0182	-
+nuclear speckles-SL-0186	-
+nucleoli	SL-0188	-
+nucleoplasm	SL-0190	-
+nucleus but not nucleoli	SL-0190	-
+nucleus	SL-0191	-
+peroxisome	SL-0204	-
+plasma membrane	SL-0039	-
+rods and rings	SL-0086	Note=Associated with rods and rings.
+vesicles	SL-0088	-
