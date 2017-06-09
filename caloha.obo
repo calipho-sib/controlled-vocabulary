@@ -9581,6 +9581,22 @@ xref: MESH:D015385
 xref: UBERON:0002055
 relationship: part_of TS-0015 ! Adrenal cortex
 
+[Term]
+id: TS-2503
+name: Caudate nucleus glial cell
+def: "Glial cells in the caudate nucleus." [neXtProt:PDR]
+synonym: "Caudate nucleus glial cells" RELATED []
+is_a: TS-0415 ! Glial cell
+relationship: part_of TS-0121 ! Caudate nucleus
+
+[Term]
+id: TS-2504
+name: Caudate nucleus neuron  
+def: "Neuronal cells in the caudate nucleus." [neXtProt:PDR]
+synonym: "Caudate nucleus neuronal cells" RELATED []
+is_a: TS-0683 ! Neuron
+relationship: part_of TS-0121 ! Caudate nucleus
+
 [Typedef]
 id: develops_from
 name: develops_from
