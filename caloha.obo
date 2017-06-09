@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.28
-date: 30:03:2017 11:30
+data-version: 1.29
+date: 09:06:2017 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -90,6 +90,7 @@ def: "The narrow subcapsular outer zone of the adrenal cortex. This zone produce
 synonym: "Zona glomerulosa" RELATED []
 synonym: "Zona glomerulosa of adrenal gland" RELATED []
 synonym: "Zona glomerulosa of suprarenal gland" RELATED []
+synonym: "Adrenal gland cells in zona glomerulosa" RELATED []
 xref: BTO:0000048
 xref: FMA:69225
 xref: MESH:D015384
@@ -104,6 +105,7 @@ synonym: "Adrenal gland medulla" RELATED []
 synonym: "Medulla of adrenal gland" RELATED []
 synonym: "Medulla of suprarenal gland" RELATED []
 synonym: "Suprarenal medulla" RELATED []
+synonym: "Adrenal gland medullary cells" RELATED []
 xref: BTO:0000049
 xref: FMA:15633
 xref: MESH:D000313
@@ -9552,6 +9554,32 @@ xref: FMA:70343
 xref: MESH:D014497
 xref: UBERON:0002068
 relationship: part_of TS-0394 ! Gall bladder
+
+[Term]
+id: TS-2501
+name: Zona fasciculata of adrenal gland
+def: "The wide middle zone of the adrenal cortex. This zone produces a series of enzymes that convert pregnenolone to cortisol (hydrocortisone) via 17-alpha-hydroxyprogesterone." [MESH:Zona Fasciculata]
+synonym: "Adrenal Fasciculata" RELATED []
+synonym: "Zona Fasciculata" RELATED []
+synonym: "Adrenal gland cells in zona fasciculata" RELATED []
+xref: BTO:0000050
+xref: FMA:69234
+xref: MESH:D015383
+xref: UBERON:0002054
+relationship: part_of TS-0015 ! Adrenal cortex
+
+[Term]
+id: TS-2502
+name: Zona reticularis of adrenal gland
+def: "The inner zone of the adrenal cortex. This zone produces the enzymes that convert pregnenolone, a 21-carbon steroid, to 19-carbon steroids (dehydroepiandrosterone; and androstenedione) via 17-alpha-hydroxypregnenolone." [MESH:Zona Reticularis]
+synonym: "Adrenal Reticularis" RELATED []
+synonym: "Zona Reticularis" RELATED []
+synonym: "Adrenal gland cells in zona reticularis" RELATED []
+xref: BTO:0000056
+xref: FMA:69236
+xref: MESH:D015385
+xref: UBERON:0002055
+relationship: part_of TS-0015 ! Adrenal cortex
 
 [Typedef]
 id: develops_from
