@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.29
-date: 09:06:2017 11:30
+data-version: 1.30
+date: 20:06:2017 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -1673,7 +1673,7 @@ is_a: TS-2367 ! Myeloid leukocyte
 [Term]
 id: TS-0430
 name: Hair
-def: "A filament-like structure consisting of a shaft which projects to the surface of the skin from a root which is softer than the shaft and lodges in the cavity of a hair follicle. It is found on most surfaces of the body." [MeSH:Hair]
+def: "A filament-like structure consisting of a shaft which projects to the surface of the skin from a root which is softer than the shaft and lodges in the cavity of a hair follicle. It is found on most surfaces of the body. They consist of three layers: the medulla, the cortex, and the cuticle." [MeSH:Hair and isbn:0781767903]
 xref: BTO:0001501
 xref: FMA:53667
 xref: MESH:D006197
@@ -1888,7 +1888,7 @@ relationship: part_of TS-2449 ! Hippocampal formation
 [Term]
 id: TS-0469
 name: Hypothalamus
-def: "Ventral part of the diencephalon extending from the region of the optic chiasm to the caudal border of the mammillary bodies and forming the inferior and lateral walls of the third ventricle." [MeSH:Hypothalamus]
+def: "The hypothalamus is located in the middle of the base of the brain, and it encapsulates the ventral portion of the third ventricle. It coordinates most endocrine functions of the body and serves as one of the major controlling centers of the autonomic nervous system. Some of the functions that it regulates include blood pressure, body temperature, fluid and electrolyte balance, body weight, and apetite." [isbn:0781767903]
 synonym: "Hypothalamic" RELATED []
 xref: BTO:0000614
 xref: FMA:62008
@@ -2787,7 +2787,7 @@ is_a: TS-2040 ! Nervous system cell
 [Term]
 id: TS-0685
 name: Neuroretina
-def: "The inner layer of the retina that contains the photoreceptors." [ISBN:978-0781750561]
+def: "The part of the retina that contains neurons and photoreceptor cells." [UBERON:0003902]
 synonym: "Neural layer of retina" RELATED []
 synonym: "Neural retina" RELATED []
 synonym: "Neuroretinal cell" RELATED []
@@ -3597,7 +3597,7 @@ is_a: TS-0647 ! Myeloid cell
 [Term]
 id: TS-0865
 name: Retina
-def: "The ten-layered nervous tissue membrane of the eye. It is continuous with the optic nerve and receives images of external objects and transmits visual impulses to the brain. Its outer surface is in contact with the choroid and the inner surface with the vitreous body. The outermost layer is pigmented, whereas the inner nine layers are transparent." [MeSH:Retina]
+def: "The ten-layered nervous tissue membrane of the eye. It is continuous with the optic nerve and receives images of external objects and transmits visual impulses to the brain. Its outer surface is in contact with the choroid and the inner surface with the vitreous body. The outermost layer is pigmented, whereas the inner nine layers are transparent. The ten layers are: retinal pigment epithelium, layer of rods and cones, outer limiting membrane, outer nuclear layer, outer plexiform layer, inner nuclear layer, inner plexiform layer, ganglion cell layer, layer of optic nerve fibers, and inner limiting membrane." [MeSH:Retina and neXtProt:PDR]
 synonym: "Inner layer of eyeball" RELATED []
 synonym: "Retinal" RELATED []
 synonym: "Tunica interna of eyeball" RELATED []
@@ -8421,7 +8421,7 @@ def: "A channel conveying the milk secreted by the lobes of the breast to and th
 synonym: "lactiferous duct" RELATED []
 synonym: "Lactiferous gland duct" RELATED []
 synonym: "Mammary duct" RELATED []
-synonym: "Mammary gland duc" RELATED []
+synonym: "Mammary gland duct" RELATED []
 xref: BTO:0002845
 xref: FMA:58006
 xref: UBERON:0001765
@@ -9475,6 +9475,16 @@ xref: UBERON:0001780
 is_a: TS-0772 ! Peripheral nerve
 
 [Term]
+id: TS-2492
+name: Spinal nerve
+def: "A spinal nerve is a mixed nerve, which carries motor, sensory, and autonomic signals between the spinal cord and the body. In the human body there are 31 pairs of spinal nerves, one on each side of the vertebral column. These are grouped into the corresponding cervical, thoracic, lumbar, sacral and coccygeal regions of the spine.[1] There are eight pairs of cervical nerves, twelve pairs of thoracic nerves, five pairs of lumbar nerves, five pairs of sacral nerves, and one pair of coccygeal nerves. The spinal nerves are part of the peripheral nervous system." [Wikipedia:Spinal_nerve]
+xref: BTO:0000870
+xref: FMA:5858
+xref: MESH:D013127
+xref: UBERON:0001780
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
 id: TS-2493
 name: Tibial nerve
 def: "The tibial nerve is a branch of the sciatic nerve. The tibial nerve passes through the popliteal fossa to pass below the arch of soleus. In the popliteal fossa the nerve gives off branches to gastrocnemius, popliteus, soleus and plantaris muscles, an articular branch to the knee joint, and a cutaneous branch that will become the sural nerve. The sural nerve is joined by fibres from the common peroneal nerve and runs down the calf to supply the lateral side of the foot. Below the soleus muscle the nerve lies close to the tibia and supplies the tibialis posterior, the flexor digitorum longus and the flexor hallucis longus. The nerve passes into the foot running posterior to the medial malleolus. Here it is bound down by the flexor retinaculum in company with the posterior tibial artery." [UBERON:tibial nerve]
@@ -9591,11 +9601,156 @@ relationship: part_of TS-0121 ! Caudate nucleus
 
 [Term]
 id: TS-2504
-name: Caudate nucleus neuron  
+name: Caudate nucleus neuron
 def: "Neuronal cells in the caudate nucleus." [neXtProt:PDR]
 synonym: "Caudate nucleus neuronal cells" RELATED []
 is_a: TS-0683 ! Neuron
 relationship: part_of TS-0121 ! Caudate nucleus
+
+[Term]
+id: TS-2505
+name: Hypothalamus glial cell
+def: "Glial cell of hypothalamus." [neXtProt:PDR]
+synonym: "Hypothalamic glial cell" RELATED []
+synonym: "Hypothalamus glial cells" RELATED []
+is_a: TS-0415 ! Glial cell
+relationship: part_of TS-0469 ! Hypothalamus
+
+[Term]
+id: TS-2506
+name: Hypothalamus neuron
+def: "Neuronal cell of hypothalamus." [neXtProt:PDR]
+synonym: "Hypothalamic neuron" RELATED []
+synonym: "Hypothalamus neuronal cells" RELATED []
+is_a: TS-0683 ! Neuron
+relationship: part_of TS-0469 ! Hypothalamus
+
+[Term]
+id: TS-2507
+name: Hair medulla
+def: "Forms the central part of the hair shaft and contains large vacuolated cells. The medulla is present only in thick hairs." [isbn:0781767903]
+synonym: "Medulla of hair shaft" RELATED []
+xref: BTO:0004671
+xref: FMA:322848
+xref: UBERON:0005184
+relationship: part_of TS-0430 ! Hair
+
+[Term]
+id: TS-2508
+name: Hair cortex
+def: "Located peripheral to the hair medulla and contains cuboidal cells. These cells undergo differentiation into keratin-filled cells." [isbn:0781767903]
+synonym: "Cortex of hair shaft" RELATED []
+synonym: "Cortex of hair" RELATED []
+synonym: "Coat hair cortex" RELATED []
+xref: FMA:70934
+xref: UBERON:0002077
+relationship: part_of TS-0430 ! Hair
+
+[Term]
+id: TS-2509
+name: Hair cuticle
+def: "Form the outermost layer of the hair and contains squamous cells." [isbn:0781767903]
+synonym: "Cuticle of hair shaft" RELATED []
+synonym: "Cuticle of hair" RELATED []
+xref: FMA:70933 
+xref: UBERON:0002076
+relationship: part_of TS-0430 ! Hair
+
+[Term]
+id: TS-2510
+name: Hair inner root sheath
+def: "The internal root sheath is a multilayered cellular covering that surrounds the deep part of the hair. Has three layers: the cuticle, the Huxley's layer, and the Henle's layer." [isbn:0781767903]
+synonym: "Internal root sheath" RELATED []
+synonym: "Inner root sheath" RELATED []
+xref: BTO:0003971
+xref: FMA:70935 
+xref: UBERON:0005941
+relationship: part_of TS-0432 ! Hair follicle
+
+[Term]
+id: TS-2511
+name: Hair external root sheath
+def: "The outermost part of the hair follicle, which represents a downgrowth of the epidermis." [isbn:0781767903]
+synonym: "External root sheath" RELATED []
+synonym: "Outer root sheath" RELATED []
+synonym: "Hair outer root sheath" RELATED []
+xref: BTO:0003969
+xref: FMA:70943 
+xref: UBERON:0005942
+relationship: part_of TS-0432 ! Hair follicle
+
+[Term]
+id: TS-2512
+name: Outer plexiform layer of retina
+def: "Contains the processes of retinal rods and cones and processes of the horizontal, amacrine, and bipolar cells that connect to them." [isbn:0781767903]
+synonym: "Outer plexiform layer" RELATED []
+synonym: "Retinal outer plexiform layer" RELATED []
+synonym: "Retina outer plexiform layer" RELATED []
+synonym: "Nerve fibers in outer plexiform layer" RELATED []
+xref: BTO:0003174
+xref: FMA:58685 
+xref: UBERON:0001790
+relationship: part_of TS-0685 ! Neuroretina 
+
+[Term]
+id: TS-2513
+name: Inner plexiform layer of retina
+def: "Contains the processes of horizontal, amacrine, bipolar, and ganglion cells that connect to each other." [isbn:0781767903]
+synonym: "Inner plexiform layer" RELATED []
+synonym: "Retinal inner plexiform layer" RELATED []
+synonym: "Retina inner plexiform layer" RELATED []
+synonym: "Nerve fibers in inner plexiform layer" RELATED []
+xref: BTO:0003175
+xref: FMA:58704 
+xref: UBERON:0001795
+relationship: part_of TS-0685 ! Neuroretina 
+
+[Term]
+id: TS-2514
+name: Inner nuclear layer of retina
+def: "Contains the cell bodies (nuclei) of horizontal, amacrine, bipolar, and Muller's cells." [isbn:0781767903]
+synonym: "Inner nuclear layer" RELATED []
+synonym: "Retina inner nuclear layer" RELATED []
+synonym: "Retinal inner nuclear layer" RELATED []
+synonym: "Neural retina inner nuclear layer" RELATED []
+synonym: "Cells in inner nuclear layer" RELATED []
+xref: BTO:0003176
+xref: FMA:58686 
+xref: UBERON:0001791
+relationship: part_of TS-0685 ! Neuroretina 
+
+[Term]
+id: TS-2515
+name: Nerve fiber layer of retina 
+def: "Contains processes of ganglion cells that lead from the retina to the brain." [isbn:0781767903]
+synonym: "Optic fiber layer" RELATED []
+synonym: "Retina nerve fiber layer" RELATED []
+synonym: "Layer of nerve fibres of retina" RELATED []
+synonym: "Layer of optic nerve fibres of retina" RELATED []
+synonym: "Layer of optic nerve fibres" RELATED []
+synonym: "Nerve fibers in nerve fiber layer" RELATED []
+xref: FMA:58688 
+xref: UBERON:0001793
+relationship: part_of TS-0685 ! Neuroretina 
+
+[Term]
+id: TS-2516
+name: Lactating lactiferous duct
+def: "Lactiferous duct in period of lactation." [neXtProt:PDR;HPA:HPA]
+synonym: "lactating lactiferous duct" RELATED []
+synonym: "lactating lactiferous gland duct" RELATED []
+synonym: "Lactating mammary duct" RELATED []
+synonym: "Lactating mammary gland duct" RELATED []
+synonym: "Lactating breast ductal cells" RELATED []
+relationship: part_of TS-0513 ! Lactating mammary gland
+
+[Term]
+id: TS-2517
+name: Lactating mammary gland glandular cell
+def: "Glandular cell of mammary epithelium in period of lactation." [neXtProt:PDR;HPA:HPA]
+synonym: "Lactating glandular cells" RELATED []
+is_a: TS-2085 ! Glandular cell
+relationship: part_of TS-0513 ! Lactating mammary gland
 
 [Typedef]
 id: develops_from
