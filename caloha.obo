@@ -9753,6 +9753,58 @@ synonym: "Lactating glandular cells" RELATED []
 is_a: TS-2085 ! Glandular cell
 relationship: part_of TS-0513 ! Lactating mammary gland
 
+[Term]
+id: TS-2518
+name: Cerebral cortex processes
+def: "Refers to a bundle of axons or dendrites found in cerebral cortex." [neXtProt:PDR;HPA:HPA]
+synonym: "Cerebral cortex processes/nerve bundles" RELATED []
+relationship: part_of TS-0091 ! Cerebral cortex
+
+[Term]
+id: TS-2519
+name: Hippocampus processes
+def: "Refers to a bundle of axons or dendrites found in hippocampus." [neXtProt:PDR;HPA:HPA]
+synonym: "Hippocampus processes/nerve bundles" RELATED []
+relationship: part_of TS-0460 ! Hippocampus
+
+[Term]
+id: TS-2520
+name: Hypothalamus processes
+def: "Refers to a bundle of axons or dendrites found in hypothalamus." [neXtProt:PDR;HPA:HPA]
+synonym: "Hypothalamus processes/nerve bundles" RELATED []
+relationship: part_of TS-0469 ! Hypothalamus
+
+[Term]
+id: TS-2521
+name: Skin secretory cell
+def: "A cell that specializes in controlled release of one or more substances. A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct". [neXtProt:PDR]
+is_a: TS-2035 ! Cell type
+relationship: part_of TS-0934 ! Skin
+
+[Term]
+id: TS-2522
+name: Skin exocrine cell
+def: "A cell of a gland that discharges its secretion via a duct part of the skin". [neXtProt:PDR]
+is_a: TS-2521 ! Skin secretory cell
+
+[Term]
+id: TS-2523
+name: Sebum secreting cell
+def: "A cell secreting sebun, an oily substance secreted by sebaceous glands, composed of keratin, fat, and cellular debris." [CL:0000317] 
+synonym: "Skin sebaceous cell" RELATED []
+synonym:"Sebocyte" RELATED []
+xref:BTO:0004613
+xref: CL:0000317
+is_a: TS-2522 ! Skin exocrine cell
+relationship: part_of TS-2384 ! Sebaceous gland
+
+[Term]
+id: TS-2524
+name: Skin sweat cell
+def: "Exocrine cell of the sweat gland. Includes clear cell of eccrine sweat gland, dark cell of eccrine sweat gland, and exocrine cells of apocrine sweat glands." [neXtProt:PDR]
+is_a: TS-2522 ! Skin exocrine cell
+relationship: part_of TS-0993 ! Sweat gland
+
 [Typedef]
 id: develops_from
 name: develops_from
