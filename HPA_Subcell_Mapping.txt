@@ -4,31 +4,35 @@ aggresome	-	-
 cell junctions	SL-0038	-
 centrosome	SL-0048	-
 cytokinetic bridge	SL-0090	Note=Associated with cytokinetic bridge
+cytoplasmic bodies      SL-0091	Note=Associated with cytoplasmic bodies
 cytosol	SL-0091	-
 endoplasmic reticulum	SL-0095	-
 endosomes	SL-0101	-
 focal adhesion sites	SL-0118	-
-golgi apparatus	SL-0132	-
+Golgi apparatus	SL-0132	-
 intermediate filaments	SL-0090	Note=Associated with intermediate filaments
-lipid droplet	SL-0154	-
+lipid droplets	SL-0154	-
 lysosomes	SL-0158	-
-microtubule end SL-0090	Note= Associated with microtubules end
+microtubule ends        SL-0090	Note=Associated with microtubules ends
 microtubule organizing center	SL-0484	-
 microtubules	SL-0090	Note=Associated with microtubules
 midbody	SL-0469	-
+midbody ring    SL-0490 -
 mitochondria	SL-0173	-
 mitotic spindle	SL-0251	-
+nuclear bodies  SL-0191	Note=Associated with nuclear bodies
 nuclear membrane	SL-0182	-
-nuclear speckles-SL-0186	-
+nuclear speckles        SL-0186	-
 nucleoli	SL-0188	-
+nucleoli fibrillar center       SL-0188 Note=Associated with nucleoli fibrillar center
 nucleoplasm	SL-0190	-
 nucleus	SL-0191	-
-peroxisome	SL-0204	-
+peroxisomes	SL-0204	-
 plasma membrane	SL-0039	-
-rods and rings	SL-0086	Note=Associated with rods and rings.
+rods and rings	SL-0086	Note=Associated with rods and rings
 vesicles	SL-0088	-
 cytoplasm	SL-0086	-
 cytoskeleton	SL-0090	-
 focal adhesions	SL-0118	-
-microtubule plus end	SL-0090	Note= Associated with microtubules plus end
+microtubule plus end	SL-0090	Note=Associated with microtubules plus end
 nucleus but not nucleoli	SL-0190	-
