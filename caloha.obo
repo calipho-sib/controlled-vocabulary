@@ -1674,6 +1674,7 @@ is_a: TS-2367 ! Myeloid leukocyte
 id: TS-0430
 name: Hair
 def: "A filament-like structure consisting of a shaft which projects to the surface of the skin from a root which is softer than the shaft and lodges in the cavity of a hair follicle. It is found on most surfaces of the body. They consist of three layers: the medulla, the cortex, and the cuticle." [MeSH:Hair and isbn:0781767903]
+synonym: "cells in cortex/medulla" RELATED []
 xref: BTO:0001501
 xref: FMA:53667
 xref: MESH:D006197
