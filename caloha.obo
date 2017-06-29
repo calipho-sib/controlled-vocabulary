@@ -9597,6 +9597,7 @@ id: TS-2503
 name: Caudate nucleus glial cell
 def: "Glial cells in the caudate nucleus." [neXtProt:PDR]
 synonym: "Caudate nucleus glial cells" RELATED []
+synonym: "Caudate glial cells" RELATED []
 is_a: TS-0415 ! Glial cell
 relationship: part_of TS-0121 ! Caudate nucleus
 
@@ -9605,6 +9606,7 @@ id: TS-2504
 name: Caudate nucleus neuron
 def: "Neuronal cells in the caudate nucleus." [neXtProt:PDR]
 synonym: "Caudate nucleus neuronal cells" RELATED []
+synonym: "Caudate neuronal cells" RELATED []
 is_a: TS-0683 ! Neuron
 relationship: part_of TS-0121 ! Caudate nucleus
 
