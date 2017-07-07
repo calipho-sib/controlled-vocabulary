@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 10-Mar-2017
+Last update: 07-Jul-2017
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 10-Mar-2017
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00920
+AN   Next free AC: DO-00932
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -786,15 +786,39 @@ FT   ZN_FING.
 TG   PS51802; ZF_CCHHC;
 DO   PDOC51802;
 //
+ID   cDENN.
+AC   DO-00922
+FT   DOMAIN.
+TG   PS50211; DENN;
+DO   PDOC50211;
+//
+ID   cDENN C9ORF72-type.
+AC   DO-00923
+FT   DOMAIN.
+TG   PS51835; DENN_C9ORF72;
+DO   PDOC50211;
+//
+ID   cDENN FLCN/SMCR8-type.
+AC   DO-00924
+FT   DOMAIN.
+TG   PS51834; DENN_FLCN_SMCR8;
+DO   PDOC50211;
+//
+ID   cDENN FNIP1/2-type.
+AC   DO-00925
+FT   DOMAIN.
+TG   PS51836; DENN_FNIP12;
+DO   PDOC50211;
+//
 ID   CG-1.
 AC   DO-00103
 FT   DNA_BIND.
 TG   PS51437; CG_1;
 DO   PDOC51437;
 //
-ID   CH.
+ID   calponin-homology.
 AC   DO-00104
-SY   calponin-homology.
+SY   CH.
 FT   DOMAIN.
 TG   PS50021; CH;
 DO   PDOC50021;
@@ -1201,7 +1225,25 @@ DO   IPR004875;
 ID   dDENN.
 AC   DO-00158
 FT   DOMAIN.
-TG   PS50947; DDENN;
+TG   PS50211; DENN;
+DO   PDOC50211;
+//
+ID   dDENN C9ORF72-type.
+AC   DO-00927
+FT   DOMAIN.
+TG   PS51835; DENN_C9ORF72;
+DO   PDOC50211;
+//
+ID   dDENN FLCN/SMCR8-type.
+AC   DO-00928
+FT   DOMAIN.
+TG   PS51834; DENN_FLCN_SMCR8;
+DO   PDOC50211;
+//
+ID   dDENN FNIP1/2-type.
+AC   DO-00929
+FT   DOMAIN.
+TG   PS51836; DENN_FNIP12;
 DO   PDOC50211;
 //
 ID   DDHD.
@@ -2799,6 +2841,12 @@ FT   DOMAIN.
 TG   PS50896; LISH;
 DO   PDOC50896;
 //
+ID   LITAF.
+AC   DO-00920
+FT   DOMAIN.
+TG   PF10601; zf-LITAF-like;
+DO   IPR006629;
+//
 ID   LNR.
 AC   DO-00385
 SY   Lin/Notch.
@@ -3360,7 +3408,7 @@ FT   DOMAIN.
 TG   PS51448; P_TREFOIL_2;
 DO   PDOC00024;
 //
-ID   P/Homo B. 
+ID   P/Homo B.
 AC   DO-00916
 FT   DOMAIN.
 TG   PS51829; P_HOMO_B;
@@ -3589,7 +3637,7 @@ DO   IPR000209;
 //
 ID   peripheral subunit-binding.
 AC   DO-00917
-SY   PSBD. 
+SY   PSBD.
 SY   peripheral subunit-binding (PSBD).
 FT   DOMAIN.
 TG   PS51826; PSBD;
@@ -4609,6 +4657,12 @@ FT   DOMAIN.
 TG   PS51670; SHKT;
 DO   PDOC51670;
 //
+ID   sHSP.
+AC   DO-00921
+FT   DOMAIN.
+TG   PS01031; SHSP;
+DO   PDOC00791;
+//
 ID   SIAH-type.
 AC   DO-00617
 FT   ZN_FING.
@@ -5212,7 +5266,25 @@ DO   IPR006642;
 ID   uDENN.
 AC   DO-00701
 FT   DOMAIN.
-TG   PS50946; UDENN;
+TG   PS50211; DENN;
+DO   PDOC50211;
+//
+ID   uDENN C9ORF72-type.
+AC   DO-00931
+FT   DOMAIN.
+TG   PS51835; DENN_C9ORF72;
+DO   PDOC50211;
+//
+ID   uDENN FLCN/SMCR8-type.
+AC   DO-00930
+FT   DOMAIN.
+TG   PS51834; DENN_FLCN_SMCR8;
+DO   PDOC50211;
+//
+ID   uDENN FNIP1/2-type.
+AC   DO-00926
+FT   DOMAIN.
+TG   PS51836; DENN_FNIP12;
 DO   PDOC50211;
 //
 ID   UEV.

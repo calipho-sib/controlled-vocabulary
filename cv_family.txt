@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 10-Mar-2017
+Last update: 07-Jul-2017
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 10-Mar-2017
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05443
+AN   Next free AC: FA-05459
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -416,9 +416,6 @@ AC   FA-00073
 ID   Acireductone dioxygenase (ARD) family
 AC   FA-00074
 //
-ID   ACMSD family
-AC   FA-00075
-//
 ID   ACN9 family
 AC   FA-00076
 //
@@ -526,14 +523,6 @@ AC   FA-00101
 ID   Adenomatous polyposis coli (APC) family
 AC   FA-00102
 //
-ID   Adenosine and AMP deaminases family
-AC   FA-00103
-//
-ID   ADGF subfamily
-AC   FA-00104
-SY   Adenosine and AMP deaminases family. ADGF subfamily.
-HI   FA-00103; Adenosine and AMP deaminases family
-//
 ID   Adenosylhomocysteinase family
 AC   FA-00105
 //
@@ -630,14 +619,6 @@ AC   FA-00127
 ID   AHA1 family
 AC   FA-00128
 //
-ID   AhpC/TSA family
-AC   FA-00129
-//
-ID   Rehydrin subfamily
-AC   FA-00130
-SY   AhpC/TSA family. Rehydrin subfamily.
-HI   FA-00129; AhpC/TSA family
-//
 ID   AHSP family
 AC   FA-00131
 //
@@ -729,6 +710,10 @@ AC   FA-00154
 //
 ID   ALG6/ALG8 glucosyltransferase family
 AC   FA-00155
+//
+ID   ALKAL family
+AC   FA-01231
+SY   FAM150 family.
 //
 ID   Alkaline ceramidase family
 AC   FA-00156
@@ -1371,9 +1356,6 @@ AC   FA-00316
 ID   ATXN1 family
 AC   FA-00317
 //
-ID   ATZ/TRZ family
-AC   FA-00318
-//
 ID   Augurin family
 AC   FA-00319
 SY   UPF0689 family.
@@ -1399,6 +1381,10 @@ AC   FA-00325
 ID   BABAM1 family
 AC   FA-04835
 SY   MERIT40 family.
+//
+ID   BABAM1 family
+AC   FA-00394
+SY   BRE family.
 //
 ID   BACURD family
 AC   FA-04750
@@ -1670,9 +1656,6 @@ HI   FA-00390; BPI/LBP/Plunc superfamily
 //
 ID   BRAG family
 AC   FA-00393
-//
-ID   BRE family
-AC   FA-00394
 //
 ID   BRE1 family
 AC   FA-00395
@@ -2046,6 +2029,10 @@ AC   FA-00488
 ID   Caveolin family
 AC   FA-00489
 //
+ID   CAVIN family
+AC   FA-03195
+SY   PTRF/SDPR family.
+//
 ID   CBF-beta family
 AC   FA-00490
 //
@@ -2088,6 +2075,9 @@ ID   CCDC172 family
 AC   FA-05035
 SY   UPF0628 family.
 //
+ID   CCDC181 family
+AC   FA-05446
+//
 ID   CCDC22 family
 AC   FA-00501
 //
@@ -2111,6 +2101,9 @@ AC   FA-00509
 //
 ID   CCDC65 family
 AC   FA-05327
+//
+ID   CCDC69 family
+AC   FA-05447
 //
 ID   CCDC78 family
 AC   FA-05233
@@ -3034,6 +3027,10 @@ SY   UPF0760 family.
 ID   CNOT2/3/5 family
 AC   FA-00656
 //
+ID   CNOT9 family
+AC   FA-03250
+SY   RCD1 family.
+//
 ID   CNPPD1 family
 AC   FA-04851
 //
@@ -3161,6 +3158,9 @@ AC   FA-00689
 //
 ID   Complex I NDUFA13 subunit family
 AC   FA-00690
+//
+ID   Complex I NDUFA2 subunit family
+AC   FA-05454
 //
 ID   Complex I NDUFA3 subunit family
 AC   FA-00691
@@ -3822,6 +3822,10 @@ AC   FA-00868
 ID   D-glucuronyl C5-epimerase family
 AC   FA-00869
 //
+ID   D-glutamate cyclase family
+AC   FA-04340
+SY   UPF0317 family.
+//
 ID   D-isomer specific 2-hydroxyacid dehydrogenase family
 AC   FA-00870
 //
@@ -4137,14 +4141,6 @@ ID   ERF2/ZDHHC9 subfamily
 AC   FA-00946
 SY   DHHC palmitoyltransferase family. ERF2/ZDHHC9 subfamily.
 HI   FA-00944; DHHC palmitoyltransferase family
-//
-ID   DHOase family
-AC   FA-00947
-//
-ID   Hydantoinase/dihydropyrimidinase subfamily
-AC   FA-00948
-SY   DHOase family. Hydantoinase/dihydropyrimidinase subfamily.
-HI   FA-00947; DHOase family
 //
 ID   DIA1 family
 AC   FA-05036
@@ -4621,7 +4617,7 @@ AC   FA-01067
 ID   eIF-2-beta/eIF-5 family
 AC   FA-01068
 //
-ID   EIF-2B alpha/beta/delta subunits family
+ID   eIF-2B alpha/beta/delta subunits family
 AC   FA-01069
 //
 ID   MtnA subfamily
@@ -4629,7 +4625,7 @@ AC   FA-01070
 SY   EIF-2B alpha/beta/delta subunits family. MtnA subfamily.
 HI   FA-01069; EIF-2B alpha/beta/delta subunits family
 //
-ID   EIF-2B gamma/epsilon subunits family
+ID   eIF-2B gamma/epsilon subunits family
 AC   FA-01071
 //
 ID   eIF2D family
@@ -5162,9 +5158,6 @@ ID   FAM133 family
 AC   FA-04903
 SY   UPF0429 family.
 //
-ID   FAM134 family
-AC   FA-01226
-//
 ID   FAM135 family
 AC   FA-01227
 //
@@ -5173,9 +5166,6 @@ AC   FA-01228
 //
 ID   FAM149 family
 AC   FA-01230
-//
-ID   FAM150 family
-AC   FA-01231
 //
 ID   FAM151 family
 AC   FA-01232
@@ -5355,6 +5345,9 @@ ID   FAM234 family
 AC   FA-01923
 SY   ITFG3 family.
 //
+ID   FAM236 family
+AC   FA-05453
+//
 ID   FAM24 family
 AC   FA-01277
 //
@@ -5399,9 +5392,6 @@ AC   FA-01296
 //
 ID   FAM60 family
 AC   FA-01299
-//
-ID   FAM65 family
-AC   FA-01301
 //
 ID   FAM66 family
 AC   FA-01302
@@ -5690,6 +5680,9 @@ ID   Diaphanous subfamily
 AC   FA-01383
 SY   Formin homology family. Diaphanous subfamily.
 HI   FA-01381; Formin homology family
+//
+ID   FOXJ1 family
+AC   FA-05448
 //
 ID   FOXRED2 family
 AC   FA-01384
@@ -6251,9 +6244,6 @@ AC   FA-01516
 ID   GLTP family
 AC   FA-01517
 //
-ID   GLTSCR2 family
-AC   FA-01518
-//
 ID   Glu/Leu/Phe/Val dehydrogenases family
 AC   FA-01519
 //
@@ -6549,6 +6539,11 @@ ID   XylT subfamily
 AC   FA-01599
 SY   Glycosyltransferase 14 family. XylT subfamily.
 HI   FA-01598; Glycosyltransferase 14 family
+//
+ID   Glycosyltransferase 16 family
+AC   FA-05445
+SY   GT16.
+ID   Glycosyltransferase 16 (GT16) family.
 //
 ID   Glycosyltransferase 17 family
 AC   FA-01600
@@ -7180,9 +7175,6 @@ AC   FA-01782
 ID   HMX homeobox family
 AC   FA-01783
 //
-ID   HN1 family
-AC   FA-01784
-//
 ID   HNF1 homeobox family
 AC   FA-01785
 //
@@ -7245,9 +7237,6 @@ AC   FA-01799
 //
 ID   HUS1 family
 AC   FA-01800
-//
-ID   HutI family
-AC   FA-01801
 //
 ID   Hydrogen channel family
 AC   FA-01802
@@ -7584,6 +7573,11 @@ AC   FA-01884
 ID   Intermediate filament family
 AC   FA-01885
 //
+ID   INTS14 family
+AC   FA-05108
+SY   VWA9 family.
+SY   UPF0464 family.
+//
 ID   Inturned family
 AC   FA-01886
 //
@@ -7802,6 +7796,10 @@ AC   FA-01942
 //
 ID   Junctophilin family
 AC   FA-01943
+//
+ID   JUPITER family
+AC   FA-01784
+SY   HN1 family.
 //
 ID   KAE1 / TsaD family
 AC   FA-05226
@@ -8118,6 +8116,9 @@ SY   CRTAP/No55 family.
 //
 ID   Leptin family
 AC   FA-02033
+//
+ID   LETM1 family
+AC   FA-05449
 //
 ID   Leukocyte receptor complex/polymeric immunogobulin receptor (PIR/LRC) family
 AC   FA-02034
@@ -8958,6 +8959,73 @@ AC   FA-02245
 SY   Metallo-beta-lactamase superfamily. RNA-metabolizing metallo-beta-lactamase-like family. INTS9 subfamily.
 HI   FA-02241; RNA-metabolizing metallo-beta-lactamase-like family
 //
+ID   Metallo-dependent hydrolases superfamily
+AC   FA-00947
+//
+ID   ACMSD family
+AC   FA-00075
+SY   Metallo-dependent hydrolases superfamily. ACMSD family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   ATZ/TRZ family
+AC   FA-00318
+SY   Metallo-dependent hydrolases superfamily. ATZ/TRZ family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   Adenosine and AMP deaminases family
+AC   FA-00103
+SY   Metallo-dependent hydrolases superfamily. Adenosine and AMP deaminases family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   ADGF subfamily
+AC   FA-00104
+SY   Metallo-dependent hydrolases superfamily. Adenosine and AMP deaminases family. ADGF subfamily.
+HI   FA-00103; Adenosine and AMP deaminases family
+//
+ID   DHOase family
+AC   FA-05456
+SY   Metallo-dependent hydrolases superfamily. DHOase family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   CAD subfamily
+AC   FA-05457
+SY   Metallo-dependent hydrolases superfamily. DHOase family. CAD subfamily.
+HI   FA-05456; DHOase family
+//
+ID   HutI family
+AC   FA-01801
+SY   Metallo-dependent hydrolases superfamily. HutI family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   Hydantoinase/dihydropyrimidinase family
+AC   FA-00948
+SY   DHOase family. Hydantoinase/dihydropyrimidinase subfamily.
+SY   Hydantoinase/dihydropyrimidinase subfamily.
+SY   Metallo-dependent hydrolases superfamily. Hydantoinase/dihydropyrimidinase family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   NagA family
+AC   FA-02412
+SY   Metallo-dependent hydrolases superfamily. NagA family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   Peptidase M19 family
+AC   FA-02732
+SY   Metallo-dependent hydrolases superfamily. Peptidase M19 family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   Phosphotriesterase family
+AC   FA-02846
+SY   Metallo-dependent hydrolases superfamily. Phosphotriesterase family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
+ID   TatD-type hydrolase family
+AC   FA-03934
+SY   Metallo-dependent hydrolases superfamily. TatD-type hydrolase family.
+SY   TatD DNase family.
+SY   UPF0006 family.
+HI   FA-00947; Metallo-dependent hydrolases superfamily
+//
 ID   Metallophosphoesterase superfamily
 AC   FA-02246
 //
@@ -9540,6 +9608,9 @@ AC   FA-02396
 ID   MYST (SAS/MOZ) family
 AC   FA-02397
 //
+ID   MYT1 family
+AC   FA-05458
+//
 ID   MYZAP family
 AC   FA-04981
 //
@@ -9627,9 +9698,6 @@ AC   FA-05228
 //
 ID   NAF1 family
 AC   FA-02411
-//
-ID   NagA family
-AC   FA-02412
 //
 ID   NAIF1 family
 AC   FA-02413
@@ -9967,6 +10035,10 @@ AC   FA-02502
 ID   NOP5/NOP56 family
 AC   FA-02503
 //
+ID   NOP53 family
+AC   FA-01518
+SY   GLTSCR2 family.
+//
 ID   NOP9 family
 AC   FA-05058
 //
@@ -10195,6 +10267,11 @@ HI   FA-02557; Nudix hydrolase family
 ID   PCD1 subfamily
 AC   FA-02563
 SY   Nudix hydrolase family. PCD1 subfamily.
+HI   FA-02557; Nudix hydrolase family
+//
+ID   TIRR subfamily
+AC   FA-05455
+SY   Nudix hydrolase family. TIRR subfamily.
 HI   FA-02557; Nudix hydrolase family
 //
 ID   NUF2 family
@@ -10822,9 +10899,6 @@ AC   FA-02730
 ID   Peptidase M18 family
 AC   FA-02731
 //
-ID   Peptidase M19 family
-AC   FA-02732
-//
 ID   Peptidase M2 family
 AC   FA-02733
 //
@@ -11106,8 +11180,26 @@ AC   FA-02802
 ID   Peroxin-3 family
 AC   FA-02803
 //
-ID   Peroxiredoxin 2 family
+ID   Peroxiredoxin family
+AC   FA-00129
+SY   AhpC/TSA family.
+//
+ID   AhpC/Prx1 subfamily
+AC   FA-05444
+SY   Peroxiredoxin family. AhpC/Prx1 subfamily.
+HI   FA-00129; Peroxiredoxin family
+//
+ID   Prx5 subfamily
 AC   FA-02804
+SY   Peroxiredoxin family. Prx5 subfamily.
+SY   Peroxiredoxin 2 family.
+HI   FA-00129; Peroxiredoxin family
+//
+ID   Prx6 subfamily
+AC   FA-00130
+SY   Peroxiredoxin family. Prx6 subfamily.
+SY   Rehydrin subfamily.
+HI   FA-00129; Peroxiredoxin family
 //
 ID   Peroxiredoxin-like FAM213 family
 AC   FA-04944
@@ -11281,9 +11373,6 @@ AC   FA-02844
 //
 ID   Phosphorylase b kinase regulatory chain family
 AC   FA-02845
-//
-ID   Phosphotriesterase family
-AC   FA-02846
 //
 ID   PhyH family
 AC   FA-02847
@@ -12762,9 +12851,6 @@ ID   PTR2/POT transporter (TC 2.A.17) family
 AC   FA-03194
 DR   TC 2.A.17
 //
-ID   PTRF/SDPR family
-AC   FA-03195
-//
 ID   PUR DNA-binding protein family
 AC   FA-03196
 //
@@ -12786,6 +12872,10 @@ AC   FA-03200
 //
 ID   Pyridoxine kinase family
 AC   FA-03201
+//
+ID   Pyridoxal phosphate-binding protein YggS/PROSC family
+AC   FA-04306
+SY   UPF0001 family.
 //
 ID   Pyrimidine 5'-nucleotidase family
 AC   FA-03202
@@ -12970,9 +13060,6 @@ AC   FA-03248
 ID   RCAN family
 AC   FA-03249
 //
-ID   RCD1 family
-AC   FA-03250
-//
 ID   REC114 family
 AC   FA-04961
 //
@@ -13052,6 +13139,10 @@ AC   FA-03268
 //
 ID   Retinoblastoma protein (RB) family
 AC   FA-03269
+//
+ID   RETREG family
+AC   FA-01226
+SY   FAM134 family.
 //
 ID   Reverse transcriptase family
 AC   FA-03270
@@ -13623,6 +13714,9 @@ ID   RICTOR family
 AC   FA-02858
 SY   Pianissimo family.
 //
+ID   RIF1 family
+AC   FA-05452
+//
 ID   RILPL family
 AC   FA-03393
 SY   UPF0475 family.
@@ -13641,6 +13735,10 @@ AC   FA-03397
 //
 ID   RINT1 family
 AC   FA-03398
+//
+ID   RIPOR family
+AC   FA-01301
+SY   FAM65 family.
 //
 ID   Ripply family
 AC   FA-03399
@@ -14753,6 +14851,9 @@ SY   UPF0443 family.
 ID   SMCR7 family
 AC   FA-03692
 //
+ID   SMCR8 family
+AC   FA-05450
+//
 ID   SMDT1/EMRE family
 AC   FA-04392
 SY   UPF0466 family.
@@ -15340,6 +15441,9 @@ AC   FA-03841
 ID   STAM family
 AC   FA-03842
 //
+ID   STARD3 family
+AC   FA-05443
+//
 ID   Stannin family
 AC   FA-03843
 //
@@ -15691,11 +15795,6 @@ AC   FA-03933
 //
 ID   TARBP2 family
 AC   FA-05169
-//
-ID   TatD-type hydrolase family
-AC   FA-03934
-SY   TatD DNase family.
-SY   UPF0006 family.
 //
 ID   Taxilin family
 AC   FA-03935
@@ -17353,6 +17452,9 @@ AC   FA-04288
 ID   UBR4 family
 AC   FA-04289
 //
+ID   UBXN10 family
+AC   FA-05451
+//
 ID   UCMA family
 AC   FA-04290
 //
@@ -17411,9 +17513,6 @@ ID   Unknown BART superfamily-1 (UBS1) (TC 2.A.93) family
 AC   FA-05062
 DR   TC 2.A.93
 //
-ID   UPF0001 family
-AC   FA-04306
-//
 ID   UPF0046 family
 AC   FA-04311
 //
@@ -17453,9 +17552,6 @@ AC   FA-04336
 //
 ID   UPF0279 family
 AC   FA-04337
-//
-ID   UPF0317 family
-AC   FA-04340
 //
 ID   UPF0359 family
 AC   FA-04344
@@ -17985,10 +18081,6 @@ AC   FA-04609
 //
 ID   VWA-containing collagen family
 AC   FA-04610
-//
-ID   VWA9 family
-AC   FA-05108
-SY   UPF0464 family.
 //
 ID   WAL family
 AC   FA-04611
