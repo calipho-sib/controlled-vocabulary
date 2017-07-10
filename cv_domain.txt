@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 07-Jul-2017
+Last update: 10-Jul-2017
 
 ----------------------------------------------------------------------------
 
@@ -819,6 +819,7 @@ DO   PDOC51437;
 ID   calponin-homology.
 AC   DO-00104
 SY   CH.
+SY   calponin-homology (CH).
 FT   DOMAIN.
 TG   PS50021; CH;
 DO   PDOC50021;

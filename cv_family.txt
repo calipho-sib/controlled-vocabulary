@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 07-Jul-2017
+Last update: 10-Jul-2017
 
 ----------------------------------------------------------------------------
 
@@ -1382,7 +1382,7 @@ ID   BABAM1 family
 AC   FA-04835
 SY   MERIT40 family.
 //
-ID   BABAM1 family
+ID   BABAM2 family
 AC   FA-00394
 SY   BRE family.
 //
@@ -6543,7 +6543,7 @@ HI   FA-01598; Glycosyltransferase 14 family
 ID   Glycosyltransferase 16 family
 AC   FA-05445
 SY   GT16.
-ID   Glycosyltransferase 16 (GT16) family.
+SY   Glycosyltransferase 16 (GT16) protein family.
 //
 ID   Glycosyltransferase 17 family
 AC   FA-01600
