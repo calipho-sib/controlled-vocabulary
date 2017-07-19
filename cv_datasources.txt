@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     22-Mar-2017
+  Release:     19-Jul-2017
 
   The definition of the CV is provided in the following format:
 
@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0116
+next id:  CVDS-0117
 
 __________________________________________________________________________
 ID   AgBase
@@ -164,6 +164,13 @@ DR
 ID   Human protein atlas
 AC   CVDS-0005
 DE   Expression data imported from Human protein atlas
+DR   http://www.proteinatlas.org
+DO   MDATA_0005
+//
+ID   Human protein atlas RNA-seq
+AC   CVDS-0116
+SY   HPA RNA-seq
+DE   RNA-seq expression data imported from Human protein atlas
 DR   http://www.proteinatlas.org
 DO   MDATA_0005
 //
