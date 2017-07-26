@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0098
+next id:  CVDR-0099
 
 __________________________________________________________________________
 ID   Additional references
@@ -40,6 +40,14 @@ DE   Identifiers: antibodies against human proteins.
 DS   Antibodypedia
 DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/identifiers/antibodypedia.log
 UF   monthly
+UR
+CI
+//
+ID   Bioeditor
+AC   CVDR-0098
+DE   Annotations: annotation manually created by neXtProt via the Bioeditor platform.
+DS   Bioeditor
+UF   occasionally
 UR
 CI
 //
