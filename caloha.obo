@@ -8976,7 +8976,7 @@ relationship: part_of TS-1050 ! tongue
 
 [Term]
 id: TS-2441
-name: Type I NK T cell
+name: Type I NK T cells
 def: "An alpha-beta T cell expressing NK cell markers that is CD1d restricted and expresses specific V-alpha chains. NK T cells of this type recognize the glycolipid alpha-galactosylceramide in the context of CD1d". [CL:0000921]
 synonym: "type I NKT cell" RELATED []
 synonym: "type I NK T lymphocyte" RELATED []
