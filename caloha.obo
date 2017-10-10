@@ -9795,7 +9795,7 @@ name: Sebum secreting cell
 def: "A cell secreting sebun, an oily substance secreted by sebaceous glands, composed of keratin, fat, and cellular debris." [CL:0000317] 
 synonym: "Skin sebaceous cell" RELATED []
 synonym:"Sebocyte" RELATED []
-xref:BTO:0004613
+xref: BTO:0004613
 xref: CL:0000317
 is_a: TS-2522 ! Skin exocrine cell
 relationship: part_of TS-2384 ! Sebaceous gland
@@ -9806,6 +9806,15 @@ name: Skin sweat cell
 def: "Exocrine cell of the sweat gland. Includes clear cell of eccrine sweat gland, dark cell of eccrine sweat gland, and exocrine cells of apocrine sweat glands." [neXtProt:PDR]
 is_a: TS-2522 ! Skin exocrine cell
 relationship: part_of TS-0993 ! Sweat gland
+
+[Term]
+id: TS-2525
+name: Retinal microglial cell
+def: "Microglial cells of the retina." [neXtProt:PDR]
+synonym: "Retina microglia cell" RELATED []
+xref: FMA:62113
+is_a: TS-0627 ! Microglia
+relationship: part_of TS-0865 ! Retina
 
 [Typedef]
 id: develops_from
