@@ -9816,6 +9816,37 @@ xref: FMA:62113
 is_a: TS-0627 ! Microglia
 relationship: part_of TS-0865 ! Retina
 
+[Term]
+id: 2526
+name: Type I alveolar epithelial cell
+def: "Type I alveolar cells are squamous cells of the alveolar surface. Type I cells are involved in the process of gas exchange between the alveoli and blood." [Wikipedia:Alveolar_cells]
+synonym: "Type I alveolar cell" RELATED []
+synonym: "Type 1 pneumocyte" RELATED []
+synonym: "Type I pneumocyte" RELATED []
+synonym: "Alveolar cell type I" RELATED []
+synonym: "Squamous alveolar lining cell" RELATED []
+synonym: "Type-I alveolar cell" RELATED []
+synonym: "Squamous alveolar cell" RELATED []
+xref: BTO:0000780
+xref: CL:0002062
+xref: FMA:62500
+is_a: TS-2168 ! Pneumocyte
+
+[Term]
+id: 2527
+name: Type II alveolar epithelial cell
+def: "Type II alveolar cells cover a small fraction of the alveolar surface area. They are involved in the secretion of pulmonary surfactant, which decreases the surface tension within the alveoli." [Wikipedia:Alveolar_cells]
+synonym: "Type II alveolar cell" RELATED []
+synonym: "Type 2 pneumocyte" RELATED []
+synonym: "Type II pneumocyte" RELATED []
+synonym: "Alveolar cell type II" RELATED []
+synonym: "Type-II alveolar cell" RELATED []
+synonym: "Great alveolar cell" RELATED []
+xref: BTO:0000538
+xref: CL:0002063
+xref: FMA:62501
+is_a: TS-2168 ! Pneumocyte
+
 [Typedef]
 id: develops_from
 name: develops_from
