@@ -9853,6 +9853,13 @@ name: Interstitial macrophage
 def: "Interstitial macrophages reside in space bound by the alveolar epithelium and the vascular endothelium. Interstitial macrophages might have a role in limiting inflammation, fibrosis, and antigen presentation." [PMID:20824285] 
 is_a: TS-0576 ! Lung macrophage
 
+[Term]
+id: 2529
+name: Oligodendrocyte precursor cell
+def: "The cell type from which oligodendrocytes develop. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons." [CL:0002453]
+xref: CL:0002453
+is_a: TS-2035 ! Cell type
+
 [Typedef]
 id: develops_from
 name: develops_from
