@@ -9847,6 +9847,12 @@ xref: CL:0002063
 xref: FMA:62501
 is_a: TS-2168 ! Pneumocyte
 
+[Term]
+id: 2528
+name: Interstitial macrophage
+def: "Interstitial macrophages reside in space bound by the alveolar epithelium and the vascular endothelium. Interstitial macrophages might have a role in limiting inflammation, fibrosis, and antigen presentation." [PMID:20824285] 
+is_a: TS-0576 ! Lung macrophage
+
 [Typedef]
 id: develops_from
 name: develops_from
