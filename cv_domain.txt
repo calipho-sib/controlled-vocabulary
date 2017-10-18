@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------
         neXtProt
-        SIB - Swiss Institute of Bioinformatics and GeneBio SA
+        SIB Swiss Institute of Bioinformatics
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 10-Jul-2017
+Last update: 18-Oct-2017
 
 ----------------------------------------------------------------------------
 
@@ -118,12 +118,6 @@ AC   DO-00013
 FT   DOMAIN.
 TG   PS50021; CH;
 DO   PDOC50021;
-//
-ID   acyl carrier.
-AC   DO-00014
-FT   DOMAIN.
-TG   PS50075; ACP_DOMAIN;
-DO   PDOC00012;
 //
 ID   acylphosphatase-like.
 AC   DO-00016
@@ -1277,12 +1271,6 @@ SY   death effector.
 FT   DOMAIN.
 TG   PS50168; DED;
 DO   PDOC50168;
-//
-ID   DENN.
-AC   DO-00164
-FT   DOMAIN.
-TG   PS50211; DENN;
-DO   PDOC50211;
 //
 ID   DEP.
 AC   DO-00165
@@ -5537,13 +5525,6 @@ SY   XRN2-binding (XTBD).
 FT   DOMAIN.
 TG   PS51827; XTBD;
 DO   PDOC51827;
-//
-ID   XTBD.
-AC   DO-00893
-SY   XRN-two binding.
-FT   DOMAIN.
-TG   PF11952; XTBD;
-DO   IPR021859;
 //
 ID   YD.
 AC   DO-00731
