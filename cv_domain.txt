@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 18-Oct-2017
+Last update: 30-Oct-2017
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 18-Oct-2017
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00932
+AN   Next free AC: DO-00937
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -42,6 +42,13 @@ AC   DO-00003
 FT   DOMAIN.
 TG   PS51379; 4FE4S_FER_2;
 DO   PDOC00176;
+//
+ID   4Fe-4S His(Cys)3-ligated-type.
+AC   DO-00932
+SY   His(Cys)3-ligated-type [4Fe-4S]
+FT   DOMAIN.
+TG   PS51839; 4FE4S_HC3;
+DO   PDOC51839;
 //
 ID   4Fe-4S Mo/W bis-MGD-type.
 AC   DO-00817
@@ -592,6 +599,12 @@ AC   DO-00082
 FT   DOMAIN.
 TG   PS50004; C2_DOMAIN_2;
 DO   PDOC00380;
+//
+ID   C2 NT-type.
+AC   DO-00933
+FT   DOMAIN.
+TG   PS51840; C2_NT;
+DO   PDOC51840;
 //
 ID   C2 PI3K-type.
 AC   DO-00787
@@ -2196,10 +2209,12 @@ FT   DOMAIN.
 TG   PF01966; HD;
 DO   IPR006674;
 //
-ID   HDAg-like.
+ID   HDAg
 AC   DO-00292
+SY   hepatitis delta antigen.
 FT   DOMAIN.
-TG   None;
+TG   PS51838; HDAG;
+DO   PDOC51838;
 //
 ID   HEAT.
 AC   DO-00293
@@ -2454,6 +2469,13 @@ AC   DO-00329
 FT   ZN_FING.
 TG   PF01485; IBR;
 DO   IPR002867;
+//
+ID   IF rod.
+AC   DO-00934
+SY   Intermediate filament rod.
+FT   DOMAIN.
+TG   PS51842; IF_ROD_2;
+DO   PDOC00198;
 //
 ID   Ig-like C1-type.
 AC   DO-00330
@@ -2833,8 +2855,8 @@ DO   PDOC50896;
 ID   LITAF.
 AC   DO-00920
 FT   DOMAIN.
-TG   PF10601; zf-LITAF-like;
-DO   IPR006629;
+TG   PS51837; LITAF;
+DO   PDOC51837;
 //
 ID   LNR.
 AC   DO-00385
@@ -2885,8 +2907,8 @@ ID   LTD.
 AC   DO-00842
 SY   lamin tail.
 FT   DOMAIN.
-TG   PF00932; LTD;
-DO   IPR001322;
+TG   PS51841; LTD;
+DO   PDOC51841;
 //
 ID   LysM.
 AC   DO-00390
@@ -2980,6 +3002,13 @@ AC   DO-00402
 FT   DOMAIN.
 TG   PF00493; MCM;
 DO   IPR001208;
+//
+ID   MDFI.
+AC   DO-00935
+SY   MyoD family inhibitor.
+FT   DOMAIN.
+TG   PF15316; MDFI;
+DO   IPR026134;
 //
 ID   Mef2-type.
 AC   DO-00403
@@ -3171,6 +3200,12 @@ AC   DO-00849
 FT   DOMAIN.
 TG   PS51456; MYOSIN_MOTOR;
 DO   PDOC51456;
+//
+ID   myosin N-terminal SH3-like.
+AC   DO-00936
+FT   DOMAIN.
+TG   PS51844; SH3_LIKE;
+DO   PDOC51844;
 //
 ID   myotubularin phosphatase.
 AC   DO-00428
