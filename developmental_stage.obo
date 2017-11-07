@@ -1000,7 +1000,7 @@ is_a: HsapDO:0000001 ! Human developmental stage
 
 [Term]
 id: HsapDO:0000088
-name: early adulthood
+name: early adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is under 45." [Bgee:curator "Bgee"]
 synonym: "19-44 years" EXACT []
@@ -1232,7 +1232,7 @@ xref: EV:0300097
 
 [Term]
 id: HsapDO:0000091
-name: late adulthood
+name: late adulthood stage
 namespace: human_developmental_stage
 def: "Adult stage that refers to an adult who is over 45." [Bgee:curator "Bgee"]
 synonym: "Middle Aged + Aged" RELATED []
