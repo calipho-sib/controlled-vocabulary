@@ -907,3 +907,513 @@ UF   occasionally
 UR
 CI
 //
+ID   Human Adrenal Gland PeptideAtlas
+AC   CVDR-0100
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Adrenal Gland samples.
+DS   PeptideAtlas Adrenal Gland
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Alimentary System PeptideAtlas
+AC   CVDR-0101
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Alimentary System samples.
+DS   PeptideAtlas Alimentary System
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Blood Cells PeptideAtlas
+AC   CVDR-0102
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Blood Cells samples.
+DS   PeptideAtlas Blood Cells
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Blood Plasma PeptideAtlas
+AC   CVDR-0103
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Blood Plasma samples.
+DS   PeptideAtlas Blood Plasma
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Brain PeptideAtlas
+AC   CVDR-0104
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Brain samples.
+DS   PeptideAtlas Brain
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Breast PeptideAtlas
+AC   CVDR-0105
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Breast samples.
+DS   PeptideAtlas Breast
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Alimentary System PeptideAtlas
+AC   CVDR-0106
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Alimentary System samples.
+DS   PeptideAtlas Cancer Cell Lines, Alimentary System
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Blood PeptideAtlas
+AC   CVDR-0107
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Blood samples.
+DS   PeptideAtlas Cancer Cell Lines, Blood
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Brain PeptideAtlas
+AC   CVDR-0108
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Brain samples.
+DS   PeptideAtlas Cancer Cell Lines, Brain
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Breast PeptideAtlas
+AC   CVDR-0109
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Breast samples.
+DS   PeptideAtlas Cancer Cell Lines, Breast
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Kidney PeptideAtlas
+AC   CVDR-0110
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Kidney samples.
+DS   PeptideAtlas Cancer Cell Lines, Kidney
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Liver PeptideAtlas
+AC   CVDR-0111
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Liver samples.
+DS   PeptideAtlas Cancer Cell Lines, Liver
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Lung PeptideAtlas
+AC   CVDR-0112
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Lung samples.
+DS   PeptideAtlas Cancer Cell Lines, Lung
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Other Anatomical Entities PeptideAtlas
+AC   CVDR-0113
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Other Anatomical Entities samples.
+DS   PeptideAtlas Cancer Cell Lines, Other Anatomical Entities
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Other Female Reproductive Organ PeptideAtlas
+AC   CVDR-0114
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Other Female Reproductive Organ samples.
+DS   PeptideAtlas Cancer Cell Lines, Other Female Reproductive Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Other Male Reproductive Organ PeptideAtlas
+AC   CVDR-0115
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Other Male Reproductive Organ samples.
+DS   PeptideAtlas Cancer Cell Lines, Other Male Reproductive Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Ovary PeptideAtlas
+AC   CVDR-0116
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Ovary samples.
+DS   PeptideAtlas Cancer Cell Lines, Ovary
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines, Urinary Bladder PeptideAtlas
+AC   CVDR-0117
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Urinary Bladder samples.
+DS   PeptideAtlas Cancer Cell Lines, Urinary Bladder
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Alimentary System PeptideAtlas
+AC   CVDR-0118
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Alimentary System samples.
+DS   PeptideAtlas Cancer, Alimentary System
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Brain PeptideAtlas
+AC   CVDR-0119
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Brain samples.
+DS   PeptideAtlas Cancer, Brain
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Breast PeptideAtlas
+AC   CVDR-0120
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Breast samples.
+DS   PeptideAtlas Cancer, Breast
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Kidney PeptideAtlas
+AC   CVDR-0121
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Kidney samples.
+DS   PeptideAtlas Cancer, Kidney
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Liver PeptideAtlas
+AC   CVDR-0122
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Liver samples.
+DS   PeptideAtlas Cancer, Liver
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Lung PeptideAtlas
+AC   CVDR-0123
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Lung samples.
+DS   PeptideAtlas Cancer, Lung
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Other Anatomical Entities PeptideAtlas
+AC   CVDR-0124
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Other Anatomical Entities samples.
+DS   PeptideAtlas Cancer, Other Anatomical Entities
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Other Male Reproductive Organ PeptideAtlas
+AC   CVDR-0125
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Other Male Reproductive Organ samples.
+DS   PeptideAtlas Cancer, Other Male Reproductive Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Ovary PeptideAtlas
+AC   CVDR-0126
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Ovary samples.
+DS   PeptideAtlas Cancer, Ovary
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer, Urinary Bladder PeptideAtlas
+AC   CVDR-0127
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Urinary Bladder samples.
+DS   PeptideAtlas Cancer, Urinary Bladder
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cerebrospinal Fluid PeptideAtlas
+AC   CVDR-0128
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cerebrospinal Fluid samples.
+DS   PeptideAtlas Cerebrospinal Fluid
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Eye PeptideAtlas
+AC   CVDR-0129
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Eye samples.
+DS   PeptideAtlas Eye
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Heart PeptideAtlas
+AC   CVDR-0130
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Heart samples.
+DS   PeptideAtlas Heart
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Kidney PeptideAtlas
+AC   CVDR-0131
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Kidney samples.
+DS   PeptideAtlas Kidney
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Liver PeptideAtlas
+AC   CVDR-0132
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Liver samples.
+DS   PeptideAtlas Liver
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Lung PeptideAtlas
+AC   CVDR-0133
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Lung samples.
+DS   PeptideAtlas Lung
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Non Cancer Cell Lines PeptideAtlas
+AC   CVDR-0134
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Non Cancer Cell Lines samples.
+DS   PeptideAtlas Non Cancer Cell Lines
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Oocyte PeptideAtlas
+AC   CVDR-0135
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Oocyte samples.
+DS   PeptideAtlas Oocyte
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Other Anatomical Entities PeptideAtlas
+AC   CVDR-0136
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Other Anatomical Entities samples.
+DS   PeptideAtlas Other Anatomical Entities
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Other Female Reproductive Organ PeptideAtlas
+AC   CVDR-0137
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Other Female Reproductive Organ samples.
+DS   PeptideAtlas Other Female Reproductive Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Other Male Reproductive Organ PeptideAtlas
+AC   CVDR-0138
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human ther Male Reproductive Organ samples.
+DS   PeptideAtlas Other Male Reproductive Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Other Respiratory Organ PeptideAtlas
+AC   CVDR-0139
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Other Respiratory Organ samples.
+DS   PeptideAtlas Other Respiratory Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Ovary PeptideAtlas
+AC   CVDR-0140
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Ovary samples.
+DS   PeptideAtlas Ovary
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Pancreas PeptideAtlas
+AC   CVDR-0141
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Pancreas samples.
+DS   PeptideAtlas Pancreas
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Pituitary Gland PeptideAtlas
+AC   CVDR-0142
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Pituitary Gland samples.
+DS   PeptideAtlas Pituitary Gland
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Placenta PeptideAtlas
+AC   CVDR-0143
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Placenta samples.
+DS   PeptideAtlas Placenta
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Sperm cell PeptideAtlas
+AC   CVDR-0144
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Sperm samples.
+DS   PeptideAtlas Sperm cell
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Spleen PeptideAtlas
+AC   CVDR-0145
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Spleen samples.
+DS   PeptideAtlas Spleen
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Testis PeptideAtlas
+AC   CVDR-0146
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Testis samples.
+DS   PeptideAtlas Testis
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Thyroid PeptideAtlas
+AC   CVDR-0147
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Thyroid samples.
+DS   PeptideAtlas Thyroid
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Ureter PeptideAtlas
+AC   CVDR-0148
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Ureter samples.
+DS   PeptideAtlas Ureter
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Urinary Bladder PeptideAtlas
+AC   CVDR-0149
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Urinary Bladder samples.
+DS   PeptideAtlas Urinary Bladder
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Urine PeptideAtlas
+AC   CVDR-0150
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Urine samples.
+DS   PeptideAtlas Urine
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
