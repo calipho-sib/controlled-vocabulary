@@ -222,46 +222,6 @@ UF   once
 UR
 CI
 //
-ID   Human Brain PeptideAtlas
-AC   CVDR-0060
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human brain samples.
-DS   PeptideAtlas human brain
-DR   http://www.peptideatlas.org/builds/human/brain/201308/brain_APD_Hs_all.fasta
-UF   rarely
-UR   http://www.peptideatlas.org
-CI
-//
-ID   Human Kidney PeptideAtlas
-AC   CVDR-0078
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human kidney samples.
-DS   PeptideAtlas human kidney
-DR   http://www.peptideatlas.org/builds/human/plasma/201308/kidney_APD_Hs_all.fasta
-UF   rarely
-UR   http://www.peptideatlas.org
-CI
-//
-ID   Human Liver PeptideAtlas
-AC   CVDR-0079
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human liver samples.
-DS   PeptideAtlas human liver
-DR   http://www.peptideatlas.org/builds/human/plasma/201308/liver_APD_Hs_all.fasta
-UF   rarely
-UR   http://www.peptideatlas.org
-CI
-//
-ID   Human Others PeptideAtlas
-AC   CVDR-0067
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human not brain, plasma and urine samples.
-DS   PeptideAtlas human plasma
-DR   http://www.peptideatlas.org/builds/human/others/201308/others_APD_Hs_all.fasta
-UF   rarely
-UR   http://www.peptideatlas.org
-CI
-//
 ID   Human PeptideAtlas
 AC   CVDR-0061
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
@@ -282,16 +242,6 @@ UF   rarely
 UR   http://www.peptideatlas.org
 CI
 //
-ID   Human Plasma PeptideAtlas
-AC   CVDR-0044
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human plasma and serum samples.
-DS   PeptideAtlas human plasma
-DR   http://www.peptideatlas.org/builds/human/plasma/201308/APD_Hs_all.fasta
-UF   rarely
-UR   http://www.peptideatlas.org
-CI
-//
 ID   Human SRMAtlas
 AC   CVDR-0089
 DE   Proteomics data (peptides): Compendium of targeted proteomics assays to detect and quantify proteins in 
@@ -300,16 +250,6 @@ DS   SRMAtlas
 DR   https://db.systemsbiology.net//sbeams/cgi/PeptideAtlas/GetPeptides?QUERY_NAME=AT_GetPeptides;action=QUERY;output_mode=tsv;SBEAMSentrycode=SRMATLASPREVIEW;organism_specialized_build=Human Synthetic
 UF   rarely
 UR   http://www.srmatlas.org
-CI
-//
-ID   Human Urine PeptideAtlas
-AC   CVDR-0066
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human urine samples.
-DS   PeptideAtlas human plasma
-DR   http://www.peptideatlas.org/builds/human/urine/201308/urine_APD_Hs_all.fasta
-UF   rarely
-UR   http://www.peptideatlas.org
 CI
 //
 ID   ICEPO
