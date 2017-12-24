@@ -967,7 +967,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Alimentary System PeptideAtlas
+ID   Human Cancer Cell Lines Alimentary System PeptideAtlas
 AC   CVDR-0106
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Alimentary System samples.
@@ -977,7 +977,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Blood PeptideAtlas
+ID   Human Cancer Cell Lines Blood PeptideAtlas
 AC   CVDR-0107
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Blood samples.
@@ -987,7 +987,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Brain PeptideAtlas
+ID   Human Cancer Cell Lines Brain PeptideAtlas
 AC   CVDR-0108
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Brain samples.
@@ -997,7 +997,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Breast PeptideAtlas
+ID   Human Cancer Cell Lines Breast PeptideAtlas
 AC   CVDR-0109
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Breast samples.
@@ -1007,7 +1007,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Kidney PeptideAtlas
+ID   Human Cancer Cell Lines Kidney PeptideAtlas
 AC   CVDR-0110
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Kidney samples.
@@ -1017,7 +1017,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Liver PeptideAtlas
+ID   Human Cancer Cell Lines Liver PeptideAtlas
 AC   CVDR-0111
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Liver samples.
@@ -1027,7 +1027,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Lung PeptideAtlas
+ID   Human Cancer Cell Lines Lung PeptideAtlas
 AC   CVDR-0112
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Lung samples.
@@ -1037,7 +1037,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Other Anatomical Entities PeptideAtlas
+ID   Human Cancer Cell Lines Other Anatomical Entities PeptideAtlas
 AC   CVDR-0113
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Other Anatomical Entities samples.
@@ -1047,7 +1047,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Other Female Reproductive Organ PeptideAtlas
+ID   Human Cancer Cell Lines Other Female Reproductive Organ PeptideAtlas
 AC   CVDR-0114
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Other Female Reproductive Organ samples.
@@ -1057,7 +1057,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Other Male Reproductive Organ PeptideAtlas
+ID   Human Cancer Cell Lines Other Male Reproductive Organ PeptideAtlas
 AC   CVDR-0115
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Other Male Reproductive Organ samples.
@@ -1067,7 +1067,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Ovary PeptideAtlas
+ID   Human Cancer Cell Lines Ovary PeptideAtlas
 AC   CVDR-0116
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Ovary samples.
@@ -1077,7 +1077,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines, Urinary Bladder PeptideAtlas
+ID   Human Cancer Cell Lines Urinary Bladder PeptideAtlas
 AC   CVDR-0117
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Urinary Bladder samples.
@@ -1087,7 +1087,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Alimentary System PeptideAtlas
+ID   Human Cancer Alimentary System PeptideAtlas
 AC   CVDR-0118
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Alimentary System samples.
@@ -1097,7 +1097,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Brain PeptideAtlas
+ID   Human Cancer Brain PeptideAtlas
 AC   CVDR-0119
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Brain samples.
@@ -1107,7 +1107,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Breast PeptideAtlas
+ID   Human Cancer Breast PeptideAtlas
 AC   CVDR-0120
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Breast samples.
@@ -1117,7 +1117,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Kidney PeptideAtlas
+ID   Human Cancer Kidney PeptideAtlas
 AC   CVDR-0121
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Kidney samples.
@@ -1127,7 +1127,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Liver PeptideAtlas
+ID   Human Cancer Liver PeptideAtlas
 AC   CVDR-0122
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Liver samples.
@@ -1137,7 +1137,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Lung PeptideAtlas
+ID   Human Cancer Lung PeptideAtlas
 AC   CVDR-0123
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Lung samples.
@@ -1147,7 +1147,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Other Anatomical Entities PeptideAtlas
+ID   Human Cancer Other Anatomical Entities PeptideAtlas
 AC   CVDR-0124
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Other Anatomical Entities samples.
@@ -1157,7 +1157,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Other Male Reproductive Organ PeptideAtlas
+ID   Human Cancer Other Male Reproductive Organ PeptideAtlas
 AC   CVDR-0125
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Other Male Reproductive Organ samples.
@@ -1167,7 +1167,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Ovary PeptideAtlas
+ID   Human Cancer Ovary PeptideAtlas
 AC   CVDR-0126
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Ovary samples.
@@ -1177,7 +1177,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer, Urinary Bladder PeptideAtlas
+ID   Human Cancer Urinary Bladder PeptideAtlas
 AC   CVDR-0127
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Urinary Bladder samples.
