@@ -3331,12 +3331,6 @@ AC   DO-00447
 FT   ZN_FING.
 TG   None;
 //
-ID   NT-C2.
-AC   DO-00889
-FT   DOMAIN.
-TG   PF10358; NT-C2;
-DO   IPR019448;
-//
 ID   NtA.
 AC   DO-00448
 SY   N-terminal agrin.
