@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 30-Oct-2017
+Last update: 22-Feb-2018
 
 ----------------------------------------------------------------------------
 
@@ -119,12 +119,6 @@ AC   DO-00012
 FT   DOMAIN.
 TG   PS51671; ACT;
 DO   PDOC51671;
-//
-ID   actin-binding.
-AC   DO-00013
-FT   DOMAIN.
-TG   PS50021; CH;
-DO   PDOC50021;
 //
 ID   acylphosphatase-like.
 AC   DO-00016
