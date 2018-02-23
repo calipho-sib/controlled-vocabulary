@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------
         neXtProt
-        SIB - Swiss Institute of Bioinformatics and GeneBio SA
+        SIB - Swiss Institute of Bioinformatics
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
