@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 30-Oct-2017
+Last update: 05-Mar-2018
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 30-Oct-2017
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05477
+AN   Next free AC: FA-05493
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -362,10 +362,6 @@ ID   ARD1 subfamily
 AC   FA-00067
 SY   Acetyltransferase family. ARD1 subfamily.
 HI   FA-00065; Acetyltransferase family
-//
-ID   ECD family
-AC   FA-03595
-SY   SGT1 family.
 //
 ID   ECO subfamily
 AC   FA-05216
@@ -1037,6 +1033,9 @@ AC   FA-00229
 ID   Apolipoprotein C4 family
 AC   FA-00230
 //
+ID   Apolipoprotein F family
+AC   FA-05481
+//
 ID   Apolipoprotein L family
 AC   FA-00231
 //
@@ -1363,6 +1362,9 @@ ID   Augurin family
 AC   FA-00319
 SY   UPF0689 family.
 //
+ID   AUNIP family
+AC   FA-05479
+//
 ID   AUP1 family
 AC   FA-00320
 //
@@ -1611,10 +1613,6 @@ SY   Muted family.
 //
 ID   BLOC1S6 family
 AC   FA-05100
-//
-ID   BLOM7 family
-AC   FA-04395
-SY   UPF0469 family.
 //
 ID   BMT2 family
 AC   FA-05185
@@ -2280,20 +2278,50 @@ AC   FA-00551
 ID   CEND1 family
 AC   FA-00553
 //
-ID   CENPC family
+ID   CENP-C/MIF2 family
 AC   FA-00554
+SY   CENPC family.
 //
-ID   CENPK family
+ID   CENP-H/MCM16 family
+AC   FA-05486
+//
+ID   CENP-I/CTF3 family
+AC   FA-02311
+SY   Mis6 family.
+//
+ID   CENP-K/MCM22 family
 AC   FA-00555
+SY   CENPK family.
 //
-ID   CENPT family
+ID   CENP-L/IML3 family
+AC   FA-05487
+//
+ID   CENP-N/CHL4 family
+AC   FA-05488
+//
+ID   CENP-O/MCM21 family
+AC   FA-05489
+//
+ID   CENP-P/CTF19 family
+AC   FA-05490
+//
+ID   CENP-Q/OKP1 family
+AC   FA-05491
+//
+ID   CENP-T/CNN1 family
 AC   FA-00556
+SY   CENPT family.
 //
-ID   CENPW family
+ID   CENP-U/AME1 family
+AC   FA-05492
+//
+ID   CENP-W/WIP1 family
 AC   FA-00557
+SY   CENPW family.
 //
-ID   CENPX family
+ID   CENP-X/MHF2 family
 AC   FA-00558
+SY   CENPX family.
 //
 ID   Centaurin gamma-like family
 AC   FA-00559
@@ -4148,9 +4176,6 @@ AC   FA-00939
 ID   DEXI family
 AC   FA-00940
 //
-ID   DGCR14 family
-AC   FA-00941
-//
 ID   DHHC palmitoyltransferase family
 AC   FA-00944
 //
@@ -4603,6 +4628,14 @@ AC   FA-01055
 ID   EBP2 family
 AC   FA-01056
 //
+ID   ECD family
+AC   FA-03595
+SY   SGT1 family.
+//
+ID   ECM29 family
+AC   FA-05480
+SY   EMC29 family.
+//
 ID   ECSCR family
 AC   FA-01057
 //
@@ -4927,6 +4960,10 @@ AC   FA-01136
 //
 ID   ESRP family
 AC   FA-01137
+//
+ID   ESS2 family
+AC   FA-00941
+SY   DGCR14 family.
 //
 ID   Esterase D family
 AC   FA-01138
@@ -7887,6 +7924,11 @@ AC   FA-01954
 ID   KHDC1 family
 AC   FA-01955
 //
+ID   KHDC4 family
+AC   FA-04395
+SY   BLOM7 family.
+SY   UPF0469 family.
+//
 ID   KHDRBS family
 AC   FA-01956
 //
@@ -9267,9 +9309,6 @@ AC   FA-02298
 SY   MIA/OTOR family. Tango1 subfamily.
 HI   FA-02297; MIA/OTOR family
 //
-ID   Mic1 family
-AC   FA-02299
-//
 ID   Mical family
 AC   FA-04980
 //
@@ -9352,9 +9391,6 @@ AC   FA-02309
 //
 ID   Mis18 family
 AC   FA-02310
-//
-ID   Mis6 family
-AC   FA-02311
 //
 ID   Misato family
 AC   FA-02312
@@ -10321,11 +10357,15 @@ AC   FA-02564
 ID   NUP153 family
 AC   FA-05159
 //
+ID   NUP186/NUP192/NUP205 family
+AC   FA-05482
+//
 ID   NUP210 family
 AC   FA-02565
 //
-ID   Nup53 family
+ID   Nup35 family
 AC   FA-02566
+SY   Nup53 family.
 //
 ID   NUP54 family
 AC   FA-02567
@@ -12104,6 +12144,14 @@ SY   UPF0529 family.
 ID   PPP4R2 family
 AC   FA-03007
 //
+ID   PPR family
+AC   FA-05483
+//
+ID   P subfamily
+AC   FA-05484
+SY   PPR family. P subfamily.
+HI   FA-05483; PPR family
+//
 ID   PRA1 family
 AC   FA-03008
 //
@@ -12846,9 +12894,6 @@ AC   FA-05092
 ID   PTCD2 family
 AC   FA-03182
 //
-ID   PTCD3 family
-AC   FA-03183
-//
 ID   PtdIns transfer protein family
 AC   FA-03184
 //
@@ -13028,6 +13073,9 @@ AC   FA-03230
 //
 ID   RANBP1 family
 AC   FA-03231
+//
+ID   RanBP2 E3 ligase family
+AC   FA-05485
 //
 ID   RANBP9/10 family
 AC   FA-03232
@@ -13750,6 +13798,7 @@ AC   FA-05437
 //
 ID   Mitochondrion-specific ribosomal protein mS39 family
 AC   FA-05438
+SY   PTCD3 family.
 //
 ID   Ribulose-phosphate 3-epimerase family
 AC   FA-03390
@@ -13798,6 +13847,10 @@ AC   FA-04818
 //
 ID   RIX1/PELP1 family
 AC   FA-05468
+//
+ID   RMC1 family
+AC   FA-02299
+SY   Mic1 family.
 //
 ID   RMD1/sif2 family
 AC   FA-03400
@@ -14074,6 +14127,10 @@ SY   UPF0027 family.
 ID   rtf2 family
 AC   FA-05177
 SY   UPF0549 family.
+//
+ID   RTRAF family
+AC   FA-04446
+SY   UPF0568 family.
 //
 ID   RUNDC3 family
 AC   FA-03472
@@ -15061,6 +15118,9 @@ AC   FA-03720
 ID   SOBP family
 AC   FA-03721
 //
+ID   SOCS1 family
+AC   FA-05477
+//
 ID   Sodium channel (TC 1.A.1.10) family
 AC   FA-03722
 DR   TC 1.A.1.10
@@ -15805,9 +15865,11 @@ AC   FA-03922
 ID   TAF9 family
 AC   FA-03923
 //
-ID   CENPS subfamily
+ID   CENP-S/MHF1 subfamily
 AC   FA-05317
+SY   CENPS subfamily.
 SY   TAF9 family. CENPS subfamily.
+SY   TAF9 family. CENP-S/MHF1 subfamily.
 HI   FA-03923; TAF9 family
 //
 ID   Taffazin family
@@ -16004,6 +16066,9 @@ AC   FA-05362
 //
 ID   TEX28 family
 AC   FA-03970
+//
+ID   TFB1 family
+AC   FA-05478
 //
 ID   TFB2 family
 AC   FA-03971
@@ -17697,9 +17762,6 @@ AC   FA-04440
 //
 ID   UPF0565 family
 AC   FA-04443
-//
-ID   UPF0568 family
-AC   FA-04446
 //
 ID   UPF0573 family
 AC   FA-04448

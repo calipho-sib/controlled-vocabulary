@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 22-Feb-2018
+Last update: 25-Mar-2018
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 22-Feb-2018
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00937
+AN   Next free AC: DO-00947
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -476,6 +476,12 @@ FT   REPEAT.
 TG   PS50143; BIR_REPEAT_2;
 DO   PDOC00987;
 //
+ID   bMERB.
+AC   DO-00944
+FT   DOMAIN.
+TG   PS51848; BMERB;
+DO   PDOC51848;
+//
 ID   Bms1-type G.
 AC   DO-00844
 SY   Bms1-type guanine nucleotide-binding.
@@ -923,6 +929,12 @@ FT   DOMAIN.
 TG   PS50219; CNH;
 DO   PDOC50219;
 //
+ID   CNNM transmembrane.
+AC   DO-00937
+FT   DOMAIN.
+TG   PS51846; CNNM;
+DO   PDOC51846;
+//
 ID   CoA carboxyltransferase C-terminal.
 AC   DO-00905
 FT   DOMAIN.
@@ -1027,7 +1039,8 @@ ID   CSPG.
 AC   DO-00129
 SY   NG2.
 FT   REPEAT.
-TG   None;
+TG   PS51854; CSPG;
+DO   PDOC51854;
 //
 ID   CTCHY-type.
 AC   DO-00130
@@ -1892,6 +1905,12 @@ AC   DO-00249
 FT   ZN_FING.
 TG   PS51066; ZF_FPG_2;
 DO   PDOC00956;
+//
+ID   FPL.
+AC   DO-00938
+FT   DOMAIN.
+TG   PF09758; FPL;
+DO   IPR019155;
 //
 ID   FU.
 AC   DO-00250
@@ -3016,6 +3035,12 @@ FT   DOMAIN.
 TG   PS51439; MENTAL;
 DO   PDOC51439;
 //
+ID   MGS-like.
+AC   DO-00939
+FT   DOMAIN.
+TG   PS51855; MGS;
+DO   PDOC51855;
+//
 ID   MH1.
 AC   DO-00405
 SY   MAD homology 1.
@@ -3326,6 +3351,12 @@ FT   DOMAIN.
 TG   PS51358; NOP;
 DO   PDOC51358;
 //
+ID   NR LBD
+AC   DO-00940
+FT   DOMAIN.
+TG   PS51843; NR_LBD;
+DO   PDOC51843;
+//
 ID   NSE1-type.
 AC   DO-00447
 FT   ZN_FING.
@@ -3552,6 +3583,12 @@ FT   DOMAIN.
 TG   PF01399; PCI;
 DO   IPR000717;
 //
+ID   PDEase
+AC   DO-00941
+FT   DOMAIN.
+TG   PS51845; PDEASE_I_2;
+DO   PDOC00116;
+//
 ID   PDZ.
 AC   DO-00477
 SY   DHR.
@@ -3681,6 +3718,18 @@ SY   PLAA family ubiquitin binding.
 FT   DOMAIN.
 TG   PS51394; PFU;
 DO   PDOC51394;
+//
+ID   pG1 pseudoGTPase.
+AC   DO-00945
+FT   DOMAIN.
+TG   PS51852; PG1;
+DO   PDOC51852;
+//
+ID   pG2 pseudoGTPase.
+AC   DO-00946
+FT   DOMAIN.
+TG   PS51853; PG2;
+DO   PDOC51852;
 //
 ID   PH.
 AC   DO-00491
@@ -3935,8 +3984,8 @@ DO   PDOC00792;
 ID   PPPDE peptidase.
 AC   DO-00521
 FT   DOMAIN.
-TG   PF05903; DUF862;
-DO   IPR008580;
+TG   PS51858; PPPDE;
+DO   PDOC51858;
 //
 ID   PPR.
 AC   DO-00522
@@ -3974,6 +4023,12 @@ AC   DO-00527
 FT   DOMAIN.
 TG   PS50904; PRELI_MSF1;
 DO   PDOC50904;
+//
+ID   PRORP.
+AC   DO-00942
+FT   DOMAIN.
+TG   PF16953; PRORP;
+DO   IPR031595;
 //
 ID   Prospero.
 AC   DO-00912
@@ -4719,6 +4774,12 @@ AC   DO-00918
 FT   DOMAIN.
 TG   PF17047; SMP_LBD;
 DO   IPR031468;
+//
+ID   SMP-LTD.
+AC   DO-00943
+FT   DOMAIN.
+TG   PS51847; SMP;
+DO   PDOC51847;
 //
 ID   Smr.
 AC   DO-00622
