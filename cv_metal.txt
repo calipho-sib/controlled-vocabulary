@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of metal-binding sites
 File name:   cv_metal.txt
-Last update: 22-Nov-2015
+Last update: 21-Mar-2018
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 22-Nov-2015
  KW         X-ref to Swiss-Prot keyword     Optional; once or more
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: CVME_0038
+AN   Next free AC: CVME_0040
 __________________________________________________________________________
 ID   Calcium.
 AC   CVME_0001
@@ -48,6 +48,14 @@ KW   KW-0170:Cobalt.
 //
 ID   Cobalt (cobalamin axial ligand).
 AC   CVME_0003
+DE   Annotate an amino acid residue that binds a cobalt (Co(3+)) cation
+DE   that is in the center of the tetrapyrrole ring structure (corrin ring)
+DE   of a cobalamin cofactor.
+KW   KW-0846:Cobalamin.
+KW   KW-0170:Cobalt.
+//
+ID   Cobalt (cobalamin 2 axial ligand).
+AC   CVME_0038
 DE   Annotate an amino acid residue that binds a cobalt (Co(3+)) cation
 DE   that is in the center of the tetrapyrrole ring structure (corrin ring)
 DE   of a cobalamin cofactor.
@@ -192,6 +200,13 @@ DE   Annotate an amino acid residue that binds an iron atom in a 4Fe-4S
 DE   iron-sulfur complex which consist of four iron ions bridged by four
 DE   sulfide ions and coordinated by four ligands (Cys or His).
 KW   KW-0411:Iron-sulfur.
+//
+ID   Iron, catalytic.
+AC   CVME_0039
+DE   Annotate an amino acid residue that binds an iron (Fe(2+) or Fe(3+))
+DE   cation. Iron is a metal with the atomic number: 26.
+SY   Iron ion; Iron cation; Fe; Fe ion; Fe cation.
+KW   KW-0408:Iron.
 //
 ID   Iron or nickel.
 AC   CVME_0034
