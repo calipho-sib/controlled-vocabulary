@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.30
-date: 20:06:2017 11:30
+data-version: 1.31
+date: 01:04:2018 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -3809,6 +3809,7 @@ relationship: part_of TS-1239 ! Seminiferous tubule
 id: TS-0922
 name: Sertoli cell
 def: "Supporting cells projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen-binding protein and hormones such as anti-mullerian hormone. The tight junctions of Sertoli cells with the spermatogonia and spermatocytes provide a blood-testis barrier." [MeSH:Sertoli_Cells]
+synonym: "Sertoli cells" RELATED []
 xref: BTO:0001238
 xref: CL:0000216
 xref: FMA:72298
@@ -8792,6 +8793,7 @@ id: TS-2423
 name: Peritubular myoid cell
 def: "The flattened smooth myoepithelial cells of mesodermal origin that lie just outside the basal lamina of the seminiferous tubule." [CL:peritubular myoid cell]
 synonym: "Peritubular cell" RELATED []
+synonym: "Peritubular cells" RELATED []
 xref: BTO:0001039
 xref: CL:0002481
 is_a: TS-2026 ! Epithelial cell
@@ -8927,6 +8929,7 @@ is_a: TS-0711 ! Oocyte
 id: TS-2436
 name: Pachytene spermatocyte
 def: "Primary spermatocyte in the third stage of prophase I of meiosis during which the homologous chromosomes are closely paired and crossing-over takes place." [Wikipedia_adapted:Spermatocyte/Pachytene]
+synonym: "Pachytene spermatocytes" RELATED []
 is_a: TS-2194 ! Primary spermatocyte
 
 [Term]
@@ -8976,7 +8979,7 @@ relationship: part_of TS-1050 ! tongue
 
 [Term]
 id: TS-2441
-name: Type I NK T cells
+name: Type I NK T cell
 def: "An alpha-beta T cell expressing NK cell markers that is CD1d restricted and expresses specific V-alpha chains. NK T cells of this type recognize the glycolipid alpha-galactosylceramide in the context of CD1d". [CL:0000921]
 synonym: "type I NKT cell" RELATED []
 synonym: "type I NK T lymphocyte" RELATED []
@@ -9655,7 +9658,7 @@ name: Hair cuticle
 def: "Form the outermost layer of the hair and contains squamous cells." [isbn:0781767903]
 synonym: "Cuticle of hair shaft" RELATED []
 synonym: "Cuticle of hair" RELATED []
-xref: FMA:70933 
+xref: FMA:70933
 xref: UBERON:0002076
 relationship: part_of TS-0430 ! Hair
 
@@ -9666,7 +9669,7 @@ def: "The internal root sheath is a multilayered cellular covering that surround
 synonym: "Internal root sheath" RELATED []
 synonym: "Inner root sheath" RELATED []
 xref: BTO:0003971
-xref: FMA:70935 
+xref: FMA:70935
 xref: UBERON:0005941
 relationship: part_of TS-0432 ! Hair follicle
 
@@ -9678,7 +9681,7 @@ synonym: "External root sheath" RELATED []
 synonym: "Outer root sheath" RELATED []
 synonym: "Hair outer root sheath" RELATED []
 xref: BTO:0003969
-xref: FMA:70943 
+xref: FMA:70943
 xref: UBERON:0005942
 relationship: part_of TS-0432 ! Hair follicle
 
@@ -9691,9 +9694,9 @@ synonym: "Retinal outer plexiform layer" RELATED []
 synonym: "Retina outer plexiform layer" RELATED []
 synonym: "Nerve fibers in outer plexiform layer" RELATED []
 xref: BTO:0003174
-xref: FMA:58685 
+xref: FMA:58685
 xref: UBERON:0001790
-relationship: part_of TS-0685 ! Neuroretina 
+relationship: part_of TS-0685 ! Neuroretina
 
 [Term]
 id: TS-2513
@@ -9704,9 +9707,9 @@ synonym: "Retinal inner plexiform layer" RELATED []
 synonym: "Retina inner plexiform layer" RELATED []
 synonym: "Nerve fibers in inner plexiform layer" RELATED []
 xref: BTO:0003175
-xref: FMA:58704 
+xref: FMA:58704
 xref: UBERON:0001795
-relationship: part_of TS-0685 ! Neuroretina 
+relationship: part_of TS-0685 ! Neuroretina
 
 [Term]
 id: TS-2514
@@ -9718,13 +9721,13 @@ synonym: "Retinal inner nuclear layer" RELATED []
 synonym: "Neural retina inner nuclear layer" RELATED []
 synonym: "Cells in inner nuclear layer" RELATED []
 xref: BTO:0003176
-xref: FMA:58686 
+xref: FMA:58686
 xref: UBERON:0001791
-relationship: part_of TS-0685 ! Neuroretina 
+relationship: part_of TS-0685 ! Neuroretina
 
 [Term]
 id: TS-2515
-name: Nerve fiber layer of retina 
+name: Nerve fiber layer of retina
 def: "Contains processes of ganglion cells that lead from the retina to the brain." [isbn:0781767903]
 synonym: "Optic fiber layer" RELATED []
 synonym: "Retina nerve fiber layer" RELATED []
@@ -9732,9 +9735,9 @@ synonym: "Layer of nerve fibres of retina" RELATED []
 synonym: "Layer of optic nerve fibres of retina" RELATED []
 synonym: "Layer of optic nerve fibres" RELATED []
 synonym: "Nerve fibers in nerve fiber layer" RELATED []
-xref: FMA:58688 
+xref: FMA:58688
 xref: UBERON:0001793
-relationship: part_of TS-0685 ! Neuroretina 
+relationship: part_of TS-0685 ! Neuroretina
 
 [Term]
 id: TS-2516
@@ -9757,23 +9760,26 @@ relationship: part_of TS-0513 ! Lactating mammary gland
 
 [Term]
 id: TS-2518
-name: Cerebral cortex processes
-def: "Refers to a bundle of axons or dendrites found in cerebral cortex." [neXtProt:PDR;HPA:HPA]
+name: Cerebral cortex neuronal projections
+def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the cerebral cortex." [neXtProt:PDR;HPA:HPA]
 synonym: "Cerebral cortex processes/nerve bundles" RELATED []
+synonym: "Cerebral cortex processes" RELATED []
 relationship: part_of TS-0091 ! Cerebral cortex
 
 [Term]
 id: TS-2519
-name: Hippocampus processes
-def: "Refers to a bundle of axons or dendrites found in hippocampus." [neXtProt:PDR;HPA:HPA]
+name: Hippocampus neuronal projections
+def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the hippocampus." [neXtProt:PDR;HPA:HPA]
 synonym: "Hippocampus processes/nerve bundles" RELATED []
+synonym: "Hippocampus processes" RELATED []
 relationship: part_of TS-0460 ! Hippocampus
 
 [Term]
 id: TS-2520
-name: Hypothalamus processes
-def: "Refers to a bundle of axons or dendrites found in hypothalamus." [neXtProt:PDR;HPA:HPA]
+name: Hypothalamus neuronal projections
+def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the hypothalamus." [neXtProt:PDR;HPA:HPA]
 synonym: "Hypothalamus processes/nerve bundles" RELATED []
+synonym: "Hypothalamus processes" RELATED []
 relationship: part_of TS-0469 ! Hypothalamus
 
 [Term]
@@ -9792,7 +9798,7 @@ is_a: TS-2521 ! Skin secretory cell
 [Term]
 id: TS-2523
 name: Sebum secreting cell
-def: "A cell secreting sebun, an oily substance secreted by sebaceous glands, composed of keratin, fat, and cellular debris." [CL:0000317] 
+def: "A cell secreting sebun, an oily substance secreted by sebaceous glands, composed of keratin, fat, and cellular debris." [CL:0000317]
 synonym: "Skin sebaceous cell" RELATED []
 synonym:"Sebocyte" RELATED []
 xref: BTO:0004613
@@ -9817,7 +9823,7 @@ is_a: TS-0627 ! Microglia
 relationship: part_of TS-0865 ! Retina
 
 [Term]
-id: 2526
+id: TS-2526
 name: Type I alveolar epithelial cell
 def: "Type I alveolar cells are squamous cells of the alveolar surface. Type I cells are involved in the process of gas exchange between the alveoli and blood." [Wikipedia:Alveolar_cells]
 synonym: "Type I alveolar cell" RELATED []
@@ -9833,7 +9839,7 @@ xref: FMA:62500
 is_a: TS-2168 ! Pneumocyte
 
 [Term]
-id: 2527
+id: TS-2527
 name: Type II alveolar epithelial cell
 def: "Type II alveolar cells cover a small fraction of the alveolar surface area. They are involved in the secretion of pulmonary surfactant, which decreases the surface tension within the alveoli." [Wikipedia:Alveolar_cells]
 synonym: "Type II alveolar cell" RELATED []
@@ -9848,17 +9854,66 @@ xref: FMA:62501
 is_a: TS-2168 ! Pneumocyte
 
 [Term]
-id: 2528
+id: TS-2528
 name: Interstitial macrophage
-def: "Interstitial macrophages reside in space bound by the alveolar epithelium and the vascular endothelium. Interstitial macrophages might have a role in limiting inflammation, fibrosis, and antigen presentation." [PMID:20824285] 
+def: "Interstitial macrophages reside in space bound by the alveolar epithelium and the vascular endothelium. Interstitial macrophages might have a role in limiting inflammation, fibrosis, and antigen presentation." [PMID:20824285]
 is_a: TS-0576 ! Lung macrophage
 
 [Term]
-id: 2529
+id: TS-2529
 name: Oligodendrocyte precursor cell
 def: "The cell type from which oligodendrocytes develop. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons." [CL:0002453]
 xref: CL:0002453
 is_a: TS-2035 ! Cell type
+
+[Term]
+id: TS-2530
+name: Cerebral cortex synapses
+def: "Synapses at the cerebral cortex. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells."
+relationship: part_of TS-0091 ! Cerebral cortex	
+
+[Term]
+id: TS-2531
+name: Hippocampus synapses
+def: "Synapses at the hippocampus. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells."
+relationship: part_of TS-0460 ! Hippocampus	
+
+[Term]
+id: TS-2532
+name: Caudate nucleus synapses
+def: "Synapses at the caudate nucleus. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells."
+synonym: "Caudate synapses" RELATED []
+relationship: part_of TS-0121 ! Caudate nucleus
+
+[Term]
+id: TS-2533
+name: Caudate nucleus neuronal projections
+def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the caudate nucleus." [neXtProt:PDR;HPA:HPA]
+relationship: part_of TS-0121 ! Caudate nucleus	
+
+[Term]
+id: TS-2534
+name: Round spermatid
+def: "Male germ cell derived from the haploid secondary spermatocyte at early stage of maturation. A round spermatid is more or less radially symmetrical and contains a nucleus, Golgi apparatus, centriole and mitochondria. During the phase of spermiogenesis, the final stage of spermatogenesis, round spermatids will acquire polarity to become elongated spermatids and finally mature into motile spermatozoa." [neXtProt:PDR]
+synonym: "Round spermatid" RELATED []
+synonym: "Round or early spermatids" RELATED []
+is_a: TS-0950 ! Spermatid
+
+[Term]
+id: TS-2535
+name: Elongated spermatid
+def: "Male germ cell derived from the haploid secondary spermatocyte at early stage of maturation. During the phase of spermiogenesis, the final stage of spermatogenesis, round spermatids will acquire polarity to become elongated spermatids and finally mature into motile spermatozoa. The process of spermiogenesis is divided into four stages: the Golgi phase, the cap phase, formation of tail, and the maturation stage." [neXtProt:PDR]
+synonym: "Elongated spermatid" RELATED []
+synonym: "Elongated or late spermatids" RELATED []
+is_a: TS-0950 ! Spermatid
+
+[Term]
+id: TS-2536
+name: Preleptotene spermatocyte
+def: "Preleptotene is the first stage of prophase I in meiosis. Preleptotene spermatocytes are produced by the division of B spermatogonia. During preleptotene, preleptotene spermatocytes move away from the basement membrane and pass through the Sertoli cell tight junctions." [neXtProt:PDR]
+synonym: "Preleptotene spermatocytes" RELATED []
+is_a: TS-2194 ! Primary spermatocyte
+
 
 [Typedef]
 id: develops_from
