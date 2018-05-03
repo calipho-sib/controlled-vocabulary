@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.31
-date: 01:04:2018 11:30
+date: 03:05:2018 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -8100,7 +8100,7 @@ synonym: "Vertebrae" RELATED []
 xref: FMA:9914
 xref: UBERON:0002412
 is_a: TS-0088 ! Bone
-relationship: part_of TS-1071 ! Trunk
+relationship: part_of TS-2539 ! Spinal colum
 
 [Term]
 id: TS-2353
@@ -8472,7 +8472,7 @@ synonym: "Ventral tegmentum" RELATED []
 xref: FMA:72438
 xref: MESH:D017557
 xref: UBERON:0002691
-relationship: part_of TS-0630 ! Midbrain
+relationship: part_of TS-2537 ! Midbrain tegmentum
 
 [Term]
 id: TS-2390
@@ -9869,19 +9869,19 @@ is_a: TS-2035 ! Cell type
 [Term]
 id: TS-2530
 name: Cerebral cortex synapses
-def: "Synapses at the cerebral cortex. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells."
-relationship: part_of TS-0091 ! Cerebral cortex	
+def: "Synapses at the cerebral cortex. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells." [PDR:nextprot]
+relationship: part_of TS-0091 ! Cerebral cortex
 
 [Term]
 id: TS-2531
 name: Hippocampus synapses
-def: "Synapses at the hippocampus. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells."
-relationship: part_of TS-0460 ! Hippocampus	
+def: "Synapses at the hippocampus. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells." [PDR:nextprot]
+relationship: part_of TS-0460 ! Hippocampus
 
 [Term]
 id: TS-2532
 name: Caudate nucleus synapses
-def: "Synapses at the caudate nucleus. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells."
+def: "Synapses at the caudate nucleus. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells." [PDR:nextprot]
 synonym: "Caudate synapses" RELATED []
 relationship: part_of TS-0121 ! Caudate nucleus
 
@@ -9889,7 +9889,7 @@ relationship: part_of TS-0121 ! Caudate nucleus
 id: TS-2533
 name: Caudate nucleus neuronal projections
 def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the caudate nucleus." [neXtProt:PDR;HPA:HPA]
-relationship: part_of TS-0121 ! Caudate nucleus	
+relationship: part_of TS-0121 ! Caudate nucleus
 
 [Term]
 id: TS-2534
@@ -9914,6 +9914,29 @@ def: "Preleptotene is the first stage of prophase I in meiosis. Preleptotene spe
 synonym: "Preleptotene spermatocytes" RELATED []
 is_a: TS-2194 ! Primary spermatocyte
 
+[Term]
+id: TS-2537
+name: Midbrain tegmentum
+def: "Ventral part of the midbrain, separated from the hindbrain by the isthmus. Subdivision of the midbrain lying anterior to the tectum and posterior to the substantia nigra and cerebral peduncle. The part of the midbrain extending from the substantia nigra to the cerebral aqueduct in a horizontal section of the midbrain. It forms the floor of the midbrain that surrounds the cerebral aqueduct." [UBERON:0001943]
+xref: UBERON:0001943
+synonym: "Tegmentum" RELATED []
+relationship: part_of TS-0630 ! Midbrain
+
+[Term]
+id: TS-2538
+name: Clitoris
+def: "The small, erectile body located at the anterior end of the vulva." [UBERON:0002411]
+xref: UBERON:0002411
+relationship: part_of TS-1168 ! Vulva
+
+[Term]
+id: TS-2539
+name: Spinal column
+def: "Subdivision of skeletal system that consists of all the vertebra and associated skeletal elements and joints in the body." [UBERON:0001130]
+xref: UBERON:0001130
+synonym: "Spine" RELATED []
+relationship: part_of TS-1071 ! Trunk
+
 
 [Typedef]
 id: develops_from
@@ -9924,3 +9947,5 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
+
+
