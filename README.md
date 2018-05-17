@@ -8,6 +8,4 @@ See: https://www.nextprot.org/
 
 In house developed controlled vocabularies used in neXtProt.
 
-Notes: 
-- The Cellosaurus is in its own GitHub directory: https://github.com/calipho-sib/cellosaurus
-- CALOHA our tissue/organs ontology is currently not in GitHub
+Note: The Cellosaurus is in its own GitHub directory: https://github.com/calipho-sib/cellosaurus
