@@ -9888,6 +9888,7 @@ relationship: part_of TS-0121 ! Caudate nucleus
 [Term]
 id: TS-2533
 name: Caudate nucleus neuronal projections
+synonym: "Caudate neuronal projections" RELATED []
 def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the caudate nucleus." [neXtProt:PDR;HPA:HPA]
 relationship: part_of TS-0121 ! Caudate nucleus
 
