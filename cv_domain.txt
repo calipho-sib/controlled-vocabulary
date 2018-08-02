@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 25-Mar-2018
+Last update: 02-Aug-2018
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 25-Mar-2018
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00947
+AN   Next free AC: DO-00958
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -451,6 +451,12 @@ AC   DO-00062
 FT   DOMAIN.
 TG   PS50915; CRYSTALLIN_BETA_GAMMA;
 DO   PDOC00197;
+//
+ID   BIG2.
+AC   DO-00947
+FT   DOMAIN.
+TG   PF02368; Big_2;
+DO   IPR003343;
 //
 ID   Bin3-type SAM.
 AC   DO-00771
@@ -2040,6 +2046,12 @@ FT   REPEAT.
 TG   PF00626; Gelsolin;
 DO   IPR007123;
 //
+ID   GFA.
+AC   DO-00948
+FT   DOMAIN.
+TG   PF04828; GFA;
+DO   IPR006913;
+//
 ID   GIY-YIG.
 AC   DO-00268
 FT   DOMAIN.
@@ -2795,6 +2807,12 @@ FT   DOMAIN.
 TG   PS51117; LAMININ_NTER;
 DO   PDOC51117;
 //
+ID   LBH.
+AC   DO-00949
+FT   DOMAIN.
+TG   PF15317; Lbh;
+DO   IPR013294;
+//
 ID   LCCL.
 AC   DO-00373
 FT   DOMAIN.
@@ -3239,6 +3257,12 @@ FT   DOMAIN.
 TG   PS51016; MYTH4;
 DO   PDOC51016;
 //
+ID   N-acetylmuramoyl-L-alanine amidase.
+AC   DO-00950
+FT   DOMAIN.
+TG   PF01510; Amidase_2;
+DO   IPR002502;
+//
 ID   N-acetyltransferase.
 AC   DO-00430
 FT   DOMAIN.
@@ -3597,6 +3621,12 @@ FT   DOMAIN.
 TG   PS50106; PDZ;
 DO   PDOC50106;
 //
+ID   PDZ GRASP-type.
+AC   DO-00951
+FT   DOMAIN.
+TG   PS51865; PDZ_GRASP;
+DO   PDOC51865;
+//
 ID   pentapeptide repeat.
 AC   DO-00478
 FT   DOMAIN.
@@ -3630,6 +3660,12 @@ SY   separin core.
 FT   DOMAIN.
 TG   PS51700; SEPARIN;
 DO   PDOC51700;
+//
+ID   peptidase M12A.
+AC   DO-00952
+FT   DOMAIN.
+TG   PS51864; ASTACIN;
+DO   PDOC51864;
 //
 ID   peptidase M12B.
 AC   DO-00481
@@ -3981,7 +4017,7 @@ FT   DOMAIN.
 TG   PS51746; PPM_2;
 DO   PDOC00792;
 //
-ID   PPPDE peptidase.
+ID   PPPDE.
 AC   DO-00521
 FT   DOMAIN.
 TG   PS51858; PPPDE;
@@ -4269,6 +4305,12 @@ FT   REPEAT.
 TG   PF02185; HR1;
 DO   IPR011072;
 //
+ID   REM-1.
+AC   DO-00953
+FT   DOMAIN.
+TG   PS51860; REM_1;
+DO   PDOC51860;
+//
 ID   reticulon.
 AC   DO-00561
 FT   DOMAIN.
@@ -4320,6 +4362,12 @@ SY   Rel-like.
 FT   DOMAIN.
 TG   PS50254; REL_2;
 DO   PDOC00924;
+//
+ID   RhoBD.
+AC   DO-00954
+FT   DOMAIN.
+TG   PS51859; RHO_BD;
+DO   PDOC51859;
 //
 ID   Rho-GAP.
 AC   DO-00566
@@ -4538,6 +4586,12 @@ FT   DOMAIN.
 TG   PS51293; SANT;
 DO   PDOC51293;
 //
+ID   SANTA.
+AC   DO-00955
+FT   DOMAIN.
+TG   PF09133; SANTA;
+DO   IPR015216;
+//
 ID   SAP.
 AC   DO-00593
 FT   DOMAIN.
@@ -4706,6 +4760,12 @@ FT   DOMAIN.
 TG   PS50002; SH3;
 DO   PDOC50002;
 //
+ID   SH3b.
+AC   DO-00956
+FT   DOMAIN.
+TG   PS51781; SH3B;
+DO   PDOC51781;
+//
 ID   SHD.
 AC   DO-00616
 SY   stonin homology.
@@ -4768,6 +4828,12 @@ SY   somatomedin-B.
 FT   DOMAIN.
 TG   PS50958; SMB_2;
 DO   PDOC00453;
+//
+ID   SMC hinge.
+AC   DO-00957
+FT   DOMAIN.
+TG   PF06470; SMC_hinge;
+DO   IPR010935;
 //
 ID   SMP-LBD.
 AC   DO-00918
