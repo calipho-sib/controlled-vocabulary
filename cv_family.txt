@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 05-Mar-2018
+Last update: 02-Aug-2018
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 05-Mar-2018
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05493
+AN   Next free AC: FA-05525
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -141,6 +141,11 @@ HI   FA-00027; AAA ATPase family
 ID   BCS1 subfamily
 AC   FA-00029
 SY   AAA ATPase family. BCS1 subfamily.
+HI   FA-00027; AAA ATPase family
+//
+ID   DRC11 subfamily
+AC   FA-05493
+SY   AAA ATPase family. DRC11 subfamily.
 HI   FA-00027; AAA ATPase family
 //
 ID   Katanin p60 subunit A1 subfamily
@@ -1139,6 +1144,9 @@ AC   FA-00257
 //
 ID   ARMET family
 AC   FA-00258
+//
+ID   ARMH3 family
+AC   FA-05495
 //
 ID   ARMT1 family
 AC   FA-04347
@@ -2393,6 +2401,12 @@ ID   CFAP206 family
 AC   FA-04506
 SY   UPF0704 family.
 //
+ID   CFAP298 family
+AC   FA-05494
+//
+ID   CFAP300 family
+AC   FA-05496
+//
 ID   CFAP36 family
 AC   FA-05291
 //
@@ -3552,6 +3566,9 @@ AC   FA-00786
 ID   Cullin family
 AC   FA-00787
 //
+ID   CUSTOS family
+AC   FA-05497
+//
 ID   CUT homeobox family
 AC   FA-00788
 //
@@ -3587,6 +3604,9 @@ AC   FA-00798
 //
 ID   CybS family
 AC   FA-00799
+//
+ID   CYBC1 family
+AC   FA-05498
 //
 ID   PDE1 subfamily
 AC   FA-00801
@@ -4472,12 +4492,33 @@ AC   FA-05180
 SY   CCDC164 family.
 SY   UPF0407 family.
 //
+ID   DRC10 family
+AC   FA-05499
+//
+ID   DRC2 family
+AC   FA-05500
+//
 ID   DRC3 family
 AC   FA-05358
+//
+ID   DRC4 family
+AC   FA-05501
+//
+ID   DRC5 family
+AC   FA-05502
+//
+ID   DRC6 family
+AC   FA-05503
 //
 ID   DRC7 family
 AC   FA-04954
 SY   CCDC135 family.
+//
+ID   DRC8 family
+AC   FA-05504
+//
+ID   DRC9 family
+AC   FA-05505
 //
 ID   DREV family
 AC   FA-01013
@@ -5277,6 +5318,9 @@ AC   FA-01244
 ID   FAM171 family
 AC   FA-01245
 SY   UPF0560 family.
+//
+ID   FAM172 family
+AC   FA-05506
 //
 ID   FAM173 family
 AC   FA-01246
@@ -6157,6 +6201,9 @@ HI   FA-01474; GatB/GatE family
 ID   GatC family
 AC   FA-01476
 //
+ID   GATD3 family
+AC   FA-05507
+//
 ID   GATS family
 AC   FA-01477
 //
@@ -6965,6 +7012,9 @@ AC   FA-01698
 ID   HAD-like hydrolase superfamily
 AC   FA-01699
 //
+ID   Hakai family
+AC   FA-05508
+//
 ID   CbbY/CbbZ/Gph/YieH family
 AC   FA-01700
 SY   HAD-like hydrolase superfamily. CbbY/CbbZ/Gph/YieH family.
@@ -7475,6 +7525,9 @@ AC   FA-01844
 SY   Immunoglobulin superfamily. MyBP family.
 HI   FA-01833; Immunoglobulin superfamily
 //
+ID   MYBBP1A family
+AC   FA-05511
+//
 ID   ROBO family
 AC   FA-01845
 SY   Immunoglobulin superfamily. ROBO family.
@@ -7587,6 +7640,12 @@ AC   FA-01868
 //
 ID   Insulin family
 AC   FA-01869
+//
+ID   INSYN1 family
+AC   FA-05509
+//
+ID   INSYN2 family
+AC   FA-05510
 //
 ID   Integrator subunit 1 family
 AC   FA-01870
@@ -10087,6 +10146,9 @@ AC   FA-02493
 ID   Nogo receptor family
 AC   FA-02494
 //
+ID   NOLC1 family
+AC   FA-05512
+//
 ID   Non-lysosomal glucosylceramidase family
 AC   FA-02496
 //
@@ -10539,6 +10601,9 @@ AC   FA-02615
 ID   OSTC family
 AC   FA-02616
 SY   UPF0527 family.
+//
+ID   OSTM1 family
+AC   FA-05513
 //
 ID   Osteocalcin/matrix Gla protein family
 AC   FA-02617
@@ -11087,19 +11152,19 @@ AC   FA-02759
 ID   Peptidase M8 family
 AC   FA-02760
 //
-ID   Peptidase MINDY family
+ID   MINDY deubiquitinase family
 AC   FA-05376
 //
 ID   FAM188 subfamily
 AC   FA-01262
-SY   Peptidase MINDY family. FAM188 subfamily.
+SY   MINDY deubiquitinase family. FAM188 subfamily.
 SY   UPF0526 family.
-HI   FA-05376; Peptidase MINDY family
+HI   FA-05376; MINDY deubiquitinase family
 //
 ID   FAM63 subfamily
 AC   FA-01300
-SY   Peptidase MINDY family. FAM63 subfamily.
-HI   FA-05376; Peptidase MINDY family
+SY   MINDY deubiquitinase family. FAM63 subfamily.
+HI   FA-05376; MINDY deubiquitinase family
 //
 ID   Peptidase S1 family
 AC   FA-02761
@@ -11317,6 +11382,9 @@ AC   FA-02811
 //
 ID   pex2/pex10/pex12 family
 AC   FA-02812
+//
+ID   PF07175/osteoregulin family
+AC   FA-05514
 //
 ID   PGAP2 family
 AC   FA-02813
@@ -13127,6 +13195,9 @@ AC   FA-03243
 SY   RBR family. Parkin subfamily.
 HI   FA-03241; RBR family
 //
+
+
+
 ID   RNF14 subfamily
 AC   FA-03244
 SY   RBR family. RNF14 subfamily.
@@ -13832,6 +13903,9 @@ AC   FA-03396
 ID   RING-box family
 AC   FA-03397
 //
+ID   RING-Cys relay (RCR) family
+AC   FA-05515
+//
 ID   RINT1 family
 AC   FA-03398
 //
@@ -14153,6 +14227,9 @@ AC   FA-03474
 ID   RWDD1/GIR2 family
 AC   FA-03475
 //
+ID   RXYLT1 family
+AC   FA-05516
+//
 ID   Ryanodine receptor (TC 1.A.3.1) family
 AC   FA-03476
 DR   TC 1.A.3.1
@@ -14292,6 +14369,21 @@ AC   FA-05371
 //
 ID   Schlafen family
 AC   FA-03514
+//
+ID   Subgroup I subfamily
+AC   FA-05518
+SY   Schlafen family. Subgroup I subfamily.
+HI   FA-03514; Schlafen family
+//
+ID   Subgroup II subfamily
+AC   FA-05519
+SY   Schlafen family. Subgroup II subfamily.
+HI   FA-03514; Schlafen family
+//
+ID   Subgroup III subfamily
+AC   FA-05520
+SY   Schlafen family. Subgroup III subfamily.
+HI   FA-03514; Schlafen family
 //
 ID   Sclerostin family
 AC   FA-03515
@@ -14595,6 +14687,9 @@ ID   SHISA9 subfamily
 AC   FA-03605
 SY   Shisa family. SHISA9 subfamily.
 HI   FA-03604; Shisa family
+//
+ID   SHLD2 family
+AC   FA-05517
 //
 ID   SHMT family
 AC   FA-03606
@@ -14922,6 +15017,7 @@ AC   FA-03683
 //
 ID   SMC family
 AC   FA-03684
+SY   SMC family. Highly divergent.
 //
 ID   RAD50 subfamily
 AC   FA-03685
@@ -15945,6 +16041,9 @@ AC   FA-03941
 ID   TBRG1 family
 AC   FA-03942
 //
+ID   TCAB1 family
+AC   FA-05521
+//
 ID   TCAF family
 AC   FA-01212
 SY   FAM115 family.
@@ -16002,6 +16101,9 @@ AC   FA-04879
 ID   Tdrkh family
 AC   FA-05405
 //
+ID   TDRP family
+AC   FA-05522
+//
 ID   Teashirt C2H2-type zinc-finger protein family
 AC   FA-03958
 //
@@ -16035,6 +16137,9 @@ ID   Teneurin subfamily
 AC   FA-03965
 SY   Tenascin family. Teneurin subfamily.
 HI   FA-03964; Tenascin family
+//
+ID   TENT family
+AC   FA-05523
 //
 ID   TERB1 family
 AC   FA-05269
@@ -18510,6 +18615,7 @@ AC   FA-04701
 //
 ID   XPF family
 AC   FA-04702
+SY   XPF family. Highly divergent.
 //
 ID   XPG/RAD2 endonuclease family
 AC   FA-04703
@@ -18575,6 +18681,9 @@ SY   UPF0418 family.
 //
 ID   ZC3H12 family
 AC   FA-04718
+//
+ID   ZC3H13 family
+AC   FA-05524
 //
 ID   ZC3H14 family
 AC   FA-04719
