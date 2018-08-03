@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 02-Aug-2018
+Last update: 03-Aug-2018
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 02-Aug-2018
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00958
+AN   Next free AC: DO-00961
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -686,6 +686,12 @@ FT   ZN_FING.
 TG   PF10146; zf-C4H2;
 DO   IPR018482;
 //
+ID   C5HC2.
+AC   DO-00959
+FT   ZN_FING.
+TG   PF02928; zf-C5HC2;
+DO   IPR004198;
+//
 ID   cache.
 AC   DO-00089
 FT   DOMAIN.
@@ -792,6 +798,12 @@ AC   DO-00900
 FT   ZN_FING.
 TG   PS51801; ZF_CCHC_NOA;
 DO   PDOC51801;
+//
+ID   CCHH-type.
+AC   DO-00960
+FT   ZN_FING.
+TG   PF13878; zf-C2H2_3;
+DO   IPR028005;
 //
 ID   CCHHC-type.
 AC   DO-00901
@@ -3374,6 +3386,12 @@ AC   DO-00446
 FT   DOMAIN.
 TG   PS51358; NOP;
 DO   PDOC51358;
+//
+ID   NR C4-type.
+AC   DO-00958
+FT   ZN_FING.
+TG   PF00105; zf-C4;
+DO   IPR001628;
 //
 ID   NR LBD
 AC   DO-00940
