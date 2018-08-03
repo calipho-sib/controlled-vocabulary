@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     20-Dec-2017
+  Release:     03-Aug-2018
 
   The definition of the CV is provided in the following format:
 
@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0170
+next id:  CVDS-0171
 
 __________________________________________________________________________
 ID   AgBase
@@ -140,6 +140,11 @@ ID   GFP-cDNA@EMBL
 AC   CVDS-0018
 DE   GFP-cDNA Localisation Project (EMBL)
 DO   MDATA_0001
+//
+ID   GlyConnect
+AC   CVDS-0170
+DE   A platform integrating sources of information to help characterise the molecular components of protein glycosylation
+DR   https://glyconnect.expasy.org/
 //
 ID   GO
 AC   CVDS-0013
