@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     21-Dec-2017
+  Release:     03-Aug-2018
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0151
+next id:  CVDR-0152
 
 __________________________________________________________________________
 ID   Additional references
@@ -184,6 +184,15 @@ DR   freud.isb-sib.ch:/share/sib/common/Calipho/np/XML/annotations/GFP_cDNA.xml
 UF   once
 UR   http://gfp-cdna.embl.de/
 CI
+//
+ID   GlyConnect
+AC   CVDR-0151
+DE   Proteomics data (PTM) extracted from PubMed publications. 
+DE   Glycosylation identified by mass spectrometry.
+DS   GlyConnect
+UF   twice a year
+UR   https://glyconnect.expasy.org/
+CI   
 //
 ID   GO
 AC   CVDR-0001
