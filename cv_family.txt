@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 02-Aug-2018
+Last update: 03-Aug-2018
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 02-Aug-2018
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05525
+AN   Next free AC: FA-05527
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -11003,6 +11003,12 @@ HI   FA-02717; Peptidase C69 family
 ID   Peptidase C78 family
 AC   FA-02719
 //
+ID   ZUFSP subfamily.
+AC   FA-05525
+SY   Peptidase C78 family. ZUFSP subfamily.
+SY   peptidase C78 family. ZUFSP subfamily.
+HI   FA-02719; Peptidase C78 family
+//
 ID   Peptidase C85 family
 AC   FA-02720
 //
@@ -18173,6 +18179,9 @@ SY   PTPLA family.
 //
 ID   Vestigial family
 AC   FA-04577
+//
+ID   vexin family
+AC   FA-05526
 //
 ID   Vezatin family
 AC   FA-04578
