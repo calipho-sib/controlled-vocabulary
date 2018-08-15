@@ -66,7 +66,7 @@ ID   Copper.
 AC   CVME_0004
 DE   Annotate an amino acid residue that binds a copper (Cu(2+) or Cu(1+))
 DE   cation. Copper is a metal with the atomic number: 29.
-SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation.
+SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation; Copper(2+).
 KW   KW-0186:Copper.
 //
 ID   Copper or nickel.
