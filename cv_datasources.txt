@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     03-Aug-2018
+  Release:     21-Aug-2018
 
   The definition of the CV is provided in the following format:
 
@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0171
+next id:  CVDS-0172
 
 __________________________________________________________________________
 ID   AgBase
@@ -795,4 +795,9 @@ ID   BioMuta
 AC   CVDS-0169
 DE   BioMuta curated single-nucleotide variation and disease association database
 DR   https://hive.biochemistry.gwu.edu/tools/biomuta/
+//
+ID   YuBioLab
+AC   CVDS-0171
+DE   Center for Bioinformatics and Genomics Systems Engineering (CBGSE), Department of Electrical and Computer Engineering, Texas A&M University
+DR   https://yubiolab.wordpress.com/
 //
