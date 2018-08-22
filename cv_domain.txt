@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 03-Aug-2018
+Last update: 22-Aug-2018
 
 ----------------------------------------------------------------------------
 
@@ -484,6 +484,7 @@ DO   PDOC00987;
 //
 ID   bMERB.
 AC   DO-00944
+SY   bivalent Mical/EHBP Rab binding.
 FT   DOMAIN.
 TG   PS51848; BMERB;
 DO   PDOC51848;
@@ -2060,6 +2061,7 @@ DO   IPR007123;
 //
 ID   GFA.
 AC   DO-00948
+SY   Glutathione-dependent formaldehyde-activating.
 FT   DOMAIN.
 TG   PF04828; GFA;
 DO   IPR006913;
@@ -3395,6 +3397,7 @@ DO   IPR001628;
 //
 ID   NR LBD
 AC   DO-00940
+SY   Nuclear receptor ligand-binding domain.
 FT   DOMAIN.
 TG   PS51843; NR_LBD;
 DO   PDOC51843;
@@ -3681,6 +3684,7 @@ DO   PDOC51700;
 //
 ID   peptidase M12A.
 AC   DO-00952
+SY   astacin.
 FT   DOMAIN.
 TG   PS51864; ASTACIN;
 DO   PDOC51864;
@@ -4325,6 +4329,7 @@ DO   IPR011072;
 //
 ID   REM-1.
 AC   DO-00953
+SY   Rho effector motif class 1.
 FT   DOMAIN.
 TG   PS51860; REM_1;
 DO   PDOC51860;
@@ -4383,6 +4388,7 @@ DO   PDOC00924;
 //
 ID   RhoBD.
 AC   DO-00954
+SY   Rho-binding.
 FT   DOMAIN.
 TG   PS51859; RHO_BD;
 DO   PDOC51859;

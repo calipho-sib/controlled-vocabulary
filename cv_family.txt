@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 03-Aug-2018
+Last update: 22-Aug-2018
 
 ----------------------------------------------------------------------------
 
@@ -2127,8 +2127,6 @@ AC   FA-00506
 ID   CCDC58 family
 AC   FA-00509
 //
-ID   CCDC65 family
-AC   FA-05327
 //
 ID   CCDC69 family
 AC   FA-05447
@@ -4496,13 +4494,15 @@ ID   DRC10 family
 AC   FA-05499
 //
 ID   DRC2 family
-AC   FA-05500
+AC   FA-05327
+SY   CCDC65 family.
 //
 ID   DRC3 family
 AC   FA-05358
 //
 ID   DRC4 family
-AC   FA-05501
+AC   FA-01470
+SY   GAS8 family.
 //
 ID   DRC5 family
 AC   FA-05502
@@ -5320,7 +5320,8 @@ AC   FA-01245
 SY   UPF0560 family.
 //
 ID   FAM172 family
-AC   FA-05506
+AC   FA-04418
+SY   UPF0528 family.
 //
 ID   FAM173 family
 AC   FA-01246
@@ -5376,9 +5377,6 @@ AC   FA-01264
 //
 ID   FAM193 family
 AC   FA-01266
-//
-ID   FAM196 family
-AC   FA-01269
 //
 ID   FAM198 family
 AC   FA-01270
@@ -5475,17 +5473,11 @@ AC   FA-01281
 ID   FAM32 family
 AC   FA-01282
 //
-ID   FAM35 family
-AC   FA-01283
-//
 ID   FAM43 family
 AC   FA-01288
 //
 ID   FAM45 family
 AC   FA-01289
-//
-ID   FAM46 family
-AC   FA-01290
 //
 ID   FAM47 family
 AC   FA-01291
@@ -6177,9 +6169,6 @@ AC   FA-01468
 //
 ID   GAS2 family
 AC   FA-01469
-//
-ID   GAS8 family
-AC   FA-01470
 //
 ID   Gasdermin family
 AC   FA-01471
@@ -7642,10 +7631,12 @@ ID   Insulin family
 AC   FA-01869
 //
 ID   INSYN1 family
-AC   FA-05509
+AC   FA-04453
+SY   UPF0583 family.
 //
 ID   INSYN2 family
-AC   FA-05510
+AC   FA-01269
+SY   FAM196 family.
 //
 ID   Integrator subunit 1 family
 AC   FA-01870
@@ -11003,10 +10994,9 @@ HI   FA-02717; Peptidase C69 family
 ID   Peptidase C78 family
 AC   FA-02719
 //
-ID   ZUFSP subfamily.
+ID   ZUFSP subfamily
 AC   FA-05525
 SY   Peptidase C78 family. ZUFSP subfamily.
-SY   peptidase C78 family. ZUFSP subfamily.
 HI   FA-02719; Peptidase C78 family
 //
 ID   Peptidase C85 family
@@ -14234,7 +14224,8 @@ ID   RWDD1/GIR2 family
 AC   FA-03475
 //
 ID   RXYLT1 family
-AC   FA-05516
+AC   FA-04094
+SY   TMEM5 family.
 //
 ID   Ryanodine receptor (TC 1.A.3.1) family
 AC   FA-03476
@@ -14695,7 +14686,8 @@ SY   Shisa family. SHISA9 subfamily.
 HI   FA-03604; Shisa family
 //
 ID   SHLD2 family
-AC   FA-05517
+AC   FA-01283
+SY   FAM35 family.
 //
 ID   SHMT family
 AC   FA-03606
@@ -16145,7 +16137,8 @@ SY   Tenascin family. Teneurin subfamily.
 HI   FA-03964; Tenascin family
 //
 ID   TENT family
-AC   FA-05523
+AC   FA-01290
+SY   FAM46 family.
 //
 ID   TERB1 family
 AC   FA-05269
@@ -16656,8 +16649,6 @@ AC   FA-04091
 ID   TMEM47 family
 AC   FA-04092
 //
-ID   TMEM5 family
-AC   FA-04094
 //
 ID   TMEM53 family
 AC   FA-04095
@@ -17850,9 +17841,6 @@ AC   FA-04416
 ID   UPF0524 family
 AC   FA-04417
 //
-ID   UPF0528 family
-AC   FA-04418
-//
 ID   UPF0534 family
 AC   FA-04421
 //
@@ -17882,9 +17870,6 @@ AC   FA-04450
 //
 ID   UPF0577 family
 AC   FA-04451
-//
-ID   UPF0583 family
-AC   FA-04453
 //
 ID   UPF0585 family
 AC   FA-04455
