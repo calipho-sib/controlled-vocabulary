@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 22-Aug-2018
+Last update: 02-Nov-2018
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 22-Aug-2018
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00961
+AN   Next free AC: DO-00966
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -45,7 +45,7 @@ DO   PDOC00176;
 //
 ID   4Fe-4S His(Cys)3-ligated-type.
 AC   DO-00932
-SY   His(Cys)3-ligated-type [4Fe-4S]
+SY   His(Cys)3-ligated-type [4Fe-4S].
 FT   DOMAIN.
 TG   PS51839; 4FE4S_HC3;
 DO   PDOC51839;
@@ -950,6 +950,7 @@ DO   PDOC50219;
 //
 ID   CNNM transmembrane.
 AC   DO-00937
+SY   DUF21.
 FT   DOMAIN.
 TG   PS51846; CNNM;
 DO   PDOC51846;
@@ -1051,8 +1052,8 @@ ID   CSD.
 AC   DO-00128
 SY   cold-shock.
 FT   DOMAIN.
-TG   PF00313; CSD;
-DO   IPR002059;
+TG   PS51857; CSD_2;
+DO   PDOC00304;
 //
 ID   CSPG.
 AC   DO-00129
@@ -1493,12 +1494,6 @@ FT   DOMAIN.
 TG   PF08333; DUF1725;
 DO   IPR013544;
 //
-ID   DUF21.
-AC   DO-00786
-FT   DOMAIN.
-TG   PF01595; DUF21;
-DO   IPR002550;
-//
 ID   DUSP.
 AC   DO-00192
 FT   DOMAIN.
@@ -1530,6 +1525,20 @@ AC   DO-00194
 FT   DOMAIN.
 TG   PS51703; DZF;
 DO   PDOC51703;
+//
+ID   E1.
+SY   APP E1.
+AC   DO-00962
+FT   DOMAIN.
+TG   PS51869; APP_E1;
+DO   PDOC00204;
+//
+ID   E2.
+SY   APP E2.
+AC   DO-00963
+FT   DOMAIN.
+TG   PS51870; APP_E2;
+DO   PDOC00204;
 //
 ID   EamA.
 AC   DO-00797
@@ -1736,6 +1745,12 @@ AC   DO-00221
 FT   DOMAIN.
 TG   PS51190; FATC;
 DO   PDOC51189;
+//
+ID   fatty acid hydroxylase.
+AC   DO-00961
+FT   DOMAIN.
+TG   PF04116; FA_hydroxylase;
+DO   IPR006694;
 //
 ID   FBA.
 AC   DO-00222
@@ -2061,7 +2076,7 @@ DO   IPR007123;
 //
 ID   GFA.
 AC   DO-00948
-SY   Glutathione-dependent formaldehyde-activating.
+SY   glutathione-dependent formaldehyde-activating.
 FT   DOMAIN.
 TG   PF04828; GFA;
 DO   IPR006913;
@@ -2245,10 +2260,10 @@ DO   PDOC50970;
 ID   HD.
 AC   DO-00291
 FT   DOMAIN.
-TG   PF01966; HD;
-DO   IPR006674;
+TG   PS51831; HD;
+DO   PDOC51831;
 //
-ID   HDAg
+ID   HDAg.
 AC   DO-00292
 SY   hepatitis delta antigen.
 FT   DOMAIN.
@@ -2957,9 +2972,9 @@ DO   PDOC51841;
 //
 ID   LysM.
 AC   DO-00390
-FT   REPEAT.
-TG   PF01476; LysM;
-DO   IPR018392;
+FT   DOMAIN.
+TG   PS51782; LYSM;
+DO   PDOC51782;
 //
 ID   MABP.
 AC   DO-00759
@@ -3174,9 +3189,10 @@ DO   PDOC51340;
 ID   MPN.
 AC   DO-00419
 SY   JAB/Mov34.
+SY   Mpr1,Pad1 N-terminal.
 FT   DOMAIN.
-TG   PF01398; Mov34;
-DO   IPR000555;
+TG   PS50249; MPN;
+DO   PDOC50249;
 //
 ID   MRG.
 AC   DO-00801
@@ -3395,7 +3411,7 @@ FT   ZN_FING.
 TG   PF00105; zf-C4;
 DO   IPR001628;
 //
-ID   NR LBD
+ID   NR LBD.
 AC   DO-00940
 SY   Nuclear receptor ligand-binding domain.
 FT   DOMAIN.
@@ -3628,7 +3644,7 @@ FT   DOMAIN.
 TG   PF01399; PCI;
 DO   IPR000717;
 //
-ID   PDEase
+ID   PDEase.
 AC   DO-00941
 FT   DOMAIN.
 TG   PS51845; PDEASE_I_2;
@@ -4441,6 +4457,12 @@ AC   DO-00574
 FT   ZN_FING.
 TG   PS51292; ZF_RING_CH;
 DO   PDOC51292;
+//
+ID   RING-Gid-type.
+AC   DO-00964
+FT   ZN_FING.
+TG   PS51867; ZF_RING_GID.
+DO   PDOC51867;
 //
 ID   RINT1/TIP20.
 AC   DO-00575
@@ -5755,6 +5777,12 @@ SY   zinc-finger associated.
 FT   DOMAIN.
 TG   PF07776; zf-AD;
 DO   IPR012934;
+//
+ID   ZBR-type.
+AC   DO-00965
+FT   ZN_FING.
+TG   PS51872; ZF_ZBR;
+DO   PDOC51872;
 //
 ID   zinc-hook.
 AC   DO-00739

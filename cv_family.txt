@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 22-Aug-2018
+Last update: 02-Nov-2018
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 22-Aug-2018
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05527
+AN   Next free AC: FA-05542
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -83,14 +83,6 @@ AC   FA-00011
 //
 ID   3-hydroxyacyl-CoA dehydrogenase family
 AC   FA-00012
-//
-ID   3-hydroxyisobutyrate dehydrogenase family
-AC   FA-00013
-//
-ID   NP60 subfamily
-AC   FA-00014
-SY   3-hydroxyisobutyrate dehydrogenase family. NP60 subfamily.
-HI   FA-00013; 3-hydroxyisobutyrate dehydrogenase family
 //
 ID   3-oxoacid CoA-transferase family
 AC   FA-00015
@@ -177,10 +169,6 @@ ID   Spastin subfamily
 AC   FA-00030
 SY   AAA ATPase family. Spastin subfamily.
 HI   FA-00027; AAA ATPase family
-//
-ID   AAED1 family
-AC   FA-05096
-SY   UPF0308 family.
 //
 ID   AAMDC family
 AC   FA-05097
@@ -1217,9 +1205,6 @@ AC   FA-00276
 ID   Aspartyl/asparaginyl beta-hydroxylase family
 AC   FA-00277
 //
-ID   ASPP family
-AC   FA-00278
-//
 ID   Asterix family
 AC   FA-04971
 SY   UPF0139 family.
@@ -2140,6 +2125,9 @@ AC   FA-00511
 ID   CCDC85 family
 AC   FA-00512
 //
+ID   CCDC87 family
+AC   FA-05527
+//
 ID   CCDC88 family
 AC   FA-00513
 //
@@ -2280,6 +2268,10 @@ AC   FA-00550
 //
 ID   CELF/BRUNOL family
 AC   FA-00551
+//
+ID   CEMIP family
+AC   FA-04074
+SY   TMEM2 family.
 //
 ID   CEND1 family
 AC   FA-00553
@@ -3029,6 +3021,10 @@ AC   FA-00638
 ID   ClpX chaperone family
 AC   FA-00639
 //
+ID   CLTRN family
+AC   FA-04085
+SY   TMEM27 family.
+//
 ID   CLUAP1 family
 AC   FA-05151
 //
@@ -3162,6 +3158,9 @@ AC   FA-00675
 //
 ID   COM1/SAE2/CtIP family
 AC   FA-04762
+//
+ID   Commissureless family
+AC   FA-05528
 //
 ID   Complement C6/C7/C8/C9 family
 AC   FA-00676
@@ -4933,6 +4932,10 @@ AC   FA-01113
 ID   Enoyl-CoA hydratase/isomerase family
 AC   FA-01114
 //
+ID   ENTR1 family
+AC   FA-03523
+SY   SDCCAG3 family.
+//
 ID   ENY2 family
 AC   FA-01115
 //
@@ -5461,6 +5464,9 @@ AC   FA-01277
 ID   FAM241 family
 AC   FA-05459
 //
+ID   FAM243 family
+AC   FA-05529
+//
 ID   FAM25 family
 AC   FA-01278
 //
@@ -5577,6 +5583,9 @@ AC   FA-01333
 //
 ID   FBXL15 family
 AC   FA-04895
+//
+ID   FBXL17 family
+AC   FA-05530
 //
 ID   FBXL7 family
 AC   FA-05027
@@ -7196,6 +7205,20 @@ SY   UPF0570 family.
 ID   HHIP family
 AC   FA-01751
 //
+ID   HIBADH-related family
+AC   FA-00013
+SY   3-hydroxyisobutyrate dehydrogenase family.
+//
+ID   3-hydroxyisobutyrate dehydrogenase subfamily
+AC   FA-05527
+SY   HIBADH-related family. 3-hydroxyisobutyrate dehydrogenase subfamily.
+HI   FA-00013; HIBADH-related family
+//
+ID   NP60 subfamily
+AC   FA-00014
+SY   HIBADH-related family. NP60 subfamily.
+HI   FA-00013; HIBADH-related family
+//
 ID   hid-1 family
 AC   FA-04979
 SY   UPF0663 family.
@@ -7357,6 +7380,10 @@ AC   FA-01804
 //
 ID   IAP family
 AC   FA-01806
+//
+ID   iASPP family
+AC   FA-00278
+SY   ASPP family.
 //
 ID   ICE1 family
 AC   FA-05303
@@ -8046,6 +8073,9 @@ AC   FA-01986
 ID   KRTAP type 20 family
 AC   FA-01987
 //
+ID   KRTAP type 28 family
+AC   FA-05531
+//
 ID   KRTAP type 3 family
 AC   FA-01988
 //
@@ -8572,6 +8602,9 @@ AC   FA-02108
 ID   LplA family
 AC   FA-02109
 //
+ID   LRRC32/LRRC33 family
+AC   FA-05532
+//
 ID   LRFN family
 AC   FA-02110
 //
@@ -8630,6 +8663,10 @@ AC   FA-02124
 //
 ID   LTN1 family
 AC   FA-04817
+//
+ID   LTO1 family
+AC   FA-02596
+SY   ORAOV1 family.
 //
 ID   LTV1 family
 AC   FA-02125
@@ -9423,6 +9460,13 @@ AC   FA-02303
 ID   MIG6 family
 AC   FA-02304
 //
+ID   milton family
+AC   FA-05533
+//
+ID   MINAR family
+AC   FA-04336
+SY   UPF0258 family.
+//
 ID   MIP/aquaporin (TC 1.A.8) family
 AC   FA-02307
 DR   TC 1.A.8
@@ -9474,6 +9518,9 @@ AC   FA-02317
 ID   Mitoguardin family
 AC   FA-01308
 SY   FAM73 family.
+//
+ID   Mitoregulin family
+AC   FA-05534
 //
 ID   MLF family
 AC   FA-02319
@@ -10525,9 +10572,6 @@ AC   FA-02594
 ID   Orai family
 AC   FA-02595
 //
-ID   ORAOV1 family
-AC   FA-02596
-//
 ID   ORC1 family
 AC   FA-02597
 //
@@ -10588,6 +10632,11 @@ AC   FA-02614
 //
 ID   OST4 family
 AC   FA-02615
+//
+ID   OST5 family
+AC   FA-05143
+SY   TMEM258 family.
+SY   UPF0197 family.
 //
 ID   OSTC family
 AC   FA-02616
@@ -11343,20 +11392,29 @@ SY   Peroxiredoxin family. Prx6 subfamily.
 SY   Rehydrin subfamily.
 HI   FA-00129; Peroxiredoxin family
 //
-ID   Peroxiredoxin-like FAM213 family
+ID   Peroxiredoxin-like PRXL2 family
 AC   FA-04944
-//
-ID   FAM213A subfamily
-AC   FA-04945
-SY   Peroxiredoxin-like FAM213 family. FAM213A subfamily.
-SY   Peroxiredoxin-like PAMM family.
-SY   UPF0765 family.
-HI   FA-04944; Peroxiredoxin-like FAM213 family
+SY   Peroxiredoxin-like FAM213 family.
 //
 ID   Prostamide/prostaglandin F synthase subfamily
 AC   FA-04946
-SY   Peroxiredoxin-like FAM213 family. Prostamide/prostaglandin F synthase subfamily.
-HI   FA-04944; Peroxiredoxin-like FAM213 family
+SY   Peroxiredoxin-like PRXL2 family. Prostamide/prostaglandin F synthase subfamily.
+HI   FA-04944; Peroxiredoxin-like PRXL2 family
+//
+ID   PRXL2A subfamily
+AC   FA-04945
+SY   Peroxiredoxin-like PRXL2 family. PRXL2A subfamily.
+SY   Peroxiredoxin-like PAMM family.
+SY   FAM213A subfamily.
+SY   UPF0765 family.
+HI   FA-04944; Peroxiredoxin-like PRXL2 family
+//
+ID   PRXL2C subfamily
+AC   FA-05096
+SY   peroxiredoxin-like PRXL2 family. PRXL2C subfamily.
+SY   AAED1 family.
+SY   UPF0308 family.
+HI   FA-04944; Peroxiredoxin-like PRXL2 family
 //
 ID   Peroxisomal membrane protein PXMP2/4 family
 AC   FA-02805
@@ -12911,6 +12969,9 @@ AC   FA-03167
 ID   PRR15 family
 AC   FA-03168
 //
+ID   PRR20 family
+AC   FA-05535
+//
 ID   PRR23 family
 AC   FA-03169
 SY   UPF0572 family.
@@ -12978,6 +13039,9 @@ HI   FA-03184; PtdIns transfer protein family
 //
 ID   Pterin-4-alpha-carbinolamine dehydratase family
 AC   FA-03188
+//
+ID   PTEN phosphatase protein family
+AC   FA-05536
 //
 ID   PTH family
 AC   FA-03189
@@ -13246,6 +13310,9 @@ HI   FA-05373; RecD family
 //
 ID   Receptors of complement activation (RCA) family
 AC   FA-03254
+//
+ID   RECK family
+AC   FA-05537
 //
 ID   Recoverin family
 AC   FA-03255
@@ -14400,9 +14467,6 @@ AC   FA-03519
 ID   SDA1 family
 AC   FA-03521
 //
-ID   SDCCAG3 family
-AC   FA-03523
-//
 ID   SDE2 family
 AC   FA-05082
 SY   UPF0667 family.
@@ -15432,6 +15496,9 @@ AC   FA-04985
 ID   Sp1 C2H2-type zinc-finger protein family
 AC   FA-03784
 //
+ID   SPACA4/bouncer family
+AC   FA-05538
+//
 ID   SPAG8 family
 AC   FA-05370
 //
@@ -16315,6 +16382,9 @@ AC   FA-04013
 ID   TIAM family
 AC   FA-04014
 //
+ID   TIFA family
+AC   FA-05539
+//
 ID   Tigger transposable element derived protein family
 AC   FA-04015
 //
@@ -16528,15 +16598,15 @@ SY   UPF0504 family.
 ID   TMEM198 family
 AC   FA-04073
 //
-ID   TMEM2 family
-AC   FA-04074
-//
 ID   TMEM20 family
 AC   FA-04918
 //
 ID   TMEM200 family
 AC   FA-04075
 SY   UPF0455 family.
+//
+ID   TMEM201 family
+AC   FA-05540
 //
 ID   TMEM205 family
 AC   FA-04076
@@ -16613,10 +16683,6 @@ ID   TMEM256 family
 AC   FA-05142
 SY   UPF0451 family.
 //
-ID   TMEM258 family
-AC   FA-05143
-SY   UPF0197 family.
-//
 ID   TMEM260 family
 AC   FA-04493
 SY   UPF0679 family.
@@ -16624,9 +16690,6 @@ SY   UPF0679 family.
 ID   TMEM263 family
 AC   FA-05270
 SY   UPF0444 family.
-//
-ID   TMEM27 family
-AC   FA-04085
 //
 ID   TMEM35 family
 AC   FA-04086
@@ -17142,6 +17205,11 @@ AC   FA-04156
 ID   PNGase family
 AC   FA-04157
 SY   Transglutaminase-like superfamily. PNGase family.
+HI   FA-04156; Transglutaminase-like superfamily
+//
+ID   Vasohibin family
+AC   FA-04571
+SY   Transglutaminase-like superfamily. Vasohibin family.
 HI   FA-04156; Transglutaminase-like superfamily
 //
 ID   Transient receptor (TC 1.A.4) family
@@ -17778,9 +17846,6 @@ AC   FA-04333
 ID   UPF0239 family
 AC   FA-04334
 //
-ID   UPF0258 family
-AC   FA-04336
-//
 ID   UPF0359 family
 AC   FA-04344
 //
@@ -18136,9 +18201,6 @@ AC   FA-04569
 //
 ID   Vasculin family
 AC   FA-04570
-//
-ID   Vasohibin family
-AC   FA-04571
 //
 ID   Vasopressin/oxytocin family
 AC   FA-04572
@@ -18547,6 +18609,9 @@ AC   FA-05466
 //
 ID   WD repeat WDR85 family
 AC   FA-04788
+//
+ID   WD repeat WDR90/POC16 family
+AC   FA-05541
 //
 ID   WD repeat WDR91 family
 AC   FA-05467
