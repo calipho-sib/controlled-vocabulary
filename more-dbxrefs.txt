@@ -915,3 +915,11 @@ LinkTp: Explicit
 Server: http://www.openisbn.com/
 Db_URL: http://www.openisbn.com/isbn/%s/
 Cat   : Publication databases
+
+AC    : DB-09120
+Abbrev: Rhea
+Name  : Rhea - the annotated database of biochemical reactions
+LinkTp: Explicit
+Server: https://www.rhea-db.org/
+Db_URL: https://www.rhea-db.org/reaction?id=%s
+Cat   : Chemistry
