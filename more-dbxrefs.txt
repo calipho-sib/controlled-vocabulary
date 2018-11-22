@@ -923,3 +923,11 @@ LinkTp: Explicit
 Server: https://www.rhea-db.org/
 Db_URL: https://www.rhea-db.org/reaction?id=%s
 Cat   : Chemistry
+
+AC    : DB-9121
+Abbrev: PIRSR
+Name  : PIRSF site rule system
+LinkTp: Explicit
+Server: http://pir.georgetown.edu
+Db_URL: http://pir.georgetown.edu/cgi-bin/pirrule?id=%s
+Cat   : Other
