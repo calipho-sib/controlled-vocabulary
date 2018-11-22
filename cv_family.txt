@@ -22,7 +22,7 @@ Last update: 02-Nov-2018
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05542
+AN   Next free AC: FA-05543
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -2126,7 +2126,7 @@ ID   CCDC85 family
 AC   FA-00512
 //
 ID   CCDC87 family
-AC   FA-05527
+AC   FA-05542
 //
 ID   CCDC88 family
 AC   FA-00513
