@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     03-Aug-2018
+  Release:     18-Dec-2018
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0152
+next id:  CVDR-0156
 
 __________________________________________________________________________
 ID   Additional references
@@ -1425,4 +1425,44 @@ DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
+//
+ID   Human Cancer Cell Lines Pancreas PeptideAtlas
+AC   CVDR-0152
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Pancreas samples.
+DS   PeptideAtlas human Cancer Cell Lines Pancreas
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Cancer Other Female Reproductive Organ PeptideAtlas
+AC   CVDR-0153
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Other Female Reproductive Organ samples.
+DS   PeptideAtlas human Cancer Other Female Reproductive Organ
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Cancer Pancreas PeptideAtlas
+AC   CVDR-0154
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Pancreas samples.
+DS   PeptideAtlas human Cancer Pancreas
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI
+//
+ID   Human Olfactory System PeptideAtlas
+AC   CVDR-0155
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Olfactory System samples.
+DS   PeptideAtlas human Olfactory System
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI
 //
