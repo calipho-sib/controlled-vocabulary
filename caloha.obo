@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.31
-date: 03:05:2018 11:30
+data-version: 1.4
+date: 08:01:2019 11:30
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -1298,6 +1298,7 @@ xref: MESH:D005123
 xref: UBERON:0000970
 is_a: TS-2043 ! Sense organ
 relationship: part_of TS-2497 ! Ocular region
+relationship: part_of TS-2543 ! Visual system
 
 [Term]
 id: TS-0321
@@ -2772,7 +2773,7 @@ xref: FMA:62410
 xref: MESH:D046569
 xref: UBERON:0006934
 is_a: TS-0288 ! Epithelium
-relationship: part_of TS-2043 ! Sense organ
+relationship: part_of TS-2540 ! Sensory system
 
 [Term]
 id: TS-0683
@@ -2904,6 +2905,7 @@ xref: MESH:D009830
 xref: UBERON:0002264
 relationship: part_of TS-0389 ! Frontal lobe
 relationship: part_of TS-1307 ! Limbic system
+relationship: part_of TS-2542 ! Olfactory system
 
 [Term]
 id: TS-0703
@@ -2952,6 +2954,7 @@ xref: FMA:50863
 xref: MESH:D009900
 xref: UBERON:0000941
 is_a: TS-2472 ! Cranial nerve
+relationship: part_of TS-2543 ! Visual system
 
 [Term]
 id: TS-0715
@@ -4401,6 +4404,7 @@ xref: MESH:D014059
 xref: UBERON:0001723
 is_a: TS-2043 ! Sense organ
 relationship: part_of TS-1315 ! Mouth
+relationship: part_of TS-2544 ! Gustatory system
 
 [Term]
 id: TS-1051
@@ -4737,6 +4741,7 @@ xref: FMA:242644
 xref: MESH:D014793
 xref: UBERON:0000411
 relationship: part_of TS-0693 ! Occipital lobe
+relationship: part_of TS-2543 ! Visual system
 
 [Term]
 id: TS-1119
@@ -4881,6 +4886,7 @@ xref: FMA:52780
 xref: MESH:D004423
 xref: UBERON:0001690
 is_a: TS-2043 ! Sense organ
+relationship: part_of TS-2541 ! Auditory system
 relationship: part_of TS-0436 ! Head
 
 [Term]
@@ -6256,6 +6262,7 @@ xref: UBERON:0000004
 is_a: TS-2043 ! Sense organ
 relationship: part_of TS-0436 ! Head
 relationship: part_of TS-1319 ! Respiratory system
+relationship: part_of TS-2542 ! Olfactory system
 
 [Term]
 id: TS-2038
@@ -6309,7 +6316,7 @@ def: "Organ involved in the perception of internal and/or external stimuli." [Me
 synonym: "Sensory organ" RELATED []
 xref: BTO:0000202
 xref: UBERON:0000020
-is_a: TS-2088 ! Anatomical system
+relationship: part_of TS-2540 ! Sensory system
 
 [Term]
 id: TS-2044
@@ -9533,6 +9540,7 @@ xref: FMA:50869
 xref: MESH:D000159
 xref: UBERON:0001648
 is_a: TS-2472 ! Cranial nerve
+relationship: part_of TS-2541 ! Auditory system
 
 [Term]
 id: TS-2497
@@ -9938,6 +9946,47 @@ xref: UBERON:0001130
 synonym: "Spine" RELATED []
 relationship: part_of TS-1071 ! Trunk
 
+[Term]
+id: TS-2540
+name: Sensory system
+def: "Sense organs, sensory neurons, neural pathways, and parts of the brain involved in the perception and processing sensory information." [neXtProt:PDR; Wikipedia]
+synonym: "Sensory organ system" RELATED []
+xref: FMA:75259
+xref: UBERON:0001032
+is_a: TS-2088 ! Anatomical system
+
+[Term]
+id: TS-2541
+name: Auditory system             
+def: "Sensory system for the sense of hearing." [UBERON:Auditory system]
+xref: FMA:7192
+xref: UBERON:0016490 
+is_a: TS-2540 ! Sensory system 
+
+[Term]
+id: TS-2542
+name: Olfactory system             
+def: "A sensory system that is capable of olfacttion (the sensory perception of smell)." [UBERON:Olfactory system]
+xref: FMA:7190
+xref: UBERON:0005725
+is_a: TS-2540 ! Sensory system 
+
+[Term]
+id: TS-2543
+name: Visual system             
+def: "The sensory system involved in the sense of vision." [neXtProt:PDR]
+xref: FMA:7191
+xref: UBERON:0002104
+is_a: TS-2540 ! Sensory system 
+
+[Term]
+id: TS-2544
+name: Gustatory system             
+def: "The sensory system for the sense of taste." [UBERON:Gustatory system]
+synonym: "Taste system" RELATED []
+xref: FMA:7194
+xref: UBERON:0001033
+is_a: TS-2540 ! Sensory system 
 
 [Typedef]
 id: develops_from
