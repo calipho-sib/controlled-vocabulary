@@ -2773,7 +2773,7 @@ xref: FMA:62410
 xref: MESH:D046569
 xref: UBERON:0006934
 is_a: TS-0288 ! Epithelium
-relationship: part_of TS-2540 ! Sensory system
+relationship: part_of TS-2043 ! Sense organ
 
 [Term]
 id: TS-0683
@@ -9987,6 +9987,25 @@ synonym: "Taste system" RELATED []
 xref: FMA:7194
 xref: UBERON:0001033
 is_a: TS-2540 ! Sensory system 
+
+[Term]
+id: TS-2545
+name: Auditory cortex
+def: "The part of the brain that is the ultimate target of afferent auditory information." [UBERON:Auditory cortex]
+xref: BTO:0004343
+xref: FMA:226221
+xref: MESH:D001303
+xref: UBERON:0001393
+relationship: part_of TS-2541 ! Auditory system        
+relationship: part_of TS-1020 ! Temporal lobe
+
+[Term]
+id: TS-2546
+name: Gustatory cortex
+def: "The gustatory cortex is a region of the cerebral cortex responsible for the perception of taste and flavour. It is comprised of the anterior insula on the insular lobe and the frontal operculum on the frontal lobe." [https://www.nature.com/subjects/gustatory-cortex]
+synonym: "Primary gustatory cortex" RELATED []
+relationship: part_of TS-2544 ! Gustatory system
+relationship: part_of TS-0091 ! Cerebral cortex
 
 [Typedef]
 id: develops_from
