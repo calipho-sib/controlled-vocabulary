@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 02-Nov-2018
+Last update: 13-Feb-2019
 
 ----------------------------------------------------------------------------
 
@@ -3418,11 +3418,6 @@ FT   DOMAIN.
 TG   PS51843; NR_LBD;
 DO   PDOC51843;
 //
-ID   NSE1-type.
-AC   DO-00447
-FT   ZN_FING.
-TG   None;
-//
 ID   NtA.
 AC   DO-00448
 SY   N-terminal agrin.
@@ -3734,11 +3729,6 @@ AC   DO-00483
 FT   DOMAIN.
 TG   PS51434; NUP_C;
 DO   PDOC51434;
-//
-ID   peptidase S68.
-AC   DO-00484
-FT   DOMAIN.
-TG   None;
 //
 ID   peptidase S72.
 AC   DO-00485
@@ -4336,13 +4326,6 @@ FT   DOMAIN.
 TG   PS51486; REKLES;
 DO   PDOC51486;
 //
-ID   REM.
-AC   DO-00560
-SY   Hr1.
-FT   REPEAT.
-TG   PF02185; HR1;
-DO   IPR011072;
-//
 ID   REM-1.
 AC   DO-00953
 SY   Rho effector motif class 1.
@@ -4805,12 +4788,6 @@ SY   Src homology 3.
 FT   DOMAIN.
 TG   PS50002; SH3;
 DO   PDOC50002;
-//
-ID   SH3b.
-AC   DO-00956
-FT   DOMAIN.
-TG   PS51781; SH3B;
-DO   PDOC51781;
 //
 ID   SHD.
 AC   DO-00616
