@@ -8,6 +8,7 @@ treat-xrefs-as-equivalent: ZFS
 treat-xrefs-as-equivalent: XAO
 treat-xrefs-as-equivalent: EV
 treat-xrefs-as-equivalent: XUO
+remark: This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See: https://creativecommons.org/licenses/by/4.0/
 
 [Term]
 id: HsapDO:0000001
