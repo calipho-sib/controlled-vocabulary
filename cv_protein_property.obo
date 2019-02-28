@@ -3,6 +3,7 @@ data-version: 1.005
 date: 02:02:2017 12:18
 saved-by: pgaudet
 default-namespace: PP
+remark: This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See: https://creativecommons.org/licenses/by/4.0/
 
 [Term]
 id: PP:0001
