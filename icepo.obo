@@ -4,6 +4,7 @@ saved-by: pgaudet
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Terms for voltage-gated sodium channels ""
 default-namespace: ICEPO
+remark: This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See: https://creativecommons.org/licenses/by/4.0/
 
 [Term]
 id: ICEPO:0000001
