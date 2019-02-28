@@ -3,6 +3,7 @@ date: 27:07:2016 15:10
 saved-by: pgaudet
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: ME
+remark: This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See: https://creativecommons.org/licenses/by/4.0/
 
 [Term]
 id: ME:0000001
