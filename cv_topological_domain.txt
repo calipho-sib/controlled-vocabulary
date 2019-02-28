@@ -8,7 +8,6 @@ Description: Controlled vocabulary of topological domains
 File name:   cv_topological_domain.txt
 Last update: 15-May-2011
 
-PRELIMINARY: DO NOT REDISTRIBUTE
 ----------------------------------------------------------------------------
 
  The definition of the CV is provided in the following format:
