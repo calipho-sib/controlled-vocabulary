@@ -5,15 +5,22 @@
   Description: Caloha: an ontology of human anatomy and human cell types
 ----------------------------------------------------------------------------
 
-This file is available under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0).
+This file is available under the Creative Commons Attribution 4.0 International 
+Public License (CC BY 4.0).
 
 See: https://creativecommons.org/licenses/by/4.0/
 
-This means that you are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material for any purpose, even commercially) the content. However, you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. 
+This means that you are free to share (copy and redistribute the material in any 
+medium or format) and adapt (remix, transform, and build upon the material for any 
+purpose, even commercially) the content. However, you must give appropriate credit, 
+provide a link to the license, and indicate if changes were made. You may do so in 
+any reasonable manner, but not in any way that suggests the licensor endorses you 
+or your use. You may not apply legal terms or technological measures that legally 
+restrict others from doing anything the license permits. 
 
- Caloha is provided in obo format
+Caloha is provided in obo format
 
- Cross-references are currently available to:
+Cross-references are currently available to:
 
         BRENDA tissue / enzyme source (BTO):            http://www.brenda-enzymes.info
                                                         http://bioportal.bioontology.org/ontologies/1005
@@ -30,7 +37,8 @@ This means that you are free to share (copy and redistribute the material in any
         Cell Ontology (CL)                              http://cellontology.org/
                                                         http://bioportal.bioontology.org/ontologies/1006
 
- Definitions are imported from MeSH, NCI Thesaurus (NCIt) (http://purl.bioontology.org/ontology/NCIt), Wikipedia, the literature and refereced ontologies.
+Definitions are imported from MeSH, NCI Thesaurus (NCIt) (http://purl.bioontology.org/ontology/NCIt), 
+Wikipedia, the literature and refereced ontologies.
 
 
 Obsolete:
