@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 13-Feb-2019
+Last update: 14-Jun-2019
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 13-Feb-2019
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00966
+AN   Next free AC: DO-00974
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -711,6 +711,14 @@ FT   DOMAIN.
 TG   PS50203; CALPAIN_CAT;
 DO   PDOC50203;
 //
+ID   calponin-homology.
+AC   DO-00104
+SY   CH.
+SY   calponin-homology (CH).
+FT   DOMAIN.
+TG   PS50021; CH;
+DO   PDOC50021;
+//
 ID   calponin-like.
 AC   DO-00092
 FT   REPEAT.
@@ -836,19 +844,17 @@ FT   DOMAIN.
 TG   PS51836; DENN_FNIP12;
 DO   PDOC50211;
 //
+ID   CENP-V/GFA
+AC   DO-00966
+FT   DOMAIN.
+TG   PS51891; CENP_V_GFA;
+DO   PDOC51891;
+//
 ID   CG-1.
 AC   DO-00103
 FT   DNA_BIND.
 TG   PS51437; CG_1;
 DO   PDOC51437;
-//
-ID   calponin-homology.
-AC   DO-00104
-SY   CH.
-SY   calponin-homology (CH).
-FT   DOMAIN.
-TG   PS50021; CH;
-DO   PDOC50021;
 //
 ID   CHCH.
 AC   DO-00746
@@ -1214,10 +1220,11 @@ FT   DOMAIN.
 TG   PS50146; DAGK;
 DO   PDOC50146;
 //
-ID   DAZ-like.
+ID   DAZ
 AC   DO-00152
 FT   DOMAIN.
-TG   None;
+TG   PS51890; DAZ;
+DO   PDOC51890;
 //
 ID   DBB.
 AC   DO-00153
@@ -1986,6 +1993,12 @@ FT   DOMAIN.
 TG   PS50058; G_PROTEIN_GAMMA;
 DO   PDOC01002;
 //
+ID   G-alpha
+AC   DO-00968
+FT   DOMAIN.
+TG   PS51882; G_ALPHA;
+DO   PDOC51882;
+//
 ID   G-patch.
 AC   DO-00256
 FT   DOMAIN.
@@ -2577,6 +2590,12 @@ AC   DO-00336
 FT   DOMAIN.
 TG   PS50166; IMPORTIN_B_NT;
 DO   PDOC50166;
+//
+ID   inhibitor I9
+AC   DO-00969
+FT   DOMAIN.
+TG   PF05922; Inhibitor_I9;
+DO   IPR010259;
 //
 ID   integrase catalytic.
 AC   DO-00337
@@ -3463,6 +3482,12 @@ FT   DNA_BIND.
 TG   PF01336; tRNA_anti;
 DO   IPR004365;
 //
+ID   Obg
+AC   DO-00970
+FT   DOMAIN.
+TG   PS51883; OBG;
+DO   PDOC51883;
+//
 ID   OBG-type G.
 AC   DO-00840
 SY   OBG-type guanine nucleotide-binding.
@@ -3705,6 +3730,12 @@ AC   DO-00481
 FT   DOMAIN.
 TG   PS50215; ADAM_MEPRO;
 DO   PDOC50215;
+//
+ID   Peptidase M13
+AC   DO-00971
+FT   DOMAIN.
+TG   PS51885; NEPRILYSIN;
+DO   PDOC51885;
 //
 ID   peptidase M60.
 AC   DO-00856
@@ -5166,6 +5197,12 @@ FT   DOMAIN.
 TG   PS51319; TFIIS_N;
 DO   PDOC51319;
 //
+ID   TGS
+AC   DO-00972
+FT   DOMAIN.
+TG   PS51880; TGS;
+DO   PDOC51880;
+//
 ID   TH1.
 AC   DO-00872
 SY   class I myosin tail homology.
@@ -5228,6 +5265,12 @@ AC   DO-00673
 FT   DOMAIN.
 TG   PF07534; TLD;
 DO   IPR006571;
+//
+ID   TLDc
+AC   DO-00973
+FT   DOMAIN.
+TG   PS51886; TLDC;
+DO   PDOC51886;
 //
 ID   TNase-like.
 AC   DO-00674
