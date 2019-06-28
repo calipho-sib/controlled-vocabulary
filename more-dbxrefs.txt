@@ -931,3 +931,11 @@ LinkTp: Explicit
 Server: http://pir.georgetown.edu
 Db_URL: http://pir.georgetown.edu/cgi-bin/pirrule?id=%s
 Cat   : Other
+
+AC    : DB-9122
+Abbrev: gnomAD
+Name  : Genome aggregation database
+LinkTp: Explicit
+Server: https://gnomad.broadinstitute.org/
+Db_URL: https://gnomad.broadinstitute.org/variant/%s
+Cat   : Polymorphism and mutation databases
