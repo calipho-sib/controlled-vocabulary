@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of metal-binding sites
 File name:   cv_metal.txt
-Last update: 21-Mar-2018
+Last update: 09-Jul-2019
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 21-Mar-2018
  KW         X-ref to Swiss-Prot keyword     Optional; once or more
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: CVME_0040
+AN   Next free AC: CVME_0042
 __________________________________________________________________________
 ID   Calcium.
 AC   CVME_0001
@@ -211,14 +211,14 @@ KW   KW-0408:Iron.
 ID   Iron or nickel.
 AC   CVME_0034
 DE   Annotate an amino acid residue that binds either an iron (Fe(2+) or Fe(3+))
-DE   cation or a nickel (Ni(2+)) cation. 
+DE   cation or a nickel (Ni(2+)) cation.
 KW   KW-0408:Iron.
 KW   KW-0533:Nickel.
 //
 ID   Iron or copper.
 AC   CVME_0035
 DE   Annotate an amino acid residue that binds either an iron (Fe(2+) or Fe(3+))
-DE   cation or a copper (Cu(2+)) cation. 
+DE   cation or a copper (Cu(2+)) cation.
 KW   KW-0408:Iron.
 KW   KW-0186:Copper.
 //
@@ -249,6 +249,19 @@ DE   Annotate an amino acid residue that binds a manganese (Mn(+2)) cation.
 DE   Manganese is a metal with the atomic number: 25.
 SY   Manganese ion; Manganese cation; Mn; Mn ion; Mn cation.
 KW   KW-0464:Manganese.
+//
+ID   Manganese or nickel.
+AC   CVME_0040
+DE   Annotate an amino acid residue that binds either a manganese (Mn(+2))
+DE   or a nickel (Ni(2+)) cation.
+DE   Manganese is a metal with the atomic number: 25.
+DE   Nickel is a metal with the atomic number: 28.
+KW   KW-0464:Manganese.
+KW   KW-0533:Nickel.
+//
+ID   Metal cation.
+AC   CVME_0041
+DE   Annotate an amino acid residue that binds a metal cation.
 //
 ID   Molybdenum.
 AC   CVME_0032
