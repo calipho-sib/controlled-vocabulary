@@ -828,6 +828,7 @@ DR   https://gnomad.broadinstitute.org/
 //
 ID   WB
 AC   CVDS-0177
+SY   WormBase
 DE   A comprehensive resource for genetics, genomics and biology of C. elegans and related nematodes
 DR   https://www.wormbase.org
 //
