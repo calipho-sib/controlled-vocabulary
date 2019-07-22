@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0177
+next id:  CVDS-0178
 
 __________________________________________________________________________
 ID   AgBase
@@ -514,7 +514,7 @@ DR   http://www.grenoble.prabi.fr/obiwarehouse/unipathway
 ID   WormBase
 AC   CVDS-0072
 DE   A comprehensive resource for genetics, genomics and biology of C. elegans and related nematodes
-DR   http://http://www.wormbase.org
+DR   http://www.wormbase.org
 //
 ID   PRO
 AC   CVDS-0108
@@ -825,4 +825,9 @@ ID   gnomAD
 AC   CVDS-0176
 DE   Genome aggregation database
 DR   https://gnomad.broadinstitute.org/
+//
+ID   WB
+AC   CVDS-0177
+DE   A comprehensive resource for genetics, genomics and biology of C. elegans and related nematodes
+DR   https://www.wormbase.org
 //
