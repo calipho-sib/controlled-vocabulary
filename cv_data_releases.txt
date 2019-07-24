@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0156
+next id:  CVDR-0157
 
 __________________________________________________________________________
 ID   Additional references
@@ -192,6 +192,14 @@ DE   Glycosylation identified by mass spectrometry.
 DS   GlyConnect
 UF   twice a year
 UR   https://glyconnect.expasy.org/
+CI   
+//
+ID   gnomAD
+AC   CVDR-0156
+DE   Genome Aggregation Database
+DS   gnomAD
+UF   once a year
+UR   https://gnomad.broadinstitute.org/
 CI   
 //
 ID   GO
