@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 14-Jun-2018
+Last update: 21-Sep-2019
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 14-Jun-2018
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05563
+AN   Next free AC: FA-05565
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -985,6 +985,11 @@ AC   FA-00202
 ID   ANP32 family
 AC   FA-00203
 //
+ID   ANT/ATPSC lysine N-methyltransferase family
+AC   FA-01246
+SY   FAM173 family.
+SY   UPF0531 family.
+//
 ID   Antp homeobox family
 AC   FA-00204
 //
@@ -1086,10 +1091,6 @@ AC   FA-00231
 //
 ID   Apolipoprotein O/MICOS complex subunit Mic27 family
 AC   FA-00232
-//
-ID   APOPT family
-AC   FA-04922
-SY   UPF0671 family.
 //
 ID   APP family
 AC   FA-00233
@@ -3165,6 +3166,11 @@ SY   CCDC56 family.
 ID   COA4 family
 AC   FA-05101
 //
+ID   COA8 family
+AC   FA-04922
+SY   APOPT family.
+SY   UPF0671 family.
+//
 ID   CoaE family
 AC   FA-00660
 //
@@ -4183,6 +4189,14 @@ AC   FA-00924
 //
 ID   Deltex family
 AC   FA-00925
+//
+ID   DENND10 family
+AC   FA-01289
+SY   FAM45 family.
+//
+ID   DENND11 family
+AC   FA-02019
+SY   LCHN family.
 //
 ID   DENND6 family
 AC   FA-05102
@@ -5346,6 +5360,10 @@ ID   FAM163 family
 AC   FA-01239
 SY   UPF0417 family.
 //
+ID   FAM166C family
+AC   FA-04448
+SY   UPF0573 family.
+//
 ID   FAM167 (SEC) family
 AC   FA-01241
 SY   UPF0484 family.
@@ -5368,10 +5386,6 @@ SY   UPF0560 family.
 ID   FAM172 family
 AC   FA-04418
 SY   UPF0528 family.
-//
-ID   FAM173 family
-AC   FA-01246
-SY   UPF0531 family.
 //
 ID   FAM174 family
 AC   FA-01247
@@ -5514,9 +5528,6 @@ AC   FA-01282
 //
 ID   FAM43 family
 AC   FA-01288
-//
-ID   FAM45 family
-AC   FA-01289
 //
 ID   FAM47 family
 AC   FA-01291
@@ -8026,6 +8037,9 @@ AC   FA-01953
 ID   KDELC family
 AC   FA-01954
 //
+ID   KEAP1 family
+AC   FA-05563
+//
 ID   KHDC1 family
 AC   FA-01955
 //
@@ -8043,8 +8057,9 @@ AC   FA-01957
 ID   KIAA1841 family
 AC   FA-01959
 //
-ID   KIF1-binding protein family
+ID   KIF-binding protein family
 AC   FA-01960
+SY   KIF1-binding protein family.
 //
 ID   KIN17 family
 AC   FA-01961
@@ -8247,9 +8262,6 @@ AC   FA-02017
 //
 ID   LCE family
 AC   FA-02018
-//
-ID   LCHN family
-AC   FA-02019
 //
 ID   LDB family
 AC   FA-02020
@@ -11585,9 +11597,10 @@ AC   FA-05279
 SY   Phosphofructokinase type A (PFKA) family. ATP-dependent PFK group I subfamily.
 HI   FA-05278; Phosphofructokinase type A (PFKA) family
 //
-ID   Eukaryotic two domain clade "E" sub-subfamily
+ID   Eukaryotic two domain clade 'E' sub-subfamily
 AC   FA-05280
-SY   Phosphofructokinase type A (PFKA) family. ATP-dependent PFK group I subfamily. Eukaryotic two domain clade "E" sub-subfamily.
+SY   Phosphofructokinase type A (PFKA) family. ATP-dependent PFK group I subfamily. Eukaryotic two domain clade 'E' sub-subfamily.
+SY   Eukaryotic two domain clade "E" sub-subfamily.
 HI   FA-05279; ATP-dependent PFK group I subfamily
 //
 ID   Phosphoglycerate kinase family
@@ -14362,10 +14375,6 @@ ID   Ryanodine receptor (TC 1.A.3.1) family
 AC   FA-03476
 DR   TC 1.A.3.1
 //
-ID   RyDEN family
-AC   FA-04414
-SY   UPF0515 family.
-//
 ID   RYR1 subfamily
 AC   FA-03477
 SY   Ryanodine receptor (TC 1.A.3.1) family. RYR1 subfamily.
@@ -14808,6 +14817,11 @@ AC   FA-03602
 //
 ID   SHANK family
 AC   FA-03603
+//
+ID   SHFL family
+AC   FA-04414
+SY   RyDEN family.
+SY   UPF0515 family.
 //
 ID   Shisa family
 AC   FA-03604
@@ -16520,6 +16534,14 @@ AC   FA-04025
 ID   TLCD family
 AC   FA-04026
 //
+ID   TLCD4 family
+AC   FA-04097
+SY   TMEM56 family.
+//
+ID   TLCD5 family
+AC   FA-04045
+SY   TMEM136 family.
+//
 ID   TLS1 family
 AC   FA-05469
 //
@@ -16592,9 +16614,6 @@ SY   UPF0414 family.
 //
 ID   TMEM135 family
 AC   FA-05404
-//
-ID   TMEM136 family
-AC   FA-04045
 //
 ID   TMEM138 family
 AC   FA-04046
@@ -16806,9 +16825,6 @@ AC   FA-04095
 //
 ID   TMEM54 family
 AC   FA-04096
-//
-ID   TMEM56 family
-AC   FA-04097
 //
 ID   TMEM59 family
 AC   FA-04098
@@ -18015,9 +18031,6 @@ AC   FA-04440
 ID   UPF0565 family
 AC   FA-04443
 //
-ID   UPF0573 family
-AC   FA-04448
-//
 ID   UPF0575 family
 AC   FA-04450
 //
@@ -18803,6 +18816,9 @@ AC   FA-04709
 ID   YAP1 family
 AC   FA-04714
 SY   YORKIE family.
+//
+ID   YBX1 family
+AC   FA-05564
 //
 ID   YdjC deacetylase family
 AC   FA-04335

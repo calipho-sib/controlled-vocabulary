@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 14-Jun-2019
+Last update: 21-Sep-2019
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 14-Jun-2019
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00974
+AN   Next free AC: DO-00978
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -595,6 +595,13 @@ FT   DOMAIN.
 TG   PS50041; C_TYPE_LECTIN_2;
 DO   PDOC00537;
 //
+ID   C-type lysozyme.
+AC   DO-00974
+SY   glycosyl hydrolases family 22.
+FT   DOMAIN.
+TG   PS51348; GLYCOSYL_HYDROL_F22_2;
+DO   PDOC00119;
+//
 ID   C1q.
 AC   DO-00081
 FT   DOMAIN.
@@ -844,7 +851,7 @@ FT   DOMAIN.
 TG   PS51836; DENN_FNIP12;
 DO   PDOC50211;
 //
-ID   CENP-V/GFA
+ID   CENP-V/GFA.
 AC   DO-00966
 FT   DOMAIN.
 TG   PS51891; CENP_V_GFA;
@@ -926,6 +933,13 @@ AC   DO-00113
 FT   DOMAIN.
 TG   PS51508; CKK;
 DO   PDOC51508;
+//
+ID   ClpX-type ZB.
+AC   DO-00975
+SY   ClpX zinc binding.
+FT   DOMAIN.
+TS   PS51902; CLPX_ZB;
+DO   PDOC51902;
 //
 ID   Clu.
 AC   DO-00914
@@ -1220,7 +1234,7 @@ FT   DOMAIN.
 TG   PS50146; DAGK;
 DO   PDOC50146;
 //
-ID   DAZ
+ID   DAZ.
 AC   DO-00152
 FT   DOMAIN.
 TG   PS51890; DAZ;
@@ -1458,10 +1472,11 @@ FT   DOMAIN.
 TG   PS51219; DPCK;
 DO   PDOC00996;
 //
-ID   DPH-type.
+ID   DPH-type MB.
 AC   DO-00183
-FT   ZN_FING.
-TG   PS51074; ZF_DPH;
+SY   DPH-type metal-binding.
+FT   DOMAIN.
+TG   PS51074; DPH_MB;
 DO   PDOC51074;
 //
 ID   DRADA.
@@ -1993,7 +2008,7 @@ FT   DOMAIN.
 TG   PS50058; G_PROTEIN_GAMMA;
 DO   PDOC01002;
 //
-ID   G-alpha
+ID   G-alpha.
 AC   DO-00968
 FT   DOMAIN.
 TG   PS51882; G_ALPHA;
@@ -2250,6 +2265,13 @@ AC   DO-00287
 FT   DOMAIN.
 TG   PF04849; HAP1_N;
 DO   IPR006933;
+//
+ID   HARE-HTH.
+AC   DO-00976
+SY   HB1, ASXL, restriction endonuclease HTH.
+FT   DOMAIN.
+TG   PF05066; HARE-HTH;
+DO   IPR007759;
 //
 ID   HARP.
 AC   DO-00288
@@ -2591,7 +2613,7 @@ FT   DOMAIN.
 TG   PS50166; IMPORTIN_B_NT;
 DO   PDOC50166;
 //
-ID   inhibitor I9
+ID   inhibitor I9.
 AC   DO-00969
 FT   DOMAIN.
 TG   PF05922; Inhibitor_I9;
@@ -3482,7 +3504,7 @@ FT   DNA_BIND.
 TG   PF01336; tRNA_anti;
 DO   IPR004365;
 //
-ID   Obg
+ID   Obg.
 AC   DO-00970
 FT   DOMAIN.
 TG   PS51883; OBG;
@@ -3731,7 +3753,7 @@ FT   DOMAIN.
 TG   PS50215; ADAM_MEPRO;
 DO   PDOC50215;
 //
-ID   Peptidase M13
+ID   peptidase M13.
 AC   DO-00971
 FT   DOMAIN.
 TG   PS51885; NEPRILYSIN;
@@ -4266,6 +4288,12 @@ FT   ZN_FING.
 TG   PS51765; ZF_RAG1;
 DO   PDOC51765;
 //
+ID   RAMA.
+AC   DO-00977
+FT   DOMAIN.
+TG   PF18755; RAMA;
+DO   IPR040843;
+//
 ID   RanBD1.
 AC   DO-00546
 FT   DOMAIN.
@@ -4475,7 +4503,7 @@ DO   PDOC51292;
 ID   RING-Gid-type.
 AC   DO-00964
 FT   ZN_FING.
-TG   PS51867; ZF_RING_GID.
+TG   PS51867; ZF_RING_GID;
 DO   PDOC51867;
 //
 ID   RINT1/TIP20.
@@ -5197,7 +5225,7 @@ FT   DOMAIN.
 TG   PS51319; TFIIS_N;
 DO   PDOC51319;
 //
-ID   TGS
+ID   TGS.
 AC   DO-00972
 FT   DOMAIN.
 TG   PS51880; TGS;
@@ -5266,7 +5294,7 @@ FT   DOMAIN.
 TG   PF07534; TLD;
 DO   IPR006571;
 //
-ID   TLDc
+ID   TLDc.
 AC   DO-00973
 FT   DOMAIN.
 TG   PS51886; TLDC;
