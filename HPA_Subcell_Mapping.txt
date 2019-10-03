@@ -3,6 +3,7 @@ actin filaments	SL-0090	Note=Associated with actin filaments
 aggresomes	SL-0091	Note=Associated with aggresomes
 cell junctions	SL-0038	-
 centrosome	SL-0048	-
+centriolar satellite  SL-0485 -
 cleavage furrow	SL-0467	-
 cytokinetic bridge	SL-0090	Note=Associated with cytokinetic bridge
 cytoplasmic bodies	SL-0091	Note=Associated with cytoplasmic bodies
