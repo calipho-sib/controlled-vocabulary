@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.4
-date: 08:01:2019 12:00
+date: 14:10:2019 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -2446,7 +2446,7 @@ xref: BTO:0000041
 xref: FMA:62004
 xref: MESH:D008526
 xref: UBERON:0001896
-relationship: part_of TS-0093 ! Brain stem
+relationship: part_of TS-2562 ! Pons and medulla oblongata
 relationship: part_of TS-0457 ! Hindbrain
 
 [Term]
@@ -2746,6 +2746,7 @@ name: Natural killer cell
 def: "Bone marrow-derived lymphocytes that possess cytotoxic properties, classically directed against transformed and virus-infected cells. Unlike T cells and B cells NK cells are not antigen specific. The cytotoxicity of natural killer cells is determined by the collective signaling of an array of inhibitory and stimulatory cell surface receptors. A subset of T-lymphocytes referred to as natural killer T cells shares some of the properties of this cell type." [MeSH:Natural_Killer_Cells]
 synonym: "NK cell" RELATED []
 synonym: "NK lymphocyte" RELATED []
+synonym: "NK-cells" RELATED []
 xref: BTO:0000914
 xref: CL:0000623
 xref: FMA:63147
@@ -3398,6 +3399,7 @@ id: TS-0801
 name: Plasmacytoid dendritic cell
 def: "Plasmacytoid dendritic cells represent a distinct immune cell type specialized in direct virus recognition and rapid secretion of type I interferon." [PMID:20144853]
 synonym: "PDC" RELATED []
+synonym: "Plasmacytoid DCs" RELATED []
 xref: CL:0000784
 is_a: TS-0194 ! Dendritic cell
 
@@ -3434,7 +3436,7 @@ xref: BTO:0001101
 xref: FMA:67943
 xref: MESH:D011149
 xref: UBERON:0000988
-relationship: part_of TS-0093 ! Brain stem
+relationship: part_of TS-2562 ! Pons and medulla oblongata
 relationship: part_of TS-2029 ! Metencephalon
 
 [Term]
@@ -8513,6 +8515,7 @@ id: TS-2393
 name: Gamma delta T cells
 def: "Gamma delta T cells represent a small subset of T cells that possess a distinct T-cell receptor (TCR) on their surface. Most T cells have a TCR composed of two glycoprotein chains called alpha and beta TCR chains (so called alpha beta T cells). In contrast, gamma delta T cells, have a TCR that is made up of one gamma chain and one delta chain. This group of T cells is usually much less common than alpha beta T cells, but are at their highest abundance in the gut mucosa, within a population of lymphocytes known as intraepithelial lymphocytes (IELs)." [Wikipedia:gammadelta_T_cells]
 synonym: "Gamma delta T cell" RELATED []
+synonym: "gdTCRs" RELATED []
 xref: CL:0000798
 is_a: TS-1001 ! T-cell
 
@@ -8660,6 +8663,7 @@ synonym: "Regulatory T-cell" RELATED []
 synonym: "Regulatory T lymphocyte" RELATED []
 synonym: "Regulatory T-lymphocyte" RELATED []
 synonym: "Treg" RELATED []
+synonym: "T-regs" RELATED []
 xref: CL:0000815
 is_a: TS-1001 ! T-cell
 
@@ -8968,11 +8972,12 @@ is_a: TS-1146 ! Helper T-cell
 
 [Term]
 id: TS-2439
-name: CD8-Positive T-Lymphocytes
+name: CD8-Positive T-cell
 def: "A critical subpopulation of regulatory T-lymphocytes involved in MHC Class I-restricted interactions. They include both cytotoxic T-lymphocytes and CD8+ suppressor T-lymphocytes". [MESH:D018414]
 synoynm: "CD8-positive, alpha-beta T-lymphocyte" RELATED []
 synoynm: "T8 Lymphocytes" RELATED []
 synoynm: "CD8-positive, T-cell" RELATED []
+synoynm: "CD8-Positive T-Lymphocytes" RELATED []
 xref: CL:0000625
 xref: MESH:D018414
 is_a: TS-1001 ! T-cell
@@ -9957,36 +9962,36 @@ is_a: TS-2088 ! Anatomical system
 
 [Term]
 id: TS-2541
-name: Auditory system             
+name: Auditory system
 def: "Sensory system for the sense of hearing." [UBERON:Auditory system]
 xref: FMA:7192
-xref: UBERON:0016490 
-is_a: TS-2540 ! Sensory system 
+xref: UBERON:0016490
+is_a: TS-2540 ! Sensory system
 
 [Term]
 id: TS-2542
-name: Olfactory system             
+name: Olfactory system
 def: "A sensory system that is capable of olfacttion (the sensory perception of smell)." [UBERON:Olfactory system]
 xref: FMA:7190
 xref: UBERON:0005725
-is_a: TS-2540 ! Sensory system 
+is_a: TS-2540 ! Sensory system
 
 [Term]
 id: TS-2543
-name: Visual system             
+name: Visual system
 def: "The sensory system involved in the sense of vision." [neXtProt:PDR]
 xref: FMA:7191
 xref: UBERON:0002104
-is_a: TS-2540 ! Sensory system 
+is_a: TS-2540 ! Sensory system
 
 [Term]
 id: TS-2544
-name: Gustatory system             
+name: Gustatory system
 def: "The sensory system for the sense of taste." [UBERON:Gustatory system]
 synonym: "Taste system" RELATED []
 xref: FMA:7194
 xref: UBERON:0001033
-is_a: TS-2540 ! Sensory system 
+is_a: TS-2540 ! Sensory system
 
 [Term]
 id: TS-2545
@@ -9996,7 +10001,7 @@ xref: BTO:0004343
 xref: FMA:226221
 xref: MESH:D001303
 xref: UBERON:0001393
-relationship: part_of TS-2541 ! Auditory system        
+relationship: part_of TS-2541 ! Auditory system
 relationship: part_of TS-1020 ! Temporal lobe
 
 [Term]
@@ -10007,6 +10012,169 @@ synonym: "Primary gustatory cortex" RELATED []
 relationship: part_of TS-2544 ! Gustatory system
 relationship: part_of TS-0091 ! Cerebral cortex
 
+[Term]
+id: TS-2547
+name: Classical monocyte
+def: "The classical monocyte is characterized by high level expression of the CD14 cell surface receptor (CD14++ CD16- monocyte). A monocyte that responds rapidly to microbial stimuli by secreting cytokines and antimicrobial factors and which is characterized by high expression of CCR2 in both rodents and humans, negative for the lineage markers CD3, CD19, and CD20, and of larger size than non-classical monocytes." [HPA_and_CL]
+xref: BTO:
+xref: CL:0000860
+xref: FMA:
+xref: MESH:
+is_a: TS-0638 ! Monocyte
+
+[Term]
+id: TS-2548
+name: Intermediate monocyte
+def: "The intermediate monocyte has high level expression of CD14 and low level expression of CD16 (CD14++CD16+ monocytes). A monocyte that has characteristics of both patrolling and inflammatory monocytes." [HPA_and_CL]
+xref: CL:0002393
+is_a: TS-0638 ! Monocyte
+
+[Term]
+id: TS-2549
+name: Non-classical monocyte
+def: "The non-classical monocyte shows low level expression of CD14 and additional co-expression of the CD16 receptor (CD14+CD16++ monocyte). A type of monocyte characterized by low expression of CCR2, low responsiveness to monocyte chemoattractant CCL2/MCP1, low phagocytic activity, and decrease size relative to classical monocytes, but increased co-stimulatory activity. May also play a role in tissue repair." [HPA_and_CL]
+xref: CL:0000875
+is_a: TS-0638 ! Monocyte
+
+[Term]
+id: TS-2550
+name: Myeloid dendritic cell
+def: "Myeloid dendritic cells (mDCs) are antigen-presenting cells, which capture and process antigens that will be displayed on their surface and subsequently presented to T-cells." [HPA]
+synonym: "Myeloid DCs" RELATED []
+xref: BTO:0004721
+xref: CL:0000782
+is_a: TS-0194 ! Dendritic cell
+is_a: TS-0647 ! Myeloid cell
+
+[Term]
+id: TS-2551
+name: Memory B-cell
+def: "Memory B-cells are formed within germinal centers following primary infection, and are important in generating an accelerated and more robust antibody-mediated immune response in the case of re-infection. They are localized in areas of facilitated antigen encounter and compared to naive B-cells they have higher affinity to the immunizing antigen, a lifespan of decades instead of weeks, and faster and more efficient proliferation and differentiation." [HPA_and_CL]
+synonym: "Memory B lymphocyte" RELATED []
+synonym: "Memory B-lymphocyte" RELATED []
+synonym: "Memory B-cells" RELATED []
+synonym: "Memory B cell" RELATED []
+xref: CL:0000787
+is_a: TS-0068 ! B-cell
+
+[Term]
+id: TS-2552
+name: Naive B cell
+def: "Naive B-cells reside in lymph nodes and are B-cells not yet exposed to an antigen. Upon antigen activation they will differentiate to either plasma cells or memory B-cells." [HPA]
+synonym: "Naive B-lymphocyte" RELATED []
+synonym: "Naive B lymphocyte" RELATED []
+synonym: "Naive B-cell" RELATED []
+synonym: "Naive B-cells" RELATED []
+xref: CL:0000788
+is_a: TS-0068 ! B-cell
+
+[Term]
+id: TS-2553
+name: Naive CD4 T-cell
+def: "Naive T-cells are located predominantly in lymphoid tissue and are mature T-cells that have not yet encountered its cognate antigen. Upon antigen activation they may further differentiate to memory T-cells." [HPA]
+synonym: "Naive CD4 T-cells" RELATED []
+synonym: "Naive thymus-derived CD4-positive, alpha-beta T cell" RELATED []
+synonym: "Naive thymus-derived CD4-positive, alpha-beta T-cell" RELATED []
+synonym: "Naive thymus-derived CD4-positive, alpha-beta T-lymphocyte" RELATED []
+synonym: "Naive thymus-derived CD4-positive, alpha-beta T lymphocyte" RELATED []
+xref: CL:0000895
+is_a: TS-1001 ! T-cell
+
+[Term]
+id: TS-2554
+name: Naive CD8 T-cell
+def: "NaiveT-cells are located predominantly in lymphoid tissue and are mature T-cells that have not yet encountered its cognate antigen. Upon antigen activation they may further differentiate to memory T-cells." [HPA]
+synonym: "Naive CD8 T-cells" RELATED []
+synonym: "Naive thymus-derived CD8-positive, alpha-beta T cell" RELATED []
+synonym: "Naive thymus-dervied CD8-positive, alpha-beta T-lymphocyte" RELATED []
+synonym: "Naive thymus-dervied CD8-positive, alpha-beta T lymphocyte" RELATED []
+synonym: "Naive thymus-dervied CD8-positive, alpha-beta T-cell" RELATED []
+xref: CL:0000900
+is_a: TS-1001 ! T-cell
+
+[Term]
+id: TS-2555
+name: Memory CD4 T-cell
+def: "Memory T-cells provide the immune system with an effective defence against previously encountered pathogens, by having a long lifespan and the ability to quickly expand to large numbers upon re-exposure to their cognate antigen." [HPA]
+synonym: "CD4-positive, alpha-beta memory T lymphocyte" RELATED []
+synonym: "CD4-positive, alpha-beta memory T-lymphocyte" RELATED []
+synonym: "CD4-positive, alpha-beta memory T-cell" RELATED []
+synonym: "Memory CD4 T-cells" RELATED []
+xref: CL:0000897
+is_a: TS-1001 ! T-cell
+
+[Term]
+id: TS-2556
+name: Memory CD8 T-cell
+def: "Memory T-cells provide the immune system with an effective defence against previously encountered pathogens, by having a long lifespan and the ability to quickly expand to large numbers upon re-exposure to their cognate antigen." [HPA]
+synonym: "CD8-positive, alpha-beta memory T-cell" RELATED []
+synonym: "CD8-positive, alpha-beta memory T lymphocyte" RELATED []
+synonym: "CD8-positive, alpha-beta memory T-lymphocyte" RELATED []
+synonym: "Memory CD8 T-cells" RELATED []
+xref: CL:0000909
+is_a: TS-1001 ! T-cell
+
+[Term]
+id: TS-2557
+name: Mucosal associated invariant T-cell
+def: "Mucosal associated invariant T-cells (MAIT T-cells) are involved in innate immunity and the defence against microbial activity and infection, but they also support the adaptive immune response and are thought to have a role in some autoimmune diseases." [HPA]
+synonym: "MAIT T-cells" RELATED []
+is_a: TS-1001 ! T-cell
+
+[Term]
+id: TS-2558
+name: Dorsal raphe nucleus
+def: "The dorsal region of the raphe nucleus which is a source of the serotonergic neurons innervating the telencephalon, diencephalon, mesencephalon and rhombencephalon." [MESH:D065847]
+synonym: "Nucleus raphes dorsalis" RELATED []
+synonym: "Dorsal nucleus raphe" RELATED []
+synonym: "Inferior raphe nucleus" RELATED []
+synonym: "Nucleus raphes posterior" RELATED []
+synonym: "Dorsal raphe" RELATED []
+synonym: "Posterior raphe nucleus" RELATED []
+synonym: "Dorsal nucleus of the raphe" RELATED []
+Xref: BTO:0002434
+xref: FMA:68462
+xref: MESH:D065847
+xref: UBERON:0002043
+relationship: part_of TS-0630 ! Midbrain
+
+[Term]
+id: TS-2559
+name: Dorsal raphe glial cell
+def: "Glial cells in the dorsal raphe nucleus." [neXtProt:PDR]
+synonym: "Dorsal raphe glial cells" RELATED []
+relationship: part_of TS-2558 ! Dorsal raphe nucleus
+
+[Term]
+id: TS-2560
+name: Dorsal raphe neuronal cell
+def: "Glial cells in the dorsal raphe nucleus." [neXtProt:PDR]
+synonym: "Dorsal raphe neuronal cells" RELATED []
+relationship: part_of TS-2558 ! Dorsal raphe nucleus
+
+[Term]
+id: TS-2561
+name: Sole of foot epidermis
+def: "Epidermis of sole of foot." [neXtProt:PDR]
+synonym: "Sole of foot epidermal cells" RELATED []
+is_a: TS-0283 ! Epidermis
+relationship: part_of TS-0379 ! Foot sole
+
+[Term]
+id: TS-2562
+name: Pons and medulla oblongata
+def: "Pons and medulla oblongata together with midbrain and thalamus are part of the brainstem, which is located in the posterior part of the brain. It is a region of transition between central and peripheral nervous system, containing cell nuclei of majority of cranial nerves from which they are emerging to the spinal cord. The pons and medulla developmentally originate from the third vesicle of neural tube (rhombencephalon)." [HPA]
+synonym: "Pons and medulla" RELATED []
+relationship: part_of TS-0093 ! Brain stem
+
+[Term]
+id: TS-2563
+name: Choroid plexus ependymal cell
+def: "Ependymal cells located at the chroid plexus. Ependymal cells are neuroglia cells in the central nervous systems involved in the production of cerebrospinal fluid." [neXtProt:PDR]
+synonym: "Choroid plexus ependymal cells" RELATED []
+xref: CL:0000706
+relationship: part_of TS-0145 ! Choroid plexus
+
 [Typedef]
 id: develops_from
 name: develops_from
@@ -10016,5 +10184,3 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
-
-
