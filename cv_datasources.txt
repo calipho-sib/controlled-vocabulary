@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0178
+next id:  CVDS-0179
 
 __________________________________________________________________________
 ID   AgBase
@@ -831,4 +831,9 @@ AC   CVDS-0177
 SY   WormBase
 DE   A comprehensive resource for genetics, genomics and biology of C. elegans and related nematodes
 DR   https://www.wormbase.org
+//
+ID   MassIVE
+AC   CVDS-0178
+DE   Human peptide sequences and identifiers from MassIVE
+DR
 //
