@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0179
+next id:  CVDS-0180
 
 __________________________________________________________________________
 ID   AgBase
@@ -835,5 +835,10 @@ DR   https://www.wormbase.org
 ID   MassIVE
 AC   CVDS-0178
 DE   Human peptide sequences and identifiers from MassIVE
-DR
+DR   https://massive.ucsd.edu/
+//
+ID   ORCID
+AC   CVDS-0179
+DE   Connecting Research and Researchers
+DR   https://orcid.org/
 //
