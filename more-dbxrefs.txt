@@ -939,3 +939,11 @@ LinkTp: Explicit
 Server: https://gnomad.broadinstitute.org/
 Db_URL: https://gnomad.broadinstitute.org/variant/%s
 Cat   : Polymorphism and mutation databases
+
+AC    : DB-9123
+Abbrev: MassIVE
+Name  : Mass Spectrometry Interactive Virtual Environment
+LinkTp: Explicit
+Server: https://massive.ucsd.edu
+Db_URL: https://massive.ucsd.edu/some/page/%s
+Cat   : Proteomic databases
