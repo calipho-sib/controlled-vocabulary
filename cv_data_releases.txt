@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0157
+next id:  CVDR-0158
 
 __________________________________________________________________________
 ID   Additional references
@@ -1472,5 +1472,15 @@ DS   PeptideAtlas human Olfactory System
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
+CI
+//
+ID   Human MassIVE
+AC   CVDR-0157
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human samples, load of accession codes only.
+DS   MassIVE
+DR   https://massive.ucsd.edu
+UF   rarely
+UR   https://massive.ucsd.edu
 CI
 //
