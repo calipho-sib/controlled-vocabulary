@@ -8,3 +8,8 @@ missing
 *DS_Store*
 evoc_release_info.txt
 /.idea
+cv_data_releases.massive
+cv_data_releases.ori
+cv_datasources.massive
+cv_datasources.ori
+metadata.massive
