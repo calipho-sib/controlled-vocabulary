@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 1.5
+data-version: 1.4
 date: 14:10:2019 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
@@ -2745,6 +2745,7 @@ id: TS-0664
 name: Natural killer cell
 def: "Bone marrow-derived lymphocytes that possess cytotoxic properties, classically directed against transformed and virus-infected cells. Unlike T cells and B cells NK cells are not antigen specific. The cytotoxicity of natural killer cells is determined by the collective signaling of an array of inhibitory and stimulatory cell surface receptors. A subset of T-lymphocytes referred to as natural killer T cells shares some of the properties of this cell type." [MeSH:Natural_Killer_Cells]
 synonym: "NK cell" RELATED []
+synonym: "NK-cell" RELATED []
 synonym: "NK lymphocyte" RELATED []
 synonym: "NK-cells" RELATED []
 xref: BTO:0000914
@@ -2900,6 +2901,7 @@ relationship: part_of TS-0407 ! Gastrointestinal tract
 id: TS-0702
 name: Olfactory bulb
 def: "Ovoid body resting on the cribriform plate of the ethmoid bone where the olfactory nerve terminates. The olfactory bulb contains several types of nerve cells including the mitral cells, on whose dendrites the olfactory nerve synapses, forming the olfactory glomeruli. The accessory olfactory bulb, which receives the projection from the vomeronasal organ via the vomeronasal nerve, is also included here." [MeSH:Olfactory_Bulb]
+synonym: "Olfactory region" RELATED []
 xref: BTO:0000961
 xref: FMA:77624
 xref: MESH:D009830
@@ -3400,6 +3402,7 @@ name: Plasmacytoid dendritic cell
 def: "Plasmacytoid dendritic cells represent a distinct immune cell type specialized in direct virus recognition and rapid secretion of type I interferon." [PMID:20144853]
 synonym: "PDC" RELATED []
 synonym: "Plasmacytoid DCs" RELATED []
+synonym: "Plasmacytoid DC" RELATED []
 xref: CL:0000784
 is_a: TS-0194 ! Dendritic cell
 
@@ -4697,6 +4700,7 @@ id: TS-1105
 name: Vas deferens
 def: "The excretory duct of the testes that carries spermatozoa. It rises from the scrotum and joins the seminal vesicles to form the ejaculatory duct." [MeSH:Vas_Deferens]
 synonym: "Deferent duct" RELATED []
+synonym: "Ductus deferens" RELATED []
 xref: BTO:0001427
 xref: FMA:19234
 xref: MESH:D014649
@@ -7513,7 +7517,8 @@ id: TS-2193
 name: Spermatogonia
 def: "Diploid male germ cells of an early stage of spermatogenesis, derived from prespermatogonia. With the onset of puberty, spermatogonia at the basement membrane of the seminiferous tubule proliferate by mitotic division to produce two diploid intermediate cells called primary spermatocytes." [neXtProt:PDR]
 synonym: "Spermatogonias" RELATED []
-synonym: "spermatogonium" RELATED []
+synonym: "Spermatogonium" RELATED []
+synonym: "Spermatogonia cells" RELATED []
 xref: BTO:0000958
 xref: CL:0000020
 xref: FMA:72291
@@ -8280,6 +8285,7 @@ relationship: part_of TS-1310 ! Male reproductive system
 id: TS-2370
 name: Peripheral blood mononuclear cell
 def: "A peripheral blood cell with a single nucleus. This category includes lymphocytes and monocytes." [NCI_Thesaurus:Peripheral_Blood_Mononuclear_Cell]
+synonym: "PBMC" RELATED []
 xref: BTO:0001025
 is_a: TS-0766 ! Peripheral blood leukocyte
 
@@ -8516,6 +8522,7 @@ name: Gamma delta T cells
 def: "Gamma delta T cells represent a small subset of T cells that possess a distinct T-cell receptor (TCR) on their surface. Most T cells have a TCR composed of two glycoprotein chains called alpha and beta TCR chains (so called alpha beta T cells). In contrast, gamma delta T cells, have a TCR that is made up of one gamma chain and one delta chain. This group of T cells is usually much less common than alpha beta T cells, but are at their highest abundance in the gut mucosa, within a population of lymphocytes known as intraepithelial lymphocytes (IELs)." [Wikipedia:gammadelta_T_cells]
 synonym: "Gamma delta T cell" RELATED []
 synonym: "gdTCRs" RELATED []
+synonym: "GdTCR" RELATED []
 xref: CL:0000798
 is_a: TS-1001 ! T-cell
 
@@ -8664,6 +8671,7 @@ synonym: "Regulatory T lymphocyte" RELATED []
 synonym: "Regulatory T-lymphocyte" RELATED []
 synonym: "Treg" RELATED []
 synonym: "T-regs" RELATED []
+synonym: "T-reg" RELATED []
 xref: CL:0000815
 is_a: TS-1001 ! T-cell
 
@@ -10041,6 +10049,7 @@ id: TS-2550
 name: Myeloid dendritic cell
 def: "Myeloid dendritic cells (mDCs) are antigen-presenting cells, which capture and process antigens that will be displayed on their surface and subsequently presented to T-cells." [HPA]
 synonym: "Myeloid DCs" RELATED []
+synonym: "Myeloid DC" RELATED []
 xref: BTO:0004721
 xref: CL:0000782
 is_a: TS-0194 ! Dendritic cell
@@ -10119,6 +10128,7 @@ id: TS-2557
 name: Mucosal associated invariant T-cell
 def: "Mucosal associated invariant T-cells (MAIT T-cells) are involved in innate immunity and the defence against microbial activity and infection, but they also support the adaptive immune response and are thought to have a role in some autoimmune diseases." [HPA]
 synonym: "MAIT T-cells" RELATED []
+synonym: "MAIT T-cell" RELATED []
 is_a: TS-1001 ! T-cell
 
 [Term]
@@ -10174,6 +10184,44 @@ def: "Ependymal cells located at the chroid plexus. Ependymal cells are neurogli
 synonym: "Choroid plexus ependymal cells" RELATED []
 xref: CL:0000706
 relationship: part_of TS-0145 ! Choroid plexus
+
+[Term]
+id: TS-2564
+name: Cerebellar neuronal projections
+def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the cerebellum." [neXtProt:PDR]
+synonym: "Cerebellum neuronal projection" RELATED []
+synonym: "Cerebellum neuronal projections" RELATED []
+relationship: part_of TS-0125 ! Cerebellum 
+
+[Term]
+id: TS-2565
+name: Cerebellar synapses
+def: "Synapses at the cerebellum. Synapses or synaptic junctions are specialized junctions between neurons that facilitate transmission of impulses from one neuron to another neuron, or between axons and effector cells." [PDR:nextprot]
+synonym: "Cerebellum synapses" RELATED []
+relationship: part_of TS-0125 ! Cerebellum
+
+[Term]
+id: TS-2566
+name: Cerebellar glial cell
+def: "Glial cell of the cerebellum." [neXtProt:PDR]
+synonym: "Cerebellum glial cell" RELATED []
+synonym: "Cerebellum glial cells" RELATED []
+is_a: TS-0415 ! Glial cell
+relationship: part_of TS-0125 ! Cerebellum
+
+[Term]
+id: TS-2567
+name: Dentate nucleus
+def: "The largest and most lateral of the deep cerebellum nuclei; it receives axons of Purkinje cells in the lateral cerebellar hemisphere (neocerebellum) and receives its afferents from the premotor cortex and the supplementary motor cortex through the pontocerebellar system, and its efferents project through the superior cerebellar peduncle and is a major source of its fibers." [UBERON:dentate_nucleus]
+synonym: "Dentate cerebellar nucleus" RELATED []
+synonym: "Lateral nucleus of cerebellum" RELATED []
+synonym: "Lateral cerebellar nucleus" RELATED []
+synonym: "Cerebellum dentate nucleus" RELATED []
+xref: BTO:0003836
+xref: FMA:72260
+xref: UBERON:0002132
+relationship: part_of TS-0125 ! Cerebellum
+
 
 [Typedef]
 id: develops_from
