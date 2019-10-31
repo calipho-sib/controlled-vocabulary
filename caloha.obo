@@ -8286,6 +8286,7 @@ id: TS-2370
 name: Peripheral blood mononuclear cell
 def: "A peripheral blood cell with a single nucleus. This category includes lymphocytes and monocytes." [NCI_Thesaurus:Peripheral_Blood_Mononuclear_Cell]
 synonym: "PBMC" RELATED []
+synonym: "Total PBMC" RELATED []
 xref: BTO:0001025
 is_a: TS-0766 ! Peripheral blood leukocyte
 
@@ -10217,6 +10218,7 @@ synonym: "Dentate cerebellar nucleus" RELATED []
 synonym: "Lateral nucleus of cerebellum" RELATED []
 synonym: "Lateral cerebellar nucleus" RELATED []
 synonym: "Cerebellum dentate nucleus" RELATED []
+synonym: "Cerebellum cells in dentate nucleus" RELATED []
 xref: BTO:0003836
 xref: FMA:72260
 xref: UBERON:0002132
