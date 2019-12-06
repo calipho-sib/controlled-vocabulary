@@ -1494,16 +1494,6 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Alimentary System MassIVE
-AC   CVDR-0201
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Alimentary System samples.
-DS   MassIVE human Alimentary System
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
 ID   Human Blood Cells MassIVE
 AC   CVDR-0202
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
@@ -1544,16 +1534,6 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Cancer Cell Lines Alimentary System MassIVE
-AC   CVDR-0206
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Alimentary System samples.
-DS   MassIVE human Cancer Cell Lines Alimentary System
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
 ID   Human Cancer Cell Lines Blood MassIVE
 AC   CVDR-0207
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
@@ -1579,16 +1559,6 @@ AC   CVDR-0209
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Breast samples.
 DS   MassIVE human Cancer Cell Lines Breast
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Cell Lines Kidney MassIVE
-AC   CVDR-0210
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Kidney samples.
-DS   MassIVE human Cancer Cell Lines Kidney
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1634,51 +1604,11 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Cancer Cell Lines Other Male Reproductive Organ MassIVE
-AC   CVDR-0215
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Other Male Reproductive Organ samples.
-DS   MassIVE human Cancer Cell Lines Other Male Reproductive Organ
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
 ID   Human Cancer Cell Lines Ovary MassIVE
 AC   CVDR-0216
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Ovary samples.
 DS   MassIVE human Cancer Cell Lines Ovary
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Cell Lines Urinary Bladder MassIVE
-AC   CVDR-0217
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Urinary Bladder samples.
-DS   MassIVE human Cancer Cell Lines Urinary Bladder
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Alimentary System MassIVE
-AC   CVDR-0218
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Alimentary System samples.
-DS   MassIVE human Cancer Alimentary System
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Brain MassIVE
-AC   CVDR-0219
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Brain samples.
-DS   MassIVE human Cancer Brain
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1694,41 +1624,11 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Cancer Kidney MassIVE
-AC   CVDR-0221
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Kidney samples.
-DS   MassIVE human Cancer Kidney
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Liver MassIVE
-AC   CVDR-0222
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Liver samples.
-DS   MassIVE human Cancer Liver
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
 ID   Human Cancer Lung MassIVE
 AC   CVDR-0223
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Lung samples.
 DS   MassIVE human Cancer Lung
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Other Anatomical Entities MassIVE
-AC   CVDR-0224
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Other Anatomical Entities samples.
-DS   MassIVE human Cancer Other Anatomical Entities
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1749,16 +1649,6 @@ AC   CVDR-0226
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Ovary samples.
 DS   MassIVE human Cancer Ovary
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Cancer Urinary Bladder MassIVE
-AC   CVDR-0227
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Urinary Bladder samples.
-DS   MassIVE human Cancer Urinary Bladder
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1834,16 +1724,6 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Oocyte MassIVE
-AC   CVDR-0235
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Oocyte samples.
-DS   MassIVE human Oocyte
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
 ID   Human Other Anatomical Entities MassIVE
 AC   CVDR-0236
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
@@ -1904,31 +1784,11 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Pituitary Gland MassIVE
-AC   CVDR-0242
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Pituitary Gland samples.
-DS   MassIVE human Pituitary Gland
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
 ID   Human Placenta MassIVE
 AC   CVDR-0243
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Placenta samples.
 DS   MassIVE human Placenta
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Sperm cell MassIVE
-AC   CVDR-0244
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Sperm samples.
-DS   MassIVE human Sperm cell
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1949,16 +1809,6 @@ AC   CVDR-0246
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Testis samples.
 DS   MassIVE human Testis
-DR   https://massive.ucsd.edu
-UF   once or twice a year
-UR   https://massive.ucsd.edu
-CI   
-//
-ID   Human Thyroid MassIVE
-AC   CVDR-0247
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Thyroid samples.
-DS   MassIVE human Thyroid
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1992,45 +1842,121 @@ DS   MassIVE human Urine
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
-CI   
 //
-ID   Human Cancer Cell Lines Pancreas MassIVE
+ID   Human Blood vessel MassiVE
+AC   CVDR-0251
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Blood vessel samples.
+DS   MassIVE human Blood vessel
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Digestive System MassiVE
 AC   CVDR-0252
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Pancreas samples.
-DS   MassIVE human Cancer Cell Lines Pancreas
+DE   Human Digestive System samples.
+DS   MassIVE human Digestive System
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
-CI
 //
-ID   Human Cancer Other Female Reproductive Organ MassIVE
+ID   Human Other gestational structure MassiVE
 AC   CVDR-0253
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Other Female Reproductive Organ samples.
-DS   MassIVE human Cancer Other Female Reproductive Organ
+DE   Human Other gestational structure samples.
+DS   MassIVE human Other gestational structure
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
-CI
 //
-ID   Human Cancer Pancreas MassIVE
+ID   Human Skin MassiVE
 AC   CVDR-0254
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Pancreas samples.
-DS   MassIVE human Cancer Pancreas
+DE   Human Skin samples.
+DS   MassIVE human Skin
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
-CI
 //
-ID   Human Olfactory System MassIVE
+ID   Human Sperm MassiVE 
 AC   CVDR-0255
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Olfactory System samples.
-DS   MassIVE human Olfactory System
+DE   Human Sperm samples.
+DS   MassIVE human Sperm
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
-CI
+//
+ID   Human Thyroid gland MassiVE
+AC   CVDR-0256
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Thyroid gland samples.
+DS   MassIVE human Thyroid gland
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Blood cells MassiVE
+AC   CVDR-0257
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Blood cells samples.
+DS   MassIVE human Cancer Blood cells
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Bone MassiVE
+AC   CVDR-0258
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Bone samples.
+DS   MassIVE human Cancer Bone
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Digestive system MassiVE
+AC   CVDR-0259
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Digestive system samples.
+DS   MassIVE human Cancer Digestive system
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Skin MassiVE
+AC   CVDR-0260
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Skin samples.
+DS   MassIVE human Cancer Skin
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Cell Lines Bone MassiVE
+AC   CVDR-0261
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines Bone samples.
+DS   MassIVE human Cancer Cell Lines Bone
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Cell Lines Digestive System MassiVE
+AC   CVDR-0262
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines Digestive System samples.
+DS   MassIVE human Cancer Cell Lines Digestive System
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+//
+ID   Human Cancer Cell Lines Skin MassiVE
+AC   CVDR-0263
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines Skin samples.
+DS   MassIVE human Cancer Cell Lines Skin
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
 //
