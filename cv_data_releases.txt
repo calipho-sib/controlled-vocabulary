@@ -1888,11 +1888,11 @@ DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
 //
-ID   Human Thyroid gland MassIVE
+ID   Human Thyroid Gland MassIVE
 AC   CVDR-0256
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Thyroid gland samples.
-DS   MassIVE human Thyroid gland
+DE   Human Thyroid Gland samples.
+DS   MassIVE human Thyroid Gland
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
