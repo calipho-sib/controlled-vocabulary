@@ -1843,11 +1843,11 @@ DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
 //
-ID   Human Blood vessel MassIVE
+ID   Human Blood Vessel MassIVE
 AC   CVDR-0251
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Blood vessel samples.
-DS   MassIVE human Blood vessel
+DE   Human Blood Vessel samples.
+DS   MassIVE human Blood Vessel
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1861,11 +1861,11 @@ DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
 //
-ID   Human Other gestational structure MassIVE
+ID   Human Other Gestational Structure MassIVE
 AC   CVDR-0253
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Other gestational structure samples.
-DS   MassIVE human Other gestational structure
+DE   Human Other Gestational Structure samples.
+DS   MassIVE human Other Gestational Structure
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1897,11 +1897,11 @@ DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
 //
-ID   Human Cancer Blood cells MassIVE
+ID   Human Cancer Blood Cells MassIVE
 AC   CVDR-0257
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Blood cells samples.
-DS   MassIVE human Cancer Blood cells
+DE   Human Cancer Blood Cells samples.
+DS   MassIVE human Cancer Blood Cells
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
@@ -1915,11 +1915,11 @@ DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
 //
-ID   Human Cancer Digestive system MassIVE
+ID   Human Cancer Digestive System MassIVE
 AC   CVDR-0259
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Digestive system samples.
-DS   MassIVE human Cancer Digestive system
+DE   Human Cancer Digestive System samples.
+DS   MassIVE human Cancer Digestive System
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
