@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0301
+next id:  CVDR-0310
 
 __________________________________________________________________________
 ID   Additional references
@@ -1959,4 +1959,54 @@ DS   MassIVE human Cancer Cell Lines Skin
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
+//
+ID   Human Skin PeptideAtlas
+AC   CVDR-0301
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Skin samples.
+DS   PeptideAtlas human Skin
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Other Gestational Structure PeptideAtlas
+AC   CVDR-0302
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Other Gestational Structure samples.
+DS   PeptideAtlas human Other Gestational Structure
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Skin PeptideAtlas
+AC   CVDR-0303
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Skin samples.
+DS   PeptideAtlas human Cancer Skin
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines Skin PeptideAtlas
+AC   CVDR-0304
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines Skin samples.
+DS   PeptideAtlas human Cancer Cell Lines Skin
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines Bone PeptideAtlas
+AC   CVDR-0305
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines Bone samples.
+DS   PeptideAtlas human Cancer Cell Lines Bone
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
 //
