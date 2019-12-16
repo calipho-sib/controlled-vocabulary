@@ -1364,11 +1364,11 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Sperm cell PeptideAtlas
+ID   Human Sperm PeptideAtlas
 AC   CVDR-0144
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Sperm samples.
-DS   PeptideAtlas human Sperm cell
+DS   PeptideAtlas human Sperm
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
