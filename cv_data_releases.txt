@@ -934,11 +934,11 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Alimentary System PeptideAtlas
+ID   Human Digestive System PeptideAtlas
 AC   CVDR-0101
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Alimentary System samples.
-DS   PeptideAtlas human Alimentary System
+DE   Human Digestive System samples.
+DS   PeptideAtlas human Digestive System
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
@@ -984,11 +984,11 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines Alimentary System PeptideAtlas
+ID   Human Cancer Cell Lines Digestive System PeptideAtlas
 AC   CVDR-0106
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Alimentary System samples.
-DS   PeptideAtlas human Cancer Cell Lines Alimentary System
+DE   Human Cancer Cell Lines, Digestive System samples.
+DS   PeptideAtlas human Cancer Cell Lines Digestive System
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
@@ -1104,11 +1104,11 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Alimentary System PeptideAtlas
+ID   Human Cancer Digestive System PeptideAtlas
 AC   CVDR-0118
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Alimentary System samples.
-DS   PeptideAtlas human Cancer Alimentary System
+DE   Human Cancer, Digestive System samples.
+DS   PeptideAtlas human Cancer Digestive System
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
@@ -1394,11 +1394,11 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Thyroid PeptideAtlas
+ID   Human Thyroid Gland PeptideAtlas
 AC   CVDR-0147
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Thyroid samples.
-DS   PeptideAtlas human Thyroid
+DE   Human Thyroid Gland samples.
+DS   PeptideAtlas human Thyroid Gland
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
