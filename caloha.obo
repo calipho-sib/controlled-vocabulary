@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.4
-date: 28:10:2019 12:00
+date: 09:01:2020 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -8857,7 +8857,7 @@ relationship: part_of TS-0980 ! Stomach
 id: TS-2427
 name: Substantia nigra pars compacta
 def: "Regional part of substantia nigra consisting of a densely packed region of cells, more or less dorsal to the pars reticulata, but extending into the pars reticulata in some species. The dominant neurotransmitter used by pars compacta neurons is dopamine. Pars compacta neurons are pigmented in many species." [UBERON:substantia nigra pars compacta]
-synoynm: "substantia nigra compacta" RELATED []
+synonym: "substantia nigra compacta" RELATED []
 xref: BTO:0003749
 xref: FMA:62907
 xref: MESH:D065842
@@ -8878,7 +8878,7 @@ relationship: part_of TS-0990 ! Substantia nigra
 id: TS-2429
 name: Vena cava
 def: "Any of the veins that carries deoxygenated blood from a part of the body into the right atrium of the heart." [UBERON:vena cava]
-synoynm: "Venae cavae" RELATED []
+synonym: "Venae cavae" RELATED []
 xref: BTO:0001438
 xref: UBERON:0004087
 is_a: TS-1108 ! Vein
@@ -8887,9 +8887,9 @@ is_a: TS-1108 ! Vein
 id: TS-2430
 name: Endometrial glandular cell
 def: "A glandular epithelial cell of the endometrium". []
-synoynm: "Endometrium glandular cell" RELATED []
-synoynm: "Glandular cell of endometrium" RELATED []
-synoynm: "Endometrium glandular cells" RELATED []
+synonym: "Endometrium glandular cell" RELATED []
+synonym: "Glandular cell of endometrium" RELATED []
+synonym: "Endometrium glandular cells" RELATED []
 xref: CL:0002656
 xref: FMA:86489
 is_a: TS-2085 ! Glandular cell
@@ -8926,8 +8926,8 @@ is_a: TS-0397 ! Ganglion
 id: TS-2434
 name: Primary oocyte
 def: "A primary oocyte is an oocyte that has not completed female meosis I". [CL:primary oocyte]
-synoynm: "MI oocytes" RELATED []
-synoynm: "Oocyte MI arrested" RELATED []
+synonym: "MI oocytes" RELATED []
+synonym: "Oocyte MI arrested" RELATED []
 xref: BTO:0000512
 xref: CL:0000654
 xref: FMA:18645
@@ -8937,8 +8937,8 @@ is_a: TS-0711 ! Oocyte
 id: TS-2435
 name: Secondary oocyte
 def: "A secondary oocyte is an oocyte that has not completed meiosis II". [[CL:secondary oocyte]
-synoynm: "MII oocytes" RELATED []
-synoynm: "Oocyte MII arrested" RELATED []
+synonym: "MII oocytes" RELATED []
+synonym: "Oocyte MII arrested" RELATED []
 xref: BTO:0003094
 xref: CL:0000655
 xref: FMA:18646
@@ -8956,11 +8956,11 @@ is_a: TS-2194 ! Primary spermatocyte
 id: TS-2437
 name: Pharyngeal mucosa
 def: "A mucosa that is part of a pharynx". [UBERON:pharyngeal mucosa]
-synoynm: "Pharynx mucous membrane" RELATED []
-synoynm: "Mucous membrane of pharynx" RELATED []
-synoynm: "Mucosa of pharynx" RELATED []
-synoynm: "Pharynx mucosa" RELATED []
-synoynm: "Mucous membrane of pharynx" RELATED []
+synonym: "Pharynx mucous membrane" RELATED []
+synonym: "Mucous membrane of pharynx" RELATED []
+synonym: "Mucosa of pharynx" RELATED []
+synonym: "Pharynx mucosa" RELATED []
+synonym: "Mucous membrane of pharynx" RELATED []
 xref: BTO:0001047
 xref: FMA:55031
 xref: UBERON:0000355
@@ -8983,10 +8983,10 @@ is_a: TS-1146 ! Helper T-cell
 id: TS-2439
 name: CD8-Positive T-cell
 def: "A critical subpopulation of regulatory T-lymphocytes involved in MHC Class I-restricted interactions. They include both cytotoxic T-lymphocytes and CD8+ suppressor T-lymphocytes". [MESH:D018414]
-synoynm: "CD8-positive, alpha-beta T-lymphocyte" RELATED []
-synoynm: "T8 Lymphocytes" RELATED []
-synoynm: "CD8-positive, T-cell" RELATED []
-synoynm: "CD8-Positive T-Lymphocytes" RELATED []
+synonym: "CD8-positive, alpha-beta T-lymphocyte" RELATED []
+synonym: "T8 Lymphocytes" RELATED []
+synonym: "CD8-positive, T-cell" RELATED []
+synonym: "CD8-Positive T-Lymphocytes" RELATED []
 xref: CL:0000625
 xref: MESH:D018414
 is_a: TS-1001 ! T-cell
