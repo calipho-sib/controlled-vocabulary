@@ -857,7 +857,7 @@ Abbrev: VariO
 Name  : Variation ontology
 LinkTp: Explicit
 Server: http://variationontology.org/
-Db_URL: http://www.variationontology.org/cgi-bin/amivario/term-details.cgi?term=%s
+Db_URL: http://purl.obolibrary.org/obo/%s
 Cat   : Ontologies
 
 AC    : DB-9113
