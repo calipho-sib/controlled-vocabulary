@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 21-Sep-2019
+Last update: 07-Feb-2020
 
 ----------------------------------------------------------------------------
 
@@ -194,12 +194,6 @@ SY   AIG1-type guanine nucleotide-binding.
 FT   DOMAIN.
 TG   PS51720; G_AIG1;
 DO   PDOC51720;
-//
-ID   AKAP.
-AC   DO-00025
-FT   DOMAIN.
-TG   PF03832; PkinA_anch;
-DO   IPR001573;
 //
 ID   albumin.
 AC   DO-00026
@@ -2101,13 +2095,6 @@ AC   DO-00267
 FT   REPEAT.
 TG   PF00626; Gelsolin;
 DO   IPR007123;
-//
-ID   GFA.
-AC   DO-00948
-SY   glutathione-dependent formaldehyde-activating.
-FT   DOMAIN.
-TG   PF04828; GFA;
-DO   IPR006913;
 //
 ID   GIY-YIG.
 AC   DO-00268
@@ -5287,12 +5274,6 @@ SY   TRAM/LAG1/CLN8.
 FT   DOMAIN.
 TG   PS50922; TLC;
 DO   PDOC50922;
-//
-ID   TLD.
-AC   DO-00673
-FT   DOMAIN.
-TG   PF07534; TLD;
-DO   IPR006571;
 //
 ID   TLDc.
 AC   DO-00973
