@@ -947,3 +947,11 @@ LinkTp: Explicit
 Server: https://massive.ucsd.edu
 Db_URL: https://massive.ucsd.edu/ProteoSAFe/protein_explorer_splash.jsp?peptide=%s
 Cat   : Proteomic databases
+
+AC    : DB-9124
+Abbrev: PSI-MI
+Name  : PSI-MI Molecular Interaction
+LinkTp: Explicit
+Server: http://www.psidev.info/mif
+Db_URL: http://purl.obolibrary.org/obo/%s
+Cat   : Ontologies
