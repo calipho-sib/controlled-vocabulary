@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0310
+next id:  CVDR-0311
 
 __________________________________________________________________________
 ID   Additional references
@@ -2008,5 +2008,13 @@ DS   PeptideAtlas human Cancer Cell Lines Bone
 DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
+CI   
+//
+ID   PSI-MI
+AC   CVDR-0310
+DE   PSI-MI Molecular Interaction
+DS   PSI-MI
+UF   once a year
+UR   http://www.psidev.info/mif
 CI   
 //
