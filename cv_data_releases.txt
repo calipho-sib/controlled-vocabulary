@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     25-Oct-2019
+  Release:     04-Mar-2020
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0310
+next id:  CVDR-0312
 
 __________________________________________________________________________
 ID   Additional references
@@ -2009,4 +2009,21 @@ DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
+//
+ID   PSI-MI
+AC   CVDR-0310
+DE   PSI-MI Molecular Interaction
+DS   PSI-MI
+UF   once a year
+UR   http://www.psidev.info/mif
+CI   
+//
+ID   ENYO
+AC   CVDR-0311
+DE   ENYO Pharma, a clinical stage Biotech with a unique drug discovery engine inspired by viruses
+DS   ENYO
+DR   https://cloud.enyopharma.com/
+UF   once every three years
+UR   http://www.enyopharma.com/
+CI
 //
