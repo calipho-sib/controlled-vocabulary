@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 07-Feb-2020
+Last update: 05-Mar-2020
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 07-Feb-2020
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00978
+AN   Next free AC: DO-00992
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -607,6 +607,24 @@ AC   DO-00082
 FT   DOMAIN.
 TG   PS50004; C2_DOMAIN_2;
 DO   PDOC00380;
+//
+ID   C2 Aida-type.
+AC   DO-00978
+FT   DOMAIN.
+TG   PS51911; C2_AIDA;
+DO   PDOC51911;
+//
+ID   C2 B9-type.
+AC   DO-00979
+FT   DOMAIN.
+TG   PS51381; C2_B9;
+DO   PDOC51381;
+//
+ID   C2 DOCK-type.
+AC   DO-00980
+FT   DOMAIN.
+TG   PS51650; C2_DOCK;
+DO   PDOC51650;
 //
 ID   C2 NT-type.
 AC   DO-00933
@@ -1423,6 +1441,12 @@ FT   DOMAIN.
 TG   PS51336; DM10;
 DO   PDOC51336;
 //
+ID   DMAP1-binding.
+AC   DO-00981
+FT   DOMAIN.
+TG   PS51912; DMAP1_BIND;
+DO   PDOC51912;
+//
 ID   DMAP-interaction.
 AC   DO-00834
 FT   DOMAIN.
@@ -1440,6 +1464,12 @@ AC   DO-00179
 FT   DOMAIN.
 TG   PS51284; DOC;
 DO   PDOC51284;
+//
+ID   DOCKER.
+AC   DO-00982
+FT   DOMAIN.
+TG   PS51651; DOCKER;
+DO   PDOC51650;
 //
 ID   DOMON.
 AC   DO-00180
@@ -2096,6 +2126,13 @@ FT   REPEAT.
 TG   PF00626; Gelsolin;
 DO   IPR007123;
 //
+ID   GH18.
+AC   DO-00983
+SY   Glycosyl hydrolases family 18
+FT   DOMAIN.
+TG   PS51910; GH18_2;
+DO   PDOC00839;
+//
 ID   GIY-YIG.
 AC   DO-00268
 FT   DOMAIN.
@@ -2183,6 +2220,12 @@ AC   DO-00278
 FT   DOMAIN.
 TG   PF02893; GRAM;
 DO   IPR004182;
+//
+ID   GRF-type.
+AC   DO-00984
+FT   ZN_FING.
+TG   PF06839; zf-GRF;
+DO   IPR010666;
 //
 ID   GRIP.
 AC   DO-00279
@@ -2486,6 +2529,12 @@ SY   HTH cro/C1-type.
 FT   DOMAIN.
 TG   PS50943; HTH_CROC1;
 DO   PDOC50943;
+//
+ID   HTH HARE-type.
+AC   DO-00985
+FT   DOMAIN.
+TG   PS51913; HTH_HARE;
+DO   PDOC51913;
 //
 ID   HTH La-type RNA-binding.
 AC   DO-00322
@@ -3427,6 +3476,12 @@ FT   DOMAIN.
 TG   PS50993; NIDOGEN_G2;
 DO   PDOC50993;
 //
+ID   NOB1.
+AC   DO-00987
+FT   ZN_FING.
+TG   PF08772; NOB1_Zn_bind;
+DO   IPR014881;
+//
 ID   Nop.
 AC   DO-00446
 FT   DOMAIN.
@@ -3509,6 +3564,13 @@ AC   DO-00454
 FT   DOMAIN.
 TG   PF07051; OCIA;
 DO   IPR009764;
+//
+ID   Olduvai.
+AC   DO-00986
+SY   ODV.
+FT   DOMAIN.
+TG   PS51316; ODV;
+DO   PDOC51316;
 //
 ID   olfactomedin-like.
 AC   DO-00455
@@ -5476,6 +5538,30 @@ AC   DO-00783
 FT   ZN_FING.
 TG   SM00734; ZnF_Rad18;
 DO   IPR006642;
+//
+ID   UBZ1-type.
+AC   DO-00988
+FT   ZN_FING.
+TG   PS51905; ZF_UBZ1;
+DO   PDOC51905;
+//
+ID   UBZ2-type.
+AC   DO-00989
+FT   ZN_FING.
+TG   PS51906; ZF_UBZ2;
+DO   PDOC51905;
+//
+ID   UBZ3-type.
+AC   DO-00990
+FT   ZN_FING.
+TG   PS51907; ZF_UBZ3;
+DO   PDOC51905;
+//
+ID   UBZ4-type.
+AC   DO-00991
+FT   ZN_FING.
+TG   PS51908; ZF_UBZ4;
+DO   PDOC51905;
 //
 ID   uDENN.
 AC   DO-00701

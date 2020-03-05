@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 21-Sep-2019
+Last update: 05-Mar-2020
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 21-Sep-2019
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05565
+AN   Next free AC: FA-05572
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -1251,6 +1251,15 @@ HI   FA-00274; AspA/AstE family
 ID   Asparaginase 1 family
 AC   FA-00276
 //
+ID   Aspartate/ornithine carbamoyltransferase superfamily
+AC   FA-05571
+//
+ID   OTCase family
+AC   FA-00285
+SY   Aspartate/ornithine carbamoyltransferase superfamily. OTCase family.
+SY   ATCase/OTCase family
+HI   FA-05571; Aspartate/ornithine carbamoyltransferase superfamily
+//
 ID   Aspartyl/asparaginyl beta-hydroxylase family
 AC   FA-00277
 //
@@ -1279,9 +1288,6 @@ AC   FA-00283
 //
 ID   Ataxin-7 family
 AC   FA-00284
-//
-ID   ATCase/OTCase family
-AC   FA-00285
 //
 ID   ATG10 family
 AC   FA-00286
@@ -2982,12 +2988,6 @@ AC   FA-01771
 SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. SET7 subfamily.
 HI   FA-01767; Histone-lysine methyltransferase family
 //
-ID   SETD3 subfamily
-AC   FA-05203
-SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. SETD3 subfamily.
-SY   SETD3 family.
-HI   FA-01767; Histone-lysine methyltransferase family
-//
 ID   SETD6 subfamily
 AC   FA-05204
 SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. SETD6 subfamily.
@@ -3009,10 +3009,18 @@ AC   FA-01774
 SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. TRX/MLL subfamily.
 HI   FA-01767; Histone-lysine methyltransferase family
 //
+ID   SETD3 actin-histidine methyltransferase family
+AC   FA-05203
+SY   Class V-like SAM-binding methyltransferase superfamily. Histone-lysine methyltransferase family. SETD3 subfamily.
+SY   Class V-like SAM-binding methyltransferase superfamily. SETD3 actin-histidine methyltransferase family.
+SY   SETD3 family.
+SY   SETD3 subfamily.
+HI   FA-05189; Class V-like SAM-binding methyltransferase superfamily
+//
 ID   SETD4 family
 AC   FA-05557
 SY   Class V-like SAM-binding methyltransferase superfamily. SETD4 family.
-HI   FA-01767; Histone-lysine methyltransferase family
+HI   FA-05189; Class V-like SAM-binding methyltransferase superfamily
 //
 ID   Class VI-like SAM-binding methyltransferase superfamily
 AC   FA-05198
@@ -3812,6 +3820,10 @@ AC   FA-00837
 ID   CYHR1 family
 AC   FA-00838
 //
+ID   CYRI family
+AC   FA-01293
+SY   FAM49 family.
+//
 ID   CYSRT1 family
 AC   FA-05276
 SY   UPF0574 family.
@@ -4598,9 +4610,6 @@ ID   MAT2B subfamily
 AC   FA-01019
 SY   dTDP-4-dehydrorhamnose reductase family. MAT2B subfamily.
 HI   FA-01018; dTDP-4-dehydrorhamnose reductase family
-//
-ID   DTW family
-AC   FA-01020
 //
 ID   Dullard family
 AC   FA-01021
@@ -5532,9 +5541,6 @@ AC   FA-01288
 ID   FAM47 family
 AC   FA-01291
 //
-ID   FAM49 family
-AC   FA-01293
-//
 ID   FAM50 family
 AC   FA-01295
 //
@@ -5601,6 +5607,9 @@ AC   FA-01327
 //
 ID   FAST protein kinase family
 AC   FA-01328
+//
+ID   Fatty acid desaturase CarF family
+AC   FA-05567
 //
 ID   Fatty acid desaturase type 1 family
 AC   FA-01330
@@ -7492,6 +7501,9 @@ SY   IL-1 family. Highly divergent.
 ID   IL-10 family
 AC   FA-01821
 //
+ID   IL-12B family
+AC   FA-05569
+//
 ID   IL-15/IL-21 family
 AC   FA-01822
 //
@@ -8262,6 +8274,10 @@ AC   FA-02017
 //
 ID   LCE family
 AC   FA-02018
+//
+ID   LDAF1 family
+AC   FA-04051
+SY   TMEM159 family.
 //
 ID   LDB family
 AC   FA-02020
@@ -10417,6 +10433,10 @@ AC   FA-02539
 //
 ID   Nuclear transition protein 2 family
 AC   FA-02540
+//
+ID   Nucleobase:cation symporter-2 (NCS2) (TC 2.A.40) family
+AC   FA-04695
+DR   TC 2.A.40
 //
 ID   Nucleobindin family
 AC   FA-02541
@@ -14024,6 +14044,9 @@ ID   RICTOR family
 AC   FA-02858
 SY   Pianissimo family.
 //
+ID   Rieske iron-sulfur protein family
+AC   FA-05570
+//
 ID   RIF1 family
 AC   FA-05452
 //
@@ -14458,6 +14481,9 @@ AC   FA-03499
 //
 ID   SARG family
 AC   FA-03500
+//
+ID   SARM1 family
+AC   FA-05570
 //
 ID   SAS10 family
 AC   FA-03501
@@ -15664,6 +15690,9 @@ AC   FA-03802
 ID   SPESP1 family
 AC   FA-03803
 //
+ID   Spexin family
+AC   FA-05568
+//
 ID   SPF27 family
 AC   FA-03804
 //
@@ -15843,6 +15872,10 @@ HI   FA-03850; Sterol desaturase family
 //
 ID   STIMATE family
 AC   FA-05342
+//
+ID   STING family
+AC   FA-04820
+SY   TMEM173 family.
 //
 ID   STK11IP family
 AC   FA-03851
@@ -16237,6 +16270,27 @@ AC   FA-03951
 //
 ID   TCTP family
 AC   FA-03952
+//
+ID   TDD superfamily
+AC   FA-05565
+//
+ID   DTWD1 family
+AC   FA-01020
+SY   TDD superfamily. DTWD1 family.
+SY   DTW family.
+HI   FA-05565; TDD superfamily
+//
+ID   DTWD2 family
+AC   FA-05566
+SY   TDD superfamily. DTWD2 family.
+SY   DTW family.
+HI   FA-05565; TDD superfamily
+//
+SY   TSR3 family
+AC   FA-04889
+SY   TDD superfamily. TSR3 family
+SY   UPF0293 family.
+HI   FA-05565; TDD superfamily
 //
 ID   TDE1 family
 AC   FA-03953
@@ -16634,9 +16688,6 @@ AC   FA-04049
 ID   TMEM158 family
 AC   FA-04050
 //
-ID   TMEM159 family
-AC   FA-04051
-//
 ID   TMEM160 family
 AC   FA-04052
 //
@@ -16657,9 +16708,6 @@ AC   FA-04963
 //
 ID   TMEM170 family
 AC   FA-04056
-//
-ID   TMEM173 family
-AC   FA-04820
 //
 ID   TMEM175 family
 AC   FA-04057
@@ -17594,10 +17642,6 @@ AC   FA-04223
 //
 ID   TSR2 family
 AC   FA-04224
-//
-ID   TSR3 family
-AC   FA-04889
-SY   UPF0293 family.
 //
 ID   TSSC4 family
 AC   FA-04225
@@ -18755,12 +18799,6 @@ AC   FA-04693
 //
 ID   Xanthine/uracil permease family
 AC   FA-04694
-//
-ID   Nucleobase:cation symporter-2 (NCS2) (TC 2.A.40) subfamily
-AC   FA-04695
-SY   Xanthine/uracil permease family. Nucleobase:cation symporter-2 (NCS2) (TC 2.A.40) subfamily.
-DR   TC 2.A.40
-HI   FA-04694; Xanthine/uracil permease family
 //
 ID   Xin family
 AC   FA-04696
