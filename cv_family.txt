@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 05-Mar-2020
+Last update: 18-Apr-2020
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 05-Mar-2020
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05572
+AN   Next free AC: FA-05577
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -2410,6 +2410,10 @@ SY   UPF0709 family.
 ID   CEP41 family
 AC   FA-04974
 //
+ID   CEP43 family
+AC   FA-04853
+SY   FGFR1OP family.
+//
 ID   CEP63 family
 AC   FA-00566
 //
@@ -2606,6 +2610,9 @@ AC   FA-00597
 //
 ID   CIA30 family
 AC   FA-00598
+//
+ID   CIBAR family
+AC   FA-05572
 //
 ID   Cingulin family
 AC   FA-00599
@@ -4196,6 +4203,9 @@ AC   FA-00922
 ID   DEF8 family
 AC   FA-00923
 //
+ID   DELE1 family
+AC   FA-05573
+//
 ID   Delta-EF1/ZFH-1 C2H2-type zinc-finger family
 AC   FA-00924
 //
@@ -4850,6 +4860,10 @@ AC   FA-01088
 ID   Elabela/Toddler family
 AC   FA-05246
 SY   Elabela family.
+//
+ID   ELAPOR family
+AC   FA-04451
+SY   UPF0577 family.
 //
 ID   Elastin family
 AC   FA-01090
@@ -5586,7 +5600,7 @@ AC   FA-01321
 ID   FAM91 family
 AC   FA-01322
 //
-ID   FAM92 family
+SY   FAM92 family
 AC   FA-01323
 //
 ID   FAM98 family
@@ -5679,9 +5693,6 @@ AC   FA-01341
 //
 ID   FGAMS family
 AC   FA-01342
-//
-ID   FGFR1OP family
-AC   FA-04853
 //
 ID   FGGY kinase family
 AC   FA-01343
@@ -6856,8 +6867,9 @@ DR   TC 1.A.38
 ID   GOLIM4 family
 AC   FA-01635
 //
-ID   GOLM1/CASC4 family
+ID   GOLM family
 AC   FA-01636
+SY   GOLM1/CASC4 family.
 //
 ID   GOLPH3/VPS74 family
 AC   FA-01637
@@ -7879,6 +7891,10 @@ AC   FA-01907
 ID   IPP transferase family
 AC   FA-01908
 //
+ID   IRAG2 family
+AC   FA-05250
+SY   LRMP family.
+//
 ID   IRAK1BP1 family
 AC   FA-01909
 //
@@ -8217,10 +8233,6 @@ AC   FA-02008
 ID   laat-1 family
 AC   FA-05077
 //
-ID   LACC1 family
-AC   FA-04908
-SY   UPF0124 family.
-//
 ID   LAG3 family
 AC   FA-05546
 //
@@ -8262,6 +8274,9 @@ AC   FA-02013
 //
 ID   LARP family
 AC   FA-02014
+//
+ID   LARP7 family
+AC   FA-05574
 //
 ID   LAS1 family
 AC   FA-02015
@@ -8671,9 +8686,6 @@ AC   FA-02110
 ID   LRIF1 family
 AC   FA-04886
 //
-ID   LRMP family
-AC   FA-05250
-//
 ID   LRRC3 family
 AC   FA-02111
 //
@@ -8856,6 +8868,13 @@ AC   FA-04803
 SY   Major facilitator superfamily. Organophosphate:Pi antiporter (OPA) (TC 2.A.1.4) family.
 SY   SLC37A family.
 DR   TC 2.A.1.4
+HI   FA-02148; Major facilitator superfamily
+//
+ID   Proton-dependent oligopeptide transporter (POT/PTR) (TC 2.A.17) family
+AC   FA-03194
+SY   Major facilitator superfamily. Proton-dependent oligopeptide transporter (POT/PTR) (TC 2.A.17) family.
+SY   PTR2/POT transporter (TC 2.A.17) family
+DR   TC 2.A.17
 HI   FA-02148; Major facilitator superfamily
 //
 ID   SLC46A family
@@ -9835,6 +9854,10 @@ AC   FA-02389
 //
 ID   Myelin proteolipid protein family
 AC   FA-02390
+//
+ID   MYG1 family
+AC   FA-04322
+SY   UPF0160 (MYG1) family.
 //
 ID   MYMX family
 AC   FA-05463
@@ -11531,6 +11554,10 @@ AC   FA-02814
 ID   PGAP3 family
 AC   FA-02815
 //
+ID   PGAP4 family
+AC   FA-05009
+SY   TMEM246 family.
+//
 ID   Phage and mitochondrial RNA polymerase family
 AC   FA-02816
 //
@@ -13032,8 +13059,14 @@ ID   Proton-activated chloride channel family
 AC   FA-04077
 SY   TMEM206 family.
 //
-ID   Protoporphyrinogen oxidase family
+ID   Protoporphyrinogen/coproporphyrinogen oxidase family
+AC   FA-05576
+//
+ID   Protoporphyrinogen oxidase subfamily
 AC   FA-03159
+SY   Protoporphyrinogen/coproporphyrinogen oxidase family. Protoporphyrinogen oxidase subfamily.
+SY   Protoporphyrinogen oxidase family.
+HI   FA-05576; Protoporphyrinogen/coproporphyrinogen oxidase family
 //
 ID   PROTOR family
 AC   FA-03160
@@ -13154,15 +13187,16 @@ AC   FA-03191
 ID   PTPS family
 AC   FA-03193
 //
-ID   PTR2/POT transporter (TC 2.A.17) family
-AC   FA-03194
-DR   TC 2.A.17
-//
 ID   PUR DNA-binding protein family
 AC   FA-03196
 //
 ID   PurH family
 AC   FA-03197
+//
+ID   Purine nucleoside phosphorylase YfiH/LACC1 family
+AC   FA-04908
+SY   LACC1 family.
+SY   UPF0124 family.
 //
 ID   Purine/pyrimidine phosphoribosyltransferase family
 AC   FA-03198
@@ -13442,6 +13476,9 @@ AC   FA-03262
 //
 ID   Replication factor A protein 2 family
 AC   FA-05281
+//
+ID   Replication factor A protein 3 family
+AC   FA-05575
 //
 ID   Reprimo family
 AC   FA-03263
@@ -16819,9 +16856,6 @@ SY   UPF0463 family.
 ID   TMEM243 family
 AC   FA-05140
 //
-ID   TMEM246 family
-AC   FA-05009
-//
 ID   TMEM248 family
 AC   FA-05048
 SY   UPF0458 family.
@@ -17972,9 +18006,6 @@ DR   TC 2.A.93
 ID   UPF0046 family
 AC   FA-04311
 //
-ID   UPF0160 (MYG1) family
-AC   FA-04322
-//
 ID   UPF0183 family
 AC   FA-04324
 //
@@ -18077,9 +18108,6 @@ AC   FA-04443
 //
 ID   UPF0575 family
 AC   FA-04450
-//
-ID   UPF0577 family
-AC   FA-04451
 //
 ID   UPF0585 family
 AC   FA-04455

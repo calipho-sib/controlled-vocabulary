@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 05-Mar-2020
+Last update: 18-Apr-2020
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 05-Mar-2020
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00992
+AN   Next free AC: DO-00998
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -1351,6 +1351,13 @@ FT   DOMAIN.
 TG   PS50186; DEP;
 DO   PDOC50186;
 //
+ID   DEUBAD.
+AC   DO-00992
+SY   DEUBiquitinase ADaptor.
+FT   DOMAIN.
+TG   PS51916; DEUBAD;
+DO   PDOC51916;
+//
 ID   DFDF.
 AC   DO-00785
 FT   DOMAIN.
@@ -1447,11 +1454,12 @@ FT   DOMAIN.
 TG   PS51912; DMAP1_BIND;
 DO   PDOC51912;
 //
-ID   DMAP-interaction.
+ID   DMAP1-binding.
 AC   DO-00834
+SY   DMAP-interaction.
 FT   DOMAIN.
-TG   PF06464; DMAP_binding;
-DO   IPR010506;
+TG   PS51912; DMAP1_BIND;
+DO   PDOC51912;
 //
 ID   DNL-type.
 AC   DO-00178
@@ -3277,6 +3285,14 @@ FT   DOMAIN.
 TG   PS51640; MRG;
 DO   PDOC51640;
 //
+ID   MRH.
+AC   DO-00993
+SY   mannose 6-phosphate receptor homology.
+SY   Man-6-P receptor homology.
+FT   DOMAIN.
+TG   PS51914; MRH;
+DO   PDOC51914;
+//
 ID   mRNA cap 0 methyltransferase.
 AC   DO-00804
 FT   DOMAIN.
@@ -4172,12 +4188,6 @@ SY   Pro-rich attachment.
 FT   DOMAIN.
 TG   None;
 //
-ID   PRKCSH.
-AC   DO-00525
-FT   DOMAIN.
-TG   PF07915; PRKCSH;
-DO   IPR012913;
-//
 ID   pre-SET.
 AC   DO-00526
 FT   DOMAIN.
@@ -4189,6 +4199,12 @@ AC   DO-00527
 FT   DOMAIN.
 TG   PS50904; PRELI_MSF1;
 DO   PDOC50904;
+//
+ID   PRKCSH.
+AC   DO-00525
+FT   DOMAIN.
+TG   PF07915; PRKCSH;
+DO   IPR012913;
 //
 ID   PRORP.
 AC   DO-00942
@@ -4216,6 +4232,13 @@ AC   DO-00529
 FT   DOMAIN.
 TG   PS50011; PROTEIN_KINASE_DOM;
 DO   PDOC00100;
+//
+ID   Pru.
+AC   DO-00994
+SY   pleckstrin-like receptor for the Ub.
+FT   DOMAIN.
+TG   PS51917; PRU;
+DO   PDOC51917;
 //
 ID   pseudo-CRIB.
 AC   DO-00530
@@ -4330,6 +4353,13 @@ SY   Rab-binding.
 FT   DOMAIN.
 TG   PS50916; RABBD;
 DO   PDOC50916;
+//
+ID   radical SAM core.
+AC   DO-00995
+SY   radical S-adenosylmethionine core.
+FT   DOMAIN.
+TG   PS51918; RADICAL_SAM;
+DO   PDOC51918;
 //
 ID   RAG1-type.
 AC   DO-00751
@@ -5837,6 +5867,12 @@ FT   DOMAIN.
 TG   PS51827; XTBD;
 DO   PDOC51827;
 //
+ID   xRRM.
+AC   DO-00996
+FT   DOMAIN.
+TG   PF08777; RRM_3;
+DO   IPR014886;
+//
 ID   YD.
 AC   DO-00731
 FT   REPEAT.
@@ -5885,6 +5921,12 @@ SY   YT521-B homology.
 FT   DOMAIN.
 TG   PS50882; YTH;
 DO   PDOC50882;
+//
+ID   Z-binding.
+AC   DO-00997
+FT   DOMAIN.
+TG   PS50139; Z_BINDING;
+DO   PDOC50139;
 //
 ID   ZAD.
 AC   DO-00738
