@@ -2164,7 +2164,6 @@ AC   FA-00506
 ID   CCDC58 family
 AC   FA-00509
 //
-//
 ID   CCDC69 family
 AC   FA-05447
 //
@@ -5600,7 +5599,7 @@ AC   FA-01321
 ID   FAM91 family
 AC   FA-01322
 //
-SY   FAM92 family
+ID   FAM92 family
 AC   FA-01323
 //
 ID   FAM98 family
@@ -16323,7 +16322,7 @@ SY   TDD superfamily. DTWD2 family.
 SY   DTW family.
 HI   FA-05565; TDD superfamily
 //
-SY   TSR3 family
+ID   TSR3 family
 AC   FA-04889
 SY   TDD superfamily. TSR3 family
 SY   UPF0293 family.
@@ -16900,7 +16899,6 @@ AC   FA-04091
 //
 ID   TMEM47 family
 AC   FA-04092
-//
 //
 ID   TMEM53 family
 AC   FA-04095
@@ -18014,7 +18012,6 @@ AC   FA-04325
 //
 ID   UPF0193 (EVG1) family
 AC   FA-04326
-//
 //
 ID   UPF0220 family
 AC   FA-04331
