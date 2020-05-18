@@ -939,3 +939,11 @@ LinkTp: Explicit
 Server: http://www.psidev.info/mif
 Db_URL: http://purl.obolibrary.org/obo/%s
 Cat   : Ontologies
+
+AC    : DB-9125
+Abbrev: Unimod
+Name  : Unimod - Protein modifications for mass spectrometry 
+LinkTp: Explicit
+Server: http://www.unimod.org
+Db_URL: http://www.unimod.org/modifications_view.php?editid1=%s
+Cat   : Ontologies
