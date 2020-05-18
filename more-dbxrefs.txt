@@ -564,14 +564,6 @@ Server: http://igrcid.ibms.sinica.edu.tw/cgi-bin/index.cgi
 Db_URL: http://igrcid.ibms.sinica.edu.tw/cgi-bin/cell_line_view.cgi?cl_name=%s
 Cat   : Cell line databases/resources
 
-AC    : DB-9075
-Abbrev: Antibodypedia
-Name  : Antibodypedia
-LinkTp: Explicit
-Server: http://www.antibodypedia.com/
-Db_URL: http://www.antibodypedia.com/gene_details.php?gene_id=%s
-Cat   : Antibody databases
-
 AC    : DB-9076
 Abbrev: SKIP
 Name  : Stemcell Knowledge and Information Portal
