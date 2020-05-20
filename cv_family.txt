@@ -22,7 +22,7 @@ Last update: 18-Apr-2020
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05577
+AN   Next free AC: FA-05578
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -14519,7 +14519,7 @@ ID   SARG family
 AC   FA-03500
 //
 ID   SARM1 family
-AC   FA-05570
+AC   FA-05577
 //
 ID   SAS10 family
 AC   FA-03501
