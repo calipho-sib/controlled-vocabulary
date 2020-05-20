@@ -66,7 +66,7 @@ ID   Copper.
 AC   CVME_0004
 DE   Annotate an amino acid residue that binds a copper (Cu(2+) or Cu(1+))
 DE   cation. Copper is a metal with the atomic number: 29.
-SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation; Copper(2+); Copper A1.
+SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation; Copper(2+); Copper A1; Copper A2.
 KW   KW-0186:Copper.
 //
 ID   Copper or nickel.
@@ -114,7 +114,7 @@ ID   Iron (heme A axial ligand).
 AC   CVME_0011
 DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
 DE   cation which is coordinated to the porphyrin group of an heme group.
-SY   Iron (low-spin heme A axial ligand).
+SY   Iron (low-spin heme A axial ligand); Iron (high-spin heme A3 axial ligand).
 KW   KW-0349:Heme.
 KW   KW-0408:Iron.
 //
@@ -241,7 +241,7 @@ ID   Magnesium or manganese.
 AC   CVME_0023
 DE   Annotate an amino acid residue that binds either a magnesium (Mg(+2))
 DE   or a manganese (Mn(+2)) cation.
-SY   Magnesium 1 or manganese.
+SY   Magnesium 1 or manganese; Magnesium 2 or manganese.
 KW   KW-0460:Magnesium.
 KW   KW-0464:Manganese.
 //
