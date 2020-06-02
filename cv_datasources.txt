@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0312
+next id:  CVDS-0313
 
 __________________________________________________________________________
 ID   AgBase
@@ -165,6 +165,11 @@ ID   HGNC
 AC   CVDS-0046
 DE   HUGO Gene Nomenclature Committee
 DR   http://www.gene.ucl.ac.uk/nomenclature
+//
+ID   HGNC-UCL
+AC   CVDS-0312
+DE   HGNC gene annotation from University College of London
+DR   https://www.ucl.ac.uk/cardiovascular/research/pre-clinical-and-fundamental-science/functional-gene-annotation/hgnc-gene-annotation
 //
 ID   HPRD
 AC   CVDS-0015
