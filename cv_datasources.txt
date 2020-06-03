@@ -20,13 +20,18 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0313
+next id:  CVDS-0314
 
 __________________________________________________________________________
 ID   AgBase
 AC   CVDS-0040
 DE   AgBase is a curated resource for functional analysis of agricultural plant and animal gene products.
 DR   http://agbase.msstate.edu/
+//
+ID   Alzforum
+AC   CVDS-0313
+DE   ALZFORUM networking for a cure
+DR   https://www.alzforum.org/
 //
 ID   Alzheimers_University_of_Toronto
 AC   CVDS-0078
