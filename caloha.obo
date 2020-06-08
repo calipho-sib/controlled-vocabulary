@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.4
-date: 09:01:2020 12:00
+date: 08:06:2020 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -10224,6 +10224,59 @@ xref: FMA:72260
 xref: UBERON:0002132
 relationship: part_of TS-0125 ! Cerebellum
 
+[Term]
+id: TS-2568
+name: Mediastinal lymph node
+def: "A lymph node located in the mediastinum. Mediastinal lymph nodes are arranged in three groups, one on the lateral, another on the medial, and a third on the anterior aspect of the vessels; the third group is, however, sometimes absent." [C0588055:Mediastinal_Lymph_Node]
+xref: FMA:12774
+xref: UBERON:0002524
+is_a: TS-0579 ! Lymph node
+
+[Term]                       
+id: TS-2569                  
+name: Periaortic lymph node 
+def: "The periaortic lymph nodes (also known as lumbar) are a group of lymph nodes that lie in front of the lumbar vertebrae near the aorta. These lymph nodes receive drainage from the gastrointestinal tract and the abdominal organs. The periaortic group is subdivided into: preaortic, paraaortic, and retroaortic groups." [Wikipedia:Periaortic_lymph_nodes]
+is_a: TS-0579 ! Lymph node   
+
+[Term]                       
+id: TS-2570                  
+name: Perihilar lymph node 
+def: "A lymph node localized in the hilar area of the lung." [PMID:26807271]
+is_a: TS-0579 ! Lymph node
+
+[Term]                       
+id: TS-2571                  
+name: Pancreatic duct 
+def: "A duct that collects and carries secretions of the exocrine pancreas to the intestine." [UBERON:0007329]
+synonym: "Duct of pancreas" RELATED []
+synonym: "Pancreas duct" RELATED []
+xref: FMA:10419
+xref: UBERON:0007329
+relationship: part_of TS-1241 ! Exocrine pancreas
+
+[Term]                       
+id: TS-2572                  
+name: Pancreatic duct epithelium 
+def: "An epithelium that is part of a pancreatic duct." [neXtProt:PDR]
+synonym: "Epithelium of pancreatic duct" RELATED []
+xref: UBERON:0009970
+is_a: TS-0288 ! Epithelium
+relationship: part_of TS-2571 ! Pancreatic duct
+
+[Term]     
+id: TS-2573
+name: Ovarian surface epithelium 
+def: "Layer of simple cuboidal cells covering surface of ovary." [UBERON:0001304]
+synonym: "Surface epithelium of ovary" RELATED []
+synonym: "Ovary surface epithelium" RELATED []
+synonym: "Ovary germinal epithelium" RELATED []
+synonym: "Surface epithelium of ovary" RELATED []
+synonym: "Germinal epithelium of ovary" RELATED []
+xref: BTO:0004483
+xref: FMA:18629
+xref: UBERON:0001304
+is_a: TS-0288 ! Epithelium
+relationship: part_of TS-0730 ! Ovary
 
 [Typedef]
 id: develops_from
