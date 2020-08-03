@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 18-Apr-2020
+Last update: 03-Aug-2020
 
 ----------------------------------------------------------------------------
 
@@ -368,12 +368,6 @@ FT   DOMAIN.
 TG   PS51483; B5;
 DO   PDOC51483;
 //
-ID   B9.
-AC   DO-00052
-FT   DOMAIN.
-TG   PS51381; B9;
-DO   PDOC51381;
-//
 ID   BACK.
 AC   DO-00053
 SY   BTB/Kelch associated.
@@ -616,12 +610,18 @@ DO   PDOC51911;
 //
 ID   C2 B9-type.
 AC   DO-00979
+SY   B9.
 FT   DOMAIN.
 TG   PS51381; C2_B9;
 DO   PDOC51381;
 //
 ID   C2 DOCK-type.
 AC   DO-00980
+SY   CDM-zizimin homology 1.
+SY   CZH-1.
+SY   CZH1.
+SY   DOCK-homology region 1.
+SY   DHR-1.
 FT   DOMAIN.
 TG   PS51650; C2_DOCK;
 DO   PDOC51650;
@@ -1396,22 +1396,6 @@ FT   DOMAIN.
 TG   PS50216; DHHC;
 DO   PDOC50216;
 //
-ID   DHR-1.
-AC   DO-00169
-SY   CZH-1.
-SY   CZH1.
-FT   DOMAIN.
-TG   PS51650; DHR_1;
-DO   PDOC51650;
-//
-ID   DHR-2.
-AC   DO-00170
-SY   CZH-2.
-SY   CZH2.
-FT   DOMAIN.
-TG   PS51651; DHR_2;
-DO   PDOC51650;
-//
 ID   Dicer dsRNA-binding fold.
 AC   DO-00171
 FT   DOMAIN.
@@ -1469,6 +1453,11 @@ DO   PDOC51284;
 //
 ID   DOCKER.
 AC   DO-00982
+SY   CDM-zizimin homology 2.
+SY   CZH-2.
+SY   CZH2.
+SY   DOCK-homology region 2.
+SY   DHR-2.
 FT   DOMAIN.
 TG   PS51651; DOCKER;
 DO   PDOC51650;
@@ -1504,12 +1493,6 @@ SY   DPH-type metal-binding.
 FT   DOMAIN.
 TG   PS51074; DPH_MB;
 DO   PDOC51074;
-//
-ID   DRADA.
-AC   DO-00184
-FT   REPEAT.
-TG   PS50139; DRADA_REPEAT;
-DO   PDOC50139;
 //
 ID   DRBM.
 AC   DO-00185
@@ -2298,13 +2281,6 @@ FT   DOMAIN.
 TG   PF04849; HAP1_N;
 DO   IPR006933;
 //
-ID   HARE-HTH.
-AC   DO-00976
-SY   HB1, ASXL, restriction endonuclease HTH.
-FT   DOMAIN.
-TG   PF05066; HARE-HTH;
-DO   IPR007759;
-//
 ID   HARP.
 AC   DO-00288
 FT   DOMAIN.
@@ -2534,6 +2510,7 @@ DO   PDOC50943;
 //
 ID   HTH HARE-type.
 AC   DO-00985
+SY   HB1, ASXL, restriction endonuclease HTH.
 FT   DOMAIN.
 TG   PS51913; HTH_HARE;
 DO   PDOC51913;
@@ -3424,13 +3401,6 @@ FT   DNA_BIND.
 TG   PS51487; NBD;
 DO   PDOC51487;
 //
-ID   NBPF.
-AC   DO-00438
-SY   neuroblastoma breakpoint family.
-FT   DOMAIN.
-TG   PS51316; NBPF;
-DO   PDOC51316;
-//
 ID   NDT80.
 AC   DO-00439
 FT   DNA_BIND.
@@ -3578,6 +3548,8 @@ DO   IPR009764;
 ID   Olduvai.
 AC   DO-00986
 SY   ODV.
+SY   neuroblastoma breakpoint family.
+SY   NBPF.
 FT   DOMAIN.
 TG   PS51316; ODV;
 DO   PDOC51316;
@@ -4193,12 +4165,6 @@ AC   DO-00527
 FT   DOMAIN.
 TG   PS50904; PRELI_MSF1;
 DO   PDOC50904;
-//
-ID   PRKCSH.
-AC   DO-00525
-FT   DOMAIN.
-TG   PF07915; PRKCSH;
-DO   IPR012913;
 //
 ID   PRORP.
 AC   DO-00942
@@ -5918,6 +5884,7 @@ DO   PDOC50882;
 //
 ID   Z-binding.
 AC   DO-00997
+SY   DRADA repeat.
 FT   DOMAIN.
 TG   PS50139; Z_BINDING;
 DO   PDOC50139;
