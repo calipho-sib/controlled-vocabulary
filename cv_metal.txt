@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of metal-binding sites
 File name:   cv_metal.txt
-Last update: 09-Jul-2019
+Last update: 20-May-2020
 
 ----------------------------------------------------------------------------
 
