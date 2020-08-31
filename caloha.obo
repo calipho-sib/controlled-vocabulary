@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.4
-date: 08:06:2020 12:00
+data-version: 1.5
+date: 01:09:2020 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -21,6 +21,7 @@ id: TS-0002
 name: Abdominal adipose tissue
 def: "Fatty tissue in the region of the abdomen." [neXtProt:PDR]
 synonym: "Abdominal Fat" RELATED []
+synonym: "Adipose tissue of abdominal region" RELATED []
 xref: MESH:D050153
 xref: UBERON:0007808
 is_a: TS-0013 ! Adipose tissue
@@ -406,6 +407,7 @@ id: TS-0088
 name: Bone
 def: "Rigid organ that forms the skeletal components of the body. The tissues found in bones include bone tissue, bone marrow, endosteum and periosteum, nerves, blood vessels and cartilage." [Wikipedia:Bone]
 synonym: "Bones" RELATED []
+synonym: "Bone element" RELATED []
 xref: FMA:30317
 xref: UBERON:0001474
 relationship: part_of TS-1320 ! Skeletal system
@@ -551,7 +553,7 @@ def: "A non-vascular form of connective tissue composed of chondrocytes embedded
 xref: BTO:0000206
 xref: FMA:71500
 xref: MESH:D002356
-xref: UBERON:0007844
+xref: UBERON:0002418
 is_a: TS-2009 ! Connective tissue
 relationship: part_of TS-1320 ! Skeletal system
 
@@ -785,7 +787,7 @@ name: Colon smooth muscle
 def: "Smooth muscle of colon." [neXtProt:PDR]
 synonym: "Colonic smooth muscle" RELATED []
 synonym: "Colorectal smooth muscle" RELATED []
-is_a: TS-0943 ! Smooth muscle
+is_a: TS-0943 ! Smooth muscle tissue
 relationship: part_of TS-0158 ! Colon
 
 [Term]
@@ -955,7 +957,8 @@ xref: BTO:0000341
 xref: FMA:13295
 xref: MESH:D003964
 xref: UBERON:0001103
-is_a: TS-0933 ! Skeletal muscle
+is_a: TS-2615 ! Skeletal muscle organ
+relationship: part_of TS-1071 ! Trunk
 
 [Term]
 id: TS-0199
@@ -1181,6 +1184,7 @@ id: TS-0283
 name: Epidermis
 def: "The external, non-vascular layer of the skin. It is made up, from within outward, of five layers of epithelium: (1) basal layer (stratum basale epidermidis); (2) spinous layer (stratum spinosum epidermidis); (3) granular layer (stratum granulosum epidermidis); (4) clear layer (stratum lucidum epidermidis); and (5) horny layer (stratum corneum epidermidis)." [MeSH:Epidermis]
 synonym: "Epiderm" RELATED []
+synonym: "Skin epidermis" RELATED []
 synonym: "Epidermal" RELATED []
 synonym: "Epidermal cells" RELATED []
 synonym: "Skin epidermal cells" RELATED []
@@ -1269,7 +1273,7 @@ xref: FMA:49033
 xref: MESH:D009801
 xref: UBERON:0001601
 xref: UBERON:0006531
-is_a: TS-0933 ! Skeletal muscle
+is_a: TS-2615 ! Skeletal muscle organ
 relationship: part_of TS-2454 ! Ocular adnexa
 
 [Term]
@@ -1364,7 +1368,7 @@ relationship: part_of TS-0360 ! Fetus
 id: TS-0331
 name: Fetal colon
 def: "Fetal structure that gives rise to adult colon." [neXtProt:PDR]
-relationship: part_of TS-0360 ! Fetus
+relationship: part_of TS-2432 ! Fetal intestine
 
 [Term]
 id: TS-0334
@@ -1563,13 +1567,10 @@ relationship: part_of TS-0383 ! Foreskin
 id: TS-0389
 name: Frontal lobe
 def: "The anterior part of the cerebral hemisphere." [MeSH:Frontal_Lobe]
-synonym: "Brain frontal cortex" RELATED []
 synonym: "Brain frontal lobe" RELATED []
-synonym: "Frontal cortex" RELATED []
-xref: BTO:0000484
 xref: FMA:61824
 xref: MESH:D005625
-xref: UBERON:0001870
+xref: UBERON:0016525
 relationship: part_of TS-2007 ! Cerebral hemisphere
 
 [Term]
@@ -1759,17 +1760,20 @@ is_a: TS-0444 ! Heart ventricle
 id: TS-0440
 name: Heart muscle
 def: "The muscle tissue of the heart. It is composed of striated, involuntary muscle cells (myocytes, cardiac) connected to form the contractile pump to generate blood flow." [MeSH:Myocardium]
-synonym: "Cardiac muscle" RELATED []
-synonym: "Myocard" RELATED []
-synonym: "Myocardium" RELATED []
+synonym: "Cardiac muscle tissue" RELATED []
+synonym: "cardiac muscle" RELATED []
+synonym: "heart myocardium muscle tissue" RELATED []
+synonym: "muscle of heart muscle tissue" RELATED []
+synonym: "muscle tissue of cardiac muscle" RELATED []
+synonym: "muscle tissue of heart muscle" RELATED []
+synonym: "muscle tissue of heart myocardium" RELATED []
+synonym: "muscle tissue of myocardium" RELATED []
+synonym: "myocardium muscle tissue" RELATED []
 xref: BTO:0000199
-xref: BTO:0000901
-xref: FMA:9462
-xref: MESH:D009206
+xref: FMA:14068
 xref: UBERON:0001133
-xref: UBERON:0002349
 xref: URL:http://www.proteinatlas.org/dictionary/normal/heart+muscle
-is_a: TS-2047 ! Striated muscle
+is_a: TS-2047 ! Striated muscle tissue
 relationship: part_of TS-0445 ! Heart
 
 [Term]
@@ -2131,10 +2135,11 @@ id: TS-0510
 name: Kidney
 def: "Body organ that filters blood for the secretion of urine and that regulates ion concentrations." [MeSH:Kidney]
 synonym: "Renal" RELATED []
+synonym: "Adult mammalian kidney" RELATED []
 xref: BTO:0000671
 xref: FMA:7203
 xref: MESH:D007668
-xref: UBERON:0002113
+xref: UBERON:0000082
 xref: URL:http://www.proteinatlas.org/dictionary/normal/kidney
 relationship: part_of TS-1323 ! Urinary system
 
@@ -2614,7 +2619,7 @@ is_a: TS-2367 ! Myeloid leukocyte
 
 [Term]
 id: TS-0642
-name: Muscle
+name: Muscle tissue
 def: "Contractile tissue that produces movement in animals." [MeSH:Muscles]
 synonym: "Muscle tissue" RELATED []
 xref: BTO:0000887
@@ -2661,7 +2666,7 @@ xref: BTO:0000907
 xref: FMA:17743
 xref: MESH:D009215
 xref: UBERON:0001296
-is_a: TS-0943 ! Smooth muscle
+is_a: TS-0943 ! Smooth muscle tissue
 relationship: part_of TS-1102 ! Uterus
 
 [Term]
@@ -2680,6 +2685,8 @@ id: TS-0656
 name: Nasal epithelium
 def: "Epithelium lining the nose. Each nose chamber is divided into three regions: vestibule, respiratory segment and olfactory segment. The vestibule is lined with stratified squamous epithelium. Where the vestibule ends, the stratified squamous epithelium becomes thinner and undergoes a transition to the pseudostratified epithelium that characterizes the respiratory segment. The ciliated, pseudostratified columnar epithelium of the respiratory segment is composed of ciliated cells, goblet cells, brush cells, small granule cells and basal cells. The epithelium of the respiratory segment of the nasal cavity is essentially the same as the epithelium lining most of the parts that follow in the conducting system. The olfactory epithelium lining the olfactory segment of the nasal cavity, like the epithelium of the respiratory segment, is also pseudostratified but contains different cell types: bipolar neurons olfactory cells, supporting or sustentacular cells, basal cells and brush cells. The mucous lining of the nasal cavity, including lining of the nostril (vestibule) and the olfactory mucosa. Nasal mucosa consists of ciliated cells, goblet cells, brush cells, small granule cells, basal cells (stem cells) and glands containing both mucous and serous cells." [ISBN:978-0781750561;MeSH:Nasal_Mucosa]
 synonym: "Epithelium of nose" RELATED []
+synonym: "Nasal cavity mucosa" RELATED []
+synonym: "Nasal cavity epithelium" RELATED []
 xref: FMA:63140
 xref: UBERON:0005384
 is_a: TS-0023 ! Airway epithelium
@@ -2827,9 +2834,7 @@ is_a: TS-2110 ! Embryonic structure
 id: TS-0693
 name: Occipital lobe
 def: "Posterior part of the cerebral hemisphere." [MeSH:Occipital_Lobe]
-synonym: "Brain occipital cortex" RELATED []
 synonym: "Brain occipital lobe" RELATED []
-synonym: "Occipital cortex" RELATED []
 xref: BTO:0000293
 xref: FMA:67325
 xref: MESH:D009778
@@ -2883,7 +2888,7 @@ xref: BTO:0001578
 xref: FMA:63063
 xref: UBERON:0001976
 is_a: TS-0288 ! Epithelium
-relationship: part_of TS-0700 ! Esophagus
+relationship: part_of TS-2626 ! Esophagus mucosa
 
 [Term]
 id: TS-0700
@@ -3158,7 +3163,6 @@ is_a: TS-1300 ! Endocrine gland
 id: TS-0747
 name: Parietal lobe
 def: "Upper central part of the cerebral hemisphere." [MeSH:Parietal_Lobe]
-synonym: "Brain parietal cortex" RELATED []
 synonym: "Brain parietal lobe" RELATED []
 synonym: "Parietal cortex" RELATED []
 xref: BTO:0001001
@@ -3247,6 +3251,10 @@ is_a: TS-0766 ! Peripheral blood leukocyte
 id: TS-0768
 name: Peripheral blood monocyte
 def: "Monocytes found in peripheral blood." [neXtProt:PDR]
+synonym: "Mononuclear cell" RELATED []
+synonym: "Mononuclear leukocyte" RELATED []
+xref: CL:0000842
+xref: BTO:0000878
 xref: FMA:86713
 is_a: TS-0638 ! Monocyte
 is_a: TS-0766 ! Peripheral blood leukocyte
@@ -3287,7 +3295,7 @@ synonym: "Nerve" RELATED []
 xref: BTO:0000925
 xref: BTO:0001027
 xref: MESH:D010525
-xref: UBERON:0002003
+xref: UBERON:0001021
 xref: URL:http://www.proteinatlas.org/dictionary/normal/soft+tissue
 relationship: part_of TS-0808 ! Peripheral nervous system
 
@@ -3304,7 +3312,7 @@ xref: BTO:0001784
 xref: FMA:15054
 xref: FMA:76466
 xref: MESH:D010581
-xref: UBERON:0001211
+xref: UBERON:0003454
 is_a: TS-0584 ! Lymphoid tissue
 
 [Term]
@@ -3670,6 +3678,7 @@ synonym: "Epithelium of retinal pigment" RELATED []
 synonym: "Pigment epithelium of retina" EXACT []
 synonym: "Retinal pigment epithelial cell" RELATED []
 synonym: "Retinal pigmented epithelium" RELATED []
+synonym: "Pigmented layer of retina" RELATED []
 xref: BTO:0001177
 xref: FMA:58627
 xref: MESH:D055213
@@ -3839,16 +3848,14 @@ relationship: part_of TS-0800 ! Plasma
 
 [Term]
 id: TS-0933
-name: Skeletal muscle
+name: Skeletal muscle tissue
 def: "A subtype of striated muscle, attached by tendons to the skeleton. Skeletal muscles are innervated and their movement can be consciously controlled. They are also called voluntary muscles." [MeSH:Skeletal_Muscle]
-synonym: "Skeletal muscle tissue" RELATED []
-xref: BTO:0001103
 xref: FMA:14069
 xref: MESH:D018482
 xref: UBERON:0001134
 xref: URL:http://www.proteinatlas.org/dictionary/normal/skeletal+muscle
-is_a: TS-2047 ! Striated muscle
-relationship: part_of TS-1311 ! Musculoskeletal system
+is_a: TS-2047 ! Striated muscle tissue
+relationship: part_of TS-2615 ! Skeletal muscle organ
 
 [Term]
 id: TS-0934
@@ -3879,7 +3886,7 @@ synonym: "Slow skeletal muscle" RELATED []
 xref: BTO:0001812
 xref: MESH:D018657
 xref: UBERON:0006907
-is_a: TS-0933 ! Skeletal muscle
+is_a: TS-0933 ! Skeletal muscle tissue
 
 [Term]
 id: TS-0941
@@ -3907,7 +3914,7 @@ relationship: part_of TS-0490 ! Intestine
 
 [Term]
 id: TS-0943
-name: Smooth muscle
+name: Smooth muscle tissue
 def: "Unstriated and unstriped muscle, one of the muscles of the internal organs, blood vessels, hair follicles, etc. Contractile elements are elongated, usually spindle-shaped cells with centrally located nuclei. Smooth muscle fibers are bound together into sheets or bundles by reticular fibers and frequently elastic nets are also abundant." [MeSH:Smooth_Muscle]
 synonym: "Involuntary muscle" RELATED []
 synonym: "Non-striated muscle" RELATED []
@@ -3918,7 +3925,7 @@ xref: FMA:14070
 xref: MESH:D009130
 xref: UBERON:0001135
 xref: URL:http://www.proteinatlas.org/dictionary/normal/smooth+muscle
-is_a: TS-0642 ! Muscle
+is_a: TS-0642 ! Muscle tissue
 
 [Term]
 id: TS-0949
@@ -4142,7 +4149,7 @@ xref: BTO:0001333
 xref: FMA:5890
 xref: MESH:D005728
 xref: UBERON:0001806
-is_a: TS-0397 ! Ganglion
+is_a: TS-2340 ! Autonomic ganglion
 relationship: part_of TS-2049 ! Sympathetic chain
 
 [Term]
@@ -4253,9 +4260,7 @@ relationship: part_of TS-0380 ! Forebrain
 id: TS-1020
 name: Temporal lobe
 def: "Lower lateral part of the cerebral hemisphere." [MeSH:Temporal_Lobe]
-synonym: "Brain temporal cortex" RELATED []
 synonym: "Brain temporal lobe" RELATED []
-synonym: "Temporal cortex" RELATED []
 xref: BTO:0001355
 xref: FMA:61825
 xref: MESH:D013702
@@ -4305,6 +4310,7 @@ relationship: part_of TS-1310 ! Male reproductive system
 id: TS-1031
 name: Thalamus
 def: "Paired bodies containing mostly gray substance and forming part of the lateral wall of the third ventricle of the brain. The thalamus represents the major portion of the diencephalon and is commonly divided into cellular aggregates known as nuclear groups." [MeSH:Thalamus]
+synonym: "dorsal plus ventral thalamus" RELATED []
 xref: BTO:0001365
 xref: FMA:62007
 xref: MESH:D013788
@@ -4327,8 +4333,8 @@ synonym: "Thorax muscle" RELATED []
 xref: BTO:0000508
 xref: FMA:9619
 xref: UBERON:0002426
-is_a: TS-0933 ! Skeletal muscle
-relationship: part_of TS-2464 ! Thoraci wall
+is_a: TS-2615 ! Skeletal muscle organ
+relationship: part_of TS-2464 ! Thoracic wall
 
 [Term]
 id: TS-1039
@@ -4408,7 +4414,7 @@ xref: FMA:54640
 xref: MESH:D014059
 xref: UBERON:0001723
 is_a: TS-2043 ! Sense organ
-relationship: part_of TS-1315 ! Mouth
+relationship: part_of TS-2582 ! Oral cavity
 relationship: part_of TS-2544 ! Gustatory system
 
 [Term]
@@ -4422,7 +4428,7 @@ synonym: "Lingual epithelium" RELATED []
 synonym: "Tongue epithelial cell" RELATED []
 xref: BTO:0000992
 xref: UBERON:0003357
-is_a: TS-0288 ! Epithelium
+is_a: TS-2627 ! Squamous epithelium
 relationship: part_of TS-1050 ! Tongue
 
 [Term]
@@ -4444,7 +4450,7 @@ xref: BTO:0000397
 xref: FMA:12516
 xref: MESH:D014070
 xref: UBERON:0001091
-relationship: part_of TS-1315 ! Mouth
+relationship: part_of TS-2582 ! Oral cavity
 
 [Term]
 id: TS-1056
@@ -4468,6 +4474,7 @@ relationship: part_of TS-1055 ! Tooth
 id: TS-1058
 name: Trabecular meshwork
 def: "A porelike structure surrounding the entire circumference of the anterior chamber through which aqueous humor circulates to the canal of Schlemm." [MeSH:Trabecular_Meshwork]
+synonym: "Eye trabecular meshwork" RELATED []
 synonym: "Eye trabeculum" RELATED []
 synonym: "Reticulum trabeculare" RELATED []
 synonym: "Trabecular meshwork of the eye" RELATED []
@@ -4601,7 +4608,7 @@ name: Urinary bladder smooth muscle
 def: "Smooth muscle of urinary bladder." [neXtProt:PDR]
 xref: BTO:0001849
 xref: UBERON:0004228
-is_a: TS-0943 ! Smooth muscle
+is_a: TS-0943 ! Smooth muscle tissue
 relationship: part_of TS-1090 ! Urinary bladder
 
 [Term]
@@ -4617,7 +4624,7 @@ xref: FMA:15936
 xref: UBERON:0004645
 xref: URL:http://www.proteinatlas.org/dictionary/normal/urinary+bladder
 is_a: TS-1096 ! Urothelium
-relationship: part_of TS-1090 ! Urinary bladder
+relationship: part_of TS-2591 ! Urinary bladder mucosa
 
 [Term]
 id: TS-1090
@@ -4723,7 +4730,7 @@ synonym: "Blood vessel smooth muscle" RELATED []
 xref: BTO:0001431
 xref: MESH:D009131
 xref: UBERON:0004237
-is_a: TS-0943 ! Smooth muscle
+is_a: TS-0943 ! Smooth muscle tissue
 relationship: part_of TS-0080 ! Blood vessel
 
 [Term]
@@ -5030,7 +5037,7 @@ is_a: TS-0216 ! Ectoderm
 id: TS-1216
 name: Jejunal smooth muscle
 def: "Smooth muscle of jejunum." [neXtProt:PDR]
-is_a: TS-0943 ! Smooth muscle
+is_a: TS-0943 ! Smooth muscle tissue
 relationship: part_of TS-0496 ! Jejunum
 
 [Term]
@@ -5063,7 +5070,7 @@ id: TS-1231
 name: Vulva/Anal skin
 def: "Skin pertaining both to the vulva and anus." [neXtProt:PDR]
 xref: URL:http://www.proteinatlas.org/dictionary/normal/anal+skin
-is_a: TS-0934 ! Skin
+is_a: TS-2580 ! Zone of Skin
 relationship: part_of TS-1168 ! Vulva
 relationship: part_of TS-2005 ! Anus
 
@@ -5099,7 +5106,7 @@ xref: BTO:0001845
 xref: FMA:67782
 xref: UBERON:0002031
 xref: URL:http://www.proteinatlas.org/dictionary/normal/bronchus
-relationship: part_of TS-1063 ! Tracheobronchial epithelium
+is_a: TS-1063 ! Tracheobronchial epithelium
 relationship: part_of TS-1229 ! Bronchus
 
 [Term]
@@ -5175,18 +5182,15 @@ is_a: TS-2026 ! Epithelial cell
 [Term]
 id: TS-1250
 name: Esophageal squamous cell
-def: "A flat, scale-like epithelial cell that lines the upper and middle third of the esophageal lumen." [NCI_Thesaurus:Esophageal_Squamous_Cell]
+def: "A flat, scale-like epithelial cell that forms the esophageal squamous epithelium." [NCI_Thesaurus:Esophageal_Squamous_Cell]
 synonym: "Esophagus squamous cell" RELATED []
 synonym: "Esophagus squamous epithelial cell" RELATED []
 synonym: "Esophagus squamous epithelial cells" RELATED []
 synonym: "Oesophageal squamous epithelial cell" RELATED []
-synonym: "Oesophageal squamous epithelium" RELATED []
 synonym: "Oesophagus squamous cell" RELATED []
 synonym: "Oesophagus squamous epithelial cell" RELATED []
-xref: BTO:0003635
-xref: UBERON:0006920
 is_a: TS-1249 ! Squamous cell
-relationship: part_of TS-0698 ! Esophageal epithelium
+relationship: part_of TS-2624 ! Esophageal squamous epithelium
 
 [Term]
 id: TS-1251
@@ -5199,7 +5203,7 @@ synonym: "Uterine cervix squamous epithelial cell" RELATED []
 synonym: "Uterine cervix squamous epithelial cells" RELATED []
 xref: CL:1001575
 is_a: TS-1249 ! Squamous cell
-relationship: part_of TS-0137 ! Uterine cervix epithelium
+relationship: part_of TS-2636 ! Cervix squamous epithelium
 
 [Term]
 id: TS-1252
@@ -5364,10 +5368,7 @@ relationship: part_of TS-1102 ! Uterus
 id: TS-1266
 name: Endometrium stroma
 def: "The stroma of the uterus contains loose connective tissue, fibroblasts, blood vessels, lymphatic vessels, and nerves." [HPA:HPA]
-synonym: "Cells in endometrial stroma" RELATED []
 synonym: "Endometrial stroma" RELATED []
-synonym: "Endometrial stromal cell" RELATED []
-synonym: "Endometrium stromal cell" RELATED []
 synonym: "Stroma of endometrium" RELATED []
 synonym: "Uterine endometrium stroma" RELATED []
 synonym: "Uterus endometrium stroma" RELATED []
@@ -5802,12 +5803,10 @@ is_a: TS-2088 ! Anatomical system
 id: TS-1315
 name: Mouth
 def: "The oval-shaped oral cavity located at the apex of the digestive tract and consisting of two parts: the vestibule and the oral cavity proper." [MeSH:Mouth]
-synonym: "Oral cavity" RELATED []
 xref: BTO:0001090
 xref: FMA:49184
 xref: MESH:D009055
 xref: UBERON:0000165
-xref: UBERON:0000167
 relationship: part_of TS-0407 ! Gastrointestinal tract
 relationship: part_of TS-0436 ! Head
 
@@ -6184,6 +6183,7 @@ is_a: TS-0415 ! Glial cell
 id: TS-2028
 name: Lateral thalamic nuclei
 def: "A narrow strip of cell groups on the dorsomedial surface of the thalamus. It includes the lateral dorsal nucleus, lateral posterior nucleus, and the pulvinar." [MeSH:Lateral_Thalamic_Nuclei]
+synonym: "Lateral nuclear group of thalamus" RELATED []
 xref: FMA:62174
 xref: MESH:D020647
 xref: UBERON:0002736
@@ -6353,14 +6353,14 @@ is_obsolete: true
 
 [Term]
 id: TS-2047
-name: Striated muscle
-def: "One of two types of muscle in the body, characterized by the array of bands observed under microscope. Striated muscles can be divided into two subtypes: the cardiac muscle and the skeletal muscle." [MeSH:Striated_Muscle]
+name: Striated muscle tissue
+def: "One of two types of muscles in the body, characterized by the array of bands observed under microscope. Striated muscles can be divided into two subtypes: the cardiac muscle and the skeletal muscle." [MeSH:Striated_Muscle]
 synonym: "Stripped muscle" RELATED []
 synonym: "Stripped muscle tissue" RELATED []
 xref: FMA:67905
 xref: MESH:D054792
 xref: UBERON:0002036
-is_a: TS-0642 ! Muscle
+is_a: TS-0642 ! Muscle tissue
 
 [Term]
 id: TS-2048
@@ -6422,6 +6422,7 @@ is_obsolete: true
 id: TS-2054
 name: Choroid
 def: "The thin, highly vascular membrane covering most of the posterior of the eye between the retina and sclera." [MeSH:Choroid]
+synonym: "Optic choroid" RELATED []
 xref: BTO:0001829
 xref: FMA:58298
 xref: MESH:D002829
@@ -6770,6 +6771,7 @@ is_a: TS-2178 ! Human anatomical entity
 id: TS-2089
 name: First arch
 def: "The first branchial arch, also called the first pharyngeal arch and mandibular arch, is the first of six pharyngeal arches that develops in fetal life during the fourth week of development. It is located between the stomodeum and the first pharyngeal groove." [Wikipedia:First_pharyngeal_arch]
+synonym: "Pharyngeal arch 1" RELATED []
 synonym: "1st arch" RELATED []
 synonym: "1st branchial arch" RELATED []
 synonym: "1st pharyngeal arch" RELATED []
@@ -6956,6 +6958,7 @@ synonym: "Bone marrow hematopoietic cells" RELATED []
 synonym: "Bone marrow poietic cells" RELATED []
 xref: CL:1001610
 is_a: TS-2017 ! Hematopoietic cell
+is_a: TS-2576 ! Bone marrow cell
 relationship: part_of TS-2142 ! Hematopoietic tissue
 
 [Term]
@@ -7017,6 +7020,7 @@ relationship: part_of TS-0360 ! Fetus
 id: TS-2118
 name: Embryonic rhombencephalon
 def: "The embryonic rhombencephalon can be subdivided in a variable number of transversal swellings called rhombomeres. Rhombomeres Rh7-Rh4 form the myelencephalon that will give the medulla oblongata. Rhombomeres Rh3-Rh1 form the metencephalon that will form the pons and the cerebellum." [neXtProt:PDR]
+synonym: "Presumptive hindbrain" RELATED []
 xref: UBERON:0007277
 relationship: part_of TS-0231 ! Embryonic brain
 
@@ -7060,6 +7064,8 @@ relationship: part_of TS-0360 ! Fetus
 id: TS-2133
 name: Embryonic tongue
 def: "Embryonic structure that gives rise to the fetal and adult tongue." [neXtProt:PDR]
+synonym: "Future tongue" RELATED []
+xref: UBERON:0010056
 relationship: part_of TS-0246 ! Embryonic head
 
 [Term]
@@ -7072,6 +7078,7 @@ relationship: part_of TS-2432 ! Fetal intestine
 id: TS-2135
 name: Fetal ovary
 def: "Fetal structure that gives rise to adult ovary." [neXtProt:PDR]
+synonym: "Fetal female gonad" RELATED []
 relationship: part_of TS-0360 ! Fetus
 
 [Term]
@@ -7282,7 +7289,7 @@ synonym: "Striated myocyte" RELATED []
 xref: CL:0000737
 xref: FMA:86936
 is_a: TS-2032 ! Muscle cell
-relationship: part_of TS-2047 ! Striated muscle
+relationship: part_of TS-2047 ! Striated muscle tissue
 
 [Term]
 id: TS-2158
@@ -7295,7 +7302,7 @@ xref: CL:0000188
 xref: FMA:9727
 xref: MESH:D018485
 is_a: TS-2157 ! Striated muscle cell
-relationship: part_of TS-0933 ! Skeletal muscle
+relationship: part_of TS-0933 ! Skeletal muscle tissue
 
 [Term]
 id: TS-2159
@@ -7313,7 +7320,7 @@ xref: CL:0000192
 xref: FMA:14072
 xref: MESH:D032389
 is_a: TS-2032 ! Muscle cell
-relationship: part_of TS-0943 ! Smooth muscle
+relationship: part_of TS-0943 ! Smooth muscle tissue
 
 [Term]
 id: TS-2160
@@ -7488,6 +7495,8 @@ relationship: part_of TS-0015 ! Adrenal cortex
 [Term]
 id: TS-2178
 name: Human anatomical entity
+synonym: "Material anatomical entity" RELATED []
+xref: UBERON:0000465
 
 [Term]
 id: TS-2191
@@ -7707,7 +7716,7 @@ xref: BTO:0001779
 xref: FMA:54549
 xref: MESH:D010159
 xref: UBERON:0007375
-relationship: part_of TS-1315 ! Mouth
+relationship: part_of TS-2582 ! Oral cavity
 
 [Term]
 id: TS-2213
@@ -8805,7 +8814,7 @@ def: "In human anatomy, the deltoid muscle is the muscle forming the rounded con
 xref: FMA:32521
 xref: MESH:D057645
 xref: UBERON:0001476
-is_a: TS-0933 ! Skeletal muscle
+is_a: TS-2615 ! Skeletal muscle organ
 relationship: part_of TS-2229 ! Shoulder
 
 [Term]
@@ -8893,7 +8902,7 @@ synonym: "Endometrium glandular cells" RELATED []
 xref: CL:0002656
 xref: FMA:86489
 is_a: TS-2085 ! Glandular cell
-relationship: part_of TS-0276 ! Endometrium
+relationship: part_of TS-2631 ! Endometrium epithelium
 
 [Term]
 id: TS-2431
@@ -8996,6 +9005,9 @@ id: TS-2440
 name: Superior surface of tongue
 def: "Superior surface of the tongue with papillae". [PDR]
 synonym: "Superior surface of the tongue with papilla" RELATED []
+synonym: "Dorsal surface of tongue" RELATED []
+xref: FMA:54646
+xref: UBERON:0007371
 relationship: part_of TS-1050 ! tongue
 
 [Term]
@@ -9083,7 +9095,7 @@ def: "The hippocampus, subiculum, and dentate gyrus constitute the hippocampal f
 xref: BTO:0000601
 xref: FMA:74038
 xref: MESH:D006624
-xref: UBERON:0001954
+xref: UBERON:0002421
 xref: URL:http://www.proteinatlas.org/dictionary/normal/hippocampus
 relationship: part_of TS-1307 ! Limbic system
 relationship: part_of TS-2061 ! Limbic lobe
@@ -10192,7 +10204,7 @@ name: Cerebellar neuronal projections
 def: "Refers to any projection or appendage of the neuronal cell body including the axon and/or dendrite projections and bundles of axons and/or dendrites from the neuron cell body found in the cerebellum." [neXtProt:PDR]
 synonym: "Cerebellum neuronal projection" RELATED []
 synonym: "Cerebellum neuronal projections" RELATED []
-relationship: part_of TS-0125 ! Cerebellum 
+relationship: part_of TS-0125 ! Cerebellum
 
 [Term]
 id: TS-2565
@@ -10232,21 +10244,21 @@ xref: FMA:12774
 xref: UBERON:0002524
 is_a: TS-0579 ! Lymph node
 
-[Term]                       
-id: TS-2569                  
-name: Periaortic lymph node 
+[Term]
+id: TS-2569
+name: Periaortic lymph node
 def: "The periaortic lymph nodes (also known as lumbar) are a group of lymph nodes that lie in front of the lumbar vertebrae near the aorta. These lymph nodes receive drainage from the gastrointestinal tract and the abdominal organs. The periaortic group is subdivided into: preaortic, paraaortic, and retroaortic groups." [Wikipedia:Periaortic_lymph_nodes]
-is_a: TS-0579 ! Lymph node   
+is_a: TS-0579 ! Lymph node
 
-[Term]                       
-id: TS-2570                  
-name: Perihilar lymph node 
+[Term]
+id: TS-2570
+name: Perihilar lymph node
 def: "A lymph node localized in the hilar area of the lung." [PMID:26807271]
 is_a: TS-0579 ! Lymph node
 
-[Term]                       
-id: TS-2571                  
-name: Pancreatic duct 
+[Term]
+id: TS-2571
+name: Pancreatic duct
 def: "A duct that collects and carries secretions of the exocrine pancreas to the intestine." [UBERON:0007329]
 synonym: "Duct of pancreas" RELATED []
 synonym: "Pancreas duct" RELATED []
@@ -10254,18 +10266,18 @@ xref: FMA:10419
 xref: UBERON:0007329
 relationship: part_of TS-1241 ! Exocrine pancreas
 
-[Term]                       
-id: TS-2572                  
-name: Pancreatic duct epithelium 
+[Term]
+id: TS-2572
+name: Pancreatic duct epithelium
 def: "An epithelium that is part of a pancreatic duct." [neXtProt:PDR]
 synonym: "Epithelium of pancreatic duct" RELATED []
 xref: UBERON:0009970
 is_a: TS-0288 ! Epithelium
 relationship: part_of TS-2571 ! Pancreatic duct
 
-[Term]     
+[Term]
 id: TS-2573
-name: Ovarian surface epithelium 
+name: Ovarian surface epithelium
 def: "Layer of simple cuboidal cells covering surface of ovary." [UBERON:0001304]
 synonym: "Surface epithelium of ovary" RELATED []
 synonym: "Ovary surface epithelium" RELATED []
@@ -10278,6 +10290,1462 @@ xref: UBERON:0001304
 is_a: TS-0288 ! Epithelium
 relationship: part_of TS-0730 ! Ovary
 
+[Term]
+id: TS-2574
+name: Epithelial cell of pancreas
+def: "An epithelial cell of the pancreas." [neXtProt:PDR]
+synonym: "Pancreas epithelial cell" RELATED []
+synonym: "Pancreatic epithelial cell" RELATED []
+xref: CL:0000083
+is_a: TS-2026 ! Epithelial cell
+relationship: part_of TS-0736 ! Pancreas
+
+[Term]
+id: TS-2575
+name: Type B pancreatic cell
+def: "A cell that secretes insulin and is located towards the center of the islets of Langerhans." [CL:type_B_pancreatic_cell]
+synonym: "Insulin-secreting cell" RELATED []
+synonym: "Pancreatic B-cell" RELATED []
+synonym: "Type B enteroendocrine cell" RELATED []
+synonym: "Pancreatic islet core" RELATED []
+synonym: "Pancreatic B cell" RELATED []
+synonym: "Pancreatic beta cell" RELATED []
+synonym: "Beta cell of pancreatic islet" RELATED []
+synonym: "B-cell of pancreatic islet" RELATED []
+xref: CL:0000169
+xref: BTO:0000783
+xref: FMA:70586
+is_a: TS-2035 ! Cell type
+relationship: part_of TS-0741 ! Pancreatic islet
+
+[Term]
+id: TS-2576
+name: Bone marrow cell
+def: "A cell found in the bone marrow. This can include fibroblasts, macrophages, adipocytes, osteoblasts, osteoclasts, endothelial cells and hematopoietic cells." [CL]
+xref: BTO:0004850
+xref: FMA:83621
+is_a: TS-2035 ! Cell type
+relationship: part_of TS-0087 ! Bone marrow
+
+[Term]
+id: TS-2577
+name: Stromal cell
+def: "Connective tissue cells of an organ found in the loose connective tissue. These are most often associated with the uterine mucosa and the ovary as well as the hematopoietic system and elsewhere." [MeSH:stromal_cell]
+is_a: TS-2035 ! Cell type
+
+[Term]
+id: TS-2578
+name: Stromal cell of endometrium
+def: "Stromal cell of endometrium" [neXtProt:PDR]
+synonym: "Cells in endometrial stroma" RELATED []
+synonym: "Endometrial stromal cell" RELATED []
+synonym: "Endometrium stromal cell" RELATED []
+xref: CL:0002255
+is_a: TS-2577 ! Stromal cell
+relationship: part_of TS-1266 ! Endometrium stroma
+
+[Term]
+id: TS-2579
+name: Buccal mucosa cell
+def: "Cell of the buccal mucosa" [neXtProt:PDR]
+xref: CL:0002336
+is_a: TS-2035 ! Cell type
+relationship: part_of TS-2349 ! Buccal mucosa
+
+[Term]
+id: TS-2580
+name: Zone of skin
+def: "Any portion of the organ that covers that body and consists of a layer of epidermis and a layer of dermis." [UBERON:zone_of_skin]
+xref: FMA:86166
+xref: MESH:D012867
+xref: UBERON:0000014
+relationship: part_of TS-0934 ! Skin
+
+[Term]
+id: TS-2581
+name: Metanephros
+def:  "In mammals, the metanephros is the excretory organ of the fetus, which develops into the mature kidney and is formed from the rear portion of the nephrogenic cord. The metanephros is an endocrine and metabolic organ that filters the blood and excretes the end products of body metabolism in the form of urine." [UBERON:metanephros]
+xref: UBERON:0000081
+is_a: TS-0342 ! Fetal kidney
+
+[Term]
+id: TS-2582
+name: Oral cavity
+def:  "Anatomical cavity at the start of the digestive tract that that is enclosed by the mouth. The boundaries and contents vary depending on the species. In vertebrates, the boundaries are the oral opening, the cheeks, the palate and (if present) the palatoglossal arch - if this is not present then the mouth and pharynx form the oropharyngeal cavity. The buccal cavity contains the teeth, tongue and palate (when present)." [UBERON:oral_cavity]
+synonym: "Buccal cavity" RELATED []
+synonym: "Cavity of mouth" RELATED []
+xref: FMA:20292
+xref: UBERON:0000167
+relationship: part_of TS-1315 ! Mouth
+
+[Term]
+id: TS-2583
+name: Uterine endocervix
+def: "The region of the opening of the uterine cervix into the uterine cavity." [UBERON:endocervix]
+synonym: "Endocervix" RELATED []
+xref: BTO:0003002
+xref: FMA:86485
+xref: UBERON:0000458
+relationship: part_of TS-0134 ! Uterine cervix
+
+[Term]
+id: TS-2584
+name: Right lobe of liver
+def: "The right lobe is much larger than the left; the proportion between them being as six to one. It occupies the right hypochondrium, and is separated from the left lobe on its upper surface by the falciform ligament; on its under and posterior surfaces by the left sagittal fossa; and in front by the umbilical notch. It is of a somewhat quadrilateral form, its under and posterior surfaces being marked by three fossæ: the porta and the fossæ for the gall-bladder and inferior vena cava, which separate its left part into two smaller lobes; the quadrate and caudate lobes." [UBERON:right_lobe_of_liver]
+synonym: "Right hepatic lobe" RELATED []
+xref: FMA:13362
+xref: UBERON:0001114
+relationship: part_of TS-0564 ! Liver
+
+[Term]
+id: TS-2585
+name: Right lobe of thyroid gland
+def: "A lobe of thyroid gland that is in the right side of a thyroid gland." [UBERON:rigth_lobe_of_thyroid_gland]
+synonym: "Thyroid gland right lobe" RELATED []
+synonym: "Right thyroid lobe" RELATED []
+xref: FMA:13368
+xref: UBERON:0001119
+relationship: part_of TS-1047 ! Thyroid
+
+[Term]
+id: TS-2586
+name: Left lobe of thyroid gland
+def: "A lobe of thyroid gland that is in the left side of a thyroid gland." [UBERON:rigth_lobe_of_thyroid_gland]
+synonym: "Thyroid gland left lobe" RELATED []
+synonym: "Left thyroid lobe" RELATED []
+xref: FMA:13369
+xref: UBERON:0001120
+relationship: part_of TS-1047 ! Thyroid
+
+[Term]
+id: TS-2587
+name: Body of pancreas
+def: "The body of the pancreas is a subsection of the pancreas organ in the human body. It is somewhat prismatic in shape, and has three surfaces: anterior, posterior, and inferior. It is at the same level as the transpyloric plane." [UBERON:body_of_pancreas]
+xref: FMA:14518
+xref: UBERON:0001150
+synonym: "Pancreatic body" RELATED []
+synonym: "Pancreas body" RELATED []
+relationship: part_of TS-0736 ! Pancreas
+
+[Term]
+id: TS-2588
+name: Body of stomach
+def: "The body of stomach is the part of the stomach that lies between the fundus above and the pyloric antrum below; its boundaries are poorly defined." [UBERON:body_of_stomach]
+synonym: "Stomach body" RELATED []
+synonym: "Corpus gastricum (ventriculare)" RELATED []
+synonym: "Gastric body" RELATED []
+xref: BTO:0000505
+xref: FMA:14560
+xref: UBERON:0001161
+relationship: part_of TS-0980 ! Stomach
+
+[Term]
+id: TS-2589
+name: Right adrenal gland
+def: "An adrenal gland that is in the right side of the abdomen." [UBERON:right_adrenal_gland]
+synonym: "Right suprarenal gland" RELATED []
+xref: FMA:15629
+xref: UBERON:0001233
+relationship: part_of TS-0016 ! Adrenal gland
+
+[Term]
+id: TS-2590
+name: Left adrenal gland
+def: "An adrenal gland that is in the left side of the abdomen." [UBERON:left_adrenal_gland]
+synonym: "Left suprarenal gland" RELATED []
+xref: FMA:15630
+xref: UBERON:0001234
+relationship: part_of TS-0016 ! Adrenal gland
+
+[Term]
+id: TS-2591
+name: Urinary bladder mucosa
+def: "The mucous membrane lining the urinary bladder." [UBERON:Urinary_bladder_mucosa]
+xref: FMA:15928
+xref: UBERON:0001259
+synonym: "Mucosa of urinary bladder" RELATED []
+synonym: "Tunica mucosa vesicae urinariae" RELATED []
+synonym: "Bladder mucous membrane" RELATED []
+synonym: "Urinary bladder mucosa" RELATED []
+synonym: "Urinary bladder mucous membrane" RELATED []
+synonym: "Mucosa of bladder" RELATED []
+synonym: "Mucous membrane of bladder" RELATED []
+synonym: "Tunica mucosa vesicae" RELATED []
+synonym: "Bladder organ mucosa" RELATED []
+synonym: "Mucous membrane of urinary bladder" RELATED []
+synonym: "Bladder mucosa" RELATED []
+is_a: TS-2031 ! Mucosa
+relationship: part_of TS-1090 ! Urinary bladder
+
+[Term]
+id: TS-2592
+name: Right uterine tube
+def: "A fallopian tube that is part of a right side of organism." [UBERON:right_uterine_tube]
+synonym: "Right oviduct" RELATED []
+synonym: "Right fallopian tube" RELATED []
+xref: FMA:18483
+xref: UBERON:0001302
+relationship: part_of TS-0732 ! Oviduct
+
+[Term]
+id: TS-2593
+name: Left uterine tube
+def: "A fallopian tube that is part of a left side of organism." [UBERON:left_uterine_tube]
+synonym: "Left oviduct" RELATED []
+synonym: "Left fallopian tube" RELATED []
+xref: FMA:18484
+xref: UBERON:0001303
+relationship: part_of TS-0732 ! Oviduct
+
+[Term]
+id: TS-2594
+name: Muscle organ
+def: "Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work." [UBERON:muscle_organ]
+synonym: "Muscle" RELATED []
+xref: FMA:5022
+xref: UBERON:0001630
+relationship: part_of TS-1311 ! Musculoskeletal system.
+
+[Term]
+id: TS-2595
+name: Muscle of leg
+def: "A muscle that is part of the region of the hindlimb between the pelvis and ankle." [UBERON:muscle_of_leg]
+xref: BTO:0000722
+xref: UBERON:0001383
+is_a: TS-2615 ! Skeletal muscle organ
+relationship: part_of TS-2206 ! Leg
+
+[Term]
+id: TS-2596
+name: Quadriceps femoris muscle
+def: "The quadriceps femoris is a group of muscles located in the front of the thigh. The Latin translation of 'quadriceps' is 'four headed,' as the group contains four separate muscles: the vastus lateralis, vastus medialis, vastus intermedius, and the rectus femoris." [https://www.healthline.com/human-body-maps/quadriceps#1]
+synonym: "Quadriceps" RELATED []
+synonym: "Quadriceps femoris muscle" RELATED []
+xref: BTO:0001149
+xref: FMA:22428
+xref: UBERON:0001377
+is_a: TS-2595 ! Muscle of leg
+relationship: part_of TS-2039 ! Thigh
+
+[Term]
+id: TS-2597
+name: Vastus lateralis
+def: "The vastus lateralis (vastus externus) is the largest part of the quadriceps femoris. It arises by a broad aponeurosis, which is attached to the upper part of the intertrochanteric line, to the anterior and inferior borders of the greater trochanter, to the lateral lip of the gluteal tuberosity, and to the upper half of the lateral lip of the linea aspera; this aponeurosis covers the upper three-fourths of the muscle, and from its deep surface many fibers take origin. A few additional fibers arise from the tendon of the gluteus maximus, and from the lateral intermuscular septum between the vastus lateralis and short head of the biceps femoris. The fibers form a large fleshy mass, which is attached to a strong aponeurosis, placed on the deep surface of the lower part of the muscle: this aponeurosis becomes contracted and thickened into a flat tendon inserted into the lateral border of the patella, blending with the quadriceps femoris tendon, and giving an expansion to the capsule of the knee-joint." [UBERON:vastus_lateralis]
+synonym: "Vastus lateralis muscle" RELATED []
+xref: BTO:0001563
+xref: FMA:22431
+xref: UBERON:0001379
+is_a: TS-2596 ! Quadriceps femoris muscle
+
+[Term]
+id: TS-2598
+name: Gastrocnemius muscle
+def: "The most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." [UBERON:gastrocnemius]
+synonym: "Gastrocnemius" RELATED []
+xref: BTO:0000506
+xref: FMA:22541
+xref: UBERON:0001388
+is_a: TS-2595 ! Muscle of leg
+relationship: part_of TS-2461 ! Lower leg
+
+[Term]
+id: TS-2599
+name: Skin of abdomen
+def: "A zone of skin that is part of an abdomen." [UBERON:skin_of_abdomen]
+xref: FMA:22988
+xref: FMA:23000
+xref: UBERON:0001416
+is_a: TS-2580 ! Zone of Skin
+relationship: part_of TS-0001 ! Abdomen
+
+[Term]
+id: TS-2600
+name: Skin of leg
+def: "A zone of skin that is part of a leg." [UBERON:skin_of_leg]
+xref: FMA:37828
+xref: UBERON:0001511
+is_a: TS-2580 ! Zone of Skin
+relationship: part_of TS-2206 ! Leg
+
+[Term]
+id: TS-2601
+name: Skin of hip
+def: "A zone of skin that is part of a hip region." [UBERON:skin_of_hip]
+xref: FMA:45282
+xref: UBERON:0001554
+is_a: TS-2580 ! Zone of Skin
+relationship: part_of TS-2226 ! Hip
+
+[Term]
+id: TS-2602
+name: Upper leg skin
+def: "A zone of skin that is part of a hindlimb stylopod." [UBERON:upper_leg_skin]
+xref: FMA:37790
+xref: UBERON:0004262
+is_a: TS-2580 ! Zone of Skin
+relationship: part_of TS-2039 ! Thigh
+
+[Term]
+id: TS-2603
+name: Upper arm skin
+def: "A zone of skin that is part of a forelimb stylopod." [UBERON:upper_arm_skin]
+xref: FMA:37721
+xref: UBERON:0004263
+is_a: TS-2580 ! Zone of Skin
+relationship: part_of TS-2039 ! Thigh
+
+[Term]
+id: TS-2604
+name: Ascending aorta
+def: "The ascending aorta is the portion of the aorta in a two-pass circulatory system that lies between the heart and the arch of aorta. A portion of the aorta commencing at the upper part of the base of the left ventricle, on a level with the lower border of the third costal cartilage behind the left half of the sternum; it passes obliquely upward, forward, and to the right, in the direction of the heart's axis, as high as the upper border of the second right costal cartilage, describing a slight curve in its course, and being situated, about 6 cm behind the posterior surface of the sternum. The total length is about 5 cm in length." [UBERON:ascending_aorta]
+xref: FMA:3736
+xref: UBERON:0001496
+relationship: part_of TS-2606 ! Thoracic aorta
+
+[Term]
+id: TS-2605
+name: Descending thoracic aorta
+def: "The part of the aorta that extends from the arch of the aorta to the diaphragm, and from which arises numerous branches that supply oxygenated blood to the chest cage and the organs within the chest." [UBERON:descending_thoracic_aorta]
+xref: FMA:87217
+xref: UBERON:0002345
+relationship: part_of TS-2606 ! Thoracic aorta
+
+[Term]
+id: TS-2606
+name: Thoracic aorta
+def: "The part of the aorta that extends from the origin at the heart to the diaphragm, and from which arises numerous branches that supply oxygenated blood to the chest cage and the organs within the chest." [UBERON:thoracic_aorta]
+xref: BTO:0000157
+xref: FMA:3786
+xref: MESH:D001013
+xref: UBERON:0001515
+relationship: part_of TS-0046 ! Aorta
+
+[Term]
+id: TS-2607
+name: Popliteal artery
+def: "The continuation of the femoral artery coursing through the popliteal fossa; it divides into the anterior and posterior tibial arteries." [MESH:Popliteal_artery]
+xref: FMA:77155
+xref: MESH:D011150
+xref: UBERON:0002250
+relationship: part_of TS-0321 ! Femoral artery
+
+[Term]
+id: TS-2608
+name: Superficial temporal artery
+def: "A major artery of the head that arises from the external carotid artery when it bifurcates into the superficial temporal artery and maxillary artery. Its pulse is palpable superior to the zygomatic arch, anterior and superior to the tragus." [UBERON:Superficial_temporal_artery]
+xref: BTO:0003747
+xref: FMA:49650
+xref: UBERON:0001614
+is_a: TS-0116 ! Carotid artery
+
+[Term]
+id: TS-2609
+name: Right coronary artery
+def: "Coronary artery which runs along the right side of the heart and predominantly supplies the mycocardium of the right side of the heart." [UBERON:Right_coronary_artery]
+synonym: "Arteria coronaria dextra" RELATED []
+xref: UBERON:0001625
+xref: FMA:50039
+is_a: TS-0176 ! Coronary artery
+
+[Term]
+id: TS-2610
+name: Left coronary artery
+def: "Coronary artery which runs along the left side of the heart and predominantly supplies the mycocardium of the left side of the heart." [UBERON]
+synonym: "Arteria coronaria sinistra" RELATED []
+xref: FMA:50040
+xref: UBERON:0001626
+is_a: TS-0176 ! Coronary artery.
+
+[Term]
+id: TS-2611
+name: Tibial artery
+def: "The anterior and posterior arteries created at the bifurcation of the popliteal artery. The anterior tibial artery begins at the lower border of the popliteus muscle and lies along the tibia at the distal part of the leg to surface superficially anterior to the ankle joint. Its branches are distributed throughout the leg, ankle, and pes. The posterior tibial artery begins at the lower border of the popliteus muscle, lies behind the tibia in the lower part of its course, and is found situated between the medial malleolus and the medial process of the calcaneal tuberosity. Its branches are distributed throughout the leg and foot." [MESH:A07.231.114.895]
+xref: MESH:D016909
+xref: UBERON:0007610
+relationship: part_of TS-2607 ! Popliteal artery
+
+[Term]
+id: TS-2612
+name: Biceps muscle
+def: "A muscle in the forelimb stylopod which in humans has several functions, the most important being to rotate the forearm and to flex the elbow." [UBERON]
+synonym: "Biceps brachii" RELATED []
+synonym: "Biceps brachii muscle" RELATED []
+synonym: "Brachii muscle" RELATED []
+xref: BTO:0003419
+xref: UBERON:0001507
+is_a: TS-2615 ! Skeletal muscle organ
+relationship: part_of TS-2462 ! Upper arm
+
+[Term]
+id: TS-2613
+name: Triceps muscle
+def: "The triceps brachii muscle (Latin for 'three-headed' muscle of the arm, it is called a three headed muscle because there are three bundles of muscle, each of different origin, joining together at the elbow) is the large muscle on the back of the human upper limb. It is the muscle principally responsible for extension of the elbow joint (i.e. straightening of the arm). Though a similarly-named muscle, the triceps surae, is found on the lower leg, the triceps brachii is commonly called simply the 'triceps." [UBERON]
+synonym: "Triceps brachii muscle" RELATED []
+synonym: "Triceps" RELATED []
+synonym: "Triceps brachii" RELATED []
+xref: FMA:37688
+xref: UBERON:0001509
+is_a: TS-2615 ! Skeletal muscle organ
+relationship: part_of TS-2462 ! Upper arm
+
+[Term]
+id: TS-2614
+name: Gluteal muscle
+def: "The muscles that make up the buttocks." [neXtProt:PDR]
+synonym: "Gluteus" RELATED []
+synonym: "Gluteus muscle" RELATED []
+xref: BTO:0000531
+xref: FMA:64922
+xref: UBERON:0002000
+is_a: TS-2615 ! Skeletal muscle organ
+relationship: part_of TS-2224 ! Buttocks
+
+[Term]
+id: TS-2615
+name: Skeletal muscle organ
+def: "A muscle organ that consists of skeletal muscle tissue ensheathed in epimysium, that develops from myotome and that is innervated by some somatic motor neuron. Skeletal muscles are typically attached (via a tendon) to a bone but there are exceptions (e.g. intrinsic tongue muscles)." [UBERON]
+synonym: "Skeletal muscle" RELATED []
+xref: BTO:0001103
+xref: FMA:14069
+xref: MESH:D018482
+xref: UBERON:0014892
+is_a: TS-2594 ! Muscle organ
+
+[Term]
+id: TS-2616
+name: Myocardium
+def: "The middle layer of the heart, comprised mainly of striated cardiac muscle fibers." [UBERON]
+synonym: "Myocard" RELATED []
+synonym: "Heart myocardium" RELATED []
+xref: FMA:9462
+xref: MESH:D009206
+xref: UBERON:0002349
+relationship: part_of TS-0445 ! Heart
+
+[Term]
+id: TS-2617
+name: Cardiac muscle of right atrium
+def: "A portion of cardiac muscle tissue that is part of a right atrium." [UBERON]
+xref: FMA:7282
+xref: UBERON:0003379
+is_a: TS-0440 ! Heart muscle
+relationship: part_of TS-2618 ! Right atrium
+
+[Term]
+id: TS-2618
+name: Right atrium
+def: "A cardiac atrium that is in the left side of the heart. It receives deoxygenated blood. In mammals, this comes from the superior and inferior vena cava and the coronary sinus, and pumps it into the right ventricle through the tricuspid valve." [UBERON]
+synonym: "cardiac right atrium" RELATED []
+synonym: "Right atrium" RELATED []
+synonym: "Heart right atrium" RELATED []
+synonym: "Right atrium of heart" RELATED []
+xref:FMA:7096
+xref: UBERON:0002078
+relationship: part_of TS-0445 ! Heart
+
+[Term]
+id: TS-2619
+name: Hindlimb stylopod muscle
+def: "Any muscle organ that is part of a hindlimb stylopod (upper leg)." [UBERON]
+synonym: "Thigh muscle" RELATED []
+synoynm: "Upper leg muscle" RELATED []
+synonym: "Muscle of thigh" RELATED []
+xref: BTO:0001367
+xref: FMA:22470
+xref: UBERON:0004252
+is_a: TS-2595 ! Muscle of leg
+relationship: part_of TS-2215 ! Lower limb
+
+[Term]
+id: TS-2620
+name: Left ventricle myocardium
+def: "A myocardium that is part of a left ventricle of a heart." [neXtProt:PDR]
+xref: FMA:9558
+xref: UBERON:0006566
+is_a: TS-0440 ! Heart muscle
+relationship: part_of TS-0439 ! Heart left ventricle
+
+[Term]
+id: TS-2621
+name: Muscle layer of sigmoid colon
+def: "A muscle layer that is part of the sigmoid colon." [UBERON]
+xref: UBERON:0035805
+xref: FMA:15028
+is_a: TS-0165 ! Colon smooth muscle
+relationship: part_of TS-2044 ! Sigmoid colon
+
+[Term]
+id: TS-2622
+name: Skeletal muscle tissue of biceps
+def: "A portion of skeletal muscle tissue that is part of a biceps brachii." [UBERON]
+synonym: "Skeletal muscle tissue of biceps brachii" RELATED []
+xref: FMA:261974
+xref: UBERON:0004502
+is_a: TS-0933 ! Skeletal muscle tissue
+relationship: part_of TS-2612 ! Biceps muscle
+
+[Term]
+id: TS-2623
+name: Skeletal muscle tissue of rectus abdominis
+def: "A portion of skeletal muscle tissue that is part of a rectus abdominis." [UBERON]
+xref: FMA:261924
+xref: UBERON:0004511
+is_a: TS-0933 ! Skeletal muscle tissue
+relationship: part_of TS-0001 ! Abdomen
+
+[Term]
+id: TS-2624
+name: Esophageal squamous epithelium
+def: "The esophageal squamous epithelium lines the upper and middle third of the esophageal lumen." [neXtProt:PDR]
+synonym: "Oesophageal squamous epithelium" RELATED []
+synonym: "Squamous epithelium of esophagous" RELATED []
+xref: BTO:0003635
+xref: UBERON:0006920
+is_a: TS-0698 ! Esophageal epithelium
+is_a: TS-2627 ! Squamous epithelium
+
+[Term]
+id: TS-2625
+name: Gingival epithelium
+def: "A stratified squamous epithelium consisting of a basal layer; it is keratinized or parakeratinized." [BTO:0004998]
+synonym: "Epithelial tissue of gingiva"  RELATED []
+synonym: "Epithelium of gingiva"  RELATED []
+synonym: "Gingiva epithelial tissue"  RELATED []
+synonym: "Gingiva epithelium"  RELATED []
+xref: BTO:0004998
+xref: FMA:62423
+xref: UBERON:0001949
+is_a: TS-0715 ! Oral epithelium
+relationship: part_of TS-2074 ! Gingiva
+
+[Term]
+id: TS-2626
+name: Esophagus mucosa
+def: "A mucosa that is part of a esophagus." [neXtProt:PDR]
+synonym: "esophageal mucosa" RELATED []
+synonym: "esophageal mucous membrane" RELATED []
+synonym: "esophagus mucous membrane" RELATED []
+synonym: "mucosa of esophagus" RELATED []
+synonym: "mucosa of oesophagus" RELATED []
+synonym: "mucous membrane of esophagus" RELATED []
+synonym: "mucous membrane of oesophagus" RELATED []
+synonym: "oesophageal mucosa" RELATED []
+synonym: "oesophagus mucosa" RELATED []
+synonym: "oesophagus mucous membrane" RELATED []
+synonym: "tunica mucosa esophagi" RELATED []
+synonym: "tunica mucosa oesophagi" RELATED []
+xref: FMA:62996
+xref: UBERON:0002469
+is_a: TS-2031 ! Mucosa
+relationship: part_of TS-0700 ! Esophagus
+
+[Term]
+id: TS-2627
+name: Squamous epithelium
+def: "An epithelium characterised by its most superficial layer consisting of squamous epithelial cells." [UBERON]
+xref: BTO:0002072
+xref: UBERON:0006914
+is_a: TS-0288 ! Epithelium
+
+[Term]
+id: TS-2628
+name: Lower esophagus mucosa
+def: "Mucosa part of the lower esophagus." [neXtProt:PDR]
+xref: UBERON:0035834
+is_a: TS-2626 ! Esophagous mucosa
+relationship: part_of TS-2629 ! Lower esophagus
+
+[Term]
+id: TS-2629
+name: Lower esophagus
+def: "The lower one third of the esophagus in which the muscle layer is composed of muscle cells predominantly of the smooth type." [UBERON:lower_esophagus]
+synonym: "Distal part of esophagus" RELATED []
+synonym: "Lower third of esophagus" RELATED []
+synonym: "Lower esophagous" RELATED []
+xref: UBERON:0013473
+relationship: part_of TS-0700 ! Esophagus
+
+[Term]
+id: TS-2630
+name: Choroid plexus epithelium
+def: "The epithelial component of the choroid plexus. Consists of cuboidal epithelial cells surrounding a core of capillaries and loose connective tissue." [UBERON]
+synonym: "choroid plexus epithelial tissue" RELATED []
+synonym: "epithelial tissue of chorioid plexus of cerebral hemisphere" RELATED []
+synonym: "epithelial tissue of choroid plexus" RELATED []
+synonym: "epithelium of choroid plexus" RELATED []
+xref: FMA:242811
+xref: UBERON:0003911
+is_a: TS-0288 ! Epithelium
+relationship: part_of TS-0145 ! Choroid plexus
+
+[Term]
+id: TS-2631
+name: Endometrium epithelium
+def: "An epithelium that is part of an endometrium." [UBERON]
+synonym: "endometrium epithelial tissue" RELATED []
+synonym: "epithelial tissue of endometrium" RELATED []
+synonym: "epithelium of endometrium" RELATED []
+synonym: "epithelium of tunica mucosa of endometrium" RELATED []
+xref: UBERON:0004811
+is_a: TS-0288 ! Epithelium
+relationship: part_of TS-0276 ! Endometrium
+
+[Term]
+id: TS-2632
+name: Mucosa of transverse colon
+def: "A mucosa that is part of a transverse colon [Automatically generated definition]." [UBERON]
+synonym: "mucosa of organ of transverse colon" RELATED []
+synonym: "mucous membrane of transverse colon" RELATED []
+synonym: "organ mucosa of transverse colon" RELATED []
+synonym: "transverse colon mucosa" RELATED []
+synonym: "transverse colon mucosa of organ" RELATED []
+synonym: "transverse colon mucous membrane" RELATED []
+synonym: "transverse colon organ mucosa" RELATED []
+xref: FMA:15012
+xref: UBERON:0004991
+is_a: TS-0164 ! Colon mucosa
+relationship: part_of TS-2052 ! Transverse colon
+
+
+[Term]
+id: TS-2633
+name: Mucosa of sigmoid colon
+def: "A mucosa that is part of a sigmoid colon." [UBERON]
+synonym: "mucosa of organ of sigmoid colon" RELATED []
+synonym: "mucous membrane of sigmoid colon" RELATED []
+synonym: "organ mucosa of sigmoid colon" RELATED []
+synonym: "sigmoid colon mucosa" RELATED []
+synonym: "sigmoid colon mucosa of organ" RELATED []
+synonym: "sigmoid colon mucous membrane" RELATED []
+synonym: "sigmoid colon organ mucosa" RELATED []
+xref: FMA:15026
+xref: UBERON:0004993
+is_a: TS-0164 ! Colon mucosa
+relationship: part_of TS-2044 ! Sigmoid colon
+
+[Term]
+id: TS-2634
+name: Mucosa of paranasal sinus
+def: "A mucosa that adjacent to a paranasal sinus." [UBERON]
+synonym: "paranasal sinus mucosa" RELATED []
+xref: FMA:59772
+xref: UBERON:0005030
+is_a: TS-2031 ! Mucosa
+relationship: part_of TS-2082 ! Paranasal sinus
+
+[Term]
+id: TS-2635
+name: Tongue squamous epithelium
+def: "A squamous epithelium that is part of a tongue." [UBERON]
+synonym: "squamous epithelium of tongue" RELATED []
+xref: UBERON:0006919
+is_a: TS-2627 ! Squamous epithelium
+relationship: part_of TS-1050 ! Tongue
+
+[Term]
+id: TS-2636
+name: Cervix squamous epithelium
+def: "The squamous epithelium of the cervical portio is similar to that of the vagina, except that it is generally smooth and lacks rete pegs. Colposcopically, it appears featureless except for a fine network of vessels which is sometimes visible. The relative opacity and pale pink coloration of the squamous epithelium derives from its multi-layered histology and the location of its supporting vessels below the basement membrane." [UBERON]
+synonym: "cervical squamous epithelium" RELATED []
+xref: UBERON:0006922
+is_a: TS-2627 ! Squamous epithelium
+relationship: part_of TS-0134 ! Uterine cervix
+
+[Term]
+id: TS-2637
+name: Cerebellar hemisphere
+def: "A paired regions of the cerebellum that lie outside and lateral to the central vermis. The cerebellum consists of three parts, a median and two lateral, which are continuous with each other, and are substantially the same in structure. The median portion is constricted, and is called the vermis, from its annulated appearance which it owes to the transverse ridges and furrows upon it; the lateral expanded portions are named the hemispheres. The lateral hemisphere is considered the portion of the cerebellum to develop most recently." [UBERON]
+synonym: "cerebellum hemisphere" RELATED []
+synonym: "hemisphere of cerebellum" RELATED []
+xref: FMA:76925
+xref: UBERON:0002245
+relationship: part_of TS-0125 ! Cerebellum
+
+[Term]
+id: TS-2638
+name: Primary visual cortex
+def: "A subdivision of the cytoarchitecturally defined occipital region of cerebral cortex in the human. Defined by the band of Gennari, which gives it the name striate (furrowed) area, it occupies the banks of the calcarine sulcus which are located in the cuneus and the lingual gyrus of the occipital lobe. Cytoarchitecturally it is bounded by the area 18 of Brodmann (human) which surrounds it ( Brodmann-1909 )."[UBERON]
+synonym: "BA17" RELATED []
+synonym: "area 17 of Brodmann" RELATED []
+synonym: "Brodmann area 17" RELATED []
+synonym: "Brodmann area 17, striate" RELATED []
+synonym: "striate cortex" RELATED []
+xref: BTO:0004703
+xref: FMA:236871
+xref: FMA:68614
+xref: UBERON:0002436
+relationship: part_of TS-1117 ! visual cortex
+
+[Term]
+id: TS-2639
+name: Neocortex
+def: "An area of cerebral cortex defined on the basis of cytoarchitecture that have six layers. Starting from the cortical surface the layers are: molecular layer (I), external granular layer (II), external pyramidal layer (III), internal granular layer (IV), internal pyramidal layer (V), and multiform layer (VI). Neocortex is most prominent in the frontal lobe, the parietal lobe, the temporal lobe and the occipital lobe, less so in the cingulate gyrus, the parahippocampal gyrus and the insula. It is composed of two subdivisions: true isocortex and proisocortex (Carpenter-83)(NN)" [UBERON]
+synonym: "cerebral neocortex" RELATED []
+synonym: "homotypical cortex" RELATED []
+synonym: "iso-cortex" RELATED []
+synonym: "isocortex" RELATED []
+synonym: "neopallial cortex" RELATED []
+synonym: "neopallium" RELATED []
+synonym: "nucleus hypoglossalis" RELATED []
+xref: BTO:0000920
+xref: FMA:62429
+xref: MESH:D019579
+xref: UBERON:0001950
+relationship: part_of TS-0091 ! Cerebral cortex
+
+[Term]
+id: TS-2640
+name: Postcentral gyrus
+def: "The postcentral gyrus is a prominent gyrus in the lateral parietal lobe of the human brain. It is the location of the primary somatosensory cortex, the main sensory receptive area for the sense of touch. Like other sensory areas, there is a map of sensory space in this location, called the sensory homunculus." [Wikipedia:Postcentral_gyrus]
+synonym: "gyrus postcentralis" RELATED []
+synonym: "post central gyrus" RELATED []
+synonym: "postcentral convolution" RELATED []
+synonym: "posterior central gyrus" RELATED []
+synonym: "postrolandic gyrus" RELATED []
+xref: FMA:61896
+xref: UBERON:0002581
+relationship: part_of TS-0747 ! Parietal lobe
+
+[Term]
+id: TS-2641
+name: Superior frontal gyrus
+def: "The superior frontal gyrus also marginal gyrus, makes up about one third of the frontal lobe of the human brain. It is bounded laterally by the superior frontal sulcus." [Wikipedia:Superior_frontal_gyrus]
+synonym: "marginal gyrus" RELATED []
+synonym: "superior frontal convolution" RELATED []
+xref: FMA:61857
+xref: UBERON:0002661
+relationship: part_of TS-0389 ! Frontal lobe
+
+[Term]
+id: TS-2642
+name: Middle frontal gyrus
+def: "The middle frontal gyrus makes up about one-third of the frontal lobe of the human brain. The borders of the middle frontal gyrus are the inferior frontal sulcus below; the superior frontal sulcus above; and the precentral sulcus behind." [Wikipedia:Middle_frontal_gyrus]
+synonym: "intermediate frontal gyrus" RELATED []
+synonym: "medial frontal gyrus" RELATED []
+xref: FMA:61859
+xref: UBERON:0002702
+relationship: part_of TS-0389 ! Frontal lobe
+
+[Term]
+id: TS-2643
+name: Entorhinal cortex
+def: "The entorhinal cortex (EC) is an area of the brain located in the medial temporal lobe and functions as a hub in a widespread network for memory, navigation and the perception of time." [Wikipedia:Entorhinal_cortex]
+synonym: "entorhinal area" RELATED []
+xref: BTO:0004345
+xref: FMA:72356
+xref: MESH:D018728
+xref: UBERON:0002728
+relationship: part_of TS-2038 ! Parahippocampal gyrus
+
+[Term]
+id: TS-2644
+name: Middle temporal gyrus
+def: "Middle temporal gyrus is a gyrus in the brain on the temporal lobe. It is located between the superior temporal gyrus and inferior temporal gyrus." [Wkipedia:Middle_temporal_gyrus]
+synonym: "intermediate temporal gyrus" RELATED []
+xref: FMA:61906
+xref: UBERON:0002771
+relationship: part_of TS-1020 ! Temporal lobe
+
+[Term]
+id: TS-2645
+name: Frontal pole
+def: "Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine)." [UBERON]
+xref: FMA:74885
+xref: UBERON:0002795
+relationship: part_of TS-0389 ! Frontal lobe
+
+[Term]
+id: TS-2646
+name: Right frontal lobe
+def: "A frontal lobe that is part of a right cerebral hemisphere." [neXtProt:PDR]
+xref: FMA:72969
+xref: UBERON:0002810
+relationship: part_of TS-0389 ! Frontal lobe
+
+[Term]
+id: TS-2647
+name: Cingulate cortex
+def: "The cingulate cortex is a part of the brain situated in the medial aspect of the cerebral cortex. The cingulate cortex includes the entire cingulate gyrus, which lies immediately above the corpus callosum, and the continuation of this in the cingulate sulcus." [Wikipedia:Cingulate_cortex]
+xref: BTO:0003975
+xref: UBERON:0003027
+relationship: part_of TS-2061 ! Limbic lobe
+
+[Term]
+id: TS-2648
+name: Embryonic ventricular zone
+def: "Transient embryonic layer of tissue containing neural stem cells, principally radial glial cells, of the central nervous system." [Wikipedia:Ventricular_zone]
+xref: UBERON:0003053
+relationship: part_of TS-0231 ! Embryonic brain
+
+[Term]
+id: TS-2649
+name: CA1 field of hippocampus
+def: "Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals." [UBERON]
+synonym: "CA1 field of Ammon's horn" RELATED []
+synonym: "CA1 field of cornu ammonis" RELATED []
+synonym: "CA1 field of the Ammon horn" RELATED []
+synonym: "CA1 field of the hippocampus" RELATED []
+synonym: "cornu ammonis 1" RELATED []
+synonym: "hippocampus CA1" RELATED []
+synonym: "region 1 of Ammon's horn" RELATED []
+xref: FMA:74042
+xref: UBERON:0003881
+relationship: part_of TS-0460 ! Hippocampus
+
+[Term]
+id: TS-2650
+name: Orbitofrontal cortex
+def: "The region of the cerebral cortex covering the basal surface of the frontal lobes; this region normally controls emotion and decision making" [UBERON]
+synonym: "fronto-orbital cortex" RELATED []
+synonym: "orbital frontal cortex" RELATED []
+synonym: "orbito-frontal cortex" RELATED []
+xref: FMA:242003
+xref: UBERON:0004167
+relationship: part_of TS-1307 ! Limbic system
+
+[Term]
+id: TS-2651
+name: Cortical plate
+def: "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers." [UBERON]
+synonym: "cerebral cortex cortical plate" RELATED []
+synonym: "future cortical layers II-VI" RELATED []
+synonym: "future neocortex" RELATED []
+synonym: "neocortex cortical plate" RELATED []
+xref: UBERON:0005343
+relationship: part_of TS-2371 ! Neural tube
+
+[Term]
+id: TS-2652
+name: Paraflocculus
+def: "The flocculus and paraflocculus (or tonsil) together with the caudal portions of the cerebellar vermis are part of the vestibulocerebellum. It contributes to the ocular motor control." [PMID: 21909334]
+synonym: "cerebellar tonsil" RELATED []
+synonym: "neuraxis paraflocculus" RELATED []
+synonym: "parafloccular lobule of cerebellum" RELATED []
+synonym: "paraflocculus of cerebellum" RELATED []
+xref: FMA:278790
+xref: FMA:83885
+xref: UBERON:0005351
+relationship: part_of TS-0125 ! Cerebellum
+
+[Term]
+id: TS-2653
+name: Inferior vagus X ganglion
+def: "The large group of sensory neuron cell bodies, anterior to the jugular vein, associated with the vagus nerve (tenth cranial nerve)" [UBERON]
+synonym: "ganglion inferius (nervus vagus)" RELATED []
+synonym: "inferior ganglion of vagus" RELATED []
+synonym: "inferior ganglion of vagus nerve" RELATED []
+synonym: "inferior vagus ganglion" RELATED []
+synonym: "inferior vagus X" RELATED []
+synonym: "nodose ganglion" RELATED []
+synonym: "tenth cranial nerve nodose ganglion" RELATED []
+synonym: "vagus nerve inferior ganglion" RELATED []
+synonym: "vagus nerve nodose ganglion" RELATED []
+synonym: "vagus X inferior ganglion" RELATED []
+xref: FMA:6230
+xref: MESH:D009620
+xref: UBERON:0005363
+is_a: TS-0397 ! Ganglion.
+
+[Term]
+id: TS-2654
+name: C1 segment of cervical spinal cord
+def: "The segment of the spinal cord that corresponds to the first cervical vertebra in most mammals." [UBERON]
+synonym: "C1 cervical spinal cord" RELATED []
+synonym: "C1 segment" RELATED []
+synonym: "C1 spinal cord segment" RELATED []
+synonym: "first cervical spinal cord segment" RELATED []
+xref: FMA:71179
+relationship: part_of TS-0953 ! Spinal cord
+
+[Term]
+id: TS-2655
+name: Brodmann (1909) area 46
+def: "Brodmann area 46, or BA46, is part of the frontal cortex in the human brain. It is between BA10 and BA45. BA46 is known as middle frontal area 46. In the human brain it occupies approximately the middle third of the middle frontal gyrus and the most rostral portion of the inferior frontal gyrus. Brodmann area 46 roughly corresponds with the dorsolateral prefrontal cortex (DLPFC), although the borders of area 46 are based on cytoarchitecture rather than function. The DLPFC also encompasses part of granular frontal area 9, directly adjacent on the dorsal surface of the cortex. Cytoarchitecturally, BA46 is bounded dorsally by the granular frontal area 9, rostroventrally by the frontopolar area 10 and caudally by the triangular area 45 (Brodmann-1909). There is some discrepancy between the extent of BA8 (Brodmann-1905) and the same area as described by Walker (1940)." [Wikipedia:Brodmann_area_46]
+synonym: "area 46 of Brodmann" RELATED []
+synonym: "area 46 of Brodmann-1909" RELATED []
+synonym: "area frontalis media" RELATED []
+synonym: "B09-46" RELATED []
+synonym: "BA46" RELATED []
+synonym: "Brodmann area 46" RELATED []
+synonym: "Brodmann area 46, middle frontal" RELATED []
+synonym: "middle frontal area 46" RELATED []
+synonym: "middle frontal area 46" RELATED []
+xref: FMA:68643
+xref: UBERON:0006483
+relationship: part_of TS-0091 ! Cerebral cortex
+
+[Term]
+id: TS-2656
+name: Dorsolateral prefrontal cortex
+def: "The dorsolateral prefrontal cortex (DL-PFC or DLPFC), according to a more restricted definition, is roughly equivalent to Brodmann areas 9 and 46. According to a broader definition DL-PFC consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47. These regions mainly receive their blood supply from the middle cerebral artery. With respect to neurotransmitter systems, there is evidence that dopamine plays a particularly important role in DL-PFC. DL-PFC is connected to the orbitofrontal cortex, and to a variety of brain areas, which include the thalamus, parts of the basal ganglia (the dorsal caudate nucleus), the hippocampus, and primary and secondary association areas of neocortex, including posterior temporal, parietal, and occipital areas." [UBERON]
+xref: FMA:276189
+xref: UBERON:0009834
+relationship: part_of TS-0091 ! Cerebral cortex
+
+[Term]
+id: TS-2657
+name: Anterior cingulate cortex
+def: "The front region of the cingulate cortex that is located in the medial frontal lobe, adjacent to the corpus callosum. The anterior cingulate functions in decision making and in the regulation of emotions and physiological processes like blood pressure and heart rate." [NCI_Thesaurus:Anterior Cingulate Cortex]
+xref: BTO:0004249
+xref: FMA:271599
+xref: UBERON:0009835
+relationship: part_of TS-2647 ! Cingulate cortex
+
+[Term]
+id: TS-2658
+name: Brodmann (1909) area 9
+def: "Brodmann area 9, or BA9, is part of the frontal cortex in the brain of humans and other primates. It contributes to the dorsolateral and medial prefrontal cortex." [Wikipedia:Brodmann_area_9]
+synonym: "area 9 of Brodmann" RELATED []
+synonym: "area 9 of Brodmann-1909" RELATED []
+synonym: "area frontalis granularis" RELATED []
+synonym: "B09-9" RELATED []
+synonym: "Brodmann area 9" RELATED []
+synonym: "Brodmann area 9, granular frontal" RELATED []
+synonym: "brodmann's area 9" RELATED []
+synonym: "granular frontal area" RELATED []
+xref: FMA:68606
+xref: UBERON:001354
+relationship: part_of TS-2656 ! Dorsolateral prefrontal cortex
+
+[Term]
+id: TS-2659
+name: Brodmann (1909) area 10
+def: "Brodmann area 10 (BA10, frontopolar prefrontal cortex, rostrolateral prefrontal cortex, or anterior prefrontal cortex) is the anterior-most portion of the prefrontal cortex in the human brain. BA10 was originally defined broadly in terms of its cytoarchitectonic traits as they were observed in the brains of cadavers, but because modern functional imaging cannot precisely identify these boundaries, the terms anterior prefrontal cortex, rostral prefrontal cortex and frontopolar prefrontal cortex are used to refer to the area in the most anterior part of the frontal cortex that approximately covers BA10-simply to emphasize the fact that BA10 does not include all parts of the prefrontal cortex. BA10 is the largest cytoarchitectonic area in the human brain. It has been described as "one of the least well understood regions of the human brain". Present research suggests that it is involved in strategic processes in memory recall and various executive functions. During human evolution, the functions in this area resulted in its expansion relative to the rest of the brain." [Wikipedia:Brodmann_area_10]
+synonym: "area 10 of Brodmann" RELATED []
+synonym: "area 10 of Brodmann-1909" RELATED []
+synonym: "area frontopolaris" RELATED []
+synonym: "B09-10" RELATED []
+synonym: "BA10" RELATED []
+synonym: "Brodmann area 10" RELATED []
+synonym: "Brodmann area 10, frontoplar" RELATED []
+synonym: "lateral orbital area" RELATED []
+relationship: part_of TS-2424 ! Prefrontal cortex
+
+[Term]
+id: TS-2660
+name: Brodmann (1909) area 23
+def: "Brodmann area 23 (BA23) is a region in the brain that lies inside the posterior cingulate cortex. It lies between Brodmann area 30 and Brodmann area 31 and is located on the medial wall of the cingulate gyrus between the callosal sulcus and the cingulate sulcus." [Wikipedia:Brodmann_area_23]
+synonym: "area 23 of Brodmann" RELATED []
+synonym: "area 23 of Brodmann (guenon)" RELATED []
+synonym: "area 23 of Brodmann-1909" RELATED []
+synonym: "area cingularis posterior ventralis" RELATED []
+synonym: "B09-23" RELATED []
+synonym: "BA23" RELATED []
+synonym: "Brodmann area 23" RELATED []
+synonym: "Brodmann area 23, ventral posterior cingulate" RELATED []
+synonym: "brodmann's area 23" RELATED []
+synonym: "granular cingulate area" RELATED []
+synonym: "posterior cingulate area" RELATED []
+synonym: "ventral posterior cingulate area" RELATED []
+xref: FMA:68620
+xref: UBERON:0013554
+relationship: part_of TS-0091 ! Cerebral cortex
+
+[Term]
+id: TS-2661
+name: Right hemisphere of cerebellum
+def: "A cerebellar hemisphere that is in the right side of a cerebellum." [UBERON]
+xref: FMA:83876
+xref: UBERON:0014890
+relationship: part_of TS-2637 ! Cerebellar hemisphere
+
+[Term]
+id: TS-2662
+name: Sural nerve
+def: "The sural nerve (short saphenous nerve), formed by the junction of the medial sural cutaneous with the peroneal anastomotic branch of the lateral sural cutaneous nerve, passes downward near the lateral margin of the tendo calcaneus, lying close to the small saphenous vein, to the interval between the lateral malleolus and the calcaneus. It runs forward below the lateral malleolus, and is continued as the lateral dorsal cutaneous nerve along the lateral side of the foot and little toe (via a dorsal digital nerve), communicating on the dorsum of the foot with the intermediate dorsal cutaneous nerve, a branch of the superficial peroneal. In the leg, its branches communicate with those of the posterior femoral cutaneous." [Wikipedia:Sural_nerve ]
+synonym: "short saphenal nerve" RELATED []
+xref: FMA:44688
+xref: UBERON:0015488
+relationship: part_of TS-2493 ! Tibial nerve
+
+
+[Term]
+id: TS-2663
+name: Palpebral conjunctiva
+def: "A thin transparent mucous membrane that covers the posterior surface of the eyelids and is continuous with the bulbar conjunctiva at the conjunctival fornicies." [UBERON:Palpebral_conjunctiva]
+synonym: "eyelid conjunctiva" RELATED []
+xref: FMA:59025
+xref: UBERON:0001812
+relationship: part_of TS-2232 ! Conjunctiva
+
+[Term]
+id: TS-2664
+name: Minor salivary gland
+def: "One of the smaller, largely mucus-secreting, exocrine glands of the oral cavity, consisting of the labial, buccal, molar, lingual, and palatine glands." [UBERON:minor_salivary_gland]
+xref: FMA:59789
+xref: MESH:D012470
+xref: UBERON:0001830
+is_a: TS-0892 ! Salivary gland
+
+[Term]
+id: TS-2665
+name: Synovial membrane of synovial joint
+def: "Soft tissue that lines the non-cartilaginous surfaces within joints with cavities (synovial joints)." [Wikipedia:Synovial_membrane ]
+xref: BTO:0001823
+xref: FMA:9865
+xref: MESH:D013583
+xref: UBERON:0002018
+relationship: part_of TS-2138 ! Synovial joint
+
+[Term]
+id: TS-2666
+name: Apex of heart
+def: "The apex of the heart is the lowest superficial part of the heart. It is directed downward, forward, and to the left, and is overlapped by the left lung and pleura." [Wikipedia:Apex_of_the_heart]
+xref: FMA:7164
+xref: UBERON:0002098
+relationship: part_of TS-0445 ! Heart
+
+[Term]
+id: TS-2667
+name: Inferior olivary complex
+def: "The inferior olivary nucleus is the largest nucleus situated in the olivary body, part of the medulla oblongata." [IBERON:Inferior_olivary_nucleus ]
+synonym: "Inferior olivary nucleus" RELATED []
+synonym: "Inferior olivary nuclei" RELATED []
+xref: BTO:0002298
+xref: FMA:72243
+xref: UBERON:0002127
+relationship: part_of TS-2668 ! Olivary body.
+
+[Term]
+id: TS-2668
+name: Olivary body
+def: "Prominent oval structure in the medulla oblongata, present in pairs, the lower portion of the brainstem. They contain the olivary nuclei." [UBERON:Olivary_body]
+synonym: "Olivary nucleus" RELATED []
+xref: BTO:0002299
+xref: UBERON:0000128
+relationship: part_of TS-0607 ! Medulla oblongata
+
+[Term]
+id: TS-2669
+name: Parietal pleura
+def: "The parietal pleura is the outer membrane which is attached to the inner surface of the thoracic cavity. It also separates the pleural cavity from the mediastinum. The parietal pleura is innervated by the intercostal nerves and the phrenic nerve." [Wikipedia:Pulmonary_pleurae]
+xref: FMA:9733
+xref: UBERON:0002400
+relationship: part_of TS-2081 ! Pleura
+
+[Term]
+id: TS-2670
+name: Visceral pleura
+def: "The inner serous membrane of the pulmonary pleura. The visceral pleura is the delicate membrane that covers the surface of each lung, and dips into the fissures between the lobes of the lung." [Wikipedia:Pulmonary_pleurae]
+xref: FMA:9734
+xref: UBERON:0002401
+relationship: part_of TS-2081 ! Pleura
+
+[Term]
+id: TS-2671
+name: Calcaneal tendon
+def: "The Achilles tendon is a tendon of the posterior leg. It serves to attach the plantaris, gastrocnemius (calf) and soleus muscles to the calcaneus (heel) bone." [Wikipedia:Achilles_tendon]
+synonym: "Achilles tendon" RELATED []
+synonym: "Achille's tendon" RELATED []
+is_a: TS-1021 ! Tendon
+
+[Term]
+id: TS-2672
+name: Caput epididymis
+def: "The head of the epididymis." [neXtProt:PDR]
+synonym: "Head of epidymis" RELATED []
+synonym: "Epididymal head" RELATED []
+synonym: "Epididymis head" RELATED []
+xref: BTO:0000336
+xref: FMA:18259
+xref: UBERON:0004358
+relationship: part_of TS-0285 ! Epididymis
+
+[Term]
+id: TS-2673
+name: Corpus epididymis
+def: "The body of the epididymis." [neXtProt:PDR]
+synonym: "Epididymis body" RELATED []
+synonym: "Body of epididymis" RELATED []
+synonym: "Epididymal body" RELATED []
+xref: BTO:0000209
+xref: FMA:18260
+xref: UBERON:0004359
+relationship: part_of TS-0285 ! Epididymis
+
+[Term]
+id: TS-2674
+name: Cauda epididymis
+def: "The tail of the epididymis." [neXtProt:PDR]
+synonym: "Epididymal cauda" RELATED []
+synonym: "Tail of epididymis" RELATED []
+synonym: "Epididymis tail" RELATED []
+synonym: "Epididymal tail" RELATED []
+xref: BTO:0000210
+xref: FMA:18261
+xref: UBERON:0004360
+relationship: part_of TS-0285 ! Epididymis
+
+[Term]
+id: TS-2675
+name: Blood vessel layer
+def: "Any of the tissue layers that comprise a blood vessel. Examples: tunica media, tunica adventitia." [UBERON:blood_vessel_layer]
+xref: UBERON:0004797
+is_a: TS-2090 ! Tissue
+relationship: part_of TS-0080 ! Blood vessel
+
+[Term]
+id: TS-2676
+name: Chorionic villus
+def: "Tiny vascular tissue projections from the chorionic membrane." [neXtProt:PDR]
+synonym: "chorionic villi" RELATED []
+synonym: "placental villi" RELATED []
+synonym: "placental villus" RELATED []
+xref: BTO:0001161
+xref: D002824
+xref: FMA:322203
+xref: UBERON:0007106
+relationship: part_of TS-0144 ! Chorionic membrane
+
+[Term]
+id: TS-2677
+name: Tendon of biceps muscle
+def: "A tendon that attaches to a biceps brachii." [UBERON:tendon_of_biceps_brachii]
+synonym: "biceps brachii tendon" RELATED []
+synonym: "Tendon of biceps brachii" RELATED []
+xref: FMA:38152
+xref: UBERON:0008188  is_a TS-1021 ! Tendon
+relationship: part_of TS-2612 ! Biceps muscle
+
+[Term]
+id: TS-2678
+name: Upper lobe of lung
+def: "The pleural sac divides each lung into sections called lobes. The upper lobe is the upper subdivision of either the right or left lung." [neXtProt]
+xref: FMA:7334
+xref: UBERON:0008948
+relationship: part_of TS-0568 ! Lung
+
+[Term]
+id: TS-2679
+name: Lower lobe of lung
+def: "The pleural sac divides each lung into sections called lobes. The lower lobe is the lower subdivision of either the right or left lung." [neXtProt]
+xref: FMA:7335
+xref: UBERON:0008949
+relationship: part_of TS-0568 ! Lung
+
+[Term]
+id: TS-2680
+name: Upper lobe of left lung
+def: "The upper lobe is the upper subdivision of the left lung." [neXtProt:PDR]
+xref: FMA:7370
+xref: UBERON:0008952
+relationship: part_of TS-0568 ! Lung
+
+[Term]
+id: TS-2681
+name: Omental fat pad
+def: "Encapsulated adipose tissue associated with the fold of peritoneal tissue that extends from the stomach to the posterior abdominal wall after associating with the transverse colon." [UBERON:omental_fat_pad]
+xref: UBERON:0010414
+is_a: TS-0013 ! Adipose tissue
+relationship: part_of TS-2004 ! Omentum
+
+[Term]
+id: TS-2682
+name: Body of tongue
+def: "The oral part of the tongue anterior to the terminal sulcus." [UBERON:body_of_tongue]
+xref: FMA:54641
+xref: UBERON:0011876
+relationship: part_of TS-1050 ! Tongue
+
+[Term]
+id: TS-2683
+name: Adrenal tissue
+def: "Tissue that is part of some adrenal gland." [UBERON:adrenal_tissue]
+xref: UBERON:0018303
+is_a: TS-2090 ! Tissue
+relationship: part_of TS-0016 ! Adrenal gland
+
+[Term]
+id: TS-2684
+name: Left adrenal gland cortex
+def: "The thick outer layer of the adrenal gland that is in the left side of the abdomen." [UBERON:left_adrenal_gland_cortex]
+synonym: "cortex of left adrenal gland" RELATED []
+synonym: "cortex of left suprarenal gland" RELATED []
+synonym: "left adrenal cortex" RELATED []
+xref: FMA:69089
+xref: UBERON:0035825
+relationship: part_of TS-2590 ! Left adrenal gland
+relationship: part_of TS-0015 ! Adrenal cortex
+
+[Term]
+id: TS-2685
+name: Right adrenal gland cortex
+def: "The thick outer layer of the adrenal gland that is in the right side of the abdomen." [UBERON:right_adrenal_gland_cortex]
+synonym: "cortex of right adrenal gland" RELATED []
+synonym: "cortex of right suprarenal gland" RELATED []
+synonym: "right adrenal cortex" RELATED []
+xref: FMA:69088
+xref: UBERON:0035827
+relationship: part_of TS-2589 ! Right adrenal gland
+relationship: part_of TS-0015 ! Adrenal cortex
+
+[Term]
+id: TS-2686
+name: Lower esophagus muscularis layer
+def: "A thin layer of smooth muscle fibers part of the tunica mucosa in the lower esophagus." [neXtProt:PDR]synonym: "Muscle coat of lower esophagus" RELATED []
+synonym: "Lower esophagus muscularis propria" RELATED []
+xref: UBERON:0035833
+is_a: TS-0943 ! Smooth muscle tissue
+relationship: part_of TS-2629 ! Lower esophagus
+
+[Term]
+id: TS-2687
+name: Esophagogastric junction muscularis propria
+def: "Muscularis propria from the lowest portion of the esophagus, just proximal to the stomach." [UBERON:esophagogastric_junction_muscularis_propria]
+xref: UBERON:0035841
+is_a: TS-0943 ! Smooth muscle tissue
+relationship: part_of TS-2499 ! Esophagogastric junction
+
+[Term]
+id: TS-2688
+name: Frontal cortex
+def: "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally." [UBERON]
+synonym: "Brain frontal cortex" RELATED []
+synonyn: "cortex of frontal lobe" RELATED []
+synonym: "gray matter of frontal lobe" RELATED []
+synonym: "grey matter of frontal lobe; frontal lobe cortex" RELATED []
+xref: BTO:0000484
+xref: FMA:242199
+xref: UBERON:0001870
+relationship: part_of TS-0389 ! Frontal lobe
+
+[Term]
+id: TS-2689
+name: Temporal cortex
+def: "Gray matter of the temporal region of the neocortex, located in the temporal lobe in gyrencephalic animals." [UBERON]
+synonym: "Brain temporal cortex" RELATED []
+synonym: "temporal lobe cortex" RELATED []
+synonym: "temporal neocortex" RELATED []
+xref: FMA:242201
+xref: UBERON:0016538
+relationship: part_of TS-1020 ! Temporal lobe
+
+[Term]
+id: TS-2690
+name: Parietal cortex
+def: "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals. It is continuous anteriorly with the frontal cortex, posteriorly with the occipital cortex and medially with the insular cortex and with the temporal cortex on the posterior/inferior border." [UBERON]
+synonym: "Brain parietal cortex" RELATED []
+synonym: "Parietal lobe cortex" RELATED []
+synonym: "Parietal neocortex" RELATED []
+xref: FMA:242203
+xref: UBERON:0016530
+relationship: part_of TS-0747 ! Parietal lobe
+
+[Term]
+id: TS-2691
+name: Occipital cortex
+def: "Cortex of occipital lobe." [neXtProt:PDR]
+synonym: "Brain occipital cortex" RELATED []
+synonym: "Occipital cortex" RELATED []
+xref: FMA:242205
+xref: UBERON:0016540
+relationship: part_of TS-0693 ! Occipital lobe
+
+[Term]
+id: TS-2692
+name: Embryonic pituitary gland
+def: "Embryonic structure that gives rise to the fetal and adult pituitary gland." [neXtProt:PDR]
+synonym: "Pituitary primordium" RELATED []
+synonym: "Future pituitary gland" RELATED []
+xref: UBERON:0034875
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2693
+name: Embryonic skin
+def: "Embryonic tissue that gives rise to the fetal and adult skin." [neXtProt:PDR]
+synonym: "Embryonic zone of skin" RELATED []
+is_a: TS-2100 ! Embryonic tissue
+
+[Term]
+id: TS-2694
+name: Embryonic stomach
+def: "Embryonic structure that gives rise to the fetal and adult stomach." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2695
+name: Embryonic retina
+def: "Embryonic structure that gives rise to the fetal and adult retina." [neXtProt:PDR]
+relationship: part_of TS-2696 ! Embryonic eye
+
+[Term]
+id: TS-2696
+name: Embryonic eye
+def: "Portion of tissue that is part of the anterior neural keel and will form the optic vesicle[ZFA]. A paired ectodermal placode that becomes invaginated to form the embryonic lens vesicles." [UBERON]
+synonym: "Eye primordium" RELATED []
+xref: UBERON:0003071
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2697
+name: Embryonic ovary
+def: "Embryonic structure that gives rise to the fetal and adult ovary." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2698
+name: Embryonic pancreas
+def: "Embryonic structure that gives rise to the fetal and adult pancreas." [neXtProt:PDR]
+synonym: "Pancreas primordium" RELATED []
+synonym: "Pancreatic primordium" RELATED []
+xref: UBERON:0003921
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2699
+name: Embryonic bone
+def: "Embryonic structure that gives rise to the fetal and adult bone." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2700
+name: Embryonic muscle
+def: "Embryonic structure that gives rise to the fetal and adult muscle." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2701
+name: Embryonic ear
+def: "Embryonic structure that gives rise to the fetal and adult ear." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2702
+name: Embryonic cochlea
+def: "Embryonic structure that gives rise to the fetal and adult cochlea." [neXtProt:PDR]
+relationship: part_of TS-2701 ! Embrynic ear
+
+[Term]
+id: TS-2703
+name: Embryonic hypothalamus
+def: "Embryonic structure that gives rise to the fetal and adult hypothalamus." [neXtProt:PDR]
+relationship: part_of TS-0231 ! Embrynic brain
+
+[Term]
+id: TS-2704
+name: Embryonic spleen
+def: "Embryonic structure that gives rise to the fetal and adult spleen." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2705
+name: Embryonic adrenal gland
+def: "Embryonic structure that gives rise to the fetal and adult adrenal gland." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2706
+name: Embryonic thymus
+def: "Embryonic structure that gives rise to the fetal and adult thymus." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+[Term]
+id: TS-2707
+name: Embryonic cartilage
+def: "Embryonic structure that gives rise to the fetal and adult cartilage." [neXtProt:PDR]
+relationship: part_of TS-0229 ! Embryo
+
+id: TS-2708
+name: Embryonic frontal lobe
+def: "Embryonic structure that gives rise to the fetal and adult frontal lobe." [neXtProt:PDR]
+relationship: part_of TS-0231 ! Embryonic brain
+
+[Term]
+id: TS-2709
+name: Fetal stomach
+def: "Fetal structure that gives rise to adult stomach." [neXtProt:PDR]
+relationship: part_of TS-0360 ! Fetus
+
+[Term]
+id: TS-2710
+name: Fetal pigmented layer of retina
+def: "Fetal structure that gives rise to adult pigmented layer of retina." [neXtProt:PDR]
+relationship: part_of TS-0349 ! Fetal retina
+
+[Term]
+id: TS-2711
+name: Fetal frontal cortex
+def: "Fetal structure that gives rise to adult frontal cortex." [neXtProt:PDR]
+relationship: part_of TS-2114 ! Fetal frontal lobe
+
+[Term]
+id: TS-2712
+name: Fetal forebrain
+def: "Fetal structure that gives rise to adult forebrain." [neXtProt:PDR]
+relationship: part_of TS-0328 ! Fetal forebrain
+
+[Term]
+id: TS-2713
+name: Fetal neocortex
+def: "Fetal structure that gives rise to adult neocortex." [neXtProt:PDR]
+relationship: part_of TS-1211 ! Fetal cerebral cortex
+
+[Term]
+id: TS-2714
+name: Fetal ventricular zone
+relationship: part_of TS-0328 ! Fetal brain
+
+[Term]
+id: TS-2715
+name: Fetal cortical plate
+relationship: part_of TS-1211 ! Fetal cerebral cortex
+
+[Term]
+id: TS-2716
+name: Fetal adrenal tissue
+def: "Fetal tissue that is part of the fetal adrenal gland." [neXtProt:PDR]
+relationship: part_of TS-0323 ! Fetal adrenal gland
+
+[Term]
+id: TS-2717
+name: Right atrium auricular region
+def: "A small conical muscular pouch attached to the right atrium of the heart." [neXtProt:PDR]
+xref: FMA:7218
+xref: UBERON:0006631
+relationship: part_of TS-2618 ! Right Atrium
+
+[Term]
+id: TS-2718
+name: Right lung
+def: "Lung which consists of the right upper lobe, middle lobe and right lower lobe." [UBERON]
+xref: FMA:7309
+xref: UBERON:0002167
+relationship: part_of TS-0568 ! Lung
+
+[Term]
+id: TS-2719
+name: Right ovary
+def: "An ovary that is part of a right side of organism." [UBERON]
+xref: FMA:7213
+xref: UBERON:0002118
+relationship: part_of TS-0730 ! Ovary
+
+[Term]
+id: TS-2720
+name: Left ovary
+def: "An ovary that is part of a left side of organism." [UBERON]
+xref: FMA:7214
+xref: UBERON:0002119
+relationship: part_of TS-0730 ! Ovary
+
+[Term]
+id: TS-2721
+name: Left testis
+def: "A testis that is part of a left side of the genitalia." [UBERON]
+xref: FMA:7212
+xref: UBERON:0004533
+relationship: part_of TS-1030 ! Testis
+
+[Term]
+id: TS-2722
+name: Right testis
+def: "A testis that is part of a right side of the genitalia." [UBERON]
+xref: FMA:7211
+xref: UBERON:0004534
+relationship: part_of TS-1030 ! Testis
+
+
 [Typedef]
 id: develops_from
 name: develops_from
@@ -10287,3 +11755,4 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
+
