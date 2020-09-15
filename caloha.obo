@@ -2423,10 +2423,11 @@ name: Mammary gland
 def: "Glandular tissue in the breast of human that is under the influence of hormones such as estrogens, progestins and prolactin. In women, after parturition, the mammary glands secrete milk for the nourishment of the young." [MeSH:Human_Mammary_Glands]
 synonym: "Mammary" RELATED []
 synonym: "Mammary glands" RELATED []
+synonym: "Thoracic mammary" RELATED []
 xref: BTO:0000817
 xref: FMA:57983
 xref: MESH:D042361
-xref: UBERON:0001911
+xref: UBERON:0005200
 xref: URL:http://www.proteinatlas.org/dictionary/normal/breast
 is_a: TS-2012 ! Exocrine gland
 relationship: part_of TS-2083 ! Breast
@@ -11579,7 +11580,7 @@ relationship: part_of TS-0229 ! Embryo
 
 [Term]
 id: TS-2697
-name: Embryonic ovary
+name: Embryonic female gonad
 def: "Embryonic structure that gives rise to the fetal and adult ovary." [neXtProt:PDR]
 relationship: part_of TS-0229 ! Embryo
 
@@ -11745,6 +11746,13 @@ xref: FMA:7211
 xref: UBERON:0004534
 relationship: part_of TS-1030 ! Testis
 
+[Term]
+id: TS-2723
+name: Fetal subventricular zone
+def: "The transient proliferative population of neurons that expands exponentially during late prenatal development; it is a continuous germinal zone distinct from the ventricular zone that surrounds the brain ventricles." [UBERON:ganglionic_eminence]
+relationship: part_of TS-0328 ! Fetal brain
+
+
 
 [Typedef]
 id: develops_from
@@ -11755,4 +11763,3 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
-
