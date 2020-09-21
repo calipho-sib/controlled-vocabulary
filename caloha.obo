@@ -3596,10 +3596,11 @@ synonym: "Kidney glomerus" RELATED []
 synonym: "Malphigian glomerulus" RELATED []
 synonym: "Renal glomerular cell" RELATED []
 synonym: "Renal glomerulus cell" RELATED []
+synonym: "Metanephric glomerulus" RELATED []
 xref: BTO:0000530
 xref: FMA:15624
 xref: MESH:D007678
-xref: UBERON:0000074
+xref: UBERON:0004736
 relationship: part_of TS-1317 ! Renal corpuscle
 
 [Term]
