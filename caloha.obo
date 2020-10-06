@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.5
-date: 01:09:2020 12:00
+date: 01:10:2020 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -533,7 +533,7 @@ xref: BTO:0001539
 xref: CL:0000746
 xref: MESH:D032383
 is_a: TS-2157 ! Striated muscle cell
-relationship: part_of TS-0440 ! Heart muscle
+relationship: part_of TS-0440 ! Heart muscle tissue
 
 [Term]
 id: TS-0116
@@ -1758,7 +1758,7 @@ is_a: TS-0444 ! Heart ventricle
 
 [Term]
 id: TS-0440
-name: Heart muscle
+name: Heart muscle tissue
 def: "The muscle tissue of the heart. It is composed of striated, involuntary muscle cells (myocytes, cardiac) connected to form the contractile pump to generate blood flow." [MeSH:Myocardium]
 synonym: "Cardiac muscle tissue" RELATED []
 synonym: "cardiac muscle" RELATED []
@@ -2628,6 +2628,7 @@ xref: FMA:9641
 xref: MESH:D009132
 xref: UBERON:0002385
 is_a: TS-2090 ! Tissue
+relationship: part_of TS-2724 ! Muscular system
 
 [Term]
 id: TS-0643
@@ -9514,6 +9515,16 @@ xref: UBERON:0001780
 is_a: TS-0772 ! Peripheral nerve
 
 [Term]
+id: TS-2492
+name: Spinal nerve
+def: "A spinal nerve is a mixed nerve, which carries motor, sensory, and autonomic signals between the spinal cord and the body. In the human body there are 31 pairs of spinal nerves, one on each side of the vertebral column. These are grouped into the corresponding cervical, thoracic, lumbar, sacral and coccygeal regions of the spine.[1] There are eight pairs of cervical nerves, twelve pairs of thoracic nerves, five pairs of lumbar nerves, five pairs of sacral nerves, and one pair of coccygeal nerves. The spinal nerves are part of the peripheral nervous system." [Wikipedia:Spinal_nerve]
+xref: BTO:0000870
+xref: FMA:5858
+xref: MESH:D013127
+xref: UBERON:0001780
+is_a: TS-0772 ! Peripheral nerve
+
+[Term]
 id: TS-2493
 name: Tibial nerve
 def: "The tibial nerve is a branch of the sciatic nerve. The tibial nerve passes through the popliteal fossa to pass below the arch of soleus. In the popliteal fossa the nerve gives off branches to gastrocnemius, popliteus, soleus and plantaris muscles, an articular branch to the knee joint, and a cutaneous branch that will become the sural nerve. The sural nerve is joined by fibres from the common peroneal nerve and runs down the calf to supply the lateral side of the foot. Below the soleus muscle the nerve lies close to the tibia and supplies the tibialis posterior, the flexor digitorum longus and the flexor hallucis longus. The nerve passes into the foot running posterior to the medial malleolus. Here it is bound down by the flexor retinaculum in company with the posterior tibial artery." [UBERON:tibial nerve]
@@ -10496,7 +10507,7 @@ def: "Organ consisting of a tissue made up of various elongated cells that are s
 synonym: "Muscle" RELATED []
 xref: FMA:5022
 xref: UBERON:0001630
-relationship: part_of TS-1311 ! Musculoskeletal system.
+relationship: part_of TS-2724 ! Muscular system
 
 [Term]
 id: TS-2595
@@ -10712,6 +10723,7 @@ synonym: "Heart myocardium" RELATED []
 xref: FMA:9462
 xref: MESH:D009206
 xref: UBERON:0002349
+relationship: part_of TS-2724 ! Muscular system
 relationship: part_of TS-0445 ! Heart
 
 [Term]
@@ -10720,7 +10732,7 @@ name: Cardiac muscle of right atrium
 def: "A portion of cardiac muscle tissue that is part of a right atrium." [UBERON]
 xref: FMA:7282
 xref: UBERON:0003379
-is_a: TS-0440 ! Heart muscle
+is_a: TS-0440 ! Heart muscle tissue
 relationship: part_of TS-2618 ! Right atrium
 
 [Term]
@@ -10733,7 +10745,7 @@ synonym: "Heart right atrium" RELATED []
 synonym: "Right atrium of heart" RELATED []
 xref:FMA:7096
 xref: UBERON:0002078
-relationship: part_of TS-0445 ! Heart
+is_a: TS-0437 ! Heart atrium
 
 [Term]
 id: TS-2619
@@ -10754,7 +10766,7 @@ name: Left ventricle myocardium
 def: "A myocardium that is part of a left ventricle of a heart." [neXtProt:PDR]
 xref: FMA:9558
 xref: UBERON:0006566
-is_a: TS-0440 ! Heart muscle
+is_a: TS-2616 ! Myocardium
 relationship: part_of TS-0439 ! Heart left ventricle
 
 [Term]
@@ -11743,7 +11755,13 @@ name: Fetal subventricular zone
 def: "The transient proliferative population of neurons that expands exponentially during late prenatal development; it is a continuous germinal zone distinct from the ventricular zone that surrounds the brain ventricles." [UBERON:ganglionic_eminence]
 relationship: part_of TS-0328 ! Fetal brain
 
-
+[Term]
+id: TS-2724
+name: Muscular system
+def: "The part of the musculoskeletal system comprising all the muscles of the body". [neXtProt:PDR]
+synonym: "Musculature of the body" [RELATED]
+xref: UBERON:0000383
+relationship: part_of TS-1311 ! Musculoskeletal system
 
 [Typedef]
 id: develops_from
