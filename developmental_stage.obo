@@ -17,6 +17,13 @@ namespace: human_developmental_stage
 def: "Temporal interval that defines human life from the prenatal stage until late adulthood." [Bgee:curator "Bgee"]
 
 [Term]
+id: HsapDO:0000204
+name: mature stage
+namespace: human_developmental_stage
+def: "Human developmental stage that refers to a sexually mature human." [Bgee:curator "Bgee"]
+is_a: HsapDO:0000001 ! Human developmental stage
+
+[Term]
 id: HsapDO:0000045
 name: prenatal stage
 namespace: human_developmental_stage
