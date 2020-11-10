@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 18-Apr-2020
+Last update: 10-Nov-2020
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 18-Apr-2020
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05578
+AN   Next free AC: FA-05585
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -128,6 +128,9 @@ AC   FA-00012
 //
 ID   3-oxoacid CoA-transferase family
 AC   FA-00015
+//
+ID   4E-T/EIF4E-T family
+AC   FA-05578
 //
 ID   4HPPD family
 AC   FA-00016
@@ -2004,9 +2007,6 @@ AC   FA-00467
 ID   CAS family
 AC   FA-00468
 //
-ID   CASC1 family
-AC   FA-00469
-//
 ID   CASC3 family
 AC   FA-00470
 //
@@ -2163,6 +2163,9 @@ AC   FA-00506
 //
 ID   CCDC58 family
 AC   FA-00509
+//
+ID   CCDC61 family
+AC   FA-05579
 //
 ID   CCDC69 family
 AC   FA-05447
@@ -2494,6 +2497,10 @@ AC   FA-05331
 //
 ID   CFAP77 family
 AC   FA-05378
+//
+ID   CFAP94 family
+AC   FA-00469
+SY   CASC1 family.
 //
 ID   CFAP97 family
 AC   FA-04411
@@ -5536,6 +5543,9 @@ AC   FA-05459
 ID   FAM243 family
 AC   FA-05529
 //
+ID   FAM246 family
+AC   FA-05580
+//
 ID   FAM25 family
 AC   FA-01278
 //
@@ -7367,6 +7377,10 @@ AC   FA-01783
 //
 ID   HNF1 homeobox family
 AC   FA-01785
+//
+ID   HOATZ family
+AC   FA-04512
+SY   UPF0722 family.
 //
 ID   Homer family
 AC   FA-01786
@@ -10563,6 +10577,9 @@ AC   FA-05159
 //
 ID   NUP186/NUP192/NUP205 family
 AC   FA-05482
+//
+ID   Nup188 family
+AC   FA-05581
 //
 ID   NUP210 family
 AC   FA-02565
@@ -15643,6 +15660,9 @@ AC   FA-03784
 ID   SPACA4/bouncer family
 AC   FA-05538
 //
+ID   SPACA6 family
+AC   FA-05582
+//
 ID   SPAG8 family
 AC   FA-05370
 //
@@ -15756,8 +15776,12 @@ AC   FA-03811
 ID   SPP2 family
 AC   FA-03812
 //
-ID   SPRN family
+ID   UPF0454 family
+AC   FA-04383
+//
+ID   SPRING family
 AC   FA-03813
+SY   SPRN family.
 //
 ID   Sprouty family
 AC   FA-03814
@@ -16937,6 +16961,9 @@ ID   TMEM9 family
 AC   FA-04108
 SY   UPF0196 family.
 //
+ID   TMEM95 family
+AC   FA-05583
+//
 ID   TMEM97/sigma-2 receptor family
 AC   FA-04110
 SY   TMEM97 family.
@@ -17087,16 +17114,16 @@ SY   TRAFAC class dynamin-like GTPase superfamily. Dynamin/Fzo/YdjA family. Mito
 SY   Mitofusin family.
 HI   FA-01038; Dynamin/Fzo/YdjA family
 //
-ID   GB1/RHD3-type GTPase family
+ID   GB1/RHD3 GTPase family
 AC   FA-05285
-SY   TRAFAC class dynamin-like GTPase superfamily. GB1/RHD3-type GTPase family.
+SY   TRAFAC class dynamin-like GTPase superfamily. GB1/RHD3 GTPase family.
 HI   FA-05283; TRAFAC class dynamin-like GTPase superfamily
 //
 ID   GB1 subfamily
 AC   FA-01478
-SY   TRAFAC class dynamin-like GTPase superfamily. GB1/RHD3-type GTPase family. GB1 subfamily.
+SY   TRAFAC class dynamin-like GTPase superfamily. GB1/RHD3 GTPase family. GB1 subfamily.
 SY   GBP family.
-HI   FA-05285; GB1/RHD3-type GTPase family
+HI   FA-05285; GB1/RHD3 GTPase family
 //
 ID   IRG family
 AC   FA-01883
@@ -17350,6 +17377,9 @@ AC   FA-02326
 SY   TRAFAC class YlqF/YawG GTPase family. NOG2 subfamily.
 SY   MMR1/HSR1 GTP-binding protein family. NOG2 subfamily.
 HI   FA-02323; MMR1/HSR1 GTP-binding protein family
+//
+ID   TRAIP family
+AC   FA-05584
 //
 ID   TRAM family
 AC   FA-04146
@@ -18052,9 +18082,6 @@ AC   FA-04379
 ID   UPF0450 family
 AC   FA-04380
 //
-ID   UPF0454 family
-AC   FA-04383
-//
 ID   UPF0456 family
 AC   FA-04384
 //
@@ -18168,9 +18195,6 @@ AC   FA-04507
 //
 ID   UPF0711 family
 AC   FA-04510
-//
-ID   UPF0722 family
-AC   FA-04512
 //
 ID   UPF0723 family
 AC   FA-04513

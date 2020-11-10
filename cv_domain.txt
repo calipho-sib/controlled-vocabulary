@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 03-Aug-2020
+Last update: 10-Nov-2020
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 03-Aug-2020
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-00998
+AN   Next free AC: DO-01004
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -2430,6 +2430,13 @@ FT   DNA_BIND.
 TG   PS50118; HMG_BOX_2;
 DO   PDOC00305;
 //
+ID   HNF-p1.
+AC   DO-00998
+SY   HNF-1 dimerization.
+FT   DOMAIN.
+TG   PS51937; HNF_P1;
+DO   PDOC51937;
+//
 ID   HNH.
 AC   DO-00808
 FT   DOMAIN.
@@ -2999,6 +3006,13 @@ AC   DO-00387
 FT   DOMAIN.
 TG   PS50859; LONGIN;
 DO   PDOC50859;
+//
+ID   LRAT.  
+AC   DO-00999
+SY   lecithin-retinol acyltransferase.
+FT   DOMAIN.
+TG   PS51934; LRAT;
+DO   PDOC51934;
 //
 ID   LRR.
 AC   DO-00388
@@ -3924,6 +3938,12 @@ FT   DOMAIN.
 TG   PS51645; PHR_CRY_ALPHA_BETA;
 DO   PDOC51645;
 //
+ID   PHTF.  
+AC   DO-01000
+FT   DOMAIN.
+TG   PF12129; Phtf-FEM1B_bdg;
+DO   IPR021980;
+//
 ID   PI-PLC X-box.
 AC   DO-00495
 SY   phosphatidylinositol-specific phospholipase C X-box.
@@ -4097,6 +4117,12 @@ ID   POU-specific.
 AC   DO-00516
 FT   DOMAIN.
 TG   PS51179; POU_3;
+DO   PDOC00035;
+//
+ID   POU-specific atypical.
+AC   DO-01001
+FT   DOMAIN.
+TG   PS51936; POU_4;
 DO   PDOC00035;
 //
 ID   PP1-binding.
@@ -5139,11 +5165,18 @@ FT   DOMAIN.
 TG   PS51673; SUZ;
 DO   PDOC51673;
 //
-ID   SWIB.
-AC   DO-00645
+ID   SUZ-C. 
+AC   DO-01002
 FT   DOMAIN.
-TG   PF02201; SWIB;
-DO   IPR003121;
+TG   PS51938; SUZ_C;
+DO   PDOC51938;
+//
+ID   SWIB/MDM2.
+AC   DO-00645
+SY   SWIB.
+FT   DOMAIN.
+TG   PS51925; SWIB_MDM2;
+DO   PDOC51925;
 //
 ID   SWIM-type.
 AC   DO-00646
@@ -5498,6 +5531,12 @@ ID   UBA-like.
 AC   DO-00696
 FT   DOMAIN.
 TG   None;
+//
+ID   UBC core.
+AC   DO-01003
+FT   DOMAIN.
+TG   PS50127; UBC_2;
+DO   PDOC00163;
 //
 ID   ubiquitin-like.
 AC   DO-00697
