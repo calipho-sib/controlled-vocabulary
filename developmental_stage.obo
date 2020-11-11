@@ -652,7 +652,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to a newborn who is under 32 days old." [Bgee:curator "Bgee"]
 synonym: "neonate" RELATED []
 synonym: "0-1 month" EXACT []
-is_a: is_a: HsapDO:0000080 ! immature stage
+is_a: HsapDO:0000080 ! immature stage
 
 [Term]
 id: HsapDO:0000083
@@ -661,7 +661,7 @@ namespace: human_developmental_stage
 def: "Child stage that refers to an infant who is over 31 days and is under 24 months old." [Bgee:curator "Bgee"]
 synonym: "1-23 months" EXACT []
 synonym: "infant stage" EXACT []
-is_a: is_a: HsapDO:0000080 ! immature stage
+is_a: HsapDO:0000080 ! immature stage
 
 [Term]
 id: HsapDO:0000174
@@ -1004,7 +1004,7 @@ name: adult stage
 namespace: human_developmental_stage
 def: "Human developmental stage that refers to an adult who is over 19." [Bgee:curator "Bgee"]
 synonym: "19+ years" EXACT []
-is_a: is_a: HsapDO:0000204 ! mature stage
+is_a: HsapDO:0000204 ! mature stage
 
 [Term]
 id: HsapDO:0000088
