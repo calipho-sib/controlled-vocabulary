@@ -22,7 +22,7 @@ Last update: 20-May-2020
  KW         X-ref to Swiss-Prot keyword     Optional; once or more
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: CVME_0042
+AN   Next free AC: CVME_0043
 __________________________________________________________________________
 ID   Calcium.
 AC   CVME_0001
@@ -313,4 +313,11 @@ DE   Annotate an amino acid residue that binds either a zinc (Zn(2+)) or an
 DE   iron (Fe(2+)) cation.
 KW   KW-0408:Iron.
 KW   KW-0862:Zinc.
+//
+ID   Zinc or magnesium.
+AC   CVME_0042
+DE   Annotate an amino acid residue that binds either a zinc (Zn(2+)) or a
+DE   magnesium (Mg(2+)) cation.
+KW   KW-0862:Zinc.
+KW   KW-0460:Magnesium.
 //
