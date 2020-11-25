@@ -1,0 +1,1154 @@
+Anat. entity ID	Anat. entity name	Dev. stage ID	Dev. stage name	Caloha ID	Caloha name	Category
+CL:0000015	male germ cell	HsapDv:0000092	human middle aged stage (human)	TS-2369	Male germ cell	Adult
+CL:0000019	sperm	HsapDv:0000088	human early adulthood stage (human)	TS-0949	Spermatozoon	Adult
+CL:0000023	oocyte	HsapDv:0000087	human adult stage (human)	TS-0711	Oocyte	Adult
+CL:0000083	epithelial cell of pancreas	UBERON:0000104	life cycle	-	-	-
+CL:0000094	granulocyte	HsapDv:0000090	25-44 year-old human stage (human)	TS-0422	Granulocyte	Adult
+CL:0000115	endothelial cell	HsapDv:0000092	human middle aged stage (human)	TS-2401	Endothelial cell	Adult
+CL:0000169	type B pancreatic cell	HsapDv:0000087	human adult stage (human)	TS-2575	Type B pancreatic cell	Adult
+CL:0000576	monocyte	UBERON:0000113	post-juvenile adult stage	TS-0638	Monocyte	Adult
+CL:0000655	secondary oocyte	UBERON:0000104	life cycle	-	-	-
+CL:0000738	leukocyte	HsapDv:0000092	human middle aged stage (human)	TS-0549	Leukocyte	Adult
+CL:0000842	mononuclear cell	HsapDv:0000087	human adult stage (human)	TS-0768	Peripheral blood monocyte	Adult
+CL:0000842	mononuclear cell	HsapDv:0000092	human middle aged stage (human)	TS-0768	Peripheral blood monocyte	Adult
+CL:0002092	bone marrow cell	HsapDv:0000089	young adult stage (human)	TS-2576	Bone marrow cell	Adult
+CL:0002092	bone marrow cell	HsapDv:0000090	25-44 year-old human stage (human)	TS-2576	Bone marrow cell	Adult
+CL:0002255	stromal cell of endometrium	UBERON:0000113	post-juvenile adult stage	TS-2578	Stromal cell of endometrium	Adult
+CL:0002328	bronchial epithelial cell	HsapDv:0000089	young adult stage (human)	TS-2399	Bronchus epithelial cell	Adult
+CL:0002328	bronchial epithelial cell	HsapDv:0000090	25-44 year-old human stage (human)	TS-2399	Bronchus epithelial cell	Adult
+CL:0002328	bronchial epithelial cell	HsapDv:0000092	human middle aged stage (human)	TS-2399	Bronchus epithelial cell	Adult
+CL:0002328	bronchial epithelial cell	HsapDv:0000094	65-79 year-old human stage (human)	TS-2399	Bronchus epithelial cell	Adult
+CL:0002336	buccal mucosa cell	HsapDv:0000090	25-44 year-old human stage (human)	TS-2579	Buccal mucosa cell	Adult
+PBA:294021980	subventricular zone (outer) (primate)	HsapDv:0000198	fourth LMP month human stage (human)	TS-2723	Fetal subventricular zone	Fetus
+PBA:294021980	subventricular zone (outer) (primate)	HsapDv:0000199	fifth LMP month human stage (human)	TS-2723	Fetal subventricular zone	Fetus
+PBA:294022000	subventricular zone (inner) (primate)	HsapDv:0000198	fourth LMP month human stage (human)	TS-2723	Fetal subventricular zone	Fetus
+PBA:294022000	subventricular zone (inner) (primate)	HsapDv:0000199	fifth LMP month human stage (human)	TS-2723	Fetal subventricular zone	Fetus
+UBERON:0000002	uterine cervix	HsapDv:0000089	young adult stage (human)	TS-0134	Uterine cervix	Adult
+UBERON:0000002	uterine cervix	HsapDv:0000090	25-44 year-old human stage (human)	TS-0134	Uterine cervix	Adult
+UBERON:0000002	uterine cervix	HsapDv:0000092	human middle aged stage (human)	TS-0134	Uterine cervix	Adult
+UBERON:0000002	uterine cervix	UBERON:0000104	life cycle	-	-	-
+UBERON:0000006	islet of Langerhans	HsapDv:0000087	human adult stage (human)	TS-0741	Pancreatic islet	Adult
+UBERON:0000006	islet of Langerhans	HsapDv:0000090	25-44 year-old human stage (human)	TS-0741	Pancreatic islet	Adult
+UBERON:0000006	islet of Langerhans	HsapDv:0000092	human middle aged stage (human)	TS-0741	Pancreatic islet	Adult
+UBERON:0000006	islet of Langerhans	HsapDv:0000094	65-79 year-old human stage (human)	TS-0741	Pancreatic islet	Adult
+UBERON:0000006	islet of Langerhans	UBERON:0000104	life cycle	-	-	-
+UBERON:0000007	pituitary gland	HsapDv:0000087	human adult stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000088	human early adulthood stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000089	young adult stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000091	human late adulthood stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000092	human middle aged stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	HsapDv:0000095	80 year-old and over human stage (human)	TS-0798	Pituitary gland	Adult
+UBERON:0000007	pituitary gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0000007	pituitary gland	UBERON:0007220	late embryonic stage	TS-2692	Embryonic pituitary gland	Embryo
+UBERON:0000010	peripheral nervous system	UBERON:0000104	life cycle	-	-	-
+UBERON:0000014	zone of skin	HsapDv:0000086	adolescent stage (human)	TS-2580	Zone of skin	Adult
+UBERON:0000014	zone of skin	HsapDv:0000087	human adult stage (human)	TS-2580	Zone of skin	Adult
+UBERON:0000014	zone of skin	HsapDv:0000089	young adult stage (human)	TS-2580	Zone of skin	Adult
+UBERON:0000014	zone of skin	HsapDv:0000090	25-44 year-old human stage (human)	TS-2580	Zone of skin	Adult
+UBERON:0000014	zone of skin	HsapDv:0000092	human middle aged stage (human)	TS-2580	Zone of skin	Adult
+UBERON:0000014	zone of skin	UBERON:0000104	life cycle	-	-	-
+UBERON:0000014	zone of skin	UBERON:0000113	post-juvenile adult stage	TS-2580	Zone of skin	Adult
+UBERON:0000014	zone of skin	UBERON:0007220	late embryonic stage	TS-2693	Embryonic skin	Embryo
+UBERON:0000029	lymph node	HsapDv:0000087	human adult stage (human)	TS-0579	Lymph node	Adult
+UBERON:0000029	lymph node	HsapDv:0000090	25-44 year-old human stage (human)	TS-0579	Lymph node	Adult
+UBERON:0000029	lymph node	HsapDv:0000095	80 year-old and over human stage (human)	TS-0579	Lymph node	Adult
+UBERON:0000029	lymph node	UBERON:0000113	post-juvenile adult stage	TS-0579	Lymph node	Adult
+UBERON:0000043	tendon	HsapDv:0000090	25-44 year-old human stage (human)	TS-1021	Tendon	Adult
+UBERON:0000043	tendon	HsapDv:0000092	human middle aged stage (human)	TS-1021	Tendon	Adult
+UBERON:0000043	tendon	HsapDv:0000094	65-79 year-old human stage (human)	TS-1021	Tendon	Adult
+UBERON:0000044	dorsal root ganglion	HsapDv:0000087	human adult stage (human)	TS-0954	Spinal ganglion	Adult
+UBERON:0000044	dorsal root ganglion	HsapDv:0000089	young adult stage (human)	TS-0954	Spinal ganglion	Adult
+UBERON:0000044	dorsal root ganglion	HsapDv:0000090	25-44 year-old human stage (human)	TS-0954	Spinal ganglion	Adult
+UBERON:0000044	dorsal root ganglion	HsapDv:0000092	human middle aged stage (human)	TS-0954	Spinal ganglion	Adult
+UBERON:0000044	dorsal root ganglion	UBERON:0000104	life cycle	-	-	-
+UBERON:0000057	urethra	HsapDv:0000090	25-44 year-old human stage (human)	TS-1132	Urethra	Adult
+UBERON:0000057	urethra	UBERON:0000104	life cycle	-	-	-
+UBERON:0000059	large intestine	UBERON:0000104	life cycle	-	-	-
+UBERON:0000074	renal glomerulus	UBERON:0000104	life cycle	-	-	-
+UBERON:0000081	metanephros	HsapDv:0000197	third LMP month human stage (human)	TS-2581	Metanephros	Fetus
+UBERON:0000081	metanephros	HsapDv:0000198	fourth LMP month human stage (human)	TS-2581	Metanephros	Fetus
+UBERON:0000081	metanephros	HsapDv:0000199	fifth LMP month human stage (human)	TS-2581	Metanephros	Fetus
+UBERON:0000081	metanephros	HsapDv:0000200	sixth LMP month human stage (human)	TS-2581	Metanephros	Fetus
+UBERON:0000081	metanephros	UBERON:0000111	organogenesis stage	TS-0249	Embryonic kidney	Embryo
+UBERON:0000082	adult mammalian kidney	HsapDv:0000087	human adult stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	HsapDv:0000088	human early adulthood stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	HsapDv:0000089	young adult stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	HsapDv:0000090	25-44 year-old human stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	HsapDv:0000091	human late adulthood stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	HsapDv:0000092	human middle aged stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	HsapDv:0000094	65-79 year-old human stage (human)	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	UBERON:0000104	life cycle	-	-	-
+UBERON:0000082	adult mammalian kidney	UBERON:0000113	post-juvenile adult stage	TS-0510	Kidney	Adult
+UBERON:0000082	adult mammalian kidney	UBERON:0007220	late embryonic stage	TS-0249	Embryonic kidney	Embryo
+UBERON:0000160	intestine	HsapDv:0000197	third LMP month human stage (human)	TS-2432	Fetal intestine	Fetus
+UBERON:0000160	intestine	HsapDv:0000198	fourth LMP month human stage (human)	TS-2432	Fetal intestine	Fetus
+UBERON:0000160	intestine	HsapDv:0000199	fifth LMP month human stage (human)	TS-2432	Fetal intestine	Fetus
+UBERON:0000160	intestine	UBERON:0000104	life cycle	-	-	-
+UBERON:0000167	oral cavity	HsapDv:0000087	human adult stage (human)	TS-2582	Oral cavity	Adult
+UBERON:0000167	oral cavity	HsapDv:0000088	human early adulthood stage (human)	TS-2582	Oral cavity	Adult
+UBERON:0000167	oral cavity	HsapDv:0000091	human late adulthood stage (human)	TS-2582	Oral cavity	Adult
+UBERON:0000167	oral cavity	HsapDv:0000092	human middle aged stage (human)	TS-2582	Oral cavity	Adult
+UBERON:0000167	oral cavity	UBERON:0000104	life cycle	-	-	-
+UBERON:0000173	amniotic fluid	HsapDv:0000199	fifth LMP month human stage (human)	TS-0034	Amniotic fluid	Fetus
+UBERON:0000173	amniotic fluid	UBERON:0007220	late embryonic stage	TS-0034	Amniotic fluid	Embryo
+UBERON:0000178	blood	HsapDv:0000084	2-5 year-old child stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000085	6-12 year-old child stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000086	adolescent stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000087	human adult stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000088	human early adulthood stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000089	young adult stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000090	25-44 year-old human stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000091	human late adulthood stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000092	human middle aged stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	HsapDv:0000094	65-79 year-old human stage (human)	TS-0079	Blood	Adult
+UBERON:0000178	blood	UBERON:0000104	life cycle	-	-	-
+UBERON:0000178	blood	UBERON:0000113	post-juvenile adult stage	TS-0079	Blood	Adult
+UBERON:0000178	blood	UBERON:0034919	juvenile stage	TS-0079	Blood	Adult
+UBERON:0000178	blood	UBERON:0034920	infant stage	TS-0079	Blood	Adult
+UBERON:0000310	breast	UBERON:0000104	life cycle	-	-	-
+UBERON:0000317	colonic mucosa	HsapDv:0000090	25-44 year-old human stage (human)	TS-0164	Colon mucosa	Adult
+UBERON:0000317	colonic mucosa	HsapDv:0000092	human middle aged stage (human)	TS-0164	Colon mucosa	Adult
+UBERON:0000317	colonic mucosa	UBERON:0000104	life cycle	-	-	-
+UBERON:0000317	colonic mucosa	UBERON:0000113	post-juvenile adult stage	TS-0164	Colon mucosa	Adult
+UBERON:0000355	pharyngeal mucosa	HsapDv:0000090	25-44 year-old human stage (human)	TS-2437	Pharyngeal mucosa	Adult
+UBERON:0000362	renal medulla	HsapDv:0000090	25-44 year-old human stage (human)	TS-1157	Kidney medulla	Adult
+UBERON:0000369	corpus striatum	UBERON:0000104	life cycle	-	-	-
+UBERON:0000399	jejunal mucosa	UBERON:0000104	life cycle	-	-	-
+UBERON:0000407	sympathetic trunk	HsapDv:0000086	adolescent stage (human)	TS-2049	Sympathetic chain	Adult
+UBERON:0000451	prefrontal cortex	HsapDv:0000086	adolescent stage (human)	TS-2424	Prefrontal cortex	Adult
+UBERON:0000451	prefrontal cortex	HsapDv:0000089	young adult stage (human)	TS-2424	Prefrontal cortex	Adult
+UBERON:0000451	prefrontal cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-2424	Prefrontal cortex	Adult
+UBERON:0000451	prefrontal cortex	HsapDv:0000091	human late adulthood stage (human)	TS-2424	Prefrontal cortex	Adult
+UBERON:0000451	prefrontal cortex	HsapDv:0000092	human middle aged stage (human)	TS-2424	Prefrontal cortex	Adult
+UBERON:0000451	prefrontal cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2424	Prefrontal cortex	Adult
+UBERON:0000451	prefrontal cortex	UBERON:0000104	life cycle	-	-	-
+UBERON:0000458	endocervix	HsapDv:0000087	human adult stage (human)	TS-2583	Uterine endocervix	Adult
+UBERON:0000458	endocervix	HsapDv:0000091	human late adulthood stage (human)	TS-2583	Uterine endocervix	Adult
+UBERON:0000458	endocervix	HsapDv:0000092	human middle aged stage (human)	TS-2583	Uterine endocervix	Adult
+UBERON:0000465	material anatomical entity	HsapDv:0000087	human adult stage (human)	TS-2178	Human anatomical entity	Adult
+UBERON:0000465	material anatomical entity	UBERON:0000104	life cycle	-	-	-
+UBERON:0000467	anatomical system	HsapDv:0000087	human adult stage (human)	TS-2088	Anatomical system	Adult
+UBERON:0000467	anatomical system	UBERON:0000104	life cycle	-	-	-
+UBERON:0000467	anatomical system	UBERON:0007220	late embryonic stage	TS-0229	Embryo	Embryo
+UBERON:0000468	multi-cellular organism	UBERON:0000104	life cycle	-	-	-
+UBERON:0000468	multi-cellular organism	UBERON:0007220	late embryonic stage	TS-0229	Embryo	Embryo
+UBERON:0000473	testis	HsapDv:0000087	human adult stage (human)	TS-1030	Testis	Adult
+UBERON:0000473	testis	HsapDv:0000089	young adult stage (human)	TS-1030	Testis	Adult
+UBERON:0000473	testis	HsapDv:0000090	25-44 year-old human stage (human)	TS-1030	Testis	Adult
+UBERON:0000473	testis	HsapDv:0000092	human middle aged stage (human)	TS-1030	Testis	Adult
+UBERON:0000473	testis	HsapDv:0000094	65-79 year-old human stage (human)	TS-1030	Testis	Adult
+UBERON:0000473	testis	HsapDv:0000095	80 year-old and over human stage (human)	TS-1030	Testis	Adult
+UBERON:0000473	testis	HsapDv:0000197	third LMP month human stage (human)	TS-0357	Fetal testis	Fetus
+UBERON:0000473	testis	HsapDv:0000198	fourth LMP month human stage (human)	TS-0357	Fetal testis	Fetus
+UBERON:0000473	testis	HsapDv:0000199	fifth LMP month human stage (human)	TS-0357	Fetal testis	Fetus
+UBERON:0000473	testis	UBERON:0000104	life cycle	-	-	-
+UBERON:0000473	testis	UBERON:0000111	organogenesis stage	TS-0266	Embryonic testis	Embryo
+UBERON:0000473	testis	UBERON:0000113	post-juvenile adult stage	TS-1030	Testis	Adult
+UBERON:0000473	testis	UBERON:0034920	infant stage	TS-1030	Testis	Adult
+UBERON:0000474	female reproductive system	UBERON:0000104	life cycle	-	-	-
+UBERON:0000922	embryo	HsapDv:0000016	CS09	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000017	Carnegie stage 10 (human)	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000018	CS11	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000019	Carnegie stage 12 (human)	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000020	CS13	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000021	Carnegie stage 14 (human)	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000023	Carnegie stage 16 (human)	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	HsapDv:0000024	CS17	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	UBERON:0000068	embryo stage	TS-0229	Embryo	Embryo
+UBERON:0000922	embryo	UBERON:0000104	life cycle	-	-	-
+UBERON:0000922	embryo	UBERON:0000111	organogenesis stage	TS-0229	Embryo	Embryo
+UBERON:0000945	stomach	HsapDv:0000087	human adult stage (human)	TS-0980	Stomach	Adult
+UBERON:0000945	stomach	HsapDv:0000089	young adult stage (human)	TS-0980	Stomach	Adult
+UBERON:0000945	stomach	HsapDv:0000090	25-44 year-old human stage (human)	TS-0980	Stomach	Adult
+UBERON:0000945	stomach	HsapDv:0000092	human middle aged stage (human)	TS-0980	Stomach	Adult
+UBERON:0000945	stomach	HsapDv:0000197	third LMP month human stage (human)	TS-2709	Fetal stomach	Fetus
+UBERON:0000945	stomach	HsapDv:0000198	fourth LMP month human stage (human)	TS-2709	Fetal stomach	Fetus
+UBERON:0000945	stomach	HsapDv:0000199	fifth LMP month human stage (human)	TS-2709	Fetal stomach	Fetus
+UBERON:0000945	stomach	HsapDv:0000200	sixth LMP month human stage (human)	TS-2709	Fetal stomach	Fetus
+UBERON:0000945	stomach	UBERON:0000104	life cycle	-	-	-
+UBERON:0000945	stomach	UBERON:0000113	post-juvenile adult stage	TS-0980	Stomach	Adult
+UBERON:0000945	stomach	UBERON:0007220	late embryonic stage	TS-2694	Embryonic stomach	Embryo
+UBERON:0000947	aorta	HsapDv:0000087	human adult stage (human)	TS-0046	Aorta	Adult
+UBERON:0000947	aorta	UBERON:0000104	life cycle	-	-	-
+UBERON:0000948	heart	HsapDv:0000087	human adult stage (human)	TS-0445	Heart	Adult
+UBERON:0000948	heart	HsapDv:0000089	young adult stage (human)	TS-0445	Heart	Adult
+UBERON:0000948	heart	HsapDv:0000090	25-44 year-old human stage (human)	TS-0445	Heart	Adult
+UBERON:0000948	heart	HsapDv:0000092	human middle aged stage (human)	TS-0445	Heart	Adult
+UBERON:0000948	heart	HsapDv:0000094	65-79 year-old human stage (human)	TS-0445	Heart	Adult
+UBERON:0000948	heart	HsapDv:0000197	third LMP month human stage (human)	TS-0338	Fetal heart	Fetus
+UBERON:0000948	heart	HsapDv:0000199	fifth LMP month human stage (human)	TS-0338	Fetal heart	Fetus
+UBERON:0000948	heart	UBERON:0000104	life cycle	-	-	-
+UBERON:0000948	heart	UBERON:0000113	post-juvenile adult stage	TS-0445	Heart	Adult
+UBERON:0000948	heart	UBERON:0007220	late embryonic stage	TS-0247	Embryonic heart	Embryo
+UBERON:0000948	heart	UBERON:0034920	infant stage	TS-0445	Heart	Adult
+UBERON:0000955	brain	HsapDv:0000087	human adult stage (human)	TS-0095	Brain	Adult
+UBERON:0000955	brain	HsapDv:0000089	young adult stage (human)	TS-0095	Brain	Adult
+UBERON:0000955	brain	HsapDv:0000090	25-44 year-old human stage (human)	TS-0095	Brain	Adult
+UBERON:0000955	brain	HsapDv:0000092	human middle aged stage (human)	TS-0095	Brain	Adult
+UBERON:0000955	brain	HsapDv:0000094	65-79 year-old human stage (human)	TS-0095	Brain	Adult
+UBERON:0000955	brain	HsapDv:0000095	80 year-old and over human stage (human)	TS-0095	Brain	Adult
+UBERON:0000955	brain	HsapDv:0000200	sixth LMP month human stage (human)	TS-0328	Fetal brain	Fetus
+UBERON:0000955	brain	UBERON:0000068	embryo stage	TS-0231	Embryonic brain	Embryo
+UBERON:0000955	brain	UBERON:0000104	life cycle	-	-	-
+UBERON:0000955	brain	UBERON:0007220	late embryonic stage	TS-0231	Embryonic brain	Embryo
+UBERON:0000955	brain	UBERON:0034920	infant stage	TS-0095	Brain	Adult
+UBERON:0000956	cerebral cortex	HsapDv:0000086	adolescent stage (human)	TS-0091	Cerebral cortex	Adult
+UBERON:0000956	cerebral cortex	HsapDv:0000087	human adult stage (human)	TS-0091	Cerebral cortex	Adult
+UBERON:0000956	cerebral cortex	HsapDv:0000089	young adult stage (human)	TS-0091	Cerebral cortex	Adult
+UBERON:0000956	cerebral cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-0091	Cerebral cortex	Adult
+UBERON:0000956	cerebral cortex	HsapDv:0000092	human middle aged stage (human)	TS-0091	Cerebral cortex	Adult
+UBERON:0000956	cerebral cortex	HsapDv:0000197	third LMP month human stage (human)	TS-1211	Fetal cerebral cortex	Fetus
+UBERON:0000956	cerebral cortex	HsapDv:0000198	fourth LMP month human stage (human)	TS-1211	Fetal cerebral cortex	Fetus
+UBERON:0000956	cerebral cortex	UBERON:0000104	life cycle	-	-	-
+UBERON:0000956	cerebral cortex	UBERON:0000113	post-juvenile adult stage	TS-0091	Cerebral cortex	Adult
+UBERON:0000956	cerebral cortex	UBERON:0007220	late embryonic stage	TS-2382	Embryonic cerebral cortex	Embryo
+UBERON:0000965	lens of camera-type eye	HsapDv:0000087	human adult stage (human)	TS-0545	Lens	Adult
+UBERON:0000966	retina	HsapDv:0000087	human adult stage (human)	TS-0865	Retina	Adult
+UBERON:0000966	retina	HsapDv:0000093	human aged stage	TS-0865	Retina	Adult
+UBERON:0000966	retina	UBERON:0000104	life cycle	-	-	-
+UBERON:0000966	retina	UBERON:0007220	late embryonic stage	TS-2695	Embryonic retina	Embryo
+UBERON:0000970	eye	HsapDv:0000087	human adult stage (human)	TS-0309	Eye	Adult
+UBERON:0000970	eye	HsapDv:0000093	human aged stage	TS-0309	Eye	Adult
+UBERON:0000970	eye	UBERON:0000104	life cycle	-	-	-
+UBERON:0000970	eye	UBERON:0007220	late embryonic stage	TS-2696	Embryonic eye	Embryo
+UBERON:0000977	pleura	UBERON:0000104	life cycle	-	-	-
+UBERON:0000979	tibia	HsapDv:0000085	6-12 year-old child stage (human)	TS-1048	Tibia	Adult
+UBERON:0000979	tibia	HsapDv:0000086	adolescent stage (human)	TS-1048	Tibia	Adult
+UBERON:0000988	pons	UBERON:0000104	life cycle	-	-	-
+UBERON:0000989	penis	UBERON:0000104	life cycle	-	-	-
+UBERON:0000992	female gonad	HsapDv:0000087	human adult stage (human)	TS-0730	Ovary	Adult
+UBERON:0000992	female gonad	HsapDv:0000089	young adult stage (human)	TS-0730	Ovary	Adult
+UBERON:0000992	female gonad	HsapDv:0000090	25-44 year-old human stage (human)	TS-0730	Ovary	Adult
+UBERON:0000992	female gonad	HsapDv:0000092	human middle aged stage (human)	TS-0730	Ovary	Adult
+UBERON:0000992	female gonad	HsapDv:0000093	human aged stage	TS-0730	Ovary	Adult
+UBERON:0000992	female gonad	HsapDv:0000197	third LMP month human stage (human)	TS-2135	Fetal ovary	Fetus
+UBERON:0000992	female gonad	HsapDv:0000198	fourth LMP month human stage (human)	TS-2135	Fetal ovary	Fetus
+UBERON:0000992	female gonad	HsapDv:0000199	fifth LMP month human stage (human)	TS-2135	Fetal ovary	Fetus
+UBERON:0000992	female gonad	UBERON:0000104	life cycle	-	-	-
+UBERON:0000992	female gonad	UBERON:0000111	organogenesis stage	TS-2697	Embryonic female gonad	Embryo
+UBERON:0000992	female gonad	UBERON:0000113	post-juvenile adult stage	TS-0730	Ovary	Adult
+UBERON:0000995	uterus	HsapDv:0000087	human adult stage (human)	TS-1102	Uterus	Adult
+UBERON:0000995	uterus	UBERON:0000104	life cycle	-	-	-
+UBERON:0000996	vagina	HsapDv:0000087	human adult stage (human)	TS-1103	Vagina	Adult
+UBERON:0000996	vagina	HsapDv:0000088	human early adulthood stage (human)	TS-1103	Vagina	Adult
+UBERON:0000996	vagina	HsapDv:0000089	young adult stage (human)	TS-1103	Vagina	Adult
+UBERON:0000996	vagina	HsapDv:0000090	25-44 year-old human stage (human)	TS-1103	Vagina	Adult
+UBERON:0000996	vagina	HsapDv:0000091	human late adulthood stage (human)	TS-1103	Vagina	Adult
+UBERON:0000996	vagina	HsapDv:0000092	human middle aged stage (human)	TS-1103	Vagina	Adult
+UBERON:0000996	vagina	HsapDv:0000094	65-79 year-old human stage (human)	TS-1103	Vagina	Adult
+UBERON:0000997	mammalian vulva	HsapDv:0000086	adolescent stage (human)	TS-1168	Vulva	Adult
+UBERON:0000997	mammalian vulva	HsapDv:0000089	young adult stage (human)	TS-1168	Vulva	Adult
+UBERON:0000997	mammalian vulva	HsapDv:0000090	25-44 year-old human stage (human)	TS-1168	Vulva	Adult
+UBERON:0000997	mammalian vulva	HsapDv:0000092	human middle aged stage (human)	TS-1168	Vulva	Adult
+UBERON:0000998	seminal vesicle	HsapDv:0000087	human adult stage (human)	TS-0919	Seminal vesicle	Adult
+UBERON:0001003	skin epidermis	HsapDv:0000087	human adult stage (human)	TS-0283	Epidermis	Adult
+UBERON:0001013	adipose tissue	HsapDv:0000087	human adult stage (human)	TS-0013	Adipose tissue	Adult
+UBERON:0001013	adipose tissue	HsapDv:0000089	young adult stage (human)	TS-0013	Adipose tissue	Adult
+UBERON:0001013	adipose tissue	HsapDv:0000090	25-44 year-old human stage (human)	TS-0013	Adipose tissue	Adult
+UBERON:0001013	adipose tissue	HsapDv:0000092	human middle aged stage (human)	TS-0013	Adipose tissue	Adult
+UBERON:0001013	adipose tissue	HsapDv:0000094	65-79 year-old human stage (human)	TS-0013	Adipose tissue	Adult
+UBERON:0001013	adipose tissue	UBERON:0000104	life cycle	-	-	-
+UBERON:0001013	adipose tissue	UBERON:0000113	post-juvenile adult stage	TS-0013	Adipose tissue	Adult
+UBERON:0001013	adipose tissue	UBERON:0034919	juvenile stage	TS-0013	Adipose tissue	Adult
+UBERON:0001017	central nervous system	UBERON:0000104	life cycle	-	-	-
+UBERON:0001021	nerve	HsapDv:0000093	human aged stage	TS-0772	Peripheral nerve	Adult
+UBERON:0001043	esophagus	HsapDv:0000087	human adult stage (human)	TS-0700	Esophagus	Adult
+UBERON:0001043	esophagus	HsapDv:0000090	25-44 year-old human stage (human)	TS-0700	Esophagus	Adult
+UBERON:0001043	esophagus	HsapDv:0000092	human middle aged stage (human)	TS-0700	Esophagus	Adult
+UBERON:0001043	esophagus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001043	esophagus	UBERON:0000113	post-juvenile adult stage	TS-0700	Esophagus	Adult
+UBERON:0001044	saliva-secreting gland	HsapDv:0000087	human adult stage (human)	TS-0892	Salivary gland	Adult
+UBERON:0001044	saliva-secreting gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-0892	Salivary gland	Adult
+UBERON:0001044	saliva-secreting gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0001044	saliva-secreting gland	UBERON:0000113	post-juvenile adult stage	TS-0892	Salivary gland	Adult
+UBERON:0001051	hypopharynx	HsapDv:0000087	human adult stage (human)	TS-2020	Hypopharynx	Adult
+UBERON:0001052	rectum	UBERON:0000104	life cycle	-	-	-
+UBERON:0001052	rectum	UBERON:0000113	post-juvenile adult stage	TS-1180	Rectum	Adult
+UBERON:0001103	diaphragm	UBERON:0000104	life cycle	-	-	-
+UBERON:0001114	right lobe of liver	HsapDv:0000087	human adult stage (human)	TS-2584	Right lobe of liver	Adult
+UBERON:0001114	right lobe of liver	HsapDv:0000088	human early adulthood stage (human)	TS-2584	Right lobe of liver	Adult
+UBERON:0001114	right lobe of liver	HsapDv:0000090	25-44 year-old human stage (human)	TS-2584	Right lobe of liver	Adult
+UBERON:0001114	right lobe of liver	HsapDv:0000091	human late adulthood stage (human)	TS-2584	Right lobe of liver	Adult
+UBERON:0001114	right lobe of liver	HsapDv:0000092	human middle aged stage (human)	TS-2584	Right lobe of liver	Adult
+UBERON:0001119	right lobe of thyroid gland	HsapDv:0000087	human adult stage (human)	TS-2585	Right lobe of thyroid gland	Adult
+UBERON:0001119	right lobe of thyroid gland	HsapDv:0000088	human early adulthood stage (human)	TS-2585	Right lobe of thyroid gland	Adult
+UBERON:0001119	right lobe of thyroid gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-2585	Right lobe of thyroid gland	Adult
+UBERON:0001119	right lobe of thyroid gland	HsapDv:0000091	human late adulthood stage (human)	TS-2585	Right lobe of thyroid gland	Adult
+UBERON:0001119	right lobe of thyroid gland	HsapDv:0000092	human middle aged stage (human)	TS-2585	Right lobe of thyroid gland	Adult
+UBERON:0001120	left lobe of thyroid gland	HsapDv:0000087	human adult stage (human)	TS-2586	Left lobe of thyroid gland	Adult
+UBERON:0001120	left lobe of thyroid gland	HsapDv:0000088	human early adulthood stage (human)	TS-2586	Left lobe of thyroid gland	Adult
+UBERON:0001120	left lobe of thyroid gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-2586	Left lobe of thyroid gland	Adult
+UBERON:0001120	left lobe of thyroid gland	HsapDv:0000091	human late adulthood stage (human)	TS-2586	Left lobe of thyroid gland	Adult
+UBERON:0001120	left lobe of thyroid gland	HsapDv:0000092	human middle aged stage (human)	TS-2586	Left lobe of thyroid gland	Adult
+UBERON:0001120	left lobe of thyroid gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-2586	Left lobe of thyroid gland	Adult
+UBERON:0001134	skeletal muscle tissue	HsapDv:0000087	human adult stage (human)	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001134	skeletal muscle tissue	HsapDv:0000089	young adult stage (human)	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001134	skeletal muscle tissue	HsapDv:0000090	25-44 year-old human stage (human)	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001134	skeletal muscle tissue	HsapDv:0000092	human middle aged stage (human)	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001134	skeletal muscle tissue	HsapDv:0000094	65-79 year-old human stage (human)	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001134	skeletal muscle tissue	UBERON:0000104	life cycle	-	-	-
+UBERON:0001134	skeletal muscle tissue	UBERON:0000113	post-juvenile adult stage	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001134	skeletal muscle tissue	UBERON:0034919	juvenile stage	TS-0933	Skeletal muscle tissue	Adult
+UBERON:0001135	smooth muscle tissue	HsapDv:0000092	human middle aged stage (human)	TS-0943	Smooth muscle tissue	Adult
+UBERON:0001135	smooth muscle tissue	UBERON:0000113	post-juvenile adult stage	TS-0943	Smooth muscle tissue	Adult
+UBERON:0001150	body of pancreas	HsapDv:0000087	human adult stage (human)	TS-2587	Body of pancreas	Adult
+UBERON:0001150	body of pancreas	HsapDv:0000088	human early adulthood stage (human)	TS-2587	Body of pancreas	Adult
+UBERON:0001150	body of pancreas	HsapDv:0000090	25-44 year-old human stage (human)	TS-2587	Body of pancreas	Adult
+UBERON:0001150	body of pancreas	HsapDv:0000091	human late adulthood stage (human)	TS-2587	Body of pancreas	Adult
+UBERON:0001150	body of pancreas	HsapDv:0000092	human middle aged stage (human)	TS-2587	Body of pancreas	Adult
+UBERON:0001150	body of pancreas	HsapDv:0000094	65-79 year-old human stage (human)	TS-2587	Body of pancreas	Adult
+UBERON:0001153	caecum	HsapDv:0000089	young adult stage (human)	TS-0122	Cecum	Adult
+UBERON:0001153	caecum	HsapDv:0000090	25-44 year-old human stage (human)	TS-0122	Cecum	Adult
+UBERON:0001154	vermiform appendix	HsapDv:0000084	2-5 year-old child stage (human)	TS-1267	Appendix	Adult
+UBERON:0001154	vermiform appendix	HsapDv:0000085	6-12 year-old child stage (human)	TS-1267	Appendix	Adult
+UBERON:0001154	vermiform appendix	HsapDv:0000086	adolescent stage (human)	TS-1267	Appendix	Adult
+UBERON:0001154	vermiform appendix	UBERON:0000113	post-juvenile adult stage	TS-1267	Appendix	Adult
+UBERON:0001154	vermiform appendix	UBERON:0034920	infant stage	TS-1267	Appendix	Adult
+UBERON:0001155	colon	HsapDv:0000086	adolescent stage (human)	TS-0158	Colon	Adult
+UBERON:0001155	colon	HsapDv:0000087	human adult stage (human)	TS-0158	Colon	Adult
+UBERON:0001155	colon	HsapDv:0000090	25-44 year-old human stage (human)	TS-0158	Colon	Adult
+UBERON:0001155	colon	HsapDv:0000092	human middle aged stage (human)	TS-0158	Colon	Adult
+UBERON:0001155	colon	HsapDv:0000094	65-79 year-old human stage (human)	TS-0158	Colon	Adult
+UBERON:0001155	colon	HsapDv:0000095	80 year-old and over human stage (human)	TS-0158	Colon	Adult
+UBERON:0001155	colon	HsapDv:0000199	fifth LMP month human stage (human)	TS-0331	Fetal colon	Fetus
+UBERON:0001155	colon	HsapDv:0000203	ninth LMP month human stage (human)	TS-0331	Fetal colon	Fetus
+UBERON:0001155	colon	UBERON:0000104	life cycle	-	-	-
+UBERON:0001155	colon	UBERON:0000113	post-juvenile adult stage	TS-0158	Colon	Adult
+UBERON:0001155	colon	UBERON:0034919	juvenile stage	TS-0158	Colon	Adult
+UBERON:0001157	transverse colon	HsapDv:0000087	human adult stage (human)	TS-2052	Transverse colon	Adult
+UBERON:0001157	transverse colon	HsapDv:0000088	human early adulthood stage (human)	TS-2052	Transverse colon	Adult
+UBERON:0001157	transverse colon	HsapDv:0000090	25-44 year-old human stage (human)	TS-2052	Transverse colon	Adult
+UBERON:0001157	transverse colon	HsapDv:0000091	human late adulthood stage (human)	TS-2052	Transverse colon	Adult
+UBERON:0001157	transverse colon	HsapDv:0000092	human middle aged stage (human)	TS-2052	Transverse colon	Adult
+UBERON:0001159	sigmoid colon	HsapDv:0000089	young adult stage (human)	TS-2044	Sigmoid colon	Adult
+UBERON:0001159	sigmoid colon	HsapDv:0000092	human middle aged stage (human)	TS-2044	Sigmoid colon	Adult
+UBERON:0001159	sigmoid colon	HsapDv:0000094	65-79 year-old human stage (human)	TS-2044	Sigmoid colon	Adult
+UBERON:0001160	fundus of stomach	HsapDv:0000087	human adult stage (human)	TS-2425	Stomach fundus	Adult
+UBERON:0001160	fundus of stomach	HsapDv:0000088	human early adulthood stage (human)	TS-2425	Stomach fundus	Adult
+UBERON:0001160	fundus of stomach	HsapDv:0000090	25-44 year-old human stage (human)	TS-2425	Stomach fundus	Adult
+UBERON:0001160	fundus of stomach	HsapDv:0000091	human late adulthood stage (human)	TS-2425	Stomach fundus	Adult
+UBERON:0001160	fundus of stomach	HsapDv:0000092	human middle aged stage (human)	TS-2425	Stomach fundus	Adult
+UBERON:0001161	body of stomach	HsapDv:0000087	human adult stage (human)	TS-2588	Body of stomach	Adult
+UBERON:0001161	body of stomach	HsapDv:0000088	human early adulthood stage (human)	TS-2588	Body of stomach	Adult
+UBERON:0001161	body of stomach	HsapDv:0000090	25-44 year-old human stage (human)	TS-2588	Body of stomach	Adult
+UBERON:0001161	body of stomach	HsapDv:0000091	human late adulthood stage (human)	TS-2588	Body of stomach	Adult
+UBERON:0001161	body of stomach	HsapDv:0000092	human middle aged stage (human)	TS-2588	Body of stomach	Adult
+UBERON:0001161	body of stomach	HsapDv:0000094	65-79 year-old human stage (human)	TS-2588	Body of stomach	Adult
+UBERON:0001162	cardia of stomach	HsapDv:0000090	25-44 year-old human stage (human)	TS-2391	Cardia of stomach	Adult
+UBERON:0001166	pylorus	HsapDv:0000090	25-44 year-old human stage (human)	TS-2426	Pylorus	Adult
+UBERON:0001199	mucosa of stomach	HsapDv:0000091	human late adulthood stage (human)	TS-0404	Stomach mucosa	Adult
+UBERON:0001225	cortex of kidney	HsapDv:0000090	25-44 year-old human stage (human)	TS-0503	Kidney cortex	Adult
+UBERON:0001225	cortex of kidney	HsapDv:0000091	human late adulthood stage (human)	TS-0503	Kidney cortex	Adult
+UBERON:0001225	cortex of kidney	HsapDv:0000092	human middle aged stage (human)	TS-0503	Kidney cortex	Adult
+UBERON:0001225	cortex of kidney	UBERON:0000104	life cycle	-	-	-
+UBERON:0001231	nephron tubule	HsapDv:0000087	human adult stage (human)	TS-1262	Renal tubule	Adult
+UBERON:0001231	nephron tubule	HsapDv:0000090	25-44 year-old human stage (human)	TS-1262	Renal tubule	Adult
+UBERON:0001231	nephron tubule	HsapDv:0000092	human middle aged stage (human)	TS-1262	Renal tubule	Adult
+UBERON:0001231	nephron tubule	UBERON:0000104	life cycle	-	-	-
+UBERON:0001233	right adrenal gland	HsapDv:0000087	human adult stage (human)	TS-2589	Right adrenal gland	Adult
+UBERON:0001233	right adrenal gland	HsapDv:0000088	human early adulthood stage (human)	TS-2589	Right adrenal gland	Adult
+UBERON:0001233	right adrenal gland	HsapDv:0000091	human late adulthood stage (human)	TS-2589	Right adrenal gland	Adult
+UBERON:0001233	right adrenal gland	HsapDv:0000092	human middle aged stage (human)	TS-2589	Right adrenal gland	Adult
+UBERON:0001234	left adrenal gland	HsapDv:0000087	human adult stage (human)	TS-2590	Left adrenal gland	Adult
+UBERON:0001234	left adrenal gland	HsapDv:0000088	human early adulthood stage (human)	TS-2590	Left adrenal gland	Adult
+UBERON:0001234	left adrenal gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-2590	Left adrenal gland	Adult
+UBERON:0001234	left adrenal gland	HsapDv:0000091	human late adulthood stage (human)	TS-2590	Left adrenal gland	Adult
+UBERON:0001234	left adrenal gland	HsapDv:0000092	human middle aged stage (human)	TS-2590	Left adrenal gland	Adult
+UBERON:0001235	adrenal cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-0015	Adrenal cortex	Adult
+UBERON:0001255	urinary bladder	HsapDv:0000087	human adult stage (human)	TS-1090	Urinary bladder	Adult
+UBERON:0001255	urinary bladder	HsapDv:0000088	human early adulthood stage (human)	TS-1090	Urinary bladder	Adult
+UBERON:0001255	urinary bladder	HsapDv:0000092	human middle aged stage (human)	TS-1090	Urinary bladder	Adult
+UBERON:0001255	urinary bladder	UBERON:0000104	life cycle	-	-	-
+UBERON:0001255	urinary bladder	UBERON:0000113	post-juvenile adult stage	TS-1090	Urinary bladder	Adult
+UBERON:0001259	mucosa of urinary bladder	UBERON:0000104	life cycle	-	-	-
+UBERON:0001264	pancreas	HsapDv:0000087	human adult stage (human)	TS-0736	Pancreas	Adult
+UBERON:0001264	pancreas	UBERON:0000104	life cycle	-	-	-
+UBERON:0001264	pancreas	UBERON:0000113	post-juvenile adult stage	TS-0736	Pancreas	Adult
+UBERON:0001264	pancreas	UBERON:0007220	late embryonic stage	TS-2698	Embryonic pancreas	Embryo
+UBERON:0001287	proximal convoluted tubule	UBERON:0000104	life cycle	-	-	-
+UBERON:0001295	endometrium	HsapDv:0000087	human adult stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	HsapDv:0000088	human early adulthood stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	HsapDv:0000089	young adult stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	HsapDv:0000090	25-44 year-old human stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	HsapDv:0000091	human late adulthood stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	HsapDv:0000092	human middle aged stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	HsapDv:0000094	65-79 year-old human stage (human)	TS-0276	Endometrium	Adult
+UBERON:0001295	endometrium	UBERON:0000104	life cycle	-	-	-
+UBERON:0001295	endometrium	UBERON:0000113	post-juvenile adult stage	TS-0276	Endometrium	Adult
+UBERON:0001296	myometrium	HsapDv:0000087	human adult stage (human)	TS-0652	Myometrium	Adult
+UBERON:0001296	myometrium	HsapDv:0000088	human early adulthood stage (human)	TS-0652	Myometrium	Adult
+UBERON:0001296	myometrium	HsapDv:0000089	young adult stage (human)	TS-0652	Myometrium	Adult
+UBERON:0001296	myometrium	HsapDv:0000090	25-44 year-old human stage (human)	TS-0652	Myometrium	Adult
+UBERON:0001296	myometrium	HsapDv:0000091	human late adulthood stage (human)	TS-0652	Myometrium	Adult
+UBERON:0001296	myometrium	HsapDv:0000092	human middle aged stage (human)	TS-0652	Myometrium	Adult
+UBERON:0001296	myometrium	UBERON:0000104	life cycle	-	-	-
+UBERON:0001296	myometrium	UBERON:0000113	post-juvenile adult stage	TS-0652	Myometrium	Adult
+UBERON:0001301	epididymis	HsapDv:0000087	human adult stage (human)	TS-0285	Epididymis	Adult
+UBERON:0001301	epididymis	HsapDv:0000094	65-79 year-old human stage (human)	TS-0285	Epididymis	Adult
+UBERON:0001301	epididymis	UBERON:0000104	life cycle	-	-	-
+UBERON:0001302	right uterine tube	HsapDv:0000090	25-44 year-old human stage (human)	TS-2592	Right uterine tube	Adult
+UBERON:0001303	left uterine tube	HsapDv:0000087	human adult stage (human)	TS-2593	Left uterine tube	Adult
+UBERON:0001303	left uterine tube	HsapDv:0000088	human early adulthood stage (human)	TS-2593	Left uterine tube	Adult
+UBERON:0001304	germinal epithelium of ovary	UBERON:0000104	life cycle	-	-	-
+UBERON:0001323	tibial nerve	HsapDv:0000087	human adult stage (human)	TS-2493	Tibial nerve	Adult
+UBERON:0001323	tibial nerve	HsapDv:0000088	human early adulthood stage (human)	TS-2493	Tibial nerve	Adult
+UBERON:0001323	tibial nerve	HsapDv:0000090	25-44 year-old human stage (human)	TS-2493	Tibial nerve	Adult
+UBERON:0001323	tibial nerve	HsapDv:0000091	human late adulthood stage (human)	TS-2493	Tibial nerve	Adult
+UBERON:0001323	tibial nerve	HsapDv:0000092	human middle aged stage (human)	TS-2493	Tibial nerve	Adult
+UBERON:0001323	tibial nerve	HsapDv:0000094	65-79 year-old human stage (human)	TS-2493	Tibial nerve	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000084	2-5 year-old child stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000085	6-12 year-old child stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000086	adolescent stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000089	young adult stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000090	25-44 year-old human stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000092	human middle aged stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000093	human aged stage	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000094	65-79 year-old human stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	HsapDv:0000095	80 year-old and over human stage (human)	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001377	quadriceps femoris	UBERON:0000104	life cycle	-	-	-
+UBERON:0001377	quadriceps femoris	UBERON:0034920	infant stage	TS-2596	Quadriceps femoris muscle	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000087	human adult stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000088	human early adulthood stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000089	young adult stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000090	25-44 year-old human stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000091	human late adulthood stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000092	human middle aged stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000093	human aged stage	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	HsapDv:0000094	65-79 year-old human stage (human)	TS-2597	Vastus lateralis	Adult
+UBERON:0001379	vastus lateralis	UBERON:0000104	life cycle	-	-	-
+UBERON:0001379	vastus lateralis	UBERON:0000113	post-juvenile adult stage	TS-2597	Vastus lateralis	Adult
+UBERON:0001383	muscle of leg	HsapDv:0000088	human early adulthood stage (human)	TS-2595	Muscle of leg	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000087	human adult stage (human)	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000088	human early adulthood stage (human)	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000090	25-44 year-old human stage (human)	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000091	human late adulthood stage (human)	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000092	human middle aged stage (human)	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000093	human aged stage	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	HsapDv:0000094	65-79 year-old human stage (human)	TS-2598	Gastrocnemius muscle	Adult
+UBERON:0001388	gastrocnemius	UBERON:0000104	life cycle	-	-	-
+UBERON:0001416	skin of abdomen	HsapDv:0000087	human adult stage (human)	TS-2599	Skin of abdomen	Adult
+UBERON:0001416	skin of abdomen	HsapDv:0000088	human early adulthood stage (human)	TS-2599	Skin of abdomen	Adult
+UBERON:0001416	skin of abdomen	HsapDv:0000090	25-44 year-old human stage (human)	TS-2599	Skin of abdomen	Adult
+UBERON:0001416	skin of abdomen	HsapDv:0000091	human late adulthood stage (human)	TS-2599	Skin of abdomen	Adult
+UBERON:0001416	skin of abdomen	HsapDv:0000092	human middle aged stage (human)	TS-2599	Skin of abdomen	Adult
+UBERON:0001416	skin of abdomen	HsapDv:0000094	65-79 year-old human stage (human)	TS-2599	Skin of abdomen	Adult
+UBERON:0001474	bone element	HsapDv:0000087	human adult stage (human)	TS-0088	Bone	Adult
+UBERON:0001474	bone element	UBERON:0000104	life cycle	-	-	-
+UBERON:0001474	bone element	UBERON:0007220	late embryonic stage	TS-2699	Embryonic bone	Embryo
+UBERON:0001476	deltoid	HsapDv:0000089	young adult stage (human)	TS-2422	Deltoid muscle	Adult
+UBERON:0001476	deltoid	HsapDv:0000090	25-44 year-old human stage (human)	TS-2422	Deltoid muscle	Adult
+UBERON:0001476	deltoid	HsapDv:0000092	human middle aged stage (human)	TS-2422	Deltoid muscle	Adult
+UBERON:0001476	deltoid	HsapDv:0000093	human aged stage	TS-2422	Deltoid muscle	Adult
+UBERON:0001476	deltoid	HsapDv:0000094	65-79 year-old human stage (human)	TS-2422	Deltoid muscle	Adult
+UBERON:0001476	deltoid	UBERON:0000104	life cycle	-	-	-
+UBERON:0001496	ascending aorta	HsapDv:0000087	human adult stage (human)	TS-2604	Ascending aorta	Adult
+UBERON:0001496	ascending aorta	HsapDv:0000088	human early adulthood stage (human)	TS-2604	Ascending aorta	Adult
+UBERON:0001496	ascending aorta	HsapDv:0000090	25-44 year-old human stage (human)	TS-2604	Ascending aorta	Adult
+UBERON:0001496	ascending aorta	HsapDv:0000091	human late adulthood stage (human)	TS-2604	Ascending aorta	Adult
+UBERON:0001496	ascending aorta	HsapDv:0000092	human middle aged stage (human)	TS-2604	Ascending aorta	Adult
+UBERON:0001507	biceps brachii	HsapDv:0000086	adolescent stage (human)	TS-2612	Biceps muscle	Adult
+UBERON:0001507	biceps brachii	HsapDv:0000090	25-44 year-old human stage (human)	TS-2612	Biceps muscle	Adult
+UBERON:0001507	biceps brachii	UBERON:0000113	post-juvenile adult stage	TS-2612	Biceps muscle	Adult
+UBERON:0001509	triceps brachii	HsapDv:0000090	25-44 year-old human stage (human)	TS-2613	Triceps muscle	Adult
+UBERON:0001509	triceps brachii	HsapDv:0000092	human middle aged stage (human)	TS-2613	Triceps muscle	Adult
+UBERON:0001511	skin of leg	HsapDv:0000087	human adult stage (human)	TS-2600	Skin of leg	Adult
+UBERON:0001511	skin of leg	HsapDv:0000088	human early adulthood stage (human)	TS-2600	Skin of leg	Adult
+UBERON:0001511	skin of leg	HsapDv:0000090	25-44 year-old human stage (human)	TS-2600	Skin of leg	Adult
+UBERON:0001511	skin of leg	HsapDv:0000091	human late adulthood stage (human)	TS-2600	Skin of leg	Adult
+UBERON:0001511	skin of leg	HsapDv:0000092	human middle aged stage (human)	TS-2600	Skin of leg	Adult
+UBERON:0001511	skin of leg	HsapDv:0000094	65-79 year-old human stage (human)	TS-2600	Skin of leg	Adult
+UBERON:0001515	thoracic aorta	HsapDv:0000087	human adult stage (human)	TS-2606	Thoracic aorta	Adult
+UBERON:0001515	thoracic aorta	HsapDv:0000088	human early adulthood stage (human)	TS-2606	Thoracic aorta	Adult
+UBERON:0001515	thoracic aorta	HsapDv:0000090	25-44 year-old human stage (human)	TS-2606	Thoracic aorta	Adult
+UBERON:0001515	thoracic aorta	HsapDv:0000092	human middle aged stage (human)	TS-2606	Thoracic aorta	Adult
+UBERON:0001554	skin of hip	HsapDv:0000092	human middle aged stage (human)	TS-2601	Skin of hip	Adult
+UBERON:0001614	superficial temporal artery	UBERON:0000104	life cycle	-	-	-
+UBERON:0001621	coronary artery	HsapDv:0000090	25-44 year-old human stage (human)	TS-0176	Coronary artery	Adult
+UBERON:0001625	right coronary artery	HsapDv:0000090	25-44 year-old human stage (human)	TS-2609	Right coronary artery	Adult
+UBERON:0001626	left coronary artery	HsapDv:0000087	human adult stage (human)	TS-2610	Left coronary artery	Adult
+UBERON:0001626	left coronary artery	HsapDv:0000088	human early adulthood stage (human)	TS-2610	Left coronary artery	Adult
+UBERON:0001626	left coronary artery	HsapDv:0000090	25-44 year-old human stage (human)	TS-2610	Left coronary artery	Adult
+UBERON:0001626	left coronary artery	HsapDv:0000091	human late adulthood stage (human)	TS-2610	Left coronary artery	Adult
+UBERON:0001626	left coronary artery	HsapDv:0000092	human middle aged stage (human)	TS-2610	Left coronary artery	Adult
+UBERON:0001630	muscle organ	HsapDv:0000087	human adult stage (human)	TS-2594	Muscle organ	Adult
+UBERON:0001630	muscle organ	HsapDv:0000094	65-79 year-old human stage (human)	TS-2594	Muscle organ	Adult
+UBERON:0001630	muscle organ	UBERON:0000104	life cycle	-	-	-
+UBERON:0001630	muscle organ	UBERON:0007220	late embryonic stage	TS-2700	Embryonic muscle	Embryo
+UBERON:0001637	artery	UBERON:0000104	life cycle	-	-	-
+UBERON:0001638	vein	UBERON:0000104	life cycle	-	-	-
+UBERON:0001675	trigeminal ganglion	HsapDv:0000089	young adult stage (human)	TS-2433	Trigeminal ganglion	Adult
+UBERON:0001675	trigeminal ganglion	HsapDv:0000090	25-44 year-old human stage (human)	TS-2433	Trigeminal ganglion	Adult
+UBERON:0001675	trigeminal ganglion	HsapDv:0000092	human middle aged stage (human)	TS-2433	Trigeminal ganglion	Adult
+UBERON:0001690	ear	UBERON:0007220	late embryonic stage	TS-2701	Embryonic ear	Embryo
+UBERON:0001723	tongue	UBERON:0000104	life cycle	-	-	-
+UBERON:0001723	tongue	UBERON:0000111	organogenesis stage	TS-2133	Embryonic tongue	Embryo
+UBERON:0001728	nasopharynx	HsapDv:0000087	human adult stage (human)	TS-0663	Nasopharynx	Adult
+UBERON:0001728	nasopharynx	UBERON:0000104	life cycle	-	-	-
+UBERON:0001737	larynx	HsapDv:0000087	human adult stage (human)	TS-0532	Larynx	Adult
+UBERON:0001765	mammary duct	UBERON:0000104	life cycle	-	-	-
+UBERON:0001769	iris	UBERON:0000104	life cycle	-	-	-
+UBERON:0001776	optic choroid	HsapDv:0000087	human adult stage (human)	TS-2054	Choroid	Adult
+UBERON:0001782	pigmented layer of retina	HsapDv:0000094	65-79 year-old human stage (human)	TS-0869	Retinal pigment epithelium	Adult
+UBERON:0001782	pigmented layer of retina	HsapDv:0000095	80 year-old and over human stage (human)	TS-0869	Retinal pigment epithelium	Adult
+UBERON:0001782	pigmented layer of retina	HsapDv:0000198	fourth LMP month human stage (human)	TS-2710	Fetal pigmented layer of retina	Fetus
+UBERON:0001782	pigmented layer of retina	HsapDv:0000199	fifth LMP month human stage (human)	TS-2710	Fetal pigmented layer of retina	Fetus
+UBERON:0001812	palpebral conjunctiva	HsapDv:0000084	2-5 year-old child stage (human)	TS-2663	Palpebral conjunctiva	Adult
+UBERON:0001812	palpebral conjunctiva	HsapDv:0000085	6-12 year-old child stage (human)	TS-2663	Palpebral conjunctiva	Adult
+UBERON:0001812	palpebral conjunctiva	UBERON:0000104	life cycle	-	-	-
+UBERON:0001812	palpebral conjunctiva	UBERON:0034920	infant stage	TS-2663	Palpebral conjunctiva	Adult
+UBERON:0001817	lacrimal gland	HsapDv:0000087	human adult stage (human)	TS-0512	Lacrimal gland	Adult
+UBERON:0001826	nasal cavity mucosa	UBERON:0000104	life cycle	-	-	-
+UBERON:0001828	gingiva	HsapDv:0000087	human adult stage (human)	TS-2074	Gingiva	Adult
+UBERON:0001828	gingiva	UBERON:0000104	life cycle	-	-	-
+UBERON:0001830	minor salivary gland	HsapDv:0000087	human adult stage (human)	TS-2664	Minor salivary gland	Adult
+UBERON:0001830	minor salivary gland	HsapDv:0000088	human early adulthood stage (human)	TS-2664	Minor salivary gland	Adult
+UBERON:0001830	minor salivary gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-2664	Minor salivary gland	Adult
+UBERON:0001830	minor salivary gland	HsapDv:0000091	human late adulthood stage (human)	TS-2664	Minor salivary gland	Adult
+UBERON:0001830	minor salivary gland	HsapDv:0000092	human middle aged stage (human)	TS-2664	Minor salivary gland	Adult
+UBERON:0001831	parotid gland	HsapDv:0000089	young adult stage (human)	TS-0748	Parotid gland	Adult
+UBERON:0001831	parotid gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-0748	Parotid gland	Adult
+UBERON:0001831	parotid gland	HsapDv:0000092	human middle aged stage (human)	TS-0748	Parotid gland	Adult
+UBERON:0001831	parotid gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-0748	Parotid gland	Adult
+UBERON:0001844	cochlea	UBERON:0007220	late embryonic stage	TS-2702	Embryonic cochlea	Embryo
+UBERON:0001870	frontal cortex	HsapDv:0000085	6-12 year-old child stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000087	human adult stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000089	young adult stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000091	human late adulthood stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000092	human middle aged stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000095	80 year-old and over human stage (human)	TS-2688	Frontal cortex	Adult
+UBERON:0001870	frontal cortex	HsapDv:0000199	fifth LMP month human stage (human)	TS-2711	Fetal frontal cortex	Fetus
+UBERON:0001870	frontal cortex	UBERON:0000104	life cycle	-	-	-
+UBERON:0001870	frontal cortex	UBERON:0034920	infant stage	TS-2688	Frontal cortex	Adult
+UBERON:0001871	temporal lobe	HsapDv:0000089	young adult stage (human)	TS-1020	Temporal lobe	Adult
+UBERON:0001871	temporal lobe	HsapDv:0000090	25-44 year-old human stage (human)	TS-1020	Temporal lobe	Adult
+UBERON:0001871	temporal lobe	HsapDv:0000092	human middle aged stage (human)	TS-1020	Temporal lobe	Adult
+UBERON:0001871	temporal lobe	HsapDv:0000094	65-79 year-old human stage (human)	TS-1020	Temporal lobe	Adult
+UBERON:0001872	parietal lobe	HsapDv:0000089	young adult stage (human)	TS-0747	Parietal lobe	Adult
+UBERON:0001872	parietal lobe	HsapDv:0000090	25-44 year-old human stage (human)	TS-0747	Parietal lobe	Adult
+UBERON:0001872	parietal lobe	HsapDv:0000092	human middle aged stage (human)	TS-0747	Parietal lobe	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000084	2-5 year-old child stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000085	6-12 year-old child stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000086	adolescent stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000087	human adult stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000088	human early adulthood stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000089	young adult stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000090	25-44 year-old human stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000091	human late adulthood stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000092	human middle aged stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	HsapDv:0000094	65-79 year-old human stage (human)	TS-0121	Caudate nucleus	Adult
+UBERON:0001873	caudate nucleus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001873	caudate nucleus	UBERON:0034920	infant stage	TS-0121	Caudate nucleus	Adult
+UBERON:0001874	putamen	HsapDv:0000087	human adult stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	HsapDv:0000089	young adult stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	HsapDv:0000090	25-44 year-old human stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	HsapDv:0000091	human late adulthood stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	HsapDv:0000092	human middle aged stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	HsapDv:0000094	65-79 year-old human stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	HsapDv:0000095	80 year-old and over human stage (human)	TS-2041	Putamen	Adult
+UBERON:0001874	putamen	UBERON:0000104	life cycle	-	-	-
+UBERON:0001875	globus pallidus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001876	amygdala	HsapDv:0000087	human adult stage (human)	TS-0037	Amygdala	Adult
+UBERON:0001876	amygdala	HsapDv:0000089	young adult stage (human)	TS-0037	Amygdala	Adult
+UBERON:0001876	amygdala	HsapDv:0000090	25-44 year-old human stage (human)	TS-0037	Amygdala	Adult
+UBERON:0001876	amygdala	HsapDv:0000091	human late adulthood stage (human)	TS-0037	Amygdala	Adult
+UBERON:0001876	amygdala	HsapDv:0000092	human middle aged stage (human)	TS-0037	Amygdala	Adult
+UBERON:0001876	amygdala	HsapDv:0000094	65-79 year-old human stage (human)	TS-0037	Amygdala	Adult
+UBERON:0001876	amygdala	UBERON:0000104	life cycle	-	-	-
+UBERON:0001882	nucleus accumbens	HsapDv:0000087	human adult stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	HsapDv:0000088	human early adulthood stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	HsapDv:0000089	young adult stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	HsapDv:0000090	25-44 year-old human stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	HsapDv:0000091	human late adulthood stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	HsapDv:0000092	human middle aged stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	HsapDv:0000094	65-79 year-old human stage (human)	TS-2418	Nucleus accumbens	Adult
+UBERON:0001882	nucleus accumbens	UBERON:0000104	life cycle	-	-	-
+UBERON:0001890	forebrain	HsapDv:0000198	fourth LMP month human stage (human)	TS-2712	Fetal forebrain	Fetus
+UBERON:0001890	forebrain	HsapDv:0000199	fifth LMP month human stage (human)	TS-2712	Fetal forebrain	Fetus
+UBERON:0001891	midbrain	HsapDv:0000090	25-44 year-old human stage (human)	TS-0630	Midbrain	Adult
+UBERON:0001891	midbrain	HsapDv:0000092	human middle aged stage (human)	TS-0630	Midbrain	Adult
+UBERON:0001891	midbrain	HsapDv:0000094	65-79 year-old human stage (human)	TS-0630	Midbrain	Adult
+UBERON:0001893	telencephalon	HsapDv:0000087	human adult stage (human)	TS-1018	Telencephalon	Adult
+UBERON:0001893	telencephalon	HsapDv:0000093	human aged stage	TS-1018	Telencephalon	Adult
+UBERON:0001893	telencephalon	UBERON:0000104	life cycle	-	-	-
+UBERON:0001896	medulla oblongata	HsapDv:0000087	human adult stage (human)	TS-0607	Medulla oblongata	Adult
+UBERON:0001896	medulla oblongata	HsapDv:0000089	young adult stage (human)	TS-0607	Medulla oblongata	Adult
+UBERON:0001896	medulla oblongata	HsapDv:0000090	25-44 year-old human stage (human)	TS-0607	Medulla oblongata	Adult
+UBERON:0001896	medulla oblongata	HsapDv:0000092	human middle aged stage (human)	TS-0607	Medulla oblongata	Adult
+UBERON:0001897	dorsal plus ventral thalamus	HsapDv:0000087	human adult stage (human)	TS-1031	Thalamus	Adult
+UBERON:0001897	dorsal plus ventral thalamus	HsapDv:0000089	young adult stage (human)	TS-1031	Thalamus	Adult
+UBERON:0001897	dorsal plus ventral thalamus	HsapDv:0000090	25-44 year-old human stage (human)	TS-1031	Thalamus	Adult
+UBERON:0001897	dorsal plus ventral thalamus	HsapDv:0000092	human middle aged stage (human)	TS-1031	Thalamus	Adult
+UBERON:0001897	dorsal plus ventral thalamus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001898	hypothalamus	HsapDv:0000087	human adult stage (human)	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	HsapDv:0000089	young adult stage (human)	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	HsapDv:0000090	25-44 year-old human stage (human)	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	HsapDv:0000091	human late adulthood stage (human)	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	HsapDv:0000092	human middle aged stage (human)	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	HsapDv:0000093	human aged stage	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	HsapDv:0000094	65-79 year-old human stage (human)	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001898	hypothalamus	UBERON:0000113	post-juvenile adult stage	TS-0469	Hypothalamus	Adult
+UBERON:0001898	hypothalamus	UBERON:0007220	late embryonic stage	TS-2703	Embryonic hypothalamus	Embryo
+UBERON:0001905	pineal body	HsapDv:0000087	human adult stage (human)	TS-0789	Pineal gland	Adult
+UBERON:0001905	pineal body	UBERON:0000104	life cycle	-	-	-
+UBERON:0001906	subthalamic nucleus	HsapDv:0000087	human adult stage (human)	TS-1154	Subthalamic nucleus	Adult
+UBERON:0001906	subthalamic nucleus	HsapDv:0000089	young adult stage (human)	TS-1154	Subthalamic nucleus	Adult
+UBERON:0001906	subthalamic nucleus	HsapDv:0000090	25-44 year-old human stage (human)	TS-1154	Subthalamic nucleus	Adult
+UBERON:0001906	subthalamic nucleus	HsapDv:0000092	human middle aged stage (human)	TS-1154	Subthalamic nucleus	Adult
+UBERON:0001906	subthalamic nucleus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001911	mammary gland	HsapDv:0000087	human adult stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0001911	mammary gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0001949	gingival epithelium	HsapDv:0000087	human adult stage (human)	TS-2625	Gingival epithelium	Adult
+UBERON:0001950	neocortex	HsapDv:0000199	fifth LMP month human stage (human)	TS-2713	Fetal neocortex	Fetus
+UBERON:0001951	epithelium of nasopharynx	UBERON:0000104	life cycle	-	-	-
+UBERON:0001954	Ammon's horn	HsapDv:0000084	2-5 year-old child stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000086	adolescent stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000087	human adult stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000089	young adult stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000090	25-44 year-old human stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000091	human late adulthood stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000092	human middle aged stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000093	human aged stage	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000094	65-79 year-old human stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	HsapDv:0000095	80 year-old and over human stage (human)	TS-0460	Hippocampus	Adult
+UBERON:0001954	Ammon's horn	UBERON:0000104	life cycle	-	-	-
+UBERON:0001965	substantia nigra pars compacta	UBERON:0000104	life cycle	-	-	-
+UBERON:0001966	substantia nigra pars reticulata	UBERON:0000104	life cycle	-	-	-
+UBERON:0001976	epithelium of esophagus	UBERON:0000104	life cycle	-	-	-
+UBERON:0001987	placenta	HsapDv:0000075	38th week post-fertilization and over human stage (human)	TS-0799	Placenta	Adult
+UBERON:0001987	placenta	HsapDv:0000087	human adult stage (human)	TS-0799	Placenta	Adult
+UBERON:0001987	placenta	HsapDv:0000088	human early adulthood stage (human)	TS-0799	Placenta	Adult
+UBERON:0001987	placenta	HsapDv:0000197	third LMP month human stage (human)	TS-0799	Placenta	Fetus
+UBERON:0001987	placenta	HsapDv:0000198	fourth LMP month human stage (human)	TS-0799	Placenta	Fetus
+UBERON:0001987	placenta	HsapDv:0000203	ninth LMP month human stage (human)	TS-0799	Placenta	Fetus
+UBERON:0001987	placenta	UBERON:0000068	embryo stage	TS-0799	Placenta	Extraembryonic tissue
+UBERON:0001987	placenta	UBERON:0000104	life cycle	-	-	-
+UBERON:0001987	placenta	UBERON:0000111	organogenesis stage	TS-0799	Placenta	Extraembryonic tissue
+UBERON:0001987	placenta	UBERON:0000113	post-juvenile adult stage	TS-0799	Placenta	Adult
+UBERON:0001987	placenta	UBERON:0007220	late embryonic stage	TS-0799	Placenta	Extraembryonic tissue
+UBERON:0002000	gluteal muscle	HsapDv:0000092	human middle aged stage (human)	TS-2614	Gluteal muscle	Adult
+UBERON:0002018	synovial membrane of synovial joint	UBERON:0000104	life cycle	-	-	-
+UBERON:0002021	occipital lobe	HsapDv:0000088	human early adulthood stage (human)	TS-0693	Occipital lobe	Adult
+UBERON:0002021	occipital lobe	HsapDv:0000089	young adult stage (human)	TS-0693	Occipital lobe	Adult
+UBERON:0002021	occipital lobe	HsapDv:0000090	25-44 year-old human stage (human)	TS-0693	Occipital lobe	Adult
+UBERON:0002021	occipital lobe	HsapDv:0000092	human middle aged stage (human)	TS-0693	Occipital lobe	Adult
+UBERON:0002030	nipple	HsapDv:0000090	25-44 year-old human stage (human)	TS-2234	Nipple	Adult
+UBERON:0002031	epithelium of bronchus	HsapDv:0000088	human early adulthood stage (human)	TS-1240	Bronchus epithelium	Adult
+UBERON:0002031	epithelium of bronchus	HsapDv:0000089	young adult stage (human)	TS-1240	Bronchus epithelium	Adult
+UBERON:0002031	epithelium of bronchus	HsapDv:0000090	25-44 year-old human stage (human)	TS-1240	Bronchus epithelium	Adult
+UBERON:0002031	epithelium of bronchus	HsapDv:0000092	human middle aged stage (human)	TS-1240	Bronchus epithelium	Adult
+UBERON:0002031	epithelium of bronchus	HsapDv:0000094	65-79 year-old human stage (human)	TS-1240	Bronchus epithelium	Adult
+UBERON:0002031	epithelium of bronchus	UBERON:0000104	life cycle	-	-	-
+UBERON:0002037	cerebellum	HsapDv:0000085	6-12 year-old child stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000086	adolescent stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000087	human adult stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000089	young adult stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000090	25-44 year-old human stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000091	human late adulthood stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000092	human middle aged stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000094	65-79 year-old human stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	HsapDv:0000095	80 year-old and over human stage (human)	TS-0125	Cerebellum	Adult
+UBERON:0002037	cerebellum	UBERON:0000104	life cycle	-	-	-
+UBERON:0002038	substantia nigra	HsapDv:0000087	human adult stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000088	human early adulthood stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000089	young adult stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000090	25-44 year-old human stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000091	human late adulthood stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000092	human middle aged stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000094	65-79 year-old human stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	HsapDv:0000095	80 year-old and over human stage (human)	TS-0990	Substantia nigra	Adult
+UBERON:0002038	substantia nigra	UBERON:0000104	life cycle	-	-	-
+UBERON:0002046	thyroid gland	HsapDv:0000087	human adult stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	HsapDv:0000088	human early adulthood stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	HsapDv:0000089	young adult stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	HsapDv:0000091	human late adulthood stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	HsapDv:0000092	human middle aged stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-1047	Thyroid	Adult
+UBERON:0002046	thyroid gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0002046	thyroid gland	UBERON:0000113	post-juvenile adult stage	TS-1047	Thyroid	Adult
+UBERON:0002048	lung	HsapDv:0000087	human adult stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000089	young adult stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000090	25-44 year-old human stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000091	human late adulthood stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000092	human middle aged stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000094	65-79 year-old human stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000095	80 year-old and over human stage (human)	TS-0568	Lung	Adult
+UBERON:0002048	lung	HsapDv:0000197	third LMP month human stage (human)	TS-0345	Fetal lung	Fetus
+UBERON:0002048	lung	HsapDv:0000199	fifth LMP month human stage (human)	TS-0345	Fetal lung	Fetus
+UBERON:0002048	lung	UBERON:0000104	life cycle	-	-	-
+UBERON:0002048	lung	UBERON:0000113	post-juvenile adult stage	TS-0568	Lung	Adult
+UBERON:0002048	lung	UBERON:0007220	late embryonic stage	TS-0253	Embryonic lung	Embryo
+UBERON:0002073	hair follicle	HsapDv:0000087	human adult stage (human)	TS-0432	Hair follicle	Adult
+UBERON:0002073	hair follicle	UBERON:0000104	life cycle	-	-	-
+UBERON:0002080	heart right ventricle	HsapDv:0000089	young adult stage (human)	TS-0443	Heart right ventricle	Adult
+UBERON:0002080	heart right ventricle	HsapDv:0000090	25-44 year-old human stage (human)	TS-0443	Heart right ventricle	Adult
+UBERON:0002080	heart right ventricle	HsapDv:0000092	human middle aged stage (human)	TS-0443	Heart right ventricle	Adult
+UBERON:0002080	heart right ventricle	UBERON:0000104	life cycle	-	-	-
+UBERON:0002081	cardiac atrium	HsapDv:0000090	25-44 year-old human stage (human)	TS-0437	Heart atrium	Adult
+UBERON:0002081	cardiac atrium	UBERON:0000104	life cycle	-	-	-
+UBERON:0002082	cardiac ventricle	HsapDv:0000090	25-44 year-old human stage (human)	TS-0444	Heart ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000087	human adult stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000088	human early adulthood stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000089	young adult stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000090	25-44 year-old human stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000091	human late adulthood stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000092	human middle aged stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	HsapDv:0000094	65-79 year-old human stage (human)	TS-0439	Heart left ventricle	Adult
+UBERON:0002084	heart left ventricle	UBERON:0000104	life cycle	-	-	-
+UBERON:0002084	heart left ventricle	UBERON:0034920	infant stage	TS-0439	Heart left ventricle	Adult
+UBERON:0002098	apex of heart	HsapDv:0000092	human middle aged stage (human)	TS-2666	Apex of heart	Adult
+UBERON:0002106	spleen	HsapDv:0000086	adolescent stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	HsapDv:0000087	human adult stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	HsapDv:0000088	human early adulthood stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	HsapDv:0000090	25-44 year-old human stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	HsapDv:0000091	human late adulthood stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	HsapDv:0000092	human middle aged stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	HsapDv:0000094	65-79 year-old human stage (human)	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	UBERON:0000104	life cycle	-	-	-
+UBERON:0002106	spleen	UBERON:0000113	post-juvenile adult stage	TS-0956	Spleen	Adult
+UBERON:0002106	spleen	UBERON:0007220	late embryonic stage	TS-2704	Embryonic spleen	Embryo
+UBERON:0002107	liver	HsapDv:0000084	2-5 year-old child stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000085	6-12 year-old child stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000087	human adult stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000089	young adult stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000090	25-44 year-old human stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000092	human middle aged stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000094	65-79 year-old human stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000095	80 year-old and over human stage (human)	TS-0564	Liver	Adult
+UBERON:0002107	liver	HsapDv:0000197	third LMP month human stage (human)	TS-0344	Fetal liver	Fetus
+UBERON:0002107	liver	UBERON:0000104	life cycle	-	-	-
+UBERON:0002107	liver	UBERON:0000111	organogenesis stage	TS-0252	Embryonic liver	Embryo
+UBERON:0002107	liver	UBERON:0000113	post-juvenile adult stage	TS-0564	Liver	Adult
+UBERON:0002107	liver	UBERON:0007220	late embryonic stage	TS-0252	Embryonic liver	Embryo
+UBERON:0002107	liver	UBERON:0034920	infant stage	TS-0564	Liver	Adult
+UBERON:0002108	small intestine	HsapDv:0000087	human adult stage (human)	TS-0942	Small intestine	Adult
+UBERON:0002108	small intestine	UBERON:0000104	life cycle	-	-	-
+UBERON:0002108	small intestine	UBERON:0000113	post-juvenile adult stage	TS-0942	Small intestine	Adult
+UBERON:0002110	gall bladder	HsapDv:0000087	human adult stage (human)	TS-0394	Gall bladder	Adult
+UBERON:0002110	gall bladder	UBERON:0000104	life cycle	-	-	-
+UBERON:0002110	gall bladder	UBERON:0000113	post-juvenile adult stage	TS-0394	Gall bladder	Adult
+UBERON:0002113	kidney	HsapDv:0000197	third LMP month human stage (human)	TS-0342	Fetal kidney	Fetus
+UBERON:0002113	kidney	HsapDv:0000198	fourth LMP month human stage (human)	TS-0342	Fetal kidney	Fetus
+UBERON:0002113	kidney	HsapDv:0000199	fifth LMP month human stage (human)	TS-0342	Fetal kidney	Fetus
+UBERON:0002113	kidney	UBERON:0000104	life cycle	-	-	-
+UBERON:0002114	duodenum	HsapDv:0000088	human early adulthood stage (human)	TS-0214	Duodenum	Adult
+UBERON:0002114	duodenum	UBERON:0000104	life cycle	-	-	-
+UBERON:0002114	duodenum	UBERON:0000113	post-juvenile adult stage	TS-0214	Duodenum	Adult
+UBERON:0002115	jejunum	UBERON:0000104	life cycle	-	-	-
+UBERON:0002116	ileum	UBERON:0000104	life cycle	-	-	-
+UBERON:0002118	right ovary	HsapDv:0000087	human adult stage (human)	TS-2719	Right ovary	Adult
+UBERON:0002118	right ovary	HsapDv:0000088	human early adulthood stage (human)	TS-2719	Right ovary	Adult
+UBERON:0002118	right ovary	HsapDv:0000090	25-44 year-old human stage (human)	TS-2719	Right ovary	Adult
+UBERON:0002118	right ovary	HsapDv:0000091	human late adulthood stage (human)	TS-2719	Right ovary	Adult
+UBERON:0002118	right ovary	HsapDv:0000092	human middle aged stage (human)	TS-2719	Right ovary	Adult
+UBERON:0002119	left ovary	HsapDv:0000087	human adult stage (human)	TS-2720	Left ovary	Adult
+UBERON:0002119	left ovary	HsapDv:0000088	human early adulthood stage (human)	TS-2720	Left ovary	Adult
+UBERON:0002119	left ovary	HsapDv:0000090	25-44 year-old human stage (human)	TS-2720	Left ovary	Adult
+UBERON:0002119	left ovary	HsapDv:0000091	human late adulthood stage (human)	TS-2720	Left ovary	Adult
+UBERON:0002119	left ovary	HsapDv:0000092	human middle aged stage (human)	TS-2720	Left ovary	Adult
+UBERON:0002127	inferior olivary complex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2667	Inferior olivary complex	Adult
+UBERON:0002127	inferior olivary complex	HsapDv:0000095	80 year-old and over human stage (human)	TS-2667	Inferior olivary complex	Adult
+UBERON:0002129	cerebellar cortex	UBERON:0000104	life cycle	-	-	-
+UBERON:0002167	right lung	HsapDv:0000091	human late adulthood stage (human)	TS-2718	Right lung	Adult
+UBERON:0002167	right lung	HsapDv:0000092	human middle aged stage (human)	TS-2718	Right lung	Adult
+UBERON:0002185	bronchus	HsapDv:0000090	25-44 year-old human stage (human)	TS-1229	Bronchus	Adult
+UBERON:0002190	subcutaneous adipose tissue	HsapDv:0000087	human adult stage (human)	TS-2431	Subcutaneous adipose tissue	Adult
+UBERON:0002190	subcutaneous adipose tissue	HsapDv:0000088	human early adulthood stage (human)	TS-2431	Subcutaneous adipose tissue	Adult
+UBERON:0002190	subcutaneous adipose tissue	HsapDv:0000090	25-44 year-old human stage (human)	TS-2431	Subcutaneous adipose tissue	Adult
+UBERON:0002190	subcutaneous adipose tissue	HsapDv:0000091	human late adulthood stage (human)	TS-2431	Subcutaneous adipose tissue	Adult
+UBERON:0002190	subcutaneous adipose tissue	HsapDv:0000092	human middle aged stage (human)	TS-2431	Subcutaneous adipose tissue	Adult
+UBERON:0002190	subcutaneous adipose tissue	HsapDv:0000094	65-79 year-old human stage (human)	TS-2431	Subcutaneous adipose tissue	Adult
+UBERON:0002196	adenohypophysis	HsapDv:0000087	human adult stage (human)	TS-0794	Pituitary anterior lobe	Adult
+UBERON:0002196	adenohypophysis	HsapDv:0000091	human late adulthood stage (human)	TS-0794	Pituitary anterior lobe	Adult
+UBERON:0002196	adenohypophysis	HsapDv:0000092	human middle aged stage (human)	TS-0794	Pituitary anterior lobe	Adult
+UBERON:0002196	adenohypophysis	HsapDv:0000094	65-79 year-old human stage (human)	TS-0794	Pituitary anterior lobe	Adult
+UBERON:0002217	synovial joint	UBERON:0000104	life cycle	-	-	-
+UBERON:0002240	spinal cord	HsapDv:0000087	human adult stage (human)	TS-0953	Spinal cord	Adult
+UBERON:0002240	spinal cord	HsapDv:0000089	young adult stage (human)	TS-0953	Spinal cord	Adult
+UBERON:0002240	spinal cord	HsapDv:0000090	25-44 year-old human stage (human)	TS-0953	Spinal cord	Adult
+UBERON:0002240	spinal cord	HsapDv:0000092	human middle aged stage (human)	TS-0953	Spinal cord	Adult
+UBERON:0002240	spinal cord	UBERON:0000104	life cycle	-	-	-
+UBERON:0002245	cerebellar hemisphere	HsapDv:0000087	human adult stage (human)	TS-2637	Cerebellar hemisphere	Adult
+UBERON:0002245	cerebellar hemisphere	HsapDv:0000088	human early adulthood stage (human)	TS-2637	Cerebellar hemisphere	Adult
+UBERON:0002245	cerebellar hemisphere	HsapDv:0000090	25-44 year-old human stage (human)	TS-2637	Cerebellar hemisphere	Adult
+UBERON:0002245	cerebellar hemisphere	HsapDv:0000091	human late adulthood stage (human)	TS-2637	Cerebellar hemisphere	Adult
+UBERON:0002245	cerebellar hemisphere	HsapDv:0000092	human middle aged stage (human)	TS-2637	Cerebellar hemisphere	Adult
+UBERON:0002245	cerebellar hemisphere	HsapDv:0000094	65-79 year-old human stage (human)	TS-2637	Cerebellar hemisphere	Adult
+UBERON:0002245	cerebellar hemisphere	UBERON:0000104	life cycle	-	-	-
+UBERON:0002250	popliteal artery	HsapDv:0000092	human middle aged stage (human)	TS-2607	Popliteal artery	Adult
+UBERON:0002264	olfactory bulb	HsapDv:0000087	human adult stage (human)	TS-0702	Olfactory bulb	Adult
+UBERON:0002331	umbilical cord	UBERON:0000104	life cycle	-	-	-
+UBERON:0002336	corpus callosum	HsapDv:0000084	2-5 year-old child stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	HsapDv:0000085	6-12 year-old child stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	HsapDv:0000086	adolescent stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	HsapDv:0000087	human adult stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	HsapDv:0000089	young adult stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	HsapDv:0000090	25-44 year-old human stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	HsapDv:0000092	human middle aged stage (human)	TS-0180	Corpus callosum	Adult
+UBERON:0002336	corpus callosum	UBERON:0000104	life cycle	-	-	-
+UBERON:0002345	descending thoracic aorta	HsapDv:0000087	human adult stage (human)	TS-2605	Descending thoracic aorta	Adult
+UBERON:0002345	descending thoracic aorta	HsapDv:0000088	human early adulthood stage (human)	TS-2605	Descending thoracic aorta	Adult
+UBERON:0002349	myocardium	HsapDv:0000084	2-5 year-old child stage (human)	TS-2616	Myocardium	Adult
+UBERON:0002349	myocardium	HsapDv:0000086	adolescent stage (human)	TS-2616	Myocardium	Adult
+UBERON:0002349	myocardium	HsapDv:0000087	human adult stage (human)	TS-2616	Myocardium	Adult
+UBERON:0002349	myocardium	HsapDv:0000089	young adult stage (human)	TS-2616	Myocardium	Adult
+UBERON:0002349	myocardium	HsapDv:0000090	25-44 year-old human stage (human)	TS-2616	Myocardium	Adult
+UBERON:0002349	myocardium	HsapDv:0000092	human middle aged stage (human)	TS-2616	Myocardium	Adult
+UBERON:0002349	myocardium	UBERON:0000104	life cycle	-	-	-
+UBERON:0002358	peritoneum	UBERON:0000104	life cycle	-	-	-
+UBERON:0002367	prostate gland	HsapDv:0000086	adolescent stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000087	human adult stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000088	human early adulthood stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000089	young adult stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000091	human late adulthood stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000092	human middle aged stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000093	human aged stage	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-0828	Prostate	Adult
+UBERON:0002367	prostate gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0002367	prostate gland	UBERON:0000113	post-juvenile adult stage	TS-0828	Prostate	Adult
+UBERON:0002369	adrenal gland	HsapDv:0000087	human adult stage (human)	TS-0016	Adrenal gland	Adult
+UBERON:0002369	adrenal gland	HsapDv:0000092	human middle aged stage (human)	TS-0016	Adrenal gland	Adult
+UBERON:0002369	adrenal gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0002369	adrenal gland	UBERON:0000113	post-juvenile adult stage	TS-0016	Adrenal gland	Adult
+UBERON:0002369	adrenal gland	UBERON:0007220	late embryonic stage	TS-2705	Embryonic adrenal gland	Embryo
+UBERON:0002369	adrenal gland	UBERON:0034920	infant stage	TS-0016	Adrenal gland	Adult
+UBERON:0002370	thymus	HsapDv:0000084	2-5 year-old child stage (human)	TS-1043	Thymus	Adult
+UBERON:0002370	thymus	HsapDv:0000087	human adult stage (human)	TS-1043	Thymus	Adult
+UBERON:0002370	thymus	UBERON:0000104	life cycle	-	-	-
+UBERON:0002370	thymus	UBERON:0007220	late embryonic stage	TS-2706	Embryonic thymus	Embryo
+UBERON:0002371	bone marrow	HsapDv:0000084	2-5 year-old child stage (human)	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	HsapDv:0000085	6-12 year-old child stage (human)	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	HsapDv:0000086	adolescent stage (human)	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	HsapDv:0000087	human adult stage (human)	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	HsapDv:0000090	25-44 year-old human stage (human)	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	UBERON:0000104	life cycle	-	-	-
+UBERON:0002371	bone marrow	UBERON:0000113	post-juvenile adult stage	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	UBERON:0034919	juvenile stage	TS-0087	Bone marrow	Adult
+UBERON:0002371	bone marrow	UBERON:0034920	infant stage	TS-0087	Bone marrow	Adult
+UBERON:0002372	tonsil	HsapDv:0000087	human adult stage (human)	TS-1053	Tonsil	Adult
+UBERON:0002372	tonsil	HsapDv:0000090	25-44 year-old human stage (human)	TS-1053	Tonsil	Adult
+UBERON:0002372	tonsil	UBERON:0000113	post-juvenile adult stage	TS-1053	Tonsil	Adult
+UBERON:0002384	connective tissue	UBERON:0000104	life cycle	-	-	-
+UBERON:0002385	muscle tissue	UBERON:0000104	life cycle	-	-	-
+UBERON:0002400	parietal pleura	HsapDv:0000086	adolescent stage (human)	TS-2669	Parietal pleura	Adult
+UBERON:0002400	parietal pleura	HsapDv:0000089	young adult stage (human)	TS-2669	Parietal pleura	Adult
+UBERON:0002400	parietal pleura	HsapDv:0000090	25-44 year-old human stage (human)	TS-2669	Parietal pleura	Adult
+UBERON:0002400	parietal pleura	HsapDv:0000092	human middle aged stage (human)	TS-2669	Parietal pleura	Adult
+UBERON:0002401	visceral pleura	HsapDv:0000086	adolescent stage (human)	TS-2670	Visceral pleura	Adult
+UBERON:0002401	visceral pleura	HsapDv:0000089	young adult stage (human)	TS-2670	Visceral pleura	Adult
+UBERON:0002401	visceral pleura	HsapDv:0000090	25-44 year-old human stage (human)	TS-2670	Visceral pleura	Adult
+UBERON:0002401	visceral pleura	HsapDv:0000092	human middle aged stage (human)	TS-2670	Visceral pleura	Adult
+UBERON:0002407	pericardium	UBERON:0000104	life cycle	-	-	-
+UBERON:0002418	cartilage tissue	UBERON:0000104	life cycle	-	-	-
+UBERON:0002418	cartilage tissue	UBERON:0007220	late embryonic stage	TS-2707	Embryonic cartilage	Embryo
+UBERON:0002436	primary visual cortex	HsapDv:0000092	human middle aged stage (human)	TS-2638	Primary visual cortex	Adult
+UBERON:0002436	primary visual cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2638	Primary visual cortex	Adult
+UBERON:0002436	primary visual cortex	HsapDv:0000095	80 year-old and over human stage (human)	TS-2638	Primary visual cortex	Adult
+UBERON:0002436	primary visual cortex	UBERON:0000104	life cycle	-	-	-
+UBERON:0002450	decidua	HsapDv:0000088	human early adulthood stage (human)	TS-0193	Decidua placentalis	Adult
+UBERON:0002450	decidua	HsapDv:0000090	25-44 year-old human stage (human)	TS-0193	Decidua placentalis	Adult
+UBERON:0002469	esophagus mucosa	HsapDv:0000087	human adult stage (human)	TS-2626	Esophagus mucosa	Adult
+UBERON:0002469	esophagus mucosa	HsapDv:0000088	human early adulthood stage (human)	TS-2626	Esophagus mucosa	Adult
+UBERON:0002469	esophagus mucosa	HsapDv:0000090	25-44 year-old human stage (human)	TS-2626	Esophagus mucosa	Adult
+UBERON:0002469	esophagus mucosa	HsapDv:0000091	human late adulthood stage (human)	TS-2626	Esophagus mucosa	Adult
+UBERON:0002469	esophagus mucosa	HsapDv:0000092	human middle aged stage (human)	TS-2626	Esophagus mucosa	Adult
+UBERON:0002469	esophagus mucosa	HsapDv:0000094	65-79 year-old human stage (human)	TS-2626	Esophagus mucosa	Adult
+UBERON:0002476	lateral globus pallidus	UBERON:0000104	life cycle	-	-	-
+UBERON:0002477	medial globus pallidus	HsapDv:0000087	human adult stage (human)	TS-2421	Medial globus pallidus	Adult
+UBERON:0002477	medial globus pallidus	UBERON:0000104	life cycle	-	-	-
+UBERON:0002483	trabecular bone tissue	HsapDv:0000090	25-44 year-old human stage (human)	TS-0110	Cancellous bone	Adult
+UBERON:0002483	trabecular bone tissue	HsapDv:0000092	human middle aged stage (human)	TS-0110	Cancellous bone	Adult
+UBERON:0002483	trabecular bone tissue	HsapDv:0000094	65-79 year-old human stage (human)	TS-0110	Cancellous bone	Adult
+UBERON:0002581	postcentral gyrus	HsapDv:0000089	young adult stage (human)	TS-2640	Postcentral gyrus	Adult
+UBERON:0002581	postcentral gyrus	HsapDv:0000090	25-44 year-old human stage (human)	TS-2640	Postcentral gyrus	Adult
+UBERON:0002581	postcentral gyrus	HsapDv:0000092	human middle aged stage (human)	TS-2640	Postcentral gyrus	Adult
+UBERON:0002581	postcentral gyrus	HsapDv:0000094	65-79 year-old human stage (human)	TS-2640	Postcentral gyrus	Adult
+UBERON:0002581	postcentral gyrus	HsapDv:0000095	80 year-old and over human stage (human)	TS-2640	Postcentral gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000084	2-5 year-old child stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000085	6-12 year-old child stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000089	young adult stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000090	25-44 year-old human stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000092	human middle aged stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000094	65-79 year-old human stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	HsapDv:0000095	80 year-old and over human stage (human)	TS-2641	Superior frontal gyrus	Adult
+UBERON:0002661	superior frontal gyrus	UBERON:0000104	life cycle	-	-	-
+UBERON:0002691	ventral tegmental area	HsapDv:0000089	young adult stage (human)	TS-2389	Ventral tegmental area	Adult
+UBERON:0002691	ventral tegmental area	HsapDv:0000090	25-44 year-old human stage (human)	TS-2389	Ventral tegmental area	Adult
+UBERON:0002691	ventral tegmental area	HsapDv:0000092	human middle aged stage (human)	TS-2389	Ventral tegmental area	Adult
+UBERON:0002702	middle frontal gyrus	HsapDv:0000094	65-79 year-old human stage (human)	TS-2642	Middle frontal gyrus	Adult
+UBERON:0002728	entorhinal cortex	HsapDv:0000089	young adult stage (human)	TS-2643	Entorhinal cortex	Adult
+UBERON:0002728	entorhinal cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-2643	Entorhinal cortex	Adult
+UBERON:0002728	entorhinal cortex	HsapDv:0000092	human middle aged stage (human)	TS-2643	Entorhinal cortex	Adult
+UBERON:0002728	entorhinal cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2643	Entorhinal cortex	Adult
+UBERON:0002728	entorhinal cortex	HsapDv:0000095	80 year-old and over human stage (human)	TS-2643	Entorhinal cortex	Adult
+UBERON:0002728	entorhinal cortex	UBERON:0000104	life cycle	-	-	-
+UBERON:0002736	lateral nuclear group of thalamus	UBERON:0000104	life cycle	-	-	-
+UBERON:0002771	middle temporal gyrus	HsapDv:0000092	human middle aged stage (human)	TS-2644	Middle temporal gyrus	Adult
+UBERON:0002771	middle temporal gyrus	HsapDv:0000094	65-79 year-old human stage (human)	TS-2644	Middle temporal gyrus	Adult
+UBERON:0002771	middle temporal gyrus	HsapDv:0000095	80 year-old and over human stage (human)	TS-2644	Middle temporal gyrus	Adult
+UBERON:0002795	frontal pole	HsapDv:0000090	25-44 year-old human stage (human)	TS-2645	Frontal pole	Adult
+UBERON:0002810	right frontal lobe	HsapDv:0000087	human adult stage (human)	TS-2646	Right frontal lobe	Adult
+UBERON:0002810	right frontal lobe	HsapDv:0000088	human early adulthood stage (human)	TS-2646	Right frontal lobe	Adult
+UBERON:0002810	right frontal lobe	HsapDv:0000090	25-44 year-old human stage (human)	TS-2646	Right frontal lobe	Adult
+UBERON:0002810	right frontal lobe	HsapDv:0000091	human late adulthood stage (human)	TS-2646	Right frontal lobe	Adult
+UBERON:0002810	right frontal lobe	HsapDv:0000092	human middle aged stage (human)	TS-2646	Right frontal lobe	Adult
+UBERON:0002870	dorsal motor nucleus of vagus nerve	HsapDv:0000094	65-79 year-old human stage (human)	TS-2381	Dorsal vagal nucleus	Adult
+UBERON:0003027	cingulate cortex	HsapDv:0000087	human adult stage (human)	TS-2647	Cingulate cortex	Adult
+UBERON:0003053	ventricular zone	HsapDv:0000198	fourth LMP month human stage (human)	TS-2714	Fetal ventricular zone	Fetus
+UBERON:0003053	ventricular zone	HsapDv:0000199	fifth LMP month human stage (human)	TS-2714	Fetal ventricular zone	Fetus
+UBERON:0003126	trachea	HsapDv:0000090	25-44 year-old human stage (human)	TS-1060	Trachea	Adult
+UBERON:0003126	trachea	UBERON:0000104	life cycle	-	-	-
+UBERON:0003244	epithelium of mammary gland	HsapDv:0000087	human adult stage (human)	TS-0593	Mammary epithelium	Adult
+UBERON:0003244	epithelium of mammary gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-0593	Mammary epithelium	Adult
+UBERON:0003244	epithelium of mammary gland	HsapDv:0000092	human middle aged stage (human)	TS-0593	Mammary epithelium	Adult
+UBERON:0003244	epithelium of mammary gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-0593	Mammary epithelium	Adult
+UBERON:0003244	epithelium of mammary gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0003379	cardiac muscle of right atrium	HsapDv:0000090	25-44 year-old human stage (human)	TS-2617	Cardiac muscle of right atrium	Adult
+UBERON:0003379	cardiac muscle of right atrium	HsapDv:0000092	human middle aged stage (human)	TS-2617	Cardiac muscle of right atrium	Adult
+UBERON:0003379	cardiac muscle of right atrium	HsapDv:0000094	65-79 year-old human stage (human)	TS-2617	Cardiac muscle of right atrium	Adult
+UBERON:0003454	small intestine Peyer's patch	HsapDv:0000087	human adult stage (human)	TS-0780	Peyer patch	Adult
+UBERON:0003454	small intestine Peyer's patch	HsapDv:0000088	human early adulthood stage (human)	TS-0780	Peyer patch	Adult
+UBERON:0003454	small intestine Peyer's patch	HsapDv:0000090	25-44 year-old human stage (human)	TS-0780	Peyer patch	Adult
+UBERON:0003454	small intestine Peyer's patch	HsapDv:0000091	human late adulthood stage (human)	TS-0780	Peyer patch	Adult
+UBERON:0003454	small intestine Peyer's patch	HsapDv:0000092	human middle aged stage (human)	TS-0780	Peyer patch	Adult
+UBERON:0003454	small intestine Peyer's patch	HsapDv:0000094	65-79 year-old human stage (human)	TS-0780	Peyer patch	Adult
+UBERON:0003701	calcaneal tendon	HsapDv:0000086	adolescent stage (human)	TS-2671	Calcaneal tendon	Adult
+UBERON:0003701	calcaneal tendon	HsapDv:0000089	young adult stage (human)	TS-2671	Calcaneal tendon	Adult
+UBERON:0003701	calcaneal tendon	HsapDv:0000090	25-44 year-old human stage (human)	TS-2671	Calcaneal tendon	Adult
+UBERON:0003701	calcaneal tendon	HsapDv:0000092	human middle aged stage (human)	TS-2671	Calcaneal tendon	Adult
+UBERON:0003701	calcaneal tendon	HsapDv:0000094	65-79 year-old human stage (human)	TS-2671	Calcaneal tendon	Adult
+UBERON:0003729	mouth mucosa	HsapDv:0000090	25-44 year-old human stage (human)	TS-0716	Oral mucosa	Adult
+UBERON:0003729	mouth mucosa	UBERON:0000104	life cycle	-	-	-
+UBERON:0003881	CA1 field of hippocampus	HsapDv:0000094	65-79 year-old human stage (human)	TS-2649	CA1 field of hippocampus	Adult
+UBERON:0003881	CA1 field of hippocampus	HsapDv:0000095	80 year-old and over human stage (human)	TS-2649	CA1 field of hippocampus	Adult
+UBERON:0003889	fallopian tube	UBERON:0000104	life cycle	-	-	-
+UBERON:0003889	fallopian tube	UBERON:0000113	post-juvenile adult stage	TS-0732	Oviduct	Adult
+UBERON:0003911	choroid plexus epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0004087	vena cava	UBERON:0000104	life cycle	-	-	-
+UBERON:0004167	orbitofrontal cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-2650	Orbitofrontal cortex	Adult
+UBERON:0004167	orbitofrontal cortex	HsapDv:0000092	human middle aged stage (human)	TS-2650	Orbitofrontal cortex	Adult
+UBERON:0004167	orbitofrontal cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2650	Orbitofrontal cortex	Adult
+UBERON:0004252	hindlimb stylopod muscle	UBERON:0000104	life cycle	-	-	-
+UBERON:0004262	upper leg skin	HsapDv:0000090	25-44 year-old human stage (human)	TS-2602	Upper leg skin	Adult
+UBERON:0004263	upper arm skin	HsapDv:0000089	young adult stage (human)	TS-2603	Upper arm skin	Adult
+UBERON:0004263	upper arm skin	HsapDv:0000090	25-44 year-old human stage (human)	TS-2603	Upper arm skin	Adult
+UBERON:0004358	caput epididymis	HsapDv:0000090	25-44 year-old human stage (human)	TS-2672	Caput epididymis	Adult
+UBERON:0004358	caput epididymis	HsapDv:0000092	human middle aged stage (human)	TS-2672	Caput epididymis	Adult
+UBERON:0004359	corpus epididymis	HsapDv:0000090	25-44 year-old human stage (human)	TS-2673	Corpus epididymis	Adult
+UBERON:0004359	corpus epididymis	HsapDv:0000092	human middle aged stage (human)	TS-2673	Corpus epididymis	Adult
+UBERON:0004360	cauda epididymis	HsapDv:0000090	25-44 year-old human stage (human)	TS-2674	Cauda epididymis	Adult
+UBERON:0004360	cauda epididymis	HsapDv:0000092	human middle aged stage (human)	TS-2674	Cauda epididymis	Adult
+UBERON:0004362	pharyngeal arch 1	HsapDv:0000020	CS13	TS-2089	First arch	Embryo
+UBERON:0004502	skeletal muscle tissue of biceps brachii	HsapDv:0000093	human aged stage	TS-2622	Skeletal muscle tissue of biceps	Adult
+UBERON:0004511	skeletal muscle tissue of rectus abdominis	HsapDv:0000092	human middle aged stage (human)	TS-2623	Skeletal muscle tissue of rectus abdominis	Adult
+UBERON:0004511	skeletal muscle tissue of rectus abdominis	HsapDv:0000094	65-79 year-old human stage (human)	TS-2623	Skeletal muscle tissue of rectus abdominis	Adult
+UBERON:0004533	left testis	HsapDv:0000087	human adult stage (human)	TS-2721	Left testis	Adult
+UBERON:0004533	left testis	HsapDv:0000088	human early adulthood stage (human)	TS-2721	Left testis	Adult
+UBERON:0004533	left testis	HsapDv:0000090	25-44 year-old human stage (human)	TS-2721	Left testis	Adult
+UBERON:0004533	left testis	HsapDv:0000091	human late adulthood stage (human)	TS-2721	Left testis	Adult
+UBERON:0004533	left testis	HsapDv:0000092	human middle aged stage (human)	TS-2721	Left testis	Adult
+UBERON:0004533	left testis	HsapDv:0000094	65-79 year-old human stage (human)	TS-2721	Left testis	Adult
+UBERON:0004534	right testis	HsapDv:0000087	human adult stage (human)	TS-2722	Right testis	Adult
+UBERON:0004534	right testis	HsapDv:0000088	human early adulthood stage (human)	TS-2722	Right testis	Adult
+UBERON:0004534	right testis	HsapDv:0000090	25-44 year-old human stage (human)	TS-2722	Right testis	Adult
+UBERON:0004534	right testis	HsapDv:0000091	human late adulthood stage (human)	TS-2722	Right testis	Adult
+UBERON:0004534	right testis	HsapDv:0000092	human middle aged stage (human)	TS-2722	Right testis	Adult
+UBERON:0004720	cerebellar vermis	HsapDv:0000092	human middle aged stage (human)	TS-2059	Vermis	Adult
+UBERON:0004720	cerebellar vermis	HsapDv:0000094	65-79 year-old human stage (human)	TS-2059	Vermis	Adult
+UBERON:0004720	cerebellar vermis	UBERON:0000104	life cycle	-	-	-
+UBERON:0004736	metanephric glomerulus	HsapDv:0000087	human adult stage (human)	TS-0862	Renal glomerulus	Adult
+UBERON:0004736	metanephric glomerulus	HsapDv:0000090	25-44 year-old human stage (human)	TS-0862	Renal glomerulus	Adult
+UBERON:0004736	metanephric glomerulus	HsapDv:0000092	human middle aged stage (human)	TS-0862	Renal glomerulus	Adult
+UBERON:0004736	metanephric glomerulus	HsapDv:0000094	65-79 year-old human stage (human)	TS-0862	Renal glomerulus	Adult
+UBERON:0004797	blood vessel layer	HsapDv:0000091	human late adulthood stage (human)	TS-2675	Blood vessel layer	Adult
+UBERON:0004801	cervix epithelium	HsapDv:0000090	25-44 year-old human stage (human)	TS-0137	Uterine cervix epithelium	Adult
+UBERON:0004801	cervix epithelium	HsapDv:0000092	human middle aged stage (human)	TS-0137	Uterine cervix epithelium	Adult
+UBERON:0004801	cervix epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0004804	oviduct epithelium	HsapDv:0000090	25-44 year-old human stage (human)	TS-1316	Oviduct epithelium	Adult
+UBERON:0004804	oviduct epithelium	HsapDv:0000092	human middle aged stage (human)	TS-1316	Oviduct epithelium	Adult
+UBERON:0004811	endometrium epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0004819	kidney epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0004904	neuron projection bundle connecting eye with brain	HsapDv:0000087	human adult stage (human)	TS-0713	Optic nerve	Adult
+UBERON:0004991	mucosa of transverse colon	HsapDv:0000090	25-44 year-old human stage (human)	TS-2632	Mucosa of transverse colon	Adult
+UBERON:0004993	mucosa of sigmoid colon	HsapDv:0000090	25-44 year-old human stage (human)	TS-2633	Mucosa of sigmoid colon	Adult
+UBERON:0005030	mucosa of paranasal sinus	UBERON:0034919	juvenile stage	TS-2634	Mucosa of paranasal sinus	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000087	human adult stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000088	human early adulthood stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000089	young adult stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000090	25-44 year-old human stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000091	human late adulthood stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000092	human middle aged stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	HsapDv:0000094	65-79 year-old human stage (human)	TS-0595	Mammary gland	Adult
+UBERON:0005200	thoracic mammary gland	UBERON:0000104	life cycle	-	-	-
+UBERON:0005343	cortical plate	HsapDv:0000198	fourth LMP month human stage (human)	TS-2715	Fetal cortical plate	Fetus
+UBERON:0005343	cortical plate	HsapDv:0000199	fifth LMP month human stage (human)	TS-2715	Fetal cortical plate	Fetus
+UBERON:0005351	paraflocculus	HsapDv:0000089	young adult stage (human)	TS-2652	Paraflocculus	Adult
+UBERON:0005351	paraflocculus	HsapDv:0000092	human middle aged stage (human)	TS-2652	Paraflocculus	Adult
+UBERON:0005363	inferior vagus X ganglion	HsapDv:0000089	young adult stage (human)	TS-2653	Inferior vagus X ganglion	Adult
+UBERON:0005363	inferior vagus X ganglion	HsapDv:0000090	25-44 year-old human stage (human)	TS-2653	Inferior vagus X ganglion	Adult
+UBERON:0005363	inferior vagus X ganglion	HsapDv:0000092	human middle aged stage (human)	TS-2653	Inferior vagus X ganglion	Adult
+UBERON:0005384	nasal cavity epithelium	HsapDv:0000087	human adult stage (human)	TS-0656	Nasal epithelium	Adult
+UBERON:0005384	nasal cavity epithelium	HsapDv:0000090	25-44 year-old human stage (human)	TS-0656	Nasal epithelium	Adult
+UBERON:0005384	nasal cavity epithelium	HsapDv:0000092	human middle aged stage (human)	TS-0656	Nasal epithelium	Adult
+UBERON:0005384	nasal cavity epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0005448	greater omentum	HsapDv:0000087	human adult stage (human)	TS-2073	Greater omentum	Adult
+UBERON:0005448	greater omentum	UBERON:0000104	life cycle	-	-	-
+UBERON:0005969	eye trabecular meshwork	HsapDv:0000087	human adult stage (human)	TS-1058	Trabecular meshwork	Adult
+UBERON:0005969	eye trabecular meshwork	UBERON:0000104	life cycle	-	-	-
+UBERON:0006469	C1 segment of cervical spinal cord	HsapDv:0000087	human adult stage (human)	TS-2654	C1 segment of cervical spinal cord	Adult
+UBERON:0006469	C1 segment of cervical spinal cord	HsapDv:0000088	human early adulthood stage (human)	TS-2654	C1 segment of cervical spinal cord	Adult
+UBERON:0006469	C1 segment of cervical spinal cord	HsapDv:0000090	25-44 year-old human stage (human)	TS-2654	C1 segment of cervical spinal cord	Adult
+UBERON:0006469	C1 segment of cervical spinal cord	HsapDv:0000091	human late adulthood stage (human)	TS-2654	C1 segment of cervical spinal cord	Adult
+UBERON:0006469	C1 segment of cervical spinal cord	HsapDv:0000092	human middle aged stage (human)	TS-2654	C1 segment of cervical spinal cord	Adult
+UBERON:0006469	C1 segment of cervical spinal cord	HsapDv:0000094	65-79 year-old human stage (human)	TS-2654	C1 segment of cervical spinal cord	Adult
+UBERON:0006483	Brodmann (1909) area 46	HsapDv:0000084	2-5 year-old child stage (human)	TS-2655	Brodmann (1909) area 46	Adult
+UBERON:0006483	Brodmann (1909) area 46	HsapDv:0000086	adolescent stage (human)	TS-2655	Brodmann (1909) area 46	Adult
+UBERON:0006483	Brodmann (1909) area 46	HsapDv:0000087	human adult stage (human)	TS-2655	Brodmann (1909) area 46	Adult
+UBERON:0006483	Brodmann (1909) area 46	HsapDv:0000089	young adult stage (human)	TS-2655	Brodmann (1909) area 46	Adult
+UBERON:0006483	Brodmann (1909) area 46	UBERON:0034920	infant stage	TS-2655	Brodmann (1909) area 46	Adult
+UBERON:0006566	left ventricle myocardium	HsapDv:0000090	25-44 year-old human stage (human)	TS-2620	Left ventricle myocardium	Adult
+UBERON:0006566	left ventricle myocardium	HsapDv:0000092	human middle aged stage (human)	TS-2620	Left ventricle myocardium	Adult
+UBERON:0006631	right atrium auricular region	HsapDv:0000087	human adult stage (human)	TS-2717	Right atrium auricular region	Adult
+UBERON:0006631	right atrium auricular region	HsapDv:0000088	human early adulthood stage (human)	TS-2717	Right atrium auricular region	Adult
+UBERON:0006631	right atrium auricular region	HsapDv:0000090	25-44 year-old human stage (human)	TS-2717	Right atrium auricular region	Adult
+UBERON:0006631	right atrium auricular region	HsapDv:0000091	human late adulthood stage (human)	TS-2717	Right atrium auricular region	Adult
+UBERON:0006631	right atrium auricular region	HsapDv:0000092	human middle aged stage (human)	TS-2717	Right atrium auricular region	Adult
+UBERON:0006631	right atrium auricular region	HsapDv:0000094	65-79 year-old human stage (human)	TS-2717	Right atrium auricular region	Adult
+UBERON:0006914	squamous epithelium	HsapDv:0000092	human middle aged stage (human)	TS-2627	Squamous epithelium	Adult
+UBERON:0006919	tongue squamous epithelium	HsapDv:0000094	65-79 year-old human stage (human)	TS-2635	Tongue squamous epithelium	Adult
+UBERON:0006920	esophagus squamous epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0006922	cervix squamous epithelium	UBERON:0000104	life cycle	-	-	-
+UBERON:0007023	adult organism	HsapDv:0000087	human adult stage (human)	-	-	-
+UBERON:0007106	chorionic villus	HsapDv:0000075	38th week post-fertilization and over human stage (human)	TS-2676	Chorionic villus	Adult
+UBERON:0007227	superior vestibular nucleus	HsapDv:0000090	25-44 year-old human stage (human)	TS-2079	Superior vestibular nuclei	Adult
+UBERON:0007227	superior vestibular nucleus	HsapDv:0000092	human middle aged stage (human)	TS-2079	Superior vestibular nuclei	Adult
+UBERON:0007277	presumptive hindbrain	HsapDv:0000020	CS13	TS-2118	Embryonic rhombencephalon	Embryo
+UBERON:0007318	saphenous vein	HsapDv:0000090	25-44 year-old human stage (human)	TS-0893	Saphenous vein	Adult
+UBERON:0007371	superior surface of tongue	HsapDv:0000090	25-44 year-old human stage (human)	TS-2440	Superior surface of tongue	Adult
+UBERON:0007610	tibial artery	HsapDv:0000087	human adult stage (human)	TS-2611	Tibial artery	Adult
+UBERON:0007610	tibial artery	HsapDv:0000088	human early adulthood stage (human)	TS-2611	Tibial artery	Adult
+UBERON:0007610	tibial artery	HsapDv:0000090	25-44 year-old human stage (human)	TS-2611	Tibial artery	Adult
+UBERON:0007610	tibial artery	HsapDv:0000091	human late adulthood stage (human)	TS-2611	Tibial artery	Adult
+UBERON:0007610	tibial artery	HsapDv:0000092	human middle aged stage (human)	TS-2611	Tibial artery	Adult
+UBERON:0007610	tibial artery	HsapDv:0000094	65-79 year-old human stage (human)	TS-2611	Tibial artery	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000086	adolescent stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000087	human adult stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000090	25-44 year-old human stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000091	human late adulthood stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000092	human middle aged stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000094	65-79 year-old human stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	HsapDv:0000095	80 year-old and over human stage (human)	TS-0998	Synovium	Adult
+UBERON:0007616	layer of synovial tissue	UBERON:0000104	life cycle	-	-	-
+UBERON:0007808	adipose tissue of abdominal region	HsapDv:0000088	human early adulthood stage (human)	TS-0002	Abdominal adipose tissue	Adult
+UBERON:0007808	adipose tissue of abdominal region	HsapDv:0000090	25-44 year-old human stage (human)	TS-0002	Abdominal adipose tissue	Adult
+UBERON:0007808	adipose tissue of abdominal region	HsapDv:0000092	human middle aged stage (human)	TS-0002	Abdominal adipose tissue	Adult
+UBERON:0007811	craniocervical region	HsapDv:0000087	human adult stage (human)	TS-2356	Head and neck	Adult
+UBERON:0008188	tendon of biceps brachii	HsapDv:0000090	25-44 year-old human stage (human)	TS-2677	Tendon of biceps muscle	Adult
+UBERON:0008188	tendon of biceps brachii	HsapDv:0000092	human middle aged stage (human)	TS-2677	Tendon of biceps muscle	Adult
+UBERON:0008266	periodontal ligament	UBERON:0000113	post-juvenile adult stage	TS-0763	Periodontal ligament	Adult
+UBERON:0008948	upper lobe of lung	HsapDv:0000089	young adult stage (human)	TS-2678	Upper lobe of lung	Adult
+UBERON:0008948	upper lobe of lung	HsapDv:0000090	25-44 year-old human stage (human)	TS-2678	Upper lobe of lung	Adult
+UBERON:0008948	upper lobe of lung	HsapDv:0000092	human middle aged stage (human)	TS-2678	Upper lobe of lung	Adult
+UBERON:0008949	lower lobe of lung	HsapDv:0000089	young adult stage (human)	TS-2679	Lower lobe of lung	Adult
+UBERON:0008949	lower lobe of lung	HsapDv:0000090	25-44 year-old human stage (human)	TS-2679	Lower lobe of lung	Adult
+UBERON:0008949	lower lobe of lung	HsapDv:0000092	human middle aged stage (human)	TS-2679	Lower lobe of lung	Adult
+UBERON:0008949	lower lobe of lung	HsapDv:0000094	65-79 year-old human stage (human)	TS-2679	Lower lobe of lung	Adult
+UBERON:0008952	upper lobe of left lung	HsapDv:0000087	human adult stage (human)	TS-2680	Upper lobe of left lung	Adult
+UBERON:0008952	upper lobe of left lung	HsapDv:0000088	human early adulthood stage (human)	TS-2680	Upper lobe of left lung	Adult
+UBERON:0008952	upper lobe of left lung	HsapDv:0000090	25-44 year-old human stage (human)	TS-2680	Upper lobe of left lung	Adult
+UBERON:0008952	upper lobe of left lung	HsapDv:0000091	human late adulthood stage (human)	TS-2680	Upper lobe of left lung	Adult
+UBERON:0008952	upper lobe of left lung	HsapDv:0000092	human middle aged stage (human)	TS-2680	Upper lobe of left lung	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000084	2-5 year-old child stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000085	6-12 year-old child stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000086	adolescent stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000087	human adult stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000088	human early adulthood stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000089	young adult stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000091	human late adulthood stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000092	human middle aged stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	HsapDv:0000095	80 year-old and over human stage (human)	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009834	dorsolateral prefrontal cortex	UBERON:0034920	infant stage	TS-2656	Dorsolateral prefrontal cortex	Adult
+UBERON:0009835	anterior cingulate cortex	HsapDv:0000087	human adult stage (human)	TS-2657	Anterior cingulate cortex	Adult
+UBERON:0009835	anterior cingulate cortex	HsapDv:0000088	human early adulthood stage (human)	TS-2657	Anterior cingulate cortex	Adult
+UBERON:0009835	anterior cingulate cortex	HsapDv:0000090	25-44 year-old human stage (human)	TS-2657	Anterior cingulate cortex	Adult
+UBERON:0009835	anterior cingulate cortex	HsapDv:0000091	human late adulthood stage (human)	TS-2657	Anterior cingulate cortex	Adult
+UBERON:0009835	anterior cingulate cortex	HsapDv:0000092	human middle aged stage (human)	TS-2657	Anterior cingulate cortex	Adult
+UBERON:0009835	anterior cingulate cortex	HsapDv:0000094	65-79 year-old human stage (human)	TS-2657	Anterior cingulate cortex	Adult
+UBERON:0009853	body of uterus	HsapDv:0000087	human adult stage (human)	TS-1265	Uterine corpus	Adult
+UBERON:0009853	body of uterus	HsapDv:0000088	human early adulthood stage (human)	TS-1265	Uterine corpus	Adult
+UBERON:0009853	body of uterus	HsapDv:0000090	25-44 year-old human stage (human)	TS-1265	Uterine corpus	Adult
+UBERON:0009853	body of uterus	HsapDv:0000091	human late adulthood stage (human)	TS-1265	Uterine corpus	Adult
+UBERON:0009853	body of uterus	HsapDv:0000092	human middle aged stage (human)	TS-1265	Uterine corpus	Adult
+UBERON:0010414	omental fat pad	HsapDv:0000087	human adult stage (human)	TS-2681	Omental fat pad	Adult
+UBERON:0010414	omental fat pad	HsapDv:0000088	human early adulthood stage (human)	TS-2681	Omental fat pad	Adult
+UBERON:0010414	omental fat pad	HsapDv:0000090	25-44 year-old human stage (human)	TS-2681	Omental fat pad	Adult
+UBERON:0010414	omental fat pad	HsapDv:0000091	human late adulthood stage (human)	TS-2681	Omental fat pad	Adult
+UBERON:0010414	omental fat pad	HsapDv:0000092	human middle aged stage (human)	TS-2681	Omental fat pad	Adult
+UBERON:0010414	omental fat pad	HsapDv:0000094	65-79 year-old human stage (human)	TS-2681	Omental fat pad	Adult
+UBERON:0011876	body of tongue	HsapDv:0000090	25-44 year-old human stage (human)	TS-2682	Body of tongue	Adult
+UBERON:0012249	ectocervix	HsapDv:0000087	human adult stage (human)	TS-1098	Uterine ectocervix	Adult
+UBERON:0012249	ectocervix	HsapDv:0000088	human early adulthood stage (human)	TS-1098	Uterine ectocervix	Adult
+UBERON:0012249	ectocervix	HsapDv:0000090	25-44 year-old human stage (human)	TS-1098	Uterine ectocervix	Adult
+UBERON:0012249	ectocervix	HsapDv:0000091	human late adulthood stage (human)	TS-1098	Uterine ectocervix	Adult
+UBERON:0012249	ectocervix	HsapDv:0000092	human middle aged stage (human)	TS-1098	Uterine ectocervix	Adult
+UBERON:0013473	lower esophagus	HsapDv:0000091	human late adulthood stage (human)	TS-2629	Lower esophagus	Adult
+UBERON:0013473	lower esophagus	HsapDv:0000092	human middle aged stage (human)	TS-2629	Lower esophagus	Adult
+UBERON:0013540	Brodmann (1909) area 9	HsapDv:0000090	25-44 year-old human stage (human)	TS-2658	Brodmann (1909) area 9	Adult
+UBERON:0013540	Brodmann (1909) area 9	HsapDv:0000092	human middle aged stage (human)	TS-2658	Brodmann (1909) area 9	Adult
+UBERON:0013540	Brodmann (1909) area 9	HsapDv:0000094	65-79 year-old human stage (human)	TS-2658	Brodmann (1909) area 9	Adult
+UBERON:0013540	Brodmann (1909) area 9	HsapDv:0000095	80 year-old and over human stage (human)	TS-2658	Brodmann (1909) area 9	Adult
+UBERON:0013541	Brodmann (1909) area 10	HsapDv:0000087	human adult stage (human)	TS-2659	Brodmann (1909) area 10	Adult
+UBERON:0013554	Brodmann (1909) area 23	HsapDv:0000092	human middle aged stage (human)	TS-2660	Brodmann (1909) area 23	Adult
+UBERON:0013554	Brodmann (1909) area 23	HsapDv:0000094	65-79 year-old human stage (human)	TS-2660	Brodmann (1909) area 23	Adult
+UBERON:0013554	Brodmann (1909) area 23	HsapDv:0000095	80 year-old and over human stage (human)	TS-2660	Brodmann (1909) area 23	Adult
+UBERON:0014890	right hemisphere of cerebellum	HsapDv:0000087	human adult stage (human)	TS-2661	Right hemisphere of cerebellum	Adult
+UBERON:0014890	right hemisphere of cerebellum	HsapDv:0000088	human early adulthood stage (human)	TS-2661	Right hemisphere of cerebellum	Adult
+UBERON:0014890	right hemisphere of cerebellum	HsapDv:0000090	25-44 year-old human stage (human)	TS-2661	Right hemisphere of cerebellum	Adult
+UBERON:0014890	right hemisphere of cerebellum	HsapDv:0000091	human late adulthood stage (human)	TS-2661	Right hemisphere of cerebellum	Adult
+UBERON:0014890	right hemisphere of cerebellum	HsapDv:0000092	human middle aged stage (human)	TS-2661	Right hemisphere of cerebellum	Adult
+UBERON:0014890	right hemisphere of cerebellum	HsapDv:0000094	65-79 year-old human stage (human)	TS-2661	Right hemisphere of cerebellum	Adult
+UBERON:0014892	skeletal muscle organ	HsapDv:0000087	human adult stage (human)	TS-2615	Skeletal muscle organ	Adult
+UBERON:0014892	skeletal muscle organ	UBERON:0000104	life cycle	-	-	-
+UBERON:0015488	sural nerve	HsapDv:0000090	25-44 year-old human stage (human)	TS-2662	Sural nerve	Adult
+UBERON:0015488	sural nerve	HsapDv:0000092	human middle aged stage (human)	TS-2662	Sural nerve	Adult
+UBERON:0015488	sural nerve	HsapDv:0000094	65-79 year-old human stage (human)	TS-2662	Sural nerve	Adult
+UBERON:0016525	frontal lobe	HsapDv:0000087	human adult stage (human)	TS-0389	Frontal lobe	Adult
+UBERON:0016525	frontal lobe	HsapDv:0000089	young adult stage (human)	TS-0389	Frontal lobe	Adult
+UBERON:0016525	frontal lobe	UBERON:0000104	life cycle	-	-	-
+UBERON:0016525	frontal lobe	UBERON:0007220	late embryonic stage	TS-2708	Embryonic frontal lobe	Embryo
+UBERON:0018303	adrenal tissue	HsapDv:0000197	third LMP month human stage (human)	TS-2716	Fetal adrenal tissue	Fetus
+UBERON:0018303	adrenal tissue	HsapDv:0000198	fourth LMP month human stage (human)	TS-2716	Fetal adrenal tissue	Fetus
+UBERON:0018303	adrenal tissue	HsapDv:0000199	fifth LMP month human stage (human)	TS-2716	Fetal adrenal tissue	Fetus
+UBERON:0035805	muscle layer of sigmoid colon	HsapDv:0000087	human adult stage (human)	TS-2621	Muscle layer of sigmoid colon	Adult
+UBERON:0035805	muscle layer of sigmoid colon	HsapDv:0000088	human early adulthood stage (human)	TS-2621	Muscle layer of sigmoid colon	Adult
+UBERON:0035805	muscle layer of sigmoid colon	HsapDv:0000090	25-44 year-old human stage (human)	TS-2621	Muscle layer of sigmoid colon	Adult
+UBERON:0035805	muscle layer of sigmoid colon	HsapDv:0000091	human late adulthood stage (human)	TS-2621	Muscle layer of sigmoid colon	Adult
+UBERON:0035805	muscle layer of sigmoid colon	HsapDv:0000092	human middle aged stage (human)	TS-2621	Muscle layer of sigmoid colon	Adult
+UBERON:0035805	muscle layer of sigmoid colon	HsapDv:0000094	65-79 year-old human stage (human)	TS-2621	Muscle layer of sigmoid colon	Adult
+UBERON:0035825	left adrenal gland cortex	HsapDv:0000087	human adult stage (human)	TS-2684	Left adrenal gland cortex	Adult
+UBERON:0035825	left adrenal gland cortex	HsapDv:0000088	human early adulthood stage (human)	TS-2684	Left adrenal gland cortex	Adult
+UBERON:0035825	left adrenal gland cortex	HsapDv:0000091	human late adulthood stage (human)	TS-2684	Left adrenal gland cortex	Adult
+UBERON:0035825	left adrenal gland cortex	HsapDv:0000092	human middle aged stage (human)	TS-2684	Left adrenal gland cortex	Adult
+UBERON:0035827	right adrenal gland cortex	HsapDv:0000091	human late adulthood stage (human)	TS-2685	Right adrenal gland cortex	Adult
+UBERON:0035827	right adrenal gland cortex	HsapDv:0000092	human middle aged stage (human)	TS-2685	Right adrenal gland cortex	Adult
+UBERON:0035833	lower esophagus muscularis layer	HsapDv:0000087	human adult stage (human)	TS-2686	Lower esophagus muscularis layer	Adult
+UBERON:0035833	lower esophagus muscularis layer	HsapDv:0000088	human early adulthood stage (human)	TS-2686	Lower esophagus muscularis layer	Adult
+UBERON:0035833	lower esophagus muscularis layer	HsapDv:0000090	25-44 year-old human stage (human)	TS-2686	Lower esophagus muscularis layer	Adult
+UBERON:0035833	lower esophagus muscularis layer	HsapDv:0000091	human late adulthood stage (human)	TS-2686	Lower esophagus muscularis layer	Adult
+UBERON:0035833	lower esophagus muscularis layer	HsapDv:0000092	human middle aged stage (human)	TS-2686	Lower esophagus muscularis layer	Adult
+UBERON:0035833	lower esophagus muscularis layer	HsapDv:0000094	65-79 year-old human stage (human)	TS-2686	Lower esophagus muscularis layer	Adult
+UBERON:0035834	lower esophagus mucosa	HsapDv:0000091	human late adulthood stage (human)	TS-2628	Lower esophagus mucosa	Adult
+UBERON:0035841	esophagogastric junction muscularis propria	HsapDv:0000087	human adult stage (human)	TS-2687	Esophagogastric junction muscularis propria	Adult
+UBERON:0035841	esophagogastric junction muscularis propria	HsapDv:0000088	human early adulthood stage (human)	TS-2687	Esophagogastric junction muscularis propria	Adult
+UBERON:0035841	esophagogastric junction muscularis propria	HsapDv:0000090	25-44 year-old human stage (human)	TS-2687	Esophagogastric junction muscularis propria	Adult
+UBERON:0035841	esophagogastric junction muscularis propria	HsapDv:0000091	human late adulthood stage (human)	TS-2687	Esophagogastric junction muscularis propria	Adult
+UBERON:0035841	esophagogastric junction muscularis propria	HsapDv:0000092	human middle aged stage (human)	TS-2687	Esophagogastric junction muscularis propria	Adult
+UBERON:0035841	esophagogastric junction muscularis propria	HsapDv:0000094	65-79 year-old human stage (human)	TS-2687	Esophagogastric junction muscularis propria	Adult
