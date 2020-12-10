@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.5
-date: 01:10:2020 12:00
+data-version: 1.6
+date: 10:12:2020 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -1228,7 +1228,7 @@ xref: BTO:0001571
 xref: CL:0000765
 xref: FMA:83504
 xref: MESH:D004900
-is_a: TS-0647 ! Myeloid cell
+is_a: TS-2752 ! Erythroid cell
 is_a: TS-2109 ! Bone marrow hematopoietic cell
 
 [Term]
@@ -1242,7 +1242,7 @@ xref: BTO:0000424
 xref: CL:0000232
 xref: FMA:62845
 xref: MESH:D004912
-is_a: TS-0647 ! Myeloid cell
+is_a: TS-2752 ! Erythroid cell
 relationship: part_of TS-0771 ! Peripheral blood cell
 
 [Term]
@@ -1848,7 +1848,7 @@ synonym: "Liver stellate cell" RELATED []
 xref: BTO:0002741
 xref: CL:0000632
 xref: MESH:D055166
-is_a: TS-2019 ! Histiocyte
+is_a: TS-2035 ! Cell type
 relationship: part_of TS-0564 ! Liver
 
 [Term]
@@ -3612,7 +3612,7 @@ xref: BTO:0001173
 xref: CL:0000558
 xref: FMA:66785
 xref: MESH:D012156
-is_a: TS-0647 ! Myeloid cell
+is_a: TS-2752 ! Erythroid cell
 
 [Term]
 id: TS-0865
@@ -4756,7 +4756,7 @@ xref: BTO:0001857
 xref: FMA:242644
 xref: MESH:D014793
 xref: UBERON:0000411
-relationship: part_of TS-0693 ! Occipital lobe
+relationship: part_of TS-2691 ! Occipital cortex
 relationship: part_of TS-2543 ! Visual system
 
 [Term]
@@ -6494,7 +6494,6 @@ id: TS-2061
 name: Limbic lobe
 def: "The limbic lobe is an arc-shaped region of cortex on the medial surface of each cerebral hemisphere of the mammalian brain, consisting of parts of the frontal, parietal and temporal lobes. A horseshoe-shaped section of the cerebral cortex, comprising the cingulate gyrus and the parahippocampal gyrus." [Wikipedia:Limbic_lobe]
 synonym: "Fornicate gyrus" RELATED []
-synonym: "Limbic cortex" RELATED []
 xref: FMA:72719
 xref: UBERON:0002600
 relationship: part_of TS-2007 ! Cerebral hemisphere
@@ -8839,7 +8838,7 @@ xref: BTO:0002807
 xref: FMA:224850
 xref: MESH:D017397
 xref: UBERON:0000451
-relationship: part_of TS-0389 ! Frontal lobe
+relationship: part_of TS-2688 ! Frontal cortex
 
 [Term]
 id: TS-2425
@@ -9141,7 +9140,7 @@ xref: BTO:0003976
 xref: FMA:62434
 xref: MESH:D006179
 xref: UBERON:0002967
-relationship: part_of TS-2061 ! Limbic lobe
+relationship: part_of TS-1307 ! Limbic system
 
 [Term]
 id: TS-2454
@@ -10308,8 +10307,7 @@ synonym: "B-cell of pancreatic islet" RELATED []
 xref: CL:0000169
 xref: BTO:0000783
 xref: FMA:70586
-is_a: TS-2035 ! Cell type
-relationship: part_of TS-0741 ! Pancreatic islet
+is_a: TS-2740 ! Pancreatic endocrine cell
 
 [Term]
 id: TS-2576
@@ -11008,7 +11006,7 @@ synonym: "marginal gyrus" RELATED []
 synonym: "superior frontal convolution" RELATED []
 xref: FMA:61857
 xref: UBERON:0002661
-relationship: part_of TS-0389 ! Frontal lobe
+relationship: part_of TS-2761 ! Frontal gyrus
 
 [Term]
 id: TS-2642
@@ -11018,7 +11016,7 @@ synonym: "intermediate frontal gyrus" RELATED []
 synonym: "medial frontal gyrus" RELATED []
 xref: FMA:61859
 xref: UBERON:0002702
-relationship: part_of TS-0389 ! Frontal lobe
+relationship: part_of TS-2761 ! Frontal gyrus
 
 [Term]
 id: TS-2643
@@ -11062,7 +11060,7 @@ name: Cingulate cortex
 def: "The cingulate cortex is a part of the brain situated in the medial aspect of the cerebral cortex. The cingulate cortex includes the entire cingulate gyrus, which lies immediately above the corpus callosum, and the continuation of this in the cingulate sulcus." [Wikipedia:Cingulate_cortex]
 xref: BTO:0003975
 xref: UBERON:0003027
-relationship: part_of TS-2061 ! Limbic lobe
+relationship: part_of TS-2756 ! Limbic cortex
 
 [Term]
 id: TS-2648
@@ -11089,13 +11087,14 @@ relationship: part_of TS-0460 ! Hippocampus
 [Term]
 id: TS-2650
 name: Orbitofrontal cortex
-def: "The region of the cerebral cortex covering the basal surface of the frontal lobes; this region normally controls emotion and decision making" [UBERON]
+def: "The region of the cerebral cortex covering the basal surface of the frontal lobes; this region normally controls emotion and decision making." [UBERON]
 synonym: "fronto-orbital cortex" RELATED []
 synonym: "orbital frontal cortex" RELATED []
 synonym: "orbito-frontal cortex" RELATED []
 xref: FMA:242003
 xref: UBERON:0004167
 relationship: part_of TS-1307 ! Limbic system
+relationship: part_of TS-2424 ! Prefrontal cortex
 
 [Term]
 id: TS-2651
@@ -11166,7 +11165,7 @@ synonym: "middle frontal area 46" RELATED []
 synonym: "middle frontal area 46" RELATED []
 xref: FMA:68643
 xref: UBERON:0006483
-relationship: part_of TS-0091 ! Cerebral cortex
+relationship: part_of TS-2656 ! Dorsolateral prefrontal cortex
 
 [Term]
 id: TS-2656
@@ -11174,7 +11173,7 @@ name: Dorsolateral prefrontal cortex
 def: "The dorsolateral prefrontal cortex (DL-PFC or DLPFC), according to a more restricted definition, is roughly equivalent to Brodmann areas 9 and 46. According to a broader definition DL-PFC consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47. These regions mainly receive their blood supply from the middle cerebral artery. With respect to neurotransmitter systems, there is evidence that dopamine plays a particularly important role in DL-PFC. DL-PFC is connected to the orbitofrontal cortex, and to a variety of brain areas, which include the thalamus, parts of the basal ganglia (the dorsal caudate nucleus), the hippocampus, and primary and secondary association areas of neocortex, including posterior temporal, parietal, and occipital areas." [UBERON]
 xref: FMA:276189
 xref: UBERON:0009834
-relationship: part_of TS-0091 ! Cerebral cortex
+relationship: part_of TS-2424 ! Prefrontal cortex
 
 [Term]
 id: TS-2657
@@ -11205,6 +11204,7 @@ relationship: part_of TS-2656 ! Dorsolateral prefrontal cortex
 id: TS-2659
 name: Brodmann (1909) area 10
 def: "Brodmann area 10 (BA10, frontopolar prefrontal cortex, rostrolateral prefrontal cortex, or anterior prefrontal cortex) is the anterior-most portion of the prefrontal cortex in the human brain. BA10 was originally defined broadly in terms of its cytoarchitectonic traits as they were observed in the brains of cadavers, but because modern functional imaging cannot precisely identify these boundaries, the terms anterior prefrontal cortex, rostral prefrontal cortex and frontopolar prefrontal cortex are used to refer to the area in the most anterior part of the frontal cortex that approximately covers BA10-simply to emphasize the fact that BA10 does not include all parts of the prefrontal cortex. BA10 is the largest cytoarchitectonic area in the human brain. It has been described as "one of the least well understood regions of the human brain". Present research suggests that it is involved in strategic processes in memory recall and various executive functions. During human evolution, the functions in this area resulted in its expansion relative to the rest of the brain." [Wikipedia:Brodmann_area_10]
+synonym: "Frontopolar cortex" RELATED []
 synonym: "area 10 of Brodmann" RELATED []
 synonym: "area 10 of Brodmann-1909" RELATED []
 synonym: "area frontopolaris" RELATED []
@@ -11213,7 +11213,7 @@ synonym: "BA10" RELATED []
 synonym: "Brodmann area 10" RELATED []
 synonym: "Brodmann area 10, frontoplar" RELATED []
 synonym: "lateral orbital area" RELATED []
-relationship: part_of TS-2424 ! Prefrontal cortex
+relationship: part_of TS-2754 ! Ventromedial prefrontal cortex
 
 [Term]
 id: TS-2660
@@ -11233,7 +11233,7 @@ synonym: "posterior cingulate area" RELATED []
 synonym: "ventral posterior cingulate area" RELATED []
 xref: FMA:68620
 xref: UBERON:0013554
-relationship: part_of TS-0091 ! Cerebral cortex
+relationship: part_of TS-2647 ! Cingulate cortex
 
 [Term]
 id: TS-2661
@@ -11502,6 +11502,7 @@ xref: BTO:0000484
 xref: FMA:242199
 xref: UBERON:0001870
 relationship: part_of TS-0389 ! Frontal lobe
+relationship: part_of TS-2639 ! Neocortex
 
 [Term]
 id: TS-2689
@@ -11513,6 +11514,7 @@ synonym: "temporal neocortex" RELATED []
 xref: FMA:242201
 xref: UBERON:0016538
 relationship: part_of TS-1020 ! Temporal lobe
+relationship: part_of TS-2639 ! Neocortex
 
 [Term]
 id: TS-2690
@@ -11524,6 +11526,7 @@ synonym: "Parietal neocortex" RELATED []
 xref: FMA:242203
 xref: UBERON:0016530
 relationship: part_of TS-0747 ! Parietal lobe
+relationship: part_of TS-2639 ! Neocortex
 
 [Term]
 id: TS-2691
@@ -11534,6 +11537,7 @@ synonym: "Occipital cortex" RELATED []
 xref: FMA:242205
 xref: UBERON:0016540
 relationship: part_of TS-0693 ! Occipital lobe
+relationship: part_of TS-2639 ! Neocortex
 
 [Term]
 id: TS-2692
@@ -11752,6 +11756,480 @@ def: "The part of the musculoskeletal system comprising all the muscles of the b
 synonym: "Musculature of the body" [RELATED]
 xref: UBERON:0000383
 relationship: part_of TS-1311 ! Musculoskeletal system
+
+[Term]
+id: TS-2725
+name: Enterocytes
+def: "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen". [CL:0000584]
+synonym: "Enterocyte" [RELATED]
+xref: BTO:0000398
+xref: CL:0000584
+xref: FMA:62122
+is_a: TS-1286 ! Small intestine glandular cell
+is_a: TS-2726 ! Large intestine glandular cell
+
+[Term]
+id: TS-2726
+name: Large intestine glandular cell
+def: "A glandular epithelial cell of the large intestine." [neXtProt:PDR]
+xref: CL:0002658
+xref: FMA:87194
+is_a: TS-2085 ! Glandular cell
+relationship: part_of TS-2105 ! Large intestine epithelium
+
+[Term]
+id: TS-2727
+name: Intestinal mucus secreting cell
+def: "Epithelial cells from small intestine, rectum and colon that secrete mucus." [neXtProt:PDDR]
+synonym: "Intestinal mucus secreting cells" [RELATED]
+is_a: TS-1286 ! Small intestine glandular cell
+is_a: TS-2726 ! Large intestine glandular cell
+
+[Term]
+id: TS-2728
+name: Paneth cell
+def: "An epithelial cell found in the basal part of the intestinal glands (crypts of Lieberkuhn) including the appendix. Paneth cells synthesize and secrete lysozyme and cryptdins. Numerous in the deeper parts of the intestinal crypts, particularly in the duodenum, rich in zinc, contain large acidophilic granules, with irregular apical microvilli and prominent membrane-bound vacuoles containing matrix." [CL:0000510]
+xref: BTO:0000993
+xref: CL:0000510
+xref: FMA:62897
+is_a: TS-1286 ! Small intestine glandular cell
+is_a: TS-2726 ! Large intestine glandular cell
+
+[Term]
+id: TS-2729
+name: Bronchus ciliated cell
+def: "A ciliated cell of the bronchus." [neXtProt:PDDR]
+synonym: "Ciliated cell of the bronchus" [RELATED]
+xref: CL:0002332
+is_a: TS-2730 ! Ciliated epithelial cell
+is_a: TS-2399 ! Bronchus epithelial cell
+
+[Term]
+id: TS-2730
+name: Ciliated epithelial cell
+def: "An epithelial cell that has a cilia." [CL:0000067]
+xref: CL:0000067
+is_a: TS-2026 ! Epithelial cell
+
+[Term]
+id: TS-2731
+name: Club cell
+def: "Club cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Club cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium." [CL:0000158]
+xref: BTO:0004811
+xref: CL:0000158
+xref: FMA:14119
+is_a: TS-2399 ! Bronchus epithelial cell
+
+[Term]
+id: TS-2732
+name: Prostate basal cell
+def: "Basal cells are separating the glands from the outer tissue. These are important in maintaining glandular integrity by protecting the secretory cells and the luminal content." [HPA]
+synonym: "Basal  cell of prostate" [RELATED]
+xref: CL:0002341
+is_a: TS-2026 ! Epithelial cell
+relationship: part_of TS-2065 ! Prostate epithelium
+
+[Term]
+id: TS-2733
+name: Stratum basale
+def: "The stratum basale rests on the basement membrane, delimiting the epidermis from the dermis. It contains the proliferating basal cells or proliferating keratinocytes (hence the name stratum germinativum). Keratinocytes that leave this layer undergo structural and functional differentiation and supply the other layers. Melanocytes are also found in the stratum basale. In response to sun exposure, they produce melanin, the brown pigment responsible for skin color, and deliver it to adjacent keratinocytes. Merkel cells also reside in the stratum basale. Those are highly innervated neuroendocrine cells involved in mechanoreception." [HPA]
+synonym: "Stratum germinativum" [RELATED]
+synonym: "Stratum basale of epidermis" [RELATED]
+xref: BTO:0000438
+xref: FMA:67540
+xref: UBERON:0002025
+relationship: part_of TS-0283 ! Epidermis
+
+[Term]
+id: TS-2734
+name: Stratum spinosum
+def: "The layer of polyhedral cells in the epidermis found between the stratum granulosum and stratum basale; shrinkage and adhesion of these cells gives a spiny or prickly appearance. The stratum spinosum contains more differentiated keratinocytes. Those are recognized by a more abundant cytoplasm and by intercellular adherent junctions on higher magnification. Besides keratinocytes, Langerhans cells are present and most prominent in this stratum. Those are antigen presenting cells that, in presence of inflammation, become activated and leave the epidermis to migrate to draining lymph nodes." [HPA;UBERON:0002026]
+synonym: "Stratum spinosum of epidermis" [RELATED]
+xref: BTO:0000435
+xref: FMA:67542
+xref: UBERON:0002026
+relationship: part_of TS-0283 ! Epidermis
+
+[Term]
+id: TS-2735
+name: Basal keratinocyte
+def: "Keratinocytes from the stratum basale of epidermis." [neXtProt:PDR]
+synonym: "Basal cell of epidermis" [RELATED]
+xref: CL:0002187
+xref: FMA:70571
+is_a: TS-0500 ! Keratinocyte
+relationship: part_of TS-2733 ! Stratum basale
+
+[Term]
+id: TS-2736
+name: Suprabasal keratinocyte
+def: "Keratinocytes from the stratum spinosum of epidermis." [neXtProt:PDR]
+is_a: TS-0500 ! Keratinocyte
+relationship: part_of TS-2734 ! Stratum spinosum
+
+[Term]
+id: TS-2737
+name: Cholangiocyte
+def: "An epithelial cell that is part of the bile duct. Cholangiocytes contribute to bile secretion via net release of bicarbonate and water. They are cuboidal epithelium in the small interlobular bile ducts, but become columnar and mucus secreting in larger bile ducts approaching the porta hepatis and the extrahepatic ducts." [CL:1000488]
+xref: BTO:0003164
+xref: CL:1000488
+xref: FMA:86481
+is_a: TS-2026 ! Epithelial cell
+relationship: part_of TS-0075 ! Bile duct
+
+[Term]
+id: TS-2738
+name: Prostate urothelial cell
+def: "Urothelial cells from prostate." [HPA]
+relationship: part_of TS-2065 ! Prostate epithelium
+
+[Term]
+id: TS-2739
+name: Intestinal enteroendocrine cell
+def: "The various hormone- or neurotransmitter-secreting cells present throughout the mucosa of the intestinal tract." [CL:1001516]
+synonym: "Intestinal endocrine cells" [RELATED]
+xref: CL:1001516
+is_a: TS-2741 ! Endocrine cell
+relationship: part_of TS-2104 ! Small intestine epithelium
+relationship: part_of TS-2105 ! Large intestine epithelium
+
+[Term]
+id: TS-2740
+name: Pancreatic endocrine cell
+def: "An endocrine cell that is part of the pancreas." [neXtProt:PDR]
+xref: CL:0008024
+is_a: TS-2741 ! Endocrine cell
+relationship: part_of TS-0741 ! Pancreatic islet
+
+[Term]
+id: TS-2741
+name: Endocrine cell
+def: "A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions." [CL:0000163]
+xref: CL:0000163
+xref: FMA:83809
+is_a: TS-2035 ! Cell type
+
+[Term]
+id: TS-2742
+name: Retinal bipolar neuron
+def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer." [CL:0000748]
+synonym: "Retinal bipolar cell" [RELATED]
+xref: CL:0000748
+is_a: TS-0683 ! Neuron
+relationship: part_of TS-0685 ! Neuroretina
+
+[Term]
+id: TS-2743
+name: Horizontal cells of the eye
+def: "A neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745]
+xref: BTO:0004120
+xref: CL:0000745
+is_a: TS-0683 ! Neuron
+relationship: part_of TS-0685 ! Neuroretina
+
+[Term]
+id: TS-2744
+name: Muller glial cell
+def: "Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus are usually in the middle of the inner nuclear layer." [CL:0011107]
+synonym: "Muller cell" [RELATED]
+synonym: "Muller glia cell of eye" [RELATED]
+xref: CL:0011107
+is_a: TS-0415 ! Glial cell
+relationship: part_of TS-0685 ! Neuroretina
+
+[Term]
+id: TS-2745
+name: Cytotrophoblasts
+def: "Immature first trimester villi are large and covered by two layers of trophoblast, an inner layer of cytotrophoblasts and an outer layer of syncytiotrophoblasts. The inner layer of the trophoblast, interior to the syncytiotrophoblast in an embryo. It serves to anchor the embryonic chorion to the maternal endometrium. Cytotrophoblasts are stem cells in the chorionic villi. During differentiation, mononuclear cytotrophoblast fuse together into the multinucleated syncytiotrophoblasts. The primary villi has only the cytotrophoblast as an axe." [UBERON:0000319]
+xref: BTO:0000322
+xref: FMA:83039
+xref: UBERON:0000319
+relationship: part_of TS-1070 ! Trophoblast
+
+[Term]
+id: TS-2746
+name: Syncytiotrophoblasts
+def: "Immature first trimester villi are large and covered by two layers of trophoblast, an inner layer of cytotrophoblasts and an outer layer of syncytiotrophoblasts. extraembryonic cells of trophoblastic shell surrounding embryo, outside the cytotrophoblast layer, involved with implantation of the blastocyst by eroding extracellular matrix surrounding maternal endometrial cells at site of implantation, also contribute to villi. (dark staining, multinucleated)." [UBERON:0000371]
+xref: BTO:0001335
+xref: FMA:83040
+xref: UBERON:0000371
+relationship: part_of TS-1070 ! Trophoblast
+
+[Term]
+id: TS-2747
+name: Extravillous trophoblasts
+def: "The outermost layer of trophoblast, produced by cytotrophoblast where there is direct contact with maternal decidua rather than blood. The EVT cells travel into the decidua, reacting with NK cells and invading maternal blood vessels feeding the placenta, softening the walls and replacing the lining with fetal tissue, a process called conversion." [UBERON:0000426]
+xref: BTO:0002366
+xref: FMA:86561
+xref: UBERON:0000426
+relationship: part_of TS-1070 ! Trophoblast
+
+[Term]
+id: TS-2748
+name: Undifferentiated cells of the intestine
+def: "Undifferentiated cells of the intestines including stem cells, transit-amplifying cells and progenitor/precursors cells." [neXtProt:PDR]
+is_a: TS-2035 ! Cell type
+relationship: part_of TS-0490 ! Intestine
+
+[Term]
+id: TS-2749
+name: Hofbauer cell
+def: "Oval eosinophilic histiocytes with granules and vacuoles found in placenta, which are of mesenchymal origin, in mesoderm of the chorionic villus, particularly numerous in early pregnancy." [CL:3000001]
+xref: CL:3000001
+is_a: TS-0587 ! Macrophage
+relationship: part_of TS-0799 ! Placenta
+
+[Term]
+id: TS-2750
+name: Kupffer cell
+def: "A tissue-resident macrophage of the reticuloendothelial system found on the luminal surface of the hepatic sinusoids involved in erythrocyte clearance. Markers include F4/80+, CD11b-low, CD68-positive, sialoadhesin-positive, CD163/SRCR-positive. Irregular, with long processes including lamellipodia extending into the sinusoid lumen, have flattened nucleus with cytoplasm containing characteristic invaginations of the plasma membrane (vermiform bodies); lie within the sinusoid lumen attached to the endothelial surface; derived from the bone marrow, form a major part of the body's mononuclear phagocyte system." [CL:0000091]
+synonym: "von Kupffer cell" [RELATED]
+synonym: "stellate cell of von Kupffer" [RELATED]
+synonym: "littoral cell of hepatic sinusoid" [RELATED]
+synonym: "macrophagocytus stellatus" [RELATED]
+synonym: "liver macrophage" [RELATED]
+synonym: "hepatic macrophage" [RELATED]
+xref: BTO:0000685
+xref: CL:0000091
+xref: FMA:14656
+is_a: TS-2019 ! Histiocyte
+relationship: part_of TS-2751 ! Hepatic sinusoid
+
+[Term]
+id: TS-2751
+name: Hepatic sinusoid
+def: "A liver sinusoid is a type of capillary known as a sinusoidal capillary, discontinuous capillary or sinusoid, that is similar to a fenestrated capillary, having discontinuous endothelium that serves as a location for mixing of the oxygen-rich blood from the hepatic artery and the nutrient-rich blood from the portal vein." [Wikipedia:Liver_sinusoid]
+synonym: "Liver sinusoid" [RELATED]
+xref: FMA:17543
+xref: UBERON:0001281
+is_a: TS-2006 ! Capillary
+relationship: part_of TS-0564 ! Liver
+
+[Term]
+id: TS-2752
+name: Erythroid cell
+def: "A immature or mature cell in the lineage leading to and including erythrocytes." [CL:0002156]
+synonym: "Erythropoietic cell" [RELATED]
+xref: CL:0002156
+xref: FMA:83516
+is_a: TS-0647 ! Myeloid cell
+
+[Term]
+id: TS-2753
+name: Dorsomedial prefrontal cortex
+def: "The dorsomedial prefrontal cortex is involved in social cognition and processing of mental states. This prefrontal cortex subregions includes the medial part of the superior frontal gyrus and also the upper portions of the dorsal and ventral anterior cingulate cortex." [HPA]
+relationship: part_of TS-2424 ! Prefrontal cortex
+
+[Term]
+id: TS-2754
+name: Ventromedial prefrontal cortex
+def: "The ventromedial prefrontal cortex is important for empathy, making of value-based decision and regulation of negative emotions. This prefrontal cortex subregions contains frontopolar cortex, the rostral gyrus, the lower dorsal and ventral pregenual and subgenual part of the anterior cingulate cortex and the subcallosal gyrus." [HPA]
+relationship: part_of TS-2424 ! Prefrontal cortex
+
+[Term]
+id: TS-2755
+name: Ventrolateral prefrontal cortex
+def: "The ventrolateral prefrontal cortex is involved in decision making by processing the behavioral significance of external events. This part of the prefrontal cortex also contains the Broca areas involved in the production of speech. This prefrontal cortex subregion includes the frontomarginal cortex, the lower part of the medial frontal gyrus the orbital part of the inferior frontal gyrus and the Broca areas, triangular and opercular parts of the inferior frontal gyrus." [HPA]
+relationship: part_of TS-2424 ! Prefrontal cortex
+
+[Term]
+id: TS-2756
+name: Limbic cortex
+def: "Cortex of the limbic lobe." [neXtProt:PDR]
+synonym: "Cortex of limbic lobe" [RELATED]
+synonym: "Limbic lobe cortex" [RELATED]
+xref: FMA:242234
+xref: UBERON:0016542
+relationship: part_of TS-2639 ! Neocortex
+relationship: part_of TS-2061 ! Limbic lobe
+
+[Term]
+id: TS-2757
+name: Anterior cingulate gyrus, pregenual-dorsal
+def: "Dorsal pregenual part of the anterior cingulate cortex." [neXtProt:PDR]
+synonym: "aCGpd" [RELATED]
+relationship: part_of TS-2657 ! Anterior cingulate cortex
+relationship: part_of TS-2424 ! Prefrontal cortex
+
+[Term]
+id: TS-2758
+name: Anterior cingulate gyrus, pregenual-ventral
+def: "Ventral pregenual part of the anterior cingulate cortex." [neXtProt:PDR]
+synonym: "aCGpv" [RELATED]
+relationship: part_of TS-2657 ! Anterior cingulate cortex
+relationship: part_of TS-2424 ! Prefrontal cortex
+
+[Term]
+id: TS-2759
+name: Anterior cingulate gyrus, subgenual
+def: "Subgenual part of the anterior cingulate cortex." [neXtProt:PDR]
+synonym: "aCGs" [RELATED]
+relationship: part_of TS-2754 ! Ventromedial prefrontal cortex
+relationship: part_of TS-2657 ! Anterior cingulate cortex
+
+[Term]
+id: TS-2760
+name: Paraterminal gyrus
+def: "The paraterminal gyrus (subcallosal gyrus, peduncle of the corpus callosum) is a narrow lamina on the medial surface of the hemisphere in front of the lamina terminalis, behind the parolfactory area, and below the rostrum of the corpus callosum. It is continuous around the genu of the corpus callosum with the supracallosal gyrus." [UBERON:0002603]
+synonym: "Subcallosal gyrus" [RELATED]
+synonym: "Precommissural hippocampus" [RELATED]
+xref: UBERON:0002603
+relationship: part_of TS-2754 ! Ventromedial prefrontal cortex
+
+[Term]
+id: TS-2761
+name: Frontal gyrus
+def: "A gyrus that is part of a frontal cortex." [UBERON:0015593]
+xref: UBERON:0015593
+relationship: part_of TS-2688 ! Frontal cortex
+
+[Term]
+id: TS-2762
+name: Inferior frontal gyrus
+def: "Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the inferior frontal sulcus whereas the caudal boundary is the precentral gyrus. The medial and lateral boundaries are the lateral bank of the inferior frontal sulcus and the medial bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christein Fennema-Notestine)." [UBERON:0002998]
+synonym: "Inferior frontal convolution" [RELATED]
+xref: BTO:0004835
+xref: FMA:61860
+xref: UBERON:0002998
+relationship: part_of TS-2761 ! Frontal gyrus
+
+[Term]
+id: TS-2763
+name: Triangular inferior frontal gyrus
+def: "Component of the inferior frontal gyrus.defined as the second gyrus from the precentral gyrus (Christine Fennema-Notestine)." [UBERON:0002629]
+synonym: "Triangular part of inferior frontal gyrus" [RELATED]
+synonym: "Pars triangularis" [RELATED]
+synonym: "Gyrus frontalis inferior, pars triangularis" [RELATED]
+synonym: "Pars triangularis gyri frontalis inferioris" [RELATED]
+synonym: "Pars triangularis of frontal operculum (Ono)" [RELATED]
+xref: FMA:61980
+xref: UBERON:0002629
+relationship: part_of TS-2762 ! Inferior frontal gyrus
+relationship: part_of TS-2755 ! Ventrolateral prefrontal cortex
+
+[Term]
+id: TS-2764
+name: Orbital inferior frontal gyrus
+def: "Component of the inferior frontal gyrus. Defined as the first gyrus from the precentral gyrus. The remainder of the inferior frontal gyrus once the pars opercularis and triangularis have been defined (Christine Fennema-Notestine)." [UBERON:0002624]
+synonym: "Orbital part of inferior frontal gyrus" [RELATED]
+synonym: "Gyrus frontalis inferior, pars orbitalis" [RELATED]
+synonym: "Pars orbitalis gyri frontalis inferioris" [RELATED]
+synonym: "Inferior frontal gyrus, orbital part" [RELATED]
+xref: FMA:61982
+xref: UBERON:0002624
+relationship: part_of TS-2762 ! Inferior frontal gyrus
+relationship: part_of TS-2755 ! Ventrolateral prefrontal cortex
+
+[Term]
+id: TS-2765
+name: Frontomarginal cortex
+relationship: part_of TS-2755 ! Ventrolateral prefrontal cortex
+
+[Term]
+id: TS-2766
+name: Gyrus rectus
+def: "The portion of the frontal lobe medial to the medial orbital gyrus is named the gyrus rectus (or straight gyrus), and is continuous with the superior frontal gyrus on the medial surface. A specific function for the gyrus rectus has not yet been elucidated." [UBERON:0004671]
+synonym: "Straight gyrus" [RELATED]
+synonym: "Medial part of gyri orbitales" [RELATED]
+synonym: "Rectus gyrus" [RELATED]
+synonym: "Rectal gyrus" [RELATED]
+xref: FMA:61893
+xref: UBERON:0004671
+relationship: part_of TS-2424 ! Frontal cortex
+
+[Term]
+id: TS-2767
+name: Lateral orbitofrontal gyrus
+def: "Lateral part of the orbitofrontal gyrus." [neXtProt:PDR]
+synonym: "Orbitofrontal gyrus, lateral" [RELATED]
+relationship: part_of TS-2650 ! Orbitofrontal cortex
+
+[Term]
+id: TS-2768
+name: Medial orbitofrontal gyrus
+def: "Medial part of the orbitofrontal gyrus." [neXtProt:PDR]
+synonym: "Orbitofrontal gyrus, medial" [RELATED]
+relationship: part_of TS-2650 ! Orbitofrontal cortex
+
+[Term]
+id: TS-2769
+name: Posterior orbitofrontal gyrus
+def: "Posterior part of the orbitofrontal gyrus." [neXtProt:PDR]
+synonym: "Orbitofrontal gyrus, posterior" [RELATED]
+relationship: part_of TS-2650 ! Orbitofrontal cortex
+
+[Term]
+id: TS-2770
+name: Bronchus goblet cell
+def: "A goblet cell that is part of the epithelium of bronchus." [CL:1000312]
+synonym: "Goblet cell of epithelium of bronchus" [RELATED]
+synonym: "Goblet cell bronchus" [RELATED]
+synonym: "Bronchial goblet cell" [RELATED]
+xref: CL:1000312
+xref: FMA:263032
+is_a: TS-2399 ! Bronchus epithelial cell
+
+[Term]
+id: TS-2771
+name: Bronchus basal cell
+def: "A basal cell found in the bronchus epithelium. Basal cells are small cells with round nuclei located in the basal part of the respiratory epithelium. They are stem cells that differentiate into the other cells types when the epithelium is injured, thereby restoring the epithelium." [HPA]
+synonym: "Basal cell of epithelium of bronchus" [RELATED]
+synonym: "Basal cell of bronchus" [RELATED]
+synonym: "Bronchial basal cells" [RELATED]
+xref: CL:1000349
+xref: FMA:263120
+is_a: TS-2399 ! Bronchus epithelial cell
+
+[Term]
+id: TS-2772
+name: Oviduct ciliated cell
+def: "Luminal epithelium mainly consists of ciliated columnar epithelial cells intermixed with non-ciliated secreting cells. Ciliated cell from the columnar epithelium that is part of a oviduct. Ciliated cells contain hair-like motile protrusions on the apical side of the epithelial cells that help in the mucociliary transport of gametes." [HPA]
+synonym: "Fallopian tube ciliated cell" [RELATED]
+xref: BTO:0005589
+relationship: part_of TS-1316 ! Oviduct epithelium
+
+[Term]
+id: TS-2773
+name: Oviduct non-ciliated epithelial cell
+def: "Luminal epithelium mainly consists of ciliated columnar epithelial cells intermixed with non-ciliated secreting cells. Non-ciliated cells are involved in the secretion of mucus to aid in the mucociliary transport of gametes." [HPA]
+synonym: "Oviduct non-ciliated luminal epithelial cell" [RELATED]
+synonym: "Fallopian tube non-ciliated luminal epithelial cell" [RELATED]
+relationship: part_of TS-1316 ! Oviduct epithelium
+
+[Term]
+id: TS-2774
+name: Glomerular capsule
+def: "The Bowman’s capsule encloses the glomerulus and leads the fluids from the blood passing through the glomerulus into a proximal tubule. The capsule is made up of three layers with the capsular space in between, a squamous epithelial layer for enclosure, the visceral layer made of podocytes and the filtration barrier composed of epithelium from the capillary loops and podocyte processes." [HPA]
+synonym: "Renal glomerular capsule" [RELATED]
+synonym: "Bowmans capsule" [RELATED]
+synonym: "Bowman's capsule" [RELATED]
+synonym: "Capsula glomerularis" [RELATED]
+xref: BTO:0002297
+xref: FMA:15626
+xref: UBERON:0001230
+relationship: part_of TS-1317 ! Renal corpuscle
+
+[Term]
+id: TS-2775
+name: Nasopharyngeal basal cell
+def: "Cell of the respiratory pseudostratified epithelium. Basal cells are small cells with round nuclei located in the basal part of the respiratory epithelium. They are stem cells that differentiate into the other cells types when the epithelium is injured, thereby restoring the epithelium." [HPA]
+synonym: "Nasopharynx basal cell" [RELATED]
+is_a: TS-2398 ! Nasopharyngeal epithelial cell
+
+[Term]
+id: TS-2776
+name: Nasopharyngeal ciliated cell
+def: "Cell of the respiratory pseudostratified epithelium. Ciliated cells have a columnar cell body and appear pink when stained with hematoxylin and eosin. Attached to the apical cell membrane, there are several motile cilia that resemble brushes. Ciliary movement help to filter the inhaled air from contaminants." [HPA]
+synonym: "Nasopharynx ciliated cell" [RELATED]
+is_a: TS-2398 ! Nasopharyngeal epithelial cell
+
+[Term]
+id: TS-2777
+name: Nasopharyngeal goblet cell
+def: "Cell of the respiratory pseudostratified epithelium. Goblet cells are interspersed between the ciliated cells. They are filled with mucus and therefore appear pale and have a nucleus located in the basal part of the cell. The mucus is secreted to the nasopharyngeal cavity. The mucus is important for maintaining a suitable environment for ciliary function and protection against airborne infectious agents and solid particles." [HPA]
+synonym: "Nasopharynx goblet cell" [RELATED]
+is_a: TS-2398 ! Nasopharyngeal epithelial cell
+
 
 [Typedef]
 id: develops_from
