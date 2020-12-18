@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.6
-date: 10:12:2020 12:00
+date: 18:12:2020 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -1331,7 +1331,6 @@ relationship: part_of TS-2039 ! Thigh
 id: TS-0323
 name: Fetal adrenal gland
 def: "Fetal structure that gives rise to adult adrenal gland." [neXtProt:PDR]
-synonym: "Fetal adrenal tissue" RELATED []
 relationship: part_of TS-0360 ! Fetus
 
 [Term]
@@ -3166,7 +3165,6 @@ id: TS-0747
 name: Parietal lobe
 def: "Upper central part of the cerebral hemisphere." [MeSH:Parietal_Lobe]
 synonym: "Brain parietal lobe" RELATED []
-synonym: "Parietal cortex" RELATED []
 xref: BTO:0001001
 xref: FMA:61826
 xref: MESH:D010296
@@ -3575,6 +3573,7 @@ name: Renal collecting duct
 def: "Straight tubes commencing in the radiate part of the kidney cortex where they receive the curved ends of the distal convoluted tubules. In the medulla the collecting tubules of each pyramid converge to join a central tube (duct of Bellini) which opens on the summit of the papilla." [MeSH:Collecting_Kidney_Tubules]
 synonym: "Collecting duct of renal tubule" RELATED []
 synonym: "Kidney collecting duct" RELATED []
+synonym: "Kidney collecting ducts" RELATED []
 synonym: "Renal collecting tubule" RELATED []
 synonym: "Tubulus renalis colligen" RELATED []
 xref: BTO:0000761
@@ -5156,6 +5155,7 @@ synonym: "cerebellar granule layer" RELATED []
 synonym: "Cerebellum cells in granular layer" RELATED []
 synonym: "cerebellum granule cell layer" RELATED []
 synonym: "Granular layer of cerebellar cortex" RELATED []
+synonym: "Cerebellum granular cells" RELATED [] 
 xref: BTO:0004425
 xref: FMA:83140
 xref: UBERON:0002956
@@ -5169,6 +5169,7 @@ synonym: "cerebellar molecular layer" RELATED []
 synonym: "Cerebellum cells in molecular layer" RELATED []
 synonym: "cerebellum molecular cell layer" RELATED []
 synonym: "Molecular layer of cerebellar cortex" RELATED []
+synonym: "Cerebellum molecular layer cells" RELATED [] 
 xref: FMA:83897
 xref: UBERON:0002974
 relationship: part_of TS-2000 ! Cerebellar cortex
@@ -8558,6 +8559,7 @@ id: TS-2396
 name: Cerebral cortex neuropil
 def: "Neuropil in the cerebral cortex." [neXtProt:PDR]
 xref: UBERON:0013693
+synonym: "Cerebellum molecular layer neuropil" RELATED []
 is_a: TS-2403 ! Neuropil
 relationship: part_of TS-0091 ! Cerebral cortex
 
@@ -11293,8 +11295,6 @@ relationship: part_of TS-0445 ! Heart
 id: TS-2667
 name: Inferior olivary complex
 def: "The inferior olivary nucleus is the largest nucleus situated in the olivary body, part of the medulla oblongata." [IBERON:Inferior_olivary_nucleus ]
-synonym: "Inferior olivary nucleus" RELATED []
-synonym: "Inferior olivary nuclei" RELATED []
 xref: BTO:0002298
 xref: FMA:72243
 xref: UBERON:0002127
@@ -12102,6 +12102,7 @@ synonym: "Pars triangularis" [RELATED]
 synonym: "Gyrus frontalis inferior, pars triangularis" [RELATED]
 synonym: "Pars triangularis gyri frontalis inferioris" [RELATED]
 synonym: "Pars triangularis of frontal operculum (Ono)" [RELATED]
+synonym: "Inferior frontal gyrus, triangular" [RELATED]
 xref: FMA:61980
 xref: UBERON:0002629
 relationship: part_of TS-2762 ! Inferior frontal gyrus
@@ -12115,6 +12116,7 @@ synonym: "Orbital part of inferior frontal gyrus" [RELATED]
 synonym: "Gyrus frontalis inferior, pars orbitalis" [RELATED]
 synonym: "Pars orbitalis gyri frontalis inferioris" [RELATED]
 synonym: "Inferior frontal gyrus, orbital part" [RELATED]
+synonym: "Inferior frontal gyrus, orbital" [RELATED]
 xref: FMA:61982
 xref: UBERON:0002624
 relationship: part_of TS-2762 ! Inferior frontal gyrus
@@ -12165,6 +12167,7 @@ def: "A goblet cell that is part of the epithelium of bronchus." [CL:1000312]
 synonym: "Goblet cell of epithelium of bronchus" [RELATED]
 synonym: "Goblet cell bronchus" [RELATED]
 synonym: "Bronchial goblet cell" [RELATED]
+synonym: "Bronchus goblet cells" [RELATED]
 xref: CL:1000312
 xref: FMA:263032
 is_a: TS-2399 ! Bronchus epithelial cell
@@ -12176,6 +12179,7 @@ def: "A basal cell found in the bronchus epithelium. Basal cells are small cells
 synonym: "Basal cell of epithelium of bronchus" [RELATED]
 synonym: "Basal cell of bronchus" [RELATED]
 synonym: "Bronchial basal cells" [RELATED]
+synonym: "Bronchus basal cells" [RELATED]
 xref: CL:1000349
 xref: FMA:263120
 is_a: TS-2399 ! Bronchus epithelial cell
@@ -12194,6 +12198,7 @@ name: Oviduct non-ciliated epithelial cell
 def: "Luminal epithelium mainly consists of ciliated columnar epithelial cells intermixed with non-ciliated secreting cells. Non-ciliated cells are involved in the secretion of mucus to aid in the mucociliary transport of gametes." [HPA]
 synonym: "Oviduct non-ciliated luminal epithelial cell" [RELATED]
 synonym: "Fallopian tube non-ciliated luminal epithelial cell" [RELATED]
+synonym: "Fallopian tube non-ciliated cells" [RELATED]
 relationship: part_of TS-1316 ! Oviduct epithelium
 
 [Term]
@@ -12204,6 +12209,7 @@ synonym: "Renal glomerular capsule" [RELATED]
 synonym: "Bowmans capsule" [RELATED]
 synonym: "Bowman's capsule" [RELATED]
 synonym: "Capsula glomerularis" [RELATED]
+synonym: "Kidney Bowman's capsule" [RELATED]
 xref: BTO:0002297
 xref: FMA:15626
 xref: UBERON:0001230
@@ -12230,6 +12236,60 @@ def: "Cell of the respiratory pseudostratified epithelium. Goblet cells are inte
 synonym: "Nasopharynx goblet cell" [RELATED]
 is_a: TS-2398 ! Nasopharyngeal epithelial cell
 
+[Term]
+id: TS-2778
+name: Bergmann glial cell
+def: "Type of radial astrocyte in the cerebellar cortex that have their cell bodies in the Purkinje cell layer and processes that extend into the molecular layer, terminating with bulbous endfeet at the pial surface. Bergmann glia express high densities of glutamate transporters that limit diffusion of the neurotransmitter glutamate during its release from synaptic terminals. Besides their role in early development of the cerebellum, Bergmann glia are also required for the pruning or addition of synapses." [CL:0000644]
+synonym: "Bergmann glial cell of cerebellum" [RELATED]
+synonym: "Bergmann astrocyte" [RELATED]
+synonym: "Cerebellum Bergmann glia" [RELATED] 
+xref: CL:0000644
+xref: FMA:54559
+is_a: TS-2566 ! Cerebellar glial cell
+is_a: TS-0060 ! Astrocyte
+
+[Term]
+id: TS-2779
+name: Cerebellar GLUC cells
+relationship: part_of TS-0091 ! Cerebral cortex
+
+[Term]
+id: TS-2780
+name: Cerebellum processes in granular layer
+def: "Neuronal projections in the granular layer of the cerebral cortex." [neXtProt:PDR]
+is_a: TS-2518 ! Cerebral cortex neuronal projections
+relationship: part_of TS-1247 ! Cerebellum granular layer
+
+[Term]
+id: TS-2781
+name: Cerebellum processes in molecular layer
+def: "Neuronal projections in the molecular layer of the cerebral cortex." [neXtProt:PDR]
+is_a: TS-2518 ! Cerebral cortex neuronal projections
+relationship: part_of TS-1248 ! Cerebellum molecular layer
+
+[Term]
+id: TS-2782
+name: Cerebellum processes in white matter
+def: "Neuronal projections in the cerebral white matter." [neXtProt:PDR]
+relationship: part_of TS-2362 ! Cerebral white matter
+
+[Term]
+id: TS-2783
+name: Cerebellar glomerulus
+def: "An intertwined cluster of nerve fibers surrounded by glia where mossy fibers from the pontine nuclei in the white matter synapse with granule cell axons, Golgi cell axons and unipolar brush interneuron axons." [UBERON:0011915]
+synonym: "Cerebellar glomeruli" [RELATED]
+synonym: "Cerebellum synaptic glomeruli" [RELATED]
+relationship: part_of TS-1247 ! Cerebellum granular layer
+
+[Term]
+id: TS-2784
+name: White matter of cerebellum
+def: "Regional part of cerebellum consisting of the myelinated axons lying deep to the granule cell layer, excluding the deep cerebellar nuclei and the cerebellar peduncles." [BIRNLEX:1562]
+synonym: "Cerebellum white matter cells" [RELATED]
+xref: FMA:83943
+xref: UBERON:0002317
+relationship: part_of TS-1247 ! Cerebellum granular layer
+
 
 [Typedef]
 id: develops_from
@@ -12240,3 +12300,4 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
+
