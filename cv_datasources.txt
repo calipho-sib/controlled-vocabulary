@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     04-Mar-2020
+  Release:     20-Dec-2020
 
   The definition of the CV is provided in the following format:
 
@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0314
+next id:  CVDS-0316
 
 __________________________________________________________________________
 ID   AgBase
@@ -1131,4 +1131,14 @@ ID   ENYO
 AC   CVDS-0311
 DE   ENYO Pharma, a clinical stage Biotech with a unique drug discovery engine inspired by viruses
 DR   http://www.enyopharma.com/
+//
+ID   DIBU
+AC   CVDS-0314
+DE   DIBU
+DR   https://www.ebi.ac.uk/QuickGO
+//
+ID   PHI-base
+AC   CVDS-0315
+DE   The Pathogen-Host Interaction database
+DR   http://www.phi-base.org/
 //
