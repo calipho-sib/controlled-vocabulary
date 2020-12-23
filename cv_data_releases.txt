@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     04-Mar-2020
+  Release:     23-Dec-2020
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0312
+next id:  CVDR-0316
 
 __________________________________________________________________________
 ID   Additional references
@@ -2026,4 +2026,44 @@ DR   https://cloud.enyopharma.com/
 UF   once every three years
 UR   http://www.enyopharma.com/
 CI
+//
+ID   Human Bone MassIVE
+AC   CVDR-0312
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Bone samples.
+DS   MassIVE human Bone
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Muscle MassIVE
+AC   CVDR-0313
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Muscle samples.
+DS   MassIVE human Muscle
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Olfactory System MassIVE
+AC   CVDR-0314
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Olfactory System samples.
+DS   MassIVE human Olfactory System
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Pituitary Gland MassIVE
+AC   CVDR-0315
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Pituitary Gland samples.
+DS   MassIVE human Pituitary Gland
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
 //
