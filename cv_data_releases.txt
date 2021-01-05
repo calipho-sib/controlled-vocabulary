@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     23-Dec-2020
+  Release:     05-Jan-2021
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0316
+next id:  CVDR-0318
 
 __________________________________________________________________________
 ID   Additional references
@@ -2065,5 +2065,25 @@ DS   MassIVE human Pituitary Gland
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Cancer Adrenal Gland
+AC   CVDR-0316
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Adrenal Gland samples.
+DS   PeptideAtlas human Cancer Adrenal Gland
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer and Non Cancer Cell Lines
+AC   CVDR-0317
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer and Non Cancer Cell Lines samples.
+DS   PeptideAtlas human Cancer and Non Cancer Cell Lines
+DR   ftp://pa10:paISB2xx%23@ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
 CI   
 //
