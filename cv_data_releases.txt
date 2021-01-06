@@ -2067,7 +2067,7 @@ UF   once or twice a year
 UR   https://massive.ucsd.edu
 CI   
 //
-ID   Human Cancer Adrenal Gland
+ID   Human Cancer Adrenal Gland PeptideAtlas
 AC   CVDR-0316
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Adrenal Gland samples.
@@ -2077,7 +2077,7 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer and Non Cancer Cell Lines
+ID   Human Cancer and Non Cancer Cell Lines PeptideAtlas
 AC   CVDR-0317
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer and Non Cancer Cell Lines samples.
