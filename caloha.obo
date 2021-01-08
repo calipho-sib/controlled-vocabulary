@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.6
-date: 22:12:2020 12:00
+data-version: 1.7
+date: 08:01:2021 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: TS
@@ -313,6 +313,7 @@ id: TS-0068
 name: B-cell
 def: "Lymphoid cells concerned with humoral immunity. They are short-lived cells resembling bursa-derived lymphocytes of birds in their production of immunoglobulin upon appropriate stimulation." [MeSH:B-Lymphocytes]
 synonym: "B cell" RELATED []
+synonym: "B-cells" RELATED []
 synonym: "B lymphocyte" RELATED []
 synonym: "B-lymphocyte" RELATED []
 xref: BTO:0000776
@@ -529,6 +530,7 @@ synonym: "Cardiac myocyte" RELATED []
 synonym: "Cardiomyocyte" RELATED []
 synonym: "Heart muscle myocyte" RELATED []
 synonym: "Heart muscle myocytes" RELATED []
+synonym: "Cardiomyocytes" RELATED []
 xref: BTO:0001539
 xref: CL:0000746
 xref: MESH:D032383
@@ -1665,6 +1667,7 @@ def: "Leukocytes with abundant granules in the cytoplasm. They are divided into 
 synonym: "Granular leucocyte" RELATED []
 synonym: "Granular leukocyte" RELATED []
 synonym: "Polymorphonuclear leukocytes" RELATED []
+synonym: "Granulocytes" RELATED []
 xref: BTO:0000539
 xref: CL:0000094
 xref: FMA:62854
@@ -1768,6 +1771,7 @@ synonym: "muscle tissue of heart muscle" RELATED []
 synonym: "muscle tissue of heart myocardium" RELATED []
 synonym: "muscle tissue of myocardium" RELATED []
 synonym: "myocardium muscle tissue" RELATED []
+synonym: "heart muscle" RELATED []
 xref: BTO:0000199
 xref: FMA:14068
 xref: UBERON:0001133
@@ -1843,6 +1847,7 @@ name: Hepatic stellate cell
 def: "A star-shaped cell in the liver associated with the development of fibrosis. When stellate cells are activated in response to an injury, they proliferate and synthesize large amounts of extracellular matrix which results in deposition of scar or fibrous tissue. Perisinusoidal cells of the liver, located in the space of Disse between hepatocytes and sinusoidal endothelial cells." [NCI_Thesaurus:Hepatic_Stellate_Cell;MeSH:Hepatic_Stellate_Cells]
 synonym: "Hepatic perisinusoidal cell" RELATED []
 synonym: "Ito cell" RELATED []
+synonym: "Ito cells" RELATED []
 synonym: "Liver stellate cell" RELATED []
 xref: BTO:0002741
 xref: CL:0000632
@@ -2078,7 +2083,9 @@ name: Renal distal tubule
 def: "The portion of renal tubule that begins from the enlarged segment of the ascending limb of the loop of Henle. It reenters the kidney cortex and forms the convoluted segments of the distal tubule." [MeSH:Distal_Kidney_Tubules]
 synonym: "Kidney distal convoluted tubule" RELATED []
 synonym: "Kidney distal tubule" RELATED []
+synonym: "Kidney distal tubules" RELATED []
 synonym: "Renal distal convoluted tubule" RELATED []
+synonym: "Distal tubular cells" RELATED []
 xref: BTO:0000482
 xref: MESH:D007686
 xref: UBERON:0004135
@@ -2124,6 +2131,7 @@ id: TS-0509
 name: Renal proximal tubule
 def: "The renal tubule portion that extends from the bowman capsule in the kidney cortex into the kidney medulla. The proximal tubule consists of a convoluted proximal segment in the cortex, and a distal straight segment descending into the medulla where it forms the U-shaped loop of Henle." [MeSH:Proximal_Kidney_Tubules]
 synonym: "Kidney proximal tubule" RELATED []
+synonym: "Proximal tubular cells" RELATED []
 xref: BTO:0001498
 xref: MESH:D007687
 xref: UBERON:0004134
@@ -2387,6 +2395,7 @@ relationship: part_of TS-0449 ! Hematopoietic and immune systems
 id: TS-0587
 name: Macrophage
 def: "The relatively long-lived phagocytic cell of mammalian tissues that are derived from blood monocytes. Main types are peritoneal macrophages; alveolar macrophages; histiocytes; kupffer cells of the liver; and osteoclasts. They may further differentiate within chronic inflammatory lesions to epithelioid cells or may fuse to form foreign body giant cells or langhans giant cells." [MeSH:Macrophages]
+synonym: "Macrophages" RELATED []
 xref: BTO:0000801
 xref: CL:0000235
 xref: FMA:63261
@@ -2611,6 +2620,7 @@ is_a: TS-1055 ! Tooth
 id: TS-0638
 name: Monocyte
 def: "Large, phagocytic mononuclear leukocytes produced in the vertebrate bone marrow and released into the blood; contain a large, oval or somewhat indented nucleus surrounded by voluminous cytoplasm and numerous organelles." [MeSH:Monocytes]
+synonym: "Monocytes" RELATED []
 xref: BTO:0000876
 xref: CL:0000576
 xref: FMA:62864
@@ -3576,6 +3586,7 @@ synonym: "Kidney collecting duct" RELATED []
 synonym: "Kidney collecting ducts" RELATED []
 synonym: "Renal collecting tubule" RELATED []
 synonym: "Tubulus renalis colligen" RELATED []
+synonym: "Collecting duct cells" RELATED []
 xref: BTO:0000761
 xref: FMA:15628
 xref: MESH:D007685
@@ -3633,6 +3644,7 @@ def: "Photosensitive afferent neurons located primarily within the fovea central
 synonym: "Cone cell" RELATED []
 synonym: "Retinal cone" RELATED []
 synonym: "Retinal cone photoreceptor cells" RELATED []
+synonym: "Cone photoreceptor cells" RELATED []
 xref: BTO:0001036
 xref: CL:0000573
 xref: FMA:67748
@@ -3694,6 +3706,7 @@ name: Retinal rod cell
 def: "Photosensitive afferent neurons located in the peripheral retina, with density increases radially away from the fovea centralis. Being much more sensitive to light than the retinal cone cells, the rod cells are responsible for twilight vision (at scotopic intensities) as well as peripheral vision, but provide no color discrimination." [MeSH:Retinal_Rod_Photoreceptor_Cells]
 synonym: "Retinal rod" RELATED []
 synonym: "Retinal rod photoreceptor cells" RELATED []
+synonym: "Rod photoreceptor cells" RELATED []
 xref: BTO:0001024
 xref: CL:0000604
 xref: FMA:67747
@@ -3922,6 +3935,7 @@ synonym: "Involuntary muscle" RELATED []
 synonym: "Non-striated muscle" RELATED []
 synonym: "smooth muscle tissue" RELATED []
 synonym: "Unstriated muscle" RELATED []
+synonym: "smooth muscle" RELATED []
 xref: BTO:0001260
 xref: FMA:14070
 xref: MESH:D009130
@@ -3963,6 +3977,7 @@ relationship: part_of TS-2196 ! Adluminal compartment of the seminiferous tubule
 id: TS-0951
 name: Spermatocyte
 def: "Male germ cells derived from spermatogonia. The diploid primary spermatocytes undergo meiosis and give rise to the haploid secondary spermatocytes which in turn give rise to spermatids." [neXtProt:PDR]
+synonym: "Spermatocytes" RELATED []
 xref: BTO:0001275
 xref: CL:0000017
 xref: FMA:84049
@@ -4210,6 +4225,7 @@ id: TS-1001
 name: T-cell
 def: "Lymphocytes responsible for cell-mediated immunity. Two types have been identified - cytotoxic (T-lymphocytes, cytotoxic) and helper T-lymphocytes (T-lymphocytes, helper-inducer). They are formed when lymphocytes circulate through the thymus gland and differentiate to thymocytes. When exposed to an antigen, they divide rapidly and produce large numbers of new T cells sensitized to that antigen." [MeSH:T-Lymphocytes]
 synonym: "T cell" RELATED []
+synonym: "T-cells" RELATED []
 synonym: "T lymphocyte" RELATED []
 synonym: "T-lymphocyte" RELATED []
 xref: BTO:0000782
@@ -4618,8 +4634,6 @@ id: TS-1088
 name: Urinary bladder urothelium
 def: "Transitional epithelium lining the urinary bladder." [neXtProt:PDR]
 synonym: "Urinary bladder epithelium" RELATED []
-synonym: "Urinary bladder urothelial cell" RELATED []
-synonym: "Urinary bladder urothelial cells" RELATED []
 synonym: "Urothelium of urinary bladder" RELATED []
 xref: BTO:0001694
 xref: FMA:15936
@@ -5128,6 +5142,7 @@ id: TS-1242
 name: Pancreas exocrine glandular cell
 def: "Glandular cell of exocrine pancreas epithelium. Example: pancreatic acinar cell, glandular cells in pancreatic canaliculi, glandular cells in pancreatic ducts." [neXtProt:PDR;HPA:HPA]
 synonym: "Exocrine pancreas glandular cell" RELATED []
+synonym: "Exocrine glandular cells" RELATED []
 synonym: "Pancreas exocrine glandular cells" RELATED []
 xref: CL:1001599
 is_a: TS-2085 ! Glandular cell
@@ -8536,6 +8551,7 @@ def: "Gamma delta T cells represent a small subset of T cells that possess a dis
 synonym: "Gamma delta T cell" RELATED []
 synonym: "gdTCRs" RELATED []
 synonym: "GdTCR" RELATED []
+synonym: "GdT-cell" RELATED []
 xref: CL:0000798
 is_a: TS-1001 ! T-cell
 
@@ -9861,6 +9877,7 @@ synonym: "Alveolar cell type I" RELATED []
 synonym: "Squamous alveolar lining cell" RELATED []
 synonym: "Type-I alveolar cell" RELATED []
 synonym: "Squamous alveolar cell" RELATED []
+synonym: "Alveolar cells type 1" RELATED []
 xref: BTO:0000780
 xref: CL:0002062
 xref: FMA:62500
@@ -9874,6 +9891,7 @@ synonym: "Type II alveolar cell" RELATED []
 synonym: "Type 2 pneumocyte" RELATED []
 synonym: "Type II pneumocyte" RELATED []
 synonym: "Alveolar cell type II" RELATED []
+synonym: "Alveolar cells type 2" RELATED []
 synonym: "Type-II alveolar cell" RELATED []
 synonym: "Great alveolar cell" RELATED []
 xref: BTO:0000538
@@ -9926,6 +9944,7 @@ name: Round spermatid
 def: "Male germ cell derived from the haploid secondary spermatocyte at early stage of maturation. A round spermatid is more or less radially symmetrical and contains a nucleus, Golgi apparatus, centriole and mitochondria. During the phase of spermiogenesis, the final stage of spermatogenesis, round spermatids will acquire polarity to become elongated spermatids and finally mature into motile spermatozoa." [neXtProt:PDR]
 synonym: "Round spermatid" RELATED []
 synonym: "Round or early spermatids" RELATED []
+synonym: "Early spermatids" RELATED []
 is_a: TS-0950 ! Spermatid
 
 [Term]
@@ -9934,6 +9953,7 @@ name: Elongated spermatid
 def: "Male germ cell derived from the haploid secondary spermatocyte at early stage of maturation. During the phase of spermiogenesis, the final stage of spermatogenesis, round spermatids will acquire polarity to become elongated spermatids and finally mature into motile spermatozoa. The process of spermiogenesis is divided into four stages: the Golgi phase, the cap phase, formation of tail, and the maturation stage." [neXtProt:PDR]
 synonym: "Elongated spermatid" RELATED []
 synonym: "Elongated or late spermatids" RELATED []
+synonym: "Late spermatids" RELATED []
 is_a: TS-0950 ! Spermatid
 
 [Term]
@@ -10256,6 +10276,7 @@ name: Pancreatic duct
 def: "A duct that collects and carries secretions of the exocrine pancreas to the intestine." [UBERON:0007329]
 synonym: "Duct of pancreas" RELATED []
 synonym: "Pancreas duct" RELATED []
+synonym: "Ductal cells" RELATED []
 xref: FMA:10419
 xref: UBERON:0007329
 relationship: part_of TS-1241 ! Exocrine pancreas
@@ -11782,6 +11803,7 @@ id: TS-2727
 name: Intestinal mucus secreting cell
 def: "Epithelial cells from small intestine, rectum and colon that secrete mucus." [neXtProt:PDDR]
 synonym: "Intestinal mucus secreting cells" RELATED []
+synonym: "Mucus secreting cells" RELATED []
 is_a: TS-1286 ! Small intestine glandular cell
 is_a: TS-2726 ! Large intestine glandular cell
 
@@ -11789,6 +11811,7 @@ is_a: TS-2726 ! Large intestine glandular cell
 id: TS-2728
 name: Paneth cell
 def: "An epithelial cell found in the basal part of the intestinal glands (crypts of Lieberkuhn) including the appendix. Paneth cells synthesize and secrete lysozyme and cryptdins. Numerous in the deeper parts of the intestinal crypts, particularly in the duodenum, rich in zinc, contain large acidophilic granules, with irregular apical microvilli and prominent membrane-bound vacuoles containing matrix." [CL:0000510]
+synonym: "Paneth cells" RELATED []
 xref: BTO:0000993
 xref: CL:0000510
 xref: FMA:62897
@@ -11809,12 +11832,14 @@ id: TS-2730
 name: Ciliated epithelial cell
 def: "An epithelial cell that has a cilia." [CL:0000067]
 xref: CL:0000067
+is_a: TS-2814 ! Ciliated cell
 is_a: TS-2026 ! Epithelial cell
 
 [Term]
 id: TS-2731
 name: Club cell
 def: "Club cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Club cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium." [CL:0000158]
+synonym: "Club cells" RELATED []
 xref: BTO:0004811
 xref: CL:0000158
 xref: FMA:14119
@@ -11825,6 +11850,7 @@ id: TS-2732
 name: Prostate basal cell
 def: "Basal cells are separating the glands from the outer tissue. These are important in maintaining glandular integrity by protecting the secretory cells and the luminal content." [HPA]
 synonym: "Basal  cell of prostate" RELATED []
+synonym: "Basal  glandular cells" RELATED []
 xref: CL:0002341
 is_a: TS-2026 ! Epithelial cell
 relationship: part_of TS-2065 ! Prostate epithelium
@@ -11855,6 +11881,7 @@ id: TS-2735
 name: Basal keratinocyte
 def: "Keratinocytes from the stratum basale of epidermis." [neXtProt:PDR]
 synonym: "Basal cell of epidermis" RELATED []
+synonym: "Basal keratinocytes" RELATED []
 xref: CL:0002187
 xref: FMA:70571
 is_a: TS-0500 ! Keratinocyte
@@ -11864,6 +11891,7 @@ relationship: part_of TS-2733 ! Stratum basale
 id: TS-2736
 name: Suprabasal keratinocyte
 def: "Keratinocytes from the stratum spinosum of epidermis." [neXtProt:PDR]
+synonym: "Suprabasal keratinocytes" RELATED []
 is_a: TS-0500 ! Keratinocyte
 relationship: part_of TS-2734 ! Stratum spinosum
 
@@ -11871,6 +11899,7 @@ relationship: part_of TS-2734 ! Stratum spinosum
 id: TS-2737
 name: Cholangiocyte
 def: "An epithelial cell that is part of the bile duct. Cholangiocytes contribute to bile secretion via net release of bicarbonate and water. They are cuboidal epithelium in the small interlobular bile ducts, but become columnar and mucus secreting in larger bile ducts approaching the porta hepatis and the extrahepatic ducts." [CL:1000488]
+synonym: "Cholangiocytes" RELATED []
 xref: BTO:0003164
 xref: CL:1000488
 xref: FMA:86481
@@ -11881,6 +11910,7 @@ relationship: part_of TS-0075 ! Bile duct
 id: TS-2738
 name: Prostate urothelial cell
 def: "Urothelial cells from prostate." [HPA]
+is_a: TS-2815 ! Urothelial cell
 relationship: part_of TS-2065 ! Prostate epithelium
 
 [Term]
@@ -11897,6 +11927,7 @@ relationship: part_of TS-2105 ! Large intestine epithelium
 id: TS-2740
 name: Pancreatic endocrine cell
 def: "An endocrine cell that is part of the pancreas." [neXtProt:PDR]
+synonym: "Pancreatic endocrine cells" RELATED []
 xref: CL:0008024
 is_a: TS-2741 ! Endocrine cell
 relationship: part_of TS-0741 ! Pancreatic islet
@@ -11914,6 +11945,7 @@ id: TS-2742
 name: Retinal bipolar neuron
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer." [CL:0000748]
 synonym: "Retinal bipolar cell" RELATED []
+synonym: "Bipolar cells" RELATED []
 xref: CL:0000748
 is_a: TS-0683 ! Neuron
 relationship: part_of TS-0685 ! Neuroretina
@@ -11922,6 +11954,7 @@ relationship: part_of TS-0685 ! Neuroretina
 id: TS-2743
 name: Horizontal cells of the eye
 def: "A neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745]
+synonym: "Horizontal cells" RELATED []
 xref: BTO:0004120
 xref: CL:0000745
 is_a: TS-0683 ! Neuron
@@ -11933,6 +11966,7 @@ name: Muller glial cell
 def: "Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus are usually in the middle of the inner nuclear layer." [CL:0011107]
 synonym: "Muller cell" RELATED []
 synonym: "Muller glia cell of eye" RELATED []
+synonym: "Muller glia cells" RELATED []
 xref: CL:0011107
 is_a: TS-0415 ! Glial cell
 relationship: part_of TS-0685 ! Neuroretina
@@ -11968,6 +12002,7 @@ relationship: part_of TS-1070 ! Trophoblast
 id: TS-2748
 name: Undifferentiated cells of the intestine
 def: "Undifferentiated cells of the intestines including stem cells, transit-amplifying cells and progenitor/precursors cells." [neXtProt:PDR]
+synonym: "Undifferentiated cells" RELATED []
 is_a: TS-2035 ! Cell type
 relationship: part_of TS-0490 ! Intestine
 
@@ -11975,6 +12010,7 @@ relationship: part_of TS-0490 ! Intestine
 id: TS-2749
 name: Hofbauer cell
 def: "Oval eosinophilic histiocytes with granules and vacuoles found in placenta, which are of mesenchymal origin, in mesoderm of the chorionic villus, particularly numerous in early pregnancy." [CL:3000001]
+synonym: "Hofbauer cells" RELATED []
 xref: CL:3000001
 is_a: TS-0587 ! Macrophage
 relationship: part_of TS-0799 ! Placenta
@@ -11989,6 +12025,7 @@ synonym: "littoral cell of hepatic sinusoid" RELATED []
 synonym: "macrophagocytus stellatus" RELATED []
 synonym: "liver macrophage" RELATED []
 synonym: "hepatic macrophage" RELATED []
+synonym: "Kupffer cells" RELATED []
 xref: BTO:0000685
 xref: CL:0000091
 xref: FMA:14656
@@ -12010,6 +12047,7 @@ id: TS-2752
 name: Erythroid cell
 def: "A immature or mature cell in the lineage leading to and including erythrocytes." [CL:0002156]
 synonym: "Erythropoietic cell" RELATED []
+synonym: "Erythroid cells" RELATED []
 xref: CL:0002156
 xref: FMA:83516
 is_a: TS-0647 ! Myeloid cell
@@ -12190,6 +12228,7 @@ name: Oviduct ciliated cell
 def: "Luminal epithelium mainly consists of ciliated columnar epithelial cells intermixed with non-ciliated secreting cells. Ciliated cell from the columnar epithelium that is part of a oviduct. Ciliated cells contain hair-like motile protrusions on the apical side of the epithelial cells that help in the mucociliary transport of gametes." [HPA]
 synonym: "Fallopian tube ciliated cell" RELATED []
 xref: BTO:0005589
+is_a: TS-2730 ! Ciliated epithelial cell
 relationship: part_of TS-1316 ! Oviduct epithelium
 
 [Term]
@@ -12219,6 +12258,7 @@ relationship: part_of TS-1317 ! Renal corpuscle
 id: TS-2775
 name: Nasopharyngeal basal cell
 def: "Cell of the respiratory pseudostratified epithelium. Basal cells are small cells with round nuclei located in the basal part of the respiratory epithelium. They are stem cells that differentiate into the other cells types when the epithelium is injured, thereby restoring the epithelium." [HPA]
+synonym: "Nasopharynx basal cells" RELATED []
 synonym: "Nasopharynx basal cell" RELATED []
 is_a: TS-2398 ! Nasopharyngeal epithelial cell
 
@@ -12227,6 +12267,7 @@ id: TS-2776
 name: Nasopharyngeal ciliated cell
 def: "Cell of the respiratory pseudostratified epithelium. Ciliated cells have a columnar cell body and appear pink when stained with hematoxylin and eosin. Attached to the apical cell membrane, there are several motile cilia that resemble brushes. Ciliary movement help to filter the inhaled air from contaminants." [HPA]
 synonym: "Nasopharynx ciliated cell" RELATED []
+is_a: TS-2730 ! Ciliated epithelial cell
 is_a: TS-2398 ! Nasopharyngeal epithelial cell
 
 [Term]
@@ -12234,6 +12275,7 @@ id: TS-2777
 name: Nasopharyngeal goblet cell
 def: "Cell of the respiratory pseudostratified epithelium. Goblet cells are interspersed between the ciliated cells. They are filled with mucus and therefore appear pale and have a nucleus located in the basal part of the cell. The mucus is secreted to the nasopharyngeal cavity. The mucus is important for maintaining a suitable environment for ciliary function and protection against airborne infectious agents and solid particles." [HPA]
 synonym: "Nasopharynx goblet cell" RELATED []
+synonym: "Nasopharynx goblet cells" RELATED []
 is_a: TS-2398 ! Nasopharyngeal epithelial cell
 
 [Term]
@@ -12290,6 +12332,188 @@ xref: FMA:83943
 xref: UBERON:0002317
 relationship: part_of TS-1247 ! Cerebellum granular layer
 
+[Term]
+id: TS-2785
+name: Kidney proximal tubules cell body
+relationship: part_of TS-0509 ! Renal proximal tubule
+
+[Term]
+id: TS-2786
+name: Kidney proximal tubules microvilli
+relationship: part_of TS-0509 ! Renal proximal tubule
+
+[Term]
+id: TS-2787
+name: Cerebellum purkinje cells cytoplasm membrane
+relationship: part_of TS-0845 ! Purkinje cell
+
+[Term]
+id: TS-2788
+name: Cerebellum purkinje cells dendrites
+relationship: part_of TS-0845 ! Purkinje cell
+
+[Term]
+id: TS-2789
+name: Cerebellum purkinje cells nucleus
+relationship: part_of TS-0845 ! Purkinje cell
+
+[Term]
+id: TS-2790
+name: Cerebellum granular cells cytoplasm membrane
+relationship: part_of TS-1247 ! Cerebellum granular layer
+
+[Term]
+id: TS-2791
+name: Cerebellum granular cells nucleus
+relationship: part_of TS-1247 ! Cerebellum granular layer
+
+[Term]
+id: TS-2792
+name: Cerebellum molecular layer cells cytoplasm membrane
+relationship: part_of TS-1248 ! Cerebellum molecular layer
+
+[Term]
+id: TS-2793
+name: Cerebellum molecular layer cells nucleus
+relationship: part_of TS-1248 ! Cerebellum molecular layer
+
+[Term]
+id: TS-2794
+name: Bronchus ciliated cells cell body
+relationship: part_of TS-2729 ! Bronchus ciliated cell
+
+[Term]
+id: TS-2795
+name: Bronchus ciliated cells cilia axoneme
+relationship: part_of TS-2729 ! Bronchus ciliated cell
+
+[Term]
+id: TS-2796
+name: Bronchus ciliated cells ciliary rootlets
+relationship: part_of TS-2729 ! Bronchus ciliated cell
+
+[Term]
+id: TS-2797
+name: Bronchus ciliated cells tip of cilia
+relationship: part_of TS-2729 ! Bronchus ciliated cell
+
+[Term]
+id: TS-2798
+name: Fallopian tube ciliated cells cell body
+relationship: part_of TS-2772 ! Oviduct ciliated cell
+
+[Term]
+id: TS-2799
+name: Fallopian tube ciliated cells cilia axoneme
+relationship: part_of TS-2772 ! Oviduct ciliated cell
+
+[Term]
+id: TS-2800
+name: Fallopian tube ciliated cells ciliary rootlets
+relationship: part_of TS-2772 ! Oviduct ciliated cell
+
+[Term]
+id: TS-2801
+name: Fallopian tube ciliated cells tip of cilia
+relationship: part_of TS-2772 ! Oviduct ciliated cell
+
+[Term]
+id: TS-2802
+name: Nasopharynx ciliated cells cell body
+relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
+
+[Term]
+id: TS-2803
+name: Nasopharynx ciliated cells cilia axoneme
+relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
+
+[Term]
+id: TS-2804
+name: Nasopharynx ciliated cells ciliary rootlets
+relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
+
+[Term]
+id: TS-2805
+name: Nasopharynx ciliated cells tip of cilia
+relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
+
+[Term]
+id: TS-2806
+name: Cerebellum bergmann glia cytoplasm membrane
+relationship: part_of TS-2778 ! Bergmann glial cell
+
+[Term]
+id: TS-2807
+name: Cerebellum bergmann glia nucleus
+relationship: part_of TS-2778 ! Bergmann glial cell
+
+[Term]
+id: TS-2808
+name: Cerebellum gluc cells cytoplasm membrane
+relationship: part_of TS-2779 ! Cerebellar GLUC cells
+
+[Term]
+id: TS-2809
+name: Cerebellum gluc cells nucleus
+relationship: part_of TS-2779 ! Cerebellar GLUC cells
+
+[Term]
+id: TS-2810
+name: Cerebellum synaptic glomeruli capsule
+relationship: part_of TS-2783 ! Cerebellar glomerulus
+
+[Term]
+id: TS-2811
+name: Cerebellum synaptic glomeruli core
+relationship: part_of TS-2783 ! Cerebellar glomerulus
+
+[Term]
+id: TS-2812
+name: Cerebellum white matter cells cytoplasm membrane
+relationship: part_of TS-2784 ! White matter of cerebellum
+
+[Term]
+id: TS-2813
+name: Cerebellum white matter cells nucleus
+relationship: part_of TS-2784 ! White matter of cerebellum
+
+[Term]
+id: TS-2814
+name: Ciliated cell
+def: "A cell that has a filiform extrusion of the cell surface." [CL:ciliated cell]
+synonym: "Ciliated cells" RELATED []
+xref: CL:0000064 
+is_a: TS-2035 ! Cell type  
+
+[Term]
+id: TS-2815
+name: Urothelial cell
+def: "A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria." [CD:urothelial cell]
+synonym: "Urothelial cells" RELATED []
+xref: CL:0000731 
+xref: FMA:84127
+is_a: TS-2026 ! Epithelial cell
+
+[Term]
+id: TS-2816
+name: Urinary bladder urothelial cell
+def: "A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria." [CD:urothelial cell]
+synonym: "Urinary bladder urothelial cells" RELATED []
+xref: CL:0000731 
+xref: FMA:84127
+is_a: TS-2815 ! Urothelial cell
+relationship: part_of TS-1088 ! Urinary bladder urothelium
+
+[Term]
+id: TS-2817
+name: Syncytiotrophoblasts cell body
+relationship: part_of TS-2746 ! Syncytiotrophoblasts
+
+[Term]
+id: TS-2818
+name: Syncytiotrophoblasts microvilli
+relationship: part_of TS-2746 ! Syncytiotrophoblasts
+
 
 [Typedef]
 id: develops_from
@@ -12300,4 +12524,5 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
+
 
