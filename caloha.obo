@@ -11849,8 +11849,8 @@ is_a: TS-2399 ! Bronchus epithelial cell
 id: TS-2732
 name: Prostate basal cell
 def: "Basal cells are separating the glands from the outer tissue. These are important in maintaining glandular integrity by protecting the secretory cells and the luminal content." [HPA]
-synonym: "Basal  cell of prostate" RELATED []
-synonym: "Basal  glandular cells" RELATED []
+synonym: "Basal cell of prostate" RELATED []
+synonym: "Basal glandular cells" RELATED []
 xref: CL:0002341
 is_a: TS-2026 ! Epithelial cell
 relationship: part_of TS-2065 ! Prostate epithelium
