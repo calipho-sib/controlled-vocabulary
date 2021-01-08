@@ -11804,6 +11804,7 @@ name: Intestinal mucus secreting cell
 def: "Epithelial cells from small intestine, rectum and colon that secrete mucus." [neXtProt:PDDR]
 synonym: "Intestinal mucus secreting cells" RELATED []
 synonym: "Mucus secreting cells" RELATED []
+synonym: "Mucus-secreting cells" RELATED []
 is_a: TS-1286 ! Small intestine glandular cell
 is_a: TS-2726 ! Large intestine glandular cell
 
@@ -12334,147 +12335,183 @@ relationship: part_of TS-1247 ! Cerebellum granular layer
 
 [Term]
 id: TS-2785
-name: Kidney proximal tubules cell body
+name: Kidney proximal tubules (cell body)
+synonym: "Kidney proximal tubules - cell body" RELATED []
 relationship: part_of TS-0509 ! Renal proximal tubule
 
 [Term]
 id: TS-2786
-name: Kidney proximal tubules microvilli
+name: Kidney proximal tubules (microvilli)
+synonym: "Kidney proximal tubules - microvilli" RELATED []
 relationship: part_of TS-0509 ! Renal proximal tubule
 
 [Term]
 id: TS-2787
-name: Cerebellum purkinje cells cytoplasm membrane
+name: Cerebellum Purkinje cells (cytoplasm/membrane)
+synonym: "Cerebellum Purkinje cells - cytoplasm/membrane" RELATED []
 relationship: part_of TS-0845 ! Purkinje cell
 
 [Term]
 id: TS-2788
-name: Cerebellum purkinje cells dendrites
+name: Cerebellum Purkinje cells (dendrites)
+synonym: "Cerebellum Purkinje cells dendrites" RELATED []
+synonym: "Cerebellum Purkinje cells - dendrites" RELATED []
 relationship: part_of TS-0845 ! Purkinje cell
 
 [Term]
 id: TS-2789
-name: Cerebellum purkinje cells nucleus
+name: Cerebellum Purkinje cells (nucleus)
+synonym: "Cerebellum Purkinje cells nucleus" RELATED []
+synonym: "Cerebellum Purkinje cells - nucleus" RELATED []
 relationship: part_of TS-0845 ! Purkinje cell
 
 [Term]
 id: TS-2790
-name: Cerebellum granular cells cytoplasm membrane
+name: Cerebellum granular cells (cytoplasm/membrane)
+synonym: "Cerebellum granular cells - cytoplasm/membrane" RELATED []
 relationship: part_of TS-1247 ! Cerebellum granular layer
 
 [Term]
 id: TS-2791
-name: Cerebellum granular cells nucleus
+name: Cerebellum granular cells (nucleus)
+synonym: "Cerebellum granular cells nucleus" RELATED []
+synonym: "Cerebellum granular cells - nucleus" RELATED []
 relationship: part_of TS-1247 ! Cerebellum granular layer
 
 [Term]
 id: TS-2792
-name: Cerebellum molecular layer cells cytoplasm membrane
+name: Cerebellum molecular layer cells (cytoplasm/membrane)
+synonym: "Cerebellum molecular layer cells - cytoplasm/membrane" RELATED []
 relationship: part_of TS-1248 ! Cerebellum molecular layer
 
 [Term]
 id: TS-2793
-name: Cerebellum molecular layer cells nucleus
+name: Cerebellum molecular layer cells (nucleus)
+synonym: "Cerebellum molecular layer cells nucleus" RELATED []
+synonym: "Cerebellum molecular layer cells - nucleus" RELATED []
 relationship: part_of TS-1248 ! Cerebellum molecular layer
 
 [Term]
 id: TS-2794
-name: Bronchus ciliated cells cell body
+name: Bronchus ciliated cells (cell body)
+synonym: "Bronchus ciliated cells - cell body" RELATED []
 relationship: part_of TS-2729 ! Bronchus ciliated cell
 
 [Term]
 id: TS-2795
-name: Bronchus ciliated cells cilia axoneme
+name: Bronchus ciliated cells (cilia axoneme)
+synonym: "Bronchus ciliated cells - cilia axoneme" RELATED []
 relationship: part_of TS-2729 ! Bronchus ciliated cell
 
 [Term]
 id: TS-2796
-name: Bronchus ciliated cells ciliary rootlets
+name: Bronchus ciliated cells (ciliary rootlets)
+synonym: "Bronchus ciliated cells - ciliary rootlets" RELATED []
 relationship: part_of TS-2729 ! Bronchus ciliated cell
 
 [Term]
 id: TS-2797
-name: Bronchus ciliated cells tip of cilia
+name: Bronchus ciliated cells (tip of cilia)
+synonym: "Bronchus ciliated cells - tip of cilia" RELATED []
 relationship: part_of TS-2729 ! Bronchus ciliated cell
 
 [Term]
 id: TS-2798
-name: Fallopian tube ciliated cells cell body
+name: Fallopian tube ciliated cells (cell body)
+synonym: "Fallopian tube ciliated cells - cell body" RELATED []
 relationship: part_of TS-2772 ! Oviduct ciliated cell
 
 [Term]
 id: TS-2799
-name: Fallopian tube ciliated cells cilia axoneme
+name: Fallopian tube ciliated cells (cilia axoneme)
+synonym: "Fallopian tube ciliated cells - cilia axoneme" RELATED []
 relationship: part_of TS-2772 ! Oviduct ciliated cell
 
 [Term]
 id: TS-2800
-name: Fallopian tube ciliated cells ciliary rootlets
+name: Fallopian tube ciliated cells (ciliary rootlets)
+synonym: "Fallopian tube ciliated cells - ciliary rootlets" RELATED []
 relationship: part_of TS-2772 ! Oviduct ciliated cell
 
 [Term]
 id: TS-2801
-name: Fallopian tube ciliated cells tip of cilia
+name: Fallopian tube ciliated cells (tip of cilia)
+synonym: "Fallopian tube ciliated cells - tip of cilia" RELATED []
 relationship: part_of TS-2772 ! Oviduct ciliated cell
 
 [Term]
 id: TS-2802
-name: Nasopharynx ciliated cells cell body
+name: Nasopharynx ciliated cells (cell body)
+synonym: "Nasopharynx ciliated cells - cell body" RELATED []
 relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
 
 [Term]
 id: TS-2803
-name: Nasopharynx ciliated cells cilia axoneme
+name: Nasopharynx ciliated cells (cilia axoneme)
+synonym: "Nasopharynx ciliated cells - cilia axoneme" RELATED []
 relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
 
 [Term]
 id: TS-2804
-name: Nasopharynx ciliated cells ciliary rootlets
+name: Nasopharynx ciliated cells (ciliary rootlets)
+synonym: "Nasopharynx ciliated cells - ciliary rootlets" RELATED []
 relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
 
 [Term]
 id: TS-2805
-name: Nasopharynx ciliated cells tip of cilia
+name: Nasopharynx ciliated cells (tip of cilia)
+synonym: "Nasopharynx ciliated cells - tip of cilia" RELATED []
 relationship: part_of TS-2776 ! Nasopharyngeal ciliated cell
 
 [Term]
 id: TS-2806
-name: Cerebellum bergmann glia cytoplasm membrane
+name: Cerebellum Bergmann glia (cytoplasm/membrane)
+synonym: "Cerebellum Bergmann glia - cytoplasm/membrane" RELATED []
 relationship: part_of TS-2778 ! Bergmann glial cell
 
 [Term]
 id: TS-2807
-name: Cerebellum bergmann glia nucleus
+name: Cerebellum Bergmann glia (nucleus)
+synonym: "Cerebellum Bergmann glia nucleus" RELATED []
+synonym: "Cerebellum Bergmann glia - nucleus" RELATED []
 relationship: part_of TS-2778 ! Bergmann glial cell
 
 [Term]
 id: TS-2808
-name: Cerebellum gluc cells cytoplasm membrane
+name: Cerebellum gluc cells (cytoplasm/membrane)
+synonym: "Cerebellum gluc cells - cytoplasm/membrane" RELATED []
 relationship: part_of TS-2779 ! Cerebellar GLUC cells
 
 [Term]
 id: TS-2809
-name: Cerebellum gluc cells nucleus
+name: Cerebellum gluc cells (nucleus)
+synonym: "Cerebellum gluc cells nucleus" RELATED []
+synonym: "Cerebellum gluc cells - nucleus" RELATED []
 relationship: part_of TS-2779 ! Cerebellar GLUC cells
 
 [Term]
 id: TS-2810
-name: Cerebellum synaptic glomeruli capsule
+name: Cerebellum synaptic glomeruli (capsule)
+synonym: "Cerebellum synaptic glomeruli - capsule" RELATED []
 relationship: part_of TS-2783 ! Cerebellar glomerulus
 
 [Term]
 id: TS-2811
-name: Cerebellum synaptic glomeruli core
+name: Cerebellum synaptic glomeruli (core)
+synonym: "Cerebellum synaptic glomeruli - core" RELATED []
 relationship: part_of TS-2783 ! Cerebellar glomerulus
 
 [Term]
 id: TS-2812
-name: Cerebellum white matter cells cytoplasm membrane
+name: Cerebellum white matter cells (cytoplasm/membrane)
+synonym: "Cerebellum white matter cells - cytoplasm/membrane" RELATED []
 relationship: part_of TS-2784 ! White matter of cerebellum
 
 [Term]
 id: TS-2813
-name: Cerebellum white matter cells nucleus
+name: Cerebellum white matter cells (nucleus)
+synonym: "Cerebellum white matter cells nucleus" RELATED []
+synonym: "Cerebellum white matter cells - nucleus" RELATED []
 relationship: part_of TS-2784 ! White matter of cerebellum
 
 [Term]
@@ -12482,15 +12519,15 @@ id: TS-2814
 name: Ciliated cell
 def: "A cell that has a filiform extrusion of the cell surface." [CL:ciliated cell]
 synonym: "Ciliated cells" RELATED []
-xref: CL:0000064 
-is_a: TS-2035 ! Cell type  
+xref: CL:0000064
+is_a: TS-2035 ! Cell type
 
 [Term]
 id: TS-2815
 name: Urothelial cell
 def: "A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria." [CD:urothelial cell]
 synonym: "Urothelial cells" RELATED []
-xref: CL:0000731 
+xref: CL:0000731
 xref: FMA:84127
 is_a: TS-2026 ! Epithelial cell
 
@@ -12499,19 +12536,21 @@ id: TS-2816
 name: Urinary bladder urothelial cell
 def: "A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria." [CD:urothelial cell]
 synonym: "Urinary bladder urothelial cells" RELATED []
-xref: CL:0000731 
+xref: CL:0000731
 xref: FMA:84127
 is_a: TS-2815 ! Urothelial cell
 relationship: part_of TS-1088 ! Urinary bladder urothelium
 
 [Term]
 id: TS-2817
-name: Syncytiotrophoblasts cell body
+name: Syncytiotrophoblasts (cell body)
+synonym: "Syncytiotrophoblasts - cell body" RELATED []
 relationship: part_of TS-2746 ! Syncytiotrophoblasts
 
 [Term]
 id: TS-2818
-name: Syncytiotrophoblasts microvilli
+name: Syncytiotrophoblasts (microvilli)
+synonym: "Syncytiotrophoblasts - microvilli" RELATED []
 relationship: part_of TS-2746 ! Syncytiotrophoblasts
 
 
@@ -12524,5 +12563,3 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
-
-
