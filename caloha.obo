@@ -11666,6 +11666,7 @@ name: Embryonic cartilage
 def: "Embryonic structure that gives rise to the fetal and adult cartilage." [neXtProt:PDR]
 relationship: part_of TS-0229 ! Embryo
 
+[Term]
 id: TS-2708
 name: Embryonic frontal lobe
 def: "Embryonic structure that gives rise to the fetal and adult frontal lobe." [neXtProt:PDR]
