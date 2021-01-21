@@ -8576,7 +8576,7 @@ id: TS-2396
 name: Cerebral cortex neuropil
 def: "Neuropil in the cerebral cortex." [neXtProt:PDR]
 xref: UBERON:0013693
-synonym: "Cerebellum molecular layer neuropil" RELATED []
+synonym: "Cerebellum molecular layer - neuropil" RELATED []
 is_a: TS-2403 ! Neuropil
 relationship: part_of TS-0091 ! Cerebral cortex
 
