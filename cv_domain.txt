@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 10-Nov-2020
+Last update: 19-Apr-2021
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 10-Nov-2020
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-01004
+AN   Next free AC: DO-01011
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -288,6 +288,12 @@ SY   plakoglobin.
 FT   REPEAT.
 TG   PS50176; ARM_REPEAT;
 DO   PDOC50176;
+//
+ID   ASCH.
+AC   DO-01004
+FT   DOMAIN.
+TG   PF04266; ASCH;
+DO   IPR007374;
 //
 ID   ASD1.
 AC   DO-00041
@@ -2794,6 +2800,11 @@ FT   DOMAIN.
 TG   PS50823; KH_TYPE_2;
 DO   PDOC50084;
 //
+ID   KH-like.
+AC   DO-01005
+FT   DOMAIN.
+TG   None;
+//
 ID   KHA.
 AC   DO-00756
 FT   DOMAIN.
@@ -2944,6 +2955,13 @@ SY   Letm1 ribosome-binding.
 FT   DOMAIN.
 TG   PS51758; LETM1_RBD;
 DO   PDOC51758;
+//
+ID   LID.
+AC   DO-01006
+SY   LIM interaction domain.
+FT   DOMAIN.
+TG   PS51957; LID;
+DO   PDOC51957;
 //
 ID   LIM zinc-binding.
 AC   DO-00380
@@ -3458,6 +3476,13 @@ FT   DOMAIN.
 TG   PS51065; NHR;
 DO   PDOC51065;
 //
+ID   NID.
+AC   DO-01007
+SY   Nmi/IFP 35.
+FT   DOMAIN.
+TG   PF07292; NID;
+DO   IPR009909;
+//
 ID   NIDO.
 AC   DO-00444
 FT   DOMAIN.
@@ -3707,6 +3732,12 @@ SY   Phox and Bem1.
 FT   DOMAIN.
 TG   PS51745; PB1;
 DO   PDOC51745;
+//
+ID   PBC.
+AC   DO-01008
+FT   DOMAIN.
+TG   PF03792; PBC;
+DO   IPR005542;
 //
 ID   PbH1.
 AC   DO-00473
@@ -4608,6 +4639,14 @@ SY   ribonuclease III.
 FT   DOMAIN.
 TG   PS50142; RNASE_3_2;
 DO   PDOC00448;
+//
+ID   RNase NYN.
+AC   DO-01009
+SY   RNase Zc3h12a.
+SY   Zc3h12a-like Ribonuclease NYN.
+FT   DOMAIN.
+TG   PF11977; RNase_Zc3h12a;
+DO   IPR028079;
 //
 ID   Roc.
 AC   DO-00579
@@ -5801,6 +5840,12 @@ SY   WD-40.
 FT   REPEAT.
 TG   Rep;
 DO   PDOC00574;
+//
+ID   WGR.
+AC   DO-01010
+FT   DOMAIN.
+DR   PF05406; WGR;
+DO   IPR008893;
 //
 ID   WH1.
 AC   DO-00723

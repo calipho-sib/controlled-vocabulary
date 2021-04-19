@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 10-Nov-2020
+Last update: 19-Apr-2021
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 10-Nov-2020
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05585
+AN   Next free AC: FA-05594
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -199,6 +199,11 @@ ID   A-like 2 sub-subfamily
 AC   FA-05111
 SY   AAA ATPase family. Katanin p60 subunit A1 subfamily. A-like 2 sub-subfamily.
 HI   FA-05109; Katanin p60 subunit A1 subfamily
+//
+ID   MSP1 subfamily
+AC   FA-05593
+SY   AAA ATPase family. MSP1 subfamily.
+HI   FA-00027; AAA ATPase family
 //
 ID   PCH2 subfamily
 AC   FA-04890
@@ -769,6 +774,9 @@ AC   FA-00158
 ID   Allantoicase family
 AC   FA-00159
 //
+ID   ALMS1 family
+AC   FA-05585
+//
 ID   Alpha-2-MRAP family
 AC   FA-00160
 //
@@ -1260,7 +1268,7 @@ AC   FA-05571
 ID   OTCase family
 AC   FA-00285
 SY   Aspartate/ornithine carbamoyltransferase superfamily. OTCase family.
-SY   ATCase/OTCase family
+SY   ATCase/OTCase family.
 HI   FA-05571; Aspartate/ornithine carbamoyltransferase superfamily
 //
 ID   Aspartyl/asparaginyl beta-hydroxylase family
@@ -2160,9 +2168,6 @@ AC   FA-00505
 //
 ID   CCDC53 family
 AC   FA-00506
-//
-ID   CCDC58 family
-AC   FA-00509
 //
 ID   CCDC61 family
 AC   FA-05579
@@ -5025,6 +5030,9 @@ SY   SDCCAG3 family.
 ID   ENY2 family
 AC   FA-01115
 //
+ID   EOLA family
+AC   FA-05586
+//
 ID   EPCAM family
 AC   FA-01116
 //
@@ -5706,6 +5714,10 @@ AC   FA-01342
 ID   FGGY kinase family
 AC   FA-01343
 //
+ID   FHIP family
+AC   FA-04416
+SY   UPF0518 family.
+//
 ID   FIBIN family
 AC   FA-01344
 //
@@ -5745,6 +5757,16 @@ AC   FA-01355
 ID   FIT family
 AC   FA-01356
 SY   UPF0517 family.
+//
+ID   FIT1 subfamily
+AC   FA-05588
+SY   FIT family. FIT1 subfamily.
+HI   FA-01356; FIT family
+//
+ID   FIT2 subfamily
+AC   FA-05589
+SY   FIT family. FIT2 subfamily.
+HI   FA-01356; FIT family
 //
 ID   FJX1/FJ family
 AC   FA-01357
@@ -8098,6 +8120,10 @@ AC   FA-01957
 ID   KIAA1841 family
 AC   FA-01959
 //
+ID   KICS2 family
+AC   FA-04422
+SY   UPF0536 family.
+//
 ID   KIF-binding protein family
 AC   FA-01960
 SY   KIF1-binding protein family.
@@ -8886,7 +8912,7 @@ HI   FA-02148; Major facilitator superfamily
 ID   Proton-dependent oligopeptide transporter (POT/PTR) (TC 2.A.17) family
 AC   FA-03194
 SY   Major facilitator superfamily. Proton-dependent oligopeptide transporter (POT/PTR) (TC 2.A.17) family.
-SY   PTR2/POT transporter (TC 2.A.17) family
+SY   PTR2/POT transporter (TC 2.A.17) family.
 DR   TC 2.A.17
 HI   FA-02148; Major facilitator superfamily
 //
@@ -9630,6 +9656,10 @@ SY   FAM73 family.
 //
 ID   Mitoregulin family
 AC   FA-05534
+//
+ID   MIX23 family
+AC   FA-00509
+SY   CCDC58 family.
 //
 ID   MLF family
 AC   FA-02319
@@ -11573,6 +11603,10 @@ AC   FA-02815
 ID   PGAP4 family
 AC   FA-05009
 SY   TMEM246 family.
+//
+ID   PHAF1 family
+AC   FA-04324
+SY   UPF0183 family.
 //
 ID   Phage and mitochondrial RNA polymerase family
 AC   FA-02816
@@ -15905,6 +15939,10 @@ AC   FA-03846
 ID   STEAP family
 AC   FA-03847
 //
+ID   STEEP1 family
+AC   FA-04370
+SY   UPF0428 family.
+//
 ID   Stereocilin family
 AC   FA-03848
 //
@@ -16348,7 +16386,7 @@ HI   FA-05565; TDD superfamily
 //
 ID   TSR3 family
 AC   FA-04889
-SY   TDD superfamily. TSR3 family
+SY   TDD superfamily. TSR3 family.
 SY   UPF0293 family.
 HI   FA-05565; TDD superfamily
 //
@@ -16682,9 +16720,6 @@ AC   FA-04033
 //
 ID   TMCO7 family
 AC   FA-04034
-//
-ID   TMEM1 family
-AC   FA-04035
 //
 ID   TMEM104 family
 AC   FA-04036
@@ -17621,6 +17656,10 @@ AC   FA-04200
 SY   TRAPP small subunits family. TRAPPC4 subfamily.
 HI   FA-04196; TRAPP small subunits family
 //
+ID   TRAPPC10 family
+AC   FA-04035
+SY   TMEM1 family.
+//
 ID   TRAPPC11 family
 AC   FA-04920
 SY   UPF0636 family.
@@ -18034,9 +18073,6 @@ DR   TC 2.A.93
 ID   UPF0046 family
 AC   FA-04311
 //
-ID   UPF0183 family
-AC   FA-04324
-//
 ID   UPF0184 (EST00098) family
 AC   FA-04325
 //
@@ -18070,9 +18106,6 @@ AC   FA-04357
 ID   UPF0415 family
 AC   FA-04364
 //
-ID   UPF0428 family
-AC   FA-04370
-//
 ID   UPF0430 family
 AC   FA-04372
 //
@@ -18103,17 +18136,11 @@ AC   FA-04405
 ID   UPF0500 family
 AC   FA-04410
 //
-ID   UPF0518 family
-AC   FA-04416
-//
 ID   UPF0524 family
 AC   FA-04417
 //
 ID   UPF0534 family
 AC   FA-04421
-//
-ID   UPF0536 family
-AC   FA-04422
 //
 ID   UPF0538 family
 AC   FA-04423
@@ -18923,8 +18950,24 @@ AC   FA-04712
 ID   YOS1 family
 AC   FA-04715
 //
-ID   YTHDF2 family
+ID   YTHDF family
+AC   FA-05590
+//
+ID   YTHDF1 subfamily
+AC   FA-05591
+SY   YTHDF family. YTHDF1 subfamily.
+HI   FA-05590; YTHDF family
+//
+ID   YTHDF2 subfamily
 AC   FA-05406
+SY   YTHDF family. YTHDF2 subfamily.
+SY   YTHDF2 family.
+HI   FA-05590; YTHDF family
+//
+ID   YTHDF3 subfamily
+AC   FA-05592
+SY   YTHDF family. YTHDF3 subfamily.
+HI   FA-05590; YTHDF family
 //
 ID   YY transcription factor family
 AC   FA-04716
@@ -19044,6 +19087,9 @@ AC   FA-04741
 //
 ID   ZRANB2 family
 AC   FA-04742
+//
+ID   ZSWIM8 family
+AC   FA-05587
 //
 ID   ZW10 family
 AC   FA-04743
