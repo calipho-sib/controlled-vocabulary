@@ -2959,6 +2959,7 @@ DO   PDOC51758;
 ID   LID.
 AC   DO-01006
 SY   LIM interaction domain.
+SY   LIM interaction domain (LID).
 FT   DOMAIN.
 TG   PS51957; LID;
 DO   PDOC51957;
