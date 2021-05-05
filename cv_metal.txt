@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of metal-binding sites
 File name:   cv_metal.txt
-Last update: 20-May-2020
+Last update: 05-May-2021
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 20-May-2020
  KW         X-ref to Swiss-Prot keyword     Optional; once or more
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: CVME_0043
+AN   Next free AC: CVME_0045
 __________________________________________________________________________
 ID   Calcium.
 AC   CVME_0001
@@ -56,6 +56,15 @@ KW   KW-0170:Cobalt.
 //
 ID   Cobalt (cobalamin 2 axial ligand).
 AC   CVME_0038
+DE   Annotate an amino acid residue that binds a cobalt (Co(3+)) cation
+DE   that is in the center of the tetrapyrrole ring structure (corrin ring)
+DE   of a cobalamin cofactor.
+SY   Cobalt (Cob(II)alamin axial ligand).
+KW   KW-0846:Cobalamin.
+KW   KW-0170:Cobalt.
+//
+ID   Cobalt (methylcob(III)alamin axial ligand).
+AC   CVME_0044
 DE   Annotate an amino acid residue that binds a cobalt (Co(3+)) cation
 DE   that is in the center of the tetrapyrrole ring structure (corrin ring)
 DE   of a cobalamin cofactor.
@@ -162,6 +171,13 @@ KW   KW-0408:Iron.
 //
 ID   Iron (heme b566 axial ligand).
 AC   CVME_0017
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme b 1 axial ligand).
+AC   CVME_0043
 DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
 DE   cation which is coordinated to the porphyrin group of an heme group.
 KW   KW-0349:Heme.
