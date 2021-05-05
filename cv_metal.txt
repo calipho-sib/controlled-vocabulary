@@ -22,7 +22,7 @@ Last update: 05-May-2021
  KW         X-ref to Swiss-Prot keyword     Optional; once or more
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: CVME_0045
+AN   Next free AC: CVME_0046
 __________________________________________________________________________
 ID   Calcium.
 AC   CVME_0001
@@ -178,6 +178,13 @@ KW   KW-0408:Iron.
 //
 ID   Iron (heme b 1 axial ligand).
 AC   CVME_0043
+DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
+DE   cation which is coordinated to the porphyrin group of an heme group.
+KW   KW-0349:Heme.
+KW   KW-0408:Iron.
+//
+ID   Iron (heme b 2 axial ligand).
+AC   CVME_0045
 DE   Annotate an amino acid residue that binds axially an iron (Fe(2+))
 DE   cation which is coordinated to the porphyrin group of an heme group.
 KW   KW-0349:Heme.
