@@ -334,6 +334,7 @@ ID   Zinc or magnesium.
 AC   CVME_0042
 DE   Annotate an amino acid residue that binds either a zinc (Zn(2+)) or a
 DE   magnesium (Mg(2+)) cation.
+SY   Zinc 1 or magnesium.
 KW   KW-0862:Zinc.
 KW   KW-0460:Magnesium.
 //
