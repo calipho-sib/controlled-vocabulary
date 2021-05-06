@@ -102,7 +102,7 @@ ID   Iron.
 AC   CVME_0008
 DE   Annotate an amino acid residue that binds an iron (Fe(2+) or Fe(3+))
 DE   cation. Iron is a metal with the atomic number: 26.
-SY   Iron ion; Iron cation; Fe; Fe ion; Fe cation.
+SY   Iron ion; Iron cation; Fe(3+); Fe; Fe ion; Fe cation.
 KW   KW-0408:Iron.
 //
 ID   Iron (heme 1 axial ligand).
