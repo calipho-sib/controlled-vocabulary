@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0322
+next id:  CVDS-0323
 
 __________________________________________________________________________
 ID   AgBase
@@ -1136,6 +1136,11 @@ ID   DIBU
 AC   CVDS-0314
 DE   DIBU
 DR   https://www.ebi.ac.uk/QuickGO
+//
+ID   RGD
+AC   CVDS-0322
+DE   Rat Genome Database
+DR   https://rgd.mcw.edu/
 //
 ID   PHI-base
 AC   CVDS-0315
