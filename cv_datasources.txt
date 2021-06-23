@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0323
+next id:  CVDS-0324
 
 __________________________________________________________________________
 ID   AgBase
@@ -1141,6 +1141,11 @@ ID   RGD
 AC   CVDS-0322
 DE   Rat Genome Database
 DR   https://rgd.mcw.edu/
+//
+ID   RHEA
+AC   CVDS-0323
+DE   RHEA
+DR   https://www.rhea-db.org/
 //
 ID   PHI-base
 AC   CVDS-0315
