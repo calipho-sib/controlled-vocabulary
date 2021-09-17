@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     05-Jan-2021
+  Release:     17-Sep-2021
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0318
+next id:  CVDR-0320
 
 __________________________________________________________________________
 ID   Additional references
@@ -77,6 +77,14 @@ DS   Clinvar
 DR   ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/xml/ClinVarFullRelease_00-latest.xml.gz
 UF   occasionally
 UR   http://www.ncbi.nlm.nih.gov/clinvar/
+CI
+//
+ID   Cellosaurus
+AC   CVDR-0319
+DE   Annotations: annotation retrieved by neXtProt from the Cellosaurus.
+DS   Cellosaurus
+UF   occasionally
+UR
 CI
 //
 ID   Cosmic
