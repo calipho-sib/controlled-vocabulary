@@ -140,7 +140,7 @@ DR
 //
 ID   FlyBase
 AC   CVDS-0059
-DE   A database for drosophila genetics and molecular biology.
+DE   A database for Drosophila genetics and molecular biology.
 DR   http://flybase.org/
 //
 ID   GDB
