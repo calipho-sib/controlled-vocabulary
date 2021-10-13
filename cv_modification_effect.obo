@@ -99,3 +99,11 @@ def: "Relation that indicates some significant faster rate of a parameter compar
 is_a: ME:0000002 ! impact
 created_by: pgaudet
 creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000013
+name: cause
+def: "Relation that indicates that the modification is known as the cause of the observed parameter." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pam
+creation_date: 2021-10-13T03:05:41Z
