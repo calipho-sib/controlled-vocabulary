@@ -947,3 +947,11 @@ LinkTp: Explicit
 Server: http://www.unimod.org
 Db_URL: http://www.unimod.org/modifications_view.php?editid1=%s
 Cat   : Ontologies
+
+AC    : DB-9126
+Abbrev: DECIPHER
+Name  : DECIPHER - Mapping the clinical genome 
+LinkTp: Explicit
+Server: https://www.deciphergenomics.org/
+Db_URL: https://www.deciphergenomics.org/gene/%s/overview/clinical-info
+Cat   : Polymorphism and mutation databases
