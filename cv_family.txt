@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 19-Apr-2021
+Last update: 02-Nov-2021
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 19-Apr-2021
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05594
+AN   Next free AC: FA-05602
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -1115,26 +1115,32 @@ AC   FA-00235
 ID   ARC/ARG3.1 family
 AC   FA-00236
 //
-ID   Archaeal RpoD/eukaryotic RPB3 RNA polymerase subunit family
-AC   FA-00237
+ID   Archaeal Rpo10/eukaryotic RPB10 RNA polymerase subunit family
+AC   FA-00242
+SY   Archaeal RpoN/eukaryotic RPB10 RNA polymerase subunit family.
 //
-ID   Archaeal RpoH/eukaryotic RPB5 RNA polymerase subunit family
-AC   FA-00238
-//
-ID   Archaeal RpoK/eukaryotic RPB6 RNA polymerase subunit family
-AC   FA-00239
-//
-ID   Archaeal RpoL/eukaryotic RPB11/RPC19 RNA polymerase subunit family
+ID   Archaeal Rpo11/eukaryotic RPB11/RPC19 RNA polymerase subunit family
 AC   FA-00240
+SY   Archaeal RpoL/eukaryotic RPB11/RPC19 RNA polymerase subunit family.
+//
+ID   Archaeal Rpo12/eukaryotic RPC10 RNA polymerase subunit family
+AC   FA-00243
+SY   Archaeal RpoP/eukaryotic RPC10 RNA polymerase subunit family.
+//
+ID   Archaeal Rpo3/eukaryotic RPB3 RNA polymerase subunit family
+AC   FA-00237
+SY   Archaeal RpoD/eukaryotic RPB3 RNA polymerase subunit family.
+//
+ID   Archaeal Rpo5/eukaryotic RPB5 RNA polymerase subunit family
+AC   FA-00238
+SY   Archaeal RpoH/eukaryotic RPB5 RNA polymerase subunit family.
+//
+ID   Archaeal Rpo6/eukaryotic RPB6 RNA polymerase subunit family
+AC   FA-00239
+SY   Archaeal RpoK/eukaryotic RPB6 RNA polymerase subunit family.
 //
 ID   Archaeal RpoM/eukaryotic RPA12/RPB9/RPC11 RNA polymerase family
 AC   FA-00241
-//
-ID   Archaeal RpoN/eukaryotic RPB10 RNA polymerase subunit family
-AC   FA-00242
-//
-ID   Archaeal RpoP/eukaryotic RPC10 RNA polymerase subunit family
-AC   FA-00243
 //
 ID   Archease family
 AC   FA-04847
@@ -1235,6 +1241,9 @@ AC   FA-00267
 //
 ID   ArsA ATPase family
 AC   FA-00268
+//
+ID   ARTD/PARP family
+AC   FA-05598
 //
 ID   ARV1 family
 AC   FA-00269
@@ -1817,6 +1826,10 @@ AC   FA-00415
 //
 ID   C2CD4 family
 AC   FA-00416
+//
+ID   C2orf69 family
+AC   FA-04443
+SY   UPF0565 family.
 //
 ID   CACTIN family
 AC   FA-05064
@@ -2503,10 +2516,6 @@ AC   FA-05331
 ID   CFAP77 family
 AC   FA-05378
 //
-ID   CFAP94 family
-AC   FA-00469
-SY   CASC1 family.
-//
 ID   CFAP97 family
 AC   FA-04411
 SY   UPF0501 family.
@@ -2531,6 +2540,9 @@ AC   FA-00574
 //
 ID   Chemokine-like factor family
 AC   FA-00575
+//
+ID   Chemokine-like receptor (CMKLR) family
+AC   FA-05600
 //
 ID   CHFR family
 AC   FA-00576
@@ -4208,9 +4220,6 @@ AC   FA-00921
 SY   DEAD box helicase family. eIF4A subfamily.
 HI   FA-00888; DEAD box helicase family
 //
-ID   Def family
-AC   FA-00922
-//
 ID   DEF8 family
 AC   FA-00923
 //
@@ -4479,6 +4488,11 @@ SY   UPF0470 family.
 ID   DNAAF5 family
 AC   FA-05314
 //
+ID   DNAI7 family
+AC   FA-00469
+SY   CASC1 family.
+SY   CFAP94 family.
+//
 ID   DnaJ family
 AC   FA-05397
 //
@@ -4608,9 +4622,6 @@ AC   FA-05504
 //
 ID   DRC9 family
 AC   FA-05505
-//
-ID   DREV family
-AC   FA-01013
 //
 ID   DSH family
 AC   FA-01014
@@ -5483,9 +5494,6 @@ AC   FA-01273
 //
 ID   FAM205 family
 AC   FA-04904
-//
-ID   FAM207 family
-AC   FA-04906
 //
 ID   FAM209 family
 AC   FA-04938
@@ -7316,6 +7324,9 @@ HI   FA-00013; HIBADH-related family
 ID   hid-1 family
 AC   FA-04979
 SY   UPF0663 family.
+//
+ID   High motility group (HMG) box superfamily
+AC   FA-05601
 //
 ID   Highwire family
 AC   FA-01752
@@ -9497,6 +9508,13 @@ ID   methyltransferase TRM13 family
 AC   FA-04208
 SY   TRM13 family.
 //
+ID   METTL25 family
+AC   FA-05597
+//
+ID   METTL9 family
+AC   FA-01013
+SY   DREV family.
+//
 ID   MFAP family
 AC   FA-02290
 //
@@ -10256,6 +10274,9 @@ SY   Carbon-nitrogen hydrolase superfamily. NIT1/NIT2 family.
 SY   Nitrilase superfamily. NIT1/NIT2 family.
 SY   UPF0012 family.
 HI   FA-00645; carbon-nitrogen hydrolase superfamily
+//
+ID   Nitrobindin family
+AC   FA-05599
 //
 ID   Nitroreductase family
 AC   FA-02476
@@ -15148,6 +15169,10 @@ ID   SLX4IP family
 AC   FA-05119
 SY   UPF0492 family.
 //
+ID   SLX9 family
+AC   FA-04906
+SY   FAM207 family.
+//
 ID   SMAGP family
 AC   FA-03656
 //
@@ -18154,9 +18179,6 @@ AC   FA-04429
 ID   UPF0561 family
 AC   FA-04440
 //
-ID   UPF0565 family
-AC   FA-04443
-//
 ID   UPF0575 family
 AC   FA-04450
 //
@@ -18348,6 +18370,10 @@ AC   FA-04548
 //
 ID   UTP23/FCF1 family
 AC   FA-04549
+//
+ID   UTP25 family
+AC   FA-00922
+SY   Def family.
 //
 ID   FCF1 subfamily
 AC   FA-04550
@@ -18599,6 +18625,9 @@ AC   FA-04613
 ID   WD repeat AIP1 family
 AC   FA-04615
 //
+ID   WD repeat AMBRA1 family
+AC   FA-05596
+//
 ID   WD repeat ARPC1 family
 AC   FA-04616
 //
@@ -18733,6 +18762,10 @@ AC   FA-04755
 ID   WD repeat PRL1/PRL2 family
 AC   FA-04655
 //
+ID   WD repeat PROPPIN family
+AC   FA-04810
+SY   WD repeat SVP1 family.
+//
 ID   WD repeat PRP19 family
 AC   FA-04656
 //
@@ -18771,9 +18804,6 @@ AC   FA-04667
 //
 ID   WD repeat striatin family
 AC   FA-04668
-//
-ID   WD repeat SVP1 family
-AC   FA-04810
 //
 ID   WD repeat SWD2 family
 AC   FA-04669
@@ -18882,9 +18912,6 @@ AC   FA-04696
 ID   XK family
 AC   FA-04697
 //
-ID   XLF family
-AC   FA-04698
-//
 ID   XLR/SYCP3 family
 AC   FA-04699
 //
@@ -18924,8 +18951,25 @@ HI   FA-04703; XPG/RAD2 endonuclease family
 ID   XPO2/CSE1 family
 AC   FA-04708
 //
-ID   XRCC4 family
+ID   XRCC4-XLF family
+AC   FA-05594
+//
+ID   PAXX subfamily
+AC   FA-05595
+SY   XRCC4-XLF family. PAXX subfamily.
+HI   FA-05594; XRCC4-XLF family
+//
+ID   XRCC4 subfamily
 AC   FA-04709
+SY   XRCC4-XLF family. XRCC4 subfamily.
+SY   XRCC4 family.
+HI   FA-05594; XRCC4-XLF family
+//
+ID   XLF subfamily
+AC   FA-04698
+SY   XRCC4-XLF family. XLF subfamily.
+SY   XLF family.
+HI   FA-05594; XRCC4-XLF family
 //
 ID   YAP1 family
 AC   FA-04714

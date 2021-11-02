@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 19-Apr-2021
+Last update: 02-Nov-2021
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 19-Apr-2021
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-01011
+AN   Next free AC: DO-01017
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -478,7 +478,7 @@ DO   PDOC00987;
 //
 ID   bMERB.
 AC   DO-00944
-SY   bivalent Mical/EHBP Rab binding.
+SY   bivalent Mical/EHBP Rab-binding.
 FT   DOMAIN.
 TG   PS51848; BMERB;
 DO   PDOC51848;
@@ -784,14 +784,14 @@ DO   PDOC51506;
 //
 ID   CBM20.
 AC   DO-00098
-SY   carbohydrate binding type-20.
+SY   carbohydrate-binding type-20.
 FT   DOMAIN.
 TG   PS51166; CBM20;
 DO   PDOC51166;
 //
 ID   CBM21.
 AC   DO-00099
-SY   carbohydrate binding type-21.
+SY   carbohydrate-binding type-21.
 FT   DOMAIN.
 TG   PS51159; CBM21;
 DO   PDOC51159;
@@ -914,6 +914,12 @@ FT   DOMAIN.
 TG   PS51401; CHORD;
 DO   PDOC51401;
 //
+ID   Chorein N-terminal.
+AC   DO-01012
+FT   DOMAIN.
+TG   PF12624; Chorein_N;
+DO   IPR026854;
+//
 ID   CHRD.
 AC   DO-00108
 SY   chordin.
@@ -954,7 +960,7 @@ DO   PDOC51508;
 //
 ID   ClpX-type ZB.
 AC   DO-00975
-SY   ClpX zinc binding.
+SY   ClpX zinc-binding.
 FT   DOMAIN.
 TS   PS51902; CLPX_ZB;
 DO   PDOC51902;
@@ -1351,6 +1357,12 @@ FT   DOMAIN.
 TG   PS50168; DED;
 DO   PDOC50168;
 //
+ID   DEK C-terminal.
+AC   DO-01013
+FT   DOMAIN.
+TG   PF08766; DEK_C;
+DO   IPR014876;
+//
 ID   DEP.
 AC   DO-00165
 FT   DOMAIN.
@@ -1437,6 +1449,13 @@ AC   DO-00176
 FT   DOMAIN.
 TG   PS51336; DM10;
 DO   PDOC51336;
+//
+ID   DMA.
+AC   DO-01014
+SY   DMRTA motif.
+FT   DOMAIN.
+TG   PF03474; DMA;
+DO   IPR005173;
 //
 ID   DMAP1-binding.
 AC   DO-00981
@@ -1564,15 +1583,15 @@ TG   PS51703; DZF;
 DO   PDOC51703;
 //
 ID   E1.
-SY   APP E1.
 AC   DO-00962
+SY   APP E1.
 FT   DOMAIN.
 TG   PS51869; APP_E1;
 DO   PDOC00204;
 //
 ID   E2.
-SY   APP E2.
 AC   DO-00963
+SY   APP E2.
 FT   DOMAIN.
 TG   PS51870; APP_E2;
 DO   PDOC00204;
@@ -1640,6 +1659,13 @@ FT   DOMAIN.
 TG   PS51041; EMI;
 DO   PDOC51041;
 //
+ID   EndoU.
+AC   DO-01015
+SY   eukaryotic uridylate-specific endoribonuclease.
+FT   DOMAIN.
+TG   PS51959; ENDOU;
+DO   PDOC51959;
+//
 ID   EngB-type G.
 AC   DO-00837
 SY   EngB-type guanine nucleotide-binding.
@@ -1669,7 +1695,7 @@ DO   PDOC50942;
 //
 ID   Eph LBD.
 AC   DO-00788
-SY   Eph receptor ligand binding.
+SY   Eph receptor ligand-binding.
 SY   ephrin-binding.
 FT   DOMAIN.
 TG   PS51550; EPH_LBD;
@@ -2119,7 +2145,7 @@ DO   IPR007123;
 //
 ID   GH18.
 AC   DO-00983
-SY   Glycosyl hydrolases family 18
+SY   glycosyl hydrolases family 18.
 FT   DOMAIN.
 TG   PS51910; GH18_2;
 DO   PDOC00839;
@@ -2217,6 +2243,13 @@ AC   DO-00984
 FT   ZN_FING.
 TG   PF06839; zf-GRF;
 DO   IPR010666;
+//
+ID   Grh/CP2 DB.
+AC   DO-01016
+SY   Grh/CP2 DNA-binding.
+FT   DOMAIN.
+TG   PS51968; GRH_CP2_DB.
+DO   PDOC51968;
 //
 ID   GRIP.
 AC   DO-00279
@@ -2589,7 +2622,7 @@ DO   IPR002867;
 //
 ID   IF rod.
 AC   DO-00934
-SY   Intermediate filament rod.
+SY   intermediate filament rod.
 FT   DOMAIN.
 TG   PS51842; IF_ROD_2;
 DO   PDOC00198;
@@ -2959,7 +2992,6 @@ DO   PDOC51758;
 ID   LID.
 AC   DO-01006
 SY   LIM interaction domain.
-SY   LIM interaction domain (LID).
 FT   DOMAIN.
 TG   PS51957; LID;
 DO   PDOC51957;
@@ -3026,7 +3058,7 @@ FT   DOMAIN.
 TG   PS50859; LONGIN;
 DO   PDOC50859;
 //
-ID   LRAT.  
+ID   LRAT.
 AC   DO-00999
 SY   lecithin-retinol acyltransferase.
 FT   DOMAIN.
@@ -3429,7 +3461,7 @@ DO   IPR002182;
 //
 ID   NBD.
 AC   DO-00437
-SY   nonamer binding.
+SY   nonamer-binding domain.
 FT   DNA_BIND.
 TG   PS51487; NBD;
 DO   PDOC51487;
@@ -3516,7 +3548,7 @@ DO   IPR001628;
 //
 ID   NR LBD.
 AC   DO-00940
-SY   Nuclear receptor ligand-binding domain.
+SY   nuclear receptor ligand-binding domain.
 FT   DOMAIN.
 TG   PS51843; NR_LBD;
 DO   PDOC51843;
@@ -3737,8 +3769,8 @@ DO   PDOC51745;
 ID   PBC.
 AC   DO-01008
 FT   DOMAIN.
-TG   PF03792; PBC;
-DO   IPR005542;
+TG   PS51978; PBC;
+DO   PDOC51978;
 //
 ID   PbH1.
 AC   DO-00473
@@ -3794,7 +3826,6 @@ AC   DO-00479
 FT   DOMAIN.
 SY   pentaxin.
 SY   PTX.
-SY   Pentraxin (PTX).
 TG   PS51828; PTX_2;
 DO   PDOC00261;
 //
@@ -3881,7 +3912,6 @@ DO   IPR000209;
 ID   peripheral subunit-binding.
 AC   DO-00917
 SY   PSBD.
-SY   peripheral subunit-binding (PSBD).
 FT   DOMAIN.
 TG   PS51826; PSBD;
 DO   PDOC51826;
@@ -3908,7 +3938,7 @@ DO   IPR001330;
 //
 ID   PFU.
 AC   DO-00490
-SY   PLAA family ubiquitin binding.
+SY   PLAA family ubiquitin-binding.
 FT   DOMAIN.
 TG   PS51394; PFU;
 DO   PDOC51394;
@@ -3970,7 +4000,7 @@ FT   DOMAIN.
 TG   PS51645; PHR_CRY_ALPHA_BETA;
 DO   PDOC51645;
 //
-ID   PHTF.  
+ID   PHTF.
 AC   DO-01000
 FT   DOMAIN.
 TG   PF12129; Phtf-FEM1B_bdg;
@@ -4627,11 +4657,18 @@ FT   DOMAIN.
 TG   PS51559; SAM_RMT2;
 DO   PDOC51555;
 //
-ID   RNase H.
+ID   RNase H type 1.
 AC   DO-00577
-SY   ribonuclease H.
+SY   ribonuclease H type 1.
 FT   DOMAIN.
-TG   PS50879; RNASE_H;
+TG   PS50879; RNASE_H_1;
+DO   PDOC50879;
+//
+ID   RNase H type-2.
+AC   DO-01011
+SY   ribonuclease H type 2.
+FT   DOMAIN.
+TG   PS51975; RNASE_H_2;
 DO   PDOC50879;
 //
 ID   RNase III.
@@ -5122,7 +5159,7 @@ DO   PDOC00348;
 //
 ID   SSB.
 AC   DO-00634
-SY   single-strand binding.
+SY   single-strand-binding.
 FT   DOMAIN.
 TG   PS50935; SSB;
 DO   PDOC00602;
@@ -5205,7 +5242,7 @@ FT   DOMAIN.
 TG   PS51673; SUZ;
 DO   PDOC51673;
 //
-ID   SUZ-C. 
+ID   SUZ-C.
 AC   DO-01002
 FT   DOMAIN.
 TG   PS51938; SUZ_C;
@@ -5272,7 +5309,7 @@ DO   PDOC50134;
 //
 ID   TB.
 AC   DO-00655
-SY   TGF-beta binding.
+SY   TGF-beta-binding.
 FT   DOMAIN.
 TG   PS51364; TB;
 DO   PDOC51364;
@@ -5845,8 +5882,8 @@ DO   PDOC00574;
 ID   WGR.
 AC   DO-01010
 FT   DOMAIN.
-DR   PF05406; WGR;
-DO   IPR008893;
+DR   PDOC51977; WGR;
+DO   PDOC51977;
 //
 ID   WH1.
 AC   DO-00723
