@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 02-Nov-2021
+Last update: 03-Nov-2021
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 02-Nov-2021
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-01017
+AN   Next free AC: DO-01018
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -3826,6 +3826,7 @@ ID   pentraxin.
 AC   DO-00479
 FT   DOMAIN.
 SY   pentaxin.
+SY   pentraxin (PTX).
 SY   PTX.
 TG   PS51828; PTX_2;
 DO   PDOC00261;
@@ -3912,6 +3913,7 @@ DO   IPR000209;
 //
 ID   peripheral subunit-binding.
 AC   DO-00917
+SY   peripheral subunit-binding (PSBD).
 SY   PSBD.
 FT   DOMAIN.
 TG   PS51826; PSBD;
@@ -4658,7 +4660,7 @@ FT   DOMAIN.
 TG   PS51559; SAM_RMT2;
 DO   PDOC51555;
 //
-ID   RNase H type 1.
+ID   RNase H type-1.
 AC   DO-00577
 SY   ribonuclease H type 1.
 FT   DOMAIN.
