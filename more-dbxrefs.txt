@@ -947,3 +947,11 @@ LinkTp: Explicit
 Server: http://www.unimod.org
 Db_URL: http://www.unimod.org/modifications_view.php?editid1=%s
 Cat   : Ontologies
+
+AC    : DB-9126
+Abbrev: SAM
+Name  : SAM - Sequence Analysis Methods for automatic annotation
+LinkTp: Explicit
+Server: http://www.uniprot.org
+Db_URL: http://www.uniprot.org/sam/%s
+Cat   : Other
