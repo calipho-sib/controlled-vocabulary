@@ -75,7 +75,7 @@ ID   Copper.
 AC   CVME_0004
 DE   Annotate an amino acid residue that binds a copper (Cu(2+) or Cu(1+))
 DE   cation. Copper is a metal with the atomic number: 29.
-SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation; Copper(2+); Copper A1; Copper A2.
+SY   Cu; Copper ion; Cu ion; Copper cation; Cu cation; Copper(2+); Copper A1; Copper A2; Cu(2+).
 KW   KW-0186:Copper.
 //
 ID   Copper or nickel.
@@ -292,7 +292,7 @@ ID   Molybdenum.
 AC   CVME_0032
 DE   Annotate an amino acid residue that binds a molybdenum atom.
 DE   Molybdenum is a metal with the atomic number: 42.
-SY   Molybdenum ion; Molybdenum cation; Mo; Mo ion; Mo cation.
+SY   Molybdenum ion; Molybdenum cation; Mo; Mo ion; Mo cation; Molybdenum (Mo-molybdopterin metal ligand).
 DR   KW-0500:Molybdenum.
 //
 ID   Molybdenum-pterin.
