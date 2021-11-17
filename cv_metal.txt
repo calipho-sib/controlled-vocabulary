@@ -327,7 +327,7 @@ ID   Zinc.
 AC   CVME_0028
 DE   Annotate an amino acid residue that binds a zinc (Zn(2+)) cation.
 DE   Zinc is a metal with the atomic number: 30.
-SY   Zinc ion; Zinc cation; Zn; Zn ion; Zn cation.
+SY   Zinc ion; Zinc cation; Zn; Zn ion; Zn cation; Zn(2+).
 KW   KW-0862:Zinc.
 //
 ID   Zinc or iron.
