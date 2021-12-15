@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0322
+next id:  CVDR-0329
 
 __________________________________________________________________________
 ID   Additional references
@@ -2103,5 +2103,75 @@ DS   PeptideAtlas human Muscle
 DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Brain MassIVE
+AC   CVDR-0322
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Brain samples.
+DS   MassIVE human Cancer Brain
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Cancer Cell Lines Colon MassIVE
+AC   CVDR-0323
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Colon samples.
+DS   MassIVE human Cancer Cell Lines Colon
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Cancer Cell Lines Other Gestational Structure MassIVE
+AC   CVDR-0324
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Other Gestational Structure samples.
+DS   MassIVE human Cancer Cell Lines Other Gestational Structure
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Cancer Kidney MassIVE
+AC   CVDR-0325
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Kidney samples.
+DS   MassIVE human Cancer Kidney
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Cancer Liver MassIVE
+AC   CVDR-0326
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Liver samples.
+DS   MassIVE human Cancer Liver
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Cancer Urinary Bladder MassIVE
+AC   CVDR-0327
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Urinary Bladder samples.
+DS   MassIVE human Cancer Urinary Bladder
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Oocyte MassIVE
+AC   CVDR-0328
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Oocyte samples.
+DS   MassIVE human Oocyte
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
 CI   
 //
