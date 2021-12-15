@@ -2095,16 +2095,6 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Other Female Reproductive Organ PeptideAtlas
-AC   CVDR-0320
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Other Female Reproductive Organ samples.
-DS   PeptideAtlas human Cancer Other Female Reproductive Organ
-DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
-UF   once or twice a year
-UR   http://www.peptideatlas.org
-CI   
-//
 ID   Human Muscle PeptideAtlas
 AC   CVDR-0321
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
