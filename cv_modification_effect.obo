@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 27:07:2016 15:10
-saved-by: pgaudet
+date: 22:12:2021 12:13
+saved-by: pamichel
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: ME
 remark: This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See: https://creativecommons.org/licenses/by/4.0/
@@ -99,3 +99,11 @@ def: "Relation that indicates some significant faster rate of a parameter compar
 is_a: ME:0000002 ! impact
 created_by: pgaudet
 creation_date: 2017-03-09T03:07:43Z
+
+[Term]
+id: ME:0000013
+name: cause
+def: "Relation that indicates that the modification is known as the cause of the observed parameter." [NP:PG]
+is_a: ME:0000002 ! impact
+created_by: pam
+creation_date: 2021-10-13T03:05:41Z
