@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     15-Dec-2021
+  Release:     06-Jan-2022
 
   The definition of the CV is provided in the following format:
 
@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0334
+next id:  CVDS-0335
 
 __________________________________________________________________________
 ID   AgBase
@@ -1158,6 +1158,11 @@ ID   PHI-base
 AC   CVDS-0315
 DE   The Pathogen-Host Interaction database
 DR   http://www.phi-base.org/
+//
+ID   ComplexPortal
+AC   CVDS-0334
+DE   A Manually curated, encyclopaedic resource of macromolecular complexes from a number of key model organisms
+DR   https://www.ebi.ac.uk/complexportal
 //
 ID   MassIVE human Bone
 AC   CVDS-0316
