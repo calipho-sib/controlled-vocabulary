@@ -8478,8 +8478,8 @@ id: TS-2384
 name: Sebaceous gland
 def: "Small glands located within the epidermis, and associated with the hair follicle, that produce and secrete an oily substance that lubricates the skin and hair." [NCI_Thesaurus:Sebaceous_glands]
 synonym: "sebaceous gland" RELATED []
-synonym: "skin 1 sebaceous gland" RELATED []
-synonym: "skin 2 sebaceous gland" RELATED []
+synonym: "skin 1 sebaceous glands" RELATED []
+synonym: "skin 2 sebaceous glands" RELATED []
 xref: BTO:0001980
 xref: FMA:59160
 xref: MESH:D012627
@@ -15057,3 +15057,4 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
+
