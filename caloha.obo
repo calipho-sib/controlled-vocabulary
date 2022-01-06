@@ -2309,7 +2309,6 @@ relationship: part_of TS-2003 ! Bronchiole
 id: TS-0573
 name: Lung endothelium
 def: "Endothelium found in lung blood vessels." [neXtProt:PDR]
-synonym: "Lung endothelial cell" RELATED []
 xref: BTO:0004128
 xref: UBERON:0013479
 is_a: TS-2155 ! Blood vessel vascular endothelium
@@ -14990,7 +14989,7 @@ synonym: "lung endothelial cells" RELATED []
 synonym: "endothelial cell of lung" RELATED []
 xref:CL:1001567
 is_a: TS-2401 ! Endothelial cell
-relationship: part_of TS-0568 ! Lung
+relationship: part_of TS-0573 ! Lung endothelium
 
 [Term]
 id: TS-3067
