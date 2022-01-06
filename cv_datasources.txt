@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     15-Dec-2021
+  Release:     06-Jan-2022
 
   The definition of the CV is provided in the following format:
 
