@@ -1498,6 +1498,7 @@ id: TS-0362
 name: Fibroblast
 def: "Connective tissue cells which secrete an extracellular matrix rich in collagen and other macromolecules." [MeSH:Fibroblasts]
 synonym: "Fibroblasts" RELATED []
+synonym: "Soft tissue fibroblasts" RELATED []
 xref: BTO:0000452
 xref: CL:0000057
 xref: FMA:63877
@@ -4075,8 +4076,7 @@ def: "Outer layer of the epidermis. Composed of keratinized cells. Those cells d
 synonym: "Horny layer" RELATED []
 synonym: "Horny layer of epidermis" RELATED []
 synonym: "Horny layers" RELATED []
-synonym: "skin 1 cells in corneal layer" RELATED []
-synonym: "skin 2 cells in corneal layer" RELATED []
+synonym: "skin cells in corneal layer" RELATED []
 xref: BTO:0000344
 xref: FMA:67545
 xref: UBERON:0002027
@@ -8368,7 +8368,7 @@ id: TS-2374
 name: Skin Melanocyte
 def: "Melanocytes found in skin." [neXtProt:PDR]
 synonym: "Melanocyte of skin" RELATED []
-synonym: "Skin Melanocytes" RELATED []
+synonym: "Skin melanocytes" RELATED []
 xref: CL:1000458
 xref: FMA:72144
 is_a: TS-0613 ! Melanocyte
@@ -8392,8 +8392,7 @@ name: Skin Langerhans cell
 def: "Langerhans cell found in skin." [neXtProt:PDR]
 synonym: "Langerhans cell of skin" RELATED []
 synonym: "skin Langerhans" RELATED []
-synonym: "skin 1 Langerhans cells" RELATED []
-synonym: "skin 2 Langerhans cells" RELATED []
+synonym: "skin Langerhans cells" RELATED []
 xref: CL:0002457
 is_a: TS-2375 ! Langerhans cell
 relationship: part_of TS-0934 ! Skin
@@ -8478,8 +8477,7 @@ id: TS-2384
 name: Sebaceous gland
 def: "Small glands located within the epidermis, and associated with the hair follicle, that produce and secrete an oily substance that lubricates the skin and hair." [NCI_Thesaurus:Sebaceous_glands]
 synonym: "sebaceous gland" RELATED []
-synonym: "skin 1 sebaceous glands" RELATED []
-synonym: "skin 2 sebaceous glands" RELATED []
+synonym: "skin sebaceous glands" RELATED []
 xref: BTO:0001980
 xref: FMA:59160
 xref: MESH:D012627
@@ -11914,8 +11912,7 @@ name: Stratum basale
 def: "The stratum basale rests on the basement membrane, delimiting the epidermis from the dermis. It contains the proliferating basal cells or proliferating keratinocytes (hence the name stratum germinativum). Keratinocytes that leave this layer undergo structural and functional differentiation and supply the other layers. Melanocytes are also found in the stratum basale. In response to sun exposure, they produce melanin, the brown pigment responsible for skin color, and deliver it to adjacent keratinocytes. Merkel cells also reside in the stratum basale. Those are highly innervated neuroendocrine cells involved in mechanoreception." [HPA]
 synonym: "stratum germinativum" RELATED []
 synonym: "stratum basale of epidermis" RELATED []
-synonym: "skin 1 cells in basal layer" RELATED []
-synonym: "skin 2 cells in basal layer" RELATED []
+synonym: "skin cells in basal layer" RELATED []
 xref: BTO:0000438
 xref: FMA:67540
 xref: UBERON:0002025
@@ -11926,8 +11923,7 @@ id: TS-2734
 name: Stratum spinosum
 def: "The layer of polyhedral cells in the epidermis found between the stratum granulosum and stratum basale; shrinkage and adhesion of these cells gives a spiny or prickly appearance. The stratum spinosum contains more differentiated keratinocytes. Those are recognized by a more abundant cytoplasm and by intercellular adherent junctions on higher magnification. Besides keratinocytes, Langerhans cells are present and most prominent in this stratum. Those are antigen presenting cells that, in presence of inflammation, become activated and leave the epidermis to migrate to draining lymph nodes." [HPA;UBERON:0002026]
 synonym: "stratum spinosum of epidermis" RELATED []
-synonym: "skin 1 cells in spinous layer" RELATED []
-synonym: "skin 2 cells in spinous layer" RELATED []
+synonym: "skin cells in spinous layer" RELATED []
 xref: BTO:0000435
 xref: FMA:67542
 xref: UBERON:0002026
@@ -13307,10 +13303,9 @@ relationship: part_of TS-2449 ! Hippocampal formation
 
 [Term]
 id: TS-2900
-name: Soft tissue fibroblast
-synonym: "soft tissue 1 fibroblasts" RELATED []
-synonym: "soft tissue 2 fibroblasts" RELATED []
-is_a: TS-0362 ! Fibroblast
+name: Soft tissue perpheral nerve
+def: "Peripheral nerves are branching extensions of the peripheral nervous system. Large nerves originate from the spinal cord and through smaller and smaller branches end up at distal locations in various tissues throughout the body. Peripheral nerves appear as white fascicles bound together by connective tissue. Microscopically, transverse sections of a peripheral nerve show how endoneurial compartments containing axons and Schwann cells are surrounded by perineurium to form individual fascicles, which are embedded in epineural fibrous tissue. Most peripheral nerves contain a mixture of myelin and unmyelinated nerve fibers. Myelin is produced by Schwann cells, which account for 90% of nuclei found in peripheral nerves." [HPA]
+relationship: part_of TS-0772 ! Peripheral nerve
 
 [Term]
 id: TS-2901
@@ -14802,8 +14797,7 @@ synonym: "stratum granulosum of epidermis" RELATED []
 synonym: "granular layer of epidermis" RELATED []
 synonym: "stratum granulosum epidermidis" RELATED []
 synonym: "epidermis stratum granulosum" RELATED []
-synonym: "skin 1 cells in granular layer" RELATED []
-synonym: "skin 2 cells in granular layer" RELATED []
+synonym: "skin cells in granular layer" RELATED []
 xref: BTO:0000361
 xref: FMA:70344
 xref: UBERON:0002069
@@ -14814,8 +14808,7 @@ id: TS-3051
 name: Arrector pili muscle
 def: "A tiny smooth muscle that connects the hair follicle with the dermis." [UBERON]
 synonym: "arrector muscle of hair" RELATED []
-synonym: "skin 1 arrector pili muscle cells" RELATED []
-synonym: "skin 2 arrector pili muscle cells" RELATED []
+synonym: "skin arrector pili muscle cells" RELATED []
 synonym: "arrector pilorum" RELATED []
 synonym: "arrector pili smooth muscle" RELATED []
 synonym: "arrector pilli muscle of hair" RELATED []
@@ -14830,8 +14823,7 @@ id: TS-3052
 name: Eccrine glands
 def: "Eccrine sweat glands (sometimes called merocrine glands) are the major sweat glands of the human body, found in virtually all skin, with the highest density in palm and soles, then on the head, but much less on the torso and the extremities." [wikipedia:Eccrine_sweat_gland]
 synonym: "eccrine sweat gland" RELATED []
-synonym: "skin 1 eccrine glands" RELATED []
-synonym: "skin 2 eccrine glands" RELATED []
+synonym: "skin eccrine glands" RELATED []
 xref: BTO:0002323
 xref: FMA:59154
 xref: MESH:D004439
@@ -14850,8 +14842,6 @@ relationship: part_of TS-2006 ! Capillary
 id: TS-3054
 name: Skin extracellular matrix
 def: "The extracellular matrix is a network of fibers that hold cells together. It is found within the extracellular space and in association with the basement membrane of the cell surface. It promotes cellular proliferation and provides a supporting structure to which cells or cell lysates in culture dishes adhere. It is broken down during normal physiological and disease processes such as bone remodeling, embryogenesis, cancer, and arthritis. Here it refers to the extracellular matrix localized at the skin." [NCIT:C13232]
-synonym: "Skin 1 extracellular matrix" RELATED []
-synonym: "Skin 2 extracellular matrix" RELATED []
 relationship: part_of TS-0934 ! Skin
 
 [Term]
@@ -14859,8 +14849,6 @@ id: TS-3055
 name: Skin lymphocyte
 def: "Lymphocytes found in the skin." [neXtProt:PDR]
 synonym: "skin lymphocytes" RELATED []
-synonym: "skin 1 lymphocytes" RELATED []
-synonym: "skin 2 lymphocytes" RELATED []
 is_a: TS-0583 ! Lymphocyte
 relationship: part_of TS-0934 ! Skin
 
@@ -14869,8 +14857,7 @@ id: TS-3056
 name: Skin mural cells
 def: "Mural cells found in the skin." [neXtProt:PDR]
 synonym: "skin mural cell" RELATED []
-synonym: "skin 1 vascular mural cells" RELATED []
-synonym: "skin 1 vascular mural cells" RELATED []
+synonym: "skin vascular mural cells" RELATED []
 is_a: TS-3053 ! Mural cells
 relationship: part_of TS-0934 ! Skin
 
@@ -15010,8 +14997,7 @@ relationship: part_of TS-1180 ! Rectum
 [Term]
 id: TS-3069
 name: Skin endothelial cell
-synonym: "skin 1 endothelial cells" RELATED []
-synonym: "skin 2 endothelial cells" RELATED []
+synonym: "skin endothelial cells" RELATED []
 synonym: "endothelial cell of skin" RELATED []
 is_a: TS-2401 ! Endothelial cell
 relationship: part_of TS-0934 ! Skin
@@ -15047,7 +15033,6 @@ id: TS-3074
 name: Olfactory area
 relationship: part_of TS-0702 ! Olfactory bulb
 
-
 [Typedef]
 id: develops_from
 name: develops_from
@@ -15057,4 +15042,3 @@ is_transitive: true
 id: part_of
 name: part of
 is_transitive: true
-
