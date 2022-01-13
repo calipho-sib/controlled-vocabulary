@@ -5517,7 +5517,7 @@ relationship: part_of TS-2063 ! Epididymal epithelium
 [Term]
 id: TS-1277
 name: Oviduct glandular cell
-def: "Glandular cell of oviduct epithelium. Example: peg cells, ciliated cells." [neXtProt:PDR;HPA:HPA]
+def: "Glandular cell of oviduct epithelium." [HPA]
 synonym: "Fallopian tube glandular cell" RELATED []
 synonym: "Fallopian tube glandular cells" RELATED []
 synonym: "Uterine tube glandular cell" RELATED []
