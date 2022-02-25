@@ -19,7 +19,7 @@ Abbrev: PubMed
 Name  : PubMed site
 LinkTp: Explicit
 Server: http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed
-Db_URL: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=search&term=%s
+Db_URL: https://pubmed.ncbi.nlm.nih.gov/%s/
 Cat   : Publication databases
 
 AC    : DB-9003
