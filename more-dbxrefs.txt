@@ -952,8 +952,8 @@ AC    : DB-9126
 Abbrev: SAM
 Name  : SAM - Sequence Analysis Methods for automatic annotation
 LinkTp: Explicit
-Server: http://www.uniprot.org
-Db_URL: http://www.uniprot.org/sam/%s
+Server: https://mobidb.bio.unipd.it
+Db_URL: https://mobidb.bio.unipd.it/%u
 Cat   : Other
 
 AC    : DB-9127
