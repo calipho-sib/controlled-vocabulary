@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of domains
 File name:   cv_domain.txt
-Last update: 03-Nov-2021
+Last update: 24-Nov-2022
 
 ----------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Last update: 03-Nov-2021
  DO         Documentation                   Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: DO-01018
+AN   Next free AC: DO-01036
 __________________________________________________________________________
 ID   2Fe-2S ferredoxin-type.
 AC   DO-00001
@@ -125,6 +125,12 @@ AC   DO-00016
 FT   DOMAIN.
 TG   PS51160; ACYLPHOSPHATASE_3;
 DO   PDOC00136;
+//
+ID   AD.
+AC   DO-01018
+FT   DOMAIN.
+TG   PS52001; AD;
+DO   PDOC52001;
 //
 ID   ADD.
 AC   DO-00778
@@ -914,7 +920,7 @@ FT   DOMAIN.
 TG   PS51401; CHORD;
 DO   PDOC51401;
 //
-ID   Chorein N-terminal.
+ID   chorein N-terminal.
 AC   DO-01012
 FT   DOMAIN.
 TG   PF12624; Chorein_N;
@@ -1086,6 +1092,22 @@ FT   DOMAIN.
 TG   PS51290; CRIC;
 DO   PDOC51290;
 //
+ID   cryptic POLO box 1 (CPB1).
+AC   DO-01021
+SY   cryptic POLO box 1.
+SY   CPB1.
+FT   DOMAIN.
+TG   PS51984; CPB1;
+DO   PDOC51984;
+//
+ID   cryptic POLO box 2 (CPB2).
+AC   DO-01026
+SY   cryptic POLO box 2.
+SY   CPB2.
+FT   DOMAIN.
+TG   PS51985; CPB2;
+DO   PDOC51984;
+//
 ID   CS.
 AC   DO-00127
 FT   DOMAIN.
@@ -1155,6 +1177,13 @@ FT   DNA_BIND.
 TG   PS51042; CUT;
 DO   PDOC51042;
 //
+ID   CUTL.
+AC   DO-01019
+SY   CUT repeat-like.
+FT   DOMAIN.
+TG   PS51983; CUTL;
+DO   PDOC51983;
+//
 ID   CVC.
 AC   DO-00137
 FT   DOMAIN.
@@ -1166,6 +1195,12 @@ AC   DO-00138
 FT   ZN_FING.
 TG   PS51050; ZF_CW;
 DO   PDOC51050;
+//
+ID   CWF21
+AC   DO-01020
+FT   DOMAIN.
+TG   PF08312; cwf21;
+DO   IPR013170;
 //
 ID   CXC.
 AC   DO-00139
@@ -1357,11 +1392,12 @@ FT   DOMAIN.
 TG   PS50168; DED;
 DO   PDOC50168;
 //
-ID   DEK C-terminal.
+ID   DEK-C.
 AC   DO-01013
+SY   DEK C-terminal.
 FT   DOMAIN.
-TG   PF08766; DEK_C;
-DO   IPR014876;
+TG   PS51998; DEK_C;
+DO   PDOC51998;
 //
 ID   DEP.
 AC   DO-00165
@@ -1943,7 +1979,7 @@ DO   PDOC51459;
 //
 ID   FIIND.
 AC   DO-00915
-SY   function  to  find  domain.
+SY   function to find domain.
 FT   DOMAIN.
 TG   PS51830; FIIND;
 DO   PDOC51830;
@@ -2262,6 +2298,20 @@ AC   DO-00280
 FT   DOMAIN.
 TG   PS51256; GS;
 DO   PDOC51256;
+//
+ID   GS beta-grasp.
+AC   DO-01032
+SY   glutamine synthetase beta-grasp.
+FT   DOMAIN.
+TG   PS51986; GS_BETA_GRASP;
+DO   PDOC51986;
+//
+ID   GS catalytic.
+AC   DO-01033
+SY   glutamine synthetase catalytic.
+FT   DOMAIN.
+TG   PS51987; GS_CATALYTIC;
+DO   PDOC51986;
 //
 ID   GST N-terminal.
 AC   DO-00281
@@ -2820,6 +2870,14 @@ FT   DOMAIN.
 TG   PS51392; KEN;
 DO   PDOC51392;
 //
+ID   ketosynthase family 3 (KS3)
+AC   DO-01034
+SY   ketosynthase family 3.
+SY   KS3.
+FT   DOMAIN.
+TG   PS52004; KS3_2;
+DO   PDOC00529;
+//
 ID   KH.
 AC   DO-00355
 SY   K homology.
@@ -3196,6 +3254,13 @@ ID   Mef2-type.
 AC   DO-00403
 FT   DNA_BIND.
 TG   None;
+//
+ID   MEIS N-terminal.
+AC   DO-01022
+SY   homeobox protein PKNOX/Meis, N-terminal.
+FT   DOMAIN.
+TG   PF16493; Meis_PKNOX_N;
+DO   IPR032453;
 //
 ID   MENTAL.
 AC   DO-00404
@@ -3612,6 +3677,19 @@ FT   DOMAIN.
 TG   PS51710; G_OBG;
 DO   PDOC51710;
 //
+ID   OCA.
+AC   DO-01023
+FT   DOMAIN.
+TG   PS52003; OCA;
+DO   PDOC52003;
+//
+ID   OCEL.
+AC   DO-01024
+SY   Occludin/ELL.
+FT   DOMAIN.
+TG   PS51980; OCEL;
+DO   PDOC51980;
+//
 ID   OCIA.
 AC   DO-00454
 FT   DOMAIN.
@@ -3697,6 +3775,12 @@ SY   PAS-associated C-terminal.
 FT   DOMAIN.
 TG   PS50113; PAC;
 DO   PDOC50112;
+//
+ID   PADR1 zinc-binding.
+AC   DO-01025
+FT   DOMAIN.
+TG   PS52007; PADR1;
+DO   PDOC52007;
 //
 ID   PAH.
 AC   DO-00463
@@ -4023,11 +4107,13 @@ FT   DOMAIN.
 TG   PS50008; PIPLC_Y_DOMAIN;
 DO   PDOC50007;
 //
-ID   PI3K/PI4K.
+ID   PI3K/PI4K catalytic.
 AC   DO-00497
+SY   phosphatidylinositol 3- and 4-kinases catalytic
+SY   PI3K/PI4K.
 FT   DOMAIN.
-TG   PF00454; PI3_PI4_kinase;
-DO   IPR000403;
+TG   PS50290; PI3_4_KINASE_3;
+DO   PDOC00710;
 //
 ID   PI3K-ABD.
 AC   DO-00791
@@ -4751,6 +4837,12 @@ FT   DOMAIN.
 TG   PS50908; RWD;
 DO   PDOC50908;
 //
+ID   RZ-type.
+AC   DO-01031
+FT   ZN_FING.
+TG   PS51981; ZF_RZ;
+DO   PDOC51981;
+//
 ID   S1 motif.
 AC   DO-00585
 FT   DOMAIN.
@@ -5011,6 +5103,13 @@ FT   DOMAIN.
 TG   PS51670; SHKT;
 DO   PDOC51670;
 //
+ID   SHR-BD.
+AC   DO-01027
+SY   VPS13 adaptor binding domain.
+FT   DOMAIN.
+TG   PF06650; SHR-BD;
+DO   IPR009543;
+//
 ID   sHSP.
 AC   DO-00921
 FT   DOMAIN.
@@ -5048,6 +5147,12 @@ ID   SLX1-type.
 AC   DO-00620
 FT   ZN_FING.
 TG   None;
+//
+ID   Sm.
+AC   DO-01035
+FT   DOMAIN.
+TG   PS52002; SM;
+DO   PDOC52002;
 //
 ID   SMB.
 AC   DO-00621
@@ -5472,6 +5577,13 @@ FT   REPEAT.
 TG   PS50005; TPR;
 DO   PDOC50005;
 //
+ID   TR mART core.
+AC   DO-01028
+SY   toxin-related mono-ADP-ribosyltransferase core.
+FT   DOMAIN.
+TG   PS51996; TR_MART;
+DO   PDOC51996;
+//
 ID   tr-type G.
 AC   DO-00851
 SY   translational-type guanine nucleotide-binding.
@@ -5582,6 +5694,13 @@ AC   DO-00691
 FT   DOMAIN.
 TG   PS50304; TUDOR;
 DO   PDOC50304;
+//
+ID   Tudor-knot.
+AC   DO-01029
+SY   RNA binding activity-knot of a chromodomain.
+FT   DOMAIN.
+TG   PF11717; Tudor-knot;
+DO   IPR025995;
 //
 ID   tyrosine-protein phosphatase.
 AC   DO-00692
@@ -5710,6 +5829,13 @@ FT   REPEAT.
 TG   PS50330; UIM;
 DO   PDOC50330;
 //
+ID   ULD
+AC   DO-01030
+SY   Ubiquitin-like.
+FT   DOMAIN.
+TG   PS51982; ULD;
+DO   PDOC51982;
+//
 ID   UMA.
 AC   DO-00760
 FT   DOMAIN.
@@ -5728,11 +5854,13 @@ FT   DOMAIN.
 TG   SM00134; LU;
 DO   PDOC00756;
 //
-ID   UPF1-type.
+ID   Upf1 CH-rich.
 AC   DO-00860
-FT   ZN_FING.
-TG   PF09416; UPF1_Zn_bind;
-DO   IPR018999;
+SY   Upf1 cysteine-histidine-rich.
+SY   UPF1-type.
+FT   DOMAIN.
+TG   PS51997; UPF1_CH_RICH;
+DO   PDOC51997;
 //
 ID   USP.
 AC   DO-00832

@@ -6,7 +6,7 @@
 
 Description: Controlled vocabulary of families
 File name:   cv_family.txt
-Last update: 02-Nov-2021
+Last update: 25-Nov-2022
 
 ----------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Last update: 02-Nov-2021
  HI         Hierarchy                       Optional; once
  //         Terminator                      Once; ends an entry
 
-AN   Next free AC: FA-05602
+AN   Next free AC: FA-05615
 __________________________________________________________________________
 ID   'GDSL' lipolytic enzyme family
 AC   FA-00001
@@ -1355,6 +1355,10 @@ AC   FA-05183
 ID   ATG9 family
 AC   FA-00294
 //
+ID   ATOS family
+AC   FA-04976
+SY   FAM214 family.
+//
 ID   ATP synthase subunit s family
 AC   FA-00295
 //
@@ -1824,6 +1828,9 @@ AC   FA-00414
 ID   C1D family
 AC   FA-00415
 //
+ID   C19orf12 family
+AC   FA-05602
+//
 ID   C2CD4 family
 AC   FA-00416
 //
@@ -2092,9 +2099,6 @@ ID   Type V subfamily
 AC   FA-00485
 SY   Cation transport ATPase (P-type) (TC 3.A.3) family. Type V subfamily.
 HI   FA-00479; Cation transport ATPase (P-type) (TC 3.A.3) family
-//
-ID   Cation-nonselective channel family
-AC   FA-00486
 //
 ID   CATIP family
 AC   FA-05258
@@ -2515,6 +2519,9 @@ AC   FA-05331
 //
 ID   CFAP77 family
 AC   FA-05378
+//
+ID   CFAP91 family
+AC   FA-05603
 //
 ID   CFAP97 family
 AC   FA-04411
@@ -3612,6 +3619,10 @@ ID   CSN9 family
 AC   FA-02391
 SY   MYEOV2 family.
 //
+ID   CSTPP1 family
+AC   FA-04507
+SY   UPF0705 family.
+//
 ID   CT45 family
 AC   FA-05338
 //
@@ -3846,9 +3857,6 @@ HI   FA-00827; Cyclophilin-type PPIase family
 //
 ID   CYFIP family
 AC   FA-00837
-//
-ID   CYHR1 family
-AC   FA-00838
 //
 ID   CYRI family
 AC   FA-01293
@@ -5038,6 +5046,10 @@ ID   ENTR1 family
 AC   FA-03523
 SY   SDCCAG3 family.
 //
+ID   ENTREP family
+AC   FA-01263
+SY   FAM189 family.
+//
 ID   ENY2 family
 AC   FA-01115
 //
@@ -5356,9 +5368,6 @@ AC   FA-01217
 ID   FAM124 family
 AC   FA-01219
 //
-ID   FAM126 family
-AC   FA-01221
-//
 ID   FAM127 family
 AC   FA-01222
 //
@@ -5389,9 +5398,6 @@ AC   FA-01233
 //
 ID   FAM154 family
 AC   FA-01234
-//
-ID   FAM155 family
-AC   FA-01235
 //
 ID   FAM157 family
 AC   FA-01236
@@ -5477,9 +5483,6 @@ AC   FA-01260
 ID   FAM187 family
 AC   FA-01261
 //
-ID   FAM189 family
-AC   FA-01263
-//
 ID   FAM193 family
 AC   FA-01266
 //
@@ -5500,9 +5503,6 @@ AC   FA-04938
 //
 ID   FAM210 family
 AC   FA-04939
-//
-ID   FAM214 family
-AC   FA-04976
 //
 ID   FAM216 family
 AC   FA-04996
@@ -5588,9 +5588,6 @@ AC   FA-01296
 //
 ID   FAM66 family
 AC   FA-01302
-//
-ID   FAM71 family
-AC   FA-01306
 //
 ID   FAM72 family
 AC   FA-01307
@@ -6264,6 +6261,10 @@ ID   GAREM family
 AC   FA-05128
 SY   FAM59 family.
 //
+ID   GARIN family
+AC   FA-01306
+SY   FAM71 family.
+//
 ID   GARNL3 family
 AC   FA-01466
 //
@@ -6890,6 +6891,9 @@ AC   FA-01629
 ID   GnRH family
 AC   FA-01630
 //
+ID   Godzilla family
+AC   FA-05604
+//
 ID   GOLGA2 family
 AC   FA-01631
 //
@@ -7150,6 +7154,10 @@ AC   FA-01705
 //
 ID   HAPLN family
 AC   FA-01706
+//
+ID   HAPSTR1 family
+AC   FA-04398
+SY   UPF0472 family.
 //
 ID   HARBI1 family
 AC   FA-01707
@@ -7474,6 +7482,10 @@ AC   FA-01799
 //
 ID   HUS1 family
 AC   FA-01800
+//
+ID   Hyccin family
+AC   FA-01221
+SY   FAM126 family.
 //
 ID   Hydrogen channel family
 AC   FA-01802
@@ -8401,7 +8413,7 @@ AC   FA-02033
 ID   LETM1 family
 AC   FA-05449
 //
-ID   Leukocyte receptor complex/polymeric immunogobulin receptor (PIR/LRC) family
+ID   Leukocyte receptor complex/polymeric immunoglobulin receptor (PIR/LRC) family
 AC   FA-02034
 //
 ID   LHFP family
@@ -8825,6 +8837,11 @@ ID   Argininosuccinate lyase subfamily
 AC   FA-02132
 SY   Lyase 1 family. Argininosuccinate lyase subfamily.
 HI   FA-02130; Lyase 1 family
+//
+ID   LYSET family
+AC   FA-05088
+SY   TMEM251 family.
+SY   UPF0694 family.
 //
 ID   Lysyl oxidase family
 AC   FA-02133
@@ -9620,6 +9637,20 @@ ID   MINAR family
 AC   FA-04336
 SY   UPF0258 family.
 //
+ID   MINDY deubiquitinase family
+AC   FA-05376
+//
+ID   FAM188 subfamily
+AC   FA-01262
+SY   MINDY deubiquitinase family. FAM188 subfamily.
+SY   UPF0526 family.
+HI   FA-05376; MINDY deubiquitinase family
+//
+ID   FAM63 subfamily
+AC   FA-01300
+SY   MINDY deubiquitinase family. FAM63 subfamily.
+HI   FA-05376; MINDY deubiquitinase family
+//
 ID   MIP/aquaporin (TC 1.A.8) family
 AC   FA-02307
 DR   TC 1.A.8
@@ -9667,6 +9698,9 @@ DR   TC 2.A.105
 //
 ID   Mitochondrial Rho GTPase family
 AC   FA-02317
+//
+ID   Mitochondrion-specific ribosomal protein mL54 family
+AC   FA-05605
 //
 ID   Mitoguardin family
 AC   FA-01308
@@ -10037,6 +10071,14 @@ AC   FA-02411
 //
 ID   NAIF1 family
 AC   FA-02413
+//
+ID   NALCN family
+AC   FA-00486
+SY   Cation-nonselective channel family.
+//
+ID   NALF family
+AC   FA-01235
+SY   FAM155 family.
 //
 ID   Nanog homeobox family
 AC   FA-02414
@@ -11369,19 +11411,8 @@ AC   FA-02759
 ID   Peptidase M8 family
 AC   FA-02760
 //
-ID   MINDY deubiquitinase family
-AC   FA-05376
-//
-ID   FAM188 subfamily
-AC   FA-01262
-SY   MINDY deubiquitinase family. FAM188 subfamily.
-SY   UPF0526 family.
-HI   FA-05376; MINDY deubiquitinase family
-//
-ID   FAM63 subfamily
-AC   FA-01300
-SY   MINDY deubiquitinase family. FAM63 subfamily.
-HI   FA-05376; MINDY deubiquitinase family
+ID   Peptidase MATCAP family
+AC   FA-05606
 //
 ID   Peptidase S1 family
 AC   FA-02761
@@ -11810,6 +11841,13 @@ AC   FA-05192
 ID   pICln (TC 1.A.47) family
 AC   FA-02860
 DR   TC 1.A.47
+//
+ID   PIERCE1 family
+AC   FA-04500
+SY   UPF0691 family.
+//
+ID   PIERCE2 family
+AC   FA-05607
 //
 ID   PIEZO (TC 1.A.75) family
 AC   FA-04808
@@ -12371,8 +12409,9 @@ AC   FA-02988
 SY   POU transcription factor family. Class-6 subfamily.
 HI   FA-02982; POU transcription factor family
 //
-ID   POU2AF1 family
+ID   POU2AF family
 AC   FA-02989
+SY   POU2AF1 family.
 //
 ID   PP1 inhibitor family
 AC   FA-02990
@@ -13533,6 +13572,9 @@ ID   Refilin family
 AC   FA-01200
 SY   FAM101 family.
 //
+ID   REI1 family
+AC   FA-05609
+//
 ID   RELT family
 AC   FA-03259
 //
@@ -14162,6 +14204,10 @@ ID   RILPL family
 AC   FA-03393
 SY   UPF0475 family.
 //
+ID   RIMOC1 family
+AC   FA-04462
+SY   UPF0600 family.
+//
 ID   RIMBP family
 AC   FA-03394
 //
@@ -14296,6 +14342,9 @@ AC   FA-05032
 ID   RNF181 family
 AC   FA-03428
 //
+ID   RNF5 family
+AC   FA-05610
+//
 ID   RNF8 family
 AC   FA-03429
 //
@@ -14325,6 +14374,9 @@ AC   FA-03434
 //
 ID   Ropporin family
 AC   FA-03435
+//
+ID   Rotatin family
+AC   FA-05611
 //
 ID   Round spermatid basic protein 1 family
 AC   FA-03436
@@ -15029,10 +15081,12 @@ SY   SIMIBI class G3E GTPase family. ArgK/MeaB subfamily.
 SY   ArgK family.
 HI   FA-05348; SIMIBI class G3E GTPase family
 //
-ID   CobW subfamily
+ID   ZNG1 subfamily
 AC   FA-00662
 SY   SIMIBI class G3E GTPase family. CobW subfamily.
+SY   SIMIBI class G3E GTPase family. ZNG1 subfamily.
 SY   CobW family.
+SY   CobW subfamily.
 HI   FA-05348; SIMIBI class G3E GTPase family
 //
 ID   SIN1 family
@@ -16107,6 +16161,9 @@ AC   FA-03880
 ID   Sulfotransferase 6 family
 AC   FA-03881
 //
+ID   Suppressor of sable family
+AC   FA-05612
+//
 ID   SURF1 family
 AC   FA-03882
 //
@@ -16728,6 +16785,10 @@ AC   FA-04027
 ID   TM6SF family
 AC   FA-04028
 //
+ID   TMA16 family
+AC   FA-04421
+SY   UPF0534 family.
+//
 ID   TMA7 family
 AC   FA-04029
 //
@@ -16942,10 +17003,6 @@ AC   FA-05140
 ID   TMEM248 family
 AC   FA-05048
 SY   UPF0458 family.
-//
-ID   TMEM251 family
-AC   FA-05088
-SY   UPF0694 family.
 //
 ID   TMEM255 family
 AC   FA-05141
@@ -17724,6 +17781,9 @@ SY   UPF0383 family.
 ID   TRM6/GCD10 family
 AC   FA-04210
 //
+ID   tRNA methyltransferase O family
+AC   FA-05613
+//
 ID   tRNA nucleotidyltransferase/poly(A) polymerase family
 AC   FA-04211
 //
@@ -17962,6 +18022,9 @@ ID   UBALD family
 AC   FA-05144
 SY   FAM100 family.
 //
+ID   UBE3C family
+AC   FA-05614
+//
 ID   UbiA prenyltransferase family
 AC   FA-04272
 //
@@ -18149,9 +18212,6 @@ AC   FA-04387
 ID   UPF0462 family
 AC   FA-04388
 //
-ID   UPF0472 family
-AC   FA-04398
-//
 ID   UPF0488 family
 AC   FA-04404
 //
@@ -18163,9 +18223,6 @@ AC   FA-04410
 //
 ID   UPF0524 family
 AC   FA-04417
-//
-ID   UPF0534 family
-AC   FA-04421
 //
 ID   UPF0538 family
 AC   FA-04423
@@ -18190,9 +18247,6 @@ AC   FA-04457
 //
 ID   UPF0598 family
 AC   FA-04460
-//
-ID   UPF0600 family
-AC   FA-04462
 //
 ID   UPF0602 family
 AC   FA-04463
@@ -18230,17 +18284,11 @@ AC   FA-04498
 ID   UPF0690 family
 AC   FA-04499
 //
-ID   UPF0691 family
-AC   FA-04500
-//
 ID   UPF0692 family
 AC   FA-04501
 //
 ID   UPF0696 family
 AC   FA-04504
-//
-ID   UPF0705 family
-AC   FA-04507
 //
 ID   UPF0711 family
 AC   FA-04510
@@ -19047,6 +19095,10 @@ AC   FA-04722
 ID   ZFPL1 family
 AC   FA-04723
 //
+ID   ZFTRAF1 family
+AC   FA-00838
+SY   CYHR1 family.
+//
 ID   ZHX family
 AC   FA-04724
 //
@@ -19098,6 +19150,9 @@ AC   FA-04734
 //
 ID   ZNF598 family
 AC   FA-05407
+//
+ID   ZNFX1 family
+AC   FA-05608
 //
 ID   ZNHIT1 family
 AC   FA-04735
