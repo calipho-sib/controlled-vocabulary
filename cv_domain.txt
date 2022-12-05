@@ -5831,7 +5831,6 @@ DO   PDOC50330;
 //
 ID   ULD
 AC   DO-01030
-SY   Ubiquitin-like.
 FT   DOMAIN.
 TG   PS51982; ULD;
 DO   PDOC51982;
