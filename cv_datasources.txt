@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_datasources) in neXtProt database
 
-  Release:     06-Jan-2022
+  Release:     15-Dec-2022
 
   The definition of the CV is provided in the following format:
 
@@ -20,7 +20,7 @@
  DO            Document (MDATA)                         Once
  //            Terminator                               Once; ends an entry
 
-next id:  CVDS-0336
+next id:  CVDS-0337
 
 __________________________________________________________________________
 ID   AgBase
@@ -1238,4 +1238,9 @@ ID   TCDB
 AC   CVDS-0335
 DE   Transport Classification Database
 DR   http://www.tcdb.org/
+//
+AC   DisProt
+ID   CVDS-0336
+DE   DisProt, the database of intrinsically disordered proteins
+DR   https://disprot.org/
 //
