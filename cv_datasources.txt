@@ -1239,8 +1239,8 @@ AC   CVDS-0335
 DE   Transport Classification Database
 DR   http://www.tcdb.org/
 //
-AC   DisProt
-ID   CVDS-0336
+ID   DisProt
+AC   CVDS-0336
 DE   DisProt, the database of intrinsically disordered proteins
 DR   https://disprot.org/
 //
