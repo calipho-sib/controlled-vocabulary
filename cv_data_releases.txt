@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     15-Dec-2021
+  Release:     19-Dec-2022
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0329
+next id:  CVDR-0331
 
 __________________________________________________________________________
 ID   Additional references
@@ -2173,5 +2173,25 @@ DS   MassIVE human Oocyte
 DR   https://massive.ucsd.edu
 UF   once or twice a year
 UR   https://massive.ucsd.edu
+CI   
+//
+ID   Human Blood Vessel PeptideAtlas
+AC   CVDR-0329
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Blood Vessel samples.
+DS   PeptideAtlas human Blood Vessel
+DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Blood Cells PeptideAtlas
+AC   CVDR-0330
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Blood Cells samples.
+DS   PeptideAtlas human Cancer Blood Cells
+DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
 CI   
 //
