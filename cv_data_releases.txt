@@ -2209,7 +2209,7 @@ ID   Human Cancer Other Anatomical Entities or Cancer Blood Cells PeptideAtlas
 AC   CVDR-0332
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer, Other Anatomical Entities or Non Cancer Cell Lines samples.
-DS   PeptideAtlas human Cancer Other Anatomical Entities or Non Cancer Cell Lines
+DS   PeptideAtlas human Cancer Other Anatomical Entities or Cancer Blood Cells
 DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
