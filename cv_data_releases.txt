@@ -3,7 +3,7 @@
   This document lists the controlled vocabulary used to defined imported data
   (cv_data_release) in neXtProt database
 
-  Release:     19-Dec-2022
+  Release:     20-Dec-2022
 
   The definition of the CV is provided in the following format:
 
@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0331
+next id:  CVDR-0333
 
 __________________________________________________________________________
 ID   Additional references
@@ -2190,6 +2190,26 @@ AC   CVDR-0330
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Blood Cells samples.
 DS   PeptideAtlas human Cancer Blood Cells
+DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines Breast or Non Cancer Cell Lines PeptideAtlas
+AC   CVDR-0331
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Breast or Non Cancer Cell Lines samples.
+DS   PeptideAtlas human Cancer Cell Lines Breast or Non Cancer Cell Lines
+DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
+UF   once or twice a year
+UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Other Anatomical Entities or Cancer Blood Cells PeptideAtlas
+AC   CVDR-0332
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer, Other Anatomical Entities or Non Cancer Cell Lines samples.
+DS   PeptideAtlas human Cancer Other Anatomical Entities or Non Cancer Cell Lines
 DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
