@@ -2195,13 +2195,3 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Cell Lines Breast or Non Cancer Cell Lines PeptideAtlas
-AC   CVDR-0331
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Cell Lines, Breast or Non Cancer Cell Lines samples.
-DS   PeptideAtlas human Cancer Cell Lines Breast or Non Cancer Cell Lines
-DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
-UF   once or twice a year
-UR   http://www.peptideatlas.org
-CI   
-//
