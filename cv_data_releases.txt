@@ -2185,11 +2185,11 @@ UF   once or twice a year
 UR   http://www.peptideatlas.org
 CI   
 //
-ID   Human Cancer Blood Cells PeptideAtlas
+ID   Human Cancer Hematopoietic and Immune System PeptideAtlas
 AC   CVDR-0330
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer Blood Cells samples.
-DS   PeptideAtlas human Cancer Blood Cells
+DE   Human Cancer Hematopoietic and Immune System samples.
+DS   PeptideAtlas human Cancer Hematopoietic and Immune System
 DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
@@ -2200,16 +2200,6 @@ AC   CVDR-0331
 DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
 DE   Human Cancer Cell Lines, Breast or Non Cancer Cell Lines samples.
 DS   PeptideAtlas human Cancer Cell Lines Breast or Non Cancer Cell Lines
-DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
-UF   once or twice a year
-UR   http://www.peptideatlas.org
-CI   
-//
-ID   Human Cancer Other Anatomical Entities or Cancer Blood Cells PeptideAtlas
-AC   CVDR-0332
-DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
-DE   Human Cancer, Other Anatomical Entities or Non Cancer Cell Lines samples.
-DS   PeptideAtlas human Cancer Other Anatomical Entities or Cancer Blood Cells
 DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
