@@ -22,7 +22,7 @@
  CI            Contact information                      Once or more
  //            Terminator                               Once; ends an entry
 
-next id:  CVDR-0333
+next id:  CVDR-0334
 
 __________________________________________________________________________
 ID   Additional references
@@ -2193,5 +2193,15 @@ DS   PeptideAtlas human Cancer Hematopoietic and Immune System
 DR   ftp://ftp.peptideatlas.org/HumanAll/2018_peptide_list.zip
 UF   once or twice a year
 UR   http://www.peptideatlas.org
+CI   
+//
+ID   Human Cancer Cell Lines Other Male Reproductive Organ MassIVE
+AC   CVDR-0333
+DE   Proteomics data (peptides): Integration of peptide sequences obtained by high-throughput mass spectrometry.
+DE   Human Cancer Cell Lines, Other Male Reproductive Organ samples.
+DS   MassIVE human Cancer Cell Lines Other Male Reproductive Organ
+DR   https://massive.ucsd.edu
+UF   once or twice a year
+UR   https://massive.ucsd.edu
 CI   
 //
