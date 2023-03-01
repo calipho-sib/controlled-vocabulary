@@ -14559,6 +14559,7 @@ xref: FMA:263063
 is_a: TS-3023 ! Small intestine goblet cell
 is_a: TS-1275 ! Duodenum glandular cell
 
+[Term]
 id: TS-3025
 name: Large intestine goblet cell
 def: "A goblet cell that is part of the large intestine." [ GOC:tfm]
