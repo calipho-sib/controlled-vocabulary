@@ -5,6 +5,8 @@ auto-generated-by: OBO-Edit 2.3.1
 subsetdef: Terms for voltage-gated sodium channels ""
 default-namespace: ICEPO
 remark: This work is copyright the SIB Swiss Institute of Bioinformatics. It is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See: https://creativecommons.org/licenses/by/4.0/
+remark: Citation for ICEPO: Hinard V, Britan A, Rougier JS, Bairoch A, Abriel H, Gaudet P. ICEPO: the ion channel electrophysiology ontology. Database (Oxford). 2016 Apr 7;2016. pii: baw017. doi: 10.1093/database/baw017.
+ICEPO: Ion Channel ElectroPhysiology Ontology
 
 [Term]
 id: ICEPO:0000001
@@ -566,4 +568,3 @@ name: part of
 namespace: Electrophysiological parameters
 subset: Terms for voltage-gated sodium channels
 is_transitive: true
-
