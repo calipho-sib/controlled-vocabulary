@@ -3456,7 +3456,7 @@ relationship: part_of CALOHA:TS-1313 ! Nervous system
 [Term]
 id: CALOHA:TS-0813
 name: Pons
-def: "Pons is situated inferior to the midbrain, superior to the medulla oblongata and ventral to the fourth ventricle. The pons together with medulla oblongata, midbrain and thalamus comprise the brainstem. Developmentally the pons originates from the third vesicle of the neuronal tube (rhombencephalon). There are several monoamine nuclei situated in the pons, such as noradrenergic locus coeruleus. Pons facilitates connections between medulla and cerebellum, as well as into the thalamus and is important for the control of several of the body’s vital functions. Regulation of the pattern and rate of the respiratory cycle is managed by pons together with the medulla oblongata through a complex network between antagonistic respiratory centres. Pons can be divided into a basilar (ventral) part and the pontine tegmentum (dorsal). The front part of hindbrain that lies between medulla oblongata and the midbrain (mesencephalon) ventral to the cerebellum. It is composed of two parts, the dorsal and the ventral. Pons serves as a relay station for important neural pathways between the cerebellum to the cerebrum." [HPA; MeSH:Pons]
+def: "Pons is situated inferior to the midbrain, superior to the medulla oblongata and ventral to the fourth ventricle. The pons together with medulla oblongata, midbrain and thalamus comprise the brainstem. Developmentally the pons originates from the third vesicle of the neuronal tube (rhombencephalon). There are several monoamine nuclei situated in the pons, such as noradrenergic locus coeruleus. Pons facilitates connections between medulla and cerebellum, as well as into the thalamus and is important for the control of several of the body's vital functions. Regulation of the pattern and rate of the respiratory cycle is managed by pons together with the medulla oblongata through a complex network between antagonistic respiratory centres. Pons can be divided into a basilar (ventral) part and the pontine tegmentum (dorsal). The front part of hindbrain that lies between medulla oblongata and the midbrain (mesencephalon) ventral to the cerebellum. It is composed of two parts, the dorsal and the ventral. Pons serves as a relay station for important neural pathways between the cerebellum to the cerebrum." [HPA; MeSH:Pons]
 synonym: "Pons of Varolius" RELATED []
 synonym: "Pons Varolii" RELATED []
 xref: BTO:0001101
@@ -10197,7 +10197,7 @@ synonym: "Nucleus raphes posterior" RELATED []
 synonym: "Dorsal raphe" RELATED []
 synonym: "Posterior raphe nucleus" RELATED []
 synonym: "Dorsal nucleus of the raphe" RELATED []
-Xref: BTO:0002434
+xref: BTO:0002434
 xref: FMA:68462
 xref: MESH:D065847
 xref: UBERON:0002043
@@ -10793,7 +10793,7 @@ id: CALOHA:TS-2619
 name: Hindlimb stylopod muscle
 def: "Any muscle organ that is part of a hindlimb stylopod (upper leg)." [UBERON]
 synonym: "Thigh muscle" RELATED []
-synoynm: "Upper leg muscle" RELATED []
+synonym: "Upper leg muscle" RELATED []
 synonym: "Muscle of thigh" RELATED []
 xref: BTO:0001367
 xref: FMA:22470
@@ -11555,7 +11555,7 @@ id: CALOHA:TS-2688
 name: Frontal cortex
 def: "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally." [UBERON]
 synonym: "Brain frontal cortex" RELATED []
-synonyn: "cortex of frontal lobe" RELATED []
+synonym: "cortex of frontal lobe" RELATED []
 synonym: "gray matter of frontal lobe" RELATED []
 synonym: "grey matter of frontal lobe; frontal lobe cortex" RELATED []
 xref: BTO:0000484
@@ -12298,7 +12298,7 @@ relationship: part_of CALOHA:TS-1316 ! Oviduct epithelium
 [Term]
 id: CALOHA:TS-2774
 name: Glomerular capsule
-def: "The Bowman’s capsule encloses the glomerulus and leads the fluids from the blood passing through the glomerulus into a proximal tubule. The capsule is made up of three layers with the capsular space in between, a squamous epithelial layer for enclosure, the visceral layer made of podocytes and the filtration barrier composed of epithelium from the capillary loops and podocyte processes." [HPA]
+def: "The Bowman's capsule encloses the glomerulus and leads the fluids from the blood passing through the glomerulus into a proximal tubule. The capsule is made up of three layers with the capsular space in between, a squamous epithelial layer for enclosure, the visceral layer made of podocytes and the filtration barrier composed of epithelium from the capillary loops and podocyte processes." [HPA]
 synonym: "Renal glomerular capsule" RELATED []
 synonym: "Bowmans capsule" RELATED []
 synonym: "Bowman's capsule" RELATED []
