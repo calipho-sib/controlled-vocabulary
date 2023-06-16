@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 1.8
-date: 06:01:2022 12:00
+data-version: 1.9
+date: 16:06:2023 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: CALOHA
@@ -3779,6 +3779,7 @@ is_a: CALOHA:TS-0088 ! Bone
 id: CALOHA:TS-0898
 name: Schwann cell
 def: "Neuroglial cells of the peripheral nervous system which form the insulating myelin sheaths of peripheral axons." [MeSH:Schwann_Cells]
+synonym: "Schwann cells" RELATED []
 xref: BTO:0001220
 xref: CL:0002573
 xref: FMA:62121
@@ -4380,6 +4381,7 @@ name: Thymic epithelium
 def: "Epithelium of thymus." [neXtProt:PDR]
 synonym: "Epithelium of thymus" RELATED []
 synonym: "Thymic epithelial cell" RELATED []
+synonym: "Thymic epithelial cells" RELATED []
 xref: BTO:0001836
 xref: FMA:72208
 xref: UBERON:0003846
@@ -13567,6 +13569,7 @@ relationship: part_of CALOHA:TS-2924 ! Parvicellular reticular nuclei
 [Term]
 id: CALOHA:TS-2926
 name: Ventrolateral medulla, A1/C1 cell groups
+synonym: "ventrolateral medulla, A1-C1 cell groups" RELATED []
 def: "The ventrolateral medulla, part of the medulla oblongata of the brainstem, plays a major role in regulating arterial blood pressure and breathing. It regulates blood pressure by regulating the activity of the sympathetic nerves that target the heart and peripheral blood vessels.The ventrolateral medulla consists of a rostral ventrolateral medulla (RVLM) and a caudal ventrolateral medulla (CVLM). Neurons in the RVLM project directly to preganglionic neurons in the spinal cord and maintain tonic activity in the sympathetic vasomotor nerves. This activity is inhibited by GABA output from the CVLM." [wikipedia:Ventrolateral_medulla]
 relationship: part_of CALOHA:TS-0607 ! Medulla oblongata
 
@@ -15033,6 +15036,27 @@ relationship: part_of CALOHA:TS-0607 ! Medulla oblongata
 id: CALOHA:TS-3074
 name: Olfactory area
 relationship: part_of CALOHA:TS-0702 ! Olfactory bulb
+
+[Term]
+id: CALOHA:TS-3075
+name: Salivary gland mucus glandular cell
+def: "Salivary gland mucus glandular cells are crucially important for creating a protective dental biofilm with mucins and lysozymes." [HPA]
+synonym: "mucus glandular cells" RELATED []
+is_a: CALOHA:TS-1282 ! Salivary gland glandular cell
+
+[Term]
+id: CALOHA:TS-3076
+name: Salivary gland serous glandular cell
+def: "Salivary gland serous glandular cells produce a watery secretion containing antimicrobial proteins as well as enzymes to initiate digestion." [HPA]
+synonym: "serous glandular cells" RELATED []
+is_a: CALOHA:TS-1282 ! Salivary gland glandular cell
+
+[Term]
+id: CALOHA:TS-3077
+name: Salivary gland duct cell
+def: "Ductal epithelial cells in the salivary gland can be found throughout the exocrine tissue forming the structure of the gland, guiding the saliva from the acini to the oral cavity." [HPA]
+synonym: "salivary duct cells" RELATED []
+relationship: part_of CALOHA:TS-2067 ! Salivary gland epithelium
 
 [Typedef]
 id: develops_from
