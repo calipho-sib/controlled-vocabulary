@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.9
-date: 16:06:2023 12:00
+date: 27:06:2023 12:00
 saved-by: pduek
 auto-generated-by: OBO-Edit 2.3
 default-namespace: CALOHA
@@ -2961,6 +2961,7 @@ def: "Female germ cells derived from oogonia and termed oocytes when they enter 
 synonym: "Female gamete" RELATED []
 synonym: "Female haploid germ cell" RELATED []
 synonym: "Ovocyte" RELATED []
+synonym: "Oocytes" RELATED []
 xref: BTO:0000964
 xref: CL:0000023
 xref: FMA:18644
@@ -6768,6 +6769,7 @@ name: Glandular cell
 def: "Glandular epithelial cells are multifunctional cells with the main functions of secretion and absorption. Glandular epithelia are found at the surface of inner cavities of the respiratory system, gastrointestinal tract, and uterus, and glandular organs such as pancreas, prostate and breast. An epithelial cell which may release secretions to a free epithelial surface (exocrine) or to the circulatory system (endocrine). Glandular cells are part of glandular epithelium." [HPA:NCI_Thesaurus:Glandular_Cell]
 synonym: "Glandular cells" RELATED []
 synonym: "Glandular epithelial cell" RELATED []
+synonym: "Secretory cells" RELATED []
 xref: CL:0000150
 xref: FMA:86494
 is_a: CALOHA:TS-2026 ! Epithelial cell
@@ -7305,7 +7307,6 @@ name: Lymphatic vessel vascular endothelium
 def: "Unbroken cellular lining (intima) of the lymph vessels (e.g., the high endothelial lymphatic venules). It is more permeable than blood vessel vascular endothelium, lacking selective absorption and functioning mainly to remove plasma proteins that have filtered through the capillaries into the tissue spaces." [MeSH:Lymphatic_Endothelium]
 synonym: "Endothelium of lymphatic vessel" RELATED []
 synonym: "Lymphatic endothelium" RELATED []
-synonym: "Lymphatic vessel vascular endothelial cell" RELATED []
 xref: MESH:D004729
 xref: UBERON:0002042
 is_a: CALOHA:TS-0278 ! Endothelium
@@ -15057,6 +15058,27 @@ name: Salivary gland duct cell
 def: "Ductal epithelial cells in the salivary gland can be found throughout the exocrine tissue forming the structure of the gland, guiding the saliva from the acini to the oral cavity." [HPA]
 synonym: "salivary duct cells" RELATED []
 relationship: part_of CALOHA:TS-2067 ! Salivary gland epithelium
+
+[Term]
+id: CALOHA:TS-3078
+name: Mesothelial cell 
+def: "A flattened epithelial cell of mesenchymal origin that lines the serous cavity." [CL]
+synonym: "mesotheliocyte" RELATED []
+synonym: "mesothelial cells" RELATED []
+xref: CL:0000077
+xref: FMA:66773
+is_a: CALOHA:TS-1249 ! Squamous cell
+relationship: part_of CALOHA:TS-1183 ! Mesothelium
+
+[Term]
+id: CALOHA:TS-3079
+name: Lymphatic endothelial cell
+def: "A endothelial cell of a lymphatic vessel. The The LECs line the interior of the lymphatic circulatory system of vessels that complement the cardiovascular system with functions such as transport of damaged cells, bacteria and waste products to lymph nodes to be broken down by immune cells, and transport of interstitial fluid, protein, fats and immune cells to the blood circulation." [HPA]
+synonym: "endothelial cell of lymphatic vessel" RELATED []
+synonym: "lymphatic vessel vascular endothelial cell" RELATED []
+synonym: "lymphatic endothelial cells" RELATED []
+is_a: CALOHA:TS-2401 ! Endothelial cell
+relationship: part_of CALOHA:TS-2156 ! Lymphatic vessel vascular endothelium
 
 [Typedef]
 id: develops_from
